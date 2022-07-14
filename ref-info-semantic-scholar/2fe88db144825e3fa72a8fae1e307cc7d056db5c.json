@@ -1,0 +1,778 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1720184"
+                        ],
+                        "name": "G. Bradski",
+                        "slug": "G.-Bradski",
+                        "structuredName": {
+                            "firstName": "Gary",
+                            "lastName": "Bradski",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Bradski"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2928235,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "570502599a26bab7281ce7cbc07eb36bf7b12a51",
+            "isKey": false,
+            "numCitedBy": 1744,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "As a first step towards a perceptual user interface, a computer vision color tracking algorithm is developed and applied towards tracking human faces. Computer vision algorithms that are intended to form part of a perceptual user interface must be fast and efficient. They must be able to track in real time yet not absorb a major share of computational resources: other tasks must be able to run while the visual interface is being used. The new algorithm developed here is based on a robust nonparametric technique for climbing density gradients to find the mode (peak) of probability distributions called the mean shift algorithm. In our case, we want to find the mode of a color distribution within a video scene. Therefore, the mean shift algorithm is modified to deal with dynamically changing color probability distributions derived from video frame sequences. The modified algorithm is called the Continuously Adaptive Mean Shift (CAMSHIFT) algorithm. CAMSHIFT\u2019s tracking accuracy is compared against a Polhemus tracker. Tolerance to noise, distractors and performance is studied. CAMSHIFT is then used as a computer interface for controlling commercial computer games and for exploring immersive 3D graphic worlds. Introduction This paper is part of a program to develop a Perceptual User Interface for computers. Perceptual interfaces are ones in which the computer is given the ability to sense and produce analogs of the human senses, such as allowing computers to perceive and produce localized sound and speech, giving computers a sense of touch and force feedback, and in our case, giving computers an ability to see. The work described in this paper is part of a larger effort aimed at giving computers the ability to segment, track, and understand the pose, gestures, and emotional expressions of humans and the tools they might be using in front of a computer or settop box. In this paper we describe the development of the first core module in this effort: a 4-degree of freedom color object tracker and its application to flesh-tone-based face tracking. Computer vision face tracking is an active and developing field, yet the face trackers that have been developed are not sufficient for our needs. Elaborate methods such as tracking contours with snakes [[10][12][13]], using Eigenspace matching techniques [14], maintaining large sets of statistical hypotheses [15], or convolving images with feature detectors [16] are far too computationally expensive. We want a tracker that will track a given face in the presence of noise, other faces, and hand movements. Moreover, it must run fast and efficiently so that objects may be tracked in real time (30 frames per second) while consuming as few system resources as possible. In other words, this tracker should be able to serve as part of a user interface that is in turn part of the computational tasks that a computer might routinely be expected to carry out. This tracker also needs to run on inexpensive consumer cameras and not require calibrated lenses. In order, therefore, to find a fast, simple algorithm for basic tracking, we have focused on color-based tracking [[7][8][9][10][11]], yet even these simpler algorithms are too computationally complex (and therefore slower at any given CPU speed) due to their use of color correlation, blob and region growing, Kalman filter smoothing and prediction, and contour considerations. The complexity of the these algorithms derives from their attempts to deal with irregular object motion due to perspective (near objects to the camera seem to move faster than distal objects); image noise; distractors, such as other faces in the scene; facial occlusion by hands or other objects; and lighting variations. We want a fast, computationally efficient algorithm that handles these problems in the course of its operation, i.e., an algorithm that mitigates the above problems \u201cfor free.\u201d To develop such an algorithm, we drew on ideas from robust statistics and probability distributions. Robust statistics are those that tend to ignore outliers in the data (points far away from the region of interest). Thus, robust Intel Technology Journal Q2 \u201898 Computer Vision Face Tracking For Use in a Perceptual User Interface 2 algorithms help compensate for noise and distractors in the vision data. We therefore chose to use a robust nonparametric technique for climbing density gradients to find the mode of probability distributions called the mean shift algorithm [2]. (The mean shift algorithm was never intended to be used as a tracking algorithm, but it is quite effective in this role.) The mean shift algorithm operates on probability distributions. To track colored objects in video frame sequences, the color image data has to be represented as a probability distribution [1]; we use color histograms to accomplish this. Color distributions derived from video image sequences change over time, so the mean shift algorithm has to be modified to adapt dynamically to the probability distribution it is tracking. The new algorithm that meets all these requirements is called CAMSHIFT. For face tracking, CAMSHIFT tracks the X, Y, and Area of the flesh color probability distribution representing a face. Area is proportional to Z, the distance from the camera. Head roll is also tracked as a further degree of freedom. We then use the X, Y, Z, and Roll derived from CAMSHIFT face tracking as a perceptual user interface for controlling commercial computer games and for exploring 3D graphic virtual worlds. Choose initial search window size and location HSV Image Set calculation region at search window center but larger in size than the search window Color histogram lookup in calculation region Color probability distribution Find center of mass within the search window Center search window at the center of mass and find area under it Converged YES NO Report X, Y, Z, and Roll Use (X,Y) to set search window center, 2*area 1/2"
+            },
+            "slug": "Computer-Vision-Face-Tracking-For-Use-in-a-User-Bradski",
+            "title": {
+                "fragments": [],
+                "text": "Computer Vision Face Tracking For Use in a Perceptual User Interface"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The development of the first core module in this effort: a 4-degree of freedom color object tracker and its application to flesh-tone-based face tracking and the development of a robust nonparametric technique for climbing density gradients to find the mode of a color distribution within a video scene."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699756"
+                        ],
+                        "name": "K. Sobottka",
+                        "slug": "K.-Sobottka",
+                        "structuredName": {
+                            "firstName": "Karin",
+                            "lastName": "Sobottka",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Sobottka"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144064571"
+                        ],
+                        "name": "I. Pitas",
+                        "slug": "I.-Pitas",
+                        "structuredName": {
+                            "firstName": "Ioannis",
+                            "lastName": "Pitas",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. Pitas"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10318941,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "037cb2acf08d1f32434d7740385b5fecb5e56850",
+            "isKey": false,
+            "numCitedBy": 217,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The authors present a new approach for automatically segmentation and tracking of faces in color images. Segmentation of faces is performed by evaluating color and shape information. First, skin-like regions are determined based on the color attributes hue and saturation. Then regions with elliptical shape are selected as face hypotheses. They are verified by searching for facial features in their interior. After a face is reliably detected it is tracked over time. Tracking is realized by using an active contour model. The exterior forces of the snake are defined based on color features. They push or pull snaxels perpendicular to the snake. Results for tracking are shown for an image sequence consisting of 150 frames."
+            },
+            "slug": "Segmentation-and-tracking-of-faces-in-color-images-Sobottka-Pitas",
+            "title": {
+                "fragments": [],
+                "text": "Segmentation and tracking of faces in color images"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 69,
+                "text": "A new approach for automatically segmentation and tracking of faces in color images by evaluating color and shape information and finding regions with elliptical shape selected as face hypotheses is presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the Second International Conference on Automatic Face and Gesture Recognition"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1731709"
+                        ],
+                        "name": "P. Fieguth",
+                        "slug": "P.-Fieguth",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Fieguth",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Fieguth"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1750924"
+                        ],
+                        "name": "Demetri Terzopoulos",
+                        "slug": "Demetri-Terzopoulos",
+                        "structuredName": {
+                            "firstName": "Demetri",
+                            "lastName": "Terzopoulos",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Demetri Terzopoulos"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2511895,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d1424c2ce3bc9db230cb6455c63f1d6366576e90",
+            "isKey": false,
+            "numCitedBy": 298,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We develop a simple and very fast method for object tracking based exclusively on color information in digitized video images. Running on a Silicon Graphics R4600 Indy system with an IndyCam, our algorithm is capable of simultaneously tracking objects at full frame size (640/spl times/480 pixels) and video frame rate (30 fps). Robustness with respect to occlusion is achieved via can explicit hypothesis-tree model of the occlusion process. We demonstrate the efficacy of our technique in the challenging task of tracking people, especially tracking human heads and hands."
+            },
+            "slug": "Color-based-tracking-of-heads-and-other-mobile-at-Fieguth-Terzopoulos",
+            "title": {
+                "fragments": [],
+                "text": "Color-based tracking of heads and other mobile objects at video frame rates"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 66,
+                "text": "A simple and very fast method for object tracking based exclusively on color information in digitized video images that demonstrates the efficacy of the technique in the challenging task of tracking people, especially tracking human heads and hands."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of IEEE Computer Society Conference on Computer Vision and Pattern Recognition"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2566599"
+                        ],
+                        "name": "M. Hunke",
+                        "slug": "M.-Hunke",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Hunke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Hunke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "74557912"
+                        ],
+                        "name": "A. Waibel",
+                        "slug": "A.-Waibel",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Waibel",
+                            "middleNames": [
+                                "William"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Waibel"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 289616,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f0841c6c99853bc0d6f5968dd8b5066e6bb4cfb2",
+            "isKey": false,
+            "numCitedBy": 133,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Effective human-to-human communication involves both auditory and visual modalities, providing robustness and naturalness in realistic communication situations. Recent efforts at our lab are aimed at providing such multimodal capabilities for human-machine communication. Most of the visual modalities require a stable image of a speaker's face. We propose a connectionist face tracker that manipulates camera orientation and room, to keep a person's face located at all times. The system operates in real time and can adapt rapidly to different lighting conditions, cameras and faces, making it robust against environmental variability. Extensions and integration of the system with a multimodal interface are presented.<<ETX>>"
+            },
+            "slug": "Face-locating-and-tracking-for-human-computer-Hunke-Waibel",
+            "title": {
+                "fragments": [],
+                "text": "Face locating and tracking for human-computer interaction"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A connectionist face tracker that manipulates camera orientation and room, to keep a person's face located at all times is proposed, which operates in real time and can adapt rapidly to different lighting conditions, cameras and faces, making it robust against environmental variability."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of 1994 28th Asilomar Conference on Signals, Systems and Computers"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46604256"
+                        ],
+                        "name": "K. Nagao",
+                        "slug": "K.-Nagao",
+                        "structuredName": {
+                            "firstName": "Kenji",
+                            "lastName": "Nagao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Nagao"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1898908,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4702dea4bc0028aa9580472f944b3bb553a7c550",
+            "isKey": false,
+            "numCitedBy": 27,
+            "numCiting": 58,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe an efficient algorithm for recognizing 3D objects by combining photometric, and geometric invariants. A photometric property is derived, that is invariant to the changes of illumination and to relative object motion with respect to the camera and/or the lighting source in 3D space. We argue that conventional color constancy algorithms can not be used in the recognition of 3D objects. Further we show recognition does not require a full constancy of colors, rather, it only needs something that remains unchanged under the varying light conditions and poses of the objects. Combining the derived color invariant and the spatial constraints on the object surfaces, we identify corresponding positions in the model and the data space coordinates, using centroid invariance of corresponding groups of feature positions. Tests are given to show the stability and efficiency of our approach to 3D object recognition.<<ETX>>"
+            },
+            "slug": "Recognizing-3D-objects-using-photometric-invariant-Nagao",
+            "title": {
+                "fragments": [],
+                "text": "Recognizing 3D objects using photometric invariant"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 61,
+                "text": "An efficient algorithm for recognizing 3D objects by combining photometric, and geometric invariants, and it is shown recognition does not require a full constancy of colors, rather, it only needs something that remains unchanged under the varying light conditions and poses of the objects."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of IEEE International Conference on Computer Vision"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1685020"
+                        ],
+                        "name": "D. Comaniciu",
+                        "slug": "D.-Comaniciu",
+                        "structuredName": {
+                            "firstName": "Dorin",
+                            "lastName": "Comaniciu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Comaniciu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145776090"
+                        ],
+                        "name": "P. Meer",
+                        "slug": "P.-Meer",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Meer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Meer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14402029,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "410abafed76d3ffd075b0e155e7b71e465efd126",
+            "isKey": false,
+            "numCitedBy": 819,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A general technique for the recovery of significant image features is presented. The technique is based on the mean shift algorithm, a simple nonparametric procedure for estimating density gradients. Drawbacks of the current methods (including robust clustering) are avoided. Feature space of any nature can be processed, and as an example, color image segmentation is discussed. The segmentation is completely autonomous, only its class is chosen by the user. Thus, the same program can produce a high quality edge image, or provide, by extracting all the significant colors, a preprocessor for content-based query systems. A 512/spl times/512 color image is analyzed in less than 10 seconds on a standard workstation. Gray level images are handled as color images having only the lightness coordinate."
+            },
+            "slug": "Robust-analysis-of-feature-spaces:-color-image-Comaniciu-Meer",
+            "title": {
+                "fragments": [],
+                "text": "Robust analysis of feature spaces: color image segmentation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 91,
+                "text": "A general technique for the recovery of significant image features is presented, based on the mean shift algorithm, a simple nonparametric procedure for estimating density gradients."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of IEEE Computer Society Conference on Computer Vision and Pattern Recognition"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1768236"
+                        ],
+                        "name": "W. Freeman",
+                        "slug": "W.-Freeman",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Freeman",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Freeman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2151490155"
+                        ],
+                        "name": "Ken-ichi Tanaka",
+                        "slug": "Ken-ichi-Tanaka",
+                        "structuredName": {
+                            "firstName": "Ken-ichi",
+                            "lastName": "Tanaka",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ken-ichi Tanaka"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145434530"
+                        ],
+                        "name": "J. Ohta",
+                        "slug": "J.-Ohta",
+                        "structuredName": {
+                            "firstName": "Jun",
+                            "lastName": "Ohta",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Ohta"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109665"
+                        ],
+                        "name": "K. Kyuma",
+                        "slug": "K.-Kyuma",
+                        "structuredName": {
+                            "firstName": "Kazuo",
+                            "lastName": "Kyuma",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kyuma"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1762073,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "59c9d35a342ad4e9540d4fa37f7bbaf35913994b",
+            "isKey": false,
+            "numCitedBy": 234,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The appeal of computer games may be enhanced by vision-based user inputs. The high speed and low cost requirements for near-term, mass-market game applications make system design challenging. The response time of the vision interface should be less than a video frame time and the interface should cost less than $50 U.S. We meet these constraints with algorithms tailored to particular hardware. We have developed a special detector, called the artificial retina chip, which allows for fast, on-chip image processing. We describe two algorithms, based on image moments and orientation histograms, which exploit the capabilities of the chip to provide interactive response to the player's hand or body positions at 10 msec frame time and at low-cost. We show several possible game interactions."
+            },
+            "slug": "Computer-vision-for-computer-games-Freeman-Tanaka",
+            "title": {
+                "fragments": [],
+                "text": "Computer vision for computer games"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "Two algorithms are described, based on image moments and orientation histograms, which exploit the capabilities of the chip to provide interactive response to the player's hand or body positions at 10 msec frame time and at low-cost."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the Second International Conference on Automatic Face and Gesture Recognition"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49097100"
+                        ],
+                        "name": "Yizong Cheng",
+                        "slug": "Yizong-Cheng",
+                        "structuredName": {
+                            "firstName": "Yizong",
+                            "lastName": "Cheng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yizong Cheng"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14842224,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1c168275c59ba382588350ee1443537f59978183",
+            "isKey": false,
+            "numCitedBy": 3723,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Mean shift, a simple interactive procedure that shifts each data point to the average of data points in its neighborhood is generalized and analyzed in the paper. This generalization makes some k-means like clustering algorithms its special cases. It is shown that mean shift is a mode-seeking process on the surface constructed with a \"shadow\" kernal. For Gaussian kernels, mean shift is a gradient mapping. Convergence is studied for mean shift iterations. Cluster analysis if treated as a deterministic problem of finding a fixed point of mean shift that characterizes the data. Applications in clustering and Hough transform are demonstrated. Mean shift is also considered as an evolutionary strategy that performs multistart global optimization. >"
+            },
+            "slug": "Mean-Shift,-Mode-Seeking,-and-Clustering-Cheng",
+            "title": {
+                "fragments": [],
+                "text": "Mean Shift, Mode Seeking, and Clustering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 86,
+                "text": "Mean shift, a simple interactive procedure that shifts each data point to the average of data points in its neighborhood is generalized and analyzed and makes some k-means like clustering algorithms its special cases."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Pattern Anal. Mach. Intell."
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3304188"
+                        ],
+                        "name": "B. Funt",
+                        "slug": "B.-Funt",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Funt",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Funt"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1789486"
+                        ],
+                        "name": "G. Finlayson",
+                        "slug": "G.-Finlayson",
+                        "structuredName": {
+                            "firstName": "Graham",
+                            "lastName": "Finlayson",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Finlayson"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 37339880,
+            "fieldsOfStudy": [
+                "Art"
+            ],
+            "id": "11c4c7af9938b05b366c93aea70ad4e5075f6148",
+            "isKey": false,
+            "numCitedBy": 698,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Objects can be recognized on the basis of their color alone by color indexing, a technique developed by Swain-Ballard (1991) which involves matching color-space histograms. Color indexing fails, however, when the incident illumination varies either spatially or spectrally. Although this limitation might be overcome by preprocessing with a color constancy algorithm, we instead propose histogramming color ratios. Since the ratios of color RGB triples from neighboring locations are relatively insensitive to changes in the incident illumination, this circumvents the need for color constancy preprocessing. Results of tests with the new color-constant-color-indexing algorithm on synthetic and real images show that it works very well even when the illumination varies spatially in its intensity and color. >"
+            },
+            "slug": "Color-Constant-Color-Indexing-Funt-Finlayson",
+            "title": {
+                "fragments": [],
+                "text": "Color Constant Color Indexing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Results of tests with the new color-constant-color-indexing algorithm show that it works very well even when the illumination varies spatially in its intensity and color, which circumvents the need for color constancy preprocessing."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Pattern Anal. Mach. Intell."
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116707114"
+                        ],
+                        "name": "Alvy Ray Smith",
+                        "slug": "Alvy-Ray-Smith",
+                        "structuredName": {
+                            "firstName": "Alvy",
+                            "lastName": "Smith",
+                            "middleNames": [
+                                "Ray"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alvy Ray Smith"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 207549159,
+            "fieldsOfStudy": [
+                "Physics"
+            ],
+            "id": "95a057bf3b2b7af6778e30847ad8177191ec43c9",
+            "isKey": false,
+            "numCitedBy": 1002,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Digital control of color television monitors\u2014in particular, via frame buffers\u2014has added precise control of a large subset of human colorspace to the capabilities of computer graphics. This subset is the gamut of colors spanned by the red, green, and blue (RGB) electron guns exciting their respective phosphors. It is called the RGB monitor gamut. Full-blown color theory is a quite complex subject involving physics, psychology, and physiology, but restriction to the RGB monitor gamut simplifies matters substantially. It is linear, for example, and admits to familiar spatial representations. This paper presents a set of alternative models of the RGB monitor gamut based on the perceptual variables hue (H), saturation (S), and value (V) or brightness (L). Algorithms for transforming between these models are derived. Particular emphasis is placed on an RGB to HSV non-trigonometric pair of transforms which have been used successfully for about four years in frame buffer painting programs. These are fast, accurate, and adequate in many applications. Computationally more difficult transform pairs are sometimes necessary, however. Guidelines for choosing among the models are provided. Psychophysical corrections are described within the context of the definitions established by the NTSC (National Television Standards Committee)."
+            },
+            "slug": "Color-gamut-transform-pairs-Smith",
+            "title": {
+                "fragments": [],
+                "text": "Color gamut transform pairs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A set of alternative models of the RGB monitor gamut based on the perceptual variables hue, saturation, and value (V) or brightness (L) are presented and algorithms for transforming between these models are derived."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGGRAPH '78"
+            },
+            "year": 1978
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Mean shift, mode seeking, and CVPR'97"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Segmentation and tracking SIGGRAPH 78"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc. Of the Second Intl. Conf. On Auto. Face and Gesture Recognition"
+            },
+            "year": 1978
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {},
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 12,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Real-time-face-and-object-tracking-as-a-component-a-Bradski/2fe88db144825e3fa72a8fae1e307cc7d056db5c?sort=total-citations"
+}
