@@ -1,0 +1,3951 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144202584"
+                        ],
+                        "name": "S. Lange",
+                        "slug": "S.-Lange",
+                        "structuredName": {
+                            "firstName": "Sascha",
+                            "lastName": "Lange",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Lange"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3137672"
+                        ],
+                        "name": "Martin A. Riedmiller",
+                        "slug": "Martin-A.-Riedmiller",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Riedmiller",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Martin A. Riedmiller"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 181,
+                                "start": 173
+                            }
+                        ],
+                        "text": "Since Q maps historyaction pairs to scalar estimates of their Q-value, the history and the action have been used as inputs to the neural network by some previous approaches [20, 12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 238,
+                                "start": 234
+                            }
+                        ],
+                        "text": "NFQ has also been successfully applied to simple real-world control tasks using purely visual input, by first using deep autoencoders to learn a low dimensional representation of the task, and then applying NFQ to this representation [12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1240464,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "36086ff255207cc1adb818c4d0cd62287d437d38",
+            "isKey": false,
+            "numCitedBy": 279,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper discusses the effectiveness of deep auto-encoder neural networks in visual reinforcement learning (RL) tasks. We propose a framework for combining the training of deep auto-encoders (for learning compact feature spaces) with recently-proposed batch-mode RL algorithms (for learning policies). An emphasis is put on the data-efficiency of this combination and on studying the properties of the feature spaces automatically constructed by the deep auto-encoders. These feature spaces are empirically shown to adequately resemble existing similarities and spatial relations between observations and allow to learn useful policies. We propose several methods for improving the topology of the feature spaces making use of task-dependent information. Finally, we present first results on successfully learning good control policies directly on synthesized and real images."
+            },
+            "slug": "Deep-auto-encoder-neural-networks-in-reinforcement-Lange-Riedmiller",
+            "title": {
+                "fragments": [],
+                "text": "Deep auto-encoder neural networks in reinforcement learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 62,
+                "text": "A framework for combining the training of deep auto-encoders (for learning compact feature spaces) with recently-proposed batch-mode RL algorithms ( for learning policies) is proposed and an emphasis is put on the data-efficiency and on studying the properties of the feature spaces automatically constructed by the deep Auto-encoder neural networks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The 2010 International Joint Conference on Neural Networks (IJCNN)"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3137672"
+                        ],
+                        "name": "Martin A. Riedmiller",
+                        "slug": "Martin-A.-Riedmiller",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Riedmiller",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Martin A. Riedmiller"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 181,
+                                "start": 173
+                            }
+                        ],
+                        "text": "Since Q maps historyaction pairs to scalar estimates of their Q-value, the history and the action have been used as inputs to the neural network by some previous approaches [20, 12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "NFQ has also been successfully applied to simple real-world control tasks using purely visual input, by first using deep autoencoders to learn a low dimensional representation of the task, and then applying NFQ to this representation [12]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 90
+                            }
+                        ],
+                        "text": "Perhaps the most similar prior work to our own approach is neural fitted Q-learning (NFQ) [20]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "NFQ optimises the sequence of loss functions in Equation 2, using the RPROP algorithm to update the parameters of the Q-network."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 6921329,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "282001869bd502c7917db8b32b75593addfbbc68",
+            "isKey": false,
+            "numCitedBy": 901,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper introduces NFQ, an algorithm for efficient and effective training of a Q-value function represented by a multi-layer perceptron. Based on the principle of storing and reusing transition experiences, a model-free, neural network based Reinforcement Learning algorithm is proposed. The method is evaluated on three benchmark problems. It is shown empirically, that reasonably few interactions with the plant are needed to generate control policies of high quality."
+            },
+            "slug": "Neural-Fitted-Q-Iteration-First-Experiences-with-a-Riedmiller",
+            "title": {
+                "fragments": [],
+                "text": "Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 66,
+                "text": "NFQ, an algorithm for efficient and effective training of a Q-value function represented by a multi-layer perceptron, is introduced and it is shown empirically, that reasonably few interactions with the plant are needed to generate control policies of high quality."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ECML"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2801204"
+                        ],
+                        "name": "N. Heess",
+                        "slug": "N.-Heess",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Heess",
+                            "middleNames": [
+                                "Manfred",
+                                "Otto"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Heess"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145824029"
+                        ],
+                        "name": "David Silver",
+                        "slug": "David-Silver",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Silver",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Silver"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1725303"
+                        ],
+                        "name": "Y. Teh",
+                        "slug": "Y.-Teh",
+                        "structuredName": {
+                            "firstName": "Yee",
+                            "lastName": "Teh",
+                            "middleNames": [
+                                "Whye"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Teh"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 167,
+                                "start": 164
+                            }
+                        ],
+                        "text": "Deep neural networks have been used to estimate the environment E ; restricted Boltzmann machines have been used to estimate the value function [21]; or the policy [9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7756162,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b55dcba008184f55741abc3ab99eeff111d00151",
+            "isKey": false,
+            "numCitedBy": 59,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider reinforcement learning in Markov decision processes with high dimensional state and action spaces. We parametrize policies using energy-based models (particularly restricted Boltzmann machines), and train them using policy gradient learning. Our approach builds upon Sallans and Hinton (2004), who parameterized value functions using energy-based models, trained using a non-linear variant of temporal-di!erence (TD) learning. Unfortunately, non-linear TD is known to diverge in theory and practice. We introduce the first sound and e\"cient algorithm for training energy-based policies, based on an actorcritic architecture. Our algorithm is computationally e\"cient, converges close to a local optimum, and outperforms Sallans and Hinton (2004) in several high dimensional domains."
+            },
+            "slug": "Actor-Critic-Reinforcement-Learning-with-Policies-Heess-Silver",
+            "title": {
+                "fragments": [],
+                "text": "Actor-Critic Reinforcement Learning with Energy-Based Policies"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work introduces the first sound and e\"cient algorithm for training energy-based policies, based on an actorcritic architecture, that is computationally e-cient, converges close to a local optimum, and outperforms Sallans and Hinton (2004) in several high dimensional domains."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EWRL"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39263338"
+                        ],
+                        "name": "Longxin Lin",
+                        "slug": "Longxin-Lin",
+                        "structuredName": {
+                            "firstName": "Longxin",
+                            "lastName": "Lin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Longxin Lin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 100,
+                                "start": 96
+                            }
+                        ],
+                        "text": "Q-learning has also previously been combined with experience replay and a simple neural network [13], but again starting with a low-dimensional state rather than raw visual inputs."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 35,
+                                "start": 31
+                            }
+                        ],
+                        "text": "an experience replay mechanism [13] which randomly samples previous transitions, and thereby smooths the training distribution over many past behaviors."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 110,
+                                "start": 106
+                            }
+                        ],
+                        "text": "In contrast to TD-Gammon and similar online approaches, we utilize a technique known as experience replay [13] where we store the agent\u2019s experiences at each time-step, et = (st, at, rt, st+1) in a data-set D = e1, ."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 60875658,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "54c4cf3a8168c1b70f91cf78a3dc98b671935492",
+            "isKey": false,
+            "numCitedBy": 909,
+            "numCiting": 71,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Reinforcement learning agents are adaptive, reactive, and self-supervised. The aim of this dissertation is to extend the state of the art of reinforcement learning and enable its applications to complex robot-learning problems. In particular, it focuses on two issues. First, learning from sparse and delayed reinforcement signals is hard and in general a slow process. Techniques for reducing learning time must be devised. Second, most existing reinforcement learning methods assume that the world is a Markov decision process. This assumption is too strong for many robot tasks of interest. \nThis dissertation demonstrates how we can possibly overcome the slow learning problem and tackle non-Markovian environments, making reinforcement learning more practical for realistic robot tasks: (1) Reinforcement learning can be naturally integrated with artificial neural networks to obtain high-quality generalization, resulting in a significant learning speedup. Neural networks are used in this dissertation, and they generalize effectively even in the presence of noise and a large of binary and real-valued inputs. (2) Reinforcement learning agents can save many learning trials by using an action model, which can be learned on-line. With a model, an agent can mentally experience the effects of its actions without actually executing them. Experience replay is a simple technique that implements this idea, and is shown to be effective in reducing the number of action executions required. (3) Reinforcement learning agents can take advantage of instructive training instances provided by human teachers, resulting in a significant learning speedup. Teaching can also help learning agents avoid local optima during the search for optimal control. Simulation experiments indicate that even a small amount of teaching can save agents many learning trials. (4) Reinforcement learning agents can significantly reduce learning time by hierarchical learning--they first solve elementary learning problems and then combine solutions to the elementary problems to solve a complex problem. Simulation experiments indicate that a robot with hierarchical learning can solve a complex problem, which otherwise is hardly solvable within a reasonable time. (5) Reinforcement learning agents can deal with a wide range of non-Markovian environments by having a memory of their past. Three memory architectures are discussed. They work reasonably well for a variety of simple problems. One of them is also successfully applied to a nontrivial non-Markovian robot task. \nThe results of this dissertation rely on computer simulation, including (1) an agent operating in a dynamic and hostile environment and (2) a mobile robot operating in a noisy and non-Markovian environment. The robot simulator is physically realistic. This dissertation concludes that it is possible to build artificial agents than can acquire complex control policies effectively by reinforcement learning."
+            },
+            "slug": "Reinforcement-learning-for-robots-using-neural-Lin",
+            "title": {
+                "fragments": [],
+                "text": "Reinforcement learning for robots using neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 62,
+                "text": "This dissertation concludes that it is possible to build artificial agents than can acquire complex control policies effectively by reinforcement learning and enable its applications to complex robot-learning problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15066318,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0fe5c42e0821f6580eb8ab4c4261771f0d0472bd",
+            "isKey": false,
+            "numCitedBy": 911,
+            "numCiting": 64,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Learning-multiple-layers-of-representation-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "Learning multiple layers of representation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Trends in Cognitive Sciences"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1932335"
+                        ],
+                        "name": "B. Sallans",
+                        "slug": "B.-Sallans",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Sallans",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Sallans"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 17045473,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "60922d2ca51acbebff794f4c43f6daadf4b8d103",
+            "isKey": false,
+            "numCitedBy": 147,
+            "numCiting": 63,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A novel approximation method is presented for approximating the value function and selecting good actions for Markov decision processes with large state and action spaces. The method approximates state-action values as negative free energies in an undirected graphical model called a product of experts. The model parameters can be learned efficiently because values and derivatives can be efficiently computed for a product of experts. Actions can be found even in large factored action spaces by the use of Markov chain Monte Carlo sampling. Simulation results show that the product of experts approximation can be used to solve large problems. In one simulation it is used to find actions in action spaces of size 240."
+            },
+            "slug": "Reinforcement-Learning-with-Factored-States-and-Sallans-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "Reinforcement Learning with Factored States and Actions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 81,
+                "text": "A novel approximation method is presented for approximating the value function and selecting good actions for Markov decision processes with large state and action spaces and shows that the product of experts approximation can be used to solve large problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792298"
+                        ],
+                        "name": "Marc G. Bellemare",
+                        "slug": "Marc-G.-Bellemare",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Bellemare",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc G. Bellemare"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144056327"
+                        ],
+                        "name": "J. Veness",
+                        "slug": "J.-Veness",
+                        "structuredName": {
+                            "firstName": "Joel",
+                            "lastName": "Veness",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Veness"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1687780"
+                        ],
+                        "name": "Michael Bowling",
+                        "slug": "Michael-Bowling",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Bowling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael Bowling"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2585247,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7c9e3b33ea2522e86b4ebf586e6371d49d3ef89f",
+            "isKey": false,
+            "numCitedBy": 26,
+            "numCiting": 37,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Model-based reinforcement learning techniques have historically encountered a number of difficulties scaling up to large observation spaces. One promising approach has been to decompose the model learning task into a number of smaller, more manageable sub-problems by factoring the observation space. Typically, many different factorizations are possible, which can make it difficult to select an appropriate factorization without extensive testing. In this paper we introduce the class of recursively decomposable factorizations, and show how exact Bayesian inference can be used to efficiently guarantee predictive performance close to the best factorization in this class. We demonstrate the strength of this approach by presenting a collection of empirical results for 20 different Atari 2600 games."
+            },
+            "slug": "Bayesian-Learning-of-Recursively-Factored-Bellemare-Veness",
+            "title": {
+                "fragments": [],
+                "text": "Bayesian Learning of Recursively Factored Environments"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper introduces the class of recursively decomposable factorizations, and shows how exact Bayesian inference can be used to efficiently guarantee predictive performance close to the best factorization in this class."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699645"
+                        ],
+                        "name": "R. Sutton",
+                        "slug": "R.-Sutton",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Sutton",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Sutton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1730590"
+                        ],
+                        "name": "A. Barto",
+                        "slug": "A.-Barto",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Barto",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Barto"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 222,
+                                "start": 212
+                            }
+                        ],
+                        "text": "These methods are proven to converge when evaluating a fixed policy with a nonlinear function approximator [14]; or when learning a control policy with linear function approximation using a restricted variant of Q-learning [15]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 73
+                            }
+                        ],
+                        "text": "Perhaps the most similar prior work to our own approach is neural fitted Q-learning (NFQ) [20]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 73,
+                                "start": 69
+                            }
+                        ],
+                        "text": "This approach has several advantages over standard online Q-learning [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 55,
+                                "start": 45
+                            }
+                        ],
+                        "text": "The network is trained with a variant of the Q-learning [26] algorithm, with stochastic gradient descent to update the weights."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 38
+                            }
+                        ],
+                        "text": "We also presented a variant of online Q-learning that combines stochastic minibatch updates with experience replay memory to ease the training of deep networks for RL."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 27,
+                                "start": 17
+                            }
+                        ],
+                        "text": "Algorithm 1 Deep Q-learning with Experience Replay Initialize replay memory D to capacity N Initialize action-value function Q with random weights for episode = 1,M do\nInitialise sequence s1 = {x1} and preprocessed sequenced \u03c61 = \u03c6(s1) for t = 1, T do\nWith probability select a random action at otherwise select at = maxaQ\u2217(\u03c6(st), a; \u03b8) Execute action at in emulator and observe reward rt and image xt+1 Set st+1 = st, at, xt+1 and preprocess \u03c6t+1 = \u03c6(st+1) Store transition (\u03c6t, at, rt, \u03c6t+1) in D Sample random minibatch of transitions (\u03c6j , aj , rj , \u03c6j+1) from D\nSet yj = { rj for terminal \u03c6j+1 rj + \u03b3maxa\u2032 Q(\u03c6j+1, a\n\u2032; \u03b8) for non-terminal \u03c6j+1 Perform a gradient descent step on (yj \u2212Q(\u03c6j , aj ; \u03b8))2 according to equation 3\nend for end for\nSecond, learning directly from consecutive samples is inefficient, due to the strong correlations between the samples; randomizing the samples breaks these correlations and therefore reduces the variance of the updates."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 207,
+                                "start": 197
+                            }
+                        ],
+                        "text": "Note that when learning by experience replay, it is necessary to learn off-policy (because our current parameters are different to those used to generate the sample), which motivates the choice of Q-learning."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 59,
+                                "start": 49
+                            }
+                        ],
+                        "text": "During the inner loop of the algorithm, we apply Q-learning updates, or minibatch updates, to samples of experience, e \u223c D, drawn at random from the pool of stored samples."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 95
+                            }
+                        ],
+                        "text": "Such value iteration algorithms converge to the optimal actionvalue function, Qi \u2192 Q\u2217 as i \u2192 \u221e [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 208,
+                                "start": 198
+                            }
+                        ],
+                        "text": "If the weights are updated after every time-step, and the expectations are replaced by single samples from the behaviour distribution \u03c1 and the emulator E respectively, then we arrive at the familiar Q-learning algorithm [26]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 39
+                            }
+                        ],
+                        "text": "The full algorithm, which we call deep Q-learning, is presented in Algorithm 1."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 72
+                            }
+                        ],
+                        "text": "TD-gammon used a model-free reinforcement learning algorithm similar to Q-learning, and approximated the value function using a multi-layer perceptron with one hidden layer1."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 40
+                            }
+                        ],
+                        "text": "In addition, the divergence issues with Q-learning have been partially addressed by gradient temporal-difference methods."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 10,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Q-learning has also previously been combined with experience replay and a simple neural network [13], but again starting with a low-dimensional state rather than raw visual inputs."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 9166388,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "97efafdb4a3942ab3efba53ded7413199f79c054",
+            "isKey": true,
+            "numCitedBy": 33131,
+            "numCiting": 636,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Reinforcement learning, one of the most active research areas in artificial intelligence, is a computational approach to learning whereby an agent tries to maximize the total amount of reward it receives when interacting with a complex, uncertain environment. In Reinforcement Learning, Richard Sutton and Andrew Barto provide a clear and simple account of the key ideas and algorithms of reinforcement learning. Their discussion ranges from the history of the field's intellectual foundations to the most recent developments and applications. The only necessary mathematical background is familiarity with elementary concepts of probability. The book is divided into three parts. Part I defines the reinforcement learning problem in terms of Markov decision processes. Part II provides basic solution methods: dynamic programming, Monte Carlo methods, and temporal-difference learning. Part III presents a unified view of the solution methods and incorporates artificial neural networks, eligibility traces, and planning; the two final chapters present case studies and consider the future of reinforcement learning."
+            },
+            "slug": "Reinforcement-Learning:-An-Introduction-Sutton-Barto",
+            "title": {
+                "fragments": [],
+                "text": "Reinforcement Learning: An Introduction"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This book provides a clear and simple account of the key ideas and algorithms of reinforcement learning, which ranges from the history of the field's intellectual foundations to the most recent developments and applications."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Neural Networks"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3308897"
+                        ],
+                        "name": "M. Hausknecht",
+                        "slug": "M.-Hausknecht",
+                        "structuredName": {
+                            "firstName": "Matthew",
+                            "lastName": "Hausknecht",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Hausknecht"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39799304"
+                        ],
+                        "name": "J. Lehman",
+                        "slug": "J.-Lehman",
+                        "structuredName": {
+                            "firstName": "Joel",
+                            "lastName": "Lehman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Lehman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1686788"
+                        ],
+                        "name": "R. Miikkulainen",
+                        "slug": "R.-Miikkulainen",
+                        "structuredName": {
+                            "firstName": "Risto",
+                            "lastName": "Miikkulainen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Miikkulainen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144848112"
+                        ],
+                        "name": "P. Stone",
+                        "slug": "P.-Stone",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Stone",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Stone"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 14,
+                                "start": 4
+                            }
+                        ],
+                        "text": "The HNeat Best score reflects the results obtained by using a hand-engineered object detector algorithm that outputs the locations and\ntypes of objects on the Atari screen."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 151,
+                                "start": 148
+                            }
+                        ],
+                        "text": "2 129 \u221219 614 665 271 Contingency [4] 1743 6 159 \u221217 960 723 268 DQN 4092 168 470 20 1952 1705 581 Human 7456 31 368 \u22123 18900 28010 3690 HNeat Best [8] 3616 52 106 19 1800 920 1720 HNeat Pixel [8] 1332 4 91 \u221216 1325 800 1145 DQN Best 5184 225 661 21 4500 1740 1075"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 80,
+                                "start": 77
+                            }
+                        ],
+                        "text": "We also include a comparison to the evolutionary policy search approach from [8] in the last three rows of table 1."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 40
+                            }
+                        ],
+                        "text": "The HyperNEAT evolutionary architecture [8] has also been applied to the Atari platform, where it was used to evolve (separately, for each distinct game) a neural network representing a strategy for that game."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 15,
+                                "start": 4
+                            }
+                        ],
+                        "text": "The HNeat Pixel score is obtained by using the special 8 color channel representation of the Atari emulator that represents an object label map at each channel."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 11352605,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cf6c64b87459a3164ad54128fa085328c401c09f",
+            "isKey": true,
+            "numCitedBy": 170,
+            "numCiting": 59,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper addresses the challenge of learning to play many different video games with little domain-specific knowledge. Specifically, it introduces a neuroevolution approach to general Atari 2600 game playing. Four neuroevolution algorithms were paired with three different state representations and evaluated on a set of 61 Atari games. The neuroevolution agents represent different points along the spectrum of algorithmic sophistication - including weight evolution on topologically fixed neural networks (conventional neuroevolution), covariance matrix adaptation evolution strategy (CMA-ES), neuroevolution of augmenting topologies (NEAT), and indirect network encoding (HyperNEAT). State representations include an object representation of the game screen, the raw pixels of the game screen, and seeded noise (a comparative baseline). Results indicate that direct-encoding methods work best on compact state representations while indirect-encoding methods (i.e., HyperNEAT) allow scaling to higher dimensional representations (i.e., the raw game screen). Previous approaches based on temporal-difference (TD) learning had trouble dealing with the large state spaces and sparse reward gradients often found in Atari games. Neuroevolution ameliorates these problems and evolved policies achieve state-of-the-art results, even surpassing human high scores on three games. These results suggest that neuroevolution is a promising approach to general video game playing (GVGP)."
+            },
+            "slug": "A-Neuroevolution-Approach-to-General-Atari-Game-Hausknecht-Lehman",
+            "title": {
+                "fragments": [],
+                "text": "A Neuroevolution Approach to General Atari Game Playing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Results suggest that neuroevolution is a promising approach to general video game playing (GVGP) and achieved state-of-the-art results, even surpassing human high scores on three games."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Computational Intelligence and AI in Games"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145539951"
+                        ],
+                        "name": "J. Pollack",
+                        "slug": "J.-Pollack",
+                        "structuredName": {
+                            "firstName": "Jordan",
+                            "lastName": "Pollack",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Pollack"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1806864"
+                        ],
+                        "name": "A. Blair",
+                        "slug": "A.-Blair",
+                        "structuredName": {
+                            "firstName": "Alan",
+                            "lastName": "Blair",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Blair"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 251,
+                                "start": 247
+                            }
+                        ],
+                        "text": "This led to a widespread belief that the TD-gammon approach was a special case that only worked in backgammon, perhaps because the stochasticity in the dice rolls helps explore the state space and also makes the value function particularly smooth [19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7378368,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9773fa4a86987f76a0eaf72c67ab6acd55d20a9f",
+            "isKey": false,
+            "numCitedBy": 35,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Although TD-Gammon is one of the major successes in machine learning, it has not led to similar impressive breakthroughs in temporal difference learning for other applications or even other games. We were able to replicate some of the success of TD-Gammon, developing a competitive evaluation function on a 4000 parameter feed-forward neural network, without using back-propagation, reinforcement or temporal difference learning methods. Instead we apply simple hill-climbing in a relative fitness environment. These results and further analysis suggest that the surprising success of Tesauro's program had more to do with the co-evolutionary structure of the learning task and the dynamics of the backgammon game itself."
+            },
+            "slug": "Why-did-TD-Gammon-Work-Pollack-Blair",
+            "title": {
+                "fragments": [],
+                "text": "Why did TD-Gammon Work?"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This work develops a competitive evaluation function on a 4000 parameter feed-forward neural network, without using back-propagation, reinforcement or temporal difference learning methods, and applies simple hill-climbing in a relative fitness environment."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792298"
+                        ],
+                        "name": "Marc G. Bellemare",
+                        "slug": "Marc-G.-Bellemare",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Bellemare",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc G. Bellemare"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2294249"
+                        ],
+                        "name": "Yavar Naddaf",
+                        "slug": "Yavar-Naddaf",
+                        "structuredName": {
+                            "firstName": "Yavar",
+                            "lastName": "Naddaf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yavar Naddaf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144056327"
+                        ],
+                        "name": "J. Veness",
+                        "slug": "J.-Veness",
+                        "structuredName": {
+                            "firstName": "Joel",
+                            "lastName": "Veness",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Veness"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1687780"
+                        ],
+                        "name": "Michael Bowling",
+                        "slug": "Michael-Bowling",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Bowling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael Bowling"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 85,
+                                "start": 79
+                            }
+                        ],
+                        "text": "We compare our results with the best performing methods from the RL literature [3, 4]."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 103,
+                                "start": 100
+                            }
+                        ],
+                        "text": "Following previous approaches to playing Atari games, we also use a simple frame-skipping technique [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 206,
+                                "start": 203
+                            }
+                        ],
+                        "text": "The method labeled Sarsa used the Sarsa algorithm to learn linear policies on several different feature sets handengineered for the Atari task and we report the score for the best performing feature set [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 6,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[3, 5] and report the average score obtained by running an -greedy policy with = 0."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 93,
+                                "start": 90
+                            }
+                        ],
+                        "text": "The use of the Atari 2600 emulator as a reinforcement learning platform was introduced by [3], who applied standard reinforcement learning algorithms with linear function approximation and generic visual features."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 109,
+                                "start": 106
+                            }
+                        ],
+                        "text": "We apply our approach to a range of Atari 2600 games implemented in The Arcade Learning Environment (ALE) [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 45
+                            }
+                        ],
+                        "text": "Since our evaluation metric, as suggested by [3], is the total reward the agent collects in an episode or game averaged over a number of games, we periodically compute it during training."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1552061,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f82e4ff4f003581330338aaae71f60316e58dd26",
+            "isKey": true,
+            "numCitedBy": 2086,
+            "numCiting": 52,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this article we introduce the Arcade Learning Environment (ALE): both a challenge problem and a platform and methodology for evaluating the development of general, domain-independent AI technology. ALE provides an interface to hundreds of Atari 2600 game environments, each one different, interesting, and designed to be a challenge for human players. ALE presents significant research challenges for reinforcement learning, model learning, model-based planning, imitation learning, transfer learning, and intrinsic motivation. Most importantly, it provides a rigorous testbed for evaluating and comparing approaches to these problems. We illustrate the promise of ALE by developing and benchmarking domain-independent agents designed using well-established AI techniques for both reinforcement learning and planning. In doing so, we also propose an evaluation methodology made possible by ALE, reporting empirical results on over 55 different games. All of the software, including the benchmark agents, is publicly available."
+            },
+            "slug": "The-Arcade-Learning-Environment:-An-Evaluation-for-Bellemare-Naddaf",
+            "title": {
+                "fragments": [],
+                "text": "The Arcade Learning Environment: An Evaluation Platform for General Agents (Extended Abstract)"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The promise of ALE is illustrated by developing and benchmarking domain-independent agents designed using well-established AI techniques for both reinforcement learning and planning, and an evaluation methodology made possible by ALE is proposed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IJCAI"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1797222"
+                        ],
+                        "name": "H. Maei",
+                        "slug": "H.-Maei",
+                        "structuredName": {
+                            "firstName": "Hamid",
+                            "lastName": "Maei",
+                            "middleNames": [
+                                "Reza"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Maei"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40868287"
+                        ],
+                        "name": "Csaba Szepesvari",
+                        "slug": "Csaba-Szepesvari",
+                        "structuredName": {
+                            "firstName": "Csaba",
+                            "lastName": "Szepesvari",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Csaba Szepesvari"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143683893"
+                        ],
+                        "name": "S. Bhatnagar",
+                        "slug": "S.-Bhatnagar",
+                        "structuredName": {
+                            "firstName": "Shalabh",
+                            "lastName": "Bhatnagar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Bhatnagar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699645"
+                        ],
+                        "name": "R. Sutton",
+                        "slug": "R.-Sutton",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Sutton",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Sutton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 227,
+                                "start": 223
+                            }
+                        ],
+                        "text": "These methods are proven to converge when evaluating a fixed policy with a nonlinear function approximator [14]; or when learning a control policy with linear function approximation using a restricted variant of Q-learning [15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 73
+                            }
+                        ],
+                        "text": "Perhaps the most similar prior work to our own approach is neural fitted Q-learning (NFQ) [20]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 68,
+                                "start": 58
+                            }
+                        ],
+                        "text": "This approach has several advantages over standard online Q-learning [23]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 55,
+                                "start": 45
+                            }
+                        ],
+                        "text": "The network is trained with a variant of the Q-learning [26] algorithm, with stochastic gradient descent to update the weights."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 38
+                            }
+                        ],
+                        "text": "We also presented a variant of online Q-learning that combines stochastic minibatch updates with experience replay memory to ease the training of deep networks for RL."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 27,
+                                "start": 17
+                            }
+                        ],
+                        "text": "Algorithm 1 Deep Q-learning with Experience Replay Initialize replay memory D to capacity N Initialize action-value function Q with random weights for episode = 1,M do\nInitialise sequence s1 = {x1} and preprocessed sequenced \u03c61 = \u03c6(s1) for t = 1, T do\nWith probability select a random action at otherwise select at = maxaQ\u2217(\u03c6(st), a; \u03b8) Execute action at in emulator and observe reward rt and image xt+1 Set st+1 = st, at, xt+1 and preprocess \u03c6t+1 = \u03c6(st+1) Store transition (\u03c6t, at, rt, \u03c6t+1) in D Sample random minibatch of transitions (\u03c6j , aj , rj , \u03c6j+1) from D\nSet yj = { rj for terminal \u03c6j+1 rj + \u03b3maxa\u2032 Q(\u03c6j+1, a\n\u2032; \u03b8) for non-terminal \u03c6j+1 Perform a gradient descent step on (yj \u2212Q(\u03c6j , aj ; \u03b8))2 according to equation 3\nend for end for\nSecond, learning directly from consecutive samples is inefficient, due to the strong correlations between the samples; randomizing the samples breaks these correlations and therefore reduces the variance of the updates."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 207,
+                                "start": 197
+                            }
+                        ],
+                        "text": "Note that when learning by experience replay, it is necessary to learn off-policy (because our current parameters are different to those used to generate the sample), which motivates the choice of Q-learning."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 59,
+                                "start": 49
+                            }
+                        ],
+                        "text": "During the inner loop of the algorithm, we apply Q-learning updates, or minibatch updates, to samples of experience, e \u223c D, drawn at random from the pool of stored samples."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 208,
+                                "start": 198
+                            }
+                        ],
+                        "text": "If the weights are updated after every time-step, and the expectations are replaced by single samples from the behaviour distribution \u03c1 and the emulator E respectively, then we arrive at the familiar Q-learning algorithm [26]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 39
+                            }
+                        ],
+                        "text": "The full algorithm, which we call deep Q-learning, is presented in Algorithm 1."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 72
+                            }
+                        ],
+                        "text": "TD-gammon used a model-free reinforcement learning algorithm similar to Q-learning, and approximated the value function using a multi-layer perceptron with one hidden layer1."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 40
+                            }
+                        ],
+                        "text": "In addition, the divergence issues with Q-learning have been partially addressed by gradient temporal-difference methods."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 10,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Q-learning has also previously been combined with experience replay and a simple neural network [13], but again starting with a low-dimensional state rather than raw visual inputs."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 14941137,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6ab7795306d04ff9bc5121e446eb5fc624487ace",
+            "isKey": true,
+            "numCitedBy": 223,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present the first temporal-difference learning algorithm for off-policy control with unrestricted linear function approximation whose per-time-step complexity is linear in the number of features. Our algorithm, Greedy-GQ, is an extension of recent work on gradient temporal-difference learning, which has hitherto been restricted to a prediction (policy evaluation) setting, to a control setting in which the target policy is greedy with respect to a linear approximation to the optimal action-value function. A limitation of our control setting is that we require the behavior policy to be stationary. We call this setting latent learning because the optimal policy, though learned, is not manifest in behavior. Popular off-policy algorithms such as Q-learning are known to be unstable in this setting when used with linear function approximation."
+            },
+            "slug": "Toward-Off-Policy-Learning-Control-with-Function-Maei-Szepesvari",
+            "title": {
+                "fragments": [],
+                "text": "Toward Off-Policy Learning Control with Function Approximation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "The Greedy-GQ algorithm is an extension of recent work on gradient temporal-difference learning to a control setting in which the target policy is greedy with respect to a linear approximation to the optimal action-value function."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 108,
+                                "start": 104
+                            }
+                        ],
+                        "text": "The final cropping stage is only required because we use the GPU implementation of 2D convolutions from [11], which expects square inputs."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 137,
+                                "start": 133
+                            }
+                        ],
+                        "text": "By feeding sufficient data into deep neural networks, it is often possible to learn better representations than handcrafted features [11]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 165,
+                                "start": 153
+                            }
+                        ],
+                        "text": "Recent advances in deep learning have made it possible to extract high-level features from raw sensory data, leading to breakthroughs in computer vision [11, 22, 16] and speech recognition [6, 7]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 195908774,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+            "isKey": false,
+            "numCitedBy": 82053,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
+            },
+            "slug": "ImageNet-classification-with-deep-convolutional-Krizhevsky-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet classification with deep convolutional neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "A large, deep convolutional neural network was trained to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes and employed a recently developed regularization method called \"dropout\" that proved to be very effective."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Commun. ACM"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145290695"
+                        ],
+                        "name": "C. Watkins",
+                        "slug": "C.-Watkins",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Watkins",
+                            "middleNames": [
+                                "J.",
+                                "C.",
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Watkins"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1790646"
+                        ],
+                        "name": "P. Dayan",
+                        "slug": "P.-Dayan",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Dayan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Dayan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 64,
+                                "start": 60
+                            }
+                        ],
+                        "text": "Note that this algorithm is model-free: it solves the reinforcement learning task directly using samples from the emulator E , without explicitly constructing an estimate of E ."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 63,
+                                "start": 59
+                            }
+                        ],
+                        "text": "The network is trained with a variant of the Q-learning [26] algorithm, with stochastic gradient descent to update the weights."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 208910339,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "03b7e51c52084ac1db5118342a00b5fbcfc587aa",
+            "isKey": false,
+            "numCitedBy": 7263,
+            "numCiting": 2,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Q-learning (Watkins, 1989) is a simple way for agents to learn how to act optimally in controlled Markovian domains. It amounts to an incremental method for dynamic programming which imposes limited computational demands. It works by successively improving its evaluations of the quality of particular actions at particular states.This paper presents and proves in detail a convergence theorem forQ-learning based on that outlined in Watkins (1989). We show thatQ-learning converges to the optimum action-values with probability 1 so long as all actions are repeatedly sampled in all states and the action-values are represented discretely. We also sketch extensions to the cases of non-discounted, but absorbing, Markov environments, and where manyQ values can be changed each iteration, rather than just one."
+            },
+            "slug": "Q-learning-Watkins-Dayan",
+            "title": {
+                "fragments": [],
+                "text": "Q-learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper presents and proves in detail a convergence theorem forQ-learning based on that outlined in Watkins (1989), showing that Q-learning converges to the optimum action-values with probability 1 so long as all actions are repeatedly sampled in all states and the action- values are represented discretely."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Machine Learning"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1753223"
+                        ],
+                        "name": "A. Graves",
+                        "slug": "A.-Graves",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Graves",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Graves"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40360972"
+                        ],
+                        "name": "Abdel-rahman Mohamed",
+                        "slug": "Abdel-rahman-Mohamed",
+                        "structuredName": {
+                            "firstName": "Abdel-rahman",
+                            "lastName": "Mohamed",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Abdel-rahman Mohamed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 195,
+                                "start": 189
+                            }
+                        ],
+                        "text": "Recent advances in deep learning have made it possible to extract high-level features from raw sensory data, leading to breakthroughs in computer vision [11, 22, 16] and speech recognition [6, 7]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206741496,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4177ec52d1b80ed57f2e72b0f9a42365f1a8598d",
+            "isKey": false,
+            "numCitedBy": 6960,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recurrent neural networks (RNNs) are a powerful model for sequential data. End-to-end training methods such as Connectionist Temporal Classification make it possible to train RNNs for sequence labelling problems where the input-output alignment is unknown. The combination of these methods with the Long Short-term Memory RNN architecture has proved particularly fruitful, delivering state-of-the-art results in cursive handwriting recognition. However RNN performance in speech recognition has so far been disappointing, with better results returned by deep feedforward networks. This paper investigates deep recurrent neural networks, which combine the multiple levels of representation that have proved so effective in deep networks with the flexible use of long range context that empowers RNNs. When trained end-to-end with suitable regularisation, we find that deep Long Short-term Memory RNNs achieve a test set error of 17.7% on the TIMIT phoneme recognition benchmark, which to our knowledge is the best recorded score."
+            },
+            "slug": "Speech-recognition-with-deep-recurrent-neural-Graves-Mohamed",
+            "title": {
+                "fragments": [],
+                "text": "Speech recognition with deep recurrent neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper investigates deep recurrent neural networks, which combine the multiple levels of representation that have proved so effective in deep networks with the flexible use of long range context that empowers RNNs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760402"
+                        ],
+                        "name": "A. Moore",
+                        "slug": "A.-Moore",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Moore",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Moore"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8483722"
+                        ],
+                        "name": "C. Atkeson",
+                        "slug": "C.-Atkeson",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Atkeson",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Atkeson"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "ng gives equal importance to all transitions in the replay memory. A more sophisticated sampling strategy might emphasize transitions from which we can learn the most, similar to prioritized sweeping [17]. 4.1 Preprocessing and Model Architecture Working directly with raw Atari frames, which are 210 160 pixel images with a 128 color palette, can be computationally demanding, so we apply a basic prepro"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 38901226,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e21956fdbc06204db7984aacea09db7eda6355ad",
+            "isKey": true,
+            "numCitedBy": 461,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a new algorithm, prioritized sweeping, for efficient prediction and control of stochastic Markov systems. Incremental learning methods such as temporal differencing and Q-learning have real-time performance. Classical methods are slower, but more accurate, because they make full use of the observations. Prioritized sweeping aims for the best of both worlds. It uses all previous experiences both to prioritize important dynamic programming sweeps and to guide the exploration of state-space. We compare prioritized sweeping with other reinforcement learning schemes for a number of different stochastic optimal control problems. It successfully solves large state-space real-time problems with which other methods have difficulty."
+            },
+            "slug": "Prioritized-Sweeping:-Reinforcement-Learning-with-Moore-Atkeson",
+            "title": {
+                "fragments": [],
+                "text": "Prioritized Sweeping: Reinforcement Learning with Less Data and Less Time"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 69,
+                "text": "This work presents a new algorithm, prioritized sweeping, for efficient prediction and control of stochastic Markov systems, which successfully solves large state-space real-time problems with which other methods have difficulty."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Machine Learning"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144707379"
+                        ],
+                        "name": "Brian Kingsbury",
+                        "slug": "Brian-Kingsbury",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Kingsbury",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Brian Kingsbury"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 13953660,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "eb9243a3b98a819539ad57b7b4f05b969510d075",
+            "isKey": false,
+            "numCitedBy": 889,
+            "numCiting": 57,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, we provide an overview of the invited and contributed papers presented at the special session at ICASSP-2013, entitled \u201cNew Types of Deep Neural Network Learning for Speech Recognition and Related Applications,\u201d as organized by the authors. We also describe the historical context in which acoustic models based on deep neural networks have been developed. The technical overview of the papers presented in our special session is organized into five ways of improving deep learning methods: (1) better optimization; (2) better types of neural activation function and better network architectures; (3) better ways to determine the myriad hyper-parameters of deep neural networks; (4) more appropriate ways to preprocess speech for deep neural networks; and (5) ways of leveraging multiple languages or dialects that are more easily achieved with deep neural networks than with Gaussian mixture models."
+            },
+            "slug": "New-types-of-deep-neural-network-learning-for-and-Deng-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "New types of deep neural network learning for speech recognition and related applications: an overview"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 90,
+                "text": "An overview of the invited and contributed papers presented at the special session at ICASSP-2013, entitled \u201cNew Types of Deep Neural Network Learning for Speech Recognition and Related Applications,\u201d as organized by the authors is provided."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1797222"
+                        ],
+                        "name": "H. Maei",
+                        "slug": "H.-Maei",
+                        "structuredName": {
+                            "firstName": "Hamid",
+                            "lastName": "Maei",
+                            "middleNames": [
+                                "Reza"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Maei"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40868287"
+                        ],
+                        "name": "Csaba Szepesvari",
+                        "slug": "Csaba-Szepesvari",
+                        "structuredName": {
+                            "firstName": "Csaba",
+                            "lastName": "Szepesvari",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Csaba Szepesvari"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143683893"
+                        ],
+                        "name": "S. Bhatnagar",
+                        "slug": "S.-Bhatnagar",
+                        "structuredName": {
+                            "firstName": "Shalabh",
+                            "lastName": "Bhatnagar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Bhatnagar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144368601"
+                        ],
+                        "name": "Doina Precup",
+                        "slug": "Doina-Precup",
+                        "structuredName": {
+                            "firstName": "Doina",
+                            "lastName": "Precup",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Doina Precup"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145824029"
+                        ],
+                        "name": "David Silver",
+                        "slug": "David-Silver",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Silver",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Silver"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699645"
+                        ],
+                        "name": "R. Sutton",
+                        "slug": "R.-Sutton",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Sutton",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Sutton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 111,
+                                "start": 107
+                            }
+                        ],
+                        "text": "These methods are proven to converge when evaluating a fixed policy with a nonlinear function approximator [14]; or when learning a control policy with linear function approximation using a restricted variant of Q-learning [15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3232170,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "e1262319851d78ffa40c89d98d8afba10d0aec2d",
+            "isKey": false,
+            "numCitedBy": 240,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We introduce the first temporal-difference learning algorithms that converge with smooth value function approximators, such as neural networks. Conventional temporal-difference (TD) methods, such as TD(\u03bb), Q-learning and Sarsa have been used successfully with function approximation in many applications. However, it is well known that off-policy sampling, as well as nonlinear function approximation, can cause these algorithms to become unstable (i.e., the parameters of the approximator may diverge). Sutton et al. (2009a, 2009b) solved the problem of off-policy learning with linear TD algorithms by introducing a new objective function, related to the Bellman error, and algorithms that perform stochastic gradient-descent on this function. These methods can be viewed as natural generalizations to previous TD methods, as they converge to the same limit points when used with linear function approximation methods. We generalize this work to nonlinear function approximation. We present a Bellman error objective function and two gradient-descent TD algorithms that optimize it. We prove the asymptotic almost-sure convergence of both algorithms, for any finite Markov decision process and any smooth value function approximator, to a locally optimal solution. The algorithms are incremental and the computational complexity per time step scales linearly with the number of parameters of the approximator. Empirical results obtained in the game of Go demonstrate the algorithms' effectiveness."
+            },
+            "slug": "Convergent-Temporal-Difference-Learning-with-Smooth-Maei-Szepesvari",
+            "title": {
+                "fragments": [],
+                "text": "Convergent Temporal-Difference Learning with Arbitrary Smooth Function Approximation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This work presents a Bellman error objective function and two gradient-descent TD algorithms that optimize it, and proves the asymptotic almost-sure convergence of both algorithms, for any finite Markov decision process and any smooth value function approximator, to a locally optimal solution."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1844179"
+                        ],
+                        "name": "L. Baird",
+                        "slug": "L.-Baird",
+                        "structuredName": {
+                            "firstName": "Leemon",
+                            "lastName": "Baird",
+                            "middleNames": [
+                                "C."
+                            ],
+                            "suffix": "III"
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Baird"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 187,
+                                "start": 184
+                            }
+                        ],
+                        "text": "Furthermore, it was shown that combining model-free reinforcement learning algorithms such as Qlearning with non-linear function approximators [25], or indeed with off-policy learning [1] could cause the Q-network to diverge."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 621595,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f518bffb712a298bff18248c67f6fc0181018ae6",
+            "isKey": false,
+            "numCitedBy": 1066,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Residual-Algorithms:-Reinforcement-Learning-with-Baird",
+            "title": {
+                "fragments": [],
+                "text": "Residual Algorithms: Reinforcement Learning with Function Approximation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760402"
+                        ],
+                        "name": "A. Moore",
+                        "slug": "A.-Moore",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Moore",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Moore"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8483722"
+                        ],
+                        "name": "C. Atkeson",
+                        "slug": "C.-Atkeson",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Atkeson",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Atkeson"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 137,
+                                "start": 133
+                            }
+                        ],
+                        "text": "A more sophisticated sampling strategy might emphasize transitions from which we can learn the most, similar to prioritized sweeping [17]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2294833,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "049c6719ac3470e03316d75b3d605b79eccd24e5",
+            "isKey": false,
+            "numCitedBy": 263,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a new algorithm, Prioritized Sweeping, for e cient prediction and control of stochastic Markov systems. Incremental learning methods such as Temporal Di erencing and Qlearning have fast real time performance. Classical methods are slower, but more accurate, because they make full use of the observations. Prioritized Sweeping aims for the best of both worlds. It uses all previous experiences both to prioritize important dynamic programming sweeps and to guide the exploration of state-space. We compare Prioritized Sweeping with other reinforcement learning schemes for a number of di erent stochastic optimal control problems. It successfully solves large state-space real time problems with which other methods have"
+            },
+            "slug": "Prioritized-Sweeping-:-Reinforcement-Learning-with-Moore-Atkeson",
+            "title": {
+                "fragments": [],
+                "text": "Prioritized Sweeping : Reinforcement Learning with Less Data and Less Real Time"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "Prioritized Sweeping successfully solves large state-space real time problems with which other methods have failed, and is compared with other reinforcement learning schemes for a number of stochastic optimal control problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3142556"
+                        ],
+                        "name": "Pierre Sermanet",
+                        "slug": "Pierre-Sermanet",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Sermanet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pierre Sermanet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2645384"
+                        ],
+                        "name": "K. Kavukcuoglu",
+                        "slug": "K.-Kavukcuoglu",
+                        "structuredName": {
+                            "firstName": "Koray",
+                            "lastName": "Kavukcuoglu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kavukcuoglu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2127604"
+                        ],
+                        "name": "Soumith Chintala",
+                        "slug": "Soumith-Chintala",
+                        "structuredName": {
+                            "firstName": "Soumith",
+                            "lastName": "Chintala",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Soumith Chintala"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 165,
+                                "start": 153
+                            }
+                        ],
+                        "text": "Recent advances in deep learning have made it possible to extract high-level features from raw sensory data, leading to breakthroughs in computer vision [11, 22, 16] and speech recognition [6, 7]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1342687,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a1306ce652f556fbb9e794d91084a29294298e6d",
+            "isKey": false,
+            "numCitedBy": 778,
+            "numCiting": 59,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Pedestrian detection is a problem of considerable practical interest. Adding to the list of successful applications of deep learning methods to vision, we report state-of-the-art and competitive results on all major pedestrian datasets with a convolutional network model. The model uses a few new twists, such as multi-stage features, connections that skip layers to integrate global shape information with local distinctive motif information, and an unsupervised method based on convolutional sparse coding to pre-train the filters at each stage."
+            },
+            "slug": "Pedestrian-Detection-with-Unsupervised-Multi-stage-Sermanet-Kavukcuoglu",
+            "title": {
+                "fragments": [],
+                "text": "Pedestrian Detection with Unsupervised Multi-stage Feature Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "This work reports state-of-the-art and competitive results on all major pedestrian datasets with a convolutional network model that uses a few new twists, such as multi-stage features, connections that skip layers to integrate global shape information with local distinctive motif information."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2013 IEEE Conference on Computer Vision and Pattern Recognition"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35188630"
+                        ],
+                        "name": "George E. Dahl",
+                        "slug": "George-E.-Dahl",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Dahl",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "George E. Dahl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723644"
+                        ],
+                        "name": "A. Acero",
+                        "slug": "A.-Acero",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Acero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Acero"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 195,
+                                "start": 189
+                            }
+                        ],
+                        "text": "Recent advances in deep learning have made it possible to extract high-level features from raw sensory data, leading to breakthroughs in computer vision [11, 22, 16] and speech recognition [6, 7]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14862572,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6658bbf68995731b2083195054ff45b4eca38b3a",
+            "isKey": false,
+            "numCitedBy": 2684,
+            "numCiting": 93,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a novel context-dependent (CD) model for large-vocabulary speech recognition (LVSR) that leverages recent advances in using deep belief networks for phone recognition. We describe a pre-trained deep neural network hidden Markov model (DNN-HMM) hybrid architecture that trains the DNN to produce a distribution over senones (tied triphone states) as its output. The deep belief network pre-training algorithm is a robust and often helpful way to initialize deep neural networks generatively that can aid in optimization and reduce generalization error. We illustrate the key components of our model, describe the procedure for applying CD-DNN-HMMs to LVSR, and analyze the effects of various modeling choices on performance. Experiments on a challenging business search dataset demonstrate that CD-DNN-HMMs can significantly outperform the conventional context-dependent Gaussian mixture model (GMM)-HMMs, with an absolute sentence accuracy improvement of 5.8% and 9.2% (or relative error reduction of 16.0% and 23.2%) over the CD-GMM-HMMs trained using the minimum phone error rate (MPE) and maximum-likelihood (ML) criteria, respectively."
+            },
+            "slug": "Context-Dependent-Pre-Trained-Deep-Neural-Networks-Dahl-Yu",
+            "title": {
+                "fragments": [],
+                "text": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A pre-trained deep neural network hidden Markov model (DNN-HMM) hybrid architecture that trains the DNN to produce a distribution over senones (tied triphone states) as its output that can significantly outperform the conventional context-dependent Gaussian mixture model (GMM)-HMMs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Audio, Speech, and Language Processing"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792298"
+                        ],
+                        "name": "Marc G. Bellemare",
+                        "slug": "Marc-G.-Bellemare",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Bellemare",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc G. Bellemare"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144056327"
+                        ],
+                        "name": "J. Veness",
+                        "slug": "J.-Veness",
+                        "structuredName": {
+                            "firstName": "Joel",
+                            "lastName": "Veness",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Veness"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1687780"
+                        ],
+                        "name": "Michael Bowling",
+                        "slug": "Michael-Bowling",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Bowling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael Bowling"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 170,
+                                "start": 167
+                            }
+                        ],
+                        "text": "Subsequently, results were improved by using a larger number of features, and using tug-of-war hashing to randomly project the features into a lower-dimensional space [2]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 3002788,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "be3bd82d18cabd3ed78105dcaca760fef26f4ac7",
+            "isKey": false,
+            "numCitedBy": 22,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Hashing is a common method to reduce large, potentially infinite feature vectors to a fixed-size table. In reinforcement learning, hashing is often used in conjunction with tile coding to represent states in continuous spaces. Hashing is also a promising approach to value function approximation in large discrete domains such as Go and Hearts, where feature vectors can be constructed by exhaustively combining a set of atomic features. Unfortunately, the typical use of hashing in value function approximation results in biased value estimates due to the possibility of collisions. Recent work in data stream summaries has led to the development of the tug-of-war sketch, an unbiased estimator for approximating inner products. Our work investigates the application of this new data structure to linear value function approximation. Although in the reinforcement learning setting the use of the tug-of-war sketch leads to biased value estimates, we show that this bias can be orders of magnitude less than that of standard hashing. We provide empirical results on two RL benchmark domains and fifty-five Atari 2600 games to highlight the superior learning performance obtained when using tug-of-war hashing."
+            },
+            "slug": "Sketch-Based-Linear-Value-Function-Approximation-Bellemare-Veness",
+            "title": {
+                "fragments": [],
+                "text": "Sketch-Based Linear Value Function Approximation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work investigates the application of the tug-of-war sketch, an unbiased estimator for approximating inner products, to linear value function approximation in reinforcement learning and provides empirical results on two RL benchmark domains and fifty-five Atari 2600 games to highlight the superior learning performance obtained."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144224173"
+                        ],
+                        "name": "J. Tsitsiklis",
+                        "slug": "J.-Tsitsiklis",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Tsitsiklis",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Tsitsiklis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1731282"
+                        ],
+                        "name": "Benjamin Van Roy",
+                        "slug": "Benjamin-Van-Roy",
+                        "structuredName": {
+                            "firstName": "Benjamin",
+                            "lastName": "Van Roy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benjamin Van Roy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 141,
+                                "start": 137
+                            }
+                        ],
+                        "text": "Subsequently, the majority of work in reinforcement learning focused on linear function approximators with better convergence guarantees [25]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 153,
+                                "start": 149
+                            }
+                        ],
+                        "text": "It is easy to see how unwanted feedback loops may arise and the parameters could get stuck in a poor local minimum, or even diverge catastrophically [25]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 147,
+                                "start": 143
+                            }
+                        ],
+                        "text": "Furthermore, it was shown that combining model-free reinforcement learning algorithms such as Qlearning with non-linear function approximators [25], or indeed with off-policy learning [1] could cause the Q-network to diverge."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 7353554,
+            "fieldsOfStudy": [
+                "Mathematics",
+                "Computer Science"
+            ],
+            "id": "ceee9569717991607b399d9a6890f1dcb9541ac0",
+            "isKey": false,
+            "numCitedBy": 1444,
+            "numCiting": 64,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present new results about the temporal-difference learning algorithm, as applied to approximating the cost-to-go function of a Markov chain using linear function approximators. The algorithm we analyze performs on-line updating of a parameter vector during a single endless trajectory of an aperiodic irreducible finite state Markov chain. Results include convergence (with probability 1), a characterization of the limit of convergence, and a bound on the resulting approximation error. In addition to establishing new and stronger results than those previously available, our analysis is based on a new line of reasoning that provides new intuition about the dynamics of temporal-difference learning. Furthermore, we discuss the implications of two counter-examples with regards to the Significance of on-line updating and linearly parameterized function approximators."
+            },
+            "slug": "Analysis-of-Temporal-Diffference-Learning-with-Tsitsiklis-Roy",
+            "title": {
+                "fragments": [],
+                "text": "Analysis of Temporal-Diffference Learning with Function Approximation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 94,
+                "text": "New results about the temporal-difference learning algorithm, as applied to approximating the cost-to-go function of a Markov chain using linear function approximators are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792298"
+                        ],
+                        "name": "Marc G. Bellemare",
+                        "slug": "Marc-G.-Bellemare",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Bellemare",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc G. Bellemare"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144056327"
+                        ],
+                        "name": "J. Veness",
+                        "slug": "J.-Veness",
+                        "structuredName": {
+                            "firstName": "Joel",
+                            "lastName": "Veness",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Veness"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1687780"
+                        ],
+                        "name": "Michael Bowling",
+                        "slug": "Michael-Bowling",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Bowling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael Bowling"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 176,
+                                "start": 173
+                            }
+                        ],
+                        "text": "Contingency used the same basic approach as Sarsa but augmented the feature sets with a learned representation of the parts of the screen that are under the agent\u2019s control [4]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 37,
+                                "start": 34
+                            }
+                        ],
+                        "text": "2 129 \u221219 614 665 271 Contingency [4] 1743 6 159 \u221217 960 723 268 DQN 4092 168 470 20 1952 1705 581 Human 7456 31 368 \u22123 18900 28010 3690 HNeat Best [8] 3616 52 106 19 1800 920 1720 HNeat Pixel [8] 1332 4 91 \u221216 1325 800 1145 DQN Best 5184 225 661 21 4500 1740 1075"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 85,
+                                "start": 79
+                            }
+                        ],
+                        "text": "We compare our results with the best performing methods from the RL literature [3, 4]."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2554656,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3689115fa21e16d50030aaec01822af996f3e4e7",
+            "isKey": false,
+            "numCitedBy": 74,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "\n \n Contingency awareness is the recognition that some aspects of a future observation are under an agent's control while others are solely determined by the environment. This paper explores the idea of contingency awareness in reinforcement learning using the platform of Atari 2600 games. We introduce a technique for accurately identifying contingent regions and describe how to exploit this knowledge to generate improved features for value function approximation. We evaluate the performance of our techniques empirically, using 46 unseen, diverse, and challenging games for the Atari 2600 console. Our results suggest that contingency awareness is a generally useful concept for model-free reinforcement learning agents.\n \n"
+            },
+            "slug": "Investigating-Contingency-Awareness-Using-Atari-Bellemare-Veness",
+            "title": {
+                "fragments": [],
+                "text": "Investigating Contingency Awareness Using Atari 2600 Games"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper introduces a technique for accurately identifying contingent regions and describes how to exploit this knowledge to generate improved features for value function approximation, and evaluates the performance of the techniques empirically."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AAAI"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699108"
+                        ],
+                        "name": "G. Tesauro",
+                        "slug": "G.-Tesauro",
+                        "structuredName": {
+                            "firstName": "Gerald",
+                            "lastName": "Tesauro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Tesauro"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 212,
+                                "start": 208
+                            }
+                        ],
+                        "text": "Perhaps the best-known success story of reinforcement learning is TD-gammon, a backgammonplaying program which learnt entirely by reinforcement learning and self-play, and achieved a superhuman level of play [24]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6023746,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0507efeaeb8f0c11443de6d3ecf1dcb91d96c4e8",
+            "isKey": false,
+            "numCitedBy": 906,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Ever since the days of Shannon's proposal for a chess-playing algorithm [12] and Samuel's checkers-learning program [10] the domain of complex board games such as Go, chess, checkers, Othello, and backgammon has been widely regarded as an ideal testing ground for exploring a variety of concepts and approaches in artificial intelligence and machine learning. Such board games offer the challenge of tremendous complexity and sophistication required to play at expert level. At the same time, the problem inputs and performance measures are clear-cut and well defined, and the game environment is readily automated in that it is easy to simulate the board, the rules of legal play, and the rules regarding when the game is over and determining the outcome."
+            },
+            "slug": "Temporal-difference-learning-and-TD-Gammon-Tesauro",
+            "title": {
+                "fragments": [],
+                "text": "Temporal Difference Learning and TD-Gammon"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 51,
+                "text": "The domain of complex board games such as Go, chess, checkers, Othello, and backgammon has been widely regarded as an ideal testing ground for exploring a variety of concepts and approaches in artificial intelligence and machine learning."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Int. Comput. Games Assoc."
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2073603971"
+                        ],
+                        "name": "Vinod Nair",
+                        "slug": "Vinod-Nair",
+                        "structuredName": {
+                            "firstName": "Vinod",
+                            "lastName": "Nair",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vinod Nair"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 121
+                            }
+                        ],
+                        "text": "The first hidden layer convolves 16 8\u00d7 8 filters with stride 4 with the input image and applies a rectifier nonlinearity [10, 18]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 15539264,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a538b05ebb01a40323997629e171c91aa28b8e2f",
+            "isKey": false,
+            "numCitedBy": 12986,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Restricted Boltzmann machines were developed using binary stochastic hidden units. These can be generalized by replacing each binary unit by an infinite number of copies that all have the same weights but have progressively more negative biases. The learning and inference rules for these \"Stepped Sigmoid Units\" are unchanged. They can be approximated efficiently by noisy, rectified linear units. Compared with binary units, these units learn features that are better for object recognition on the NORB dataset and face verification on the Labeled Faces in the Wild dataset. Unlike binary units, rectified linear units preserve information about relative intensities as information travels through multiple layers of feature detectors."
+            },
+            "slug": "Rectified-Linear-Units-Improve-Restricted-Boltzmann-Nair-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "Rectified Linear Units Improve Restricted Boltzmann Machines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 62,
+                "text": "Restricted Boltzmann machines were developed using binary stochastic hidden units that learn features that are better for object recognition on the NORB dataset and face verification on the Labeled Faces in the Wild dataset."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3255983"
+                        ],
+                        "name": "Volodymyr Mnih",
+                        "slug": "Volodymyr-Mnih",
+                        "structuredName": {
+                            "firstName": "Volodymyr",
+                            "lastName": "Mnih",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Volodymyr Mnih"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 165,
+                                "start": 153
+                            }
+                        ],
+                        "text": "Recent advances in deep learning have made it possible to extract high-level features from raw sensory data, leading to breakthroughs in computer vision [11, 22, 16] and speech recognition [6, 7]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 114890196,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6eabf6e67c29778265bc9fef3b58b2756c739c83",
+            "isKey": false,
+            "numCitedBy": 394,
+            "numCiting": 58,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Information extracted from aerial photographs has found applications in a wide range of areas including urban planning, crop and forest management, disaster relief, and climate modeling. At present, much of the extraction is still performed by human experts, making the process slow, costly, and error prone. The goal of this thesis is to develop methods for automatically extracting the locations of objects such as roads, buildings, and trees directly from aerial images. \nWe investigate the use of machine learning methods trained on aligned aerial images and possibly outdated maps for labeling the pixels of an aerial image with semantic labels. We show how deep neural networks implemented on modern GPUs can be used to efficiently learn highly discriminative image features. We then introduce new loss functions for training neural networks that are partially robust to incomplete and poorly registered target maps. Finally, we propose two ways of improving the predictions of our system by introducing structure into the outputs of the neural networks. \nWe evaluate our system on the largest and most-challenging road and building detection datasets considered in the literature and show that it works reliably under a wide variety of conditions. Furthermore, we are releasing the first large-scale road and building detection datasets to the public in order to facilitate future comparisons with other methods."
+            },
+            "slug": "Machine-learning-for-aerial-image-labeling-Hinton-Mnih",
+            "title": {
+                "fragments": [],
+                "text": "Machine learning for aerial image labeling"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "It is shown how deep neural networks implemented on modern GPUs can be used to efficiently learn highly discriminative image features and two ways of improving the predictions of the system by introducing structure into the outputs of the neural networks are proposed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2077257730"
+                        ],
+                        "name": "Kevin Jarrett",
+                        "slug": "Kevin-Jarrett",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Jarrett",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin Jarrett"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2645384"
+                        ],
+                        "name": "K. Kavukcuoglu",
+                        "slug": "K.-Kavukcuoglu",
+                        "structuredName": {
+                            "firstName": "Koray",
+                            "lastName": "Kavukcuoglu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kavukcuoglu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706809"
+                        ],
+                        "name": "Marc'Aurelio Ranzato",
+                        "slug": "Marc'Aurelio-Ranzato",
+                        "structuredName": {
+                            "firstName": "Marc'Aurelio",
+                            "lastName": "Ranzato",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc'Aurelio Ranzato"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 121
+                            }
+                        ],
+                        "text": "The first hidden layer convolves 16 8\u00d7 8 filters with stride 4 with the input image and applies a rectifier nonlinearity [10, 18]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 206769720,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1f88427d7aa8225e47f946ac41a0667d7b69ac52",
+            "isKey": false,
+            "numCitedBy": 2093,
+            "numCiting": 52,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In many recent object recognition systems, feature extraction stages are generally composed of a filter bank, a non-linear transformation, and some sort of feature pooling layer. Most systems use only one stage of feature extraction in which the filters are hard-wired, or two stages where the filters in one or both stages are learned in supervised or unsupervised mode. This paper addresses three questions: 1. How does the non-linearities that follow the filter banks influence the recognition accuracy? 2. does learning the filter banks in an unsupervised or supervised manner improve the performance over random filters or hardwired filters? 3. Is there any advantage to using an architecture with two stages of feature extraction, rather than one? We show that using non-linearities that include rectification and local contrast normalization is the single most important ingredient for good accuracy on object recognition benchmarks. We show that two stages of feature extraction yield better accuracy than one. Most surprisingly, we show that a two-stage system with random filters can yield almost 63% recognition rate on Caltech-101, provided that the proper non-linearities and pooling layers are used. Finally, we show that with supervised refinement, the system achieves state-of-the-art performance on NORB dataset (5.6%) and unsupervised pre-training followed by supervised refinement produces good accuracy on Caltech-101 (\u226b 65%), and the lowest known error rate on the undistorted, unprocessed MNIST dataset (0.53%)."
+            },
+            "slug": "What-is-the-best-multi-stage-architecture-for-Jarrett-Kavukcuoglu",
+            "title": {
+                "fragments": [],
+                "text": "What is the best multi-stage architecture for object recognition?"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "It is shown that using non-linearities that include rectification and local contrast normalization is the single most important ingredient for good accuracy on object recognition benchmarks and that two stages of feature extraction yield better accuracy than one."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2009 IEEE 12th International Conference on Computer Vision"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "98302096"
+                        ],
+                        "name": "Peter Kulchyski",
+                        "slug": "Peter-Kulchyski",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Kulchyski",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Peter Kulchyski"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 219728810,
+            "fieldsOfStudy": [],
+            "id": "dfbfcd288ed9b37106564bf6dc95041f6d33b6b2",
+            "isKey": false,
+            "numCitedBy": 3499,
+            "numCiting": 165,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Let A be a set of positive integers. Let us denote by p(A, n) the number of partitions of n with parts in A. While the study of the parity of the classical partition function p(N, n) (where N is the set of positive integers) is a deep and di cult problem, it is easy to construct a set A for which p(A, n) is even for n large enough : as explained in a paper of I.Z. Ruzsa, A. S\u00e1rk\u00f6zy and J.-L. Nicolas published in 1998 in the Journal of Number Theory , if B is a subset of {1, 2, . . . , N}, there is a unique set A = A0(B, N) such that A \u2229 {1, 2, . . . , N} = B and p(A, n) is even for n > N . In this paper we recall some properties of the sets A0(B, N), we describe the factorization into primes of the elements of the set A0({1, 2, 3}, 3), and prove that the number of elements of this set up to x is asymptotically equivalent to c x (log x)3/4 , where c = 0.937 . . .. R\u00e9sum\u00e9. Si A est un ensemble d'entiers positifs, nous noterons p(A, n) le nombre de partitions de n dont les parts sont dans A. L'\u00e9tude de la parit\u00e9 de la fonction usuelle de partition p(N, n) (o\u00f9 N est l'ensemble des entiers 1Research partially supported by French-Tunisian exchange program, C.M.C.U. n 99/F 1507 and by CNRS, Institut Girard Desargues, UMR 5028. positifs) est un probl\u00e8me profond et di cile ; mais il est facile de construire un ensemble A tel que le nombre p(A, n) soit pair pour tout n assez grand : dans un article paru au Journal of Number Theory en 1998, I.Z. Ruzsa, A. S\u00e1rk\u00f6zy et J.-L. Nicolas montrent que si B est un sous-ensemble de {1, 2, . . . , N}, il existe un seul ensemble A = A0(B, N) tel que A \u2229 {1, 2, . . . , N} = B et p(A, n) est pair pour n > N . Dans cet article, nous rappelons quelques propri\u00e9t\u00e9s des ensembles A = A0(B, N), nous d\u00e9crivons la d\u00e9composition en facteurs premiers des \u00e9l\u00e9ments de A0({1, 2, 3}, 3) et nous montrons que le nombre des \u00e9l\u00e9ments de cet ensemble inf\u00e9rieurs \u00e0 x est \u00e9quivalent \u00e0 c x (log x)3/4 , o\u00f9 c = 0.937 . . .."
+            },
+            "slug": "and-Kulchyski",
+            "title": {
+                "fragments": [],
+                "text": "and"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1703768"
+                        ],
+                        "name": "A. Andrew",
+                        "slug": "A.-Andrew",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Andrew",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Andrew"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "ue function, by using the Bellman equation as an iterative update, Q i+1(s;a) = E[r+ 0max a0 Q i(s;a0)js;a]. Such value iteration algorithms converge to the optimal actionvalue function, Q i !Q as i!1[23]. In practice, this basic approach is totally impractical, because the action-value function is estimated separately for each sequence, without any generalisation. Instead, it is common to use a funct"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "resentation of histories produced by a function \u02da. The full algorithm, which we call deep Q-learning, is presented in Algorithm 1. This approach has several advantages over standard online Q-learning [23]. First, each step of experience is potentially used in many weight updates, which allows for greater data ef\ufb01ciency. 4 Algorithm 1 Deep Q-learning with Experience Replay Initialize replay memory Dto "
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 195937764,
+            "fieldsOfStudy": [
+                "Psychology"
+            ],
+            "id": "8c63689611fd1bf40d6a5ca14ba730ca7e62d283",
+            "isKey": false,
+            "numCitedBy": 365,
+            "numCiting": 1,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Reinforcement-Learning:-:-An-Introduction-Andrew",
+            "title": {
+                "fragments": [],
+                "text": "Reinforcement Learning: : An Introduction"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 6916627,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "563e821bb5ea825efb56b77484f5287f08cf3753",
+            "isKey": false,
+            "numCitedBy": 4130,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Convolutional-networks-for-images,-speech,-and-time-LeCun-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Convolutional networks for images, speech, and time series"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 67
+                            }
+                        ],
+                        "text": "By using experience replay the behavior distribution is averaged over many of its previous states, smoothing out learning and avoiding oscillations or divergence in the parameters."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "An analysis of temporal-difference learning with function approximation. Automatic Control"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Hinton . Speech recognition with deep recurrent neural networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "In Proc . ICASSP"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": ", Dong Yu , Li Deng , and Alex Acero . Context - dependent pre - trained deep neural networks for large - vocabulary speech recognition"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Audio , Speech , and Language Processing , IEEE Transactions on"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Pollack and Alan D . Blair . Why did td - gammon work"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "In Advances in Neural Information Processing Systems"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Conclusion How well did it work?"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Conclusion How well did it work?"
+            }
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 14,
+            "methodology": 14,
+            "result": 3
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 37,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Playing-Atari-with-Deep-Reinforcement-Learning-Mnih-Kavukcuoglu/2319a491378867c7049b3da055c5df60e1671158?sort=total-citations"
+}

@@ -1,0 +1,1325 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1759383"
+                        ],
+                        "name": "J. Peir",
+                        "slug": "J.-Peir",
+                        "structuredName": {
+                            "firstName": "Jih-Kwon",
+                            "lastName": "Peir",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Peir"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "69048861"
+                        ],
+                        "name": "R. Cytron",
+                        "slug": "R.-Cytron",
+                        "structuredName": {
+                            "firstName": "Ronald",
+                            "lastName": "Cytron",
+                            "middleNames": [
+                                "Gary"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Cytron"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 28100118,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "43103e97fc3688daaba9cfc8eb1077ed31b8061d",
+            "isKey": false,
+            "numCitedBy": 102,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Parallel execution of nonvectorizable uniform recurrences is considered. When naively scheduled, such recurrences could create unacceptable communication and synchronization on a multiprocessor. The minimum-distance method partitions such recurrences into totally independent computations without increasing redundancy or perturbing numerical stability. The independent computations are well suited for execution on a multiprocessor, but they may not utilize all available processors. How extra processors can be applied to the independent computations is addressed. The methods are especially attractive for multiprocessors comprised of clusters. >"
+            },
+            "slug": "Minimum-Distance:-A-Method-for-Partitioning-for-Peir-Cytron",
+            "title": {
+                "fragments": [],
+                "text": "Minimum Distance: A Method for Partitioning Recurrences for Multiprocessors"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "The minimum-distance method partitions nonvectorizable uniform recurrences into totally independent computations without increasing redundancy or perturbing numerical stability, well suited for execution on a multiprocessor but they may not utilize all available processors."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Computers"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1759383"
+                        ],
+                        "name": "J. Peir",
+                        "slug": "J.-Peir",
+                        "structuredName": {
+                            "firstName": "Jih-Kwon",
+                            "lastName": "Peir",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Peir"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 62702812,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e7d0ac9f69563e870461be11b826ff0e815b4924",
+            "isKey": false,
+            "numCitedBy": 29,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Since the mid 1970's, vector machines have dominated the supercomputer market. Because of technological limitations, faster circuits and more levels of pipelining of vector processors can no longer satisfy the increasing demand for high-speed computation. Multiprocessing problems in parallel is a natural trend. Five essential issues are identified in solving problems on multiprocessor systems: control structure, program partitioning, scheduling, synchronization, and memory access. The solutions of these problems determine the performance and efficiency of future multiprocessor machines. \nThis thesis introduces new solutions for the synchronization and partitioning problems. The bit-map method synchronizes concurrent executing processes at the data level. Each synchronized data element has an attached sync field, and each synchronization memory operation contains a mask value. The data can be accessed only when the mask matches the sync. A proper referencing order for the data can be maintained. Two factors are considered when partitioning a program into processes executing in parallel: amount of parallelism and memory access and synchronization overhead. This thesis introduces a minimum distance method which partitions a recurrence loop into independent execution sets. This method uses the minimum dependence distance of each dimension of all dependence cycles to divide the index set of the loop into independent partitions. When a loop does not have a sufficient number of independent sets, the block and the interleaved methods partition the loop using a proper synchronization mechanism. A programmer assistance tool helps programmers in using these partitioning and synchronization methods. A simulator in the tool compares different partitioning strategies. This programmer assistance methodology allows users to explore several algorithms and select one which fits the appropriate multiprocessor architecture."
+            },
+            "slug": "Program-partitioning-and-synchronization-on-systems-Peir",
+            "title": {
+                "fragments": [],
+                "text": "Program partitioning and synchronization on multiprocessor systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A minimum distance method which partitions a recurrence loop into independent execution sets and uses the minimum dependence distance of each dimension of all dependence cycles to divide the index set of the loop intoindependent partitions is introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3317184"
+                        ],
+                        "name": "R. Triolet",
+                        "slug": "R.-Triolet",
+                        "structuredName": {
+                            "firstName": "R\u00e9mi",
+                            "lastName": "Triolet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Triolet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2912411"
+                        ],
+                        "name": "F. Irigoin",
+                        "slug": "F.-Irigoin",
+                        "structuredName": {
+                            "firstName": "Fran\u00e7ois",
+                            "lastName": "Irigoin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Irigoin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 18906515,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8b4fdcd9f225516ef54f87307876d949e7043662",
+            "isKey": false,
+            "numCitedBy": 217,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Asynchronous CALL statements are necessary in order to use more than one processor in current multiprocessors. Detecting CALL statements that may be executed in parallel is one way to fill this need. This approach requires accurate approximations of called procedure effects. This is achieved by using new objects called Region and Execution Context. An algorithm to find asynchronous CALL statements is given. It involves a new dependence test to compute data dependence graphs, which provides better results than previous ones even when no CALL statements are involved. This method has been implemented in Parafrase and preliminary results are encouraging."
+            },
+            "slug": "Direct-parallelization-of-call-statements-Triolet-Irigoin",
+            "title": {
+                "fragments": [],
+                "text": "Direct parallelization of call statements"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "An algorithm to find asynchronous CALL statements is given that involves a new dependence test to compute data dependence graphs, which provides better results than previous ones even when no CALL statements are involved."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGPLAN '86"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1929697"
+                        ],
+                        "name": "Christopher Huson",
+                        "slug": "Christopher-Huson",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Huson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher Huson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "115505207"
+                        ],
+                        "name": "T. Macke",
+                        "slug": "T.-Macke",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Macke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Macke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2146810216"
+                        ],
+                        "name": "J. Davies",
+                        "slug": "J.-Davies",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Davies",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Davies"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50073003"
+                        ],
+                        "name": "M. Wolfe",
+                        "slug": "M.-Wolfe",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Wolfe",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wolfe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3306526"
+                        ],
+                        "name": "B. Leasure",
+                        "slug": "B.-Leasure",
+                        "structuredName": {
+                            "firstName": "Bruce",
+                            "lastName": "Leasure",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Leasure"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 29755579,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ac3a03949acd3e8d2330bb2ee33625fdd434e0b4",
+            "isKey": false,
+            "numCitedBy": 19,
+            "numCiting": 62,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Supercomputers\u2019 use parallelism to provide users with increased computational power. Most supercomputers are programmed in some higher level language, commonly Fortran; all supercomputer vendors provide Fortran compilers that detect parallelism and generate parallel code to take advantage of the architecture of their machines\u2019 [25, 46, 531. This article discusses some of the common (and not so common) features that compilers for vector or multiprocessor computers must have in order to successfully generate parallel code. The many examples given throughout are related to the generic types of machines to which they apply. Where appropriate, we also relate these parallel compiler optimizations to those used in standard compilers."
+            },
+            "slug": "The-KAP/S-1-:-An-Advanced-Source-to-Source-for-the-Huson-Macke",
+            "title": {
+                "fragments": [],
+                "text": "The KAP/S-1 : An Advanced Source-to-Source Vectorizer for the S-1 Mark IIa Supercomputer"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Some of the common (and not so common) features that compilers for vector or multiprocessor computers must have in order to successfully generate parallel code are discussed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICPP"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1679622"
+                        ],
+                        "name": "L. Lamport",
+                        "slug": "L.-Lamport",
+                        "structuredName": {
+                            "firstName": "Leslie",
+                            "lastName": "Lamport",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Lamport"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 7407863,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f8303a66826d531ec126d69cb3e4346d7d3aba68",
+            "isKey": false,
+            "numCitedBy": 707,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Methods are developed for the parallel execution of different iterations of a DO loop. Both asynchronous multiprocessor computers and array computers are considered. Practical application to the design of compilers for such computers is discussed."
+            },
+            "slug": "The-parallel-execution-of-DO-loops-Lamport",
+            "title": {
+                "fragments": [],
+                "text": "The parallel execution of DO loops"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 72,
+                "text": "Methods are developed for the parallel execution of different iterations of a DO loop and practical application to the design of compilers for such computers is discussed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 1974
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1739086"
+                        ],
+                        "name": "D. Kuck",
+                        "slug": "D.-Kuck",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Kuck",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Kuck"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2094177"
+                        ],
+                        "name": "R. Kuhn",
+                        "slug": "R.-Kuhn",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Kuhn",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Kuhn"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1729097"
+                        ],
+                        "name": "D. Padua",
+                        "slug": "D.-Padua",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Padua",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Padua"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3306526"
+                        ],
+                        "name": "B. Leasure",
+                        "slug": "B.-Leasure",
+                        "structuredName": {
+                            "firstName": "Bruce",
+                            "lastName": "Leasure",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Leasure"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50073003"
+                        ],
+                        "name": "M. Wolfe",
+                        "slug": "M.-Wolfe",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Wolfe",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wolfe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10114479,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6eef174cc4f7ac5e30cf478334ac6bb3db31fe48",
+            "isKey": false,
+            "numCitedBy": 704,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Dependence graphs can be used as a vehicle for formulating and implementing compiler optimizations. This paper defines such graphs and discusses two kinds of transformations. The first are simple rewriting transformations that remove dependence arcs. The second are abstraction transformations that deal more globally with a dependence graph. These transformations have been implemented and applied to several different types of high-speed architectures."
+            },
+            "slug": "Dependence-graphs-and-compiler-optimizations-Kuck-Kuhn",
+            "title": {
+                "fragments": [],
+                "text": "Dependence graphs and compiler optimizations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 52,
+                "text": "This paper defines such graphs and discusses two kinds of transformations, simple rewriting transformations that remove dependence arcs and abstraction transformations that deal more globally with a dependence graph."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '81"
+            },
+            "year": 1981
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40497400"
+                        ],
+                        "name": "D. Moldovan",
+                        "slug": "D.-Moldovan",
+                        "structuredName": {
+                            "firstName": "Dan",
+                            "lastName": "Moldovan",
+                            "middleNames": [
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Moldovan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144371682"
+                        ],
+                        "name": "J. Fortes",
+                        "slug": "J.-Fortes",
+                        "structuredName": {
+                            "firstName": "Jos\u00e9",
+                            "lastName": "Fortes",
+                            "middleNames": [
+                                "A.",
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Fortes"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 27902771,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4e1cba0ccb7d914b727f26e933585ba35efc6bfb",
+            "isKey": false,
+            "numCitedBy": 509,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A technique for partitioning and mapping algorithms into VLSI systolic arrays is presented in this paper. Algorithm partitioning is essential when the size of a computational problem is larger than the size of the VLSI array intended for that problem. Computational models are introduced for systolic arrays and iterative algorithms. First, we discuss the mapping of algorithms into arbitrarily large size VLSI arrays. This mapping is based on the idea of algorithm transformations. Then, we present an approach to algorithm partitioning which is also based on algorithm transformations. Our approach to the partitioning problem is to divide the algorithm index set into bands and to map these bands into the processor space. The partitioning and mapping technique developed throughout the paper is summarized as a six step procedure. A computer program implementing this procedure was developed and some results obtained with this program are presented."
+            },
+            "slug": "Partitioning-and-Mapping-Algorithms-into-Fixed-Size-Moldovan-Fortes",
+            "title": {
+                "fragments": [],
+                "text": "Partitioning and Mapping Algorithms into Fixed Size Systolic Arrays"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 77,
+                "text": "A technique for partitioning and mapping algorithms into VLSI systolic arrays is presented and an approach to algorithm partitioning which is also based on algorithm transformations is presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Computers"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39916351"
+                        ],
+                        "name": "R. Duffin",
+                        "slug": "R.-Duffin",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Duffin",
+                            "middleNames": [
+                                "James"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Duffin"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 117933990,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "40b41ea7039443528c88145bb20cdd8a3bf81f01",
+            "isKey": false,
+            "numCitedBy": 116,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Fourier treated a system of linear inequalities by a method of elimination of variables. This method can be used to derive the duality theory of linear programming. Perhaps this furnishes the quickest proof both for finite and infinite linear programs. For numerical evaluation of a linear program, Fourier\u2019s procedure is very cumbersome because a variable is eliminated by adding each pair of inequalities having coefficients of opposite sign. This introduces many redundant inequalities. However, modifications are possible which reduce the number of redundant inequalities generated. With these modifications the method of Fourier becomes a practical computational algorithm for a class of parametric linear programs."
+            },
+            "slug": "On-fourier\u2019s-analysis-of-linear-inequality-systems-Duffin",
+            "title": {
+                "fragments": [],
+                "text": "On fourier\u2019s analysis of linear inequality systems"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1974
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47546648"
+                        ],
+                        "name": "R. Karp",
+                        "slug": "R.-Karp",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Karp",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Karp"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1400120462"
+                        ],
+                        "name": "Raymond E. Miller",
+                        "slug": "Raymond-E.-Miller",
+                        "structuredName": {
+                            "firstName": "Raymond E.",
+                            "lastName": "Miller",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Raymond E. Miller"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1690630"
+                        ],
+                        "name": "S. Winograd",
+                        "slug": "S.-Winograd",
+                        "structuredName": {
+                            "firstName": "Shmuel",
+                            "lastName": "Winograd",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Winograd"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16568434,
+            "fieldsOfStudy": [
+                "Physics"
+            ],
+            "id": "acbd0d8557edad81f05b7098a5500937725acefb",
+            "isKey": false,
+            "numCitedBy": 636,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A set equations in the quantities <italic>a<subscrpt>i</subscrpt></italic>(<italic>p</italic>), where <italic>i</italic> = 1, 2, \u00b7 \u00b7 \u00b7, <italic>m</italic> and <italic>p</italic> ranges over a set <italic>R</italic> of lattice points in <italic>n</italic>-space, is called a <italic>system of uniform recurrence equations</italic> if the following property holds: If <italic>p</italic> and <italic>q</italic> are in <italic>R</italic> and <italic>w</italic> is an integer <italic>n</italic>-vector, then <italic>a<subscrpt>i</subscrpt></italic>(<italic>p</italic>) depends directly on <italic>a<subscrpt>j</subscrpt></italic>(<italic>p</italic> - <italic>w</italic>) if and only if <italic>a<subscrpt>i</subscrpt></italic>(<italic>q</italic>) depends directly on <italic>a<subscrpt>j</subscrpt></italic>(<italic>q</italic> - <italic>w</italic>). Finite-difference approximations to systems of partial differential equations typically lead to such recurrence equations. The structure of such a system is specified by a <italic>dependence graph G</italic> having <italic>m</italic> vertices, in which the directed edges are labeled with integer <italic>n</italic>-vectors. For certain choices of the set <italic>R</italic>, necessary and sufficient conditions on <italic>G</italic> are given for the existence of a schedule to compute all the quantities <italic>a<subscrpt>i</subscrpt></italic>(<italic>p</italic>) explicitly from their defining equations. Properties of such schedules, such as the degree to which computation can proceed \u201cin parallel,\u201d are characterized. These characterizations depend on a certain iterative decomposition of a dependence graph into subgraphs. Analogous results concerning implicit schedules are also given."
+            },
+            "slug": "The-Organization-of-Computations-for-Uniform-Karp-Miller",
+            "title": {
+                "fragments": [],
+                "text": "The Organization of Computations for Uniform Recurrence Equations"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "JACM"
+            },
+            "year": 1967
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144297516"
+                        ],
+                        "name": "John R. Allen",
+                        "slug": "John-R.-Allen",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Allen",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John R. Allen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "70455556"
+                        ],
+                        "name": "K. Kennedy",
+                        "slug": "K.-Kennedy",
+                        "structuredName": {
+                            "firstName": "Ken",
+                            "lastName": "Kennedy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kennedy"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 60630438,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a2a0a2d9a1b31698e0c22c4b4da4e8c727644bc3",
+            "isKey": false,
+            "numCitedBy": 220,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "PFC:-A-Program-to-Convert-Fortran-to-Parallel-Form-Allen-Kennedy",
+            "title": {
+                "fragments": [],
+                "text": "PFC: A Program to Convert Fortran to Parallel Form"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1982
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2094177"
+                        ],
+                        "name": "R. Kuhn",
+                        "slug": "R.-Kuhn",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Kuhn",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Kuhn"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 59893298,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "337c6bac7772fd8db19736d52b08ec0461f83324",
+            "isKey": false,
+            "numCitedBy": 62,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Optimization-and-interconnection-complexity-for:-Kuhn",
+            "title": {
+                "fragments": [],
+                "text": "Optimization and interconnection complexity for: parallel processors, single-stage networks, and decision trees"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1980
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "69048861"
+                        ],
+                        "name": "R. Cytron",
+                        "slug": "R.-Cytron",
+                        "structuredName": {
+                            "firstName": "Ronald",
+                            "lastName": "Cytron",
+                            "middleNames": [
+                                "Gary"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Cytron"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 59659995,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "06a384706c49a4f56182548efd80317c1206b4de",
+            "isKey": false,
+            "numCitedBy": 81,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Compile-time-scheduling-and-optimization-for-Cytron",
+            "title": {
+                "fragments": [],
+                "text": "Compile-time scheduling and optimization for asynchronous machines (multiprocessor, compiler, parallel processing)"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1984
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50073003"
+                        ],
+                        "name": "M. Wolfe",
+                        "slug": "M.-Wolfe",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Wolfe",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wolfe"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 52830960,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2edab56bb23558812752c880e4eb1f83cb4fcdaf",
+            "isKey": false,
+            "numCitedBy": 57,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Advanced-Loop-Interchanging-Wolfe",
+            "title": {
+                "fragments": [],
+                "text": "Advanced Loop Interchanging"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICPP"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1704285"
+                        ],
+                        "name": "W. Jalby",
+                        "slug": "W.-Jalby",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Jalby",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Jalby"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143965302"
+                        ],
+                        "name": "Ulrike Meier",
+                        "slug": "Ulrike-Meier",
+                        "structuredName": {
+                            "firstName": "Ulrike",
+                            "lastName": "Meier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ulrike Meier"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 20263112,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2768ccedcb8d1061643e913dee744614b7e256de",
+            "isKey": false,
+            "numCitedBy": 12,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Optimizing-Matrix-Operations-on-a-Parallel-with-a-Jalby-Meier",
+            "title": {
+                "fragments": [],
+                "text": "Optimizing Matrix Operations on a Parallel Multiprocessor with a Memory Hierarchical System"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICPP"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1743057"
+                        ],
+                        "name": "P. Cousot",
+                        "slug": "P.-Cousot",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Cousot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Cousot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2578040"
+                        ],
+                        "name": "N. Halbwachs",
+                        "slug": "N.-Halbwachs",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Halbwachs",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Halbwachs"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16411662,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9682764c975072f7c5da3a148654881282e45f98",
+            "isKey": false,
+            "numCitedBy": 1710,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Automatic-discovery-of-linear-restraints-among-of-a-Cousot-Halbwachs",
+            "title": {
+                "fragments": [],
+                "text": "Automatic discovery of linear restraints among variables of a program"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL"
+            },
+            "year": 1978
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Optimizing Matrix Operation on a Parallel Multiprocessor with a Hierarchical Memory System"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "986 Int? Conference on Parallel Processing"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Une methode de conception d'algorithmes systoliques. RBsultats theoriques et rbalisation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Thbse de Doctorat, INPL"
+            },
+            "year": 1985
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Mkthodes de partitionnement des r&eaux systoliques appliquees L la triangularisation de matrice"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Mkthodes de partitionnement des r&eaux systoliques appliquees L la triangularisation de matrice"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "A New Way To Speed Up a Supercomputer"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Electronics"
+            },
+            "year": 1985
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Utilisation de systemaes lineaires sur Z pour la parahelisation de programmes"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Utilisation de systemaes lineaires sur Z pour la parahelisation de programmes"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Techniques de Base sur 1'Exploitation Automatique du Paralt6lisme dans les Programmes Calcrl Parallble b usage scientifique"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Techniques de Base sur 1'Exploitation Automatique du Paralt6lisme dans les Programmes Calcrl Parallble b usage scientifique"
+            },
+            "year": 1985
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Computing Dependence Direction Vectors and Dependence Cones With Linear Systems"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Computing Dependence Direction Vectors and Dependence Cones With Linear Systems"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Supernodes and Alliant FX/8 Minisupercomputer"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Supernodes and Alliant FX/8 Minisupercomputer"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Restructuring Nested Loops on the Alliant Cedar Cluster: A Case Study of Gaussian Elimination of Banded Matrices"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Restructuring Nested Loops on the Alliant Cedar Cluster: A Case Study of Gaussian Elimination of Banded Matrices"
+            },
+            "year": 1986
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {},
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 24,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Supernode-partitioning-Irigoin-Triolet/38747b103e631e1a3800a0f4aed496d1bf8fb82f?sort=total-citations"
+}

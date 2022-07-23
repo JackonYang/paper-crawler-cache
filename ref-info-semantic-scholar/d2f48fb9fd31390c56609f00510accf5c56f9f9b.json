@@ -1,0 +1,3502 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1769333"
+                        ],
+                        "name": "C. Bastoul",
+                        "slug": "C.-Bastoul",
+                        "structuredName": {
+                            "firstName": "C\u00e9dric",
+                            "lastName": "Bastoul",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Bastoul"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "in [21] and its improved version in [2]; our two main contributions are the following: reducing the code size without degrading code performance (step 7) and reduction of the code generation processing time by using pattern matching (step 3)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "method give the best results when we have to generate a scanning code for several polyhedra [21, 2]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The corresponding scattering matrix T = [ 2 1 ] is not invertible, but it can be extended to T = h 2 1 0 1 i"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14687806,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ea360e5f5a06f6ff60bccb431af2c9bdbefc9aea",
+            "isKey": false,
+            "numCitedBy": 63,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Supercompilers look for the best execution order of the statement instances in the most compute intensive kernels. It has been extensively shown that the polyhedral model provides convenient abstractions to find and perform the useful program transformations. Nevertheless, the current polyhedral code generation algorithms lack for flexibility by adressing mainly unimodular or at least invertible transformation functions. Moreover, their complexity is challenging for large problems (with many statements). In this paper, we discuss a general transformation framework able to deal with non-unimodular, non-invertible functions. A completed and improved version of one of the best algorithms known so far is presented to actually perform the code generation. Experimental evidence proves the ability of our framework to handle real-life problems."
+            },
+            "slug": "Efficient-code-generation-for-automatic-and-Bastoul",
+            "title": {
+                "fragments": [],
+                "text": "Efficient code generation for automatic parallelization and optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Experimental evidence proves the ability of the general transformation framework able to deal with non-unimodular, non-invertible functions to handle real-life problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Second International Symposium on Parallel and Distributed Computing, 2003. Proceedings."
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2020735"
+                        ],
+                        "name": "Fabien Quiller\u00e9",
+                        "slug": "Fabien-Quiller\u00e9",
+                        "structuredName": {
+                            "firstName": "Fabien",
+                            "lastName": "Quiller\u00e9",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fabien Quiller\u00e9"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1747659"
+                        ],
+                        "name": "S. Rajopadhye",
+                        "slug": "S.-Rajopadhye",
+                        "structuredName": {
+                            "firstName": "Sanjay",
+                            "lastName": "Rajopadhye",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Rajopadhye"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143860773"
+                        ],
+                        "name": "D. Wilde",
+                        "slug": "D.-Wilde",
+                        "structuredName": {
+                            "firstName": "Doran",
+                            "lastName": "Wilde",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Wilde"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "proposed recently the first code generation algorithm building the target code without redundant control directly instead of starting from a naive code and trying to improve it [21]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "4 [21] (the differences between CLooG and LoopGen are a direct consequence of the improvements discussed in this paper), and the most widely used code generator in the polyhedral model, i."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "a smaller code with conditions [21]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "proposed to recursively generate a set of loop nests scanning several unions of polyhedra by separating them into subsets of disjoint polyhedra and generating the corresponding loop nests from the outermost to the innermost levels [21]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Check if such a point directly precedes or follows the node in the lexicographic ordering graph built in step 4 and 6 (details on this graph construction can be found in [21])."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "In this paper, we will show how it is possible to handle very general transformations in the polyhedral model and that starting from one of the best algorithms known so far [21], how we can improve it for producing in a reasonnable amount of time an efficient target code with a limited size growing."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "in [21] and its improved version in [2]; our two main contributions are the following: reducing the code size without degrading code performance (step 7) and reduction of the code generation processing time by using pattern matching (step 3)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "method give the best results when we have to generate a scanning code for several polyhedra [21, 2]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14709233,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d56126a645271da916ad339df27a2bac1b75d320",
+            "isKey": true,
+            "numCitedBy": 206,
+            "numCiting": 75,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Automatic parallelization in the polyhedral model is based on affine transformations from an original computation domain (iteration space) to a target space-time domain, often with a different transformation for each variable. Code generation is an often ignored step in this process that has a significant impact on the quality of the final code. It involves making a trade-off between code size and control code simplification/optimization. Previous methods of doing code generation are based on loop splitting, however they have nonoptimal behavior when working on parameterized programs. We present a general parameterized method for code generation based on dual representation of polyhedra. Our algorithm uses a simple recursion on the dimensions of the domains, and enables fine control over the tradeoff between code size and control overhead."
+            },
+            "slug": "Generation-of-Efficient-Nested-Loops-from-Polyhedra-Quiller\u00e9-Rajopadhye",
+            "title": {
+                "fragments": [],
+                "text": "Generation of Efficient Nested Loops from Polyhedra"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work presents a general parameterized method for code generation based on dual representation of polyhedra that uses a simple recursion on the dimensions of the domains, and enables fine control over the tradeoff between code size and control overhead."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1704888"
+                        ],
+                        "name": "M. Griebl",
+                        "slug": "M.-Griebl",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Griebl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Griebl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1714483"
+                        ],
+                        "name": "C. Lengauer",
+                        "slug": "C.-Lengauer",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Lengauer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Lengauer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2168556886"
+                        ],
+                        "name": "Sabine Wetzel",
+                        "slug": "Sabine-Wetzel",
+                        "structuredName": {
+                            "firstName": "Sabine",
+                            "lastName": "Wetzel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sabine Wetzel"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "relaxed the invertibility constraint and proposed to deal with arbitrary matrix by using a square invertible extension of this matrix [14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "This method can be compared to using the convex hull of the polyhedra [15, 25, 14, 5], but is more general since it can deal with complex bounds (typically maximum or minimum of parameterized affine constraints e."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "These problems are considered to be hard: previously related experiences with Omega [15] or LooPo [14] showed how it was challenging to producing efficient code just for ten or so polyhedra without time or memory explosion."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "proposed the first relaxation of the invertibility constraint, by using a square invertible extension of the transformation matrix [14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Another way was to generate the code for each polyhedron separately, and then to merge them [14, 5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "[14]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 6488833,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ff6dd16afedc0ac47f278b7b176aa013e1272613",
+            "isKey": true,
+            "numCitedBy": 71,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Automatic parallelization of nested loops, based on a mathematical model, the polytope model, has been improved significantly over the last decade: state-of-the-art methods allow flexible distributions of computations in space and time, which lead to high-quality parallelism. However, these methods have not found their way into practical parallelizing compilers due to the lack of code generation schemes which are able to deal with the new-found flexibility. To close this gap is the purpose of this paper."
+            },
+            "slug": "Code-generation-in-the-polytope-model-Griebl-Lengauer",
+            "title": {
+                "fragments": [],
+                "text": "Code generation in the polytope model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "This paper aims to close the gap between automatic parallelization of nested loops and practical parallelizing compilers due to the lack of code generation schemes which are able to deal with the new-found flexibility of the polytope model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings. 1998 International Conference on Parallel Architectures and Compilation Techniques (Cat. No.98EX192)"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1769333"
+                        ],
+                        "name": "C. Bastoul",
+                        "slug": "C.-Bastoul",
+                        "structuredName": {
+                            "firstName": "C\u00e9dric",
+                            "lastName": "Bastoul",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Bastoul"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145509576"
+                        ],
+                        "name": "Albert Cohen",
+                        "slug": "Albert-Cohen",
+                        "structuredName": {
+                            "firstName": "Albert",
+                            "lastName": "Cohen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Albert Cohen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2506136"
+                        ],
+                        "name": "Sylvain Girbal",
+                        "slug": "Sylvain-Girbal",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Girbal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Girbal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1956589"
+                        ],
+                        "name": "Saurabh Sharma",
+                        "slug": "Saurabh-Sharma",
+                        "structuredName": {
+                            "firstName": "Saurabh",
+                            "lastName": "Sharma",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saurabh Sharma"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1731764"
+                        ],
+                        "name": "O. Temam",
+                        "slug": "O.-Temam",
+                        "structuredName": {
+                            "firstName": "Olivier",
+                            "lastName": "Temam",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Temam"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14364034,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "41f5e46eea538f867cd9c3d96020224604581451",
+            "isKey": false,
+            "numCitedBy": 146,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We seek to extend the scope and efficiency of iterative compilation techniques by searching not only for program transformation parameters but for the most appropriate transformations themselves. For that purpose, we need a generic way to express program transformations and compositions of transformations. In this article, we introduce a framework for the polyhedral representation of a wide range of transformations in a unified way. We also show that it is possible to generate efficient code after the application of polyhedral program transformations. Finally, we demonstrate an implementation of the polyhedral representation and code generation techniques in the Open64/ORC compiler."
+            },
+            "slug": "Putting-Polyhedral-Loop-Transformations-to-Work-Bastoul-Cohen",
+            "title": {
+                "fragments": [],
+                "text": "Putting Polyhedral Loop Transformations to Work"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A framework for the polyhedral representation of a wide range of transformations in a unified way is introduced and it is shown that it is possible to generate efficient code after the application of polyhedral program transformations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LCPC"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145597416"
+                        ],
+                        "name": "W. Kelly",
+                        "slug": "W.-Kelly",
+                        "structuredName": {
+                            "firstName": "Wayne",
+                            "lastName": "Kelly",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Kelly"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144022269"
+                        ],
+                        "name": "W. Pugh",
+                        "slug": "W.-Pugh",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Pugh",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Pugh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50593802"
+                        ],
+                        "name": "E. Rosser",
+                        "slug": "E.-Rosser",
+                        "structuredName": {
+                            "firstName": "Evan",
+                            "lastName": "Rosser",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Rosser"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "This method can be compared to using the convex hull of the polyhedra [15, 25, 14, 5], but is more general since it can deal with complex bounds (typically maximum or minimum of parameterized affine constraints e."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The problem of scanning more than one polyhedron in the same code was firstly solved by generating a naive perfectly nested code and then (partially) eliminating redundant guards [15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "2 [15]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "It is possible to manage it easily with iterative code generation methods [15]: they start from a naive (inefficient) and short code and eliminate the control overhead by selecting conditions to remove and performing code hoisting (splitting the code on the chosen condition and copying the original guarded code in the two branches)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "These problems are considered to be hard: previously related experiences with Omega [15] or LooPo [14] showed how it was challenging to producing efficient code just for ten or so polyhedra without time or memory explosion."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 60915757,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "39a0018bf60ae72b34e61d83129c2808525718a7",
+            "isKey": true,
+            "numCitedBy": 138,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "There has been a great amount of recent work toward unifying iteration reordering transformations. Many of these approaches represent transformations as affine mappings from the original iteration space to a new iteration space. These approaches show a great deal of promise, but they all rely on the ability to generate code that iterates over the points in these new iteration spaces in the appropriate order. This problem has been fairly well-studied in the case where all statements use the same mapping. We have developed an algorithm for the less well-studied case where each statement uses a potentially different mapping. Unlike many other approaches, our algorithm can also generate code from mappings corresponding to loop blocking. We address the important trade-off between reducing control overhead and duplicating code.<<ETX>>"
+            },
+            "slug": "Code-generation-for-multiple-mappings-Kelly-Pugh",
+            "title": {
+                "fragments": [],
+                "text": "Code generation for multiple mappings"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This work has developed an algorithm that addresses the important trade-off between reducing control overhead and duplicating code and can also generate code from mappings corresponding to loop blocking."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings Frontiers '95. The Fifth Symposium on the Frontiers of Massively Parallel Computation"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144198209"
+                        ],
+                        "name": "Jingling Xue",
+                        "slug": "Jingling-Xue",
+                        "structuredName": {
+                            "firstName": "Jingling",
+                            "lastName": "Xue",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jingling Xue"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "This class includes a large range of programs which are discussed in depth by Xue [28]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Their properties can be roughly summarized in this way: (1) control statements are do loops with affine bounds and if conditionals with affine conditions (in fact control can be more complex, see [28]); (2) affine bounds and conditions depend only on outer loop counters and constant parameters."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 36748018,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "44a7bab059be297a55d498d9fc043ba79e42a0de",
+            "isKey": false,
+            "numCitedBy": 17,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Transformations-of-Nested-Loops-with-Non-Convex-Xue",
+            "title": {
+                "fragments": [],
+                "text": "Transformations of Nested Loops with Non-Convex Iteration Spaces"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Parallel Comput."
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1704888"
+                        ],
+                        "name": "M. Griebl",
+                        "slug": "M.-Griebl",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Griebl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Griebl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1714483"
+                        ],
+                        "name": "C. Lengauer",
+                        "slug": "C.-Lengauer",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Lengauer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Lengauer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "When the iteration domain is split using affine conditions, as in index set splitting [13], building the partition is trivial, but more general partitions with non-affine criteria are possible as long as we can express each subset as a polyhedron."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9, 12, 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 544299,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "300d44eacdbe223bae586219313278017a322ac2",
+            "isKey": false,
+            "numCitedBy": 67,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "There are many algorithms for the space-time mapping of nested loops. Some of them even make the optimal choices within their framework. We propose a preprocessing phase for algorithms in the polytope model, which extends the model and yields space-time mappings whose schedule is, in some cases, orders of magnitude faster. These are cases in which the dependence graph has small irregularities. The basic idea is to split the index set of the loop nests into parts with a regular dependence structure and apply the existing space-time mapping algorithms to these parts individually. This work is based on a seminal idea in the more limited context of loop parallelization at the code level. We elevate the idea to the model level (our model is the polytope model), which increases its applicability by providing a clearer and wider range of choices at an acceptable analysis cost. Index set splitting is one facet in the effort to extend the power of the polytope model and to enable the generation of competitive target code."
+            },
+            "slug": "Index-Set-Splitting-Griebl-Feautrier",
+            "title": {
+                "fragments": [],
+                "text": "Index Set Splitting"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A preprocessing phase for algorithms in the polytope model is proposed, which extends the model and yields space-time mappings whose schedule is, in some cases, orders of magnitude faster."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1886895"
+                        ],
+                        "name": "P. Clauss",
+                        "slug": "P.-Clauss",
+                        "structuredName": {
+                            "firstName": "Philippe",
+                            "lastName": "Clauss",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Clauss"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Pointing out the most compute intensive parts in the source programs [6] would allow to drive the code generator to avoid meaningless, time and code size consuming control overhead removing."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 18407361,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ffda795cdc17f35d9c976673a1329795f9bc2300",
+            "isKey": false,
+            "numCitedBy": 119,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In order to produce efficient parallel programs, optimizing compilers need to include an analysis of the initial sequential code. When analyzing loops with affine loop bounds, many computations are relevant to the same general problem: counting thenumber ofinteger solutions ofselected free variables in a set of linear and/or nonlinear parameterized constraints. For example, computing the number of flops executed by a loop, of memory locations touched by a loop, of cache lines touched by a loop, or of array elements that need to be transmitted from a processor to another during the execution of a loop, is useful to determine if a loop is load balanced, evaluate message traffic and allocate message buffers. The objective of the presented method is to evaluate symbolically, in terms of symbolic constants (the size parameters), this number of integer solutions. By modeling the considered counting problem as a union of rational convex p olytopes, the number of included integer points is expressed by particular polynomials where the free variables are the size parameters, commonly called Ehrhart polynomials. The paper is illustrated by many examples dealing with parallel program optimization."
+            },
+            "slug": "Counting-solutions-to-linear-and-nonlinear-through-Clauss",
+            "title": {
+                "fragments": [],
+                "text": "Counting solutions to linear and nonlinear constraints through Ehrhart polynomials: applications to analyze and transform scientific programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "The objective of the presented method is to evaluate symbolically, in terms of symbolic constants (the size parameters), this number of integer solutions of selected free variables in a set of linear and/or nonlinear parameterized constraints."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1744256"
+                        ],
+                        "name": "Pierre Boulet",
+                        "slug": "Pierre-Boulet",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Boulet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pierre Boulet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1733001"
+                        ],
+                        "name": "A. Darte",
+                        "slug": "A.-Darte",
+                        "structuredName": {
+                            "firstName": "Alain",
+                            "lastName": "Darte",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Darte"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2192711"
+                        ],
+                        "name": "Georges-Andr\u00e9 Silber",
+                        "slug": "Georges-Andr\u00e9-Silber",
+                        "structuredName": {
+                            "firstName": "Georges-Andr\u00e9",
+                            "lastName": "Silber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Georges-Andr\u00e9 Silber"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "41070781"
+                        ],
+                        "name": "F. Vivien",
+                        "slug": "F.-Vivien",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9d\u00e9ric",
+                            "lastName": "Vivien",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Vivien"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "to be unimodular [1, 17] (the T matrix has to be square and has determinant \u00b11) or at least to be invertible [20, 27, 22, 5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "This method can be compared to using the convex hull of the polyhedra [15, 25, 14, 5], but is more general since it can deal with complex bounds (typically maximum or minimum of parameterized affine constraints e."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9, 12, 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Another way was to generate the code for each polyhedron separately, and then to merge them [14, 5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7804781,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f1206999e216f9622dcc42ab548434361c3cef73",
+            "isKey": true,
+            "numCitedBy": 97,
+            "numCiting": 60,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Loop-Parallelization-Algorithms:-From-Parallelism-Boulet-Darte",
+            "title": {
+                "fragments": [],
+                "text": "Loop Parallelization Algorithms: From Parallelism Extraction to Code Generation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Parallel Comput."
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "For instance we can easily capture the sequential execution order of any static control program with scheduling functions by using the abstract syntax tree of this program [12]: we can read directly such functions for the program in Figure 1 on the AST shown in Figure 2, e."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9, 12, 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Some automatic allocators or schedulers ask for rational transformations [12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 23417662,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "486986fb365f072146cb9648ab408b0c567ae019",
+            "isKey": false,
+            "numCitedBy": 384,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper extends the algorithms which were developed in Part I to cases in which there is no affine schedule, i.e. to problems whose parallel complexity is polynomial but not linear. The natural generalization is to multidimensional schedules with lexicographic ordering as temporal succession. Multidimensional affine schedules, are, in a sense, equivalent to polynomial schedules, and are much easier to handle automatically. Furthermore, there is a strong connection between multidimensional schedules and loop nests, which allows one to prove that a static control program always has a multidimensional schedule. Roughly, a larger dimension indicates less parallelism. In the algorithm which is presented here, this dimension is computed dynamically, and is just sufficient for scheduling the source program. The algorithm lends itself to a \u201cdivide and conquer\u201d strategy. The paper gives some experimental evidence for the applicability, performances and limitations of the algorithm."
+            },
+            "slug": "Some-efficient-solutions-to-the-affine-scheduling-Feautrier",
+            "title": {
+                "fragments": [],
+                "text": "Some efficient solutions to the affine scheduling problem. Part II. Multidimensional time"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 76,
+                "text": "This paper extends the algorithms which were developed in Part I to cases in which there is no affine schedule, i.e. to problems whose parallel complexity is polynomial but not linear, and gives some experimental evidence for the applicability, performances and limitations of the algorithm."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144198209"
+                        ],
+                        "name": "Jingling Xue",
+                        "slug": "Jingling-Xue",
+                        "structuredName": {
+                            "firstName": "Jingling",
+                            "lastName": "Xue",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jingling Xue"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Li and Pingali [20], Xue [27], Darte [9] and Ramanujam [22] relaxed the unimodularity constraint to an invertibility constraint and then proposed to deal with non-unit strides (loop increments can be something different than one)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "to be unimodular [1, 17] (the T matrix has to be square and has determinant \u00b11) or at least to be invertible [20, 27, 22, 5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Many works proposed to use the Hermite Normal Form [23] in different ways to solve the problem [20, 27, 9, 22]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9, 12, 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7811341,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "407d33aed802f2596c96aa0e0107377267c9b856",
+            "isKey": true,
+            "numCitedBy": 54,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Automating-Non-Unimodular-Loop-Transformations-for-Xue",
+            "title": {
+                "fragments": [],
+                "text": "Automating Non-Unimodular Loop Transformations for Massive Parallelism"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Parallel Comput."
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "For instance we can easily capture the sequential execution order of any static control program with scheduling functions by using the abstract syntax tree of this program [ 12 ]: we can read directly such functions for the program in Figure 1 on the AST shown in Figure 2, e.g."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Some automatic allocators or schedulers ask for rational transformations [ 12 ]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9,  12 , 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12851421,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "16de6f9e2bf6ee1068dbca8c9e5446295c904315",
+            "isKey": true,
+            "numCitedBy": 459,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Programs and systems of recurrence equations may be represented as sets of actions which are to be executed subject to precedence constraints. In may cases, actions may be labelled by integral vectors in some iterations domains, and precedence constraints may be described by affine relations. A schedule for such a program is a function which assigns an execution data to each action. Knowledge of such a schedule allows one to estimate the intrinsic degree of parallelism of the program and to compile a parallel version for multiprocessor architectures or systolic arrays. This paper deals with the problem of finding closed form schedules as affine or piecewise affine functions of the iteration vector. An algorithm is presented which reduces the scheduling problem to a parametric linear program of small size, which can be readily solved by an efficient algorithm."
+            },
+            "slug": "Some-efficient-solutions-to-the-affine-scheduling-Feautrier",
+            "title": {
+                "fragments": [],
+                "text": "Some efficient solutions to the affine scheduling problem. I. One-dimensional time"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This paper deals with the problem of finding closed form schedules as affine or piecewise affine functions of the iteration vector and presents an algorithm which reduces the scheduling problem to a parametric linear program of small size, which can be readily solved by an efficient algorithm."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2776445"
+                        ],
+                        "name": "H. L. Verge",
+                        "slug": "H.-L.-Verge",
+                        "structuredName": {
+                            "firstName": "Herv\u00e9",
+                            "lastName": "Verge",
+                            "middleNames": [
+                                "Le"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. L. Verge"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8910550"
+                        ],
+                        "name": "V. V. Dongen",
+                        "slug": "V.-V.-Dongen",
+                        "structuredName": {
+                            "firstName": "Vincent",
+                            "lastName": "Dongen",
+                            "middleNames": [
+                                "Van"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. V. Dongen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143860773"
+                        ],
+                        "name": "D. Wilde",
+                        "slug": "D.-Wilde",
+                        "structuredName": {
+                            "firstName": "Doran",
+                            "lastName": "Wilde",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Wilde"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 674192,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "306d743554dea6937220467158d90477be1805b8",
+            "isKey": false,
+            "numCitedBy": 31,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Lo opNestSynthesisusingthePolyhedralLibraryHerv\u0013e LeVerge,Vincent Van DongenandDoranK. WildeProgramme 1 | Architectures parall\u0012eles, bases de donn\u0013ees, reseaux et systemes distribuesPro jet APIRapp ort de recherchen\u00172288 | May 1994 | 7 pagesAbstract:Anewmetho dtosynthesislo opnestsgivenap olyhedraldomain,thecontextdomain,andthelo opnestingorderisdescrib ed.Themetho dbasedonfunctionsinIRISAp olyhedrallibrary.Key-words:Polyhedral scanning problem(R\u0013esume :tsvp)email:vandonge@drebin.crim.caWorkingat CRIM (Centre de recherche Informatique de Montr\u0013eal), 1801Mc Gill college suite 800, H3A 2N4, Montreal, Canadaemail:wilde@irisa.frThis workwaspartiallysupp ortedbytheEspritBasicResearchActionNANA2,Numb er 6632 and by NSF Grant No. MIP-910852."
+            },
+            "slug": "Loop-nest-synthesis-using-the-polyhedral-library-Verge-Dongen",
+            "title": {
+                "fragments": [],
+                "text": "Loop nest synthesis using the polyhedral library"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "Anewmetho dtosynthesislo opnests givenap olyhedraldomain, the contextdomain, and thelo opnesting orderisdescrib ed.Themetha dbased onfunctions inIRISAp olyhedrallibrary."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143860773"
+                        ],
+                        "name": "D. Wilde",
+                        "slug": "D.-Wilde",
+                        "structuredName": {
+                            "firstName": "Doran",
+                            "lastName": "Wilde",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Wilde"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 122619002,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "b912cf5f477a6e81c623097906645882fddc0fb1",
+            "isKey": false,
+            "numCitedBy": 236,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Abstract The design and implementation of a library of C-code procedures to perform operations on rational polyhedra is described. The library supports intersection, union, difference, simplification in context, convex hull, affine image, affine preimage, and computation of dual forms. Since not all of these functions are closed over polyhedra, the library is extended to operate on finite unions of polyhedra. The major design decisions made during the implementation of the library are discussed. The data structure used for representing finite unions of polyhedra is developed and validity rules for the representation of polyhedra are derived. And finally, the algorithms used to implement the various functions in the library are presented."
+            },
+            "slug": "A-LIBRARY-FOR-DOING-POLYHEDRAL-OPERATIONS-Wilde",
+            "title": {
+                "fragments": [],
+                "text": "A LIBRARY FOR DOING POLYHEDRAL OPERATIONS"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 87,
+                "text": "The design and implementation of a library of C-code procedures to perform operations on rational polyhedra to support intersection, union, difference, simplification in context, convex hull, affine image, affines preimage, and computation of dual forms is described."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145981817"
+                        ],
+                        "name": "J. Ramanujam",
+                        "slug": "J.-Ramanujam",
+                        "structuredName": {
+                            "firstName": "J.",
+                            "lastName": "Ramanujam",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Ramanujam"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 136,
+                                "start": 103
+                            }
+                        ],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9, 12, 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 124,
+                                "start": 109
+                            }
+                        ],
+                        "text": "to be unimodular [1, 17] (the T matrix has to be square and has determinant \u00b11) or at least to be invertible [20, 27, 22, 5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 17,
+                                "start": 8
+                            }
+                        ],
+                        "text": "[22] J. Ramanujam."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 110,
+                                "start": 95
+                            }
+                        ],
+                        "text": "Many works proposed to use the Hermite Normal Form [23] in different ways to solve the problem [20, 27, 9, 22]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 59,
+                                "start": 55
+                            }
+                        ],
+                        "text": "Li and Pingali [20], Xue [27], Darte [9] and Ramanujam [22] relaxed the unimodularity constraint to an invertibility constraint a nd then proposed to deal with non-unit strides (loop increment s can be something different than one)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 54,
+                                "start": 45
+                            }
+                        ],
+                        "text": "Li and Pingali \n[20], Xue [27], Darte [9] and Ramanujam [22] relaxed the unimodularity constraint to an invertibility \nconstraint and then proposed to deal with non-unit strides (loop increments can be something different \nthan one)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 8771515,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5453182a051b70e1731395b9dcad2e389b73cf99",
+            "isKey": true,
+            "numCitedBy": 31,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents an approach to modeling loop transformations using linear algebra. Compound transformations are modeled as integer matrices. The nonsingular linear transformations presented here subsume the class of unimodular transformations. The loop transformations included are the unimodular transformations-reversal, skewing, and permutation- and a new transformation, namelystretching. Nonunimodular transformations (with determinant \u2265 1) create \u201choles\u201d in the transformed iteration space, rendering code generation difficult. We solve this problem by suitably changing the step size of loops in order to \u201cskip\u201d these holes when traversing the transformed iteration space. For the class of nonunimodular loop transformations, we present algorithms for deriving the loop bounds, the array access expressions, and the step sizes of loops in the nest. To derive the step sizes, we compute the Hermite normal form of the transformation matrix; the step sizes are the entries on the diagonal of this matrix. We then use the theory of Hessenberg matrices in the derivation of exact loop bounds for nonunimodular transformations. We illustrate the use of this approach in several problems such as the generation of tile sets and distributed-memory code generation. This approach provides a framework for optimizing programs for a variety of architectures."
+            },
+            "slug": "Beyond-unimodular-transformations-Ramanujam",
+            "title": {
+                "fragments": [],
+                "text": "Beyond unimodular transformations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 64,
+                "text": "This paper presents an approach to modeling loop transformations using linear algebra and uses the theory of Hessenberg matrices in the derivation of exact loop bounds for nonunimodular transformations, providing a framework for optimizing programs for a variety of architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The Journal of Supercomputing"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 5738544,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7cd685371e267a499ded869a934a4cffed591aec",
+            "isKey": false,
+            "numCitedBy": 454,
+            "numCiting": 52,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Given a program written in a simple imperative language (assignment statements,for loops, affine indices and loop limits), this paper presents an algorithm for analyzing the patterns along which values flow as the execution proceeds. For each array or scalar reference, the result is the name and iteration vector of the source statement as a function of the iteration vector of the referencing statement. The paper discusses several applications of the method: conversion of a program to a set of recurrence equations, array and scalar expansion, program verification and parallel program construction."
+            },
+            "slug": "Dataflow-analysis-of-array-and-scalar-references-Feautrier",
+            "title": {
+                "fragments": [],
+                "text": "Dataflow analysis of array and scalar references"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 52,
+                "text": "This paper presents an algorithm for analyzing the patterns along which values flow as the execution proceeds, and discusses several applications of the method: conversion of a program to a set of recurrence equations, array and scalar expansion, program verification and parallel program construction."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1733001"
+                        ],
+                        "name": "A. Darte",
+                        "slug": "A.-Darte",
+                        "structuredName": {
+                            "firstName": "Alain",
+                            "lastName": "Darte",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Darte"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145552986"
+                        ],
+                        "name": "Y. Robert",
+                        "slug": "Y.-Robert",
+                        "structuredName": {
+                            "firstName": "Yves",
+                            "lastName": "Robert",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Robert"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 136,
+                                "start": 103
+                            }
+                        ],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9, 12, 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 18
+                            }
+                        ],
+                        "text": "\u00b4 [5] P. Boulet, A. Darte, G.-A. Silber, and F. Vivien."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 110,
+                                "start": 95
+                            }
+                        ],
+                        "text": "Many works proposed to use the Hermite Normal Form [23] in different ways to solve the problem [20, 27, 9, 22]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 37
+                            }
+                        ],
+                        "text": "Li and Pingali [20], Xue [27], Darte [9] and Ramanujam [22] relaxed the unimodularity constraint to an invertibility constraint a nd then proposed to deal with non-unit strides (loop increment s can be something different than one)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 12,
+                                "start": 7
+                            }
+                        ],
+                        "text": "[9] A. Darte and Y. Robert."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 31
+                            }
+                        ],
+                        "text": "Li and Pingali \n[20], Xue [27], Darte [9] and Ramanujam [22] relaxed the unimodularity constraint to an invertibility \nconstraint and then proposed to deal with non-unit strides (loop increments can be something different \nthan one)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 1428972,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e8b606391c6eaf78d1f70bb3c3961f291964002a",
+            "isKey": true,
+            "numCitedBy": 67,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Mapping-Uniform-Loop-Nests-Onto-Distributed-Memory-Darte-Robert",
+            "title": {
+                "fragments": [],
+                "text": "Mapping Uniform Loop Nests Onto Distributed Memory Architectures"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Parallel Comput."
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1689196"
+                        ],
+                        "name": "A. Schrijver",
+                        "slug": "A.-Schrijver",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Schrijver",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Schrijver"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 37
+                            }
+                        ],
+                        "text": "They all use the Hermite Normal Form [23] to find the strides, and the classical Fourier-Motzkin elimination to compute the loop bounds."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 17
+                            }
+                        ],
+                        "text": "They all use the Her\u00admite Normal Form [23] to .nd the strides, and the classical dant guards \n[15]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 70,
+                                "start": 66
+                            }
+                        ],
+                        "text": "a set of points in aZ vector space bounded by affine inequalities [23]: D = { ~x | ~x \u2208 Z, A~x \u2265 ~c }"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 55,
+                                "start": 51
+                            }
+                        ],
+                        "text": "Many works proposed to use the Hermite Normal Form [23] in different ways to solve the problem [20, 27, 9, 22]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 78,
+                                "start": 74
+                            }
+                        ],
+                        "text": "Their seminal work was based on the Fourier-Motzkin pair-wise elimination [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 31
+                            }
+                        ],
+                        "text": "Many works proposed to use the Her\u00admite Normal Form [23] in different \nways to solve the prob\u00adlem [20, 27, 9, 22]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 29180149,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "3ce2d233cee585ecff73729836918ba87195c18f",
+            "isKey": true,
+            "numCitedBy": 4874,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Introduction and Preliminaries. Problems, Algorithms, and Complexity. LINEAR ALGEBRA. Linear Algebra and Complexity. LATTICES AND LINEAR DIOPHANTINE EQUATIONS. Theory of Lattices and Linear Diophantine Equations. Algorithms for Linear Diophantine Equations. Diophantine Approximation and Basis Reduction. POLYHEDRA, LINEAR INEQUALITIES, AND LINEAR PROGRAMMING. Fundamental Concepts and Results on Polyhedra, Linear Inequalities, and Linear Programming. The Structure of Polyhedra. Polarity, and Blocking and Anti--Blocking Polyhedra. Sizes and the Theoretical Complexity of Linear Inequalities and Linear Programming. The Simplex Method. Primal--Dual, Elimination, and Relaxation Methods. Khachiyana s Method for Linear Programming. The Ellipsoid Method for Polyhedra More Generally. Further Polynomiality Results in Linear Programming. INTEGER LINEAR PROGRAMMING. Introduction to Integer Linear Programming. Estimates in Integer Linear Programming. The Complexity of Integer Linear Programming. Totally Unimodular Matrices: Fundamental Properties and Examples. Recognizing Total Unimodularity. Further Theory Related to Total Unimodularity. Integral Polyhedra and Total Dual Integrality. Cutting Planes. Further Methods in Integer Linear Programming. References. Indexes."
+            },
+            "slug": "Theory-of-linear-and-integer-programming-Schrijver",
+            "title": {
+                "fragments": [],
+                "text": "Theory of linear and integer programming"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Wiley-Interscience series in discrete mathematics and optimization"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3050922"
+                        ],
+                        "name": "Corinne Ancourt",
+                        "slug": "Corinne-Ancourt",
+                        "structuredName": {
+                            "firstName": "Corinne",
+                            "lastName": "Ancourt",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Corinne Ancourt"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2912411"
+                        ],
+                        "name": "F. Irigoin",
+                        "slug": "F.-Irigoin",
+                        "structuredName": {
+                            "firstName": "Fran\u00e7ois",
+                            "lastName": "Irigoin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Irigoin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 33
+                            }
+                        ],
+                        "text": "References [1] C. Ancourt and F. Irigoin."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 24,
+                                "start": 17
+                            }
+                        ],
+                        "text": "to be unimodular [1, 17] (the T matrix has to be square and has determinant \u00b11) or at least to be invertible [20, 27, 22, 5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 80
+                            }
+                        ],
+                        "text": "Another method makes successive projections of the polyhedron on the axis as in [1] but use the Chernikova algorithm [18] to work with a polyhedron represented as a set of rays and vertices [19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 32,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Related Work Ancourt and Irigoin \n[1] proposed the .rst solution to the polyhedron scanning problem."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 33
+                            }
+                        ],
+                        "text": "Related Work Ancourt and Irigoin [1] proposed the first solution to the polyhedron scanning problem."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1469859,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6f4f362af709c2890db6c6f920d0b565c91b4521",
+            "isKey": true,
+            "numCitedBy": 376,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "HAL is a multi-disciplinary open access archive for the deposit and dissemination of scientific research documents, whether they are published or not. The documents may come from teaching and research institutions in France or abroad, or from public or private research centers. L\u2019archive ouverte pluridisciplinaire HAL, est destin\u00e9e au d\u00e9p\u00f4t et \u00e0 la diffusion de documents scientifiques de niveau recherche, publi\u00e9s ou non, \u00e9manant des \u00e9tablissements d\u2019enseignement et de recherche fran\u00e7ais ou \u00e9trangers, des laboratoires publics ou priv\u00e9s. Scanning polyhedra with DO loops Corinne Ancourt, Fran\u00e7ois Irigoin"
+            },
+            "slug": "Scanning-polyhedra-with-DO-loops-Ancourt-Irigoin",
+            "title": {
+                "fragments": [],
+                "text": "Scanning polyhedra with DO loops"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 90,
+                "text": "HAL is a multi-disciplinary open access archive for the deposit and dissemination of scientific research documents, whether they are published or not, for teaching and research institutions in France or abroad, or from public or private research centers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PPOPP '91"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "150124301"
+                        ],
+                        "name": "H. Le Verge",
+                        "slug": "H.-Le-Verge",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "Le Verge",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Le Verge"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 121,
+                                "start": 117
+                            }
+                        ],
+                        "text": "Another method makes successive projections of the polyhedron on the axis as in [1] but use the Chernikova algorithm [18] to work with a polyhedron represented as a set of rays and vertices [19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14014078,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "9c8f9215de4cb4592dffb4fdaa18538905270325",
+            "isKey": false,
+            "numCitedBy": 108,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes an implementation of Chernikova's algorithm for nding an irredundant set of vertices for a given polyhedron de-ned by a set of linear inequalities and equations. This algorithm can also be used for the dual problem: given a set of extremal rays and vertices, nd the associated irredundant set of facet supporting hyper-planes. The method is an extension of initial Chernikova's algorithm (nonnegative domain), and is mainly based on the polyhedral cone duality principle. A new enhancement for extremal ray detection is presented together with its eeects on a class of polyedra."
+            },
+            "slug": "A-Note-on-Chernikova's-Algorithm-Verge",
+            "title": {
+                "fragments": [],
+                "text": "A Note on Chernikova's Algorithm"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1413119573"
+                        ],
+                        "name": "M. L. Fur",
+                        "slug": "M.-L.-Fur",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Fur",
+                            "middleNames": [
+                                "Le"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. L. Fur"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 171832331,
+            "fieldsOfStudy": [
+                "Philosophy"
+            ],
+            "id": "a52db2f8a8af1041dba5e891ebeaf547c44171c6",
+            "isKey": false,
+            "numCitedBy": 7,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Ce rapport presente deux algorithmes calculant une structure de controle dont l'execution enumere les vecteurs entiers d'un polyedre parametre dans un certain contexte. Les algorithmes reprennent la methode des projections successives, basee sur l'elimination par paires de Fourier-Motzkin, definie par Ancourt et Irigoin dans le cas non parametre. La politique de suppression des contraintes redondantes generees par l'elimination par paires est revue afin de reduire le temps de synthese des parcours pour des polyedres de complexite geometrique superieure et ameliorer le temps d'execution des parcours produits. Les algorithmes presentes servent de base a la generation de code dans le prototype de compilateur Pandore developpe a l'IRISA ; une comparaison entre ces algorithmes et celui defini par Ancourt et Irigoin est donnee sur la classe des polyedres manipules par le compilateur Pandore."
+            },
+            "slug": "Parcours-de-poly\u00e8dre-param\u00e9tr\u00e9-avec-l'\u00e9limination-Fur",
+            "title": {
+                "fragments": [],
+                "text": "Parcours de poly\u00e8dre param\u00e9tr\u00e9 avec l'\u00e9limination de Fourier-Motzkin"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1886895"
+                        ],
+                        "name": "P. Clauss",
+                        "slug": "P.-Clauss",
+                        "structuredName": {
+                            "firstName": "Philippe",
+                            "lastName": "Clauss",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Clauss"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 72,
+                                "start": 69
+                            }
+                        ],
+                        "text": "Pointing out the most compute intensive parts in the source programs [6] would allow to drive the code generator to avoid meaningless, time and code size consuming control overhead removing."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8103161,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e7fe67420031a438cd917d1fbc6b47a1d6ed09be",
+            "isKey": false,
+            "numCitedBy": 98,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Ehrhart polynomials are amazing mathematical objects that I discovered in the early 90\u2019s and that have many applications in computer science. This retrospective relates my personal and scientific experience regarding this research work, my meeting with the mathematician Eug\u00e8ne Ehrhart, and addresses some extensions and perspectives of further developments. Original paper: http://dx.doi.org/10.1145/237578.237617"
+            },
+            "slug": "Counting-solutions-to-linear-and-nonlinear-through-Clauss",
+            "title": {
+                "fragments": [],
+                "text": "Counting solutions to linear and nonlinear constraints through Ehrhart polynomials: applications to analyze and transform scientific programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This retrospective relates the personal and scientific experience regarding this research work, the meeting with the mathematician Eug\u00e8ne Ehrhart, and addresses some extensions and perspectives of further developments."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICS '96"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 116,
+                                "start": 112
+                            }
+                        ],
+                        "text": "[7] presented a loop bound calculation technique based on a parameterized version of the dual simplex algorithm [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 58913364,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "d6613b9ca5b21506b56b004be7593d9d40fb84da",
+            "isKey": false,
+            "numCitedBy": 472,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "L'analyse semantique des programmes informatiques conduit a la resolution de problemes de programmation parametrique entiere. L'article s'est ainsi consacre a la construction d'un algorithme de ce type"
+            },
+            "slug": "Parametric-integer-programming-Feautrier",
+            "title": {
+                "fragments": [],
+                "text": "Parametric integer programming"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1988
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 408,
+                                "start": 403
+                            }
+                        ],
+                        "text": "Code generation of static \ncontrol parts in high-performance applications We compared the results achieved by our code generator, \nCLooG2, with a previous implementation of the Quiller \u00b4eet al. algorithm, LoopGen 0.4 [21] (the differences \nbetween CLooG and LoopGen are a direct consequence of the im\u00adprovements discussed in this paper), and \nthe most widely used code generator in the polyhedral model, i.e. Omega s CodeGen 1.2 [15]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 85,
+                                "start": 70
+                            }
+                        ],
+                        "text": "This method can be compared to using the convex hull of the polyhedra [15, 25, 14, 5], but is more general since it can deal with complex bounds (typically maximum or minimum of parameterized affine constraints e."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 183,
+                                "start": 179
+                            }
+                        ],
+                        "text": "The problem of scanning more than one polyhedron in the same code was firstly solved by generating a naive perfectly nested code and then (partially) eliminating redundant guards [15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 78,
+                                "start": 74
+                            }
+                        ],
+                        "text": "It is possible to manage it easily with iterative code generation methods [15]: they start from a naive (inefficient) and short code and eliminate the control overhead by selecting conditions to remove and performing code hoisting (splitting the code on the chosen condition and copying the original guarded code in the two branches)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 84
+                            }
+                        ],
+                        "text": "These problems are considered to be hard: previously related experiences with Omega [15] or LooPo [14] showed how it was challenging to producing efficient code just for ten or so polyhedra without time or memory explosion."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 97,
+                                "start": 92
+                            }
+                        ],
+                        "text": "Figure 6 shows \na dramatic exam\u00adple of this phenomenon (hoisting-based code generators as the Omega CodeGen have to meet \nthe same issue)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 238,
+                                "start": 233
+                            }
+                        ],
+                        "text": "LoopGen gener\u00adates larger code, while our code and the CodeGen code are 2 CLooG \nis available at http://www.prism.uvsq.fr/~cedb 3 We only consider the code generation ability: for technical \nreasons, we did not check the correctness of Omega s CodeGen results."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 78
+                            }
+                        ],
+                        "text": "These problems are considered to be hard: \npre\u00adviously related experiences with Omega [15] or LooPo [14] showed how it was challenging to producing \nef.cient code just for ten or so polyhedra without time or memory explo\u00adsion."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Code generation for mul tiple mappings"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "InFrontiers\u201995 Symposium on the frontiers of massively parallel computation  , McLean,"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 139,
+                                "start": 135
+                            }
+                        ],
+                        "text": "relaxed the invertibility constraint and proposed to deal with arbitra ry matrix by using a square invertible extension of this matrix [14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 85,
+                                "start": 70
+                            }
+                        ],
+                        "text": "This method can be compared to using the convex hull of the polyhedra [15, 25, 14, 5], but is more general since it can deal with complex bounds (typically maximum or minimum of parameterized affine constraints e."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 98
+                            }
+                        ],
+                        "text": "These problems are considered to be hard: previously related experiences with Omega [15] or LooPo [14] showed how it was challenging to producing efficient code just for ten or so polyhedra without time or memory explosion."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 97,
+                                "start": 92
+                            }
+                        ],
+                        "text": "These problems are considered to be hard: \npre\u00adviously related experiences with Omega [15] or LooPo [14] showed how it was challenging to producing \nef.cient code just for ten or so polyhedra without time or memory explo\u00adsion."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 135,
+                                "start": 131
+                            }
+                        ],
+                        "text": "proposed the first relaxation of the invertibility constraint, by using a square invertible extension of the transformation matrix [14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 92
+                            }
+                        ],
+                        "text": "Another way was to generate the code for each polyhedron separately, and then to merge them [14, 5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Code generation i n the polytope model"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "InPACT\u201998 Int. Conf. on Parallel Architectures and Compilation Techniques  , pages 106\u2013111,"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 143,
+                                "start": 133
+                            }
+                        ],
+                        "text": "Experimental Results We implemented this algorithm and integrated \nit into a complete polyhedral transformation infrastructure inside Open64/ORC [3]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 124
+                            }
+                        ],
+                        "text": "We implemented this algorithm and integrated it into a complete polyhedral transformation infrastructure insi de Open64/ORC [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 123,
+                                "start": 120
+                            }
+                        ],
+                        "text": "Mor eover it adresses a class of codes with very regular control that includes a large range of real-life program parts [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Putting polyhedral transformations to work"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LCPC\u201916 International Workshop on Languages and Compilers for Parallel Computers, LNCS 2958  , pages 209\u2013225, College Station, october"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 85,
+                                "start": 70
+                            }
+                        ],
+                        "text": "This method can be compared to using the convex hull of the polyhedra [15, 25, 14, 5], but is more general since it can deal with complex bounds (typically maximum or minimum of parameterized affine constraints e."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 124,
+                                "start": 109
+                            }
+                        ],
+                        "text": "to be unimodular [1, 17] (the T matrix has to be square and has determinant \u00b11) or at least to be invertible [20, 27, 22, 5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 136,
+                                "start": 103
+                            }
+                        ],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9, 12, 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 92
+                            }
+                        ],
+                        "text": "Another way was to generate the code for each polyhedron separately, and then to merge them [14, 5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Loop par allelization algorithms: From parallelism extraction to c  de generation.Parallel"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "69998330"
+                        ],
+                        "name": "D. L. Kuck",
+                        "slug": "D.-L.-Kuck",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Kuck",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. L. Kuck"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 155,
+                                "start": 151
+                            }
+                        ],
+                        "text": "When a statement is surrounded with static control, its iteration domain can always be specified by a set of linear inequalities defining a polyhedron [16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 60827809,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e06ad6164946b5593727f43456b35e343d2c694e",
+            "isKey": false,
+            "numCitedBy": 533,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "The-Structure-of-Computers-and-Computations-Kuck",
+            "title": {
+                "fragments": [],
+                "text": "The Structure of Computers and Computations"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1978
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2095770923"
+                        ],
+                        "name": "Youcef Bouchebaba",
+                        "slug": "Youcef-Bouchebaba",
+                        "structuredName": {
+                            "firstName": "Youcef",
+                            "lastName": "Bouchebaba",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Youcef Bouchebaba"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The problem was first pointed out by Bouchebaba in the particular case of 2dimensional loop nest fusion [4]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9, 12, 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 59743791,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ba0aea28951347e3e48e37152c9c4b2246851860",
+            "isKey": false,
+            "numCitedBy": 7,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Optimisation-des-transferts-de-donn\u00e9es-pour-le-du-:-Bouchebaba",
+            "title": {
+                "fragments": [],
+                "text": "Optimisation des transferts de donn\u00e9es pour le traitement du signal : pavage, fusion et r\u00e9allocation des tableaux"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "10609611"
+                        ],
+                        "name": "J. Collard",
+                        "slug": "J.-Collard",
+                        "structuredName": {
+                            "firstName": "Jean-Francois",
+                            "lastName": "Collard",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Collard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144708005"
+                        ],
+                        "name": "T. Risset",
+                        "slug": "T.-Risset",
+                        "structuredName": {
+                            "firstName": "Tanguy",
+                            "lastName": "Risset",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Risset"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "[7] presented a loop bound calculation technique based on a parameterized version of the dual simplex algorithm [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 153827,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "19bb0a9c4acb3b361f2c9360c4205ef8f5cd4a4b",
+            "isKey": false,
+            "numCitedBy": 79,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Most parallelization techniques for $\\mathtt{DO}$ loop nests are based on reindexation. Reindexation yields a new iteration space, which is a convex integer polyhedron defined by a set of affine co..."
+            },
+            "slug": "Construction-of-Do-Loops-from-Systems-of-Affine-Collard-Risset",
+            "title": {
+                "fragments": [],
+                "text": "Construction of Do Loops from Systems of Affine Constraints"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 87,
+                "text": "Most parallelization techniques for loop nests are based on reindexation, which yields a new iteration space, which is a convex integer polyhedron defined by a set of affine co..."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Parallel Process. Lett."
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1743057"
+                        ],
+                        "name": "P. Cousot",
+                        "slug": "P.-Cousot",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Cousot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Cousot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2578040"
+                        ],
+                        "name": "N. Halbwachs",
+                        "slug": "N.-Halbwachs",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Halbwachs",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Halbwachs"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 147,
+                                "start": 144
+                            }
+                        ],
+                        "text": "Another way to reduce both complexity and code versioning is to find the affine constraints on and between every static control part parameters [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16411662,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9682764c975072f7c5da3a148654881282e45f98",
+            "isKey": false,
+            "numCitedBy": 1710,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Automatic-discovery-of-linear-restraints-among-of-a-Cousot-Halbwachs",
+            "title": {
+                "fragments": [],
+                "text": "Automatic discovery of linear restraints among variables of a program"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL"
+            },
+            "year": 1978
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Putting polyhedral transformations to work College Station"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LCPC'16 International Workshop on Languages and Compilers for Parallel Computers"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Automatic code generation in the polytope model. Master's thesis"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Automatic code generation in the polytope model. Master's thesis"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 105,
+                                "start": 101
+                            }
+                        ],
+                        "text": "It corresponds to a subset of imperative languages like C or FORTRAN known as static control programs[11]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Dataflow analysis of scalar and array refe rences"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming  , 20(1):23\u2013 53, february"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Proceedings of the 13th International Conference on Parallel Architecture and Compilation Techniques (PACT'04) 1089-795X/04 $ 20"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 13th International Conference on Parallel Architecture and Compilation Techniques (PACT'04) 1089-795X/04 $ 20"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 162,
+                                "start": 158
+                            }
+                        ],
+                        "text": "Wetzel proposed the first solution to sol ve this problem, but only for one divisor value for the whole scattering function, and leading to a complex control [25]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 85,
+                                "start": 70
+                            }
+                        ],
+                        "text": "This method can be compared to using the convex hull of the polyhedra [15, 25, 14, 5], but is more general since it can deal with complex bounds (typically maximum or minimum of parameterized affine constraints e."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Automatic code generation in the polytope mo  del"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Master\u2019s thesis, Facult\u00e4t f\u00fcr Mathematik und Informatik  , Universit\u00e4t Passau,"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Vers l'extension du mod\u00e8le poly\u00e9drique aux transformationsirr\u00e9gul\u00ec eres"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CARI'5 International Conference on African Research in Computer Science"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 102
+                            }
+                        ],
+                        "text": "It corresponds to a subset of imperative languages like C or FORTRAN known as static control programs [11]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Dataflow analysis of scalar and array references"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming,"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Joris Huizer Code Generation in the Polyhedral Model Is Easier Than You T Quiller\u00e9 Algorithm: example (7) new state,graphically Joris Huizer Code Generation in the Polyhedral Model Is Easier Than You"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Joris Huizer Code Generation in the Polyhedral Model Is Easier Than You T Quiller\u00e9 Algorithm: example (7) new state,graphically Joris Huizer Code Generation in the Polyhedral Model Is Easier Than You"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 84
+                            }
+                        ],
+                        "text": "When the iteration domain is split using affine conditions, as inindex set splitting[13], building the partition is trivial, but more general partitions with non-affine crit e a are possible as long as we can express each subset as a polyhedron."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 136,
+                                "start": 103
+                            }
+                        ],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9, 12, 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Index set spli  tting"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Int. Journal of Parallel Programming  , 28(6):607\u2013631,"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 68,
+                                "start": 64
+                            }
+                        ],
+                        "text": "They propose a code generation scheme dedicated to this problem [24]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 136,
+                                "start": 103
+                            }
+                        ],
+                        "text": "Finding suitable execution orders has been the subject of most of the research on the polyhedral model [4, 5, 9, 12, 13, 20, 22, 24, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Vers l\u2019extension du mod\u00e8le poly\u00e9drique aux transformations irr\u00e9guli\u00e8res"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CARI\u20195 International Conference on African Research in Computer Science, Antananarivo, october"
+            },
+            "year": 2000
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 28,
+            "methodology": 22
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 41,
+        "totalPages": 5
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Code-generation-in-the-polyhedral-model-is-easier-Bastoul/d2f48fb9fd31390c56609f00510accf5c56f9f9b?sort=total-citations"
+}

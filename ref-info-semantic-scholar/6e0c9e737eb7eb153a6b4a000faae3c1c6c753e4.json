@@ -1,0 +1,4052 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401885963"
+                        ],
+                        "name": "Jonathan Ragan-Kelley",
+                        "slug": "Jonathan-Ragan-Kelley",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Ragan-Kelley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Ragan-Kelley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1801789"
+                        ],
+                        "name": "M. Levoy",
+                        "slug": "M.-Levoy",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Levoy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Levoy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 63,
+                                "start": 39
+                            }
+                        ],
+                        "text": "Similar to Halide and other languages [Ragan-Kelley et al. 2012], Darkroom specifies image processing algorithms as functional DAGs of local image operations."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 103
+                            }
+                        ],
+                        "text": "Halide is an image processing language that has a separate algorithm language and scheduling language [Ragan-Kelley et al. 2012]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 152,
+                                "start": 128
+                            }
+                        ],
+                        "text": "Its programming model is similar to prior work on image processing, such as Popi, Pan, and Halide [Holzmann 1988; Elliott 2001; Ragan-Kelley et al. 2012]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9001340,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3e06546182d5a36796a0f48e70151bf1d38e094d",
+            "isKey": false,
+            "numCitedBy": 247,
+            "numCiting": 51,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Using existing programming tools, writing high-performance image processing code requires sacrificing readability, portability, and modularity. We argue that this is a consequence of conflating what computations define the algorithm, with decisions about storage and the order of computation. We refer to these latter two concerns as the schedule, including choices of tiling, fusion, recomputation vs. storage, vectorization, and parallelism. We propose a representation for feed-forward imaging pipelines that separates the algorithm from its schedule, enabling high-performance without sacrificing code clarity. This decoupling simplifies the algorithm specification: images and intermediate buffers become functions over an infinite integer domain, with no explicit storage or boundary conditions. Imaging pipelines are compositions of functions. Programmers separately specify scheduling strategies for the various functions composing the algorithm, which allows them to efficiently explore different optimizations without changing the algorithmic code. We demonstrate the power of this representation by expressing a range of recent image processing applications in an embedded domain specific language called Halide, and compiling them for ARM, x86, and GPUs. Our compiler targets SIMD units, multiple cores, and complex memory hierarchies. We demonstrate that it can handle algorithms such as a camera raw pipeline, the bilateral grid, fast local Laplacian filtering, and image segmentation. The algorithms expressed in our language are both shorter and faster than state-of-the-art implementations."
+            },
+            "slug": "Decoupling-algorithms-from-schedules-for-easy-of-Ragan-Kelley-Adams",
+            "title": {
+                "fragments": [],
+                "text": "Decoupling algorithms from schedules for easy optimization of image processing pipelines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This work proposes a representation for feed-forward imaging pipelines that separates the algorithm from its schedule, enabling high-performance without sacrificing code clarity, and demonstrates the power of this representation by expressing a range of recent image processing applications in an embedded domain specific language called Halide and compiling them for ARM, x86, and GPUs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Graph."
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401885963"
+                        ],
+                        "name": "Jonathan Ragan-Kelley",
+                        "slug": "Jonathan-Ragan-Kelley",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Ragan-Kelley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Ragan-Kelley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2496412"
+                        ],
+                        "name": "Connelly Barnes",
+                        "slug": "Connelly-Barnes",
+                        "structuredName": {
+                            "firstName": "Connelly",
+                            "lastName": "Barnes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Connelly Barnes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 216,
+                                "start": 192
+                            }
+                        ],
+                        "text": "Halide\u2019s programming and scheduling models are more general than Darkroom, but as a result, automatically optimizing programs requires an expensive brute-force search process using autotuning [Ragan-Kelley et al. 2013]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5885207,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4d23db55e6671a82c95dacec33b2967a4b8b677d",
+            "isKey": false,
+            "numCitedBy": 878,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Image processing pipelines combine the challenges of stencil computations and stream programs. They are composed of large graphs of different stencil stages, as well as complex reductions, and stages with global or data-dependent access patterns. Because of their complex structure, the performance difference between a naive implementation of a pipeline and an optimized one is often an order of magnitude. Efficient implementations require optimization of both parallelism and locality, but due to the nature of stencils, there is a fundamental tension between parallelism, locality, and introducing redundant recomputation of shared values. We present a systematic model of the tradeoff space fundamental to stencil pipelines, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule. Combining this compiler with stochastic search over the space of schedules enables terse, composable programs to achieve state-of-the-art performance on a wide range of real image processing pipelines, and across different hardware architectures, including multicores with SIMD, and heterogeneous CPU+GPU execution. From simple Halide programs written in a few hours, we demonstrate performance up to 5x faster than hand-tuned C, intrinsics, and CUDA implementations optimized by experts over weeks or months, for image processing applications beyond the reach of past automatic compilers."
+            },
+            "slug": "Halide:-a-language-and-compiler-for-optimizing-and-Ragan-Kelley-Barnes",
+            "title": {
+                "fragments": [],
+                "text": "Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A systematic model of the tradeoff space fundamental to stencil pipelines is presented, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37116969"
+                        ],
+                        "name": "R. Hameed",
+                        "slug": "R.-Hameed",
+                        "structuredName": {
+                            "firstName": "Rehan",
+                            "lastName": "Hameed",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Hameed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2872576"
+                        ],
+                        "name": "W. Qadeer",
+                        "slug": "W.-Qadeer",
+                        "structuredName": {
+                            "firstName": "Wajahat",
+                            "lastName": "Qadeer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Qadeer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40402375"
+                        ],
+                        "name": "M. Wachs",
+                        "slug": "M.-Wachs",
+                        "structuredName": {
+                            "firstName": "Megan",
+                            "lastName": "Wachs",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wachs"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2096950929"
+                        ],
+                        "name": "Omid Azizi",
+                        "slug": "Omid-Azizi",
+                        "structuredName": {
+                            "firstName": "Omid",
+                            "lastName": "Azizi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Omid Azizi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3344899"
+                        ],
+                        "name": "A. Solomatnikov",
+                        "slug": "A.-Solomatnikov",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Solomatnikov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Solomatnikov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152840677"
+                        ],
+                        "name": "Benjamin C. Lee",
+                        "slug": "Benjamin-C.-Lee",
+                        "structuredName": {
+                            "firstName": "Benjamin",
+                            "lastName": "Lee",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benjamin C. Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145326337"
+                        ],
+                        "name": "S. Richardson",
+                        "slug": "S.-Richardson",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "Richardson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Richardson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1700331"
+                        ],
+                        "name": "C. Kozyrakis",
+                        "slug": "C.-Kozyrakis",
+                        "structuredName": {
+                            "firstName": "Christoforos",
+                            "lastName": "Kozyrakis",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Kozyrakis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144764327"
+                        ],
+                        "name": "M. Horowitz",
+                        "slug": "M.-Horowitz",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Horowitz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Horowitz"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 155,
+                                "start": 137
+                            }
+                        ],
+                        "text": "Performing image processing in specialized hardware is at least 500\u00d7 more power efficient than performing the same calculations on a CPU [Hameed et al. 2010]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 194,
+                                "start": 176
+                            }
+                        ],
+                        "text": "In modern hardware, energy is dominated by storing and loading intermediate values in off-chip DRAM, which uses over 1,000\u00d7 more energy than performing an arithmetic operation [Hameed et al. 2010]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 33
+                            }
+                        ],
+                        "text": "Camera ISPs perform an enormous amount of computation on a large amount of data."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 211,
+                                "start": 193
+                            }
+                        ],
+                        "text": "ACM Transactions on Graphics, Vol. 33, No. 4, Article 144, Publication Date: July 2014\nRecent work has shown that a general purpose CPU uses 500\u00d7 the energy of a custom ASIC for video decoding [Hameed et al. 2010]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 84
+                            }
+                        ],
+                        "text": "This is in line with existing research on specialized vs. general-purpose hardware [Hameed et al. 2010]."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3165696,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f59cd7ebe88df0a4da66657faa4d4a50c7c36004",
+            "isKey": false,
+            "numCitedBy": 464,
+            "numCiting": 80,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Due to their high volume, general-purpose processors, and now chip multiprocessors (CMPs), are much more cost effective than ASICs, but lag significantly in terms of performance and energy efficiency. This paper explores the sources of these performance and energy overheads in general-purpose processing systems by quantifying the overheads of a 720p HD H.264 encoder running on a general-purpose CMP system. It then explores methods to eliminate these overheads by transforming the CPU into a specialized system for H.264 encoding. We evaluate the gains from customizations useful to broad classes of algorithms, such as SIMD units, as well as those specific to particular computation, such as customized storage and functional units. The ASIC is 500x more energy efficient than our original four-processor CMP. Broadly applicable optimizations improve performance by 10x and energy by 7x. However, the very low energy costs of actual core ops (100s fJ in 90nm) mean that over 90% of the energy used in these solutions is still \"overhead\". Achieving ASIC-like performance and efficiency requires algorithm-specific optimizations. For each sub-algorithm of H.264, we create a large, specialized functional unit that is capable of executing 100s of operations per instruction. This improves performance and energy by an additional 25x and the final customized CMP matches an ASIC solution's performance within 3x of its energy and within comparable area."
+            },
+            "slug": "Understanding-sources-of-inefficiency-in-chips-Hameed-Qadeer",
+            "title": {
+                "fragments": [],
+                "text": "Understanding sources of inefficiency in general-purpose chips"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "The sources of these performance and energy overheads in general-purpose processing systems are explored by quantifying the overheads of a 720p HD H.264 encoder running on a general- Purpose CMP system and exploring methods to eliminate these overheads by transforming the CPU into a specialized system for H. 264 encoding."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ISCA"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1731419"
+                        ],
+                        "name": "J. Gummaraju",
+                        "slug": "J.-Gummaraju",
+                        "structuredName": {
+                            "firstName": "Jayanth",
+                            "lastName": "Gummaraju",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Gummaraju"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8373823"
+                        ],
+                        "name": "M. Rosenblum",
+                        "slug": "M.-Rosenblum",
+                        "structuredName": {
+                            "firstName": "Mendel",
+                            "lastName": "Rosenblum",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Rosenblum"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Line buffers are implemented using a small block of memory that we ensure stays in cache using the technique of Gummaraju and Rosenblum to simulate a scratchpad memory by restricting most memory access to this block and issuing non-temporal writes for our output images [2005]. We manage the modular arithmetic of the line buffers in the outer loop over the lines of an image so that each inner loop over pixels contains fewer instructions."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2435586,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7d01577c036d650c55027ef487301f69a6a652b1",
+            "isKey": false,
+            "numCitedBy": 143,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper we investigate mapping stream programs (i.e., programs written in a streaming style for streaming architectures such as Imagine and Raw) onto a general-purpose CPU. We develop and explore a novel way of mapping these programs onto the CPU. We show how the salient features of stream programming such as computation kernels, local memories, and asynchronous bulk memory loads and stores can be easily mapped by a simple compilation system to CPU features such as the processor caches, simultaneous multithreading, and fast inter-thread communication support, resulting in an executable that efficiently uses CPU resources. We present an evaluation of our mapping on a hyper-threaded Intel Pentium 4 CPU as a canonical example of a general-purpose processor. We compare the mapped stream program against the same program coded in a more conventional style for the general-purpose processor. Using both microbenchmarks and scientific applications we show that programs written in a streaming style can run comparably to equivalent programs written in a traditional style. Our results show that coding programs in a streaming style can improve performance on today's machines and smooth the way for significant performance improvements with the deployment of streaming architectures."
+            },
+            "slug": "Stream-programming-on-general-purpose-processors-Gummaraju-Rosenblum",
+            "title": {
+                "fragments": [],
+                "text": "Stream programming on general-purpose processors"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is shown how the salient features of stream programming such as computation kernels, local memories, and asynchronous bulk memory loads and stores can be easily mapped by a simple compilation system to CPU features such as the processor caches."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "38th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO'05)"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1690704"
+                        ],
+                        "name": "Edward A. Lee",
+                        "slug": "Edward-A.-Lee",
+                        "structuredName": {
+                            "firstName": "Edward",
+                            "lastName": "Lee",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Edward A. Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1815712"
+                        ],
+                        "name": "D. Messerschmitt",
+                        "slug": "D.-Messerschmitt",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Messerschmitt",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Messerschmitt"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 191,
+                                "start": 143
+                            }
+                        ],
+                        "text": "However, not all SDF programs can be scheduled within bounded memory, and when schedulable, the problem of minimizing buffering is NP-Complete [Lee and Messerschmitt 1987; Murthy et al. 1997]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9981963,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "840546d540c4f090851c426fe823dc5b655002f9",
+            "isKey": false,
+            "numCitedBy": 1427,
+            "numCiting": 51,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Large grain data flow (LGDF) programming is natural and convenient for describing digital signal processing (DSP) systems, but its runtime overhead is costly in real time or cost-sensitive applications. In some situations, designers are not willing to squander computing resources for the sake of programmer convenience. This is particularly true when the target machine is a programmable DSP chip. However, the runtime overhead inherent in most LGDF implementations is not required for most signal processing systems because such systems are mostly synchronous (in the DSP sense). Synchronous data flow (SDF) differs from traditional data flow in that the amount of data produced and consumed by a data flow node is specified a priori for each input and output. This is equivalent to specifying the relative sample rates in signal processing system. This means that the scheduling of SDF nodes need not be done at runtime, but can be done at compile time (statically), so the runtime overhead evaporates. The sample rates can all be different, which is not true of most current data-driven digital signal processing programming methodologies. Synchronous data flow is closely related to computation graphs, a special case of Petri nets. This self-contained paper develops the theory necessary to statically schedule SDF programs on single or multiple processors. A class of static (compile time) scheduling algorithms is proven valid, and specific algorithms are given for scheduling SDF systems onto single or multiple processors."
+            },
+            "slug": "Static-Scheduling-of-Synchronous-Data-Flow-Programs-Lee-Messerschmitt",
+            "title": {
+                "fragments": [],
+                "text": "Static Scheduling of Synchronous Data Flow Programs for Digital Signal Processing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This self-contained paper develops the theory necessary to statically schedule SDF programs on single or multiple processors, and a class of static (compile time) scheduling algorithms is proven valid, and specific algorithms are given for scheduling SDF systems onto single ormultiple processors."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Computers"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1914258"
+                        ],
+                        "name": "P. Murthy",
+                        "slug": "P.-Murthy",
+                        "structuredName": {
+                            "firstName": "Praveen",
+                            "lastName": "Murthy",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Murthy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144629409"
+                        ],
+                        "name": "S. Bhattacharyya",
+                        "slug": "S.-Bhattacharyya",
+                        "structuredName": {
+                            "firstName": "Shuvra",
+                            "lastName": "Bhattacharyya",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Bhattacharyya"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1690704"
+                        ],
+                        "name": "Edward A. Lee",
+                        "slug": "Edward-A.-Lee",
+                        "structuredName": {
+                            "firstName": "Edward",
+                            "lastName": "Lee",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Edward A. Lee"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 190,
+                                "start": 172
+                            }
+                        ],
+                        "text": "However, not all SDF programs can be scheduled within bounded memory, and when schedulable, the problem of minimizing buffering is NP-Complete [Lee and Messerschmitt 1987; Murthy et al. 1997]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1104048,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9d716acb0e69c1b61f5208cf6cd1f86982ecdbfc",
+            "isKey": false,
+            "numCitedBy": 75,
+            "numCiting": 51,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, we formally develop techniques that minimize the memory requirements of a target program when synthesizing software from dataflow descriptions of multirate signal processing algorithms. The dataflow programming model that we consider is the synchronous dataflow (SDF) model [21], which has been used heavily in DSP design environments over the past several years. We first focus on the restricted class of well-ordered SDF graphs. We show that while extremely efficient techniques exist for constructing minimum code size schedules for well-ordered graphs, the number of distinct minimum code size schedules increases combinatorially with the number of vertices in the input SDF graph, and these different schedules can have vastly different data memory requirements. We develop a dynamic programming algorithm that computes the schedule that minimizes the data memory requirement from among the schedules that minimize code size, and we show that the time complexity of this algorithm is cubic in the number of vertices in the given well-ordered SDF graph. We present several extensions to this dynamic programming technique to more general scheduling problems, and we present a heuristic that often computes near-optimal schedules with quadratic time complexity. We then show that finding optimal solutions for arbitrary acyclic graphs is NP-complete, and present heuristic techniques that jointly minimize code and data size requirements. We present a practical example and simulation data that demonstrate the effectiveness of these techniques."
+            },
+            "slug": "Joint-Minimization-of-Code-and-Data-for-Synchronous-Murthy-Bhattacharyya",
+            "title": {
+                "fragments": [],
+                "text": "Joint Minimization of Code and Data for Synchronous Dataflow Programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 78,
+                "text": "This paper develops techniques that minimize the memory requirements of a target program when synthesizing software from dataflow descriptions of multirate signal processing algorithms, and presents heuristic techniques that jointly minimize code and data size requirements."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Formal Methods Syst. Des."
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2358911"
+                        ],
+                        "name": "N. Muralimanohar",
+                        "slug": "N.-Muralimanohar",
+                        "structuredName": {
+                            "firstName": "Naveen",
+                            "lastName": "Muralimanohar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Muralimanohar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777422"
+                        ],
+                        "name": "R. Balasubramonian",
+                        "slug": "R.-Balasubramonian",
+                        "structuredName": {
+                            "firstName": "Rajeev",
+                            "lastName": "Balasubramonian",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Balasubramonian"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1715454"
+                        ],
+                        "name": "N. Jouppi",
+                        "slug": "N.-Jouppi",
+                        "structuredName": {
+                            "firstName": "Norman",
+                            "lastName": "Jouppi",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Jouppi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 204,
+                                "start": 166
+                            }
+                        ],
+                        "text": "On a modern process, loading one byte from off-chip DRAM uses 6400\u00d7 the energy of a 1 byte add; even a large cache uses 50\u00d7 the energy of the add [Malladi et al. 2012; Muralimanohar and Balasubramonian 2009]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15551886,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9448d2f1f8260da11a0b5d9b27ee6c8eb916d8ee",
+            "isKey": false,
+            "numCitedBy": 170,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Future processors will likely have large on-chip caches wit h a possibility of dedicating an entire die for on-chip storage in a 3D stacked model. With the ever gr owing disparity between transistor and wire delay, the properties of such large caches will prim arily depend on the characteristics of the interconnection networks that connect various sub-module s of a cache. CACTI 6.0 is a significantly enhanced version of the tool that primarily focuses on inter connect design for large caches. In addition to strengthening the existing analytical model of the tool f r dominant cache components, CACTI 6.0 includes two major extensions over earlier versions: First , ability to model Non-Uniform Cache Access (NUCA). Second, ability to model different types of wires, s uch as RC based wires with different power, delay, and area characteristics and differential low-swin g buses. The report details the analytical model assumed for the newly added modules along with their validat ion analysis."
+            },
+            "slug": "CACTI-6-.-0-:-A-Tool-to-Understand-Large-Caches-Muralimanohar-Balasubramonian",
+            "title": {
+                "fragments": [],
+                "text": "CACTI 6 . 0 : A Tool to Understand Large Caches"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The report details the analytical model assumed for the newly added modules along with their validat ion analysis of CACTI 6.0, a significantly enhanced version of the tool that primarily focuses on inter connect design for large caches."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2375710"
+                        ],
+                        "name": "Zach DeVito",
+                        "slug": "Zach-DeVito",
+                        "structuredName": {
+                            "firstName": "Zach",
+                            "lastName": "DeVito",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zach DeVito"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144604354"
+                        ],
+                        "name": "James Hegarty",
+                        "slug": "James-Hegarty",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Hegarty",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James Hegarty"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144872229"
+                        ],
+                        "name": "P. Hanrahan",
+                        "slug": "P.-Hanrahan",
+                        "structuredName": {
+                            "firstName": "Pat",
+                            "lastName": "Hanrahan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Hanrahan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144376283"
+                        ],
+                        "name": "J. Vitek",
+                        "slug": "J.-Vitek",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Vitek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Vitek"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 91,
+                                "start": 73
+                            }
+                        ],
+                        "text": "The Darkroom compiler is implemented as a library in the Terra language [DeVito et al. 2013] that provides the im operator."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7657567,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d23cf80ce2bb96ea817d4d0df1542ae5c8e5907d",
+            "isKey": false,
+            "numCitedBy": 66,
+            "numCiting": 53,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "High-performance computing applications, such as auto-tuners and domain-specific languages, rely on generative programming techniques to achieve high performance and portability. However, these systems are often implemented in multiple disparate languages and perform code generation in a separate process from program execution, making certain optimizations difficult to engineer. We leverage a popular scripting language, Lua, to stage the execution of a novel low-level language, Terra. Users can implement optimizations in the high-level language, and use built-in constructs to generate and execute high-performance Terra code. To simplify meta-programming, Lua and Terra share the same lexical environment, but, to ensure performance, Terra code can execute independently of Lua's runtime. We evaluate our design by reimplementing existing multi-language systems entirely in Terra. Our Terra-based auto-tuner for BLAS routines performs within 20% of ATLAS, and our DSL for stencil computations runs 2.3x faster than hand-written C."
+            },
+            "slug": "Terra:-a-multi-stage-language-for-high-performance-DeVito-Hegarty",
+            "title": {
+                "fragments": [],
+                "text": "Terra: a multi-stage language for high-performance computing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "This work uses a popular scripting language, Lua, to stage the execution of a novel low-level language, Terra, to simplify meta-programming and to ensure performance, Terra code can execute independently of Lua's runtime."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145372049"
+                        ],
+                        "name": "C. Leiserson",
+                        "slug": "C.-Leiserson",
+                        "structuredName": {
+                            "firstName": "Charles",
+                            "lastName": "Leiserson",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Leiserson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1804564"
+                        ],
+                        "name": "J. Saxe",
+                        "slug": "J.-Saxe",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Saxe",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Saxe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 140,
+                                "start": 117
+                            }
+                        ],
+                        "text": "This means that they can be pipelined and parallelized to an arbitrary performance target using standard techniques [Leiserson and Saxe 1991]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 92
+                            }
+                        ],
+                        "text": "This problem can also be formulated as min-cost flow, which has a polynomial time solution [Leiserson and Saxe 1991]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 18674287,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "649c09e9dfd6beefa61f83f99a5aa4de5ce7de65",
+            "isKey": false,
+            "numCitedBy": 568,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes a circuit transformation calledretiming in which registers are added at some points in a circuit and removed from others in such a way that the functional behavior of the circuit as a whole is preserved. We show that retiming can be used to transform a given synchronous circuit into a more efficient circuit under a variety of different cost criteria. We model a circuit as a graph in which the vertex setV is a collection of combinational logic elements and the edge setE is the set of interconnections, each of which may pass through zero or more registers. We give anO(\u00a6V\u2225E\u00a6lg\u00a6V\u00a6) algorithm for determining an equivalent retimed circuit with the smallest possible clock period. We show that the problem of determining an equivalent retimed circuit with minimum state (total number of registers) is polynomial-time solvable. This result yields a polynomial-time optimal solution to the problem of pipelining combinational circuitry with minimum register cost. We also give a chacterization of optimal retiming based on an efficiently solvable mixed-integer linear-programming problem."
+            },
+            "slug": "Retiming-synchronous-circuitry-Leiserson-Saxe",
+            "title": {
+                "fragments": [],
+                "text": "Retiming synchronous circuitry"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "This paper describes a circuit transformation called retiming in which registers are added at some points in a circuit and removed from others in such a way that the functional behavior of the circuit as a whole is preserved."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Algorithmica"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32661398"
+                        ],
+                        "name": "A. Nguyen",
+                        "slug": "A.-Nguyen",
+                        "structuredName": {
+                            "firstName": "Anthony",
+                            "lastName": "Nguyen",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Nguyen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143758120"
+                        ],
+                        "name": "N. Satish",
+                        "slug": "N.-Satish",
+                        "structuredName": {
+                            "firstName": "Nadathur",
+                            "lastName": "Satish",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Satish"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1727275"
+                        ],
+                        "name": "J. Chhugani",
+                        "slug": "J.-Chhugani",
+                        "structuredName": {
+                            "firstName": "Jatin",
+                            "lastName": "Chhugani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Chhugani"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7297702"
+                        ],
+                        "name": "Changkyu Kim",
+                        "slug": "Changkyu-Kim",
+                        "structuredName": {
+                            "firstName": "Changkyu",
+                            "lastName": "Kim",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Changkyu Kim"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145126868"
+                        ],
+                        "name": "P. Dubey",
+                        "slug": "P.-Dubey",
+                        "structuredName": {
+                            "firstName": "Pradeep",
+                            "lastName": "Dubey",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Dubey"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 153,
+                                "start": 135
+                            }
+                        ],
+                        "text": "Prior work has examined a cache oblivious approach [Frigo and Strumpen 2005], code generators [Tang et al. 2011], blocking techniques [Nguyen et al. 2010], and autotuning [Datta et al. 2008]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5676824,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "def34f422d6930bd23d5c58de78be98804e44e97",
+            "isKey": false,
+            "numCitedBy": 280,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Stencil computation sweeps over a spatial grid over multiple time steps to perform nearest-neighbor computations. The bandwidth-to-compute requirement for a large class of stencil kernels is very high, and their performance is bound by the available memory bandwidth. Since memory bandwidth grows slower than compute, the performance of stencil kernels will not scale with increasing compute density. We present a novel 3.5D-blocking algorithm that performs 2.5D-spatial and temporal blocking of the input grid into on-chip memory for both CPUs and GPUs. The resultant algorithm is amenable to both thread- level and data-level parallelism, and scales near-linearly with the SIMD width and multiple-cores. Our performance numbers are faster or comparable to state-of-the-art-stencil implementations on CPUs and GPUs. Our implementation of 7-point-stencil is 1.5X-faster on CPUs, and 1.8X faster on GPUs for single- precision floating point inputs than previously reported numbers. For Lattice Boltzmann methods, the corresponding speedup number on CPUs is 2.1X."
+            },
+            "slug": "3.5-D-Blocking-Optimization-for-Stencil-on-Modern-Nguyen-Satish",
+            "title": {
+                "fragments": [],
+                "text": "3.5-D Blocking Optimization for Stencil Computations on Modern CPUs and GPUs"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2010 ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145506199"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2059096618"
+                        ],
+                        "name": "David E. Jacobs",
+                        "slug": "David-E.-Jacobs",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Jacobs",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David E. Jacobs"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2889257"
+                        ],
+                        "name": "Jennifer Dolson",
+                        "slug": "Jennifer-Dolson",
+                        "structuredName": {
+                            "firstName": "Jennifer",
+                            "lastName": "Dolson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jennifer Dolson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1717236"
+                        ],
+                        "name": "M. Tico",
+                        "slug": "M.-Tico",
+                        "structuredName": {
+                            "firstName": "Marius",
+                            "lastName": "Tico",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Tico"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1704409"
+                        ],
+                        "name": "K. Pulli",
+                        "slug": "K.-Pulli",
+                        "structuredName": {
+                            "firstName": "Kari",
+                            "lastName": "Pulli",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Pulli"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3129635"
+                        ],
+                        "name": "Eino-Ville Talvala",
+                        "slug": "Eino-Ville-Talvala",
+                        "structuredName": {
+                            "firstName": "Eino-Ville",
+                            "lastName": "Talvala",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eino-Ville Talvala"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2027612"
+                        ],
+                        "name": "B. Ajdin",
+                        "slug": "B.-Ajdin",
+                        "structuredName": {
+                            "firstName": "Boris",
+                            "lastName": "Ajdin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Ajdin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2000950"
+                        ],
+                        "name": "D. Vaquero",
+                        "slug": "D.-Vaquero",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Vaquero",
+                            "middleNames": [
+                                "Andr\u00e9"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Vaquero"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1809190"
+                        ],
+                        "name": "H. Lensch",
+                        "slug": "H.-Lensch",
+                        "structuredName": {
+                            "firstName": "Hendrik",
+                            "lastName": "Lensch",
+                            "middleNames": [
+                                "P.",
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Lensch"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144764327"
+                        ],
+                        "name": "M. Horowitz",
+                        "slug": "M.-Horowitz",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Horowitz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Horowitz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2115277036"
+                        ],
+                        "name": "S. H. Park",
+                        "slug": "S.-H.-Park",
+                        "structuredName": {
+                            "firstName": "Sung",
+                            "lastName": "Park",
+                            "middleNames": [
+                                "Hee"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. H. Park"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1683095"
+                        ],
+                        "name": "N. Gelfand",
+                        "slug": "N.-Gelfand",
+                        "structuredName": {
+                            "firstName": "Natasha",
+                            "lastName": "Gelfand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Gelfand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1969961"
+                        ],
+                        "name": "Jongmin Baek",
+                        "slug": "Jongmin-Baek",
+                        "structuredName": {
+                            "firstName": "Jongmin",
+                            "lastName": "Baek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jongmin Baek"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1752521"
+                        ],
+                        "name": "W. Matusik",
+                        "slug": "W.-Matusik",
+                        "structuredName": {
+                            "firstName": "Wojciech",
+                            "lastName": "Matusik",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Matusik"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1801789"
+                        ],
+                        "name": "M. Levoy",
+                        "slug": "M.-Levoy",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Levoy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Levoy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 246,
+                                "start": 229
+                            }
+                        ],
+                        "text": "First, extending prior work on the Frankencamera, mobile camera platforms that include FPGAs programmed by Darkroom would allow researchers to quickly experiment with new applications in real cameras, with real-time performance [Adams et al. 2010]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10154698,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5a13b81891828290426e94f74815a8cc88b05645",
+            "isKey": false,
+            "numCitedBy": 100,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Although there has been much interest in computational photography within the research and photography communities, progress has been hampered by the lack of a portable, programmable camera with sufficient image quality and computing power. To address this problem, we have designed and implemented an open architecture and application programming interface (API) for such cameras: the Frankencamera. It consists of a base hardware specification, a software stack based on Linux, and an API for C++. Our architecture permits control and synchronization of the sensor and image processing pipeline at the microsecond timescale, as well as the ability to incorporate and synchronize external hardware like lenses and flashes. This paper specifies our architecture and API, and it describes two reference implementations we have built. Using these implementations, we demonstrate several computational photography applications: high dynamic range (HDR) viewfinding and capture, automated acquisition of extended dynamic range panoramas, foveal imaging, and inertial measurement unit (IMU)-based hand shake detection. Our goal is to standardize the architecture and distribute Frankencameras to researchers and students, as a step toward creating a community of photographer-programmers who develop algorithms, applications, and hardware for computational cameras."
+            },
+            "slug": "The-Frankencamera:-an-experimental-platform-for-Adams-Jacobs",
+            "title": {
+                "fragments": [],
+                "text": "The Frankencamera: an experimental platform for computational photography"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The architecture and API of the Frankencamera are designed and implemented, and two reference implementations are described, which demonstrate several computational photography applications: high dynamic range viewfinding and capture, automated acquisition of extended dynamic range panoramas, foveal imaging, and inertial measurement unit-based hand shake detection."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1765246"
+                        ],
+                        "name": "Chris Lattner",
+                        "slug": "Chris-Lattner",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Lattner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chris Lattner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1720525"
+                        ],
+                        "name": "V. Adve",
+                        "slug": "V.-Adve",
+                        "structuredName": {
+                            "firstName": "Vikram",
+                            "lastName": "Adve",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Adve"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 167,
+                                "start": 146
+                            }
+                        ],
+                        "text": "The compiler is implemented using Terra to generate low-level CPU code including vectors and threads, which is compiled and optimized using LLVM [Lattner and Adve 2004]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 978769,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d755f461dddae76068f401409ba59c85a2436305",
+            "isKey": false,
+            "numCitedBy": 4656,
+            "numCiting": 54,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe LLVM (low level virtual machine), a compiler framework designed to support transparent, lifelong program analysis and transformation for arbitrary programs, by providing high-level information to compiler transformations at compile-time, link-time, run-time, and in idle time between runs. LLVM defines a common, low-level code representation in static single assignment (SSA) form, with several novel features: a simple, language-independent type-system that exposes the primitives commonly used to implement high-level language features; an instruction for typed address arithmetic; and a simple mechanism that can be used to implement the exception handling features of high-level languages (and setjmp/longjmp in C) uniformly and efficiently. The LLVM compiler framework and code representation together provide a combination of key capabilities that are important for practical, lifelong analysis and transformation of programs. To our knowledge, no existing compilation approach provides all these capabilities. We describe the design of the LLVM representation and compiler framework, and evaluate the design in three ways: (a) the size and effectiveness of the representation, including the type information it provides; (b) compiler performance for several interprocedural problems; and (c) illustrative examples of the benefits LLVM provides for several challenging compiler problems."
+            },
+            "slug": "LLVM:-a-compilation-framework-for-lifelong-program-Lattner-Adve",
+            "title": {
+                "fragments": [],
+                "text": "LLVM: a compilation framework for lifelong program analysis & transformation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "The design of the LLVM representation and compiler framework is evaluated in three ways: the size and effectiveness of the representation, including the type information it provides; compiler performance for several interprocedural problems; and illustrative examples of the benefits LLVM provides for several challenging compiler problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Symposium on Code Generation and Optimization, 2004. CGO 2004."
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153737678"
+                        ],
+                        "name": "Yuan Tang",
+                        "slug": "Yuan-Tang",
+                        "structuredName": {
+                            "firstName": "Yuan",
+                            "lastName": "Tang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yuan Tang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7536938"
+                        ],
+                        "name": "R. Chowdhury",
+                        "slug": "R.-Chowdhury",
+                        "structuredName": {
+                            "firstName": "Rezaul",
+                            "lastName": "Chowdhury",
+                            "middleNames": [
+                                "Alam"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Chowdhury"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1871661"
+                        ],
+                        "name": "Bradley C. Kuszmaul",
+                        "slug": "Bradley-C.-Kuszmaul",
+                        "structuredName": {
+                            "firstName": "Bradley",
+                            "lastName": "Kuszmaul",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bradley C. Kuszmaul"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144655364"
+                        ],
+                        "name": "C. Luk",
+                        "slug": "C.-Luk",
+                        "structuredName": {
+                            "firstName": "C.",
+                            "lastName": "Luk",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Luk"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145372049"
+                        ],
+                        "name": "C. Leiserson",
+                        "slug": "C.-Leiserson",
+                        "structuredName": {
+                            "firstName": "Charles",
+                            "lastName": "Leiserson",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Leiserson"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 111,
+                                "start": 95
+                            }
+                        ],
+                        "text": "Prior work has examined a cache oblivious approach [Frigo and Strumpen 2005], code generators [Tang et al. 2011], blocking techniques [Nguyen et al. 2010], and autotuning [Datta et al. 2008]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 112,
+                                "start": 94
+                            }
+                        ],
+                        "text": "Prior work has examined a cache oblivious approach [Frigo and Strumpen 2005], code generators [Tang et al. 2011], blocking techniques [Nguyen et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5880214,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e1ef06c2662a78dd2d885fb375b549dc4f01c9ba",
+            "isKey": false,
+            "numCitedBy": 336,
+            "numCiting": 55,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A stencil computation repeatedly updates each point of a d-dimensional grid as a function of itself and its near neighbors. Parallel cache-efficient stencil algorithms based on \"trapezoidal decompositions\" are known, but most programmers find them difficult to write. The Pochoir stencil compiler allows a programmer to write a simple specification of a stencil in a domain-specific stencil language embedded in C++ which the Pochoir compiler then translates into high-performing Cilk code that employs an efficient parallel cache-oblivious algorithm. Pochoir supports general d-dimensional stencils and handles both periodic and aperiodic boundary conditions in one unified algorithm. The Pochoir system provides a C++ template library that allows the user's stencil specification to be executed directly in C++ without the Pochoir compiler (albeit more slowly), which simplifies user debugging and greatly simplified the implementation of the Pochoir compiler itself. A host of stencil benchmarks run on a modern multicore machine demonstrates that Pochoir outperforms standard parallelloop implementations, typically running 2-10 times faster. The algorithm behind Pochoir improves on prior cache-efficient algorithms on multidimensional grids by making \"hyperspace\" cuts, which yield asymptotically more parallelism for the same cache efficiency."
+            },
+            "slug": "The-pochoir-stencil-compiler-Tang-Chowdhury",
+            "title": {
+                "fragments": [],
+                "text": "The pochoir stencil compiler"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "The Pochoir stencil compiler allows a programmer to write a simple specification of a stencil in a domain-specific stencil language embedded in C++ which the Pochir compiler then translates into high-performing Cilk code that employs an efficient parallel cache-oblivious algorithm."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SPAA '11"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49589461"
+                        ],
+                        "name": "K. Datta",
+                        "slug": "K.-Datta",
+                        "structuredName": {
+                            "firstName": "Kaushik",
+                            "lastName": "Datta",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Datta"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144111356"
+                        ],
+                        "name": "M. Murphy",
+                        "slug": "M.-Murphy",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Murphy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Murphy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145687683"
+                        ],
+                        "name": "V. Volkov",
+                        "slug": "V.-Volkov",
+                        "structuredName": {
+                            "firstName": "Vasily",
+                            "lastName": "Volkov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Volkov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145117071"
+                        ],
+                        "name": "Samuel Williams",
+                        "slug": "Samuel-Williams",
+                        "structuredName": {
+                            "firstName": "Samuel",
+                            "lastName": "Williams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Samuel Williams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152565684"
+                        ],
+                        "name": "J. Carter",
+                        "slug": "J.-Carter",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Carter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Carter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1757847"
+                        ],
+                        "name": "L. Oliker",
+                        "slug": "L.-Oliker",
+                        "structuredName": {
+                            "firstName": "Leonid",
+                            "lastName": "Oliker",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Oliker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2052996765"
+                        ],
+                        "name": "David A. Patterson",
+                        "slug": "David-A.-Patterson",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Patterson",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David A. Patterson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746446"
+                        ],
+                        "name": "J. Shalf",
+                        "slug": "J.-Shalf",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Shalf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Shalf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1731111"
+                        ],
+                        "name": "K. Yelick",
+                        "slug": "K.-Yelick",
+                        "structuredName": {
+                            "firstName": "Katherine",
+                            "lastName": "Yelick",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Yelick"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 189,
+                                "start": 172
+                            }
+                        ],
+                        "text": "Prior work has examined a cache oblivious approach [Frigo and Strumpen 2005], code generators [Tang et al. 2011], blocking techniques [Nguyen et al. 2010], and autotuning [Datta et al. 2008]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7289478,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "695b6e055f199c91909550f57e8ee21444772801",
+            "isKey": false,
+            "numCitedBy": 443,
+            "numCiting": 46,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Understanding the most efficient design and utilization of emerging multicore systems is one of the most challenging questions faced by the mainstream and scientific computing industries in several decades. Our work explores multicore stencil (nearest-neighbor) computations - a class of algorithms at the heart of many structured grid codes, including PDE solvers. We develop a number of effective optimization strategies, and build an auto-tuning environment that searches over our optimizations and their parameters to minimize runtime, while maximizing performance portability. To evaluate the effectiveness of these strategies we explore the broadest set of multicore architectures in the current HPC literature, including the Intel Clovertown, AMD Barcelona, Sun Victoria Falls, IBM QS22 PowerXCell 8i, and NVIDIA GTX280. Overall, our auto-tuning optimization methodology results in the fastest multicore stencil performance to date. Finally, we present several key insights into the architectural tradeoffs of emerging multicore designs and their implications on scientific algorithm development."
+            },
+            "slug": "Stencil-computation-optimization-and-auto-tuning-on-Datta-Murphy",
+            "title": {
+                "fragments": [],
+                "text": "Stencil computation optimization and auto-tuning on state-of-the-art multicore architectures"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This work explores multicore stencil (nearest-neighbor) computations - a class of algorithms at the heart of many structured grid codes, including PDE solvers - and develops a number of effective optimization strategies, and builds an auto-tuning environment that searches over the optimizations and their parameters to minimize runtime, while maximizing performance portability."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 SC - International Conference for High Performance Computing, Networking, Storage and Analysis"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2807420"
+                        ],
+                        "name": "Krishna T. Malladi",
+                        "slug": "Krishna-T.-Malladi",
+                        "structuredName": {
+                            "firstName": "Krishna",
+                            "lastName": "Malladi",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Krishna T. Malladi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3383599"
+                        ],
+                        "name": "Frank A. Nothaft",
+                        "slug": "Frank-A.-Nothaft",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Nothaft",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Frank A. Nothaft"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3379225"
+                        ],
+                        "name": "Karthika Periyathambi",
+                        "slug": "Karthika-Periyathambi",
+                        "structuredName": {
+                            "firstName": "Karthika",
+                            "lastName": "Periyathambi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Karthika Periyathambi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152840677"
+                        ],
+                        "name": "Benjamin C. Lee",
+                        "slug": "Benjamin-C.-Lee",
+                        "structuredName": {
+                            "firstName": "Benjamin",
+                            "lastName": "Lee",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benjamin C. Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1700331"
+                        ],
+                        "name": "C. Kozyrakis",
+                        "slug": "C.-Kozyrakis",
+                        "structuredName": {
+                            "firstName": "Christoforos",
+                            "lastName": "Kozyrakis",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Kozyrakis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144764327"
+                        ],
+                        "name": "M. Horowitz",
+                        "slug": "M.-Horowitz",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Horowitz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Horowitz"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 164,
+                                "start": 145
+                            }
+                        ],
+                        "text": "On a modern process, loading one byte from off-chip DRAM uses 6400\u00d7 the energy of a 1 byte add; even a large cache uses 50\u00d7 the energy of the add [Malladi et al. 2012; Muralimanohar and Balasubramonian 2009]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14680002,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cece950bc68c594e94b8220f1ccdce0eb7b35102",
+            "isKey": false,
+            "numCitedBy": 237,
+            "numCiting": 63,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "To increase datacenter energy efficiency, we need memory systems that keep pace with processor efficiency gains. Currently, servers use DDR3 memory, which is designed for high bandwidth but not for energy proportionality. A system using 20% of the peak DDR3 bandwidth consumes 2.3\u00d7 the energy per bit compared to the energy consumed by a system with fully utilized memory bandwidth. Nevertheless, many datacenter applications stress memory capacity and latency but not memory bandwidth. In response, we architect server memory systems using mobile DRAM devices, trading peak bandwidth for lower energy consumption per bit and more efficient idle modes. We demonstrate 3-5\u00d7 lower memory power, better proportionality, and negligible performance penalties for data-center workloads."
+            },
+            "slug": "Towards-energy-proportional-datacenter-memory-with-Malladi-Nothaft",
+            "title": {
+                "fragments": [],
+                "text": "Towards energy-proportional datacenter memory with mobile DRAM"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work architects server memory systems using mobile DRAM devices, trading peak bandwidth for lower energy consumption per bit and more efficient idle modes, and demonstrates 3-5\u00d7 lower memory power, better proportionality, and negligible performance penalties for data-center workloads."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2012 39th Annual International Symposium on Computer Architecture (ISCA)"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2211288"
+                        ],
+                        "name": "G. Bilsen",
+                        "slug": "G.-Bilsen",
+                        "structuredName": {
+                            "firstName": "Greet",
+                            "lastName": "Bilsen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Bilsen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144182241"
+                        ],
+                        "name": "M. Engels",
+                        "slug": "M.-Engels",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Engels",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Engels"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1707947"
+                        ],
+                        "name": "R. Lauwereins",
+                        "slug": "R.-Lauwereins",
+                        "structuredName": {
+                            "firstName": "Rudy",
+                            "lastName": "Lauwereins",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Lauwereins"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2418473"
+                        ],
+                        "name": "J. Peperstraete",
+                        "slug": "J.-Peperstraete",
+                        "structuredName": {
+                            "firstName": "Jean",
+                            "lastName": "Peperstraete",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Peperstraete"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 156,
+                                "start": 138
+                            }
+                        ],
+                        "text": "Subsequent work reduced restrictions on the programming model, resulting in either more complex static scheduling, or dynamic scheduling [Bilsen et al. 1995; Sugerman et al. 2009]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 27728402,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "122fad1f51d154104bdec39065cd58ced110ba1b",
+            "isKey": false,
+            "numCitedBy": 222,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The high sample-rates involved in many DSP-applications, require the use of static schedulers wherever possible. The construction of static schedules however is classically limited to applications that fit in the synchronous data flow model. In this paper we present cyclo-static data flow as a model to describe applications with a cyclically changing behaviour. We give both a necessary and sufficient condition for the existence of a static schedule for a cyclo-static data flow graph and show how such a schedule can be constructed. The example of a video encoder is used to illustrate the importance of cyclo-static data flow for real-life DSP-systems."
+            },
+            "slug": "Cyclo-static-data-flow-Bilsen-Engels",
+            "title": {
+                "fragments": [],
+                "text": "Cyclo-static data flow"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "This paper gives both a necessary and sufficient condition for the existence of a static schedule for a cyclo-static data flow graph and shows how such a schedule can be constructed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "1995 International Conference on Acoustics, Speech, and Signal Processing"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144965099"
+                        ],
+                        "name": "Conal Elliott",
+                        "slug": "Conal-Elliott",
+                        "structuredName": {
+                            "firstName": "Conal",
+                            "lastName": "Elliott",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Conal Elliott"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 104,
+                                "start": 92
+                            }
+                        ],
+                        "text": "Languages have treated images as functions of continuous (x, y) coordinates [Holzmann 1988; Elliott 2001], and as a tree of image-wide operators [Shantzis 1994]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 126,
+                                "start": 114
+                            }
+                        ],
+                        "text": "Its programming model is similar to prior work on image processing, such as Popi, Pan, and Halide [Holzmann 1988; Elliott 2001; Ragan-Kelley et al. 2012]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 54801877,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "05e9ea2f6382fe7324a838242ec0bcad117c764c",
+            "isKey": false,
+            "numCitedBy": 20,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Software used to produce visual beauty is usually created with imperative programming languages and is typically unbeautiful itself. One fundamental reason for this situation is that these languages reflect the underlying discreteness and sequentiality of the computers that run them. The essential nature of what an image is becomes muddled with details of how to display it on a computer. We can, however, generate beautiful images with beautiful programs, by making a shift of programming paradigm, from doing to being. This claim is illustrated by many examples expressed in Pan, an image synthesis language with a freely available optimizing compiler."
+            },
+            "slug": "Functional-Image-Synthesis-Elliott",
+            "title": {
+                "fragments": [],
+                "text": "Functional Image Synthesis"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "Pan, an image synthesis language with a freely available optimizing compiler, proves that one can generate beautiful images with beautiful programs, by making a shift of programming paradigm, from doing to being."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1788630"
+                        ],
+                        "name": "O. Shacham",
+                        "slug": "O.-Shacham",
+                        "structuredName": {
+                            "firstName": "Ofer",
+                            "lastName": "Shacham",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Shacham"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34366869"
+                        ],
+                        "name": "Sameh Galal",
+                        "slug": "Sameh-Galal",
+                        "structuredName": {
+                            "firstName": "Sameh",
+                            "lastName": "Galal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sameh Galal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3210976"
+                        ],
+                        "name": "S. Sankaranarayanan",
+                        "slug": "S.-Sankaranarayanan",
+                        "structuredName": {
+                            "firstName": "Sabarish",
+                            "lastName": "Sankaranarayanan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Sankaranarayanan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40402375"
+                        ],
+                        "name": "M. Wachs",
+                        "slug": "M.-Wachs",
+                        "structuredName": {
+                            "firstName": "Megan",
+                            "lastName": "Wachs",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wachs"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2207916"
+                        ],
+                        "name": "J. Brunhaver",
+                        "slug": "J.-Brunhaver",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Brunhaver",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Brunhaver"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49578416"
+                        ],
+                        "name": "A. Vassiliev",
+                        "slug": "A.-Vassiliev",
+                        "structuredName": {
+                            "firstName": "Artem",
+                            "lastName": "Vassiliev",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Vassiliev"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144764327"
+                        ],
+                        "name": "M. Horowitz",
+                        "slug": "M.-Horowitz",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Horowitz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Horowitz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2078122"
+                        ],
+                        "name": "Andrew Danowitz",
+                        "slug": "Andrew-Danowitz",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Danowitz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Danowitz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2872576"
+                        ],
+                        "name": "W. Qadeer",
+                        "slug": "W.-Qadeer",
+                        "structuredName": {
+                            "firstName": "Wajahat",
+                            "lastName": "Qadeer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Qadeer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145326337"
+                        ],
+                        "name": "S. Richardson",
+                        "slug": "S.-Richardson",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "Richardson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Richardson"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 101,
+                                "start": 82
+                            }
+                        ],
+                        "text": "Following DAG linearization, we use Genesis2, a Verilog metaprogramming language [Shacham et al. 2012] to elaborate the topology into a SystemVerilog hardware description for synthesis."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14814078,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8c2f637b791c68b3291899a8c04c7caf1ae3867a",
+            "isKey": false,
+            "numCitedBy": 40,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Technology scaling has created a catch-22: technology now can do almost anything we want, but the NRE design costs are so high, that almost no one can afford to use it. Our current situation is reminiscent of the 1980's, when only a few companies could afford to produce custom silicon. Synthesis and placement and routing tools changed this, by providing modular tools with well defined interfaces that codified designer knowledge about the physical design of chips. Now we need a new set of tools that can codify designer knowledge about how to construct software, hardware, and validation to again enable application designers to produce chips. Researchers are developing methodologies that allow users to create hardware constructors, or generators. These include Genesis 2, which extends SystemVerilog and enables the designer to encode hierarchical system construction procedu-rally. To demonstrate some of the capabilities that these languages and tools provide, we describe FPGen, a complete floating point generator written in Genesis 2, that also generates the needed validation collateral and hints for the backend processes."
+            },
+            "slug": "Avoiding-game-over:-Bringing-design-to-the-next-Shacham-Galal",
+            "title": {
+                "fragments": [],
+                "text": "Avoiding game over: Bringing design to the next level"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "FPGen is described, a complete floating point generator written in Genesis 2, that also generates the needed validation collateral and hints for the backend processes."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "DAC Design Automation Conference 2012"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48230516"
+                        ],
+                        "name": "Matteo Frigo",
+                        "slug": "Matteo-Frigo",
+                        "structuredName": {
+                            "firstName": "Matteo",
+                            "lastName": "Frigo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matteo Frigo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2267968"
+                        ],
+                        "name": "V. Strumpen",
+                        "slug": "V.-Strumpen",
+                        "structuredName": {
+                            "firstName": "Volker",
+                            "lastName": "Strumpen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Strumpen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 76,
+                                "start": 51
+                            }
+                        ],
+                        "text": "Prior work has examined a cache oblivious approach [Frigo and Strumpen 2005], code generators [Tang et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11226792,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "e6cc17a1e30ab3ede3a47289b4ad1dd994621b33",
+            "isKey": false,
+            "numCitedBy": 184,
+            "numCiting": 6,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a cache oblivious algorithm for stencil computations, which arise for example in finite-difference methods. Our algorithm applies to arbitrary stencils in <i>n</i>-dimensional spaces. On an \"ideal cache\" of size <i>Z</i>, our algorithm saves a factor of \u0398(<i>Z</i><sup>1/<i>n</i></sup>) cache misses compared to a naive algorithm, and it exploits temporal locality optimally throughout the entire memory hierarchy."
+            },
+            "slug": "Cache-oblivious-stencil-computations-Frigo-Strumpen",
+            "title": {
+                "fragments": [],
+                "text": "Cache oblivious stencil computations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 70,
+                "text": "This work presents a cache oblivious algorithm for stencil computations, which arise for example in finite-difference methods, and it exploits temporal locality optimally throughout the entire memory hierarchy."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICS '05"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2330227"
+                        ],
+                        "name": "Michael A. Shantzis",
+                        "slug": "Michael-A.-Shantzis",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Shantzis",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael A. Shantzis"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 159,
+                                "start": 146
+                            }
+                        ],
+                        "text": "Languages have treated images as functions of continuous (x, y) coordinates [Holzmann 1988; Elliott 2001], and as a tree of image-wide operators [Shantzis 1994]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1849078,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b9984d1d766d20fff5ea6ce2f06649407ca678b4",
+            "isKey": false,
+            "numCitedBy": 28,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "As common as imaging operations are, the literature contains little about how to build systems for image computation. This paper presents a system which addresses the major issues of image computing. The system includes an algorithm for performing imaging operations which guarantees that we only compute those regions of the image that will affect the result. The paper also discusses several other issues critical when creating a flexible image computing environment and describes solutions for these problems in the context of our model. These issues include how one handles images of any resolution and how one works in arbitrary coordinate systems. It also includes a discussion of the standard memory models, a presentation of a new model, and a discussion of each one's advantages and disadvantages."
+            },
+            "slug": "A-model-for-efficient-and-flexible-image-computing-Shantzis",
+            "title": {
+                "fragments": [],
+                "text": "A model for efficient and flexible image computing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A system which addresses the major issues of image computing is presented, which includes an algorithm for performing imaging operations which guarantees that the authors only compute those regions of the image that will affect the result."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGGRAPH"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144153718"
+                        ],
+                        "name": "H. T. Kung",
+                        "slug": "H.-T.-Kung",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "Kung",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. T. Kung"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 118
+                            }
+                        ],
+                        "text": "Camera ISPs are similar to systolic arrays, a well-studied style of energy efficient and compute-dense architectures [Kung 1979]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14616005,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0a793294d164cdc04c8b3160d904fedf557028d7",
+            "isKey": false,
+            "numCitedBy": 297,
+            "numCiting": 51,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Very Large Scale Integration (VLSI) technology offers the potential of implementing \ncomplex algorithms directly in hardware [Mead and Conway 79). This paper (i) gives \nexamples of algorithms that we believe are suitable for VLSI implementation, (ii) provides a \ntaxonomy for algorithms based on their communication structures, and (iii) discusses some \nof the insights that are beginning to emerge from our efforts in designing algorithms for \nVLSI systems."
+            },
+            "slug": "Let's-Design-Algorithms-for-VLSI-Systems-Kung",
+            "title": {
+                "fragments": [],
+                "text": "Let's Design Algorithms for VLSI Systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "Examples of algorithms that are suitable for VLSI implementation are given, a taxonomy for algorithms based on their communication structures is provided, and some of the insights that are beginning to emerge from efforts in designing algorithms for V LSI systems are discussed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1979
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35137706"
+                        ],
+                        "name": "J. Bouguet",
+                        "slug": "J.-Bouguet",
+                        "structuredName": {
+                            "firstName": "J.-Y.",
+                            "lastName": "Bouguet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bouguet"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 9350588,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "aa972b40c0f8e20b07e02d1fd320bc7ebadfdfc7",
+            "isKey": false,
+            "numCitedBy": 2530,
+            "numCiting": 6,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "1 Problem Statement Let I and J be two 2D grayscaled images. The two quantities I(x) = I(x, y) and J(x) = J(x, y) are then the grayscale value of the two images are the location x = [x y] , where x and y are the two pixel coordinates of a generic image point x. The image I will sometimes be referenced as the first image, and the image J as the second image. For practical issues, the images I and J are discret function (or arrays), and the upper left corner pixel coordinate vector is [0 0] . Let nx and ny be the width and height of the two images. Then the lower right pixel coordinate vector is [nx \u2212 1 ny \u2212 1] . Consider an image point u = [ux uy] on the first image I. The goal of feature tracking is to find the location v = u + d = [ux+dx uy +dy] on the second image J such as I(u) and J(v) are \u201csimilar\u201d. The vector d = [dx dy] is the image velocity at x, also known as the optical flow at x. Because of the aperture problem, it is essential to define the notion of similarity in a 2D neighborhood sense. Let \u03c9x and \u03c9y two integers. We define the image velocity d as being the vector that minimizes the residual function defined as follows:"
+            },
+            "slug": "Pyramidal-implementation-of-the-lucas-kanade-Bouguet",
+            "title": {
+                "fragments": [],
+                "text": "Pyramidal implementation of the lucas kanade feature tracker"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "It is essential to define the notion of similarity in a 2D neighborhood sense and the image velocity d is defined as being the vector that minimizes the residual function defined as follows."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40309692"
+                        ],
+                        "name": "C. G. Harris",
+                        "slug": "C.-G.-Harris",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Harris",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. G. Harris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40365651"
+                        ],
+                        "name": "M. Stephens",
+                        "slug": "M.-Stephens",
+                        "structuredName": {
+                            "firstName": "M.",
+                            "lastName": "Stephens",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Stephens"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 58
+                            }
+                        ],
+                        "text": "CORNER DETECTION is a classic corner detection algorithm [Harris and Stephens 1988], used as an early stage in many computer vision algorithms, and implemented as a series of local stencils."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1694378,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6818668fb895d95861a2eb9673ddc3a41e27b3b3",
+            "isKey": false,
+            "numCitedBy": 14161,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The problem we are addressing in Alvey Project MMI149 is that of using computer vision to understand the unconstrained 3D world, in which the viewed scenes will in general contain too wide a diversity of objects for topdown recognition techniques to work. For example, we desire to obtain an understanding of natural scenes, containing roads, buildings, trees, bushes, etc., as typified by the two frames from a sequence illustrated in Figure 1. The solution to this problem that we are pursuing is to use a computer vision system based upon motion analysis of a monocular image sequence from a mobile camera. By extraction and tracking of image features, representations of the 3D analogues of these features can be constructed."
+            },
+            "slug": "A-Combined-Corner-and-Edge-Detector-Harris-Stephens",
+            "title": {
+                "fragments": [],
+                "text": "A Combined Corner and Edge Detector"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "The problem the authors are addressing in Alvey Project MMI149 is that of using computer vision to understand the unconstrained 3D world, in which the viewed scenes will in general contain too wide a diversity of objects for topdown recognition techniques to work."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Alvey Vision Conference"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1729041"
+                        ],
+                        "name": "J. Canny",
+                        "slug": "J.-Canny",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Canny",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Canny"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 64,
+                                "start": 54
+                            }
+                        ],
+                        "text": "EDGE DETECTION is a classic edge detection algorithm [Canny 1986]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13284142,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fcf9fc4e23b45345c2404ce7d6cb0fc9dea2c9ec",
+            "isKey": false,
+            "numCitedBy": 27776,
+            "numCiting": 45,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes a computational approach to edge detection. The success of the approach depends on the definition of a comprehensive set of goals for the computation of edge points. These goals must be precise enough to delimit the desired behavior of the detector while making minimal assumptions about the form of the solution. We define detection and localization criteria for a class of edges, and present mathematical forms for these criteria as functionals on the operator impulse response. A third criterion is then added to ensure that the detector has only one response to a single edge. We use the criteria in numerical optimization to derive detectors for several common image features, including step edges. On specializing the analysis to step edges, we find that there is a natural uncertainty principle between detection and localization performance, which are the two main goals. With this principle we derive a single operator shape which is optimal at any scale. The optimal detector has a simple approximate implementation in which edges are marked at maxima in gradient magnitude of a Gaussian-smoothed image. We extend this simple detector using operators of several widths to cope with different signal-to-noise ratios in the image. We present a general method, called feature synthesis, for the fine-to-coarse integration of information from operators at different scales. Finally we show that step edge detector performance improves considerably as the operator point spread function is extended along the edge."
+            },
+            "slug": "A-Computational-Approach-to-Edge-Detection-Canny",
+            "title": {
+                "fragments": [],
+                "text": "A Computational Approach to Edge Detection"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "There is a natural uncertainty principle between detection and localization performance, which are the two main goals, and with this principle a single operator shape is derived which is optimal at any scale."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40588702"
+                        ],
+                        "name": "B. D. Lucas",
+                        "slug": "B.-D.-Lucas",
+                        "structuredName": {
+                            "firstName": "Bruce",
+                            "lastName": "Lucas",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. D. Lucas"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1733113"
+                        ],
+                        "name": "T. Kanade",
+                        "slug": "T.-Kanade",
+                        "structuredName": {
+                            "firstName": "Takeo",
+                            "lastName": "Kanade",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Kanade"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2121536,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Physics"
+            ],
+            "id": "a06547951c97b2a32f23a6c2b5f79c8c75c9b9bd",
+            "isKey": false,
+            "numCitedBy": 13395,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Image registration finds a variety of applications in computer vision. Unfortunately, traditional image registration techniques tend to be costly. We present a new image registration technique that makes use of the spatial intensity gradient of the images to find a good match using a type of Newton-Raphson iteration. Our technique is taster because it examines far fewer potential matches between the images than existing techniques Furthermore, this registration technique can be generalized to handle rotation, scaling and shearing. We show how our technique can be adapted tor use in a stereo vision system."
+            },
+            "slug": "An-Iterative-Image-Registration-Technique-with-an-Lucas-Kanade",
+            "title": {
+                "fragments": [],
+                "text": "An Iterative Image Registration Technique with an Application to Stereo Vision"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "This work presents a new image registration technique that makes use of the spatial intensity gradient of the images to find a good match using a type of Newton-Raphson iteration, and can be generalized to handle rotation, scaling and shearing."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IJCAI"
+            },
+            "year": 1981
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47326487"
+                        ],
+                        "name": "W. Richardson",
+                        "slug": "W.-Richardson",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Richardson",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Richardson"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 101,
+                                "start": 86
+                            }
+                        ],
+                        "text": "DEBLUR is an implementation of the Richardson-Lucy non-blind deconvolution algorithm [Richardson 1972]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14492817,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "eb5f518e9fdd764835f719bfef59b1276cb562b3",
+            "isKey": false,
+            "numCitedBy": 3354,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "An iterative method of restoring degraded images was developed by treating images, point spread functions, and degraded images as probability-frequency functions and by applying Bayes\u2019s theorem. The method functions effectively in the presence of noise and is adaptable to computer operation."
+            },
+            "slug": "Bayesian-Based-Iterative-Method-of-Image-Richardson",
+            "title": {
+                "fragments": [],
+                "text": "Bayesian-Based Iterative Method of Image Restoration"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "An iterative method of restoring degraded images was developed by treating images, point spread functions, and degraded images as probability-frequency functions and by applying Bayes\u2019s theorem."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1972
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "69460268"
+                        ],
+                        "name": "G. Holzmann",
+                        "slug": "G.-Holzmann",
+                        "structuredName": {
+                            "firstName": "Gerald",
+                            "lastName": "Holzmann",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Holzmann"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 90,
+                                "start": 77
+                            }
+                        ],
+                        "text": "Languages have treated images as functions of continuous (x, y) coordinates [Holzmann 1988; Elliott 2001], and as a tree of image-wide operators [Shantzis 1994]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 112,
+                                "start": 99
+                            }
+                        ],
+                        "text": "Its programming model is similar to prior work on image processing, such as Popi, Pan, and Halide [Holzmann 1988; Elliott 2001; Ragan-Kelley et al. 2012]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 58157446,
+            "fieldsOfStudy": [
+                "Art"
+            ],
+            "id": "442d8b6489aec7c1f661fc33a4a9d8c9c17e981c",
+            "isKey": false,
+            "numCitedBy": 31,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Beyond-Photography:-The-Digital-Darkroom-Holzmann",
+            "title": {
+                "fragments": [],
+                "text": "Beyond Photography: The Digital Darkroom"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2055460158"
+                        ],
+                        "name": "John Hart",
+                        "slug": "John-Hart",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Hart",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John Hart"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 64813808,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6cae8a08979c34110a85428f06c973b38828eac6",
+            "isKey": false,
+            "numCitedBy": 1478,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "ACM-Transactions-on-Graphics-Hart",
+            "title": {
+                "fragments": [],
+                "text": "ACM Transactions on Graphics"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGGRAPH 2004"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3200943"
+                        ],
+                        "name": "J. Sugerman",
+                        "slug": "J.-Sugerman",
+                        "structuredName": {
+                            "firstName": "Jeremy",
+                            "lastName": "Sugerman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Sugerman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2789576"
+                        ],
+                        "name": "Kayvon Fatahalian",
+                        "slug": "Kayvon-Fatahalian",
+                        "structuredName": {
+                            "firstName": "Kayvon",
+                            "lastName": "Fatahalian",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kayvon Fatahalian"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3164352"
+                        ],
+                        "name": "S. Boulos",
+                        "slug": "S.-Boulos",
+                        "structuredName": {
+                            "firstName": "Solomon",
+                            "lastName": "Boulos",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Boulos"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3221156"
+                        ],
+                        "name": "K. Akeley",
+                        "slug": "K.-Akeley",
+                        "structuredName": {
+                            "firstName": "Kurt",
+                            "lastName": "Akeley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Akeley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144872229"
+                        ],
+                        "name": "P. Hanrahan",
+                        "slug": "P.-Hanrahan",
+                        "structuredName": {
+                            "firstName": "Pat",
+                            "lastName": "Hanrahan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Hanrahan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 178,
+                                "start": 158
+                            }
+                        ],
+                        "text": "Subsequent work reduced restrictions on the programming model, resulting in either more complex static scheduling, or dynamic scheduling [Bilsen et al. 1995; Sugerman et al. 2009]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1429085,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "66a0413e60adcd68c44e71f6e00114c579e911c9",
+            "isKey": false,
+            "numCitedBy": 77,
+            "numCiting": 45,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We introduce GRAMPS, a programming model that generalizes concepts from modern real-time graphics pipelines by exposing a model of execution containing both fixed-function and application-programmable processing stages that exchange data via queues. GRAMPS allows the number, type, and connectivity of these processing stages to be defined by software, permitting arbitrary processing pipelines or even processing graphs. Applications achieve high performance using GRAMPS by expressing advanced rendering algorithms as custom pipelines, then using the pipeline as a rendering engine. We describe the design of GRAMPS, then evaluate it by implementing three pipelines, that is, Direct3D, a ray tracer, and a hybridization of the two, and running them on emulations of two different GRAMPS implementations: a traditional GPU-like architecture and a CPU-like multicore architecture. In our tests, our GRAMPS schedulers run our pipelines with 500 to 1500KB of queue usage at their peaks."
+            },
+            "slug": "GRAMPS:-A-programming-model-for-graphics-pipelines-Sugerman-Fatahalian",
+            "title": {
+                "fragments": [],
+                "text": "GRAMPS: A programming model for graphics pipelines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work describes the design of GRAMPS, then evaluates it by implementing three pipelines, that is, Direct3D, a ray tracer, and a hybridization of the two, and running them on emulations of two differentGRAMPS implementations: a traditional GPU-like architecture and a CPU-like multicore architecture."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Graph."
+            },
+            "year": 2009
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Qualcomm hexagon SDK. https: //developer.qualcomm.com/mobile-development/maximize-hardware/ mobile-multimedia-optimization-hexagon-sdk"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Qualcomm hexagon SDK. https: //developer.qualcomm.com/mobile-development/maximize-hardware/ mobile-multimedia-optimization-hexagon-sdk"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 127
+                            }
+                        ],
+                        "text": "We solve for the optimal shifts using an off-the-shelf ILP solver (lpsolve), and use them to construct the optimized pipeline [Berkelaar et al. 2004]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "lpsolve: Open source (mixed-integer) linear programming system"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "lpsolve: Open source (mixed-integer) linear programming system"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 128,
+                                "start": 116
+                            }
+                        ],
+                        "text": "It is often implemented as a multi-scale algorithm, which uses an image pyramid to efficiently search a large area [Bouguet 2001]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Pyramidal implementation of the affine Lucas Kanade feature tracker description of the algorithm. Tech. rep., Intel Corporation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Pyramidal implementation of the affine Lucas Kanade feature tracker description of the algorithm. Tech. rep., Intel Corporation"
+            },
+            "year": 2001
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 128,
+                                "start": 116
+                            }
+                        ],
+                        "text": "It is often implemented as a multi-scale algorithm, which uses an image pyramid to efficiently search a large area [Bouguet 2001]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Pyramidal implementation of the affine Lucas Kanade feature tracker description of the algorithm"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Tech. rep"
+            },
+            "year": 2001
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Darkroom: Compiling High-Level Image Processing Code into Hardware Pipelines"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Darkroom: Compiling High-Level Image Processing Code into Hardware Pipelines"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "http://www.xilinx.com/products/design-tools/vivado/ integration/esl-design"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "http://www.xilinx.com/products/design-tools/vivado/ integration/esl-design"
+            }
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 15,
+            "methodology": 19,
+            "result": 2
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 35,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Darkroom:-compiling-high-level-image-processing-Hegarty-Brunhaver/6e0c9e737eb7eb153a6b4a000faae3c1c6c753e4?sort=total-citations"
+}

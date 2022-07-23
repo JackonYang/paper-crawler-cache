@@ -1,0 +1,3000 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1711495"
+                        ],
+                        "name": "T. D. Han",
+                        "slug": "T.-D.-Han",
+                        "structuredName": {
+                            "firstName": "Tianyi",
+                            "lastName": "Han",
+                            "middleNames": [
+                                "David"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. D. Han"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1693454"
+                        ],
+                        "name": "T. Abdelrahman",
+                        "slug": "T.-Abdelrahman",
+                        "structuredName": {
+                            "firstName": "Tarek",
+                            "lastName": "Abdelrahman",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Abdelrahman"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 169,
+                                "start": 161
+                            }
+                        ],
+                        "text": "High-performance compilation for GPUs, by now, is hardly a new topic, and many different approaches have been used, including ones using OpenMP-style directives [12, 16], ones that are fully automatic [24] ones based on functional languages [20], and ones based on the polyhedral model [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1234927,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6010dc8336a48de8fab1043aa15d22c35098f1ff",
+            "isKey": false,
+            "numCitedBy": 207,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Graphics Processing Units (GPUs) have become a competitive accelerator for applications outside the graphics domain, mainly driven by the improvements in GPU programmability. Although the Compute Unified Device Architecture (CUDA) is a simple C-like interface for programming NVIDIA GPUs, porting applications to CUDA remains a challenge to average programmers. In particular, CUDA places on the programmer the burden of packaging GPU code in separate functions, of explicitly managing data transfer between the host and GPU memories, and of manually optimizing the utilization of the GPU memory. Practical experience shows that the programmer needs to make significant code changes, often tedious and error-prone, before getting an optimized program. We have designed hiCUDA}, a high-level directive-based language for CUDA programming. It allows programmers to perform these tedious tasks in a simpler manner and directly to the sequential code, thus speeding up the porting process. In this paper, we describe the hiCUDA} directives as well as the design and implementation of a prototype compiler that translates a hiCUDA} program to a CUDA program. Our compiler is able to support real-world applications that span multiple procedures and use dynamically allocated arrays. Experiments using nine CUDA benchmarks show that the simplicity hiCUDA} provides comes at no expense to performance."
+            },
+            "slug": "hiCUDA:-High-Level-GPGPU-Programming-Han-Abdelrahman",
+            "title": {
+                "fragments": [],
+                "text": "hiCUDA: High-Level GPGPU Programming"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "The hiCUDA}, a high-level directive-based language for CUDA programming is designed, which allows programmers to perform tedious tasks in a simpler manner and directly to the sequential code, thus speeding up the porting process."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Parallel and Distributed Systems"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2620980"
+                        ],
+                        "name": "A. Kl\u00f6ckner",
+                        "slug": "A.-Kl\u00f6ckner",
+                        "structuredName": {
+                            "firstName": "Andreas",
+                            "lastName": "Kl\u00f6ckner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Kl\u00f6ckner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "30017846"
+                        ],
+                        "name": "N. Pinto",
+                        "slug": "N.-Pinto",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Pinto",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Pinto"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3188259"
+                        ],
+                        "name": "Yunsup Lee",
+                        "slug": "Yunsup-Lee",
+                        "structuredName": {
+                            "firstName": "Yunsup",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yunsup Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2301680"
+                        ],
+                        "name": "Bryan Catanzaro",
+                        "slug": "Bryan-Catanzaro",
+                        "structuredName": {
+                            "firstName": "Bryan",
+                            "lastName": "Catanzaro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bryan Catanzaro"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48275005"
+                        ],
+                        "name": "Paul Ivanov",
+                        "slug": "Paul-Ivanov",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Ivanov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Paul Ivanov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "9379869"
+                        ],
+                        "name": "A. Fasih",
+                        "slug": "A.-Fasih",
+                        "structuredName": {
+                            "firstName": "Ahmed",
+                            "lastName": "Fasih",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Fasih"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 8,
+                                "start": 0
+                            }
+                        ],
+                        "text": "PyOpenCL device arrays, like numpy arrays, include type, shape and memory layout information."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 69,
+                                "start": 61
+                            }
+                        ],
+                        "text": "If Loo.py is used from within Python, and specifically, with PyOpenCL [13], some extra convenience features are available."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 22
+                            }
+                        ],
+                        "text": "If used to operate on PyOpenCL or numpy array objects, loopy can automatically infer types left unspecified in user code, facilitating generic programming."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 108,
+                                "start": 104
+                            }
+                        ],
+                        "text": "It builds and improves upon the model of run-time code generation from a scripting language proposed in [13]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 218,
+                                "start": 210
+                            }
+                        ],
+                        "text": "Running the kernel defined above from within the host Python program is straightforward:\nevt, (out,) = knl(queue, a=x_vec_dev) assert (out.get() == (2*x_vec_dev).get()).all()\nThis run-time feature makes use of PyOpenCL, introduced above. queue is expected to be a PyOpenCL CommandQueue object corresponding to an OpenCL command queue, and a is expected to be a PyOpenCL device array, a work-alike of a numpy array that resides in OpenCL global device memory."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 42
+                            }
+                        ],
+                        "text": "Optional, deep integration with numpy and PyOpenCL provides a convenient computing environment where the transition from prototype to high-performance implementation can occur in a gradual, machine-assisted form."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 63
+                            }
+                        ],
+                        "text": "py is used from within Python, and specifically, with PyOpenCL [13], some extra convenience features are available."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 101,
+                                "start": 93
+                            }
+                        ],
+                        "text": "In addition to this foundational functionality and numerous parallel programming primitives, PyOpenCL provides an array object that behaves much like and is intended to fill a similar role as the popular numpy [21] array object, with which it tightly integrates."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 107
+                            }
+                        ],
+                        "text": "Note that Loo.py does not require the use of Python as the host language for generated code, or the use of PyOpenCL for that matter."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 8,
+                                "start": 0
+                            }
+                        ],
+                        "text": "PyOpenCL, much like its sister project PyCUDA, provides access to a low-level, high-performance parallel computing environment (OpenCL) from a high-level programming language (Python),\nfacilitating run-time code generation (\u2018RTCG\u2019)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 18928397,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d57b42821ec782b33dd49ee0c37976bbd62d24a4",
+            "isKey": false,
+            "numCitedBy": 481,
+            "numCiting": 68,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "PyCUDA-and-PyOpenCL:-A-scripting-based-approach-to-Kl\u00f6ckner-Pinto",
+            "title": {
+                "fragments": [],
+                "text": "PyCUDA and PyOpenCL: A scripting-based approach to GPU run-time code generation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Parallel Comput."
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1897982"
+                        ],
+                        "name": "Bo Joel Svensson",
+                        "slug": "Bo-Joel-Svensson",
+                        "structuredName": {
+                            "firstName": "Bo",
+                            "lastName": "Svensson",
+                            "middleNames": [
+                                "Joel"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bo Joel Svensson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1712841"
+                        ],
+                        "name": "K. Claessen",
+                        "slug": "K.-Claessen",
+                        "structuredName": {
+                            "firstName": "Koen",
+                            "lastName": "Claessen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Claessen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145135029"
+                        ],
+                        "name": "M. Sheeran",
+                        "slug": "M.-Sheeran",
+                        "structuredName": {
+                            "firstName": "Mary",
+                            "lastName": "Sheeran",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Sheeran"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 245,
+                                "start": 241
+                            }
+                        ],
+                        "text": "High-performance compilation for GPUs, by now, is hardly a new topic, and many different approaches have been used, including ones using OpenMP-style directives [12, 16], ones that are fully automatic [24] ones based on functional languages [20], and ones based on the polyhedral model [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8433174,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "eca174136c8e58f77bd059b61e982155f53b8845",
+            "isKey": false,
+            "numCitedBy": 29,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "GPGPU-kernel-implementation-and-refinement-using-Svensson-Claessen",
+            "title": {
+                "fragments": [],
+                "text": "GPGPU kernel implementation and refinement using Obsidian"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICCS"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1734175"
+                        ],
+                        "name": "Huimin Cui",
+                        "slug": "Huimin-Cui",
+                        "structuredName": {
+                            "firstName": "Huimin",
+                            "lastName": "Cui",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Huimin Cui"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46659935"
+                        ],
+                        "name": "Lei Wang",
+                        "slug": "Lei-Wang",
+                        "structuredName": {
+                            "firstName": "Lei",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lei Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144198209"
+                        ],
+                        "name": "Jingling Xue",
+                        "slug": "Jingling-Xue",
+                        "structuredName": {
+                            "firstName": "Jingling",
+                            "lastName": "Xue",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jingling Xue"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2152919509"
+                        ],
+                        "name": "Yang Yang",
+                        "slug": "Yang-Yang",
+                        "structuredName": {
+                            "firstName": "Yang",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yang Yang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32215073"
+                        ],
+                        "name": "Xiaobing Feng",
+                        "slug": "Xiaobing-Feng",
+                        "structuredName": {
+                            "firstName": "Xiaobing",
+                            "lastName": "Feng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiaobing Feng"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 131,
+                                "start": 124
+                            }
+                        ],
+                        "text": "py have been presented by various authors, ranging from early work such PhiPAC [3] to more recent OpenCLand CUDA-based work [7, 17]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7117674,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3b260b6286ccac6bd3933fdefee66fd83f000768",
+            "isKey": false,
+            "numCitedBy": 28,
+            "numCiting": 36,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "High-performance libraries, the performance-critical building blocks for high-level applications, will assume greater importance on modern processors as they become more complex and diverse. However, automatic library generators are still immature, forcing library developers to manually tune library to meet their performance objectives. We are developing a new script-controlled compilation framework to help domain experts reduce much of the tedious and error-prone nature of manual tuning, by enabling them to leverage their expertise and reuse past optimization experiences. We focus on demonstrating improved performance and productivity obtained through using our framework to tune BLAS3 routines on three GPU platforms: up to 5.4x speedups over the CUBLAS achieved on NVIDIA GeForce 9800, 2.8x on GTX285, and 3.4x on Fermi Tesla C2050. Our results highlight the potential benefits of exploiting domain expertise and the relations between different routines (in terms of their algorithms and data structures)."
+            },
+            "slug": "Automatic-Library-Generation-for-BLAS3-on-GPUs-Cui-Wang",
+            "title": {
+                "fragments": [],
+                "text": "Automatic Library Generation for BLAS3 on GPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "A new script-controlled compilation framework is developed to help domain experts reduce much of the tedious and error-prone nature of manual tuning, by enabling them to leverage their expertise and reuse past optimization experiences."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2011 IEEE International Parallel & Distributed Processing Symposium"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2143686020"
+                        ],
+                        "name": "Yi Yang",
+                        "slug": "Yi-Yang",
+                        "structuredName": {
+                            "firstName": "Yi",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yi Yang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066321728"
+                        ],
+                        "name": "Ping Xiang",
+                        "slug": "Ping-Xiang",
+                        "structuredName": {
+                            "firstName": "Ping",
+                            "lastName": "Xiang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ping Xiang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1799386"
+                        ],
+                        "name": "J. Kong",
+                        "slug": "J.-Kong",
+                        "structuredName": {
+                            "firstName": "Jingfei",
+                            "lastName": "Kong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Kong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38067595"
+                        ],
+                        "name": "Huiyang Zhou",
+                        "slug": "Huiyang-Zhou",
+                        "structuredName": {
+                            "firstName": "Huiyang",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Huiyang Zhou"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 205,
+                                "start": 201
+                            }
+                        ],
+                        "text": "High-performance compilation for GPUs, by now, is hardly a new topic, and many different approaches have been used, including ones using OpenMP-style directives [12, 16], ones that are fully automatic [24] ones based on functional languages [20], and ones based on the polyhedral model [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15479032,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "547074e26ddcbeaf4d9ae4c184a995aec1366dc4",
+            "isKey": false,
+            "numCitedBy": 311,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a novel optimizing compiler for general purpose computation on graphics processing units (GPGPU). It addresses two major challenges of developing high performance GPGPU programs: effective utilization of GPU memory hierarchy and judicious management of parallelism.\n The input to our compiler is a na\u00efve GPU kernel function, which is functionally correct but without any consideration for performance optimization. The compiler analyzes the code, identifies its memory access patterns, and generates both the optimized kernel and the kernel invocation parameters. Our optimization process includes vectorization and memory coalescing for memory bandwidth enhancement, tiling and unrolling for data reuse and parallelism management, and thread block remapping or address-offset insertion for partition-camping elimination. The experiments on a set of scientific and media processing algorithms show that our optimized code achieves very high performance, either superior or very close to the highly fine-tuned library, NVIDIA CUBLAS 2.2, and up to 128 times speedups over the naive versions. Another distinguishing feature of our compiler is the understandability of the optimized code, which is useful for performance analysis and algorithm refinement."
+            },
+            "slug": "A-GPGPU-compiler-for-memory-optimization-and-Yang-Xiang",
+            "title": {
+                "fragments": [],
+                "text": "A GPGPU compiler for memory optimization and parallelism management"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 98,
+                "text": "This paper presents a novel optimizing compiler for general purpose computation on graphics processing units (GPGPU), which addresses two major challenges of developing high performance GPGPU programs: effective utilization of GPU memory hierarchy and judicious management of parallelism."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '10"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108701347"
+                        ],
+                        "name": "Seyong Lee",
+                        "slug": "Seyong-Lee",
+                        "structuredName": {
+                            "firstName": "Seyong",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Seyong Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1727592"
+                        ],
+                        "name": "R. Eigenmann",
+                        "slug": "R.-Eigenmann",
+                        "structuredName": {
+                            "firstName": "Rudolf",
+                            "lastName": "Eigenmann",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Eigenmann"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 169,
+                                "start": 161
+                            }
+                        ],
+                        "text": "High-performance compilation for GPUs, by now, is hardly a new topic, and many different approaches have been used, including ones using OpenMP-style directives [12, 16], ones that are fully automatic [24] ones based on functional languages [20], and ones based on the polyhedral model [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 18512872,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "15f67796899118508cc3021df0f88faf2298bd45",
+            "isKey": false,
+            "numCitedBy": 238,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "General-Purpose Graphics Processing Units (GPGPUs) are promising parallel platforms for high performance computing. The CUDA (Compute Unified Device Architecture) programming model provides improved programmability for general computing on GPGPUs. However, its unique execution model and memory model still pose significant challenges for developers of efficient GPGPU code. This paper proposes a new programming interface, called OpenMPC, which builds on OpenMP to provide an abstraction of the complex CUDA programming model and offers high-level controls of the involved parameters and optimizations. We have developed a fully automatic compilation and user-assisted tuning system supporting OpenMPC. In addition to a range of compiler transformations and optimizations, the system includes tuning capabilities for generating, pruning, and navigating the search space of compilation variants. Our results demonstrate that OpenMPC offers both programmability and tunability. Our system achieves 88% of the performance of the hand-coded CUDA programs."
+            },
+            "slug": "OpenMPC:-Extended-OpenMP-Programming-and-Tuning-for-Lee-Eigenmann",
+            "title": {
+                "fragments": [],
+                "text": "OpenMPC: Extended OpenMP Programming and Tuning for GPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper has developed a fully automatic compilation and user-assisted tuning system supporting OpenMPC, which builds on OpenMP to provide an abstraction of the complex CUDA programming model and offers high-level controls of the involved parameters and optimizations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2010 ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1717086"
+                        ],
+                        "name": "A. Rubinsteyn",
+                        "slug": "A.-Rubinsteyn",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Rubinsteyn",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Rubinsteyn"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2438643"
+                        ],
+                        "name": "Eric Hielscher",
+                        "slug": "Eric-Hielscher",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Hielscher",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eric Hielscher"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2685371"
+                        ],
+                        "name": "Nathaniel Weinman",
+                        "slug": "Nathaniel-Weinman",
+                        "structuredName": {
+                            "firstName": "Nathaniel",
+                            "lastName": "Weinman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nathaniel Weinman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695878"
+                        ],
+                        "name": "D. Shasha",
+                        "slug": "D.-Shasha",
+                        "structuredName": {
+                            "firstName": "Dennis",
+                            "lastName": "Shasha",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Shasha"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 89,
+                                "start": 79
+                            }
+                        ],
+                        "text": "Automatic, GPU-targeted compilers for languages embedded in Python also abound [5, 6, 18], most of which transform a Python AST at runtime based on various levels of annotation and operational abstraction."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15466076,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "41035af8cf052828bd69b7ada9efe49b67f8b511",
+            "isKey": false,
+            "numCitedBy": 40,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "High level productivity languages such as Python or Matlab enable the use of computational resources by nonexpert programmers. However, these languages often sacrifice program speed for ease of use.\n This paper proposes Parakeet, a library which provides a just-in-time (JIT) parallel accelerator for Python. Parakeet bridges the gap between the usability of Python and the speed of code written in efficiency languages such as C++ or CUDA. Parakeet accelerates data-parallel sections of Python that use the standard NumPy scientific computing library. Parakeet JIT compiles efficient versions of Python functions and automatically manages their execution on both GPUs and CPUs. We assess Parakeet on a pair of benchmarks and achieve significant speedups."
+            },
+            "slug": "Parakeet:-a-just-in-time-parallel-accelerator-for-Rubinsteyn-Hielscher",
+            "title": {
+                "fragments": [],
+                "text": "Parakeet: a just-in-time parallel accelerator for python"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "Parakeet is proposed, a library which provides a just-in-time (JIT) parallel accelerator for Python that bridges the gap between the usability of Python and the speed of code written in efficiency languages such as C++ or CUDA."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "HotPar'12"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1772079"
+                        ],
+                        "name": "Sven Verdoolaege",
+                        "slug": "Sven-Verdoolaege",
+                        "structuredName": {
+                            "firstName": "Sven",
+                            "lastName": "Verdoolaege",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sven Verdoolaege"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3281978"
+                        ],
+                        "name": "J. Juega",
+                        "slug": "J.-Juega",
+                        "structuredName": {
+                            "firstName": "Juan",
+                            "lastName": "Juega",
+                            "middleNames": [
+                                "Carlos"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Juega"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145509576"
+                        ],
+                        "name": "Albert Cohen",
+                        "slug": "Albert-Cohen",
+                        "structuredName": {
+                            "firstName": "Albert",
+                            "lastName": "Cohen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Albert Cohen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144431297"
+                        ],
+                        "name": "J. I. G\u00f3mez",
+                        "slug": "J.-I.-G\u00f3mez",
+                        "structuredName": {
+                            "firstName": "Jos\u00e9",
+                            "lastName": "G\u00f3mez",
+                            "middleNames": [
+                                "Ignacio"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. I. G\u00f3mez"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1916522"
+                        ],
+                        "name": "C. Tenllado",
+                        "slug": "C.-Tenllado",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Tenllado",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Tenllado"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145410654"
+                        ],
+                        "name": "F. Catthoor",
+                        "slug": "F.-Catthoor",
+                        "structuredName": {
+                            "firstName": "Francky",
+                            "lastName": "Catthoor",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Catthoor"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 290,
+                                "start": 286
+                            }
+                        ],
+                        "text": "High-performance compilation for GPUs, by now, is hardly a new topic, and many different approaches have been used, including ones using OpenMP-style directives [12, 16], ones that are fully automatic [24] ones based on functional languages [20], and ones based on the polyhedral model [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1212874,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "963a1e639971e7e3a4e6c871cf9c0b410e5532d0",
+            "isKey": false,
+            "numCitedBy": 323,
+            "numCiting": 65,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This article addresses the compilation of a sequential program for parallel execution on a modern GPU. To this end, we present a novel source-to-source compiler called PPCG. PPCG singles out for its ability to accelerate computations from any static control loop nest, generating multiple CUDA kernels when necessary. We introduce a multilevel tiling strategy and a code generation scheme for the parallelization and locality optimization of imperfectly nested loops, managing memory and exposing concurrency according to the constraints of modern GPUs. We evaluate our algorithms and tool on the entire PolyBench suite."
+            },
+            "slug": "Polyhedral-parallel-code-generation-for-CUDA-Verdoolaege-Juega",
+            "title": {
+                "fragments": [],
+                "text": "Polyhedral parallel code generation for CUDA"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A novel source-to-source compiler called PPCG is presented, which introduces a multilevel tiling strategy and a code generation scheme for the parallelization and locality optimization of imperfectly nested loops, managing memory and exposing concurrency according to the constraints of modern GPUs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TACO"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145624835"
+                        ],
+                        "name": "R. Garg",
+                        "slug": "R.-Garg",
+                        "structuredName": {
+                            "firstName": "Rahul",
+                            "lastName": "Garg",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Garg"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699786"
+                        ],
+                        "name": "L. Hendren",
+                        "slug": "L.-Hendren",
+                        "structuredName": {
+                            "firstName": "Laurie",
+                            "lastName": "Hendren",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Hendren"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 61
+                            }
+                        ],
+                        "text": "Other ones define an automatic, array computation middleware [10] designed as a back-end for multiple languages, including Python."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10295556,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bfe74a56d055a6001bba78729d87ced3b436ab23",
+            "isKey": false,
+            "numCitedBy": 4,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a compiler toolkit that addresses two important emerging challenges: (1) effectively compiling dynamic array-based languages such as MATLAB, Python and R; and (2) effectively utilizing a wide range of rapidly evolving hybrid CPU/GPU architectures. The toolkit provides: a high-level IR specifically designed to express a wide range of arraybased computations and indexing modes; Velociraptor, a CPU/GPU code generator and runtime library; and RaijinCL, a portable autotuning GPU library for key BLAS routines. A compiler developer uses the toolkit by generating VelociraptorIR for key parts of an input program, and using Velociraptor to automatically generate CPU/GPU code. The toolkit leverages OpenCL and LLVM for GPU and CPU code generation respectively, and can thus be used for a wide variety of target architectures. To demonstrate different possible uses of the toolkit, the paper presents a proof-of-concept CPU/GPU Python compiler, and a GPU extension of a MATLAB JIT."
+            },
+            "slug": "A-compiler-toolkit-for-array-based-languages-hybrid-Garg-Hendren",
+            "title": {
+                "fragments": [],
+                "text": "A compiler toolkit for array-based languages targeting CPU/GPU hybrid systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 91,
+                "text": "A compiler toolkit that addresses two important emerging challenges: effectively compiling dynamic array-based languages such as MATLAB, Python and R; and effectively utilizing a wide range of rapidly evolving hybrid CPU/GPU architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40335288"
+                        ],
+                        "name": "Gabe Rudy",
+                        "slug": "Gabe-Rudy",
+                        "structuredName": {
+                            "firstName": "Gabe",
+                            "lastName": "Rudy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Gabe Rudy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "31568526"
+                        ],
+                        "name": "M. Khan",
+                        "slug": "M.-Khan",
+                        "structuredName": {
+                            "firstName": "Malik",
+                            "lastName": "Khan",
+                            "middleNames": [
+                                "Murtaza"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Khan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143896454"
+                        ],
+                        "name": "Mary W. Hall",
+                        "slug": "Mary-W.-Hall",
+                        "structuredName": {
+                            "firstName": "Mary",
+                            "lastName": "Hall",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mary W. Hall"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109525543"
+                        ],
+                        "name": "Chun Chen",
+                        "slug": "Chun-Chen",
+                        "structuredName": {
+                            "firstName": "Chun",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chun Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1772362"
+                        ],
+                        "name": "Jacqueline Chame",
+                        "slug": "Jacqueline-Chame",
+                        "structuredName": {
+                            "firstName": "Jacqueline",
+                            "lastName": "Chame",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jacqueline Chame"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 17
+                            }
+                        ],
+                        "text": "py is CUDA-CHiLL [19], which performs source-tosource translation based on a set of user-controlled transformations [11]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 89,
+                                "start": 79
+                            }
+                        ],
+                        "text": "Perhaps the conceptually closest prior work to the approach taken by Loo.py is CUDA-CHiLL [19], which performs source-tosource translation based on a set of user-controlled transformations [11]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 19501057,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cc2906b3a18ee0e4d0ef4ba324c01d5b60d77315",
+            "isKey": false,
+            "numCitedBy": 85,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a programming language interface, a complete scripting language, to describe composable compiler transformations. These transformation programs can be written, shared and reused by non-expert application and library developers. From a compiler writer's perspective, a scripting language interface permits rapid prototyping of compiler algorithms that can mix levels and compose different sequences of transformations, producing readable code as output. From a library or application developer's perspective, the use of transformation programs permits expression of clean high-level code, and a separate description of how to map that code to architectural features, easing maintenance and porting to new architectures. \n \nWe illustrate this interface in the context of CUDA-CHiLL, a source-to-source compiler transformation and code generation framework that transforms sequential loop nests to high-performance GPU code. We show how this high-level transformation and code generation language can be used to express: (1) complex transformation sequences, exemplified by a single loop restructuring construct used to generate a series of tiling and permute commands; and, (2) complex code generation sequences to produce CUDA code from a high-level specification. We demonstrate that the automatically-generated code either performs closely or outperforms two hand-tuned GPU library kernels from Nvidia's CUBLAS 2.2 and 3.2 libraries."
+            },
+            "slug": "A-Programming-Language-Interface-to-Describe-and-Rudy-Khan",
+            "title": {
+                "fragments": [],
+                "text": "A Programming Language Interface to Describe Transformations and Code Generation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "It is demonstrated that the automatically-generated code either performs closely or outperforms two hand-tuned GPU library kernels from Nvidia's CUBLAS 2.2 and 3.2 libraries."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LCPC"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143896454"
+                        ],
+                        "name": "Mary W. Hall",
+                        "slug": "Mary-W.-Hall",
+                        "structuredName": {
+                            "firstName": "Mary",
+                            "lastName": "Hall",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mary W. Hall"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1772362"
+                        ],
+                        "name": "Jacqueline Chame",
+                        "slug": "Jacqueline-Chame",
+                        "structuredName": {
+                            "firstName": "Jacqueline",
+                            "lastName": "Chame",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jacqueline Chame"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109525543"
+                        ],
+                        "name": "Chun Chen",
+                        "slug": "Chun-Chen",
+                        "structuredName": {
+                            "firstName": "Chun",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chun Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2111108147"
+                        ],
+                        "name": "Jaewook Shin",
+                        "slug": "Jaewook-Shin",
+                        "structuredName": {
+                            "firstName": "Jaewook",
+                            "lastName": "Shin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jaewook Shin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40335288"
+                        ],
+                        "name": "Gabe Rudy",
+                        "slug": "Gabe-Rudy",
+                        "structuredName": {
+                            "firstName": "Gabe",
+                            "lastName": "Rudy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Gabe Rudy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "31568526"
+                        ],
+                        "name": "M. Khan",
+                        "slug": "M.-Khan",
+                        "structuredName": {
+                            "firstName": "Malik",
+                            "lastName": "Khan",
+                            "middleNames": [
+                                "Murtaza"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Khan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 17524405,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3ab39b6f60e163a4a609410f320555ddc20b3976",
+            "isKey": false,
+            "numCitedBy": 108,
+            "numCiting": 52,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, we describe transformation recipes, which provide a high-level interface to the code transformation and code generation capability of a compiler. These recipes can be generated by compiler decision algorithms or savvy software developers. This interface is part of an auto-tuning framework that explores a set of different implementations of the same computation and automatically selects the best-performing implementation. Along with the original computation, a transformation recipe specifies a range of implementations of the computation resulting from composing a set of high-level code transformations. In our system, an underlying polyhedral framework coupled with transformation algorithms takes this set of transformations, composes them and automatically generates correct code. We first describe an abstract interface for transformation recipes, which we propose to facilitate interoperability with other transformation frameworks. We then focus on the specific transformation recipe interface used in our compiler and present performance results on its application to kernel and library tuning and tuning of key computations in high-end applications. We also show how this framework can be used to generate and auto-tune parallel OpenMP or CUDA code from a high-level specification."
+            },
+            "slug": "Loop-Transformation-Recipes-for-Code-Generation-and-Hall-Chame",
+            "title": {
+                "fragments": [],
+                "text": "Loop Transformation Recipes for Code Generation and Auto-Tuning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "An abstract interface for transformation recipes is described, which is proposed to facilitate interoperability with other transformation frameworks and present performance results on its application to kernel and library tuning and tuning of key computations in high-end applications."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LCPC"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2301680"
+                        ],
+                        "name": "Bryan Catanzaro",
+                        "slug": "Bryan-Catanzaro",
+                        "structuredName": {
+                            "firstName": "Bryan",
+                            "lastName": "Catanzaro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bryan Catanzaro"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144764367"
+                        ],
+                        "name": "M. Garland",
+                        "slug": "M.-Garland",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Garland",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Garland"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1732330"
+                        ],
+                        "name": "K. Keutzer",
+                        "slug": "K.-Keutzer",
+                        "structuredName": {
+                            "firstName": "Kurt",
+                            "lastName": "Keutzer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Keutzer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 89,
+                                "start": 79
+                            }
+                        ],
+                        "text": "Automatic, GPU-targeted compilers for languages embedded in Python also abound [5, 6, 18], most of which transform a Python AST at runtime based on various levels of annotation and operational abstraction."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1867309,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "92028dd1d95d7447708899ae3b9506a356e4434d",
+            "isKey": false,
+            "numCitedBy": 216,
+            "numCiting": 37,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Modern parallel microprocessors deliver high performance on applications that expose substantial fine-grained data parallelism. Although data parallelism is widely available in many computations, implementing data parallel algorithms in low-level languages is often an unnecessarily difficult task. The characteristics of parallel microprocessors and the limitations of current programming methodologies motivate our design of Copperhead, a high-level data parallel language embedded in Python. The Copperhead programmer describes parallel computations via composition of familiar data parallel primitives supporting both flat and nested data parallel computation on arrays of data. Copperhead programs are expressed in a subset of the widely used Python programming language and interoperate with standard Python modules, including libraries for numeric computation, data visualization, and analysis. In this paper, we discuss the language, compiler, and runtime features that enable Copperhead to efficiently execute data parallel code. We define the restricted subset of Python which Copperhead supports and introduce the program analysis techniques necessary for compiling Copperhead code into efficient low-level implementations. We also outline the runtime support by which Copperhead programs interoperate with standard Python modules. We demonstrate the effectiveness of our techniques with several examples targeting the CUDA platform for parallel programming on GPUs. Copperhead code is concise, on average requiring 3.6 times fewer lines of code than CUDA, and the compiler generates efficient code, yielding 45-100% of the performance of hand-crafted, well optimized CUDA code."
+            },
+            "slug": "Copperhead:-compiling-an-embedded-data-parallel-Catanzaro-Garland",
+            "title": {
+                "fragments": [],
+                "text": "Copperhead: compiling an embedded data parallel language"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "The language, compiler, and runtime features that enable Copperhead to efficiently execute data parallel code are discussed and the program analysis techniques necessary for compiling Copperhead code into efficient low-level implementations are introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PPoPP '11"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1982612"
+                        ],
+                        "name": "Kazuya Matsumoto",
+                        "slug": "Kazuya-Matsumoto",
+                        "structuredName": {
+                            "firstName": "Kazuya",
+                            "lastName": "Matsumoto",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kazuya Matsumoto"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32736184"
+                        ],
+                        "name": "N. Nakasato",
+                        "slug": "N.-Nakasato",
+                        "structuredName": {
+                            "firstName": "Naohito",
+                            "lastName": "Nakasato",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Nakasato"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2320276"
+                        ],
+                        "name": "S. Sedukhin",
+                        "slug": "S.-Sedukhin",
+                        "structuredName": {
+                            "firstName": "Stanislav",
+                            "lastName": "Sedukhin",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Sedukhin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 131,
+                                "start": 124
+                            }
+                        ],
+                        "text": "py have been presented by various authors, ranging from early work such PhiPAC [3] to more recent OpenCLand CUDA-based work [7, 17]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16408566,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "03dab86964a59a8863aeccc2d312ec4bfa53be02",
+            "isKey": false,
+            "numCitedBy": 21,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents results of an implementation of code generator for fast general matrix multiply (GEMM) kernels. When a set of parameters is given, the code generator produces the corresponding GEMM kernel written in OpenCL. The produced kernels are optimized for high-performance implementation on GPUs from AMD. Access latencies to GPU global memory is the main drawback for high performance. This study shows that storing matrix data in a block-major layout increases the performance and stability of GEMM kernels. On the Tahiti GPU (Radeon HD 7970), our DGEMM (double-precision GEMM) and SGEMM (single-precisionGEMM) kernels achieve the performance up to 848 GFlop/s (90% of the peak) and 2646 GFlop/s (70%), respectively."
+            },
+            "slug": "Implementing-a-Code-Generator-for-Fast-Matrix-in-on-Matsumoto-Nakasato",
+            "title": {
+                "fragments": [],
+                "text": "Implementing a Code Generator for Fast Matrix Multiplication in OpenCL on the GPU"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "It is shown that storing matrix data in a block-major layout increases the performance and stability of GEMM kernels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2012 IEEE 6th International Symposium on Embedded Multicore SoCs"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1769333"
+                        ],
+                        "name": "C. Bastoul",
+                        "slug": "C.-Bastoul",
+                        "structuredName": {
+                            "firstName": "C\u00e9dric",
+                            "lastName": "Bastoul",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Bastoul"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 91,
+                                "start": 85
+                            }
+                        ],
+                        "text": "py is heavily inspired by the polyhedral model of expressing static-control programs [2, 9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7971227,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d2f48fb9fd31390c56609f00510accf5c56f9f9b",
+            "isKey": false,
+            "numCitedBy": 518,
+            "numCiting": 41,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many advances in automatic parallelization and optimization have been achieved through the polyhedral model. It has been extensively shown that this computational model provides convenient abstractions to reason about and apply program transformations. Nevertheless, the complexity of code generation has long been a deterrent for using polyhedral representation in optimizing compilers. First, code generators have a hard time coping with generated code size and control overhead that may spoil theoretical benefits achieved by the transformations. Second, this step is usually time consuming, hampering the integration of the polyhedral framework in production compilers or feedback-directed, iterative optimization schemes. Moreover, current code generation algorithms only cover a restrictive set of possible transformation functions. This paper discusses a general transformation framework able to deal with nonunimodular, noninvertible, nonintegral or even nonuniform functions. It presents several improvements to a state-of-the-art code generation algorithm. Two directions are explored: generated code size and code generator efficiency. Experimental evidence proves the ability of the improved method to handle real-life problems."
+            },
+            "slug": "Code-generation-in-the-polyhedral-model-is-easier-Bastoul",
+            "title": {
+                "fragments": [],
+                "text": "Code generation in the polyhedral model is easier than you think"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "A general transformation framework able to deal with nonunimodular, noninvertible, nonintegral or even nonuniform functions is discussed and several improvements to a state-of-the-art code generation algorithm are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings. 13th International Conference on Parallel Architecture and Compilation Techniques, 2004. PACT 2004."
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760896"
+                        ],
+                        "name": "K. Asanovi\u0107",
+                        "slug": "K.-Asanovi\u0107",
+                        "structuredName": {
+                            "firstName": "Krste",
+                            "lastName": "Asanovi\u0107",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Asanovi\u0107"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1991345"
+                        ],
+                        "name": "R. Bod\u00edk",
+                        "slug": "R.-Bod\u00edk",
+                        "structuredName": {
+                            "firstName": "Rastislav",
+                            "lastName": "Bod\u00edk",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Bod\u00edk"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2301680"
+                        ],
+                        "name": "Bryan Catanzaro",
+                        "slug": "Bryan-Catanzaro",
+                        "structuredName": {
+                            "firstName": "Bryan",
+                            "lastName": "Catanzaro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bryan Catanzaro"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2053614"
+                        ],
+                        "name": "Joseph Gebis",
+                        "slug": "Joseph-Gebis",
+                        "structuredName": {
+                            "firstName": "Joseph",
+                            "lastName": "Gebis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Joseph Gebis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38602469"
+                        ],
+                        "name": "P. Husbands",
+                        "slug": "P.-Husbands",
+                        "structuredName": {
+                            "firstName": "Parry",
+                            "lastName": "Husbands",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Husbands"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1732330"
+                        ],
+                        "name": "K. Keutzer",
+                        "slug": "K.-Keutzer",
+                        "structuredName": {
+                            "firstName": "Kurt",
+                            "lastName": "Keutzer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Keutzer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701130"
+                        ],
+                        "name": "D. Patterson",
+                        "slug": "D.-Patterson",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Patterson",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Patterson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2160093"
+                        ],
+                        "name": "W. Plishker",
+                        "slug": "W.-Plishker",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Plishker",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Plishker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746446"
+                        ],
+                        "name": "J. Shalf",
+                        "slug": "J.-Shalf",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Shalf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Shalf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145117071"
+                        ],
+                        "name": "Samuel Williams",
+                        "slug": "Samuel-Williams",
+                        "structuredName": {
+                            "firstName": "Samuel",
+                            "lastName": "Williams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Samuel Williams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1731111"
+                        ],
+                        "name": "K. Yelick",
+                        "slug": "K.-Yelick",
+                        "structuredName": {
+                            "firstName": "Katherine",
+                            "lastName": "Yelick",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Yelick"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 143,
+                                "start": 140
+                            }
+                        ],
+                        "text": "It covers a number of important applications of parallel computation, including a few of the well-known \u2018seven dwarfs\u2019 and their extensions [1]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 64
+                            }
+                        ],
+                        "text": "Categories and Subject Descriptors D [3]: 4\u2014 Code generators; D [1]: 3\u2014 Concurrent programming; G [4]\u2014 Mathematical software"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 62143065,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ceb3fd01e1d5ece659654638e1c7cde2c4704a7a",
+            "isKey": false,
+            "numCitedBy": 2312,
+            "numCiting": 141,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Author(s): Asanovic, K; Bodik, R; Catanzaro, B; Gebis, J; Husbands, P; Keutzer, K; Patterson, D; Plishker, W; Shalf, J; Williams, SW | Abstract: The recent switch to parallel microprocessors is a milestone in the history of computing. Industry has laid out a roadmap for multicore designs that preserves the programming paradigm of the past via binary compatibility and cache coherence. Conventional wisdom is now to double the number of cores on a chip with each silicon generation. A multidisciplinary group of Berkeley researchers met nearly two years to discuss this change. Our view is that this evolutionary approach to parallel hardware and software may work from 2 or 8 processor systems, but is likely to face diminishing returns as 16 and 32 processor systems are realized, just as returns fell with greater instruction-level parallelism. We believe that much can be learned by examining the success of parallelism at the extremes of the computing spectrum, namely embedded computing and high performance computing. This led us to frame the parallel landscape with seven questions, and to recommend the following: \u2022 The overarching goal should be to make it easy to write programs that execute efficiently on highly parallel computing systems \u2022 The target should be 1000s of cores per chip, as these chips are built from processing elements that are the most efficient in MIPS (Million Instructions per Second) per watt, MIPS per area of silicon, and MIPS per development dollar. \u2022 Instead of traditional benchmarks, use 13 \u201cDwarfs\u201d to design and evaluate parallel programming models and architectures. (A dwarf is an algorithmic method that captures a pattern of computation and communication.) \u2022 \u201cAutotuners\u201d should play a larger role than conventional compilers in translating parallel programs. \u2022 To maximize programmer productivity, future programming models must be more human-centric than the conventional focus on hardware or applications. \u2022 To be successful, programming models should be independent of the number of processors. \u2022 To maximize application efficiency, programming models should support a wide range of data types and successful models of parallelism: task-level parallelism, word-level parallelism, and bit-level parallelism. 1 The Landscape of Parallel Computing Research: A View From Berkeley \u2022 Architects should not include features that significantly affect performance or energy if programmers cannot accurately measure their impact via performance counters and energy counters. \u2022 Traditional operating systems will be deconstructed and operating system functionality will be orchestrated using libraries and virtual machines. \u2022 To explore the design space rapidly, use system emulators based on Field Programmable Gate Arrays (FPGAs) that are highly scalable and low cost. Since real world applications are naturally parallel and hardware is naturally parallel, what we need is a programming model, system software, and a supporting architecture that are naturally parallel. Researchers have the rare opportunity to re-invent these cornerstones of computing, provided they simplify the efficient programming of highly parallel systems."
+            },
+            "slug": "The-Landscape-of-Parallel-Computing-Research:-A-Asanovi\u0107-Bod\u00edk",
+            "title": {
+                "fragments": [],
+                "text": "The Landscape of Parallel Computing Research: A View from Berkeley"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The parallel landscape is frame with seven questions, and the following are recommended to explore the design space rapidly: \u2022 The overarching goal should be to make it easy to write programs that execute efficiently on highly parallel computing systems \u2022 The target should be 1000s of cores per chip, as these chips are built from processing elements that are the most efficient in MIPS (Million Instructions per Second) per watt, MIPS per area of silicon, and MIPS each development dollar."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1717462"
+                        ],
+                        "name": "G. Blelloch",
+                        "slug": "G.-Blelloch",
+                        "structuredName": {
+                            "firstName": "Guy",
+                            "lastName": "Blelloch",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Blelloch"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 81,
+                                "start": 78
+                            }
+                        ],
+                        "text": "py\u2019s code generation for reduction and adding a capability for parallel scans [4] would unlock applications thus far out of reach."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 101,
+                                "start": 98
+                            }
+                        ],
+                        "text": "Categories and Subject Descriptors D [3]: 4\u2014 Code generators; D [1]: 3\u2014 Concurrent programming; G [4]\u2014 Mathematical software"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15020969,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3c019693f59a32bf2fe5e99e93372c2816705139",
+            "isKey": false,
+            "numCitedBy": 559,
+            "numCiting": 51,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A study of the effects of adding two scan primitives as unit-time primitives to PRAM (parallel random access machine) models is presented. It is shown that the primitives improve the asymptotic running time of many algorithms by an O(log n) factor, greatly simplifying the description of many algorithms, and are significantly easier to implement than memory references. It is argued that the algorithm designer should feel free to use these operations as if they were as cheap as a memory reference. The author describes five algorithms that clearly illustrate how the scan primitives can be used in algorithm design: a radix-sort algorithm, a quicksort algorithm, a minimum-spanning-tree algorithm, a line-drawing algorithm, and a merging algorithm. These all run on an EREW (exclusive read, exclusive write) PRAM with the addition of two scan primitives and are either simpler or more efficient than their pure PRAM counterparts. The scan primitives have been implemented in microcode on the Connection Machine system, are available in PARIS (the parallel instruction set of the machine). >"
+            },
+            "slug": "Scans-as-Primitive-Parallel-Operations-Blelloch",
+            "title": {
+                "fragments": [],
+                "text": "Scans as Primitive Parallel Operations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 96,
+                "text": "A study of the effects of adding two scan primitives as unit-time primitives to PRAM (parallel random access machine) models is presented and it is shown that the primitives improve the asymptotic running time of many algorithms by an O(log n) factor, greatly simplifying the description of many technologies."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICPP"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1772079"
+                        ],
+                        "name": "Sven Verdoolaege",
+                        "slug": "Sven-Verdoolaege",
+                        "structuredName": {
+                            "firstName": "Sven",
+                            "lastName": "Verdoolaege",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sven Verdoolaege"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 51,
+                                "start": 47
+                            }
+                        ],
+                        "text": "It is written in the syntax of the isl library [22]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9220965,
+            "fieldsOfStudy": [
+                "Art"
+            ],
+            "id": "1c5b15587e4034c97610b2017697ad1ea663a8fa",
+            "isKey": false,
+            "numCitedBy": 351,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In compiler research, polytopes and related mathematical objects have been successfully used for several decades to represent and manipulate computer programs in an approach that has become known as the polyhedral model. The key insight is that the kernels of many compute-intensive applications are composed of loops with bounds that are affine combinations of symbolic constants and outer loop iterators. The iterations of a loop nest can then be represented as the integer points in a (parametric) polytope and manipulated as a whole, rather than as individual iterations. A similar reasoning holds for the elements of an array and for mappings between loop iterations and array elements."
+            },
+            "slug": "isl:-An-Integer-Set-Library-for-the-Polyhedral-Verdoolaege",
+            "title": {
+                "fragments": [],
+                "text": "isl: An Integer Set Library for the Polyhedral Model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "In compiler research, polytopes and related mathematical objects have been successfully used for several decades to represent and manipulate computer programs in an approach that has become known as the polyhedral model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICMS"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39888153"
+                        ],
+                        "name": "S. Walt",
+                        "slug": "S.-Walt",
+                        "structuredName": {
+                            "firstName": "St\u00e9fan",
+                            "lastName": "Walt",
+                            "middleNames": [
+                                "van",
+                                "der"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Walt"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32145799"
+                        ],
+                        "name": "S. Colbert",
+                        "slug": "S.-Colbert",
+                        "structuredName": {
+                            "firstName": "S.",
+                            "lastName": "Colbert",
+                            "middleNames": [
+                                "Chris"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Colbert"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3025780"
+                        ],
+                        "name": "G. Varoquaux",
+                        "slug": "G.-Varoquaux",
+                        "structuredName": {
+                            "firstName": "Ga\u00ebl",
+                            "lastName": "Varoquaux",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Varoquaux"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 214,
+                                "start": 210
+                            }
+                        ],
+                        "text": "In addition to this foundational functionality and numerous parallel programming primitives, PyOpenCL provides an array object that behaves much like and is intended to fill a similar role as the popular numpy [21] array object, with which it tightly integrates."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16907816,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cef52bea3f13b20d6a31391034b0fccec71c6781",
+            "isKey": false,
+            "numCitedBy": 6222,
+            "numCiting": 6,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In the Python world, NumPy arrays are the standard representation for numerical data and enable efficient implementation of numerical computations in a high-level language. As this effort shows, NumPy performance can be improved through three techniques: vectorizing calculations, avoiding copying data in memory, and minimizing operation counts."
+            },
+            "slug": "The-NumPy-Array:-A-Structure-for-Efficient-Walt-Colbert",
+            "title": {
+                "fragments": [],
+                "text": "The NumPy Array: A Structure for Efficient Numerical Computation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This effort shows, NumPy performance can be improved through three techniques: vectorizing calculations, avoiding copying data in memory, and minimizing operation counts."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Computing in Science & Engineering"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 17742163,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0ea2d829f7dd40601a2998cd2b9a820bc00534bd",
+            "isKey": false,
+            "numCitedBy": 230,
+            "numCiting": 56,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The aim of this paper is to explain the importance of polytope and polyhedra in automatic parallelization. We show that the semantics of parallel programs is best described geometrically, as properties of sets of integral points in n-dimensional spaces, where n is related to the maximum nesting depth of DO loops. The needed properties translate nicely to properties of polyhedra, for which many algorithms have been designed for the needs of optimization and operation research. We show how these ideas apply to scheduling, placement and parallel code generation."
+            },
+            "slug": "Automatic-Parallelization-in-the-Polytope-Model-Feautrier",
+            "title": {
+                "fragments": [],
+                "text": "Automatic Parallelization in the Polytope Model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 98,
+                "text": "The aim of this paper is to explain the importance of polytope and polyhedra in automatic parallelization, and shows that the semantics of parallel programs is best described geometrically, as properties of sets of integral points in n-dimensional spaces."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The Data Parallel Programming Model"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3240096"
+                        ],
+                        "name": "J. Ellson",
+                        "slug": "J.-Ellson",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Ellson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Ellson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1725593"
+                        ],
+                        "name": "E. Gansner",
+                        "slug": "E.-Gansner",
+                        "structuredName": {
+                            "firstName": "Emden",
+                            "lastName": "Gansner",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Gansner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2621476"
+                        ],
+                        "name": "E. Koutsofios",
+                        "slug": "E.-Koutsofios",
+                        "structuredName": {
+                            "firstName": "Eleftherios",
+                            "lastName": "Koutsofios",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Koutsofios"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2885843"
+                        ],
+                        "name": "S. North",
+                        "slug": "S.-North",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "North",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. North"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2990655"
+                        ],
+                        "name": "Gordon Woodhull",
+                        "slug": "Gordon-Woodhull",
+                        "structuredName": {
+                            "firstName": "Gordon",
+                            "lastName": "Woodhull",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Gordon Woodhull"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 248,
+                                "start": 240
+                            }
+                        ],
+                        "text": "To help users write programs in this manner, and to ease reasoning about this nonlinear program ordering, Loo.py provides a facility to visualize instruction dependencies and their interaction with loops, through the use of the open-source GraphViz [8] graph drawing tools."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 142,
+                                "start": 139
+                            }
+                        ],
+                        "text": "py provides a facility to visualize instruction dependencies and their interaction with loops, through the use of the open-source GraphViz [8] graph drawing tools."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 35525078,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "066a7195632fa595c712619d897d24e8857c1b86",
+            "isKey": false,
+            "numCitedBy": 751,
+            "numCiting": 1,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Graphviz is a heterogeneous collection of graph drawing tools containing batch layout programs (dot, neato, fdp, twopi); a platform for incremental layout (Dynagraph); customizable graph editors (dotty, Grappa); a server for including graphs in Web pages (WebDot); support for graphs as COM objects (Montage); utility programs useful in graph visualization; and libraries for attributed graphs. The software is available under an Open Source license. The article[1] provides a detailed description of the package."
+            },
+            "slug": "Graphviz-Open-Source-Graph-Drawing-Tools-Ellson-Gansner",
+            "title": {
+                "fragments": [],
+                "text": "Graphviz - Open Source Graph Drawing Tools"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 77,
+                "text": "Graphviz is a heterogeneous collection of graph drawing tools containing batch layout programs, a platform for incremental layout, customizable graph editors, utility programs useful in graph visualization; and libraries for attributed graphs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Graph Drawing"
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40550866"
+                        ],
+                        "name": "Rudyar Cort\u00e9s",
+                        "slug": "Rudyar-Cort\u00e9s",
+                        "structuredName": {
+                            "firstName": "Rudyar",
+                            "lastName": "Cort\u00e9s",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rudyar Cort\u00e9s"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1997152"
+                        ],
+                        "name": "Xavier Bonnaire",
+                        "slug": "Xavier-Bonnaire",
+                        "structuredName": {
+                            "firstName": "Xavier",
+                            "lastName": "Bonnaire",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xavier Bonnaire"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144224874"
+                        ],
+                        "name": "O. Marin",
+                        "slug": "O.-Marin",
+                        "structuredName": {
+                            "firstName": "Olivier",
+                            "lastName": "Marin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Marin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1798389"
+                        ],
+                        "name": "P. Sens",
+                        "slug": "P.-Sens",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Sens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Sens"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 23682731,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e01b3606e036adc406aec8d98ec7b6c3f9112ab2",
+            "isKey": false,
+            "numCitedBy": 321,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Stream-Processing-of-Healthcare-Sensor-Data:-User-a-Cort\u00e9s-Bonnaire",
+            "title": {
+                "fragments": [],
+                "text": "Stream Processing of Healthcare Sensor Data: Studying User Traces to Identify Challenges from a Big Data Perspective"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ANT/SEIT"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1748118"
+                        ],
+                        "name": "J. Bilmes",
+                        "slug": "J.-Bilmes",
+                        "structuredName": {
+                            "firstName": "Jeff",
+                            "lastName": "Bilmes",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bilmes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760896"
+                        ],
+                        "name": "K. Asanovi\u0107",
+                        "slug": "K.-Asanovi\u0107",
+                        "structuredName": {
+                            "firstName": "Krste",
+                            "lastName": "Asanovi\u0107",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Asanovi\u0107"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145295214"
+                        ],
+                        "name": "Chee-Whye Chin",
+                        "slug": "Chee-Whye-Chin",
+                        "structuredName": {
+                            "firstName": "Chee-Whye",
+                            "lastName": "Chin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chee-Whye Chin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1700326"
+                        ],
+                        "name": "J. Demmel",
+                        "slug": "J.-Demmel",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Demmel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Demmel"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 52801813,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0289c61aab086d890538e939883c6bfc636720b3",
+            "isKey": false,
+            "numCitedBy": 193,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "PHiPAC was an early attempt to improve software performance by searching in a large design space of possible implementations to find the best one. At the time, in the early 1990s, the most efficient numerical linear algebra libraries were carefully hand tuned for specific microarchitectures and compilers, and were often written in assembly language. This allowed very precise tuning of an algorithm to the specifics of a current platform, and provided great opportunity for high efficiency. The prevailing thought at the time was that such an approach was necessary to produce near-peak performance. On the other hand, this approach was brittle, and required great human effort to try each code variant, and so only a tiny subset of the possible code design points could be explored. Worse, given the combined complexities of the compiler and microarchitecture, it was difficult to predict which code variants would be worth the implementation effort. PHiPAC circumvented this effort by using code generators that could easily generate a vast assortment of very different points within a design space, and even across very different design spaces altogether. By following a set of carefully crafted coding guidelines, the generated code was reasonably efficient for any point in the design space. To search the design space, PHiPAC took a rather naive but effective approach. Due to the human-designed and deterministic nature of computing systems, one might reasonably think that smart modeling of the microprocessor and compiler would be sufficient to predict, without performing any timing, the optimal point for a given algorithm. But the combination of an optimizing compiler and a dynamically scheduled mi-"
+            },
+            "slug": "Optimizing-matrix-multiply-using-PHiPAC:-a-ANSI-C-Bilmes-Asanovi\u0107",
+            "title": {
+                "fragments": [],
+                "text": "Optimizing matrix multiply using PHiPAC: a portable, high-performance, ANSI C coding methodology"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 66,
+                "text": "PHiPAC was an early attempt to improve software performance by searching in a large design space of possible implementations to find the best one, using code generators that could easily generate a vast assortment of very different points within a design space, and even across very different design spaces altogether."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Abdelrahman . hiCUDA : High - Level GPGPU Programming"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Parallel and Distributed Systems"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The islpy manual"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2014
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 151,
+                                "start": 147
+                            }
+                        ],
+                        "text": "py\u2019s transformation language enables access to performance across a variety of common numerical operations is the subject of a forthcoming article [15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Loopy: Applications and Performance of transformation-based code generation for GPUs and CPUs"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2014
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Scans as primitive parallel operations. Computers"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Categories and Subject Descriptors D [3]: 4\u2014 Code generators; D [1]: 3\u2014 Concurrent programming; G [4]\u2014 Mathematical software\nKeywords Code generation, high-level language, GPU, vectorization, data layout, embedded language, high-performance"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Continuum Analytics, Inc. Numba Pro"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Continuum Analytics, Inc. Numba Pro"
+            },
+            "year": 2014
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 11,
+            "methodology": 10
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 27,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Loo.py:-transformation-based-code-generation-for-Kl\u00f6ckner/43646798f334bba75401737909f812ed04acba4c?sort=total-citations"
+}

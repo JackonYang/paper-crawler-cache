@@ -1,0 +1,2683 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2388466"
+                        ],
+                        "name": "Matthieu Courbariaux",
+                        "slug": "Matthieu-Courbariaux",
+                        "structuredName": {
+                            "firstName": "Matthieu",
+                            "lastName": "Courbariaux",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matthieu Courbariaux"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145719986"
+                        ],
+                        "name": "J. David",
+                        "slug": "J.-David",
+                        "structuredName": {
+                            "firstName": "Jean-Pierre",
+                            "lastName": "David",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. David"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 28
+                            }
+                        ],
+                        "text": "Based on our previous work (Courbariaux et al., 2015), which eliminates multiplications in computing hidden representations by binarizing weights, our method deals with both hidden state computations and backward weight updates."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 77
+                            }
+                        ],
+                        "text": "We tested different variations of our approach, and compare the results with Courbariaux et al. (2015) and full precision training (Table 1)."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 3
+                            }
+                        ],
+                        "text": "In Courbariaux et al. (2015), we introduced a weight binarization technique which removes multiplications in the forward pass."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1518846,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a5733ff08daff727af834345b9cfff1d0aa109ec",
+            "isKey": false,
+            "numCitedBy": 2135,
+            "numCiting": 52,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep Neural Networks (DNN) have achieved state-of-the-art results in a wide range of tasks, with the best results obtained with large training sets and large models. In the past, GPUs enabled these breakthroughs because of their greater computational speed. In the future, faster computation at both training and test time is likely to be crucial for further progress and for consumer applications on low-power devices. As a result, there is much interest in research and development of dedicated hardware for Deep Learning (DL). Binary weights, i.e., weights which are constrained to only two possible values (e.g. -1 or 1), would bring great benefits to specialized DL hardware by replacing many multiply-accumulate operations by simple accumulations, as multipliers are the most space and power-hungry components of the digital implementation of neural networks. We introduce BinaryConnect, a method which consists in training a DNN with binary weights during the forward and backward propagations, while retaining precision of the stored weights in which gradients are accumulated. Like other dropout schemes, we show that BinaryConnect acts as regularizer and we obtain near state-of-the-art results with BinaryConnect on the permutation-invariant MNIST, CIFAR-10 and SVHN."
+            },
+            "slug": "BinaryConnect:-Training-Deep-Neural-Networks-with-Courbariaux-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "BinaryConnect: Training Deep Neural Networks with binary weights during propagations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "BinaryConnect is introduced, a method which consists in training a DNN with binary weights during the forward and backward propagations, while retaining precision of the stored weights in which gradients are accumulated, and near state-of-the-art results with BinaryConnect are obtained on the permutation-invariant MNIST, CIFAR-10 and SVHN."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33752120"
+                        ],
+                        "name": "Minje Kim",
+                        "slug": "Minje-Kim",
+                        "structuredName": {
+                            "firstName": "Minje",
+                            "lastName": "Kim",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Minje Kim"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1718742"
+                        ],
+                        "name": "P. Smaragdis",
+                        "slug": "P.-Smaragdis",
+                        "structuredName": {
+                            "firstName": "Paris",
+                            "lastName": "Smaragdis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Smaragdis"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15604580,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8fcfd67f21738eff12d853fdf2b31ee192e2312a",
+            "isKey": false,
+            "numCitedBy": 186,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Based on the assumption that there exists a neural network that efficiently represents a set of Boolean functions between all binary inputs and outputs, we propose a process for developing and deploying neural networks whose weight parameters, bias terms, input, and intermediate hidden layer output signals, are all binary-valued, and require only basic bit logic for the feedforward pass. The proposed Bitwise Neural Network (BNN) is especially suitable for resource-constrained environments, since it replaces either floating or fixed-point arithmetic with significantly more efficient bitwise operations. Hence, the BNN requires for less spatial complexity, less memory bandwidth, and less power consumption in hardware. In order to design such networks, we propose to add a few training schemes, such as weight compression and noisy backpropagation, which result in a bitwise network that performs almost as well as its corresponding real-valued network. We test the proposed network on the MNIST dataset, represented using binary features, and show that BNNs result in competitive performance while offering dramatic computational savings."
+            },
+            "slug": "Bitwise-Neural-Networks-Kim-Smaragdis",
+            "title": {
+                "fragments": [],
+                "text": "Bitwise Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The proposed Bitwise Neural Network (BNN) is especially suitable for resource-constrained environments, since it replaces either floating or fixed-point arithmetic with significantly more efficient bitwise operations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2812486"
+                        ],
+                        "name": "P. Simard",
+                        "slug": "P.-Simard",
+                        "structuredName": {
+                            "firstName": "Patrice",
+                            "lastName": "Simard",
+                            "middleNames": [
+                                "Y."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Simard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1775043"
+                        ],
+                        "name": "H. Graf",
+                        "slug": "H.-Graf",
+                        "structuredName": {
+                            "firstName": "Hans",
+                            "lastName": "Graf",
+                            "middleNames": [
+                                "Peter"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Graf"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 728588,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "771dc579bf86d269c9565b824f48f0666e84e58c",
+            "isKey": false,
+            "numCitedBy": 25,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The back propagation algorithm has been modified to work without any multiplications and to tolerate computations with a low resolution, which makes it. more attractive for a hardware implementation. Numbers are represented in floating point format with 1 bit mantissa and 3 bits in the exponent for the states, and 1 bit mantissa and 5 bit exponent. for the gradients, while the weights are 16 bit fixed-point numbers. In this way, all the computations can be executed with shift and add operations. Large networks with over 100,000 weights were trained and demonstrated the same performance as networks computed with full precision. An estimate of a circuit implementation shows that a large network can be placed on a single chip, reaching more than 1 billion weight updates per second. A speedup is also obtained on any machine where a multiplication is slower than a shift operation."
+            },
+            "slug": "Backpropagation-without-Multiplication-Simard-Graf",
+            "title": {
+                "fragments": [],
+                "text": "Backpropagation without Multiplication"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "The back propagation algorithm has been modified to work without any multiplications and to tolerate computations with a low resolution, which makes it more attractive for a hardware implementation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2072676"
+                        ],
+                        "name": "Arvind Neelakantan",
+                        "slug": "Arvind-Neelakantan",
+                        "structuredName": {
+                            "firstName": "Arvind",
+                            "lastName": "Neelakantan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Arvind Neelakantan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2546951"
+                        ],
+                        "name": "L. Vilnis",
+                        "slug": "L.-Vilnis",
+                        "structuredName": {
+                            "firstName": "Luke",
+                            "lastName": "Vilnis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Vilnis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2827616"
+                        ],
+                        "name": "Quoc V. Le",
+                        "slug": "Quoc-V.-Le",
+                        "structuredName": {
+                            "firstName": "Quoc",
+                            "lastName": "Le",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Quoc V. Le"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40527594"
+                        ],
+                        "name": "Lukasz Kaiser",
+                        "slug": "Lukasz-Kaiser",
+                        "structuredName": {
+                            "firstName": "Lukasz",
+                            "lastName": "Kaiser",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lukasz Kaiser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2006889"
+                        ],
+                        "name": "Karol Kurach",
+                        "slug": "Karol-Kurach",
+                        "structuredName": {
+                            "firstName": "Karol",
+                            "lastName": "Kurach",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Karol Kurach"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145704247"
+                        ],
+                        "name": "James Martens",
+                        "slug": "James-Martens",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Martens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James Martens"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 11
+                            }
+                        ],
+                        "text": "Similarly,\nNeelakantan et al. (2015) adds noise into gradients, which makes the optimizer prefer large-basin areas and forces it to find broad minima."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 826188,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6f5a0fbb1473e95d0a14ef2081985d16bc063bfb",
+            "isKey": false,
+            "numCitedBy": 390,
+            "numCiting": 67,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep feedforward and recurrent networks have achieved impressive results in many perception and language processing applications. Recently, more complex architectures such as Neural Turing Machines and Memory Networks have been proposed for tasks including question answering and general computation, creating a new set of optimization challenges. In this paper, we explore the low-overhead and easy-to-implement optimization technique of adding annealed Gaussian noise to the gradient, which we find surprisingly effective when training these very deep architectures. Unlike classical weight noise, gradient noise injection is complementary to advanced stochastic optimization algorithms such as Adam and AdaGrad. The technique not only helps to avoid overfitting, but also can result in lower training loss. We see consistent improvements in performance across an array of complex models, including state-of-the-art deep networks for question answering and algorithm learning. We observe that this optimization strategy allows a fully-connected 20-layer deep network to escape a bad initialization with standard stochastic gradient descent. We encourage further application of this technique to additional modern neural architectures."
+            },
+            "slug": "Adding-Gradient-Noise-Improves-Learning-for-Very-Neelakantan-Vilnis",
+            "title": {
+                "fragments": [],
+                "text": "Adding Gradient Noise Improves Learning for Very Deep Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This paper explores the low-overhead and easy-to-implement optimization technique of adding annealed Gaussian noise to the gradient, which it is found surprisingly effective when training these very deep architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144083401"
+                        ],
+                        "name": "M. Marchesi",
+                        "slug": "M.-Marchesi",
+                        "structuredName": {
+                            "firstName": "Michele",
+                            "lastName": "Marchesi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Marchesi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3182850"
+                        ],
+                        "name": "G. Orlandi",
+                        "slug": "G.-Orlandi",
+                        "structuredName": {
+                            "firstName": "Gianni",
+                            "lastName": "Orlandi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Orlandi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701870"
+                        ],
+                        "name": "F. Piazza",
+                        "slug": "F.-Piazza",
+                        "structuredName": {
+                            "firstName": "Francesco",
+                            "lastName": "Piazza",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Piazza"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1737292"
+                        ],
+                        "name": "A. Uncini",
+                        "slug": "A.-Uncini",
+                        "structuredName": {
+                            "firstName": "Aurelio",
+                            "lastName": "Uncini",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Uncini"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 174,
+                                "start": 153
+                            }
+                        ],
+                        "text": "Some of them try to restrict weight values to be an integer power of two, thus to reduce all the multiplications to be binary shifts (Kwan & Tang, 1993; Marchesi et al., 1993)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 904909,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a129781d52d8a1cd24582b940dabb32e8f8c35d2",
+            "isKey": false,
+            "numCitedBy": 141,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Multilayer perceptrons (MLPs) with weight values restricted to powers of two or sums of powers of two are introduced. In a digital implementation, these neural networks do not need multipliers but only shift registers when computing in forward mode, thus saving chip area and computation time. A learning procedure, based on backpropagation, is presented for such neural networks. This learning procedure requires full real arithmetic and therefore must be performed offline. Some test cases are presented, concerning MLPs with hidden layers of different sizes, on pattern recognition problems. Such tests demonstrate the validity and the generalization capability of the method and give some insight into the behavior of the learning algorithm."
+            },
+            "slug": "Fast-neural-networks-without-multipliers-Marchesi-Orlandi",
+            "title": {
+                "fragments": [],
+                "text": "Fast neural networks without multipliers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "Some test cases are presented, concerning MLPs with hidden layers of different sizes, on pattern recognition problems, to demonstrate the validity and the generalization capability of the method and give some insight into the behavior of the learning algorithm."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Neural Networks"
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 195908774,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+            "isKey": false,
+            "numCitedBy": 82053,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
+            },
+            "slug": "ImageNet-classification-with-deep-convolutional-Krizhevsky-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet classification with deep convolutional neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "A large, deep convolutional neural network was trained to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes and employed a recently developed regularization method called \"dropout\" that proved to be very effective."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Commun. ACM"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3319469"
+                        ],
+                        "name": "E. Machado",
+                        "slug": "E.-Machado",
+                        "structuredName": {
+                            "firstName": "Emerson",
+                            "lastName": "Machado",
+                            "middleNames": [
+                                "Lopes"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Machado"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7499194"
+                        ],
+                        "name": "C. Miosso",
+                        "slug": "C.-Miosso",
+                        "structuredName": {
+                            "firstName": "Cristiano",
+                            "lastName": "Miosso",
+                            "middleNames": [
+                                "Jacques"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Miosso"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3186305"
+                        ],
+                        "name": "R. V. Borries",
+                        "slug": "R.-V.-Borries",
+                        "structuredName": {
+                            "firstName": "Ricardo",
+                            "lastName": "Borries",
+                            "middleNames": [
+                                "von"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. V. Borries"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2052639002"
+                        ],
+                        "name": "Murilo Coutinho",
+                        "slug": "Murilo-Coutinho",
+                        "structuredName": {
+                            "firstName": "Murilo",
+                            "lastName": "Coutinho",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Murilo Coutinho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7803774"
+                        ],
+                        "name": "P. Berger",
+                        "slug": "P.-Berger",
+                        "structuredName": {
+                            "firstName": "Pedro",
+                            "lastName": "Berger",
+                            "middleNames": [
+                                "de",
+                                "Azevedo"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Berger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144740700"
+                        ],
+                        "name": "Thiago Marques",
+                        "slug": "Thiago-Marques",
+                        "structuredName": {
+                            "firstName": "Thiago",
+                            "lastName": "Marques",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Thiago Marques"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1734802"
+                        ],
+                        "name": "R. Jacobi",
+                        "slug": "R.-Jacobi",
+                        "structuredName": {
+                            "firstName": "Ricardo",
+                            "lastName": "Jacobi",
+                            "middleNames": [
+                                "Pezzuol"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Jacobi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 32,
+                                "start": 11
+                            }
+                        ],
+                        "text": "Similarly, Machado et al. (2015) manage to get acceptable accuracy on sparse representation classification by replacing all floating-point multiplications by integer shifts."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10355581,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "16a40c48e9809e4cc558bb28bf10e4a32092dba2",
+            "isKey": false,
+            "numCitedBy": 4,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a theoretical analysis and empirical evaluations of a novel set of techniques for computational cost reduction of classifiers that are based on learned transform and soft-threshold. By modifying optimization procedures for dictionary and classifier training, as well as the resulting dictionary entries, our techniques allow to reduce the bit precision and to replace each floating-point multiplication by a single integer bit shift. We also show how the optimization algorithms in some dictionary training methods can be modified to penalize higher-energy dictionaries. We applied our techniques with the classifier Learning Algorithm for Soft-Thresholding, testing on the datasets used in its original paper. Our results indicate it is feasible to use solely sums and bit shifts of integers to classify at test time with a limited reduction of the classification accuracy. These low power operations are a valuable trade off in FPGA implementations as they increase the classification throughput while decrease both energy consumption and manufacturing cost."
+            },
+            "slug": "Computational-Cost-Reduction-in-Learned-Transform-Machado-Miosso",
+            "title": {
+                "fragments": [],
+                "text": "Computational Cost Reduction in Learned Transform Classifications"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 73,
+                "text": "A theoretical analysis and empirical evaluations of a novel set of techniques for computational cost reduction of classifiers that are based on learned transform and soft-threshold indicate it is feasible to use solely sums and bit shifts of integers to classify at test time with a limited reduction of the classification accuracy."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2113279142"
+                        ],
+                        "name": "Zhiyong Cheng",
+                        "slug": "Zhiyong-Cheng",
+                        "structuredName": {
+                            "firstName": "Zhiyong",
+                            "lastName": "Cheng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhiyong Cheng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1912398"
+                        ],
+                        "name": "Daniel Soudry",
+                        "slug": "Daniel-Soudry",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Soudry",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel Soudry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2228773"
+                        ],
+                        "name": "Zexi Mao",
+                        "slug": "Zexi-Mao",
+                        "structuredName": {
+                            "firstName": "Zexi",
+                            "lastName": "Mao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zexi Mao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2362534"
+                        ],
+                        "name": "Zhenzhong Lan",
+                        "slug": "Zhenzhong-Lan",
+                        "structuredName": {
+                            "firstName": "Zhenzhong",
+                            "lastName": "Lan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhenzhong Lan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 17
+                            }
+                        ],
+                        "text": "Similar to that, Cheng et al. (2015) proves deep neural networks with binary weights can be trained to distinguish between multiple classes with expectation back propagation."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12272286,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "87e35aded44808e9c35ef00d505b6c60f376de2f",
+            "isKey": false,
+            "numCitedBy": 46,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Compared to Multilayer Neural Networks with real weights, Binary Multilayer Neural Networks (BMNNs) can be implemented more efficiently on dedicated hardware. BMNNs have been demonstrated to be effective on binary classification tasks with Expectation BackPropagation (EBP) algorithm on high dimensional text datasets. In this paper, we investigate the capability of BMNNs using the EBP algorithm on multiclass image classification tasks. The performances of binary neural networks with multiple hidden layers and different numbers of hidden units are examined on MNIST. We also explore the effectiveness of image spatial filters and the dropout technique in BMNNs. Experimental results on MNIST dataset show that EBP can obtain 2.12% test error with binary weights and 1.66% test error with real weights, which is comparable to the results of standard BackPropagation algorithm on fully connected MNNs."
+            },
+            "slug": "Training-Binary-Multilayer-Neural-Networks-for-Cheng-Soudry",
+            "title": {
+                "fragments": [],
+                "text": "Training Binary Multilayer Neural Networks for Image Classification using Expectation Backpropagation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The capability of BMNNs using the EBP algorithm on multiclass image classification tasks is investigated and the performances of binary neural networks with multiple hidden layers and different numbers of hidden units are examined on MNIST."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 18268744,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+            "isKey": false,
+            "numCitedBy": 17475,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Groups at MIT and NYU have collected a dataset of millions of tiny colour images from the web. It is, in principle, an excellent dataset for unsupervised training of deep generative models, but previous researchers who have tried this have found it dicult to learn a good set of lters from the images. We show how to train a multi-layer generative model that learns to extract meaningful features which resemble those found in the human visual cortex. Using a novel parallelization algorithm to distribute the work among multiple machines connected on a network, we show how training such a model can be done in reasonable time. A second problematic aspect of the tiny images dataset is that there are no reliable class labels which makes it hard to use for object recognition experiments. We created two sets of reliable labels. The CIFAR-10 set has 6000 examples of each of 10 classes and the CIFAR-100 set has 600 examples of each of 100 non-overlapping classes. Using these labels, we show that object recognition is signicantly improved by pre-training a layer of features on a large set of unlabeled tiny images."
+            },
+            "slug": "Learning-Multiple-Layers-of-Features-from-Tiny-Krizhevsky",
+            "title": {
+                "fragments": [],
+                "text": "Learning Multiple Layers of Features from Tiny Images"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "It is shown how to train a multi-layer generative model that learns to extract meaningful features which resemble those found in the human visual cortex, using a novel parallelization algorithm to distribute the work among multiple machines connected on a network."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52184096"
+                        ],
+                        "name": "L. Bottou",
+                        "slug": "L.-Bottou",
+                        "structuredName": {
+                            "firstName": "L\u00e9on",
+                            "lastName": "Bottou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Bottou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1721248"
+                        ],
+                        "name": "P. Haffner",
+                        "slug": "P.-Haffner",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Haffner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Haffner"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14542261,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "162d958ff885f1462aeda91cd72582323fd6a1f4",
+            "isKey": false,
+            "numCitedBy": 35624,
+            "numCiting": 246,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns, such as handwritten characters, with minimal preprocessing. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task. Convolutional neural networks, which are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques. Real-life document recognition systems are composed of multiple modules including field extraction, segmentation recognition, and language modeling. A new learning paradigm, called graph transformer networks (GTN), allows such multimodule systems to be trained globally using gradient-based methods so as to minimize an overall performance measure. Two systems for online handwriting recognition are described. Experiments demonstrate the advantage of global training, and the flexibility of graph transformer networks. A graph transformer network for reading a bank cheque is also described. It uses convolutional neural network character recognizers combined with global training techniques to provide record accuracy on business and personal cheques. It is deployed commercially and reads several million cheques per day."
+            },
+            "slug": "Gradient-based-learning-applied-to-document-LeCun-Bottou",
+            "title": {
+                "fragments": [],
+                "text": "Gradient-based learning applied to document recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task, and Convolutional neural networks are shown to outperform all other techniques."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc. IEEE"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2827616"
+                        ],
+                        "name": "Quoc V. Le",
+                        "slug": "Quoc-V.-Le",
+                        "structuredName": {
+                            "firstName": "Quoc",
+                            "lastName": "Le",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Quoc V. Le"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706809"
+                        ],
+                        "name": "Marc'Aurelio Ranzato",
+                        "slug": "Marc'Aurelio-Ranzato",
+                        "structuredName": {
+                            "firstName": "Marc'Aurelio",
+                            "lastName": "Ranzato",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc'Aurelio Ranzato"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3089272"
+                        ],
+                        "name": "R. Monga",
+                        "slug": "R.-Monga",
+                        "structuredName": {
+                            "firstName": "Rajat",
+                            "lastName": "Monga",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Monga"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145139947"
+                        ],
+                        "name": "Matthieu Devin",
+                        "slug": "Matthieu-Devin",
+                        "structuredName": {
+                            "firstName": "Matthieu",
+                            "lastName": "Devin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matthieu Devin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32131713"
+                        ],
+                        "name": "G. Corrado",
+                        "slug": "G.-Corrado",
+                        "structuredName": {
+                            "firstName": "Gregory",
+                            "lastName": "Corrado",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Corrado"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118440152"
+                        ],
+                        "name": "Kai Chen",
+                        "slug": "Kai-Chen",
+                        "structuredName": {
+                            "firstName": "Kai",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kai Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49959210"
+                        ],
+                        "name": "J. Dean",
+                        "slug": "J.-Dean",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Dean",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dean"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34699434"
+                        ],
+                        "name": "A. Ng",
+                        "slug": "A.-Ng",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Ng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Ng"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 33,
+                                "start": 11
+                            }
+                        ],
+                        "text": "Similarly, Machado et al. (2015) manage to get acceptable accuracy on sparse representation classification by replacing all floating-point multiplications by integer shifts."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206741597,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "72e93aa6767ee683de7f001fa72f1314e40a8f35",
+            "isKey": false,
+            "numCitedBy": 2112,
+            "numCiting": 63,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider the problem of building high-level, class-specific feature detectors from only unlabeled data. For example, is it possible to learn a face detector using only unlabeled images? To answer this, we train a deep sparse autoencoder on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200\u00d7200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days. Contrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting from these learned features, we trained our network to recognize 22,000 object categories from ImageNet and achieve a leap of 70% relative improvement over the previous state-of-the-art."
+            },
+            "slug": "Building-high-level-features-using-large-scale-Le-Ranzato",
+            "title": {
+                "fragments": [],
+                "text": "Building high-level features using large scale unsupervised learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 51,
+                "text": "Contrary to what appears to be a widely-held intuition, the experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34180232"
+                        ],
+                        "name": "Yuval Netzer",
+                        "slug": "Yuval-Netzer",
+                        "structuredName": {
+                            "firstName": "Yuval",
+                            "lastName": "Netzer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yuval Netzer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2156632012"
+                        ],
+                        "name": "Tao Wang",
+                        "slug": "Tao-Wang",
+                        "structuredName": {
+                            "firstName": "Tao",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tao Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144638694"
+                        ],
+                        "name": "Adam Coates",
+                        "slug": "Adam-Coates",
+                        "structuredName": {
+                            "firstName": "Adam",
+                            "lastName": "Coates",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Adam Coates"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1726358"
+                        ],
+                        "name": "A. Bissacco",
+                        "slug": "A.-Bissacco",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Bissacco",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Bissacco"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144397975"
+                        ],
+                        "name": "Bo Wu",
+                        "slug": "Bo-Wu",
+                        "structuredName": {
+                            "firstName": "Bo",
+                            "lastName": "Wu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bo Wu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34699434"
+                        ],
+                        "name": "A. Ng",
+                        "slug": "A.-Ng",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Ng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Ng"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 46
+                            }
+                        ],
+                        "text": "The Street View House Numbers (SVHN) dataset (Netzer et al., 2011) contains RGB images of house numbers."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 16852518,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "02227c94dd41fe0b439e050d377b0beb5d427cda",
+            "isKey": false,
+            "numCitedBy": 3973,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Detecting and reading text from natural images is a hard computer vision task that is central to a variety of emerging applications. Related problems like document character recognition have been widely studied by computer vision and machine learning researchers and are virtually solved for practical applications like reading handwritten digits. Reliably recognizing characters in more complex scenes like photographs, however, is far more difficult: the best existing methods lag well behind human performance on the same tasks. In this paper we attack the problem of recognizing digits in a real application using unsupervised feature learning methods: reading house numbers from street level photos. To this end, we introduce a new benchmark dataset for research use containing over 600,000 labeled digits cropped from Street View images. We then demonstrate the difficulty of recognizing these digits when the problem is approached with hand-designed features. Finally, we employ variants of two recently proposed unsupervised feature learning methods and find that they are convincingly superior on our benchmarks."
+            },
+            "slug": "Reading-Digits-in-Natural-Images-with-Unsupervised-Netzer-Wang",
+            "title": {
+                "fragments": [],
+                "text": "Reading Digits in Natural Images with Unsupervised Feature Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A new benchmark dataset for research use is introduced containing over 600,000 labeled digits cropped from Street View images, and variants of two recently proposed unsupervised feature learning methods are employed, finding that they are convincingly superior on benchmarks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3227028"
+                        ],
+                        "name": "Fr\u00e9d\u00e9ric Bastien",
+                        "slug": "Fr\u00e9d\u00e9ric-Bastien",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9d\u00e9ric",
+                            "lastName": "Bastien",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fr\u00e9d\u00e9ric Bastien"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3087941"
+                        ],
+                        "name": "Pascal Lamblin",
+                        "slug": "Pascal-Lamblin",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Lamblin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pascal Lamblin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1996134"
+                        ],
+                        "name": "Razvan Pascanu",
+                        "slug": "Razvan-Pascanu",
+                        "structuredName": {
+                            "firstName": "Razvan",
+                            "lastName": "Pascanu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Razvan Pascanu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32837403"
+                        ],
+                        "name": "J. Bergstra",
+                        "slug": "J.-Bergstra",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bergstra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bergstra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153440022"
+                        ],
+                        "name": "Ian J. Goodfellow",
+                        "slug": "Ian-J.-Goodfellow",
+                        "structuredName": {
+                            "firstName": "Ian",
+                            "lastName": "Goodfellow",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ian J. Goodfellow"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47944877"
+                        ],
+                        "name": "Arnaud Bergeron",
+                        "slug": "Arnaud-Bergeron",
+                        "structuredName": {
+                            "firstName": "Arnaud",
+                            "lastName": "Bergeron",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Arnaud Bergeron"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2065828537"
+                        ],
+                        "name": "Nicolas Bouchard",
+                        "slug": "Nicolas-Bouchard",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Bouchard",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicolas Bouchard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1393680089"
+                        ],
+                        "name": "David Warde-Farley",
+                        "slug": "David-Warde-Farley",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Warde-Farley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Warde-Farley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 78,
+                                "start": 58
+                            }
+                        ],
+                        "text": "The authors would like to thank the developers of Theano (Bastien et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 32
+                            }
+                        ],
+                        "text": "Our implementation uses Theano (Bastien et al., 2012)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 8180128,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "855d0f722d75cc56a66a00ede18ace96bafee6bd",
+            "isKey": false,
+            "numCitedBy": 1375,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Theano is a linear algebra compiler that optimizes a user's symbolically-specified mathematical computations to produce efficient low-level implementations. In this paper, we present new features and efficiency improvements to Theano, and benchmarks demonstrating Theano's performance relative to Torch7, a recently introduced machine learning library, and to RNNLM, a C++ library targeted at recurrent neural networks."
+            },
+            "slug": "Theano:-new-features-and-speed-improvements-Bastien-Lamblin",
+            "title": {
+                "fragments": [],
+                "text": "Theano: new features and speed improvements"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "New features and efficiency improvements to Theano are presented, and benchmarks demonstrating Theano's performance relative to Torch7, a recently introduced machine learning library, and to RNNLM, a C++ library targeted at recurrent neural networks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1854385"
+                        ],
+                        "name": "\u00c7aglar G\u00fcl\u00e7ehre",
+                        "slug": "\u00c7aglar-G\u00fcl\u00e7ehre",
+                        "structuredName": {
+                            "firstName": "\u00c7aglar",
+                            "lastName": "G\u00fcl\u00e7ehre",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "\u00c7aglar G\u00fcl\u00e7ehre"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2345617"
+                        ],
+                        "name": "Orhan Firat",
+                        "slug": "Orhan-Firat",
+                        "structuredName": {
+                            "firstName": "Orhan",
+                            "lastName": "Firat",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Orhan Firat"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36303818"
+                        ],
+                        "name": "Kelvin Xu",
+                        "slug": "Kelvin-Xu",
+                        "structuredName": {
+                            "firstName": "Kelvin",
+                            "lastName": "Xu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kelvin Xu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1979489"
+                        ],
+                        "name": "Kyunghyun Cho",
+                        "slug": "Kyunghyun-Cho",
+                        "structuredName": {
+                            "firstName": "Kyunghyun",
+                            "lastName": "Cho",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kyunghyun Cho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2934336"
+                        ],
+                        "name": "Lo\u00efc Barrault",
+                        "slug": "Lo\u00efc-Barrault",
+                        "structuredName": {
+                            "firstName": "Lo\u00efc",
+                            "lastName": "Barrault",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lo\u00efc Barrault"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2232222"
+                        ],
+                        "name": "Huei-Chi Lin",
+                        "slug": "Huei-Chi-Lin",
+                        "structuredName": {
+                            "firstName": "Huei-Chi",
+                            "lastName": "Lin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Huei-Chi Lin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2076086"
+                        ],
+                        "name": "Fethi Bougares",
+                        "slug": "Fethi-Bougares",
+                        "structuredName": {
+                            "firstName": "Fethi",
+                            "lastName": "Bougares",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fethi Bougares"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144518416"
+                        ],
+                        "name": "Holger Schwenk",
+                        "slug": "Holger-Schwenk",
+                        "structuredName": {
+                            "firstName": "Holger",
+                            "lastName": "Schwenk",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Holger Schwenk"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 136,
+                                "start": 115
+                            }
+                        ],
+                        "text": "For example, many common models in speech recognition or machine translation need 12 Gigabytes or more of storage (Gulcehre et al., 2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15352384,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5fcd41ca42659ff792fc8ee7d535156e8e69f987",
+            "isKey": false,
+            "numCitedBy": 445,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent work on end-to-end neural network-based architectures for machine translation has shown promising results for En-Fr and En-De translation. Arguably, one of the major factors behind this success has been the availability of high quality parallel corpora. In this work, we investigate how to leverage abundant monolingual corpora for neural machine translation. Compared to a phrase-based and hierarchical baseline, we obtain up to $1.96$ BLEU improvement on the low-resource language pair Turkish-English, and $1.59$ BLEU on the focused domain task of Chinese-English chat messages. While our method was initially targeted toward such tasks with less parallel data, we show that it also extends to high resource languages such as Cs-En and De-En where we obtain an improvement of $0.39$ and $0.47$ BLEU scores over the neural machine translation baselines, respectively."
+            },
+            "slug": "On-Using-Monolingual-Corpora-in-Neural-Machine-G\u00fcl\u00e7ehre-Firat",
+            "title": {
+                "fragments": [],
+                "text": "On Using Monolingual Corpora in Neural Machine Translation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 56,
+                "text": "This work investigates how to leverage abundant monolingual corpora for neural machine translation to improve results for En-Fr and En-De translation and extends to high resource languages such as Cs-En and De-En."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1781941"
+                        ],
+                        "name": "H. Kwan",
+                        "slug": "H.-Kwan",
+                        "structuredName": {
+                            "firstName": "Hon",
+                            "lastName": "Kwan",
+                            "middleNames": [
+                                "Keung"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Kwan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2107390534"
+                        ],
+                        "name": "C. Z. Tang",
+                        "slug": "C.-Z.-Tang",
+                        "structuredName": {
+                            "firstName": "C.",
+                            "lastName": "Tang",
+                            "middleNames": [
+                                "Z."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Z. Tang"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 61116173,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b9366bd95d7d61737701d331d72447c6af0acb0e",
+            "isKey": false,
+            "numCitedBy": 21,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A method for designing a multiplierless multilayer feedforward neural network (MFNN) suitable for continuous input-output mapping is presented. When tested with noisy vectors, the network can retain a similar recall accuracy as the corresponding MFNN with continuous weights. The advantages of the design method include faster computational speed and reduced digital hardware cost."
+            },
+            "slug": "Multiplierless-multilayer-feedforward-neural-design-Kwan-Tang",
+            "title": {
+                "fragments": [],
+                "text": "Multiplierless multilayer feedforward neural network design suitable for continuous input-output mapping"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 94,
+                "text": "A method for designing a multiplierless multilayer feedforward neural network suitable for continuous input-output mapping and when tested with noisy vectors, the network can retain a similar recall accuracy as the corresponding MFNN with continuous weights."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144922783"
+                        ],
+                        "name": "P. Jeavons",
+                        "slug": "P.-Jeavons",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Jeavons",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Jeavons"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8801071"
+                        ],
+                        "name": "David A. Cohen",
+                        "slug": "David-A.-Cohen",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Cohen",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David A. Cohen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1404459229"
+                        ],
+                        "name": "J. Shawe-Taylor",
+                        "slug": "J.-Shawe-Taylor",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Shawe-Taylor",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Shawe-Taylor"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 119,
+                                "start": 71
+                            }
+                        ],
+                        "text": "Fortunately, efficiently generating random numbers has been studied in Jeavons et al. (1994); van Daalen et al. (1993). Also, it is possible to get random numbers according to real random processes, like CPU temperatures, etc."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 92,
+                                "start": 71
+                            }
+                        ],
+                        "text": "Fortunately, efficiently generating random numbers has been studied in Jeavons et al. (1994); van Daalen et al. (1993)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 93,
+                                "start": 71
+                            }
+                        ],
+                        "text": "Fortunately, efficiently generating random numbers has been studied in Jeavons et al. (1994); van Daalen et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 30122969,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bcedfbfb3f1d6cceaba31e068dd3137f25386504",
+            "isKey": false,
+            "numCitedBy": 54,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The paper describes techniques for constructing statistically independent binary sequences with prescribed ratios of zeros and ones. The first construction is a general recursive construction, which forms the sequences from a class of \"elementary\" sequences. The second construction is a special construction which can be used when the ratio of ones to zeros is expressed in binary notation. The second construction is shown to be optimal in terms of the numbers of input sequences required to construct the desired sequence. The paper concludes with a discussion of how to generate independent \"elementary\" sequences using simple digital techniques. >"
+            },
+            "slug": "Generating-binary-sequences-for-stochastic-Jeavons-Cohen",
+            "title": {
+                "fragments": [],
+                "text": "Generating binary sequences for stochastic computing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 76,
+                "text": "The paper describes techniques for constructing statistically independent binary sequences with prescribed ratios of zeros and ones, and a special construction which can be used when the ratio of ones to zeros is expressed in binary notation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Inf. Theory"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1830344"
+                        ],
+                        "name": "M. V. Daalen",
+                        "slug": "M.-V.-Daalen",
+                        "structuredName": {
+                            "firstName": "Max",
+                            "lastName": "Daalen",
+                            "middleNames": [
+                                "van"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. V. Daalen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144922783"
+                        ],
+                        "name": "P. Jeavons",
+                        "slug": "P.-Jeavons",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Jeavons",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Jeavons"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1404459229"
+                        ],
+                        "name": "J. Shawe-Taylor",
+                        "slug": "J.-Shawe-Taylor",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Shawe-Taylor",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Shawe-Taylor"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2115016088"
+                        ],
+                        "name": "David A. Cohen",
+                        "slug": "David-A.-Cohen",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Cohen",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David A. Cohen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 118,
+                                "start": 98
+                            }
+                        ],
+                        "text": "Fortunately, efficiently generating random numbers has been studied in Jeavons et al. (1994); van Daalen et al. (1993)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 62552166,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "615a664cdc121916ad0abfc91fd63a262acab28f",
+            "isKey": false,
+            "numCitedBy": 40,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A novel technique for the generaion of high speed stochastic bit streams in which the '1' density is proportional to a given value. Bit streams of this type are particularly useful in bit serial stochastic computing systems, such as digital stochastic neural networks. The proposed circuitry is highly suitable fot VLSI fabrication."
+            },
+            "slug": "A-Device-for-Generating-Binary-Sequences-for-Daalen-Jeavons",
+            "title": {
+                "fragments": [],
+                "text": "A Device for Generating Binary Sequences for Stochastic Computing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "A novel technique for the generaion of high speed stochastic bit streams in which the '1' density is proportional to a given value."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8536286"
+                        ],
+                        "name": "A. Bosselut",
+                        "slug": "A.-Bosselut",
+                        "structuredName": {
+                            "firstName": "Antoine",
+                            "lastName": "Bosselut",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Bosselut"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39455775"
+                        ],
+                        "name": "Omer Levy",
+                        "slug": "Omer-Levy",
+                        "structuredName": {
+                            "firstName": "Omer",
+                            "lastName": "Levy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Omer Levy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "14487640"
+                        ],
+                        "name": "Ari Holtzman",
+                        "slug": "Ari-Holtzman",
+                        "structuredName": {
+                            "firstName": "Ari",
+                            "lastName": "Holtzman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ari Holtzman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40479850"
+                        ],
+                        "name": "C. Ennis",
+                        "slug": "C.-Ennis",
+                        "structuredName": {
+                            "firstName": "Corin",
+                            "lastName": "Ennis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Ennis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145197953"
+                        ],
+                        "name": "D. Fox",
+                        "slug": "D.-Fox",
+                        "structuredName": {
+                            "firstName": "Dieter",
+                            "lastName": "Fox",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Fox"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699545"
+                        ],
+                        "name": "Yejin Choi",
+                        "slug": "Yejin-Choi",
+                        "structuredName": {
+                            "firstName": "Yejin",
+                            "lastName": "Choi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yejin Choi"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 51540074,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bcd857d75841aa3e92cd4284a8818aba9f6c0c3f",
+            "isKey": false,
+            "numCitedBy": 156,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Understanding procedural language requires anticipating the causal effects of actions, even when they are not explicitly stated. In this work, we introduce Neural Process Networks to understand procedural text through (neural) simulation of action dynamics. Our model complements existing memory architectures with dynamic entity tracking by explicitly modeling actions as state transformers. The model updates the states of the entities by executing learned action operators. Empirical results demonstrate that our proposed model can reason about the unstated causal effects of actions, allowing it to provide more accurate contextual information for understanding and generating procedural text, all while offering more interpretable internal representations than existing alternatives."
+            },
+            "slug": "Published-as-a-conference-paper-at-ICLR-2018-S-A-D-Bosselut-Levy",
+            "title": {
+                "fragments": [],
+                "text": "Published as a conference paper at ICLR 2018 S IMULATING A CTION D YNAMICS WITH N EURAL P ROCESS N ETWORKS"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "This work introduces Neural Process Networks to understand procedural text through (neural) simulation of action dynamics, and complements existing memory architectures with dynamic entity tracking by explicitly modeling actions as state transformers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2018
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 496,
+                                "start": 21
+                            }
+                        ],
+                        "text": "Bit-stream networks (Burge et al., 1999) also provides a way of binarizing neural network connections, by substituting weight connections with logical gates. Similar to that, Cheng et al. (2015) proves deep neural networks with binary weights can be trained to distinguish between multiple classes with expectation back propagation. There are some other techniques, which focus on reducing the training complexity. For instance, instead of reducing the precision of weights, Simard & Graf (1994) quantizes states, learning rates, and gradients to powers of two."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 21
+                            }
+                        ],
+                        "text": "Bit-stream networks (Burge et al., 1999) also provides a way of binarizing neural network connections, by substituting weight connections with logical gates."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 195,
+                                "start": 21
+                            }
+                        ],
+                        "text": "Bit-stream networks (Burge et al., 1999) also provides a way of binarizing neural network connections, by substituting weight connections with logical gates. Similar to that, Cheng et al. (2015) proves deep neural networks with binary weights can be trained to distinguish between multiple classes with expectation back propagation."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Stochastic bitstream neural networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Pulsed Neural Networks,"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Pulsed neural networks. chapter Stochastic Bit-stream Neural Networks, pages 337\u2013352"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1999
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 21
+                            }
+                        ],
+                        "text": "Bit-stream networks (Burge et al., 1999) also provides a way of binarizing neural network connections, by substituting weight connections with logical gates."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Pulsed neural networks. chapter Stochastic Bit-stream Neural Networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Pulsed neural networks. chapter Stochastic Bit-stream Neural Networks"
+            },
+            "year": 1999
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 11,
+            "methodology": 1,
+            "result": 1
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 21,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Neural-Networks-with-Few-Multiplications-Lin-Courbariaux/67c191bcce6821f736798cb9b31472bcdd1e52a6?sort=total-citations"
+}

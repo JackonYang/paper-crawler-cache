@@ -1,0 +1,713 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144888943"
+                        ],
+                        "name": "M. Hill",
+                        "slug": "M.-Hill",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Hill",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Hill"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116706896"
+                        ],
+                        "name": "A. Smith",
+                        "slug": "A.-Smith",
+                        "structuredName": {
+                            "firstName": "Alan",
+                            "lastName": "Smith",
+                            "middleNames": [
+                                "Jay"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Smith"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 60870838,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b11d94bfc2a5d24d4f3ad5be955da4144ee85cc2",
+            "isKey": false,
+            "numCitedBy": 247,
+            "numCiting": 75,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Techniques are developed in this dissertation to efficiently evaluate direct-mapped and set-associative caches. These techniques are used to study associativity in CPU caches and examine instruction caches for single-chip RISC microprocessors. This research is motivated in general by the importance of cache memories to computer performance, and more specifically by work done to design the caches in SPUR, a multiprocessor workstation designed at U.C. Berkeley. The studies focus not only on abstract measures of performance such as miss ratios, but also include, when appropriate, detailed implementation factors, such as access times and gate delays. \nThe simulation algorithms developed compute miss ratios for numerous alternative caches with one pass through an address trace, provided all caches have the same block size, and use demand fetching and LRU replacement. One algorithm (forest simulation) simulates direct-mapped caches by relying on inclusion, a property that all larger caches contain a superset of the data in smaller caches. The other algorithm (all associativity simulation) simulates a broader class of direct-mapped and set-associative caches than could previously be studied with a one-pass algorithm, although somewhat less efficiently than forest simulation, since inclusion does not hold. \nThe analysis of set-associative caches yields two major results. First, constant factors are obtained which relate to the miss ratios for set-associative caches to miss ratios for other set-associative caches. Then those results are combined with sample cache implementations to show that above certain cache sizes, direct-mapped caches have lower effective access times than set-associative caches, despite having higher miss ratios. \nFinally, instruction buffers and target instruction buffers are examined as organizations for instruction memory on single-chip microprocessors. The analysis focuses closely on implementation considerations, including the interaction between instruction fetches, instruction prefetches and data references, and uses the SPUR RISC design as the case study. Results show the effects of varying numerous design parameters, suggest some superior designs, and demonstrate that instruction buffers will be preferred to target instruction buffers in future RISC microprocessors implemented on single CMOS chips."
+            },
+            "slug": "Aspects-of-cache-memory-and-instruction-buffer-Hill-Smith",
+            "title": {
+                "fragments": [],
+                "text": "Aspects of cache memory and instruction buffer performance"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 68,
+                "text": "Techniques are developed in this dissertation to efficiently evaluate direct-mapped and set-associative caches and examine instruction caches for single-chip RISC microprocessors, and it is demonstrated that instruction buffers will be preferred to target instruction buffers in future RISCmicroprocessors implemented on single CMOS chips."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1794771"
+                        ],
+                        "name": "M. Farrens",
+                        "slug": "M.-Farrens",
+                        "structuredName": {
+                            "firstName": "Matthew",
+                            "lastName": "Farrens",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Farrens"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2068905"
+                        ],
+                        "name": "A. Pleszkun",
+                        "slug": "A.-Pleszkun",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Pleszkun",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Pleszkun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 156,
+                                "start": 150
+                            }
+                        ],
+                        "text": "One way of reducing the number of capacity and compulsory misses is to use prefetch techniques such as longer cache line sizes or prefetching methods [13,6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 727884,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cd25070c07122e12cdb759d8b2cfc19e82a815de",
+            "isKey": false,
+            "numCitedBy": 25,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Most current single-chip processors employ an on-chip instruction cache to improve performance. A miss in this instruction cache will cause an external memory reference which must compete with data references for access to the external memory, thus affecting the overall performance of the processor. One common way to reduce the number of off-chip instruction requests is to increase the size of the on-chip cache. An alternative approach is presented in this paper, in which a combination of an instruction cache, instruction queue and instruction queue buffer is used to achieve the same effect with a much smaller instruction cache size. Such an approach is significant for emerging technologies where high circuit densities are initially difficult to achieve yet a high level of performance is desired, or for more mature technologies where chip area can be used to provide more functionality. The viability of this approach is demonstrated by its implementation in an existing single-chip processor."
+            },
+            "slug": "Improving-Performance-Of-Small-On-chip-Instruction-Farrens-Pleszkun",
+            "title": {
+                "fragments": [],
+                "text": "Improving Performance Of Small On-chip Instruction Caches"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "An alternative approach is presented in this paper, in which a combination of an instruction cache, instruction queue and instruction queue buffer is used to achieve the same effect with a much smaller instruction cache size."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The 16th Annual International Symposium on Computer Architecture"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144212383"
+                        ],
+                        "name": "J. Baer",
+                        "slug": "J.-Baer",
+                        "structuredName": {
+                            "firstName": "Jean-Loup",
+                            "lastName": "Baer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Baer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39470177"
+                        ],
+                        "name": "Wen-Hann Wang",
+                        "slug": "Wen-Hann-Wang",
+                        "structuredName": {
+                            "firstName": "Wen-Hann",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wen-Hann Wang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 277017,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "39242f7b6ab35ce5ec6b7930252de6fccb6360de",
+            "isKey": false,
+            "numCitedBy": 181,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The inclusion property is essential in reducing the cache coherence complexity for multiprocessors with multilevel cache hierarchies. We give some necessary and sufficient conditions for imposing the inclusion property for fully- and set-associative caches which allow different block sizes at different levels of the hierarchy. Three multiprocessor structures with a two-level cache hierarchy (single cache extension, multiport second-level cache, bus-based) are examined. The feasibility of imposing the inclusion property in these structures is discussed. This leads us to propose a new inclusion-coherence mechanism for two-level bus-based architectures."
+            },
+            "slug": "On-the-inclusion-properties-for-multi-level-cache-Baer-Wang",
+            "title": {
+                "fragments": [],
+                "text": "On the inclusion properties for multi-level cache hierarchies"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 77,
+                "text": "The inclusion property is essential in reducing the cache coherence complexity for multiprocessors with multilevel cache hierarchies and a new inclusion-coherence mechanism for two-level bus-based architectures is proposed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ISCA '88"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116706896"
+                        ],
+                        "name": "A. Smith",
+                        "slug": "A.-Smith",
+                        "structuredName": {
+                            "firstName": "Alan",
+                            "lastName": "Smith",
+                            "middleNames": [
+                                "Jay"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Smith"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 63
+                            }
+                        ],
+                        "text": "Caches have been pipelined in mainframes for a number of years [12], but this is a recent development for workstations."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12040060,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ceeb629e409f50ae76ebd15f6b54f05c9e26fea7",
+            "isKey": false,
+            "numCitedBy": 311,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Memory transfers due to a cache miss are costly. Prefetching all memory references in very fast computers can increase the effective CPU speed by 10 to 25 percent."
+            },
+            "slug": "Sequential-Program-Prefetching-in-Memory-Smith",
+            "title": {
+                "fragments": [],
+                "text": "Sequential Program Prefetching in Memory Hierarchies"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 70,
+                "text": "It is shown that prefetching all memory references in very fast computers can increase the effective CPU speed by 10 to 25 percent."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Computer"
+            },
+            "year": 1978
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1715454"
+                        ],
+                        "name": "N. Jouppi",
+                        "slug": "N.-Jouppi",
+                        "structuredName": {
+                            "firstName": "Norman",
+                            "lastName": "Jouppi",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Jouppi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 33,
+                                "start": 30
+                            }
+                        ],
+                        "text": "This means that even if 16Mb DRAMs are used that it will contain roughly a thousand DRAMs."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 112
+                            }
+                        ],
+                        "text": "This access time is easily dominated by the time required to fan out address and data signals among a thousand DRAMs spread over many cards."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 136,
+                                "start": 133
+                            }
+                        ],
+                        "text": "In fact, the direct-mapped cache is the only cache configuration where the critical path is merely the time required to access a RAM [9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 132,
+                                "start": 129
+                            }
+                        ],
+                        "text": "In fact, the direct-mapped cache is the only cache configuration where the critical path is merely the time required to access a RAM [10]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 37
+                            }
+                        ],
+                        "text": "Thus even with the advent of faster DRAMs, the access time for main memory may stay roughly the same."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 110,
+                                "start": 107
+                            }
+                        ],
+                        "text": "The second-level cache is assumed to range from 512KB to 16MB, and to be built from very high speed static RAMs."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 14693202,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6984a4cde7973a996e9ea021472122cacb1d949b",
+            "isKey": false,
+            "numCitedBy": 56,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes the architectural and organizational tradeoffs made during the design of the MultiTitan, and provides data supporting the decisions made. These decisions covered the entire space of processor design, from the instruction set and virtual memory architecture through the pipeline and organization of the machine. In particular, some of the tradeoffs involved the use of an on-chip instruction cache with off-chip TLB and floating-point unit, the use of direct-mapped instead of associative caches, the use of a 64-bit vs. 32-bit data bus, and the implementation of hardware pipeline interlocks."
+            },
+            "slug": "Architectural-And-Organizational-Tradeoffs-In-The-Jouppi",
+            "title": {
+                "fragments": [],
+                "text": "Architectural And Organizational Tradeoffs In The Design Of The Multititan CPU"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 65,
+                "text": "The architectural and organizational tradeoffs made during the design of the MultiTitan covered the entire space of processor design, from the instruction set and virtual memory architecture through the pipeline and organization of the machine."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The 16th Annual International Symposium on Computer Architecture"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144906845"
+                        ],
+                        "name": "J. Ousterhout",
+                        "slug": "J.-Ousterhout",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Ousterhout",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Ousterhout"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1561851,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5c22ae5e24bad5b9fc0da45c8e0885a51dc014d7",
+            "isKey": false,
+            "numCitedBy": 488,
+            "numCiting": 41,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This note evaluates several hardware platforms and operating systems using a set of benchmarks that test memory bandwidth and various operating system features such as kernel entry/exit and file systems. The overall conclusion is that operating system performance does not seem to be improving at the same rate as the base speed of the underlying hardware. Copyright \uf6d9 1989 Digital Equipment Corporation d i g i t a l Western Research Laboratory 100 Hamilton Avenue Palo Alto, California 94301 USA"
+            },
+            "slug": "Why-Aren't-Operating-Systems-Getting-Faster-As-Fast-Ousterhout",
+            "title": {
+                "fragments": [],
+                "text": "Why Aren't Operating Systems Getting Faster As Fast as Hardware?"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 95,
+                "text": "This note evaluates several hardware platforms and operating systems using a set of benchmarks that test memory bandwidth and various operating system features such as kernel entry/exit and file systems to conclude that operating system performance does not seem to be improving at the same rate as the base speed of the underlying hardware."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "USENIX Summer"
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52301815"
+                        ],
+                        "name": "N. S. Barnett",
+                        "slug": "N.-S.-Barnett",
+                        "structuredName": {
+                            "firstName": "Norman",
+                            "lastName": "Barnett",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. S. Barnett"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1997442"
+                        ],
+                        "name": "S. Dragomir",
+                        "slug": "S.-Dragomir",
+                        "structuredName": {
+                            "firstName": "Sever",
+                            "lastName": "Dragomir",
+                            "middleNames": [
+                                "Silvestru"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Dragomir"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 116073922,
+            "fieldsOfStudy": [
+                "Business"
+            ],
+            "id": "98e84e80e7126805de225b263813bfb2cf596a26",
+            "isKey": false,
+            "numCitedBy": 8353,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "vii"
+            },
+            "slug": "Private-communication-Barnett-Dragomir",
+            "title": {
+                "fragments": [],
+                "text": "Private communication"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1969
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Cache Memories. Computing Surveys"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Cache Memories. Computing Surveys"
+            },
+            "year": 1982
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Digital Equipment Corporation, Inc. VAX Hardware Handbook"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Digital Equipment Corporation, Inc. VAX Hardware Handbook"
+            },
+            "year": 1984
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Available Instruction - Level Parallelism For Superpipelined and Superscalar Machines"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Third International Conference on Architectural Support for Programming Languages and Operating Systems , pages 272 - 282"
+            },
+            "year": 1982
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 37
+                            }
+                        ],
+                        "text": "Other Digital research groups are located in Paris (PRL) and in Cambridge, Massachusetts (CRL)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Titan System Manual"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1986
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 3,
+            "methodology": 1
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 11,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Improving-direct-mapped-cache-performance-by-the-of-Jouppi/dcddcdef6d28d8aac01b88a941d6f92262f58e36?sort=total-citations"
+}

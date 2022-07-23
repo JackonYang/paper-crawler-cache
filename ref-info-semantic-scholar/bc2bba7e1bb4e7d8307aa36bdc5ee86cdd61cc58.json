@@ -1,0 +1,1927 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2117179536"
+                        ],
+                        "name": "Tien-Fu Chen",
+                        "slug": "Tien-Fu-Chen",
+                        "structuredName": {
+                            "firstName": "Tien-Fu",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tien-Fu Chen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 34162470,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e35e0867736235eebe5a757ace87940442a4988d",
+            "isKey": false,
+            "numCitedBy": 62,
+            "numCiting": 67,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent technological advances are such that the gap between processor cycle times and memory cycle times is growing. Techniques to reduce or tolerate large memory latencies become essential for achieving high processor utilization. In this dissertation, we propose and evaluate data prefetching techniques that address the data access penalty problems. \nFirst, we propose a hardware-based data prefetching approach for reducing memory latency. The basic idea of the prefetching scheme is to keep track of data access patterns in a reference prediction table (RPT) organized as an instruction cache. It includes three variations of the design of the RPT and associated logic: generic design, a lookahead mechanism, and a correlated scheme. They differ mostly on the timing of the prefetching. We evaluate the three schemes by simulating them in a uniprocessor environment using the ten SPEC benchmarks. The results show that the prefetching scheme effectively eliminates a major portion of data access penalty and is particularly suitable to an on-chip design and a primary-secondary cache hierarchy. \nNext, we study and compare the substantive performance gains that could be achieved with hardware-controlled and software-directed prefetching on shared-memory multiprocessors. Simulation results indicate that both hardware and software schemes can handle programs with regular access patterns. The hardware scheme is good at manipulating dynamic information, whereas software prefetching has the flexibility of prefetching larger blocks of data and of dealing with complex data access patterns. The execution overhead of the additional prefetching instructions may decrease the software prefetching performance gains. An approach that combines software and hardware schemes is shown to be very promising for reducing the memory latency with the least overhead. \nFinally, we study non-blocking caches that can tolerate read and write miss penalties by exploiting the overlap between post-miss computations and data accesses. We show that hardware data prefetching caches generally outperform non-blocking caches. We derive a static instruction scheduling algorithm to order instructions at compile time. The algorithm is shown to be effective in exploiting instruction parallelism available in a basic block for non-blocking loads."
+            },
+            "slug": "Data-prefetching-for-high-performance-processors-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Data prefetching for high-performance processors"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This dissertation proposes and evaluates data prefetching techniques that address the data access penalty problems and suggests an approach that combines software and hardware schemes is shown to be very promising for reducing the memory latency with the least overhead."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1761585"
+                        ],
+                        "name": "T. Mowry",
+                        "slug": "T.-Mowry",
+                        "structuredName": {
+                            "firstName": "Todd",
+                            "lastName": "Mowry",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Mowry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39682108"
+                        ],
+                        "name": "M. Lam",
+                        "slug": "M.-Lam",
+                        "structuredName": {
+                            "firstName": "Monica",
+                            "lastName": "Lam",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Lam"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110759834"
+                        ],
+                        "name": "Anoop Gupta",
+                        "slug": "Anoop-Gupta",
+                        "structuredName": {
+                            "firstName": "Anoop",
+                            "lastName": "Gupta",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Anoop Gupta"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1298475,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a600817135a76810f15a15925e790de0d843e259",
+            "isKey": false,
+            "numCitedBy": 815,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Software-controlled data prefetching is a promising technique for improving the performance of the memory subsystem to match today\u2019s high-performance processors. While prefctching is useful in hiding the latency, issuing prefetches incurs an instruction overhead and can increase the load on the memory subsystem. As a resu 1~ care must be taken to ensure that such overheads do not exceed the benefits. This paper proposes a compiler algorithm to insert prefetch instructions into code that operates on dense matrices. Our algorithm identiEes those references that are likely to be cache misses, and issues prefetches only for them. We have implemented our algorithm in the SUfF (Stanford University Intermediate Form) optimizing compiler. By generating fully functional code, we have been able to measure not only the improvements in cache miss rates, but also the oversdl performance of a simulated system. We show that our algorithm significantly improves the execution speed of our benchmark programs-some of the programs improve by as much as a factor of two. When compared to an algorithm that indiscriminately prefetches alf array accesses, our algorithm can eliminate many of the unnecessary prefetches without any significant decrease in the coverage of the cache misses."
+            },
+            "slug": "Design-and-evaluation-of-a-compiler-algorithm-for-Mowry-Lam",
+            "title": {
+                "fragments": [],
+                "text": "Design and evaluation of a compiler algorithm for prefetching"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper proposes a compiler algorithm to insert prefetch instructions into code that operates on dense matrices, and shows that this algorithm significantly improves the execution speed of the benchmark programs-some of the programs improve by as much as a factor of two."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ASPLOS V"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2080795"
+                        ],
+                        "name": "A. Klaiber",
+                        "slug": "A.-Klaiber",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Klaiber",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Klaiber"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36105267"
+                        ],
+                        "name": "H. Levy",
+                        "slug": "H.-Levy",
+                        "structuredName": {
+                            "firstName": "Henry",
+                            "lastName": "Levy",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Levy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1899747,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6de7f47715cd27b8305c80ecfac7a2a36f8ecbc9",
+            "isKey": false,
+            "numCitedBy": 151,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes an architecture and related compiler support for software-controlled daia prefetching, a technique to hide memory latency in high-performance processors. At compile-time, FETCB instructions are inserted into the instruction-stream by the compiler, based on anticipated data references and detailed information about the memory system. At run time, a separate functional unit in the CPU, the fe tch uni t , interprets these instructions and initiates appropriate memory reads. Prefetched data is kept in a small, fullyassociative cache, called the fetchbuffer, to reduce contention with the conventional direct-mapped cache. We also introduce a prewrileback technique that can reduce the impact.of stalls due to replacement writebacks in the cache. A detailed hardware model is presented and the required compiler support is developed. Simulations based on a MIPS processor model show that this technique can dramatically reduce on-chip cache miss ratios and average observed memory latency for scientific loops at only slight cost in total memory traffic."
+            },
+            "slug": "An-architecture-for-software-controlled-data-Klaiber-Levy",
+            "title": {
+                "fragments": [],
+                "text": "An architecture for software-controlled data prefetching"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "Simulations based on a MIPS processor model show that this technique can dramatically reduce on-chip cache miss ratios and average observed memory latency for scientific loops at only slight cost in total memory traffic."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "[1991] Proceedings. The 18th Annual International Symposium on Computer Architecture"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2119274763"
+                        ],
+                        "name": "John W. C. Fu",
+                        "slug": "John-W.-C.-Fu",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Fu",
+                            "middleNames": [
+                                "W.",
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John W. C. Fu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1728247"
+                        ],
+                        "name": "J. Patel",
+                        "slug": "J.-Patel",
+                        "structuredName": {
+                            "firstName": "Janak",
+                            "lastName": "Patel",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Patel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2924193"
+                        ],
+                        "name": "B. Janssens",
+                        "slug": "B.-Janssens",
+                        "structuredName": {
+                            "firstName": "Bob",
+                            "lastName": "Janssens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Janssens"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15991552,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cef549a32ec16212dd8d770dd0878c7c02764831",
+            "isKey": false,
+            "numCitedBy": 266,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The execution of numerically intensive programs presents a challenge to memory system designers. Numerical program execution can be accelerated by pipelined arithmetic units, bur to be effective, must be supported by high speed memory access. A cache memory is a well known hardware mechanism used to reduce the average memory access latency. Numerical programs, however, often have poor cache pei$ormance. Stride directed prefetching has been proposed to improve the cache performance of numerical programs executing on a vector processor. This paper shows how this approach can be extended to a scalar processor by using a simple hardware mechanism, called a stride prediction table (SPT), to calculate the stride distances of array accesses made from within the loop body of a program. The results using selected programs from the PERFECT and SPEC benchmark show that stride directed prefetching on a scalar processor can significantly reduce the cache miss rate of particular programs and a SPT need only a small number of entries to be effective."
+            },
+            "slug": "Stride-Directed-Prefetching-In-Scalar-Processors-Fu-Patel",
+            "title": {
+                "fragments": [],
+                "text": "Stride Directed Prefetching In Scalar Processors"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "The results show that stride directed prefetching on a scalar processor can significantly reduce the cache miss rate of particular programs and a SPT need only a small number of entries to be effective."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "[1992] Proceedings the 25th Annual International Symposium on Microarchitecture MICRO 25"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1761585"
+                        ],
+                        "name": "T. Mowry",
+                        "slug": "T.-Mowry",
+                        "structuredName": {
+                            "firstName": "Todd",
+                            "lastName": "Mowry",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Mowry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110759834"
+                        ],
+                        "name": "Anoop Gupta",
+                        "slug": "Anoop-Gupta",
+                        "structuredName": {
+                            "firstName": "Anoop",
+                            "lastName": "Gupta",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Anoop Gupta"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 13442827,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b3bde8c0244e281d13bb2fa867574a53fb25459c",
+            "isKey": false,
+            "numCitedBy": 315,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Tolerating-Latency-Through-Software-Controlled-in-Mowry-Gupta",
+            "title": {
+                "fragments": [],
+                "text": "Tolerating Latency Through Software-Controlled Prefetching in Shared-Memory Multiprocessors"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Parallel Distributed Comput."
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2811624"
+                        ],
+                        "name": "Edward H. Gornish",
+                        "slug": "Edward-H.-Gornish",
+                        "structuredName": {
+                            "firstName": "Edward",
+                            "lastName": "Gornish",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Edward H. Gornish"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2918130"
+                        ],
+                        "name": "E. Granston",
+                        "slug": "E.-Granston",
+                        "structuredName": {
+                            "firstName": "Elana",
+                            "lastName": "Granston",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Granston"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1764886"
+                        ],
+                        "name": "A. Veidenbaum",
+                        "slug": "A.-Veidenbaum",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Veidenbaum",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Veidenbaum"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 62630701,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7c58226d1f73567a4aa32e847b3ffab585dc0f89",
+            "isKey": false,
+            "numCitedBy": 147,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Memory hierarchies are used by multiprocessor systems to reduce large memory access times. It is necessary to automatically manage such a hierarchy, to obtain effective memory utilization. In this paper, we discuss the various issues involved in obtaining an optimal memory management strategy for a memory hierarchy. We present an algorithm for finding the earliest point in a program that a block of data can be prefetched. This determination is based on the control and data dependencies in the program. Such a method is an integral part of more general memory management algorithms. We demonstrate our method's potential by using static analysis to estimate the performance improvement afforded by our prefetching strategy and to analyze the reference patterns in a set of Fortran benchmarks. We also study the effectiveness of prefetching in a realistic shared-memory system using an RTL-level simulator and real codes. This differs from previous studies by considering prefetching benefits in the presence of network contention."
+            },
+            "slug": "Compiler-directed-data-prefetching-in-with-memory-Gornish-Granston",
+            "title": {
+                "fragments": [],
+                "text": "Compiler-directed data prefetching in multiprocessors with memory hierarchies"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 37,
+                "text": "An algorithm for finding the earliest point in a program that a block of data can be prefetched, based on the control and data dependencies in the program, is presented, an integral part of more general memory management algorithms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2117179536"
+                        ],
+                        "name": "Tien-Fu Chen",
+                        "slug": "Tien-Fu-Chen",
+                        "structuredName": {
+                            "firstName": "Tien-Fu",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tien-Fu Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144212383"
+                        ],
+                        "name": "J. Baer",
+                        "slug": "J.-Baer",
+                        "structuredName": {
+                            "firstName": "Jean-Loup",
+                            "lastName": "Baer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Baer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 9422950,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c8c6fe71e97938a0cf32722991d44e71bdcc3cf9",
+            "isKey": false,
+            "numCitedBy": 244,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Non-blocking caches and prefetehing caches are two techniques for hiding memory latency by exploiting the overlap of processor computations with data accesses. A nonblocking cache allows execution to proceed concurrently with cache misses as long as dependency constraints are observed, thus exploiting post-miss operations, A prefetching cache generates prefetch requests to bring data in the cache before it is actually needed, thus allowing overlap with premiss computations. In this paper, we evaluate the effectiveness of these two hardware-based schemes. We propose a hybrid design based on the combination of these approaches. We also consider compiler-based optimization to enhance the effectiveness of non-blocking caches. Results from instruction level simulations on the SPEC benchmarks show that the hardware prefetching caches generally outperform nonblocking caches. Also, the relative effectiveness of nonblocklng caches is more adversely affected by an increase in memory latency than that of prefetching caches,, However, the performance of non-blocking caches can be improved substantially by compiler optimizations such as instruction scheduling and register renaming. The hybrid design cm be very effective in reducing the memory latency penalty for many applications."
+            },
+            "slug": "Reducing-memory-latency-via-non-blocking-and-caches-Chen-Baer",
+            "title": {
+                "fragments": [],
+                "text": "Reducing memory latency via non-blocking and prefetching caches"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "A hybrid design based on the combination of non-blocking and prefetching caches is proposed, which is found to be very effective in reducing the memory latency penalty for many applications."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ASPLOS V"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2119274763"
+                        ],
+                        "name": "John W. C. Fu",
+                        "slug": "John-W.-C.-Fu",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Fu",
+                            "middleNames": [
+                                "W.",
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John W. C. Fu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1728247"
+                        ],
+                        "name": "J. Patel",
+                        "slug": "J.-Patel",
+                        "structuredName": {
+                            "firstName": "Janak",
+                            "lastName": "Patel",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Patel"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2498616,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "219d3c19d19399996c6044649ef051f6e227d00e",
+            "isKey": false,
+            "numCitedBy": 171,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper reports the cache performance of a set of vectorized numerical program from the Perfect Club benchmarks. Using a low cost trace driven simularion technique we show how a non-prefetching vector cache can result in unpredictable performance and how rhis unpredictability makes it difficult to find a good block size. We describe two simple prefetch schemes to reduce the influence of long stride vector accesses and misses due IO block invalidations in mulliprocessor vector caches. These two schemes are shown to have better performance than a non-prefetching cache."
+            },
+            "slug": "Data-prefetching-in-multiprocessor-vector-cache-Fu-Patel",
+            "title": {
+                "fragments": [],
+                "text": "Data prefetching in multiprocessor vector cache memories"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 64,
+                "text": "This paper reports the cache performance of a set of vectorized numerical program from the Perfect Club benchmarks and describes two simple prefetch schemes to reduce the influence of long stride vector accesses and misses due IO block invalidations in mulliprocessor vector caches."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "[1991] Proceedings. The 18th Annual International Symposium on Computer Architecture"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "16576713"
+                        ],
+                        "name": "D. Kroft",
+                        "slug": "D.-Kroft",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Kroft",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Kroft"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10458941,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "aa357f4d0daca8d7065d7fa106e30a590f9a53a3",
+            "isKey": false,
+            "numCitedBy": 370,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In the past decade, there has been much literature describing various cache organizations that exploit general programming idiosyncrasies to obtain maximum hit rate (the probability that a requested datum is now resident in the cache). Little, if any, has been presented to exploit: (1) the inherent dual input nature of the cache and (2) the many-datum reference type central processor instructions.\n No matter how high the cache hit rate is, a cache miss may impose a penalty on subsequent cache references. This penalty is the necessity of waiting until the missed requested datum is received from central memory and, possibly, for cache update. For the two cases above, the cache references following a miss do not require the information of the datum not resident in the cache, and are therefore penalized in this fashion.\n In this paper, a cache organization is presented that essentially eliminates this penalty. This cache organizational feature has been incorporated in a cache/memory interface subsystem design, and the design has been implemented and prototyped. An existing simple instruction set machine has verified the advantage of this feature; future, more extensive and sophisticated instruction set machines may obviously take more advantage. Prior to prototyping, simulations verified the advantage."
+            },
+            "slug": "Lockup-free-instruction-fetch/prefetch-cache-Kroft",
+            "title": {
+                "fragments": [],
+                "text": "Lockup-free instruction fetch/prefetch cache organization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A cache organization is presented that essentially eliminates a penalty on subsequent cache references following a cache miss and has been incorporated in a cache/memory interface subsystem design, and the design has been implemented and prototyped."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ISCA '81"
+            },
+            "year": 1981
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109082185"
+                        ],
+                        "name": "William Y. Chen",
+                        "slug": "William-Y.-Chen",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Chen",
+                            "middleNames": [
+                                "Y."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "William Y. Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1721289"
+                        ],
+                        "name": "S. Mahlke",
+                        "slug": "S.-Mahlke",
+                        "structuredName": {
+                            "firstName": "Scott",
+                            "lastName": "Mahlke",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Mahlke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40500059"
+                        ],
+                        "name": "P. Chang",
+                        "slug": "P.-Chang",
+                        "structuredName": {
+                            "firstName": "Pohua",
+                            "lastName": "Chang",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Chang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143668320"
+                        ],
+                        "name": "W. Hwu",
+                        "slug": "W.-Hwu",
+                        "structuredName": {
+                            "firstName": "Wen-mei",
+                            "lastName": "Hwu",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Hwu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15038724,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3f9b39fc97998a8e522aade60c6b4cf10f40ba21",
+            "isKey": false,
+            "numCitedBy": 111,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The performance of superscrdar processors is more sensitive to the memory system delay than their single-issue predecessors. This paper examines alternative data access microarchitectures that effectively support compilerassisted data prefetching in superscalar processors. In particular, a prefetch buffer is shown to be more effective than increasing the cache dimension in solving the cache pollution problem. All in all, we show that a small data cache with compiler-assisted data prefetching can achieve a performance level close to that of an ideal cache."
+            },
+            "slug": "Data-access-microarchitectures-for-superscalar-with-Chen-Mahlke",
+            "title": {
+                "fragments": [],
+                "text": "Data access microarchitectures for superscalar processors with compiler-assisted data prefetching"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 57,
+                "text": "This paper examines alternative data access microarchitectures that effectively support compilerassisted data prefetching in superscalar processors and shows that a small data cache with compiler-assisted data preferences can achieve a performance level close to that of an ideal cache."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "MICRO 24"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47212763"
+                        ],
+                        "name": "R. Lee",
+                        "slug": "R.-Lee",
+                        "structuredName": {
+                            "firstName": "Roland",
+                            "lastName": "Lee",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699961"
+                        ],
+                        "name": "P. Yew",
+                        "slug": "P.-Yew",
+                        "structuredName": {
+                            "firstName": "P.",
+                            "lastName": "Yew",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Yew"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1783887"
+                        ],
+                        "name": "D. Lawrie",
+                        "slug": "D.-Lawrie",
+                        "structuredName": {
+                            "firstName": "Duncan",
+                            "lastName": "Lawrie",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Lawrie"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 2562143,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "938869935dc1530c445536b27116f45a65e8593f",
+            "isKey": false,
+            "numCitedBy": 58,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The trace driven simulation of 16 numerical subroutines is used to compare instruction lookahead and data prefetching with private caches in shared memory multiprocessors with hundreds or thousands of processors and memory modules interconnected with a pipelined network. These multiprocessors are characterized by long memory access delays that create a memory access bottleneck. Using the multiprocessor cache model for comparison, data prefetching is found to be more effective than caches in addressing the memory access bottleneck. 5 refs., 6 figs."
+            },
+            "slug": ":-Data-Prefetching-In-Shared-Memory-Multiprocessors-Lee-Yew",
+            "title": {
+                "fragments": [],
+                "text": ": Data Prefetching In Shared Memory Multiprocessors"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "Using the multiprocessor cache model for comparison, data prefetching is found to be more effective than caches in addressing the memory access bottleneck."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICPP"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47212763"
+                        ],
+                        "name": "R. Lee",
+                        "slug": "R.-Lee",
+                        "structuredName": {
+                            "firstName": "Roland",
+                            "lastName": "Lee",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699961"
+                        ],
+                        "name": "P. Yew",
+                        "slug": "P.-Yew",
+                        "structuredName": {
+                            "firstName": "P.",
+                            "lastName": "Yew",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Yew"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1783887"
+                        ],
+                        "name": "D. Lawrie",
+                        "slug": "D.-Lawrie",
+                        "structuredName": {
+                            "firstName": "Duncan",
+                            "lastName": "Lawrie",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Lawrie"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 17443661,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b29e77e33076685828faaa0355ea489097180aff",
+            "isKey": false,
+            "numCitedBy": 59,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, cache design is explored for large high-performance multiprocessors with hundreds or thousands of processors and memory modules interconnected by a pipe-lined multi-stage network. The majority of the multiprocessor cache studies in the literature exclusively focus on the issue of cache coherence enforcement. However, there are other characteristics unique to such multiprocessors which create an environment for cache performance that is very different from that of many uniprocessors.\nMultiprocessor conditions are identified and modeled, including, 1) the cost of a cache coherence enforcement scheme, 2) the effect of a high degree of overlap between cache miss services, 3) the cost of a pin limited data path between shared memory and caches, 4) the effect of a high degree of data prefetching, 5) the program behavior of a scientific workload as represented by 23 numerical subroutines, and 6) the parallel execution of programs. This model is used to show that the cache miss ratio is not a suitable performance measure in the multiprocessors of interest and to show that the optimal cache block size in such multiprocessors is much smaller than in many uniprocessors."
+            },
+            "slug": "Multiprocessor-cache-design-considerations-Lee-Yew",
+            "title": {
+                "fragments": [],
+                "text": "Multiprocessor cache design considerations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 78,
+                "text": "In this paper, cache design is explored for large high-performance multiprocessors with hundreds or thousands of processors and memory modules interconnected by a pipe-lined multi-stage network and it is shown that the optimal cache block size in such multiprocessionors is much smaller than in many uniprocessor."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ISCA '87"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145516797"
+                        ],
+                        "name": "Allan Porterfield",
+                        "slug": "Allan-Porterfield",
+                        "structuredName": {
+                            "firstName": "Allan",
+                            "lastName": "Porterfield",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Allan Porterfield"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "70455556"
+                        ],
+                        "name": "K. Kennedy",
+                        "slug": "K.-Kennedy",
+                        "structuredName": {
+                            "firstName": "Ken",
+                            "lastName": "Kennedy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kennedy"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 53901676,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ddc6200131e858f49eb14fc81fda91cefe3019e9",
+            "isKey": false,
+            "numCitedBy": 225,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Measurements of actual supercomputer cache performance has not been previously undertaken. PFC-Sim is a program-driven event tracing facility that can simulate data cache performance of very long programs. PFC-Sim simulates cache concurrently with program execution, allowing very long traces to be used. Programs with traces in excess of 4 billion entries have been used to measure the performance of various cache structures. \nPFC-Sim was used to measure the cache performance of array references in a benchmark set of supercomputer applications, RiCEPS. Data cache hit ratios varied on average between 70% for a 16K cache and 91% for a 256K cache. Programs with very large working sets generate poor cache performance even with large caches. The hit ratios of individual references are measured to either 0% or 100%. \nBy locating the references that miss, attempts to improve memory performance can focus on references where improvement is possible. The compiler can estimate the number of loop iterations which can execute without filling the cache, the overflow iteration. The overflow iteration combined with the dependence graph can be used to determine at each reference whether execution will result in hits or misses. \nProgram transformation can be used to improve cache performance by reordering computation to move references to the same memory location closer together, thereby eliminating cache misses. Using the overflow iteration, the compiler can often do this transformation automatically. Standard blocking transformations cannot be used on many loop nests that contain transformation preventing dependences. Wavefront blocking allows any loop nest to be blocked, when the components of dependence vectors are bounded. \nWhen the cache misses cannot be eliminated, software prefetching can overlap the miss delays with computation. Software prefetching uses a special instruction to preload values into the cache. A cache load resembles a register load in structure, but does not block computation and only moves the address into cache where a later register load will be required. The compiler can inform the cache (on average) over 100 cycles before a load is required. Cache misses can be serviced in parallel with computation."
+            },
+            "slug": "Software-methods-for-improvement-of-cache-on-Porterfield-Kennedy",
+            "title": {
+                "fragments": [],
+                "text": "Software methods for improvement of cache performance on supercomputer applications"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 84,
+                "text": "Measurements of actual supercomputer cache performance has not been previously undertaken, and PFC-Sim, a program-driven event tracing facility that can simulate data cache performance of very long programs, is used to measure the performance of various cache structures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2143366"
+                        ],
+                        "name": "S. Przybylski",
+                        "slug": "S.-Przybylski",
+                        "structuredName": {
+                            "firstName": "Steven",
+                            "lastName": "Przybylski",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Przybylski"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8458709,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4ea7c6b056c82db10337441cba49006e13c36718",
+            "isKey": false,
+            "numCitedBy": 81,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The interactions between a cache's block size, fetch size, and fetch policy from the perspective of maximizing system-level performance are explored. It has been previously noted that, given a simple fetch strategy, the performance optimal block size is almost always four or eight words. If there is even a small cycle time penalty associated with either longer blocks or fetches, then the performance optimal size is noticeably reduced. In split cache organizations, where the fetch and block sizes of instruction and data caches are all independent design variables, instruction cache block size and fetch size should be the same. For the workload and write-back write policy used in this trace-driven simulation study, the instruction cache block size should be about a factor of 2 greater than the data cache fetch size, which in turn should be equal to or double the data cache block size. The simplest fetch strategy of fetching only on a miss and stalling the CPU until the fetch is complete works well. Complicated fetch strategies do not produce the performance improvements indicated by the accompanying reductions in miss ratios because of limited memory resources and a strong temporal clustering of cache misses. For the environments simulated, the most effective fetch strategy improved performance by between 1.7% and 4.5% over the simplest strategy described above.<<ETX>>"
+            },
+            "slug": "The-performance-impact-of-block-sizes-and-fetch-Przybylski",
+            "title": {
+                "fragments": [],
+                "text": "The performance impact of block sizes and fetch strategies"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 79,
+                "text": "The interactions between a cache's block size, fetch size, and fetch policy from the perspective of maximizing system-level performance are explored and the most effective fetch strategy improved performance by between 1.7% and 4.5% over the simplest strategy."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "[1990] Proceedings. The 17th Annual International Symposium on Computer Architecture"
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "31611964"
+                        ],
+                        "name": "I. Sklen\u00e1r",
+                        "slug": "I.-Sklen\u00e1r",
+                        "structuredName": {
+                            "firstName": "Ivan",
+                            "lastName": "Sklen\u00e1r",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. Sklen\u00e1r"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 15260938,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4560f4d02e92eb677fc3d5c97e9e8c6b240c9e51",
+            "isKey": false,
+            "numCitedBy": 39,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Current caches are not adequate for vector operations. A new kind of support for vector operations, called prefetch unit, is designed to improve the performance of the scalar (SISD) processors. The prefetch unit can be used for any SISD architecture and also for many kinds of MIMD architectures. It may run in parallel and asynchronously with other parts of processor. It keeps trace of the history of memory references, and initializes rarely any superfluous prefetches."
+            },
+            "slug": "Prefetch-Unit-for-Vector-Operations-on-Scalar-Sklen\u00e1r",
+            "title": {
+                "fragments": [],
+                "text": "Prefetch Unit for Vector Operations on Scalar Computers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "The prefetch unit can be used for any SISD architecture and also for many kinds of MIMD architectures and may run in parallel and asynchronously with other parts of processor."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "[1992] Proceedings the 19th Annual International Symposium on Computer Architecture"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1715454"
+                        ],
+                        "name": "N. Jouppi",
+                        "slug": "N.-Jouppi",
+                        "structuredName": {
+                            "firstName": "Norman",
+                            "lastName": "Jouppi",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Jouppi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 6157765,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "dcddcdef6d28d8aac01b88a941d6f92262f58e36",
+            "isKey": false,
+            "numCitedBy": 1430,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Hardware techniques for improving the performance of caches are presented. Miss caching places a small, fully associative cache between a cache and its refill path. Misses in the cache that hit in the miss cache have only a 1-cycle miss penalty. Small miss caches of 2 to 5 entries are shown to be very effective in removing mapping conflict misses in first-level direct-mapped caches. Victim caching is an improvement to miss caching in that it loads the small fully associative cache with the victim of a miss and not the requested line. Small victim caches of 1 to 5 entries are even more effective at removing conflict misses than miss caching. Stream buffers prefetch cache lines starting at a cache miss address. The prefetched data are placed in the buffer and not in the cache. Stream buffers are useful in removing capacity and compulsory cache misses, as well as some instruction cache conflict misses. An extension to the basic stream buffer, called a multiway stream buffer, is introduced.<<ETX>>"
+            },
+            "slug": "Improving-direct-mapped-cache-performance-by-the-of-Jouppi",
+            "title": {
+                "fragments": [],
+                "text": "Improving direct-mapped cache performance by the addition of a small fully-associative cache and prefetch buffers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 59,
+                "text": "Hardware techniques for improving the performance of caches are presented and stream buffers prefetch cache lines starting at a cache miss address, which are useful in removing capacity and compulsory cache misses, as well as some instruction cache conflict misses."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "[1990] Proceedings. The 17th Annual International Symposium on Computer Architecture"
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47094682"
+                        ],
+                        "name": "Tse-Yu Yeh",
+                        "slug": "Tse-Yu-Yeh",
+                        "structuredName": {
+                            "firstName": "Tse-Yu",
+                            "lastName": "Yeh",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tse-Yu Yeh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1773962"
+                        ],
+                        "name": "Y. Patt",
+                        "slug": "Y.-Patt",
+                        "structuredName": {
+                            "firstName": "Yale",
+                            "lastName": "Patt",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Patt"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 53114486,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fd9abb69c628722b75c75d6bc8dc80a64434ee29",
+            "isKey": false,
+            "numCitedBy": 244,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "As the issue rate and depth of pipelining of high performance Superscalar processors increase, the importance of an excellent branch predictor becomes more vital to delivering the potential performance of a wide-issue, deep pipelined microarchitecture. We propose a new dynamic branch predictor (Two-Level Adaptive Branch Prediction) that achieves substantially higher accuracy than any other scheme reported in the literature. The mechanism uses two levels of branch history information to make predictions, the history of the last k branches encountered, and the branch behavior for the last s occurrences of the specific pattern of these k branches. We have identified three variations of the Two-Level Adaptive Branch Prediction, depending on how finely we resolve the history information gathered. We compute the hardware costs of implementing each of the three variations, and use these costs in evaluating their relative effectiveness. We measure the branch prediction accuracy of the three variations of two-Level Adaptive Branch Prediction, along with several other popular proposed dynamic and static prediction schemes, on the SPEC benchmarks. We show that the average prediction accuracy for Two-Level Adaptive Branch Prediction is 97 percent, while the other known schemes achieve at most 94.4 percent average prediction accuracy. We measure the effectiveness of different prediction algorithms and different amounts of history and pattern information. We measure the costs of each variation to obtain the same prediction accuracy."
+            },
+            "slug": "Alternative-implementations-of-two-level-adaptive-Yeh-Patt",
+            "title": {
+                "fragments": [],
+                "text": "Alternative implementations of two-level adaptive branch prediction"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work proposes a new dynamic branch predictor (Two-Level Adaptive Branch Prediction) that achieves substantially higher accuracy than any other scheme reported in the literature and measures the effectiveness of different prediction algorithms and different amounts of history and pattern information."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ISCA '92"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144961917"
+                        ],
+                        "name": "James E. Smith",
+                        "slug": "James-E.-Smith",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Smith",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James E. Smith"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 13903321,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "27c204d3de3e9289bdf9d67d8e646e6527b18b1a",
+            "isKey": false,
+            "numCitedBy": 274,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "An architecture for improving computer performance is presented and discussed. The main feature of the architecture is a high degree of ._-.-. decoupling between operand access anb execution. This results in an implementation which has two separate instruction streams that communicate via queues. A similar architecture has been previously proposed for array processors, but in that context the software is called on to do most of the coordination and synchronization between the instruction streams. This paper emphasizes implementation features that remove this burden from the programmer. Performance comparisons with a conventional scalar architecture are given, and these show that considerable performance gains are possible. Single instruction stream versions, both physical and conceptual, are discussed with the primary goal of minimizing the differences with conventional architectures. This would allow known compilation and programing techniques to be used. Finally, the problem of deadlock in such a system is discussed, and one possible solution is given."
+            },
+            "slug": "Decoupled-access/execute-computer-architectures-Smith",
+            "title": {
+                "fragments": [],
+                "text": "Decoupled access/execute computer architectures"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 92,
+                "text": "An architecture for improving computer performance is presented and discussed, with the main feature of a high degree of decoupling between operand access anb execution, which results in an implementation which has two separate instruction streams that communicate via queues."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TOCS"
+            },
+            "year": 1984
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2510619"
+                        ],
+                        "name": "Shien-Tai Pan",
+                        "slug": "Shien-Tai-Pan",
+                        "structuredName": {
+                            "firstName": "Shien-Tai",
+                            "lastName": "Pan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shien-Tai Pan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2601232"
+                        ],
+                        "name": "K. So",
+                        "slug": "K.-So",
+                        "structuredName": {
+                            "firstName": "Kimming",
+                            "lastName": "So",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. So"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2515840"
+                        ],
+                        "name": "J. T. Rahmeh",
+                        "slug": "J.-T.-Rahmeh",
+                        "structuredName": {
+                            "firstName": "Joseph",
+                            "lastName": "Rahmeh",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. T. Rahmeh"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1428582,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "87e25e08f0b0e2e6de87b519c6b8d60fb41a31b4",
+            "isKey": false,
+            "numCitedBy": 340,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Long branch delay is a well\u2013known problem in today\u2019s high performance superscalar and supetpipeline processor designs. A common technique used to alleviate this problem is to predict the direction of branches during the instruction fetch. Counter-based branch prediction, in particular, has been reported as an effective scheme for predicting the direction of branches. However, its accuracy is generally limited by branches whose future behavior is also dependent upon the history of other branches. To enhance branch prediction accuracy with a minimum increase in hardware COSLwe propose a correlation-based scheme and show how the prediction accuracy can be improved by incorporating information, not only from the history of a specific brsncb but also from the history of other branches. Specifically, we use the information provided by a proper subhistory of a branch to predict the outcome of that branch. The proper subhistory is selected based on the outcomes of the most recently executed M branches. The new scheme is evaluated using traces collected from running the SPEC benchmark suite on an IBM RISC System/6000 workstation. The results show that, ascompared with the 2-bit counter-based prediction scheme, the correlation-based branch prediction achieves up to 11 ~0 additional accuracy at the extra hardware cost of one shift register. The results also show that the accuracy of the new scheme surpasses that of the counter\u2013based branch predction at saturation."
+            },
+            "slug": "Improving-the-accuracy-of-dynamic-branch-prediction-Pan-So",
+            "title": {
+                "fragments": [],
+                "text": "Improving the accuracy of dynamic branch prediction using branch correlation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A correlation-based scheme that uses the information provided by a proper subhistory of a branch to predict the outcome of that branch, and the accuracy of the new scheme surpasses that of the counter\u2013based branch predction at saturation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ASPLOS V"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2053416"
+                        ],
+                        "name": "Chris H. Perleberg",
+                        "slug": "Chris-H.-Perleberg",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Perleberg",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chris H. Perleberg"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116706896"
+                        ],
+                        "name": "A. Smith",
+                        "slug": "A.-Smith",
+                        "structuredName": {
+                            "firstName": "Alan",
+                            "lastName": "Smith",
+                            "middleNames": [
+                                "Jay"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Smith"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 39614676,
+            "fieldsOfStudy": [
+                "Business"
+            ],
+            "id": "5465d12fb0888f562f7060da94aa60ef81f9e7b4",
+            "isKey": false,
+            "numCitedBy": 143,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A branch target buffer (BTB) can reduce the performance penalty of branches in pipelined processors by predicting the path of the branch and caching information used by the branch. Two major issues in the design of BTBs that achieves maximum performance with a limited number of bits allocated to the BTB implementation are discussed. The first is BTB management. A method for discarding branches from the BTB is examined. This method discards the branch with the smallest expected value for improving performance; it outperforms the least recently used (LRU) strategy by a small margin, at the cost of additional complexity. The second issue is the question of what information to store in the BTB. A BTB entry can consist of one or more of the following: branch tag, prediction information, the branch target address, and instructions at the branch target. Various BTB designs, with one or more of these fields, are evaluated and compared. >"
+            },
+            "slug": "Branch-Target-Buffer-Design-and-Optimization-Perleberg-Smith",
+            "title": {
+                "fragments": [],
+                "text": "Branch Target Buffer Design and Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A method for discarding branches from the BTB is examined and this method outperforms the least recently used (LRU) strategy by a small margin, at the cost of additional complexity."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Computers"
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144434028"
+                        ],
+                        "name": "T. Ball",
+                        "slug": "T.-Ball",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Ball",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Ball"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1752633"
+                        ],
+                        "name": "J. Larus",
+                        "slug": "J.-Larus",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Larus",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Larus"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 5829999,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "51b6e1a1b464fd9bc70d216e39d857aa849bf23d",
+            "isKey": false,
+            "numCitedBy": 307,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many compilers rely on branch prediction to improve program performance by identifying frequently executed regions and by aiding in scheduling instructions.Profile-based predictors require a time-consuming and inconvenient compile-profile-compile cycle in order to make predictions. We present a program-based branch predictor that performs well for a large and diverse set of programs written in C and Fortran. In addition to using natural loop analysis to predict branches that control the iteration of loops, we focus on heuristics for predicting non-loop branches, which dominate the dynamic branch count of many programs. The heuristics are simple and require little program analysis, yet they are effective in terms of coverage and miss rate. Although program-based prediction does not equal the accuracy of profile-based prediction, we believe it reaches a sufficiently high level to be useful. Additional type and semantic information available to a compiler would enhance our heuristics."
+            },
+            "slug": "Branch-prediction-for-free-Ball-Larus",
+            "title": {
+                "fragments": [],
+                "text": "Branch prediction for free"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work presents a program-based branch predictor that performs well for a large and diverse set of programs written in C and Fortran and focuses on heuristics for predicting non-loop branches, which dominate the dynamic branch count of many programs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '93"
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144212383"
+                        ],
+                        "name": "J. Baer",
+                        "slug": "J.-Baer",
+                        "structuredName": {
+                            "firstName": "Jean-Loup",
+                            "lastName": "Baer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Baer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39470177"
+                        ],
+                        "name": "Wen-Hann Wang",
+                        "slug": "Wen-Hann-Wang",
+                        "structuredName": {
+                            "firstName": "Wen-Hann",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wen-Hann Wang"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 11744477,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b3c9660ff05b802dc78aa4325c85a302b414fe96",
+            "isKey": false,
+            "numCitedBy": 35,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Multilevel-Cache-Hierarchies:-Organizations,-and-Baer-Wang",
+            "title": {
+                "fragments": [],
+                "text": "Multilevel Cache Hierarchies: Organizations, Protocols, and Performance"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Parallel Distributed Comput."
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144212383"
+                        ],
+                        "name": "J. Baer",
+                        "slug": "J.-Baer",
+                        "structuredName": {
+                            "firstName": "Jean-Loup",
+                            "lastName": "Baer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Baer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2117179536"
+                        ],
+                        "name": "Tien-Fu Chen",
+                        "slug": "Tien-Fu-Chen",
+                        "structuredName": {
+                            "firstName": "Tien-Fu",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tien-Fu Chen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16908738,
+            "fieldsOfStudy": [
+                "Economics"
+            ],
+            "id": "d51ad15fa164c1bf6b40bc183864667cc2cff7f9",
+            "isKey": false,
+            "numCitedBy": 454,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "No abstract available"
+            },
+            "slug": "An-effective-on-chip-preloading-scheme-to-reduce-Baer-Chen",
+            "title": {
+                "fragments": [],
+                "text": "An effective on-chip preloading scheme to reduce data access penalty"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 1991 ACM/IEEE Conference on Supercomputing (Supercomputing '91)"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108489265"
+                        ],
+                        "name": "Johnny K. F. Lee",
+                        "slug": "Johnny-K.-F.-Lee",
+                        "structuredName": {
+                            "firstName": "Johnny",
+                            "lastName": "Lee",
+                            "middleNames": [
+                                "K.",
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Johnny K. F. Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116706896"
+                        ],
+                        "name": "A. Smith",
+                        "slug": "A.-Smith",
+                        "structuredName": {
+                            "firstName": "Alan",
+                            "lastName": "Smith",
+                            "middleNames": [
+                                "Jay"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Smith"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8050042,
+            "fieldsOfStudy": [
+                "Business"
+            ],
+            "id": "6afe5319630d966c1355f3812f9d4b4b4d6d9fd0",
+            "isKey": false,
+            "numCitedBy": 613,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Branch-Prediction-Strategies-and-Branch-Target-Lee-Smith",
+            "title": {
+                "fragments": [],
+                "text": "Branch Prediction Strategies and Branch Target Buffer Design"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Computer"
+            },
+            "year": 1984
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "An architecture for softwarecontrolled data prefetching Lockup - free instruction fetcwprefetch cache organization"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc . Eighth Ann . Int \u2019 l Symp . Computer Architecture"
+            },
+            "year": 1981
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "S\u201990-M\u201993) received the BSc degree in computer science from National Taiwan University, Taiwan, in 1983, and the MS and PhD degrees in computer science from the University"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Ninth Ann. Int'l Symp. ComputerArchitecture"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Ninth Ann. Int'l Symp. ComputerArchitecture"
+            },
+            "year": 1982
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {},
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 27,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Effective-Hardware-Based-Data-Prefetching-for-Chen-Baer/bc2bba7e1bb4e7d8307aa36bdc5ee86cdd61cc58?sort=total-citations"
+}
