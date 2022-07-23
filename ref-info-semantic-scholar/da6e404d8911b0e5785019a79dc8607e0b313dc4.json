@@ -1,0 +1,1417 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145895796"
+                        ],
+                        "name": "B. McMahan",
+                        "slug": "B.-McMahan",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "McMahan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. McMahan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2065291712"
+                        ],
+                        "name": "D. Rao",
+                        "slug": "D.-Rao",
+                        "structuredName": {
+                            "firstName": "Delip",
+                            "lastName": "Rao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Rao"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10393535,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7beb690145eee149936617e2af4e0d257d393341",
+            "isKey": false,
+            "numCitedBy": 26,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "\n \n We study transfer learning in convolutional network architectures applied to the task of recognizing audio, such as environmental sound events and speech commands. Our key finding is that not only is it possible to transfer representations from an unrelated task like environmental sound classification to a voice-focused task like speech command recognition, but also that doing so improves accuracies significantly. We also investigate the effect of increased model capacity for transfer learning audio, by first validating known results from the field of Computer Vision of achieving better accuracies with increasingly deeper networks on two audio datasets: UrbanSound8k and Google Speech Commands. Then we propose a simple multiscale input representation using dilated convolutions and show that it is able to aggregate larger contexts and increase classification performance. Further, the models trained using a combination of transfer learning and multiscale input representations need only 50% of the training data to achieve similar accuracies as a freshly trained model with 100% of the training data. Finally, we demonstrate a positive interaction effect for the multiscale input and transfer learning, making a case for the joint application of the two techniques.\n \n"
+            },
+            "slug": "Listening-to-the-World-Improves-Speech-Command-McMahan-Rao",
+            "title": {
+                "fragments": [],
+                "text": "Listening to the World Improves Speech Command Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "The key finding is that not only is it possible to transfer representations from an unrelated task like environmental sound classification to a voice-focused task like speech command recognition, but also that doing so improves accuracies significantly."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AAAI"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40892818"
+                        ],
+                        "name": "Sanjay Krishna Gouda",
+                        "slug": "Sanjay-Krishna-Gouda",
+                        "structuredName": {
+                            "firstName": "Sanjay",
+                            "lastName": "Gouda",
+                            "middleNames": [
+                                "Krishna"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sanjay Krishna Gouda"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "4206413"
+                        ],
+                        "name": "S. Kanetkar",
+                        "slug": "S.-Kanetkar",
+                        "structuredName": {
+                            "firstName": "Salil",
+                            "lastName": "Kanetkar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Kanetkar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2070203271"
+                        ],
+                        "name": "David Harrison",
+                        "slug": "David-Harrison",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Harrison",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Harrison"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1794034"
+                        ],
+                        "name": "Manfred K. Warmuth",
+                        "slug": "Manfred-K.-Warmuth",
+                        "structuredName": {
+                            "firstName": "Manfred",
+                            "lastName": "Warmuth",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Manfred K. Warmuth"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 46,
+                                "start": 42
+                            }
+                        ],
+                        "text": "Keyword Spotting Through Image Recognition[27] looks at the effect virtual adversarial training on the keyword task."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3837683,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6fd13db8288e4aeeaca597778d6a414a2042ac8d",
+            "isKey": false,
+            "numCitedBy": 13,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The problem of identifying voice commands has always been a challenge due to the presence of noise and variability in speed, pitch, etc. We will compare the efficacies of several neural network architectures for the speech recognition problem. In particular, we will build a model to determine whether a one second audio clip contains a particular word (out of a set of 10), an unknown word, or silence. The models to be implemented are a CNN recommended by the Tensorflow Speech Recognition tutorial, a low-latency CNN, and an adversarially trained CNN. The result is a demonstration of how to convert a problem in audio recognition to the better-studied domain of image classification, where the powerful techniques of convolutional neural networks are fully developed. Additionally, we demonstrate the applicability of the technique of Virtual Adversarial Training (VAT) to this problem domain, functioning as a powerful regularizer with promising potential future applications."
+            },
+            "slug": "Speech-Recognition:-Keyword-Spotting-Through-Image-Gouda-Kanetkar",
+            "title": {
+                "fragments": [],
+                "text": "Speech Recognition: Keyword Spotting Through Image Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A model is built to determine whether a one second audio clip contains a particular word (out of a set of 10), an unknown word, or silence, and the applicability of the technique of Virtual Adversarial Training (VAT) to this problem domain is demonstrated."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2150714"
+                        ],
+                        "name": "Vassil Panayotov",
+                        "slug": "Vassil-Panayotov",
+                        "structuredName": {
+                            "firstName": "Vassil",
+                            "lastName": "Panayotov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vassil Panayotov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2335354"
+                        ],
+                        "name": "Guoguo Chen",
+                        "slug": "Guoguo-Chen",
+                        "structuredName": {
+                            "firstName": "Guoguo",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Guoguo Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792214"
+                        ],
+                        "name": "Daniel Povey",
+                        "slug": "Daniel-Povey",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Povey",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel Povey"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2803071"
+                        ],
+                        "name": "S. Khudanpur",
+                        "slug": "S.-Khudanpur",
+                        "structuredName": {
+                            "firstName": "Sanjeev",
+                            "lastName": "Khudanpur",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Khudanpur"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 14,
+                                "start": 11
+                            }
+                        ],
+                        "text": "LibriSpeech[7] is a collection of 1,000 hours of read English speech, released under a Creative Commons BY 4."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2191379,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "34038d9424ce602d7ac917a4e582d977725d4393",
+            "isKey": false,
+            "numCitedBy": 2736,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper introduces a new corpus of read English speech, suitable for training and evaluating speech recognition systems. The LibriSpeech corpus is derived from audiobooks that are part of the LibriVox project, and contains 1000 hours of speech sampled at 16 kHz. We have made the corpus freely available for download, along with separately prepared language-model training data and pre-built language models. We show that acoustic models trained on LibriSpeech give lower error rate on the Wall Street Journal (WSJ) test sets than models trained on WSJ itself. We are also releasing Kaldi scripts that make it easy to build these systems."
+            },
+            "slug": "Librispeech:-An-ASR-corpus-based-on-public-domain-Panayotov-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Librispeech: An ASR corpus based on public domain audio books"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is shown that acoustic models trained on LibriSpeech give lower error rate on the Wall Street Journal (WSJ) test sets than models training on WSJ itself."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2124821"
+                        ],
+                        "name": "Jongpil Lee",
+                        "slug": "Jongpil-Lee",
+                        "structuredName": {
+                            "firstName": "Jongpil",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jongpil Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "26978646"
+                        ],
+                        "name": "Taejun Kim",
+                        "slug": "Taejun-Kim",
+                        "structuredName": {
+                            "firstName": "Taejun",
+                            "lastName": "Kim",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Taejun Kim"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109242794"
+                        ],
+                        "name": "Jiyoung Park",
+                        "slug": "Jiyoung-Park",
+                        "structuredName": {
+                            "firstName": "Jiyoung",
+                            "lastName": "Park",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jiyoung Park"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145578392"
+                        ],
+                        "name": "Juhan Nam",
+                        "slug": "Juhan-Nam",
+                        "structuredName": {
+                            "firstName": "Juhan",
+                            "lastName": "Nam",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Juhan Nam"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 42,
+                                "start": 38
+                            }
+                        ],
+                        "text": "Raw Waveformbased Audio Classification[26] investigates alternatives to traditional feature extraction for speech and music models."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 966171,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d21c044b05a004fa71782af6b3128c1a8c95c89c",
+            "isKey": false,
+            "numCitedBy": 43,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Music, speech, and acoustic scene sound are often handled separately in the audio domain because of their different signal characteristics. However, as the image domain grows rapidly by versatile image classification models, it is necessary to study extensible classification models in the audio domain as well. In this study, we approach this problem using two types of sample-level deep convolutional neural networks that take raw waveforms as input and uses filters with small granularity. One is a basic model that consists of convolution and pooling layers. The other is an improved model that additionally has residual connections, squeeze-and-excitation modules and multi-level concatenation. We show that the sample-level models reach state-of-the-art performance levels for the three different categories of sound. Also, we visualize the filters along layers and compare the characteristics of learned filters."
+            },
+            "slug": "Raw-Waveform-based-Audio-Classification-Using-CNN-Lee-Kim",
+            "title": {
+                "fragments": [],
+                "text": "Raw Waveform-based Audio Classification Using Sample-level CNN Architectures"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Two types of sample-level deep convolutional neural networks that take raw waveforms as input and uses filters with small granularity reach state-of-the-art performance levels for the three different categories of sound."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS 2017"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "26917433"
+                        ],
+                        "name": "Raphael Tang",
+                        "slug": "Raphael-Tang",
+                        "structuredName": {
+                            "firstName": "Raphael",
+                            "lastName": "Tang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Raphael Tang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145580839"
+                        ],
+                        "name": "Jimmy J. Lin",
+                        "slug": "Jimmy-J.-Lin",
+                        "structuredName": {
+                            "firstName": "Jimmy",
+                            "lastName": "Lin",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jimmy J. Lin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 63,
+                                "start": 59
+                            }
+                        ],
+                        "text": "Deep Residual Learning for Small Footprint Keyword Spotting[25] shows how approaches learned from ResNet can produce more efficient and accurate models."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13994681,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Economics"
+            ],
+            "id": "4ee8622f5dacb44e4af6bc9ee1c8f48a48983d9a",
+            "isKey": false,
+            "numCitedBy": 139,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We explore the application of deep residual learning and dilated convolutions to the keyword spotting task, using the recently-released Google Speech Commands Dataset as our benchmark. Our best residual network (ResNet) implementation significantly outperforms Google's previous convolutional neural networks in terms of accuracy. By varying model depth and width, we can achieve compact models that also outperform previous small-footprint variants. To our knowledge, we are the first to examine these approaches for keyword spotting, and our results establish an open-source state-of-the-art reference to support the development of future speech-based interfaces."
+            },
+            "slug": "Deep-Residual-Learning-for-Small-Footprint-Keyword-Tang-Lin",
+            "title": {
+                "fragments": [],
+                "text": "Deep Residual Learning for Small-Footprint Keyword Spotting"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 73,
+                "text": "This work explores the application of deep residual learning and dilated convolutions to the keyword spotting task, using the recently-released Google Speech Commands Dataset as a benchmark and establishes an open-source state-of-the-art reference to support the development of future speech-based interfaces."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3030212"
+                        ],
+                        "name": "M. Alzantot",
+                        "slug": "M.-Alzantot",
+                        "structuredName": {
+                            "firstName": "Moustafa",
+                            "lastName": "Alzantot",
+                            "middleNames": [
+                                "Farid"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Alzantot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144019834"
+                        ],
+                        "name": "Bharathan Balaji",
+                        "slug": "Bharathan-Balaji",
+                        "structuredName": {
+                            "firstName": "Bharathan",
+                            "lastName": "Balaji",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bharathan Balaji"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1702254"
+                        ],
+                        "name": "M. Srivastava",
+                        "slug": "M.-Srivastava",
+                        "structuredName": {
+                            "firstName": "Mani",
+                            "lastName": "Srivastava",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Srivastava"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 34941466,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6207a5933d5f7971486ce73323a37567c70aeb0f",
+            "isKey": false,
+            "numCitedBy": 165,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Speech is a common and effective way of communication between humans, and modern consumer devices such as smartphones and home hubs are equipped with deep learning based accurate automatic speech recognition to enable natural interaction between humans and machines. Recently, researchers have demonstrated powerful attacks against machine learning models that can fool them to produceincorrect results. However, nearly all previous research in adversarial attacks has focused on image recognition and object detection models. In this short paper, we present a first of its kind demonstration of adversarial attacks against speech classification model. Our algorithm performs targeted attacks with 87% success by adding small background noise without having to know the underlying model parameter and architecture. Our attack only changes the least significant bits of a subset of audio clip samples, and the noise does not change 89% the human listener's perception of the audio clip as evaluated in our human study."
+            },
+            "slug": "Did-you-hear-that-Adversarial-Examples-Against-Alzantot-Balaji",
+            "title": {
+                "fragments": [],
+                "text": "Did you hear that? Adversarial Examples Against Automatic Speech Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A first of its kind demonstration of adversarial attacks against speech classification model by adding small background noise without having to know the underlying model parameter and architecture is presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1786276"
+                        ],
+                        "name": "J. Salamon",
+                        "slug": "J.-Salamon",
+                        "structuredName": {
+                            "firstName": "Justin",
+                            "lastName": "Salamon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Salamon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "27022208"
+                        ],
+                        "name": "C. Jacoby",
+                        "slug": "C.-Jacoby",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Jacoby",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Jacoby"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34894065"
+                        ],
+                        "name": "J. Bello",
+                        "slug": "J.-Bello",
+                        "structuredName": {
+                            "firstName": "Juan",
+                            "lastName": "Bello",
+                            "middleNames": [
+                                "Pablo"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bello"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 85,
+                                "start": 81
+                            }
+                        ],
+                        "text": "Listening to the World[22] demonstrates how combining the dataset and UrbanSounds[23] can improve the noise tolerance of recognition models."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 207217115,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "39a7a74de74efac3b8123650315d55cfb9d5220c",
+            "isKey": false,
+            "numCitedBy": 693,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Automatic urban sound classification is a growing area of research with applications in multimedia retrieval and urban informatics. In this paper we identify two main barriers to research in this area - the lack of a common taxonomy and the scarceness of large, real-world, annotated data. To address these issues we present a taxonomy of urban sounds and a new dataset, UrbanSound, containing 27 hours of audio with 18.5 hours of annotated sound event occurrences across 10 sound classes. The challenges presented by the new dataset are studied through a series of experiments using a baseline classification system."
+            },
+            "slug": "A-Dataset-and-Taxonomy-for-Urban-Sound-Research-Salamon-Jacoby",
+            "title": {
+                "fragments": [],
+                "text": "A Dataset and Taxonomy for Urban Sound Research"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A taxonomy of urban sounds and a new dataset, UrbanSound, containing 27 hours of audio with 18.5 hours of annotated sound event occurrences across 10 sound classes are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Multimedia"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784851"
+                        ],
+                        "name": "T. Sainath",
+                        "slug": "T.-Sainath",
+                        "structuredName": {
+                            "firstName": "Tara",
+                            "lastName": "Sainath",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Sainath"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2057314286"
+                        ],
+                        "name": "Carolina Parada",
+                        "slug": "Carolina-Parada",
+                        "structuredName": {
+                            "firstName": "Carolina",
+                            "lastName": "Parada",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Carolina Parada"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 144
+                            }
+                        ],
+                        "text": "Training the default convolution model from the TensorFlow tutorial (based on Convolutional Neural Networks for Small-footprint Keyword Spotting[19]) using the V1 training data gave a TopOne score of 85."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 144,
+                                "start": 112
+                            }
+                        ],
+                        "text": "Training the default convolution model from the TensorFlow tutorial (based on Convolutional Neural Networks for Small-footprint Keyword Spotting[19]) using the V1 training data gave a TopOne score of 85.4%, when evaluated against the test set from V1."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 12088192,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c4756dcc7afc2f09d61e6e4cf2199d9f6dd695cc",
+            "isKey": true,
+            "numCitedBy": 374,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We explore using Convolutional Neural Networks (CNNs) for a small-footprint keyword spotting (KWS) task. CNNs are attractive for KWS since they have been shown to outperform DNNs with far fewer parameters. We consider two different applications in our work, one where we limit the number of multiplications of the KWS system, and another where we limit the number of parameters. We present new CNN architectures to address the constraints of each applications. We find that the CNN architectures offer between a 27-44% relative improvement in false reject rate compared to a DNN, while fitting into the constraints of each application."
+            },
+            "slug": "Convolutional-neural-networks-for-small-footprint-Sainath-Parada",
+            "title": {
+                "fragments": [],
+                "text": "Convolutional neural networks for small-footprint keyword spotting"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 59,
+                "text": "This work explores using Convolutional Neural Networks for a small-footprint keyword spotting task and finds that the CNN architectures offer between a 27-44% relative improvement in false reject rate compared to a DNN, while fitting into the constraints of each application."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153302678"
+                        ],
+                        "name": "Jia Deng",
+                        "slug": "Jia-Deng",
+                        "structuredName": {
+                            "firstName": "Jia",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jia Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144847596"
+                        ],
+                        "name": "Wei Dong",
+                        "slug": "Wei-Dong",
+                        "structuredName": {
+                            "firstName": "Wei",
+                            "lastName": "Dong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wei Dong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2166511"
+                        ],
+                        "name": "R. Socher",
+                        "slug": "R.-Socher",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Socher",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Socher"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2040091191"
+                        ],
+                        "name": "Li-Jia Li",
+                        "slug": "Li-Jia-Li",
+                        "structuredName": {
+                            "firstName": "Li-Jia",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Li-Jia Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "94451829"
+                        ],
+                        "name": "K. Li",
+                        "slug": "K.-Li",
+                        "structuredName": {
+                            "firstName": "K.",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48004138"
+                        ],
+                        "name": "Li Fei-Fei",
+                        "slug": "Li-Fei-Fei",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Fei-Fei",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Li Fei-Fei"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 47,
+                                "start": 39
+                            }
+                        ],
+                        "text": "Unlike image classification tasks like ImageNet, it\u2019s not obvious how to weight all of the different categories."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 29,
+                                "start": 26
+                            }
+                        ],
+                        "text": "As the example of ImageNet[4] and similar collections in computer vision has shown, broadening access to datasets encourages collaborations across groups and enables apples-for-apples comparisons between different approaches, helping the whole field move forward."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 26,
+                                "start": 18
+                            }
+                        ],
+                        "text": "As the example of ImageNet[4] and similar collections in computer vision has shown, broadening access to\ndatasets encourages collaborations across groups and enables apples-for-apples comparisons between different approaches, helping the whole field move forward."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 57246310,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
+            "isKey": true,
+            "numCitedBy": 28266,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The explosion of image data on the Internet has the potential to foster more sophisticated and robust models and algorithms to index, retrieve, organize and interact with images and multimedia data. But exactly how such data can be harnessed and organized remains a critical problem. We introduce here a new database called \u201cImageNet\u201d, a large-scale ontology of images built upon the backbone of the WordNet structure. ImageNet aims to populate the majority of the 80,000 synsets of WordNet with an average of 500-1000 clean and full resolution images. This will result in tens of millions of annotated images organized by the semantic hierarchy of WordNet. This paper offers a detailed analysis of ImageNet in its current state: 12 subtrees with 5247 synsets and 3.2 million images in total. We show that ImageNet is much larger in scale and diversity and much more accurate than the current image datasets. Constructing such a large-scale database is a challenging task. We describe the data collection scheme with Amazon Mechanical Turk. Lastly, we illustrate the usefulness of ImageNet through three simple applications in object recognition, image classification and automatic object clustering. We hope that the scale, accuracy, diversity and hierarchical structure of ImageNet can offer unparalleled opportunities to researchers in the computer vision community and beyond."
+            },
+            "slug": "ImageNet:-A-large-scale-hierarchical-image-database-Deng-Dong",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet: A large-scale hierarchical image database"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A new database called \u201cImageNet\u201d is introduced, a large-scale ontology of images built upon the backbone of the WordNet structure, much larger in scale and diversity and much more accurate than the current image datasets."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2009 IEEE Conference on Computer Vision and Pattern Recognition"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2449135"
+                        ],
+                        "name": "Boris Smus",
+                        "slug": "Boris-Smus",
+                        "structuredName": {
+                            "firstName": "Boris",
+                            "lastName": "Smus",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Boris Smus"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 60087610,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9b6affd55c1b306d3840ae9b623736e50f19d4a7",
+            "isKey": false,
+            "numCitedBy": 85,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Go beyond HTML5's Audio tag and boost the audio capabilities of your web application with the Web Audio API. Packed with lots of code examples, crisp descriptions, and useful illustrations, this concise guide shows you how to use this JavaScript API to make the sounds and music of your games and interactive applications come alive. You need little or no digital audio expertise to get started. Author Boris Smus introduces you to digital audio concepts, then shows you how the Web Audio API solves specific application audio problems. You'll not only learn how to synthesize and process digital audio, you'll also explore audio analysis and visualization with this API. Learn Web Audio API, including audio graphs and the audio nodes Provide quick feedback to user actions by scheduling sounds with the API's precise timing model Control gain, volume, and loudness, and dive into clipping and crossfading Understand pitch and frequency: use tools to manipulate soundforms directly with JavaScript Generate synthetic sound effects and learn how to spatialize sound in 3D space Use Web Audio API with the Audio tag, getUserMedia, and the Page Visibility API"
+            },
+            "slug": "Web-Audio-API-Smus",
+            "title": {
+                "fragments": [],
+                "text": "Web Audio API"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This concise guide shows you how to use this JavaScript API to make the sounds and music of your games and interactive applications come alive with the Web Audio API."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1891108"
+                        ],
+                        "name": "Liangzhen Lai",
+                        "slug": "Liangzhen-Lai",
+                        "structuredName": {
+                            "firstName": "Liangzhen",
+                            "lastName": "Lai",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Liangzhen Lai"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40622167"
+                        ],
+                        "name": "Naveen Suda",
+                        "slug": "Naveen-Suda",
+                        "structuredName": {
+                            "firstName": "Naveen",
+                            "lastName": "Suda",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Naveen Suda"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144137038"
+                        ],
+                        "name": "V. Chandra",
+                        "slug": "V.-Chandra",
+                        "structuredName": {
+                            "firstName": "Vikas",
+                            "lastName": "Chandra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Chandra"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 7
+                            }
+                        ],
+                        "text": "CMSISNN[21] covers a new optimized implementation of neural network operations for ARM microcontrollers, and uses Speech Commands to train and evaluate the results."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 691340,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ca24492a46856221086e77ffe29e8a69e1be0595",
+            "isKey": false,
+            "numCitedBy": 183,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep Neural Networks are becoming increasingly popular in always-on IoT edge devices performing data analytics right at the source, reducing latency as well as energy consumption for data communication. This paper presents CMSIS-NN, efficient kernels developed to maximize the performance and minimize the memory footprint of neural network (NN) applications on Arm Cortex-M processors targeted for intelligent IoT edge devices. Neural network inference based on CMSIS-NN kernels achieves 4.6X improvement in runtime/throughput and 4.9X improvement in energy efficiency."
+            },
+            "slug": "CMSIS-NN:-Efficient-Neural-Network-Kernels-for-Arm-Lai-Suda",
+            "title": {
+                "fragments": [],
+                "text": "CMSIS-NN: Efficient Neural Network Kernels for Arm Cortex-M CPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "CMSIS-NN, efficient kernels developed to maximize the performance and minimize the memory footprint of neural network (NN) applications on Arm Cortex-M processors targeted for intelligent IoT edge devices are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2090910179"
+                        ],
+                        "name": "Treebank Penn",
+                        "slug": "Treebank-Penn",
+                        "structuredName": {
+                            "firstName": "Treebank",
+                            "lastName": "Penn",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Treebank Penn"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 67371551,
+            "fieldsOfStudy": [
+                "Linguistics"
+            ],
+            "id": "3fa4a8191e37b601877716858e6b1026e66e3c5c",
+            "isKey": false,
+            "numCitedBy": 1130,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Linguistic-Data-Consortium-Penn",
+            "title": {
+                "fragments": [],
+                "text": "Linguistic Data Consortium"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1999
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Mozilla common voice"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Creative commons international attribution international 4.0 license"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2018
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Hey siri: An on-device dnn-powered voice trigger for apple's personal assistant"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1992
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 8
+                            }
+                        ],
+                        "text": "TIDIGITS[8] contains 25,000 digit sequences spoken by 300 different speakers, recorded in a quiet room by paid contributors."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 105,
+                                "start": 97
+                            }
+                        ],
+                        "text": "I also wanted the dataset to be usable in comparable ways to common proprietary collections like TIDIGITS."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "A speaker-independent connected-digit database"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1992
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 6,
+            "methodology": 3
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 16,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Speech-Commands:-A-Dataset-for-Limited-Vocabulary-Warden/da6e404d8911b0e5785019a79dc8607e0b313dc4?sort=total-citations"
+}

@@ -1,0 +1,2947 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401885963"
+                        ],
+                        "name": "Jonathan Ragan-Kelley",
+                        "slug": "Jonathan-Ragan-Kelley",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Ragan-Kelley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Ragan-Kelley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2496412"
+                        ],
+                        "name": "Connelly Barnes",
+                        "slug": "Connelly-Barnes",
+                        "structuredName": {
+                            "firstName": "Connelly",
+                            "lastName": "Barnes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Connelly Barnes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 125,
+                                "start": 117
+                            }
+                        ],
+                        "text": "In addition to the readability and portability benefits, this means that tools that automatically generate schedules [15, 17] are now capable of parallelizing reductions, which was previously a task outside of their purview."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 7
+                            }
+                        ],
+                        "text": "Halide [17] is a domain-specific language designed for fast image processing and computational photography."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5885207,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d032f74b16457584f8a60ae07cfef9b617033638",
+            "isKey": false,
+            "numCitedBy": 878,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Image processing pipelines combine the challenges of stencil computations and stream programs. They are composed of large graphs of different stencil stages, as well as complex reductions, and stages with global or data-dependent access patterns. Because of their complex structure, the performance difference between a naive implementation of a pipeline and an optimized one is often an order of magnitude. Efficient implementations require optimization of both parallelism and locality, but due to the nature of stencils, there is a fundamental tension between parallelism, locality, and introducing redundant recomputation of shared values. We present a systematic model of the tradeoff space fundamental to stencil pipelines, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule. Combining this compiler with stochastic search over the space of schedules enables terse, composable programs to achieve state-of-the-art performance on a wide range of real image processing pipelines, and across different hardware architectures, including multicores with SIMD, and heterogeneous CPU+GPU execution. From simple Halide programs written in a few hours, we demonstrate performance up to 5x faster than hand-tuned C, intrinsics, and CUDA implementations optimized by experts over weeks or months, for image processing applications beyond the reach of past automatic compilers."
+            },
+            "slug": "Halide:-a-language-and-compiler-for-optimizing-and-Ragan-Kelley-Barnes",
+            "title": {
+                "fragments": [],
+                "text": "Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A systematic model of the tradeoff space fundamental to stencil pipelines is presented, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI 2013"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47368718"
+                        ],
+                        "name": "Ravi Teja Mullapudi",
+                        "slug": "Ravi-Teja-Mullapudi",
+                        "structuredName": {
+                            "firstName": "Ravi",
+                            "lastName": "Mullapudi",
+                            "middleNames": [
+                                "Teja"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ravi Teja Mullapudi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2665634"
+                        ],
+                        "name": "Dillon Sharlet",
+                        "slug": "Dillon-Sharlet",
+                        "structuredName": {
+                            "firstName": "Dillon",
+                            "lastName": "Sharlet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dillon Sharlet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401885963"
+                        ],
+                        "name": "Jonathan Ragan-Kelley",
+                        "slug": "Jonathan-Ragan-Kelley",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Ragan-Kelley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Ragan-Kelley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2789576"
+                        ],
+                        "name": "Kayvon Fatahalian",
+                        "slug": "Kayvon-Fatahalian",
+                        "structuredName": {
+                            "firstName": "Kayvon",
+                            "lastName": "Fatahalian",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kayvon Fatahalian"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 125,
+                                "start": 117
+                            }
+                        ],
+                        "text": "In addition to the readability and portability benefits, this means that tools that automatically generate schedules [15, 17] are now capable of parallelizing reductions, which was previously a task outside of their purview."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14400771,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9b240a87b11d085641d6640f73cc3cc2d678e305",
+            "isKey": false,
+            "numCitedBy": 129,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The Halide image processing language has proven to be an effective system for authoring high-performance image processing code. Halide programmers need only provide a high-level strategy for mapping an image processing pipeline to a parallel machine (a schedule), and the Halide compiler carries out the mechanical task of generating platform-specific code that implements the schedule. Unfortunately, designing high-performance schedules for complex image processing pipelines requires substantial knowledge of modern hardware architecture and code-optimization techniques. In this paper we provide an algorithm for automatically generating high-performance schedules for Halide programs. Our solution extends the function bounds analysis already present in the Halide compiler to automatically perform locality and parallelism-enhancing global program transformations typical of those employed by expert Halide developers. The algorithm does not require costly (and often impractical) auto-tuning, and, in seconds, generates schedules for a broad set of image processing benchmarks that are performance-competitive with, and often better than, schedules manually authored by expert Halide developers on server and mobile CPUs, as well as GPUs."
+            },
+            "slug": "Automatically-scheduling-halide-image-processing-Mullapudi-Adams",
+            "title": {
+                "fragments": [],
+                "text": "Automatically scheduling halide image processing pipelines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "An algorithm for automatically generating high-performance schedules for Halide programs that does not require costly (and often impractical) auto-tuning, and generates schedules for a broad set of image processing benchmarks that are performance-competitive with, and often better than, schedules manually authored by expert Halide developers on server and mobile CPUs, as well as GPUs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Graph."
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2506136"
+                        ],
+                        "name": "Sylvain Girbal",
+                        "slug": "Sylvain-Girbal",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Girbal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Girbal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1800919"
+                        ],
+                        "name": "Nicolas Vasilache",
+                        "slug": "Nicolas-Vasilache",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Vasilache",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicolas Vasilache"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1769333"
+                        ],
+                        "name": "C. Bastoul",
+                        "slug": "C.-Bastoul",
+                        "structuredName": {
+                            "firstName": "C\u00e9dric",
+                            "lastName": "Bastoul",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Bastoul"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145509576"
+                        ],
+                        "name": "Albert Cohen",
+                        "slug": "Albert-Cohen",
+                        "structuredName": {
+                            "firstName": "Albert",
+                            "lastName": "Cohen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Albert Cohen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1702824"
+                        ],
+                        "name": "David Parello",
+                        "slug": "David-Parello",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Parello",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Parello"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "18182536"
+                        ],
+                        "name": "Marc Sigler",
+                        "slug": "Marc-Sigler",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Sigler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc Sigler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1731764"
+                        ],
+                        "name": "O. Temam",
+                        "slug": "O.-Temam",
+                        "structuredName": {
+                            "firstName": "Olivier",
+                            "lastName": "Temam",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Temam"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 22,
+                                "start": 19
+                            }
+                        ],
+                        "text": "CHiLL [7] and URUK [5] allow users to apply a series of high-level transformations to Fortran and C code, freeing users from needing to hand-rewrite code to implement complicated optimizations."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8182159,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cc1c1b1eb6e9672d1b2813ad763f701494d8fcee",
+            "isKey": false,
+            "numCitedBy": 240,
+            "numCiting": 123,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Modern compilers are responsible for translating the idealistic operational semantics of the source program into a form that makes efficient use of a highly complex heterogeneous machine. Since optimization problems are associated with huge and unstructured search spaces, this combinational task is poorly achieved in general, resulting in weak scalability and disappointing sustained performance. We address this challenge by working on the program representation itself, using a semi-automatic optimization approach to demonstrate that current compilers offen suffer from unnecessary constraints and intricacies that can be avoided in a semantically richer transformation framework. Technically, the purpose of this paper is threefold: (1) to show that syntactic code representations close to the operational semantics lead to rigid phase ordering and cumbersome expression of architecture-aware loop transformations, (2) to illustrate how complex transformation sequences may be needed to achieve significant performance benefits, (3) to facilitate the automatic search for program transformation sequences, improving on classical polyhedral representations to better support operation research strategies in a simpler, structured search space. The proposed framework relies on a unified polyhedral representation of loops and statements, using normalization rules to allow flexible and expressive transformation sequencing. Thisrepresentation allows to extend the scalability of polyhedral dependence analysis, and to delay the (automatic) legality checks until the end of a transformation sequence. Our work leverages on algorithmic advances in polyhedral code generation and has been implemented in a modern research compiler."
+            },
+            "slug": "Semi-Automatic-Composition-of-Loop-Transformations-Girbal-Vasilache",
+            "title": {
+                "fragments": [],
+                "text": "Semi-Automatic Composition of Loop Transformations for Deep Parallelism and Memory Hierarchies"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This work leverages on algorithmic advances in polyhedral code generation and has been implemented in a modern research compiler, using a semi-automatic optimization approach to demonstrate that current compilers suffer from unnecessary constraints and intricacies that can be avoided in a semantically richer transformation framework."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1935549804"
+                        ],
+                        "name": "Kazutaka Morita",
+                        "slug": "Kazutaka-Morita",
+                        "structuredName": {
+                            "firstName": "Kazutaka",
+                            "lastName": "Morita",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kazutaka Morita"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2613051"
+                        ],
+                        "name": "Akimasa Morihata",
+                        "slug": "Akimasa-Morihata",
+                        "structuredName": {
+                            "firstName": "Akimasa",
+                            "lastName": "Morihata",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Akimasa Morihata"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2171152"
+                        ],
+                        "name": "Kiminori Matsuzaki",
+                        "slug": "Kiminori-Matsuzaki",
+                        "structuredName": {
+                            "firstName": "Kiminori",
+                            "lastName": "Matsuzaki",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kiminori Matsuzaki"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34667855"
+                        ],
+                        "name": "Zhenjiang Hu",
+                        "slug": "Zhenjiang-Hu",
+                        "structuredName": {
+                            "firstName": "Zhenjiang",
+                            "lastName": "Hu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhenjiang Hu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1730293"
+                        ],
+                        "name": "M. Takeichi",
+                        "slug": "M.-Takeichi",
+                        "structuredName": {
+                            "firstName": "Masato",
+                            "lastName": "Takeichi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Takeichi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[14] introduced automatic generation of divide-and-conquer parallel programs using a framework based on the third homomorphism theorem and derivation of weak-right inverse."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 836028,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "c7edbdadca9478c47a63b3989e10f79e695f8e32",
+            "isKey": false,
+            "numCitedBy": 70,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Divide-and-conquer algorithms are suitable for modern parallel machines, tending to have large amounts of inherent parallelism and working well with caches and deep memory hierarchies. Among others, list homomorphisms are a class of recursive functions on lists, which match very well with the divide-and-conquer paradigm. However, direct programming with list homomorphisms is a challenge for many programmers. In this paper, we propose and implement a novel systemthat can automatically derive cost-optimal list homomorphisms from a pair of sequential programs, based on the third homomorphism theorem. Our idea is to reduce extraction of list homomorphisms to derivation of weak right inverses. We show that a weak right inverse always exists and can be automatically generated from a wide class of sequential programs. We demonstrate our system with several nontrivial examples, including the maximum prefix sum problem, the prefix sum computation, the maximum segment sum problem, and the line-of-sight problem. The experimental results show practical efficiency of our automatic parallelization algorithm and good speedups of the generated parallel programs."
+            },
+            "slug": "Automatic-inversion-generates-divide-and-conquer-Morita-Morihata",
+            "title": {
+                "fragments": [],
+                "text": "Automatic inversion generates divide-and-conquer parallel programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper proposes and implements a novel system that can automatically derive cost-optimal list homomorphisms from a pair of sequential programs, based on the third homomorphism theorem, and shows that a weak right inverse always exists and can be automatically generated from a wide class of sequential Programs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '07"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144122184"
+                        ],
+                        "name": "Chandan Reddy",
+                        "slug": "Chandan-Reddy",
+                        "structuredName": {
+                            "firstName": "Chandan",
+                            "lastName": "Reddy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chandan Reddy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152835390"
+                        ],
+                        "name": "Michael Kruse",
+                        "slug": "Michael-Kruse",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Kruse",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael Kruse"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145509576"
+                        ],
+                        "name": "Albert Cohen",
+                        "slug": "Albert-Cohen",
+                        "structuredName": {
+                            "firstName": "Albert",
+                            "lastName": "Cohen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Albert Cohen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 17
+                            }
+                        ],
+                        "text": "More recent work [18] adds new language constructs that allow users to express arbitrary reductions in the polyhedral model, enabling transformations to optimize such reductions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16130504,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0ca62e174724db95de711c4c28c53fe573806762",
+            "isKey": false,
+            "numCitedBy": 16,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Reductions are common in scientific and data-crunching codes, and a typical source of bottlenecks on massively parallel architectures such as GPUs. Reductions are memory-bound, and achieving peak performance involves sophisticated optimizations. There exist libraries such as CUB and Thrust providing highly tuned implementations of reductions on GPUs. However, library APIs are not flexible enough to express user-defined reductions on arbitrary data types and array indexing schemes. Languages such as OpenACC provide declarative syntax to express reductions. Such approaches support a limited range of reduction operators and do not facilitate the application of complex program transformations in presence of reductions. We present language constructs that let a programmer express arbitrary reductions on user-defined data types matching the performance of tuned library implementations. We also extend a polyhedral compilation flow to process these user-defined reductions, enabling optimizations such as the fusion of multiple reductions, combining reductions with other loop transformations, and optimizing data transfers and storage in the presence of reductions. We implemented these language constructs and compilation methods in the PPCG framework and conducted experiments on multiple GPU targets. For single reductions the generated code performs on par with highly tuned libraries, and for multiple reductions it significantly outperforms both libraries and OpenACC on all platforms."
+            },
+            "slug": "Reduction-drawing:-Language-constructs-and-for-on-Reddy-Kruse",
+            "title": {
+                "fragments": [],
+                "text": "Reduction drawing: Language constructs and polyhedral compilation for reductions on GPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This work presents language constructs that let a programmer express arbitrary reductions on user-defined data types matching the performance of tuned library implementations, and extends a polyhedral compilation flow to process these user- defined reductions."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2016 International Conference on Parallel Architecture and Compilation Techniques (PACT)"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2322279"
+                        ],
+                        "name": "Zhilei Xu",
+                        "slug": "Zhilei-Xu",
+                        "structuredName": {
+                            "firstName": "Zhilei",
+                            "lastName": "Xu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhilei Xu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145683292"
+                        ],
+                        "name": "S. Kamil",
+                        "slug": "S.-Kamil",
+                        "structuredName": {
+                            "firstName": "Shoaib",
+                            "lastName": "Kamil",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Kamil"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1389870240"
+                        ],
+                        "name": "Armando Solar-Lezama",
+                        "slug": "Armando-Solar-Lezama",
+                        "structuredName": {
+                            "firstName": "Armando",
+                            "lastName": "Solar-Lezama",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Armando Solar-Lezama"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 17345578,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a4b08c178dcda794db483c46faad4e9a12e06821",
+            "isKey": false,
+            "numCitedBy": 10,
+            "numCiting": 58,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper demonstrates how ideas from generative programming and software synthesis can help support the development of bulk-synchronous distributed memory kernels. These ideas are realized in a new language called MSL, a C-like language that combines synthesis features with high level notations for array manipulation and bulk-synchronous parallelism to simplify the semantic analysis required for synthesis. The paper shows that by leveraging these high level notations, it is possible to scale the synthesis and automated bug-finding technologies that underlie MSL to realistic computational kernels. Specifically, we demonstrate the methodology through case studies implementing non-trivial distributed kernels -- both regular and irregular -- from the NAS parallel benchmarks. We show that our approach can automatically infer many challenging details from these benchmarks and can enable high level implementation ideas to be reused between similar kernels. We also demonstrate that these high level notations map easily to low level C code and show that the performance of this generated code matches that of handwritten Fortran."
+            },
+            "slug": "MSL:-A-Synthesis-Enabled-Language-for-Distributed-Xu-Kamil",
+            "title": {
+                "fragments": [],
+                "text": "MSL: A Synthesis Enabled Language for Distributed Implementations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "By leveraging high level notations in a new language called MSL, it is possible to scale the synthesis and automated bug-finding technologies that underlie MSL to realistic computational kernels and enable high level implementation ideas to be reused between similar kernels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SC14: International Conference for High Performance Computing, Networking, Storage and Analysis"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143896454"
+                        ],
+                        "name": "Mary W. Hall",
+                        "slug": "Mary-W.-Hall",
+                        "structuredName": {
+                            "firstName": "Mary",
+                            "lastName": "Hall",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mary W. Hall"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1772362"
+                        ],
+                        "name": "Jacqueline Chame",
+                        "slug": "Jacqueline-Chame",
+                        "structuredName": {
+                            "firstName": "Jacqueline",
+                            "lastName": "Chame",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jacqueline Chame"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109525543"
+                        ],
+                        "name": "Chun Chen",
+                        "slug": "Chun-Chen",
+                        "structuredName": {
+                            "firstName": "Chun",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chun Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2111108147"
+                        ],
+                        "name": "Jaewook Shin",
+                        "slug": "Jaewook-Shin",
+                        "structuredName": {
+                            "firstName": "Jaewook",
+                            "lastName": "Shin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jaewook Shin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40335288"
+                        ],
+                        "name": "Gabe Rudy",
+                        "slug": "Gabe-Rudy",
+                        "structuredName": {
+                            "firstName": "Gabe",
+                            "lastName": "Rudy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Gabe Rudy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "31568526"
+                        ],
+                        "name": "M. Khan",
+                        "slug": "M.-Khan",
+                        "structuredName": {
+                            "firstName": "Malik",
+                            "lastName": "Khan",
+                            "middleNames": [
+                                "Murtaza"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Khan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 9,
+                                "start": 6
+                            }
+                        ],
+                        "text": "CHiLL [7] and URUK [5] allow users to apply a series of high-level transformations to Fortran and C code, freeing users from needing to hand-rewrite code to implement complicated optimizations."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 17524405,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3ab39b6f60e163a4a609410f320555ddc20b3976",
+            "isKey": false,
+            "numCitedBy": 108,
+            "numCiting": 52,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, we describe transformation recipes, which provide a high-level interface to the code transformation and code generation capability of a compiler. These recipes can be generated by compiler decision algorithms or savvy software developers. This interface is part of an auto-tuning framework that explores a set of different implementations of the same computation and automatically selects the best-performing implementation. Along with the original computation, a transformation recipe specifies a range of implementations of the computation resulting from composing a set of high-level code transformations. In our system, an underlying polyhedral framework coupled with transformation algorithms takes this set of transformations, composes them and automatically generates correct code. We first describe an abstract interface for transformation recipes, which we propose to facilitate interoperability with other transformation frameworks. We then focus on the specific transformation recipe interface used in our compiler and present performance results on its application to kernel and library tuning and tuning of key computations in high-end applications. We also show how this framework can be used to generate and auto-tune parallel OpenMP or CUDA code from a high-level specification."
+            },
+            "slug": "Loop-Transformation-Recipes-for-Code-Generation-and-Hall-Chame",
+            "title": {
+                "fragments": [],
+                "text": "Loop Transformation Recipes for Code Generation and Auto-Tuning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "An abstract interface for transformation recipes is described, which is proposed to facilitate interoperability with other transformation frameworks and present performance results on its application to kernel and library tuning and tuning of key computations in high-end applications."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LCPC"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1765246"
+                        ],
+                        "name": "Chris Lattner",
+                        "slug": "Chris-Lattner",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Lattner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chris Lattner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1720525"
+                        ],
+                        "name": "V. Adve",
+                        "slug": "V.-Adve",
+                        "structuredName": {
+                            "firstName": "Vikram",
+                            "lastName": "Adve",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Adve"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 37,
+                                "start": 33
+                            }
+                        ],
+                        "text": "Nevertheless, Halide compiles to LLVM bitcode, and so for simple reductions we will benefit from this auto-vectorization even if the programmer does not employ rfactor."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 72,
+                                "start": 68
+                            }
+                        ],
+                        "text": "The maximum benchmark does vectorize cleanly, but underneath Halide LLVM2 auto-vectorizes the reference code without rfactor, so we only see a speed-up from multi-core parallelism."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 231,
+                                "start": 227
+                            }
+                        ],
+                        "text": "Although our framework is able to handle a broad range of associative reductions, there are several limitations:\n\u2022 Our precomputed table can only recognize reductions decomposable into elementary reductions of a fixed max-\n2 Trunk LLVM as of Sept 9, 2016\nimum size."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 9,
+                                "start": 5
+                            }
+                        ],
+                        "text": "LLVM [11] can automatically recognize a small set of associative reductions for the purposes of auto-vectorization."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 978769,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d755f461dddae76068f401409ba59c85a2436305",
+            "isKey": true,
+            "numCitedBy": 4656,
+            "numCiting": 54,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe LLVM (low level virtual machine), a compiler framework designed to support transparent, lifelong program analysis and transformation for arbitrary programs, by providing high-level information to compiler transformations at compile-time, link-time, run-time, and in idle time between runs. LLVM defines a common, low-level code representation in static single assignment (SSA) form, with several novel features: a simple, language-independent type-system that exposes the primitives commonly used to implement high-level language features; an instruction for typed address arithmetic; and a simple mechanism that can be used to implement the exception handling features of high-level languages (and setjmp/longjmp in C) uniformly and efficiently. The LLVM compiler framework and code representation together provide a combination of key capabilities that are important for practical, lifelong analysis and transformation of programs. To our knowledge, no existing compilation approach provides all these capabilities. We describe the design of the LLVM representation and compiler framework, and evaluate the design in three ways: (a) the size and effectiveness of the representation, including the type information it provides; (b) compiler performance for several interprocedural problems; and (c) illustrative examples of the benefits LLVM provides for several challenging compiler problems."
+            },
+            "slug": "LLVM:-a-compilation-framework-for-lifelong-program-Lattner-Adve",
+            "title": {
+                "fragments": [],
+                "text": "LLVM: a compilation framework for lifelong program analysis & transformation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "The design of the LLVM representation and compiler framework is evaluated in three ways: the size and effectiveness of the representation, including the type information it provides; compiler performance for several interprocedural problems; and illustrative examples of the benefits LLVM provides for several challenging compiler problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Symposium on Code Generation and Optimization, 2004. CGO 2004."
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1805512"
+                        ],
+                        "name": "Y. M. Teo",
+                        "slug": "Y.-M.-Teo",
+                        "structuredName": {
+                            "firstName": "Yong",
+                            "lastName": "Teo",
+                            "middleNames": [
+                                "Meng"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. M. Teo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143822098"
+                        ],
+                        "name": "W. Chin",
+                        "slug": "W.-Chin",
+                        "structuredName": {
+                            "firstName": "W.",
+                            "lastName": "Chin",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Chin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "104312706"
+                        ],
+                        "name": "Soon Huat Tan",
+                        "slug": "Soon-Huat-Tan",
+                        "structuredName": {
+                            "firstName": "Soon",
+                            "lastName": "Tan",
+                            "middleNames": [
+                                "Huat"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Soon Huat Tan"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[22] proposed a method to synthesize parallel divide-and-conquer programs from a recurrence function (which is similar in form to a Halide serial reduction) through induction."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 18481258,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "70fc32502b8bccea7225a7926d450bf1151b77d3",
+            "isKey": false,
+            "numCitedBy": 13,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a method to synthesize parallel divideand-conquer programs from non-trivial sequential recurrences. \u2018Ikaditionally, such derivation methods are based on schematic rules which attempt to match each given sequential program to a prescribed set of program schemes that have parallel counterparts. Instead of relying on specialized program schemes, we propose a new approach to parallelization based on techniques built using elementary transformation rules. Our approach requires an induction to recover parallelism from sequential programs. To achieve this, we apply a second-order generalisation step to selected instances of sequent ial equations, before an inductive derivation procedure. The new approach is systematic enough to be semiautomated, and shall be shown to be widely applicable using a range of examples."
+            },
+            "slug": "Deriving-efficient-parallel-programs-for-complex-Teo-Chin",
+            "title": {
+                "fragments": [],
+                "text": "Deriving efficient parallel programs for complex recurrences"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 67,
+                "text": "This work proposes a method to synthesize parallel divideand-conquer programs from non-trivial sequential recurrences based on techniques built using elementary transformation rules, and requires an induction to recover parallelism from sequential programs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PASCO '97"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2037518"
+                        ],
+                        "name": "R. Blumofe",
+                        "slug": "R.-Blumofe",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Blumofe",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Blumofe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1947255"
+                        ],
+                        "name": "C. Joerg",
+                        "slug": "C.-Joerg",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Joerg",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Joerg"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1871661"
+                        ],
+                        "name": "Bradley C. Kuszmaul",
+                        "slug": "Bradley-C.-Kuszmaul",
+                        "structuredName": {
+                            "firstName": "Bradley",
+                            "lastName": "Kuszmaul",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bradley C. Kuszmaul"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145372049"
+                        ],
+                        "name": "C. Leiserson",
+                        "slug": "C.-Leiserson",
+                        "structuredName": {
+                            "firstName": "Charles",
+                            "lastName": "Leiserson",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Leiserson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3234133"
+                        ],
+                        "name": "K. H. Randall",
+                        "slug": "K.-H.-Randall",
+                        "structuredName": {
+                            "firstName": "Keith",
+                            "lastName": "Randall",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. H. Randall"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110320956"
+                        ],
+                        "name": "Yuli Zhou",
+                        "slug": "Yuli-Zhou",
+                        "structuredName": {
+                            "firstName": "Yuli",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yuli Zhou"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 16
+                            }
+                        ],
+                        "text": "2 f()[0] * in(r)[1]) + f()[1] * in(r)[3]),"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 38,
+                                "start": 35
+                            }
+                        ],
+                        "text": "f()[0] f() = {f()[0] + real(r), f()[1] + imag(r)} Sum of complex numbers"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 5,
+                                "start": 2
+                            }
+                        ],
+                        "text": "y)[1]; 6 Expr mag = real * real + imag * imag; 7 Expr best_mag = out()[0] * out()[0] +"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 112,
+                                "start": 109
+                            }
+                        ],
+                        "text": "Consider 2x2 matrix multiplication written as a four-dimensional reduction: 1 f() = {f()[0] * in(r)[0]) + f()[1] * in(r)[2]),"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 8,
+                                "start": 5
+                            }
+                        ],
+                        "text": "Cilk [1] additionally supports user-specified reduction operators."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 62
+                            }
+                        ],
+                        "text": "For example, the tuple computation: f() = {f()[0] + in(r), f()[1] * in(r)} is associative, because it is a composition of the following two associative reductions: f0() = f0() + in(r) f1() = f1() * in(r) Secondly, if we have an associative operator in which two tuple elements compute the same value, we can deduplicate it, reducing the dimensionality by one."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 27
+                            }
+                        ],
+                        "text": "f() = {f()[0]*real(r) - f()[1]*imag(r),"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 10,
+                                "start": 7
+                            }
+                        ],
+                        "text": "8 out()[1] * out()[1]; 9 Expr c = mag > best_mag; 10 out() = {select(c, real, out()[0]),"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 62541064,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ebd472612efd872713ba2815ad10eeff453ea235",
+            "isKey": true,
+            "numCitedBy": 2043,
+            "numCiting": 83,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Cilk (pronounced \u201csilk\u201d) is a C-based runtime system for multi-threaded parallel programming. In this paper, we document the efficiency of the Cilk work-stealing scheduler, both empirically and analytically. We show that on real and synthetic applications, the \u201cwork\u201d and \u201ccritical path\u201d of a Cilk computation can be used to accurately model performance. Consequently, a Cilk programmer can focus on reducing the work and critical path of his computation, insulated from load balancing and other runtime scheduling issues. We also prove that for the class of \u201cfully strict\u201d (well-structured) programs, the Cilk scheduler achieves space, time and communication bounds all within a constant factor of optimal.\nThe Cilk runtime system currently runs on the Connection Machine CM5 MPP, the Intel Paragon MPP, the Silicon Graphics Power Challenge SMP, and the MIT Phish network of workstations. Applications written in Cilk include protein folding, graphic rendering, backtrack search, and the *Socrates chess program, which won third prize in the 1994 ACM International Computer Chess Championship."
+            },
+            "slug": "Cilk:-an-efficient-multithreaded-runtime-system-Blumofe-Joerg",
+            "title": {
+                "fragments": [],
+                "text": "Cilk: an efficient multithreaded runtime system"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper shows that on real and synthetic applications, the \u201cwork\u201d and \u201ccritical path\u201d of a Cilk computation can be used to accurately model performance, and proves that for the class of \u201cfully strict\u201d (well-structured) programs, the Cilk scheduler achieves space, time and communication bounds all within a constant factor of optimal."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PPOPP '95"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110282134"
+                        ],
+                        "name": "Calvin Smith",
+                        "slug": "Calvin-Smith",
+                        "structuredName": {
+                            "firstName": "Calvin",
+                            "lastName": "Smith",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Calvin Smith"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1893193"
+                        ],
+                        "name": "Aws Albarghouthi",
+                        "slug": "Aws-Albarghouthi",
+                        "structuredName": {
+                            "firstName": "Aws",
+                            "lastName": "Albarghouthi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aws Albarghouthi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[20] used program synthesis to automatically generate MapReduce-style distributed"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6921898,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fdd8d0d7853168911aaea17f4a7e6333d5b28004",
+            "isKey": false,
+            "numCitedBy": 76,
+            "numCiting": 73,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "By abstracting away the complexity of distributed systems, large-scale data processing platforms\u2014MapReduce, Hadoop, Spark, Dryad, etc.\u2014have provided developers with simple means for harnessing the power of the cloud. In this paper, we ask whether we can automatically synthesize MapReduce-style distributed programs from input\u2013output examples. Our ultimate goal is to enable end users to specify large-scale data analyses through the simple interface of examples. We thus present a new algorithm and tool for synthesizing programs composed of efficient data-parallel operations that can execute on cloud computing infrastructure. We evaluate our tool on a range of real-world big-data analysis tasks and general computations. Our results demonstrate the efficiency of our approach and the small number of examples it requires to synthesize correct, scalable programs."
+            },
+            "slug": "MapReduce-program-synthesis-Smith-Albarghouthi",
+            "title": {
+                "fragments": [],
+                "text": "MapReduce program synthesis"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This paper presents a new algorithm and tool for synthesizing programs composed of efficient data-parallel operations that can execute on cloud computing infrastructure and demonstrates the efficiency of the approach and the small number of examples it requires to synthesize correct, scalable programs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1945094"
+                        ],
+                        "name": "Eric Schkufza",
+                        "slug": "Eric-Schkufza",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Schkufza",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eric Schkufza"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2111333766"
+                        ],
+                        "name": "Rahul Sharma",
+                        "slug": "Rahul-Sharma",
+                        "structuredName": {
+                            "firstName": "Rahul",
+                            "lastName": "Sharma",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rahul Sharma"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 44
+                            }
+                        ],
+                        "text": "More recent work has used stochastic search [16, 19] and program synthesis [12] to find replacements for larger sequences of instructions."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 683646,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "308388616c12158423fbf8bd8c441d11d1f432a2",
+            "isKey": false,
+            "numCitedBy": 256,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We formulate the loop-free binary superoptimization task as a stochastic search problem. The competing constraints of transformation correctness and performance improvement are encoded as terms in a cost function, and a Markov Chain Monte Carlo sampler is used to rapidly explore the space of all possible programs to find one that is an optimization of a given target program. Although our method sacrifices completeness, the scope of programs we are able to consider, and the resulting quality of the programs that we produce, far exceed those of existing superoptimizers. Beginning from binaries compiled by llvm -O0 for 64-bit x86, our prototype implementation, STOKE, is able to produce programs which either match or outperform the code produced by gcc -O3, icc -O3, and in some cases, expert handwritten assembly."
+            },
+            "slug": "Stochastic-superoptimization-Schkufza-Sharma",
+            "title": {
+                "fragments": [],
+                "text": "Stochastic superoptimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 59,
+                "text": "This work forms the loop-free binary superoptimization task as a stochastic search problem, and a Markov Chain Monte Carlo sampler is used to rapidly explore the space of all possible programs to find one that is an optimization of a given target program."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ASPLOS '13"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1991345"
+                        ],
+                        "name": "R. Bod\u00edk",
+                        "slug": "R.-Bod\u00edk",
+                        "structuredName": {
+                            "firstName": "Rastislav",
+                            "lastName": "Bod\u00edk",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Bod\u00edk"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1389870240"
+                        ],
+                        "name": "Armando Solar-Lezama",
+                        "slug": "Armando-Solar-Lezama",
+                        "structuredName": {
+                            "firstName": "Armando",
+                            "lastName": "Solar-Lezama",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Armando Solar-Lezama"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 7
+                            }
+                        ],
+                        "text": "SKETCH [21] and ROSETTE [23] are two solver-aided programming languages with support for program synthesis."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 15,
+                                "start": 9
+                            }
+                        ],
+                        "text": "We tried SKETCH and ROSETTE and found them too slow to apply directly at compile time."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 63
+                            }
+                        ],
+                        "text": "An alternative approach is to use program synthesis techniques [21, 23] to synthesize the corresponding associative reduction at compile-time when the call to rfactor is made."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8149812,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ae74531e6e73afaffb264b4e536b8fde95d03202",
+            "isKey": false,
+            "numCitedBy": 377,
+            "numCiting": 70,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The goal of software synthesis is to generate programs automatically from high-level specifications. However, efficient implementations for challenging programs require a combination of high-level algorithmic insights and low-level implementation details. Deriving the low-level details is a natural job for a computer, but the synthesizer can not replace the human insight. Therefore, one of the central challenges for software synthesis is to establish a synergy between the programmer and the synthesizer, exploiting the programmer's expertise to reduce the burden on the synthesizer. \nThis thesis introduces sketching, a new style of synthesis that offers a fresh approach to the synergy problem. Previous approaches have relied on meta-programming, or variations of interactive theorem proving to help the synthesizer deduce an efficient implementation. The resulting systems are very powerful, but they require the programmer to master new formalisms far removed from traditional programming models. To make synthesis accessible, programmers must be able to provide their insight effortlessly, using formalisms they already understand. \nIn Sketching, insight is communicated through a partial program, a sketch that expresses the high-level structure of an implementation but leaves holes in place of the low-level details. This form of synthesis is made possible by a new SAT-based inductive synthesis procedure that can efficiently synthesize an implementation from a small number of test cases. This algorithm forms the core of a new counterexample guided inductive synthesis procedure (CEGIS) which combines the inductive synthesizer with a validation procedure to automatically generate test inputs and ensure that the generated program satisfies its specification. With a few extensions, CEGIS can even use its sequential inductive synthesizer to generate concurrent programs; all the concurrency related reasoning is delegated to an off-the-shelf validation procedure. \nThe resulting synthesis system scales to real programming problems from a variety of domains ranging from bit-level ciphers to manipulations of linked datastructures. The system was even used to produce a complete optimized implementation of the AES cipher. The concurrency aware synthesizer was also used to synthesize, in a matter of minutes, the details of a fine-locking scheme for a concurrent set, a sense reversing barrier, and even a solution to the dining philosophers problem. \nThe system was also extended with domain specific knowledge to better handle the problem of implementing stencil computations, an important domain in scientific computing. For this domain, we were able to encode domain specific insight as a problem reduction that converted stencil sketches into simplified sketch problems which CEGIS resolved in a matter of minutes. This specialized synthesizer was used to quickly implement a MultiGrid solver for partial differential equations containing many difficult implementation strategies from the literature. \nIn short, this thesis shows that sketching is a viable approach to making synthesis practical in a general programming context."
+            },
+            "slug": "Program-synthesis-by-sketching-Bod\u00edk-Solar-Lezama",
+            "title": {
+                "fragments": [],
+                "text": "Program synthesis by sketching"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "Sketching is introduced, a new style of synthesis that offers a fresh approach to the synergy problem and shows that sketching is a viable approach to making synthesis practical in a general programming context."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1833123"
+                        ],
+                        "name": "E. Torlak",
+                        "slug": "E.-Torlak",
+                        "structuredName": {
+                            "firstName": "Emina",
+                            "lastName": "Torlak",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Torlak"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1991345"
+                        ],
+                        "name": "R. Bod\u00edk",
+                        "slug": "R.-Bod\u00edk",
+                        "structuredName": {
+                            "firstName": "Rastislav",
+                            "lastName": "Bod\u00edk",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Bod\u00edk"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 24
+                            }
+                        ],
+                        "text": "SKETCH [21] and ROSETTE [23] are two solver-aided programming languages with support for program synthesis."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 27,
+                                "start": 20
+                            }
+                        ],
+                        "text": "We tried SKETCH and ROSETTE and found them too slow to apply directly at compile time."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 63
+                            }
+                        ],
+                        "text": "An alternative approach is to use program synthesis techniques [21, 23] to synthesize the corresponding associative reduction at compile-time when the call to rfactor is made."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16038701,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "69c42a8da4c52b90ee27f9b6c0df37f2731ac890",
+            "isKey": false,
+            "numCitedBy": 165,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "SAT and SMT solvers have automated a spectrum of programming tasks, including program synthesis, code checking, bug localization, program repair, and programming with oracles. In principle, we obtain all these benefits by translating the program (once) to a constraint system understood by the solver. In practice, however, compiling a language to logical formulas is a tricky process, complicated by having to map the solution back to the program level and extend the language with new solver-aided constructs, such as symbolic holes used in synthesis.\n This paper introduces ROSETTE, a framework for designing solver-aided languages. ROSETTE is realized as a solver-aided language embedded in Racket, from which it inherits extensive support for meta-programming. Our framework frees designers from having to compile their languages to constraints: new languages, and their solver-aided constructs, are defined by shallow (library-based) or deep (interpreter-based) embedding in ROSETTE itself.\n We describe three case studies, by ourselves and others, of using ROSETTE to implement languages and synthesizers for web scraping, spatial programming, and superoptimization of bitvector programs."
+            },
+            "slug": "Growing-solver-aided-languages-with-rosette-Torlak-Bod\u00edk",
+            "title": {
+                "fragments": [],
+                "text": "Growing solver-aided languages with rosette"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "ROSETTE is introduced, a framework for designing solver-aided languages that frees designers from having to compile their languages to constraints and describes three case studies of using ROSETTE to implement languages and synthesizers for web scraping, spatial programming, and superoptimization of bitvector programs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Onward!"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2912411"
+                        ],
+                        "name": "F. Irigoin",
+                        "slug": "F.-Irigoin",
+                        "structuredName": {
+                            "firstName": "Fran\u00e7ois",
+                            "lastName": "Irigoin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Irigoin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3317184"
+                        ],
+                        "name": "R. Triolet",
+                        "slug": "R.-Triolet",
+                        "structuredName": {
+                            "firstName": "R\u00e9mi",
+                            "lastName": "Triolet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Triolet"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2980454,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "38747b103e631e1a3800a0f4aed496d1bf8fb82f",
+            "isKey": false,
+            "numCitedBy": 584,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Supercompilers must reschedule computations defined by nested DO-loops in order to make an efficient use of supercomputer features (vector units, multiple elementary processors, cache memory, etc\u2026). Many rescheduling techniques like loop interchange, loop strip-mining or rectangular partitioning have been described to speedup program execution. We present here a class of partitionings that encompasses previous techniques and provides enough flexibility to adapt code to multiprocessors with two levels of parallelism and two levels of memory."
+            },
+            "slug": "Supernode-partitioning-Irigoin-Triolet",
+            "title": {
+                "fragments": [],
+                "text": "Supernode partitioning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A class of partitionings is presented that encompasses previous techniques and provides enough flexibility to adapt code to multiprocessors with two levels of parallelism and two level of memory."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '88"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 70,
+                                "start": 63
+                            }
+                        ],
+                        "text": "These code transformation systems use the polyhedral framework [4, 10] to represent loops and transformations, but do not support reductions."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5738544,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7cd685371e267a499ded869a934a4cffed591aec",
+            "isKey": false,
+            "numCitedBy": 454,
+            "numCiting": 52,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Given a program written in a simple imperative language (assignment statements,for loops, affine indices and loop limits), this paper presents an algorithm for analyzing the patterns along which values flow as the execution proceeds. For each array or scalar reference, the result is the name and iteration vector of the source statement as a function of the iteration vector of the referencing statement. The paper discusses several applications of the method: conversion of a program to a set of recurrence equations, array and scalar expansion, program verification and parallel program construction."
+            },
+            "slug": "Dataflow-analysis-of-array-and-scalar-references-Feautrier",
+            "title": {
+                "fragments": [],
+                "text": "Dataflow analysis of array and scalar references"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 52,
+                "text": "This paper presents an algorithm for analyzing the patterns along which values flow as the execution proceeds, and discusses several applications of the method: conversion of a program to a set of recurrence equations, array and scalar expansion, program verification and parallel program construction."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2748014"
+                        ],
+                        "name": "Torbj\u00f6rn Granlund",
+                        "slug": "Torbj\u00f6rn-Granlund",
+                        "structuredName": {
+                            "firstName": "Torbj\u00f6rn",
+                            "lastName": "Granlund",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Torbj\u00f6rn Granlund"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1905162"
+                        ],
+                        "name": "R. Kenner",
+                        "slug": "R.-Kenner",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Kenner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Kenner"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 25,
+                                "start": 18
+                            }
+                        ],
+                        "text": "Superoptimization [6, 13] searches for the shortest or most optimized way to compute a branch-free sequence of instructions by exhaustively searching over a space of possible programs."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8825539,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "47739826e28e98c20a1e2d5b853eb7d92ea73e64",
+            "isKey": false,
+            "numCitedBy": 97,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In 1987, Henry Massalin, of Columbia University, described a super-optimizer that generates optimal instruction sequences given a function to be performed [1]. The sequences are found by doing an exhaustive search over a subset of the instructions of the machine for which the optinkation is made. Little or no mention of this important technique has occurred since, In the present work, we describe an alternative technique for constructing a superoptimizer, which will call the GNU Superoptimizer or GSO."
+            },
+            "slug": "Eliminating-branches-using-a-superoptimizer-and-the-Granlund-Kenner",
+            "title": {
+                "fragments": [],
+                "text": "Eliminating branches using a superoptimizer and the GNU C compiler"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "In the present work, an alternative technique for constructing a superoptimizer is described, which will call the GNU Superoptimizer or GSO."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '92"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1916654"
+                        ],
+                        "name": "L. Dagum",
+                        "slug": "L.-Dagum",
+                        "structuredName": {
+                            "firstName": "Leonardo",
+                            "lastName": "Dagum",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Dagum"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066250420"
+                        ],
+                        "name": "R. Menon",
+                        "slug": "R.-Menon",
+                        "structuredName": {
+                            "firstName": "Ram",
+                            "lastName": "Menon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Menon"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 8,
+                                "start": 5
+                            }
+                        ],
+                        "text": "4 f()[2] * in(r)[1]) + f()[3] * in(r)[3])}"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 38
+                            }
+                        ],
+                        "text": "One widely-deployed example is OpenMP [2] which has a first-class parallel reduction construct that takes one of some number of primitive reduction operators."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 8,
+                                "start": 5
+                            }
+                        ],
+                        "text": "3 f()[2] * in(r)[0]) + f()[3] * in(r)[2]),"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 123,
+                                "start": 120
+                            }
+                        ],
+                        "text": "Consider 2x2 matrix multiplication written as a four-dimensional reduction: 1 f() = {f()[0] * in(r)[0]) + f()[1] * in(r)[2]),"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 8975400,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "32ef8d891edde06cc01357fa5c4d1ab7fe631720",
+            "isKey": true,
+            "numCitedBy": 3144,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "At its most elemental level, OpenMP is a set of compiler directives and callable runtime library routines that extend Fortran (and separately, C and C++ to express shared memory parallelism. It leaves the base language unspecified, and vendors can implement OpenMP in any Fortran compiler. Naturally, to support pointers and allocatables, Fortran 90 and Fortran 95 require the OpenMP implementation to include additional semantics over Fortran 77. OpenMP leverages many of the X3H5 concepts while extending them to support coarse grain parallelism. The standard also includes a callable runtime library with accompanying environment variables."
+            },
+            "slug": "OpenMP:-an-industry-standard-API-for-shared-memory-Dagum-Menon",
+            "title": {
+                "fragments": [],
+                "text": "OpenMP: an industry standard API for shared-memory programming"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 98,
+                "text": "At its most elemental level, OpenMP is a set of compiler directives and callable runtime library routines that extend Fortran (and separately, C and C++ to express shared memory parallelism) and leaves the base language unspecified."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144509790"
+                        ],
+                        "name": "Nuno P. Lopes",
+                        "slug": "Nuno-P.-Lopes",
+                        "structuredName": {
+                            "firstName": "Nuno",
+                            "lastName": "Lopes",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nuno P. Lopes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145582916"
+                        ],
+                        "name": "David Menendez",
+                        "slug": "David-Menendez",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Menendez",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Menendez"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2375915"
+                        ],
+                        "name": "Santosh Nagarakatte",
+                        "slug": "Santosh-Nagarakatte",
+                        "structuredName": {
+                            "firstName": "Santosh",
+                            "lastName": "Nagarakatte",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Santosh Nagarakatte"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1783210"
+                        ],
+                        "name": "J. Regehr",
+                        "slug": "J.-Regehr",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Regehr",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Regehr"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 79,
+                                "start": 75
+                            }
+                        ],
+                        "text": "More recent work has used stochastic search [16, 19] and program synthesis [12] to find replacements for larger sequences of instructions."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6972481,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "37791336941a0d954e4a98c96b1a66ca7be43eb2",
+            "isKey": false,
+            "numCitedBy": 101,
+            "numCiting": 41,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Compilers should not miscompile. Our work addresses problems in developing peephole optimizations that perform local rewriting to improve the efficiency of LLVM code. These optimizations are individually difficult to get right, particularly in the presence of undefined behavior; taken together they represent a persistent source of bugs. This paper presents Alive, a domain-specific language for writing optimizations and for automatically either proving them correct or else generating counterexamples. Furthermore, Alive can be automatically translated into C++ code that is suitable for inclusion in an LLVM optimization pass. Alive is based on an attempt to balance usability and formal methods; for example, it captures---but largely hides---the detailed semantics of three different kinds of undefined behavior in LLVM. We have translated more than 300 LLVM optimizations into Alive and, in the process, found that eight of them were wrong."
+            },
+            "slug": "Provably-correct-peephole-optimizations-with-alive-Lopes-Menendez",
+            "title": {
+                "fragments": [],
+                "text": "Provably correct peephole optimizations with alive"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Alive is presented, a domain-specific language for writing optimizations and for automatically either proving them correct or else generating counterexamples, and can be automatically translated into C++ code that is suitable for inclusion in an LLVM optimization pass."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144996001"
+                        ],
+                        "name": "L. D. Moura",
+                        "slug": "L.-D.-Moura",
+                        "structuredName": {
+                            "firstName": "Leonardo",
+                            "lastName": "Moura",
+                            "middleNames": [
+                                "Mendon\u00e7a",
+                                "de"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. D. Moura"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3714351"
+                        ],
+                        "name": "N. Bj\u00f8rner",
+                        "slug": "N.-Bj\u00f8rner",
+                        "structuredName": {
+                            "firstName": "Nikolaj",
+                            "lastName": "Bj\u00f8rner",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Bj\u00f8rner"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15912959,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3960dda299e0f8615a7db675b8e6905b375ecf8a",
+            "isKey": false,
+            "numCitedBy": 6280,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Satisfiability Modulo Theories (SMT) problem is a decision problem for logical first order formulas with respect to combinations of background theories such as: arithmetic, bit-vectors, arrays, and uninterpreted functions. Z3 is a new and efficient SMT Solver freely available from Microsoft Research. It is used in various software verification and analysis applications."
+            },
+            "slug": "Z3:-An-Efficient-SMT-Solver-Moura-Bj\u00f8rner",
+            "title": {
+                "fragments": [],
+                "text": "Z3: An Efficient SMT Solver"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "Z3 is a new and efficient SMT Solver freely available from Microsoft Research that is used in various software verification and analysis applications."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TACAS"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1979640"
+                        ],
+                        "name": "S. Hasinoff",
+                        "slug": "S.-Hasinoff",
+                        "structuredName": {
+                            "firstName": "Samuel",
+                            "lastName": "Hasinoff",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hasinoff"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2665634"
+                        ],
+                        "name": "Dillon Sharlet",
+                        "slug": "Dillon-Sharlet",
+                        "structuredName": {
+                            "firstName": "Dillon",
+                            "lastName": "Sharlet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dillon Sharlet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2093042733"
+                        ],
+                        "name": "Ryan Geiss",
+                        "slug": "Ryan-Geiss",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "Geiss",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan Geiss"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145506199"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50329510"
+                        ],
+                        "name": "J. Barron",
+                        "slug": "J.-Barron",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Barron",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Barron"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2083650304"
+                        ],
+                        "name": "Florian Kainz",
+                        "slug": "Florian-Kainz",
+                        "structuredName": {
+                            "firstName": "Florian",
+                            "lastName": "Kainz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Florian Kainz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1967685"
+                        ],
+                        "name": "Jiawen Chen",
+                        "slug": "Jiawen-Chen",
+                        "structuredName": {
+                            "firstName": "Jiawen",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jiawen Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1801789"
+                        ],
+                        "name": "M. Levoy",
+                        "slug": "M.-Levoy",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Levoy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Levoy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 93
+                            }
+                        ],
+                        "text": "The generated fragments were also sufficient for the reductions present in the HDR+ pipeline [8], which is the largest Halide pipeline of which we are aware."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2344617,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2d6723d19df684b21c9b40f11eb03b0a9e3d36b0",
+            "isKey": false,
+            "numCitedBy": 287,
+            "numCiting": 79,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Cell phone cameras have small apertures, which limits the number of photons they can gather, leading to noisy images in low light. They also have small sensor pixels, which limits the number of electrons each pixel can store, leading to limited dynamic range. We describe a computational photography pipeline that captures, aligns, and merges a burst of frames to reduce noise and increase dynamic range. Our system has several key features that help make it robust and efficient. First, we do not use bracketed exposures. Instead, we capture frames of constant exposure, which makes alignment more robust, and we set this exposure low enough to avoid blowing out highlights. The resulting merged image has clean shadows and high bit depth, allowing us to apply standard HDR tone mapping methods. Second, we begin from Bayer raw frames rather than the demosaicked RGB (or YUV) frames produced by hardware Image Signal Processors (ISPs) common on mobile platforms. This gives us more bits per pixel and allows us to circumvent the ISP's unwanted tone mapping and spatial denoising. Third, we use a novel FFT-based alignment algorithm and a hybrid 2D/3D Wiener filter to denoise and merge the frames in a burst. Our implementation is built atop Android's Camera2 API, which provides per-frame camera control and access to raw imagery, and is written in the Halide domain-specific language (DSL). It runs in 4 seconds on device (for a 12 Mpix image), requires no user intervention, and ships on several mass-produced cell phones."
+            },
+            "slug": "Burst-photography-for-high-dynamic-range-and-on-Hasinoff-Sharlet",
+            "title": {
+                "fragments": [],
+                "text": "Burst photography for high dynamic range and low-light imaging on mobile cameras"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A computational photography pipeline that captures, aligns, and merges a burst of frames to reduce noise and increase dynamic range, built atop Android's Camera2 API and written in the Halide domain-specific language (DSL)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Graph."
+            },
+            "year": 2016
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 29,
+                                "start": 26
+                            }
+                        ],
+                        "text": "4 f()[2] * in(r)[1]) + f()[3] * in(r)[3])}"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 68
+                            }
+                        ],
+                        "text": "Finally, to prove that the expression is associative, we use the Z3 [3] SMT solver to verify that \u2200x, y, z, k f(f(x, y), z) = f(x, f(y, z)), where k is the constant contained within the function f ."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 29,
+                                "start": 26
+                            }
+                        ],
+                        "text": "3 f()[2] * in(r)[0]) + f()[3] * in(r)[2]),"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 37
+                            }
+                        ],
+                        "text": "2 f()[0] * in(r)[1]) + f()[1] * in(r)[3]),"
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "An efficient smt solver"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "In Proceedings of the Theory and Practice of Software, 14th International Conference on Tools and Algorithms for the Construction and Analysis of Systems,"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 9,
+                                "start": 6
+                            }
+                        ],
+                        "text": "CHiLL [7] and URUK [5] allow users to apply a series of high-level transformations to Fortran and C code, freeing users from needing to hand-rewrite code to implement complicated optimizations."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Loop Transformation Recipes for Code Generation and 290  Auto-Tuning, pages 50\u201364"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 70,
+                                "start": 63
+                            }
+                        ],
+                        "text": "These code transformation systems use the polyhedral framework [4, 10] to represent loops and transformations, but do not support reductions."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Triolet. Supernode partitioning"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "In Symposium on Principles of Programming Languages"
+            },
+            "year": 1988
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 10,
+            "methodology": 13
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 24,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Parallel-associative-reductions-in-Halide-Suriana-Adams/261178d4e8eaaf8c74d4a0fb263e9b4f94b09fe3?sort=total-citations"
+}

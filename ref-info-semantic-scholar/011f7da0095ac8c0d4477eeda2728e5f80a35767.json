@@ -1,0 +1,2546 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1790411"
+                        ],
+                        "name": "G. Necula",
+                        "slug": "G.-Necula",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Necula",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Necula"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144577778"
+                        ],
+                        "name": "P. Lee",
+                        "slug": "P.-Lee",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Lee"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "For example, the Touchstone certifying compiler [ NL98 ] proves the type safety of its output when compiling a type-safe subset of the C programming language."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The primary inspiration for this work was the original work on translation validation by Pnueli, Siegel and Singerman [PSS98] and our own work on certifying compilation [ NL98 , Nec98]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 2056902,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "487becbe4f8d7dbee473c936367630c27123456a",
+            "isKey": false,
+            "numCitedBy": 397,
+            "numCiting": 75,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents the design and implementation of a compiler that translates programs written in a type-safe subset of the C programming language into highly optimized DEC Alpha assembly language programs, and a certifier that automatically checks the type safety and memory safety of any assembly language program produced by the compiler. The result of the certifier is either a formal proof of type safety or a counterexample pointing to a potential violation of the type system by the target program. The ensemble of the compiler and the certifier is called a certifying compiler.Several advantages of certifying compilation over previous approaches can be claimed. The notion of a certifying compiler is significantly easier to employ than a formal compiler verification, in part because it is generally easier to verify the correctness of the result of a computation than to prove the correctness of the computation itself. Also, the approach can be applied even to highly optimizing compilers, as demonstrated by the fact that our compiler generates target code, for a range of realistic C programs, which is competitive with both the cc and gcc compilers with all optimizations enabled. The certifier also drastically improves the effectiveness of compiler testing because, for each test case, it statically signals compilation errors that might otherwise require many executions to detect. Finally, this approach is a practical way to produce the safety proofs for a Proof-Carrying Code system, and thus may be useful in a system for safe mobile code."
+            },
+            "slug": "The-design-and-implementation-of-a-certifying-Necula-Lee",
+            "title": {
+                "fragments": [],
+                "text": "The design and implementation of a certifying compiler"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 94,
+                "text": "The design and implementation of a compiler that translates programs written in a type-safe subset of the C programming language into highly optimized DEC Alpha assembly language programs, and a certifier that automatically checks the type safety and memory safety of any assembly language program produced by the compiler are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI 1998"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1973206"
+                        ],
+                        "name": "D. Tarditi",
+                        "slug": "D.-Tarditi",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Tarditi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Tarditi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "69857271"
+                        ],
+                        "name": "G. Morrisett",
+                        "slug": "G.-Morrisett",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Morrisett",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Morrisett"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35977213"
+                        ],
+                        "name": "P. Cheng",
+                        "slug": "P.-Cheng",
+                        "structuredName": {
+                            "firstName": "Perry",
+                            "lastName": "Cheng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Cheng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33091322"
+                        ],
+                        "name": "C. Stone",
+                        "slug": "C.-Stone",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Stone",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Stone"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2057893173"
+                        ],
+                        "name": "R. Harper",
+                        "slug": "R.-Harper",
+                        "structuredName": {
+                            "firstName": "R.",
+                            "lastName": "Harper",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Harper"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144577778"
+                        ],
+                        "name": "P. Lee",
+                        "slug": "P.-Lee",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Lee"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "There two programs are considered equivalent if they have isomorphic program representation graphs [HPR88,  RR89 ]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 221922854,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fed690c03b7a13e1813447b106f31ecc56e30b60",
+            "isKey": false,
+            "numCitedBy": 97,
+            "numCiting": 59,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The goal of the TIL project was to explore the use of Typed Intermediate Languages to produce high-performance native code from Standard ML (SML). We believed that existing SML compilers were doing a good job of conventional functional language optimizations, as one might find in a LISP compiler, but that inadequate use was made of the rich type information present in the source language. Our goal was to show that we could get much greater performance by propagating type information through to the back end of the compiler, without sacrificing the advantages afforded by loop-oriented and other optimizations.We also confirmed that using typed intermediate languages dramatically improved the reliability and maintainability of the compiler itself. In particular, we were able to use the type system to express critical invariants, and enforce those invariants through type checking. In this respect, TIL introduced and popularized the notion of a certifying compiler, which attaches a checkable certificate of safety to its generated code. In turn, this led directly to the idea of certified object code, inspiring the development of Proof-Carrying Code and Typed Assembly Language as certified object code formats."
+            },
+            "slug": "TIL:-a-type-directed-optimizing-compiler-for-ML-Tarditi-Morrisett",
+            "title": {
+                "fragments": [],
+                "text": "TIL: a type-directed optimizing compiler for ML"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "TIL introduced and popularized the notion of a certifying compiler, which attaches a checkable certificate of safety to its generated code, inspiring the development of Proof-Carrying Code and Typed Assembly Language as certified object code formats."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '96"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1698938"
+                        ],
+                        "name": "A. Pnueli",
+                        "slug": "A.-Pnueli",
+                        "structuredName": {
+                            "firstName": "Amir",
+                            "lastName": "Pnueli",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Pnueli"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "119614910"
+                        ],
+                        "name": "M. Siegel",
+                        "slug": "M.-Siegel",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Siegel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Siegel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1774977"
+                        ],
+                        "name": "Eli Singerman",
+                        "slug": "Eli-Singerman",
+                        "structuredName": {
+                            "firstName": "Eli",
+                            "lastName": "Singerman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eli Singerman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14822655,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d8b4164fef65ffc7082a3c95b0a706e5c3aa38f9",
+            "isKey": false,
+            "numCitedBy": 515,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present the notion of translation validation as a new approach to the veriication of translators (compilers, code generators). Rather than proving in advance that the compiler always produces a target code which correctly implements the source code (compiler verii-cation), each individual translation (i.e. a run of the compiler) is followed by a validation phase which veriies that the target code produced on this run correctly implements the submitted source program. Several ingredients are necessary to set up the { fully automatic { translation validation process, among which are: 1. A common semantic framework for the representation of the source code and the generated target code. 2. A formalization of the notion of \"correct implementation\" as a re-nement relation. 3. A syntactic simulation-based proof method which allows to automatically verify that one model of the semantic framework, representing the produced target code, correctly implements another model which represents the source. These, and other ingredients are elaborated in this paper, in which we illustrate the new approach in a most challenging case. We consider a translation (compilation) from the synchronous multi-clock data-ow language Signal to asynchronous (sequential) C-code."
+            },
+            "slug": "Translation-Validation-Pnueli-Siegel",
+            "title": {
+                "fragments": [],
+                "text": "Translation Validation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "This paper considers a translation (compilation) from the synchronous multi-clock data-ow language Signal to asynchronous (sequential) C-code and presents the notion of translation validation as a new approach to the veriication of translators (compilers, code generators)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TACAS"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1720971"
+                        ],
+                        "name": "M. Rinard",
+                        "slug": "M.-Rinard",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Rinard",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Rinard"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 67293851,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "88a46614df275e4b612f0b5be84544af5a53395b",
+            "isKey": false,
+            "numCitedBy": 5,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a new concept in compiler correctness: instead of proving that the compiler performs all of its transformations correctly, the compiler generates a proof that the transformed program correctly implements the input program. A simple proof checker can then verify that the program was compiled correctly. We call a compiler that produces such proofs a {\\em credible compiler}, because it produces verifiable evidence that it is operating correctly. Compiler optimizations usually consist of two steps --- an analysis step determines if it is legal to apply the optimization, and a transformation step applies the optimization to generate a transformed program that computes the same result as the original program. Our approach supports this two-step structure. It provides a logic that the compiler can use to prove that its program analysis results are correct, and a logic that the compiler can use to prove that the transformed program correctly simulates the original program. These logics are defined for a standard program representation, control flow graphs. This report defines these logics and proves that they are sound with respect to a standard operational semantics. It also presents detailed examples that demonstrate how a compiler can use the logics to prove the correctness of several standard optimizations. We believe that credible compilation has the potential to revolutionize the way compilers are built and used. Specifically, they will allow programmers to quickly determine if the compiler compiled their program correctly, help developers find and eliminate bugs in compiler passes, allow large groups of mutually untrusting people to collaborate productively on the same compiler, increase the speed with which compilers are developed and released, and make it possible to aggressively upgrade large, stable compiler systems without fear of inadvertantly introducing undetected errors."
+            },
+            "slug": "Credible-Compilers-Rinard",
+            "title": {
+                "fragments": [],
+                "text": "Credible Compilers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 98,
+                "text": "This paper presents a new concept in compiler correctness: instead of proving that the compiler performs all of its transformations correctly, the compiler generates a proof that the transformed program correctly implements the input program, so that a simple proof checker can then verify that the program was compiled correctly."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33021449"
+                        ],
+                        "name": "Christopher Colby",
+                        "slug": "Christopher-Colby",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Colby",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher Colby"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144577778"
+                        ],
+                        "name": "P. Lee",
+                        "slug": "P.-Lee",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1790411"
+                        ],
+                        "name": "G. Necula",
+                        "slug": "G.-Necula",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Necula",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Necula"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "83302700"
+                        ],
+                        "name": "F. Blau",
+                        "slug": "F.-Blau",
+                        "structuredName": {
+                            "firstName": "Fred",
+                            "lastName": "Blau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Blau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144535161"
+                        ],
+                        "name": "M. Plesko",
+                        "slug": "M.-Plesko",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Plesko",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Plesko"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2062951726"
+                        ],
+                        "name": "Kenneth Cline",
+                        "slug": "Kenneth-Cline",
+                        "structuredName": {
+                            "firstName": "Kenneth",
+                            "lastName": "Cline",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kenneth Cline"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 13900008,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c20bd257224a03383f0ab34b237d9128116c7050",
+            "isKey": false,
+            "numCitedBy": 209,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents the initial results of a project to determine ifthe techniques of proof-carrying code and certifying compilers can be applied to programming languages of realistic size and complexity. The experiment shows that: (1) it is possible to implement a certifying native-code compiler for a large subset of the Java programming language; (2) the compiler is freely able to apply many standard local and global optimizations; and (3) the PCC binaries it produces are of reasonable size and can be rapidly checked for type safety by a small proof-checker. This paper also presents further evidence that PCC provides several advantages for compiler development. In particular, generating proofs of the target code helps to identify compiler bugs, many of which would have been difficult to discover by testing."
+            },
+            "slug": "A-certifying-compiler-for-Java-Colby-Lee",
+            "title": {
+                "fragments": [],
+                "text": "A certifying compiler for Java"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "The experiment shows that it is possible to implement a certifying native-code compiler for a large subset of the Java programming language and that generating proofs of the target code helps to identify compiler bugs, many of which would have been difficult to discover by testing."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '00"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1790411"
+                        ],
+                        "name": "G. Necula",
+                        "slug": "G.-Necula",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Necula",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Necula"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144577778"
+                        ],
+                        "name": "P. Lee",
+                        "slug": "P.-Lee",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Lee"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The primary inspiration for this work was the original work on translation validation by Pnueli, Siegel and Singerman [PSS98] and our own work on certifying compilation [NL98,  Nec98 ]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "In a sense this project can be seen as tackling the goals laid out in [PSS98] using the symbolic evaluation techniques from [ Nec98 ], in the context of a realistic compiler."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11119252,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "da9193627d1ffa904c8812b87a6d25050b796c74",
+            "isKey": false,
+            "numCitedBy": 225,
+            "numCiting": 80,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "One of the major challenges of building software systems is to ensure that the various components fit together in a well-defined manner. This problem is exacerbated by the recent advent of software components whose origin is unknown or inherently untrusted, such as mobile code or user extensions for operating-system kernels or database servers. Such extensions are useful for implementing an efficient interaction model between a client and a server because several data exchanges between them can be saved at the cost of a single code exchange. \nIn this dissertation, I propose to tackle such system integrity and security problems with techniques from mathematical logic and programming-language semantics. I propose a framework, called proof-carrying code, in which the extension provider sends along with the extension code a representation of a formal proof that the code meets certain safety and correctness requirements. Then, the code receiver can ensure the safety of executing the extension by validating the attached proof. The major advantages of proof-carrying code are that it requires a simple trusted infrastructure and that it does not impose run-time penalties for the purpose of ensuring safety. \nIn addition to the concept of proof-carrying code, this dissertation contributes the idea of certifying compilation. A certifying compiler emits, in addition to optimized target code, function specifications and loop invariants that enable a theorem-proving agent to prove non-trivial properties of the target code, such as type safety. Such a certifying compiler, along with a proof-generating theorem prover, is not only a convenient producer of proof-carrying code but also a powerful software-engineering tool. The certifier also acts as an effective referee for the correctness of each compilation, thus simplifying considerably compiler testing and maintenance. \nA complete system for proof-carrying code must also contain a proof-generating theorem prover for the purpose of producing the attached proofs of safety. This dissertation shows how standard decision procedures can be adapted so that they can produce detailed proofs of the proved predicates and also how these proofs can be encoded compactly and checked efficiently. Just like for the certifying compiler, a proof-generating theorem prover has significant software-engineering advantages over a traditional prover. In this case, a simple proof checker can ensure the soundness of each successful proving task and indirectly assist in testing and maintenance of the theorem prover."
+            },
+            "slug": "Compiling-with-proofs-Necula-Lee",
+            "title": {
+                "fragments": [],
+                "text": "Compiling with proofs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This dissertation shows how standard decision procedures can be adapted so that they can produce detailed proofs of the proved predicates and also how these proofs can be encoded compactly and checked efficiently."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2424763"
+                        ],
+                        "name": "W. Goerigk",
+                        "slug": "W.-Goerigk",
+                        "structuredName": {
+                            "firstName": "Wolfgang",
+                            "lastName": "Goerigk",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Goerigk"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2068290985"
+                        ],
+                        "name": "F. Simon",
+                        "slug": "F.-Simon",
+                        "structuredName": {
+                            "firstName": "Friedemann",
+                            "lastName": "Simon",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Simon"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The advance of the present work over [PSS98] and other similar work [C + 97,  Goe97 ], is that the language involved and the range of optimizations handled here are much more ambitious."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15004779,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9f1dfc14a21648b3b314ac3620338c509e953ba1",
+            "isKey": false,
+            "numCitedBy": 14,
+            "numCiting": 61,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper sketches a rigorous correctness proof of a compiler executable. We will emphasize the central role of partial program correctness and its preservation, which captures the intuitive correctness requirements for transformational programs and in particular for compilers on real machines. Although often left out of sight, implementation verification is definitely necessary, not only but also for compilers. We will show that a rigorous compiler correctness proof also for the final binary compiler machine program is possible and feasible. Verified compiler implementations guarantee correctness properties for generated executable program implementations; we need them, not only in safety critical systems, but also for security in e.g. network computing."
+            },
+            "slug": "Towards-Rigorous-Compiler-Implementation-Goerigk-Simon",
+            "title": {
+                "fragments": [],
+                "text": "Towards Rigorous Compiler Implementation Verification"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 63,
+                "text": "This paper sketches a rigorous correctness proof of a compiler executable and shows that a rigorous compiler correctness proof also for the final binary compiler machine program is possible and feasible."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Collaboration between Human and Artificial Societies"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35542019"
+                        ],
+                        "name": "M. Wand",
+                        "slug": "M.-Wand",
+                        "structuredName": {
+                            "firstName": "Mitchell",
+                            "lastName": "Wand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "31543040"
+                        ],
+                        "name": "D. Oliva",
+                        "slug": "D.-Oliva",
+                        "structuredName": {
+                            "firstName": "Dino",
+                            "lastName": "Oliva",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Oliva"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 6302438,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4cebc2446055d9db5ad166fa393afcc93e21ec4d",
+            "isKey": false,
+            "numCitedBy": 34,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Conventional techniques for semantics-directed compiler derivation yield abstract machines that manipulate trees. However, in order to produce a real compiler, one has to represent these trees in memory. In this paper we show how the technique of storage-layout relations can be applied to verify the correctness of storage representations in a very general way. This technique allows us to separate denotational from operational reasoning, so that each can be used when needed. As an example, we show the correctness of a stack implementation of a language including dynamic catch and throw. The representation uses static and dynamic links to thread the environment and continuation through the stack. We discuss other uses of these techniques."
+            },
+            "slug": "Proving-the-correctness-of-storage-representations-Wand-Oliva",
+            "title": {
+                "fragments": [],
+                "text": "Proving the correctness of storage representations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper shows how the technique of storage-layout relations can be applied to verify the correctness of storage representations in a very general way to separate denotational from operational reasoning, so that each can be used when needed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LFP '92"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1700801"
+                        ],
+                        "name": "D. Kozen",
+                        "slug": "D.-Kozen",
+                        "structuredName": {
+                            "firstName": "Dexter",
+                            "lastName": "Kozen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Kozen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 60420772,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5b8ff5b75c80ce5d3523937f2243062252a3d110",
+            "isKey": false,
+            "numCitedBy": 62,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We introduce a simple and efficient approach to the certification of compiled code. We ensure a basic but nontrivial level of code safety, including control flow safety, memory safety, and stack safety. The system is designed to be simple, efficient, and (most importantly) relatively painless to incorporate into existing compilers. Although less expressive than the proof carrying code of Necula and Lee or typed assembly language of Morrisett et al., our certificates are compact and relatively easy to produce and to verify. Unlike JAVA bytecode, our system operates at the level of native code; it is not interpreted and no further compilation is necessary."
+            },
+            "slug": "Efficient-Code-Certification-Kozen",
+            "title": {
+                "fragments": [],
+                "text": "Efficient Code Certification"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 65,
+                "text": "This work introduces a simple and efficient approach to the certification of compiled code, which operates at the level of native code; it is not interpreted and no further compilation is necessary."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "69857271"
+                        ],
+                        "name": "G. Morrisett",
+                        "slug": "G.-Morrisett",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Morrisett",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Morrisett"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2077703"
+                        ],
+                        "name": "Karl Crary",
+                        "slug": "Karl-Crary",
+                        "structuredName": {
+                            "firstName": "Karl",
+                            "lastName": "Crary",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Karl Crary"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1710858"
+                        ],
+                        "name": "Neal Glew",
+                        "slug": "Neal-Glew",
+                        "structuredName": {
+                            "firstName": "Neal",
+                            "lastName": "Glew",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Neal Glew"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8319903"
+                        ],
+                        "name": "D. Grossman",
+                        "slug": "D.-Grossman",
+                        "structuredName": {
+                            "firstName": "Dan",
+                            "lastName": "Grossman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Grossman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2061787715"
+                        ],
+                        "name": "Richard Samuels",
+                        "slug": "Richard-Samuels",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Samuels",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Richard Samuels"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "120894346"
+                        ],
+                        "name": "F. Smith",
+                        "slug": "F.-Smith",
+                        "structuredName": {
+                            "firstName": "Frederick",
+                            "lastName": "Smith",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Smith"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145242702"
+                        ],
+                        "name": "D. Walker",
+                        "slug": "D.-Walker",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Walker",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Walker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1705435"
+                        ],
+                        "name": "Stephanie Weirich",
+                        "slug": "Stephanie-Weirich",
+                        "structuredName": {
+                            "firstName": "Stephanie",
+                            "lastName": "Weirich",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Stephanie Weirich"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751798"
+                        ],
+                        "name": "S. Zdancewic",
+                        "slug": "S.-Zdancewic",
+                        "structuredName": {
+                            "firstName": "Steve",
+                            "lastName": "Zdancewic",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Zdancewic"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 5769691,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "15f70663ba097b4d0c6f340c0c02d57b42e1b713",
+            "isKey": false,
+            "numCitedBy": 227,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The goal of typed assembly language (TAL) is to provide a low-level, statically typed target language that is better suited than Java bytecodes for supporting a wide variety of source languages and a number of important optimizations. In previous work, we formalized idealized versions of TAL and proved important safety properties about them. In this paper, we present our progress in defining and implementing a realistic typed assembly language called TALx86. The TALx86 instructions comprise a relatively complete fragment of the Intel IA32 (32-bit 80x86 flat model) assembly language and are thus executable on processors such as the Intel Pentium. The type system for the language incorporates a number of advanced features necessary for safely compiling large programs to good code. To motivate the design of the type system, we demonstrate how various high-level language features are compiled to TALx86. For this purpose, we present a type-safe C-like language called Popcorn."
+            },
+            "slug": "TALx86:-A-Realistic-Typed-Assembly-Language\u2217-Morrisett-Crary",
+            "title": {
+                "fragments": [],
+                "text": "TALx86: A Realistic Typed Assembly Language\u2217"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "The goal of typed assembly language (TAL) is to provide a low-level, statically typed target language that is better suited than Java bytecodes for supporting a wide variety of source languages and a number of important optimizations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1711030"
+                        ],
+                        "name": "L. Chirica",
+                        "slug": "L.-Chirica",
+                        "structuredName": {
+                            "firstName": "Laurian",
+                            "lastName": "Chirica",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Chirica"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144591899"
+                        ],
+                        "name": "David F. Martin",
+                        "slug": "David-F.-Martin",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Martin",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David F. Martin"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Despite a large body of work [ CM75 , MP67, Mor73, Moo89, You89, WO92] in the area of compiler verification we are still far from being able to prove automatically that a given optimizing compiler always produces target programs that are semantically equivalent to their source versions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15366465,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2dce221b25a6289d5cfc981749685394789715a2",
+            "isKey": false,
+            "numCitedBy": 10,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper is a preliminary report on an experiment in applying Floyd's method of inductive assertions to the compiler correctness problem. Practical postfix translators are considered, and the semantics of source and object languages are characterized by Floyd verification conditions. Compiler correctness proofs are partitioned into two parts. The first part deals with proofs of the syntactic and translational phase of compilation, and generates semantic equivalence theorems which are proved in the second part. These techniques are illustrated by a small example."
+            },
+            "slug": "An-approach-to-compiler-correctness-Chirica-Martin",
+            "title": {
+                "fragments": [],
+                "text": "An approach to compiler correctness"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 78,
+                "text": "This paper is a preliminary report on an experiment in applying Floyd's method of inductive assertions to the compiler correctness problem, and generates semantic equivalence theorems which are proved in the second part."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Reliable Software"
+            },
+            "year": 1975
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145965540"
+                        ],
+                        "name": "F. L. Morris",
+                        "slug": "F.-L.-Morris",
+                        "structuredName": {
+                            "firstName": "F.",
+                            "lastName": "Morris",
+                            "middleNames": [
+                                "Lockwood"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. L. Morris"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Despite a large body of work [CM75, MP67,  Mor73 , Moo89, You89, WO92] in the area of compiler verification we are still far from being able to prove automatically that a given optimizing compiler always produces target programs that are semantically equivalent to their source versions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14136782,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fa6d9d6006fe0e72b4407cf841b29e0d1fd34396",
+            "isKey": false,
+            "numCitedBy": 157,
+            "numCiting": 6,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The purpose of this paper is to advise an approach (and to support that advice by discussion of an example) towards achieving a goal first announced by John McCarthy: that compilers for higher-level programming languages should be made completely trustworthy by proving their correctness. The author believes that the compiler-correctness problem can be made much less general and better-structured than the unrestricted program-correctness problem; to do so will of course entail restricting what a compiler may be."
+            },
+            "slug": "Advice-on-structuring-compilers-and-proving-them-Morris",
+            "title": {
+                "fragments": [],
+                "text": "Advice on structuring compilers and proving them correct"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "The author believes that the compiler-correctness problem can be made much less general and better-structured than the unrestricted program-Correctness problem; to do so will of course entail restricting what a compiler may be."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL"
+            },
+            "year": 1973
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1720971"
+                        ],
+                        "name": "M. Rinard",
+                        "slug": "M.-Rinard",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Rinard",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Rinard"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 319822,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7000d21ebb85d4121d2853ae8c9a0dc90f61c24f",
+            "isKey": false,
+            "numCitedBy": 65,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents an approach to compiler correctness in which the compiler generates a proof that the transformed program correctly implements the input program. A simple proof checker can then verify that the program was compiled correctly. We call a compiler that produces such proofs a credible compiler, because it produces verifiable evidence that it is operating correctly."
+            },
+            "slug": "Credible-Compilation-Rinard",
+            "title": {
+                "fragments": [],
+                "text": "Credible Compilation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 91,
+                "text": "An approach to compiler correctness in which the compiler generates a proof that the transformed program correctly implements the input program, and a simple proof checker can then verify that the program was compiled correctly."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38303910"
+                        ],
+                        "name": "Susan Horwitz",
+                        "slug": "Susan-Horwitz",
+                        "structuredName": {
+                            "firstName": "Susan",
+                            "lastName": "Horwitz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Susan Horwitz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145233903"
+                        ],
+                        "name": "J. Prins",
+                        "slug": "J.-Prins",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Prins",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Prins"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1703130"
+                        ],
+                        "name": "T. Reps",
+                        "slug": "T.-Reps",
+                        "structuredName": {
+                            "firstName": "T.",
+                            "lastName": "Reps",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Reps"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 7909395,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9e7d7a8583268ea3bf8d41e3ac8e245f6256baa3",
+            "isKey": false,
+            "numCitedBy": 155,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Program dependence graphs were introduced by Kuck as an intermediate program representation well suited for performing optimizations, vectorization, and parallelization. There are also additional applications for them as an internal program representation in program development environments.\nIn this paper we examine the issue of whether a program dependence graph is an adequate structure for representing a program's execution behavior. (This question has apparently never been addressed before in the literature). We answer the question in the affirmative by showing that if the program dependence graphs of two programs are isomorphic then the programs are strongly equivalent."
+            },
+            "slug": "On-the-adequacy-of-program-dependence-graphs-for-Horwitz-Prins",
+            "title": {
+                "fragments": [],
+                "text": "On the adequacy of program dependence graphs for representing programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "The issue of whether a program dependence graph is an adequate structure for representing a program's execution behavior is examined and answered in the affirmative by showing that if the program dependence graphs of two programs are isomorphic then the programs are strongly equivalent."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '88"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37062236"
+                        ],
+                        "name": "Wuu Yang",
+                        "slug": "Wuu-Yang",
+                        "structuredName": {
+                            "firstName": "Wuu",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wuu Yang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38303910"
+                        ],
+                        "name": "Susan Horwitz",
+                        "slug": "Susan-Horwitz",
+                        "structuredName": {
+                            "firstName": "Susan",
+                            "lastName": "Horwitz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Susan Horwitz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1703130"
+                        ],
+                        "name": "T. Reps",
+                        "slug": "T.-Reps",
+                        "structuredName": {
+                            "firstName": "T.",
+                            "lastName": "Reps",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Reps"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The issue of detecting equivalence of program fragments was studied before in the context of merging program variants [ YHR92 ]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10491286,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e4fe731d7efe8a6b3cce453dda9da2248e9bf460",
+            "isKey": false,
+            "numCitedBy": 89,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Given a program <italic>Base</italic> and two variants, <italic>A</italic> and <italic>B</italic>, each created by modifying separate copies of <italic>Base</italic>, the goal of program integration is to determine whether the modifications interfere, and if they do not, to create an integrated program that includes both sets of changes as well as the portions of <italic>Base</italic> preserved in both variants. Text-based integration techniques, such as the one used by the UNIX <italic>diff3</italic> utility, are obviously unsatisfactory because one has no guarantees about how the execution behavior of the integrated program relates to the behaviors of <italic>Base</italic>, <italic>A</italic>, and <italic>B</italic>. The first program-integration algorithm to provide such guarantees was developed by Horwitz, Prins, and Reps. However, a limitation of that algorithm is that it incorporates no notion of semantics-preserving transformations. This limitation causes the algorithm to be overly conservative in its definition of interference. For example, if one variant changes the <italic>way</italic> a computation is performed (without changing the values computed) while the other variant adds code that uses the result of the computation, the algorithm would classify those changes as interfering. This paper describes a new integration algorithm that is able to accommodate semantics-preserving transformations."
+            },
+            "slug": "A-program-integration-algorithm-that-accommodates-Yang-Horwitz",
+            "title": {
+                "fragments": [],
+                "text": "A program integration algorithm that accommodates semantics-preserving transformations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "This paper describes a new integration algorithm that is able to accommodate semantics-preserving transformations and describes the first program-integration algorithm to provide such guarantees."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SDE 4"
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145391760"
+                        ],
+                        "name": "D. Weise",
+                        "slug": "D.-Weise",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Weise",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Weise"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2585650"
+                        ],
+                        "name": "Roger F. Crew",
+                        "slug": "Roger-F.-Crew",
+                        "structuredName": {
+                            "firstName": "Roger",
+                            "lastName": "Crew",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Roger F. Crew"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "6698059"
+                        ],
+                        "name": "Michael D. Ernst",
+                        "slug": "Michael-D.-Ernst",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Ernst",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael D. Ernst"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3056681"
+                        ],
+                        "name": "B. Steensgaard",
+                        "slug": "B.-Steensgaard",
+                        "structuredName": {
+                            "firstName": "Bjarne",
+                            "lastName": "Steensgaard",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Steensgaard"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1187123,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "104298b1c560d01ea63c4cb4549a5416a553a333",
+            "isKey": false,
+            "numCitedBy": 127,
+            "numCiting": 75,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The value dependence graph (VDG) is a sparse dataflow-like representation that simplifies program analysis and transformation. It is a functional representation that represents control flow as data flow and makes explicit all machine quantities, such as stores and I/O channels. We are developing a compiler that builds a VDG representing a program, analyzes and transforms the VDG, then produces a control flow graph (CFG) [ASU86] from the optimized VDG. This framework simplifies transformations and improves upon several published results. For example, it enables more powerful code motion than [CLZ86, FOW87], eliminates as many redundancies as [AWZ88, RWZ88] (except for redundant loops), and provides important information to the code scheduler [BR91]. We exhibit a fast, one-pass method for elimination of partial redundancies that never performs redundant code motion [KFS92, DS93] and is simpler than the classical [MR79, Dha91] or SSA [RWZ88] methods. These results accrue from eliminating the CFG from the analysis/transformation phases and using demand dependences in preference to control dependences."
+            },
+            "slug": "Value-dependence-graphs:-representation-without-Weise-Crew",
+            "title": {
+                "fragments": [],
+                "text": "Value dependence graphs: representation without taxation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A fast, one-pass method for elimination of partial redundancies that never performs redundant code motion and is simpler than the classical [MR79, Dha91] or SSA [RWZ88] methods is exhibited."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '94"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143805236"
+                        ],
+                        "name": "J. McCarthy",
+                        "slug": "J.-McCarthy",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "McCarthy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. McCarthy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143889717"
+                        ],
+                        "name": "James A. Painter",
+                        "slug": "James-A.-Painter",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Painter",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James A. Painter"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Despite a large body of work [CM75,  MP67 , Mor73, Moo89, You89, WO92] in the area of compiler verification we are still far from being able to prove automatically that a given optimizing compiler always produces target programs that are semantically equivalent to their source versions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 60914848,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e1f9006298bd72d50c0b3a4a1cb4cc9475694fb2",
+            "isKey": false,
+            "numCitedBy": 306,
+            "numCiting": 5,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Abstract : The paper contains a proof of the correctness of a simple compiling algorithm for compiling arithmetic expressions into machine language."
+            },
+            "slug": "Correctness-of-a-compiler-for-arithmetic-McCarthy-Painter",
+            "title": {
+                "fragments": [],
+                "text": "Correctness of a compiler for arithmetic expressions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 92,
+                "text": "This paper contains a proof of the correctness of a simple compiling algorithm for compiling arithmetic expressions into machine language."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1966
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145832079"
+                        ],
+                        "name": "M. Abadi",
+                        "slug": "M.-Abadi",
+                        "structuredName": {
+                            "firstName": "Mart\u00edn",
+                            "lastName": "Abadi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Abadi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145457097"
+                        ],
+                        "name": "L. Cardelli",
+                        "slug": "L.-Cardelli",
+                        "structuredName": {
+                            "firstName": "Luca",
+                            "lastName": "Cardelli",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Cardelli"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1733826"
+                        ],
+                        "name": "P. Curien",
+                        "slug": "P.-Curien",
+                        "structuredName": {
+                            "firstName": "Pierre-Louis",
+                            "lastName": "Curien",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Curien"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37860660"
+                        ],
+                        "name": "J. L\u00e9vy",
+                        "slug": "J.-L\u00e9vy",
+                        "structuredName": {
+                            "firstName": "Jean-Jacques",
+                            "lastName": "L\u00e9vy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. L\u00e9vy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 7265577,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "7352240632da105fe8e1dfc3e39f4c7829749a57",
+            "isKey": false,
+            "numCitedBy": 648,
+            "numCiting": 63,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The \u03bb&sgr;-calculus is a refinement of the \u03bb-calculus where substitutions are manipulated explicitly. The \u03bb&sgr;-calculus provides a setting for studying the theory of substitutions, with pleasant mathematical properties. It is also a useful bridge between the classical \u03bb-calculus and concrete implementations."
+            },
+            "slug": "Explicit-substitutions-Abadi-Cardelli",
+            "title": {
+                "fragments": [],
+                "text": "Explicit substitutions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 92,
+                "text": "The \u03bb&sgr;-calculus is a refinement of the \u03bb-Calculus where substitutions are manipulated explicitly, and provides a setting for studying the theory of substitutions, with pleasant mathematical properties."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '90"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47934783"
+                        ],
+                        "name": "J. Davenport",
+                        "slug": "J.-Davenport",
+                        "structuredName": {
+                            "firstName": "Janina",
+                            "lastName": "Davenport",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Davenport"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 220072940,
+            "fieldsOfStudy": [
+                "Education"
+            ],
+            "id": "56b332dc42f9bb3f3202e53eb6a9a63147bc6564",
+            "isKey": false,
+            "numCitedBy": 5157,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Editor-Davenport",
+            "title": {
+                "fragments": [],
+                "text": "Editor"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1960
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 14
+                            }
+                        ],
+                        "text": "[Koz98] DexterKozen."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 54,
+                                "start": 47
+                            }
+                        ],
+                        "text": "In this case, and also in recent work of Kozen [Koz98], validation is simpli ed considerably by restricting the optimizations such that each source-level construct is compiled into a given pattern in the target code, and no inter-pattern optimizations are allowed."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 31
+                            }
+                        ],
+                        "text": "Inthisase,andalsoinreent \nworkofKozen[Koz98],validationissimplifedonsiderably byrestritingtheoptimizationssuhthateahsoure\u00adlevel \nonstrutisompiledintoagivenpatterninthetargetode, andnointer\u00adpatternoptimizationsareallowed."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Technical Report TR 98{1661"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Cornell University, January"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3234559"
+                        ],
+                        "name": "E. Dijkstra",
+                        "slug": "E.-Dijkstra",
+                        "structuredName": {
+                            "firstName": "Edsger",
+                            "lastName": "Dijkstra",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Dijkstra"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "This observation is hardly new; it has appeared before under several disguises such as predicate transformers [ Dij76 ] and value-dependence graphs [WCES94]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 43747914,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5ada347492332825d38c7f7cfcc760842476ee52",
+            "isKey": false,
+            "numCitedBy": 5044,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "A-Discipline-of-Programming-Dijkstra",
+            "title": {
+                "fragments": [],
+                "text": "A Discipline of Programming"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1976
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1742667"
+                        ],
+                        "name": "A. Cimatti",
+                        "slug": "A.-Cimatti",
+                        "structuredName": {
+                            "firstName": "Alessandro",
+                            "lastName": "Cimatti",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Cimatti"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1720285"
+                        ],
+                        "name": "Fausto Giunchiglia",
+                        "slug": "Fausto-Giunchiglia",
+                        "structuredName": {
+                            "firstName": "Fausto",
+                            "lastName": "Giunchiglia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fausto Giunchiglia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2375263"
+                        ],
+                        "name": "P. Pecchiari",
+                        "slug": "P.-Pecchiari",
+                        "structuredName": {
+                            "firstName": "Paolo",
+                            "lastName": "Pecchiari",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Pecchiari"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50378412"
+                        ],
+                        "name": "B. Pietra",
+                        "slug": "B.-Pietra",
+                        "structuredName": {
+                            "firstName": "Bruno",
+                            "lastName": "Pietra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Pietra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48732532"
+                        ],
+                        "name": "J. Profeta",
+                        "slug": "J.-Profeta",
+                        "structuredName": {
+                            "firstName": "Joseph",
+                            "lastName": "Profeta",
+                            "middleNames": [
+                                "A."
+                            ],
+                            "suffix": "III"
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Profeta"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143767165"
+                        ],
+                        "name": "Dario Romano",
+                        "slug": "Dario-Romano",
+                        "structuredName": {
+                            "firstName": "Dario",
+                            "lastName": "Romano",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dario Romano"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145919532"
+                        ],
+                        "name": "P. Traverso",
+                        "slug": "P.-Traverso",
+                        "structuredName": {
+                            "firstName": "Paolo",
+                            "lastName": "Traverso",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Traverso"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46806278"
+                        ],
+                        "name": "Ting Yu",
+                        "slug": "Ting-Yu",
+                        "structuredName": {
+                            "firstName": "Ting",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ting Yu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 42078252,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6b3470705265984a7f2e2ca87eba19b7b632ded8",
+            "isKey": false,
+            "numCitedBy": 29,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Vframe is one of Ansaldo's software driven vital architectures for safety critical products. This paper describes a project whose result is the development of an \u201cembedded verifier\u201d, i.e. a system integrated within Vframe and able to certify the correctness of one of Vframe components, a compiler. The embedded verifier satisfies two precise requirements. First, the compiler must be certified in a fully automatic and efficient way. Second, the embedded verifier must be itself certified, in a way which can be easily understood and validated by end users."
+            },
+            "slug": "A-Provably-Correct-Embedded-Verifier-for-the-of-Cimatti-Giunchiglia",
+            "title": {
+                "fragments": [],
+                "text": "A Provably Correct Embedded Verifier for the Certification of Safety Critical Software"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 54,
+                "text": "This paper describes a project whose result is the development of an \u201cembedded verifier\u201d, i.e. a system integrated within Vframe and able to certify the correctness of one of Vframe components, a compiler."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CAV"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Technical Report CS-TR-89-900"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "University of Wisconsin, Madison, December"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Microsoft Corporation. Microsoft Developer Network Library"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Microsoft Corporation. Microsoft Developer Network Library"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 21
+                            }
+                        ],
+                        "text": "Similarly, Special J [CLN00] does the same for Java, and Popcorn [MCG99] for yet another type-safe subset of C."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "To appear in Programming Language Design and Implementation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI'00., June"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Technical Report MIT/LCS/TR-776"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Massachusetts Institute of Technology, December"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "DejaGnu Testing Framework"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 9,
+                                "start": 2
+                            }
+                        ],
+                        "text": "\" [Mic99] While this warning suggests a horrifying scenario for an end user, it is, unfortunately, only an accurate description of the state of the art in compiler testing and maintenance."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Microsoft Developer Network Library"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "March"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Cyg] Cygnus Solutions. DejaGnu Testing Framework"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Cyg] Cygnus Solutions. DejaGnu Testing Framework"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "5(4):461{492"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "December"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "5(4):493{518"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "December"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Translation validation Tools and Algorithms for Construction and Analysis of Systems"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "4th International Conference , TACAS '98, volume LNCS 1384"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Semantics of program representation graphs"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Technical Report CS-TR-89-900,"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Microsoft Developer Network Library"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "10(6):96{103"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "June"
+            },
+            "year": 1975
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 105,
+                                "start": 99
+                            }
+                        ],
+                        "text": "Our formal framework based on simulation relations appears to be similar in spirit to that used in [RM99]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "In Proceedings of the Run-Time Result Veri cation Workshop"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "July"
+            },
+            "year": 1999
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 8,
+            "methodology": 3,
+            "result": 2
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 36,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Translation-validation-for-an-optimizing-compiler-Necula/011f7da0095ac8c0d4477eeda2728e5f80a35767?sort=total-citations"
+}

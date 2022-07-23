@@ -1,0 +1,1644 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144996001"
+                        ],
+                        "name": "L. D. Moura",
+                        "slug": "L.-D.-Moura",
+                        "structuredName": {
+                            "firstName": "Leonardo",
+                            "lastName": "Moura",
+                            "middleNames": [
+                                "Mendon\u00e7a",
+                                "de"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. D. Moura"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3714351"
+                        ],
+                        "name": "N. Bj\u00f8rner",
+                        "slug": "N.-Bj\u00f8rner",
+                        "structuredName": {
+                            "firstName": "Nikolaj",
+                            "lastName": "Bj\u00f8rner",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Bj\u00f8rner"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 15758399,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4eb2c5e05ab5c53f20c6050f8252a30cc23561be",
+            "isKey": false,
+            "numCitedBy": 253,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Satisfiability Modulo Theories (SMT) solvers have proven highly scalable, efficient and suitable for integrating theory reasoning. However, for numerous applications from program analysis and verification, the ground fragment is insufficient, as proof obligations often include quantifiers. A well known approach for quantifier reasoning uses a matching algorithm that works against an E-graph to instantiate quantified variables. This paper introduces algorithms that identify matches on E-graphs incrementally and efficiently. In particular, we introduce an index that works on E-graphs, called E-matching code treesthat combine features of substitution and code trees, used in saturation based theorem provers. E-matching code trees allow performing matching against several patterns simultaneously. The code trees are combined with an additional index, called the inverted path index, which filters E-graph terms that may potentially match patterns when the E-graph is updated. Experimental results show substantial performance improvements over existing state-of-the-art SMT solvers."
+            },
+            "slug": "Efficient-E-Matching-for-SMT-Solvers-Moura-Bj\u00f8rner",
+            "title": {
+                "fragments": [],
+                "text": "Efficient E-Matching for SMT Solvers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "An index that works on E-graphs is introduced, called E-matching code treesthat combine features of substitution and code trees, used in saturation based theorem provers and shows substantial performance improvements over existing state-of-the-art SMT solvers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CADE"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145474353"
+                        ],
+                        "name": "Shuvendu K. Lahiri",
+                        "slug": "Shuvendu-K.-Lahiri",
+                        "structuredName": {
+                            "firstName": "Shuvendu",
+                            "lastName": "Lahiri",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shuvendu K. Lahiri"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1686425"
+                        ],
+                        "name": "S. Qadeer",
+                        "slug": "S.-Qadeer",
+                        "structuredName": {
+                            "firstName": "Shaz",
+                            "lastName": "Qadeer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Qadeer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 61
+                            }
+                        ],
+                        "text": "Currently, Z3 is used in Spec#/Boogie [2,7], Pex [13], HAVOC [11], Vigilante [3], a verifying C compiler (VCC), and Yogi [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14949618,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4662e89d0e3d3265e894a6e2d0c79c5570475216",
+            "isKey": false,
+            "numCitedBy": 165,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper takes a fresh look at the problem of precise verification of heap-manipulating programs using first-order Satisfiability-Modulo-Theories (SMT) solvers. We augment the specification logic of such solvers by introducing the Logic of Interpreted Sets and Bounded Quantification for specifying properties of heap-manipulating programs. Our logic is expressive, closed under weakest preconditions, and efficiently implementable on top of existing SMT solvers. We have created a prototype implementation of our logic over the solvers Simplify and Z3 and used our prototype to verify many programs. Our preliminary experience is encouraging; the completeness and the efficiency of the decisionprocedure is clearly evident in practice and has greatly improved the user experience of the verifier."
+            },
+            "slug": "Back-to-the-future:-revisiting-precise-program-SMT-Lahiri-Qadeer",
+            "title": {
+                "fragments": [],
+                "text": "Back to the future: revisiting precise program verification using SMT solvers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "The Logic of Interpreted Sets and Bounded Quantification for specifying properties of heap-manipulating programs is introduced, which is expressive, closed under weakest preconditions, and efficiently implementable on top of existing SMT solvers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '08"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145339508"
+                        ],
+                        "name": "D. Detlefs",
+                        "slug": "D.-Detlefs",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Detlefs",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Detlefs"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145802352"
+                        ],
+                        "name": "Greg Nelson",
+                        "slug": "Greg-Nelson",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Nelson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Greg Nelson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1804564"
+                        ],
+                        "name": "J. Saxe",
+                        "slug": "J.-Saxe",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Saxe",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Saxe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 27,
+                                "start": 19
+                            }
+                        ],
+                        "text": "Spec# replaced the Simplify theorem prover by Z3 as the default reasoning engine in May 2007, resulting in substantial performance improvements during theorem proving."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 149,
+                                "start": 146
+                            }
+                        ],
+                        "text": "Equalities asserted by the SAT solver are propagated by the congruence closure core using a data structure that we will call an E-graph following [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 84,
+                                "start": 81
+                            }
+                        ],
+                        "text": "Three textual input-formats are supported: The SMT-LIB [12] format, the Simplify [8] format, and a low-level native format in the spirit of the DIMACS format for propositional SAT formulas."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 16,
+                                "start": 8
+                            }
+                        ],
+                        "text": "SMT-LIB Simplify Native text\nOCaml\nC ."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 9613854,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8c45e059a11b1c6398b45c92610804e1f28336d4",
+            "isKey": true,
+            "numCitedBy": 863,
+            "numCiting": 87,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This article provides a detailed description of the automatic theorem prover Simplify, which is the proof engine of the Extended Static Checkers ESC/Java and ESC/Modula-3. Simplify uses the Nelson--Oppen method to combine decision procedures for several important theories, and also employs a matcher to reason about quantifiers. Instead of conventional matching in a term DAG, Simplify matches up to equivalence in an E-graph, which detects many relevant pattern instances that would be missed by the conventional approach. The article describes two techniques, error context reporting and error localization, for helping the user to determine the reason that a false conjecture is false. The article includes detailed performance figures on conjectures derived from realistic program-checking problems."
+            },
+            "slug": "Simplify:-a-theorem-prover-for-program-checking-Detlefs-Nelson",
+            "title": {
+                "fragments": [],
+                "text": "Simplify: a theorem prover for program checking"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "The article describes two techniques, error context reporting and error localization, for helping the user to determine the reason that a false conjecture is false, and includes detailed performance figures on conjectures derived from realistic program-checking problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "JACM"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3271526"
+                        ],
+                        "name": "Bhargav S. Gulavani",
+                        "slug": "Bhargav-S.-Gulavani",
+                        "structuredName": {
+                            "firstName": "Bhargav",
+                            "lastName": "Gulavani",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bhargav S. Gulavani"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1710285"
+                        ],
+                        "name": "T. Henzinger",
+                        "slug": "T.-Henzinger",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Henzinger",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Henzinger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2095983878"
+                        ],
+                        "name": "Yamini Kannan",
+                        "slug": "Yamini-Kannan",
+                        "structuredName": {
+                            "firstName": "Yamini",
+                            "lastName": "Kannan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yamini Kannan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34894873"
+                        ],
+                        "name": "A. Nori",
+                        "slug": "A.-Nori",
+                        "structuredName": {
+                            "firstName": "Aditya",
+                            "lastName": "Nori",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Nori"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1685546"
+                        ],
+                        "name": "S. Rajamani",
+                        "slug": "S.-Rajamani",
+                        "structuredName": {
+                            "firstName": "Sriram",
+                            "lastName": "Rajamani",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Rajamani"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 6314938,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "03705958cb453b90654564c6b735031b2cb60ba6",
+            "isKey": false,
+            "numCitedBy": 249,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider the problem if a given program satisfies a specified safety property. Interesting programs have infinite state spaces, with inputs ranging over infinite domains, and for these programs the property checking problem is undecidable. Two broad approaches to property checking are testing and verification. Testing tries to find inputs and executions which demonstrate violations of the property. Verification tries to construct a formal proof which shows that all executions of the program satisfy the property. Testing works best when errors are easy to find, but it is often difficult to achieve sufficient coverage for correct programs. On the other hand, verification methods are most successful when proofs are easy to find, but they are often inefficient at discovering errors. We propose a new algorithm, Synergy, which combines testing and verification. Synergy unifies several ideas from the literature, including counterexample-guided model checking, directed testing, and partition refinement.This paper presents a description of the Synergy algorithm, its theoretical properties, a comparison with related algorithms, and a prototype implementation called Yogi."
+            },
+            "slug": "SYNERGY:-a-new-algorithm-for-property-checking-Gulavani-Henzinger",
+            "title": {
+                "fragments": [],
+                "text": "SYNERGY: a new algorithm for property checking"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This paper proposes a new algorithm, Synergy, which combines testing and verification, and unifies several ideas from the literature, including counterexample-guided model checking, directed testing, and partition refinement."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGSOFT '06/FSE-14"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144996001"
+                        ],
+                        "name": "L. D. Moura",
+                        "slug": "L.-D.-Moura",
+                        "structuredName": {
+                            "firstName": "Leonardo",
+                            "lastName": "Moura",
+                            "middleNames": [
+                                "Mendon\u00e7a",
+                                "de"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. D. Moura"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3714351"
+                        ],
+                        "name": "N. Bj\u00f8rner",
+                        "slug": "N.-Bj\u00f8rner",
+                        "structuredName": {
+                            "firstName": "Nikolaj",
+                            "lastName": "Bj\u00f8rner",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Bj\u00f8rner"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10822612,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9c22ecf6afaa8f36b4c2a84cbeb8006ea4697acf",
+            "isKey": false,
+            "numCitedBy": 85,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Model-based-Theory-Combination-Moura-Bj\u00f8rner",
+            "title": {
+                "fragments": [],
+                "text": "Model-based Theory Combination"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Electron. Notes Theor. Comput. Sci."
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2773679"
+                        ],
+                        "name": "B. Dutertre",
+                        "slug": "B.-Dutertre",
+                        "structuredName": {
+                            "firstName": "Bruno",
+                            "lastName": "Dutertre",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Dutertre"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144996001"
+                        ],
+                        "name": "L. D. Moura",
+                        "slug": "L.-D.-Moura",
+                        "structuredName": {
+                            "firstName": "Leonardo",
+                            "lastName": "Moura",
+                            "middleNames": [
+                                "Mendon\u00e7a",
+                                "de"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. D. Moura"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 75,
+                                "start": 72
+                            }
+                        ],
+                        "text": "Z3 uses a linear arithmetic solver based on the algorithm used in Yices [9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12576417,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e64d79a5c57b1f5c6123f230c5c32281c482aaff",
+            "isKey": false,
+            "numCitedBy": 744,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a new Simplex-based linear arithmetic solver that can be integrated efficiently in the DPLL(T) framework. The new solver improves over existing approaches by enabling fast backtracking, supporting a priori simplification to reduce the problem size, and providing an efficient form of theory propagation. We also present a new and simple approach for solving strict inequalities. Experimental results show substantial performance improvements over existing tools that use other Simplex-based solvers in DPLL(T) decision procedures. The new solver is even competitive with state-of-the-art tools specialized for the difference logic fragment."
+            },
+            "slug": "A-Fast-Linear-Arithmetic-Solver-for-DPLL(T)-Dutertre-Moura",
+            "title": {
+                "fragments": [],
+                "text": "A Fast Linear-Arithmetic Solver for DPLL(T)"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 76,
+                "text": "A new Simplex-based linear arithmetic solver that can be integrated efficiently in the DPLL(T) framework by enabling fast backtracking, supporting a priori simplification to reduce the problem size, and providing an efficient form of theory propagation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CAV"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144996001"
+                        ],
+                        "name": "L. D. Moura",
+                        "slug": "L.-D.-Moura",
+                        "structuredName": {
+                            "firstName": "Leonardo",
+                            "lastName": "Moura",
+                            "middleNames": [
+                                "Mendon\u00e7a",
+                                "de"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. D. Moura"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3714351"
+                        ],
+                        "name": "N. Bj\u00f8rner",
+                        "slug": "N.-Bj\u00f8rner",
+                        "structuredName": {
+                            "firstName": "Nikolaj",
+                            "lastName": "Bj\u00f8rner",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Bj\u00f8rner"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 525106,
+            "fieldsOfStudy": [
+                "Business"
+            ],
+            "id": "dbd722b250275cd5fea1f5224eef89bac89a8968",
+            "isKey": false,
+            "numCitedBy": 22,
+            "numCiting": 3,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "SMT solvers that perform search over a large set of constraints need to maintain, update and propagate truth assignments to atomic constraints. Each new truth assignment may lead to additional constraint propagation, which depending on the constraint domain can be costly. Relevancy propagation keeps track of which truth assignments are essential for determining satisfiability of a formula. Atoms that are marked as relevant have their truth assignment propagated to theory solvers, but we can avoid propagating truth assignments for atoms that are not marked as relevant."
+            },
+            "slug": "Relevancy-Propagation-Moura-Bj\u00f8rner",
+            "title": {
+                "fragments": [],
+                "text": "Relevancy Propagation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723967"
+                        ],
+                        "name": "F. Pfenning",
+                        "slug": "F.-Pfenning",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Pfenning",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Pfenning"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 9098517,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d996394a30755d1b4590454183a663bcb81c7410",
+            "isKey": false,
+            "numCitedBy": 179,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Session 1. Invited Talk: Colin Stirling.- Games, Automata and Matching.- Session 2. Higher-Order Logic.- Formalization of Continuous Probability Distributions.- Compilation as Rewriting in Higher Order Logic.- Barendregt's Variable Convention in Rule Inductions.- Automating Elementary Number-Theoretic Proofs Using Grobner Bases.- Session 3. Description Logic.- Optimized Reasoning in Description Logics Using Hypertableaux.- Conservative Extensions in the Lightweight Description Logic .- An Incremental Technique for Automata-Based Decision Procedures.- Session 4. Intuitionistic Logic.- Bidirectional Decision Procedures for the Intuitionistic Propositional Modal Logic IS4.- A Labelled System for IPL with Variable Splitting.- Session 5. Invited Talk: Ashish Tiwari.- Logical Interpretation: Static Program Analysis Using Theorem Proving.- Session 6. Satisfiability Modulo Theories.- Solving Quantified Verification Conditions Using Satisfiability Modulo Theories.- Efficient E-Matching for SMT Solvers.- -Decision by Decomposition.- Towards Efficient Satisfiability Checking for Boolean Algebra with Presburger Arithmetic.- Session 7. Induction, Rewriting, and Polymorphism.- Improvements in Formula Generalization.- On the Normalization and Unique Normalization Properties of Term Rewrite Systems.- Handling Polymorphism in Automated Deduction.- Session 8. First-Order Logic.- Automated Reasoning in Kleene Algebra.- SRASS - A Semantic Relevance Axiom Selection System.- Labelled Clauses.- Automatic Decidability and Combinability Revisited.- Session 9. Invited Talk: K. Rustan M. Leino.- Designing Verification Conditions for Software.- Session 10. Model Checking and Verification.- Encodings of Bounded LTL Model Checking in Effectively Propositional Logic.- Combination Methods for Satisfiability and Model-Checking of Infinite-State Systems.- The KeY system 1.0 (Deduction Component).- KeY-C: A Tool for Verification of C Programs.- The Bedwyr System for Model Checking over Syntactic Expressions.- System for Automated Deduction (SAD): A Tool for Proof Verification.- Session 11. Invited Talk: Peter Baumgartner.- Logical Engineering with Instance-Based Methods.- Session 12. Termination.- Predictive Labeling with Dependency Pairs Using SAT.- Dependency Pairs for Rewriting with Non-free Constructors.- Proving Termination by Bounded Increase.- Certified Size-Change Termination.- Session 13. Tableaux and First-Order Systems.- Encoding First Order Proofs in SAT.- Hyper Tableaux with Equality.- System Description: E- KRHyper.- System Description: Spass Version 3.0."
+            },
+            "slug": "Automated-Deduction-CADE-21,-21st-International-on-Pfenning",
+            "title": {
+                "fragments": [],
+                "text": "Automated Deduction - CADE-21, 21st International Conference on Automated Deduction, Bremen, Germany, July 17-20, 2007, Proceedings"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Improvements in Formula Generalization on the Normalization and Unique Normalization Properties of Term Rewrite Systems and Handling Polymorphism in Automated Deduction."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CADE"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1710751"
+                        ],
+                        "name": "R. DeLine",
+                        "slug": "R.-DeLine",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "DeLine",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. DeLine"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145189240"
+                        ],
+                        "name": "K. Leino",
+                        "slug": "K.-Leino",
+                        "structuredName": {
+                            "firstName": "K.",
+                            "lastName": "Leino",
+                            "middleNames": [
+                                "Rustan",
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Leino"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 84
+                            }
+                        ],
+                        "text": ": TACAS 2008, LNCS 4963, pp. 337\u2013340, 2008. c\u00a9 Springer-Verlag Berlin Heidelberg 2008\nSpec#/Boogie3. generates logical verification conditions from a Spec# program (an extension of C#)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 38
+                            }
+                        ],
+                        "text": "Currently, Z3 is used in Spec#/Boogie [2,7], Pex [13], HAVOC [11], Vigilante [3], a verifying C compiler (VCC), and Yogi [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 37,
+                                "start": 25
+                            }
+                        ],
+                        "text": "The formulas produced by Spec#/Boogie contain universal quantifiers, and also use linear integer arithmetic."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 41412953,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "051ec4b4cbc38d0b42882b8be11ddb42e5324c39",
+            "isKey": false,
+            "numCitedBy": 166,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This note defines BoogiePL, an intermediate language for program analysis and program verification. The language is a simple coarsely typed imperative language with procedures and arrays, plus support for introducing mathematical functions and declaring properties of these functions. BoogiePL can be used to represent programs written in an imperative source language (like an object-oriented .NET language), along with a logical encoding of the semantics of such a source language. From the resulting BoogiePL program, one can then generate verification conditions or perform other program analyses such as the inference of program invariants. In this way, BoogiePL also serves as a programming-notation front end to theorem provers. BoogiePL is accepted as input to Boogie, the Spec# static program verifier."
+            },
+            "slug": "BoogiePL:-A-typed-procedural-language-for-checking-DeLine-Leino",
+            "title": {
+                "fragments": [],
+                "text": "BoogiePL: A typed procedural language for checking object-oriented programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 68,
+                "text": "The language is a simple coarsely typed imperative language with procedures and arrays, plus support for introducing mathematical functions and declaring properties of these functions, which can be used to represent programs written in an imperative source language, along with a logical encoding of the semantics of such a source language."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2803579"
+                        ],
+                        "name": "Mike Barnett",
+                        "slug": "Mike-Barnett",
+                        "structuredName": {
+                            "firstName": "Mike",
+                            "lastName": "Barnett",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mike Barnett"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145189240"
+                        ],
+                        "name": "K. Leino",
+                        "slug": "K.-Leino",
+                        "structuredName": {
+                            "firstName": "K.",
+                            "lastName": "Leino",
+                            "middleNames": [
+                                "Rustan",
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Leino"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695183"
+                        ],
+                        "name": "Wolfram Schulte",
+                        "slug": "Wolfram-Schulte",
+                        "structuredName": {
+                            "firstName": "Wolfram",
+                            "lastName": "Schulte",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wolfram Schulte"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 84
+                            }
+                        ],
+                        "text": ": TACAS 2008, LNCS 4963, pp. 337\u2013340, 2008. c\u00a9 Springer-Verlag Berlin Heidelberg 2008\nSpec#/Boogie3. generates logical verification conditions from a Spec# program (an extension of C#)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 38
+                            }
+                        ],
+                        "text": "Currently, Z3 is used in Spec#/Boogie [2,7], Pex [13], HAVOC [11], Vigilante [3], a verifying C compiler (VCC), and Yogi [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 37,
+                                "start": 25
+                            }
+                        ],
+                        "text": "The formulas produced by Spec#/Boogie contain universal quantifiers, and also use linear integer arithmetic."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 6487419,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "239e8f924eaefba08e461119a2eaebcd43e02247",
+            "isKey": false,
+            "numCitedBy": 1181,
+            "numCiting": 94,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The Spec# programming system is a new attempt at a more cost effective way to develop and maintain high-quality software. This paper describes the goals and architecture of the Spec# programming system, consisting of the object-oriented Spec# programming language, the Spec# compiler, and the Boogie static program verifier. The language includes constructs for writing specifications that capture programmer intentions about how methods and data are to be used, the compiler emits run-time checks to enforce these specifications, and the verifier can check the consistency between a program and its specifications."
+            },
+            "slug": "The-Spec#-Programming-System:-An-Overview-Barnett-Leino",
+            "title": {
+                "fragments": [],
+                "text": "The Spec# Programming System: An Overview"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "The goals and architecture of thespec# programming system, consisting of the object-oriented Spec# programming language, the Spec# compiler, and the Boogie static program verifier, are described."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CASSIS"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1975055"
+                        ],
+                        "name": "N. Tillmann",
+                        "slug": "N.-Tillmann",
+                        "structuredName": {
+                            "firstName": "Nikolai",
+                            "lastName": "Tillmann",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Tillmann"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695183"
+                        ],
+                        "name": "Wolfram Schulte",
+                        "slug": "Wolfram-Schulte",
+                        "structuredName": {
+                            "firstName": "Wolfram",
+                            "lastName": "Schulte",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wolfram Schulte"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 53,
+                                "start": 49
+                            }
+                        ],
+                        "text": "Currently, Z3 is used in Spec#/Boogie [2,7], Pex [13], HAVOC [11], Vigilante [3], a verifying C compiler (VCC), and Yogi [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Pex learns the programbehavior from the execution traces, and Z3 is used to produce new test cases with different behavior."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 25
+                            }
+                        ],
+                        "text": "The formulas produced by Pex contains fixed-sized bit-vectors, tuples, arrays, and quantifiers."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Pex."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 2304945,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "dbaed216728751bdece69dc292e52632bbfae262",
+            "isKey": true,
+            "numCitedBy": 90,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Unit tests are becoming popular. Are there ways to automate the generation of good unit tests? Parameterized unit tests are unit tests that depend on inputs. PUTs describe behavior more concisely than traditional unit tests. We use symbolic execution techniques and constraint solving to find inputs for PUTs that achieve high code coverage, to turn existing unit tests into PUTs, and to generate entirely new PUTs that describe an existing implementation's behavior. Traditional testing benefits from these techniques because test inputs - including the behavior of entire classes - can often be generated automatically from compact PUTs"
+            },
+            "slug": "Unit-tests-reloaded:-parameterized-unit-testing-Tillmann-Schulte",
+            "title": {
+                "fragments": [],
+                "text": "Unit tests reloaded: parameterized unit testing with symbolic execution"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This work uses symbolic execution techniques and constraint solving to find inputs for PUTs that achieve high code coverage, to turn existing unit tests into P UTs, and to generate entirely new PUT's that describe an existing implementation's behavior."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Software"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144434028"
+                        ],
+                        "name": "T. Ball",
+                        "slug": "T.-Ball",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Ball",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Ball"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1685546"
+                        ],
+                        "name": "S. Rajamani",
+                        "slug": "S.-Rajamani",
+                        "structuredName": {
+                            "firstName": "Sriram",
+                            "lastName": "Rajamani",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Rajamani"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 66,
+                                "start": 63
+                            }
+                        ],
+                        "text": "It is being integrated with other projects, including SLAM/SDV [1]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15523605,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5459cd31ff0f182da81d5c58026546b995118676",
+            "isKey": false,
+            "numCitedBy": 974,
+            "numCiting": 56,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The goal of the SLAM project is to check whether or not a program obeys \"API usage rules\" that specify what it means to be a good client of an API. The SLAM toolkit statically analyzes a C program to determine whether or not it violates given usage rules. The toolkit has two unique aspects: it does not require the programmer to annotate the source program (invariants are inferred); it minimizes noise (false error messages) through a process known as \"counterexample-driven refinement\". SLAM exploits and extends results from program analysis, model checking and automated deduction. We have successfully applied the SLAM toolkit to Windows XP device drivers, to both validate behavior and find defects in their usage of kernel APIs."
+            },
+            "slug": "The-SLAM-project:-debugging-system-software-via-Ball-Rajamani",
+            "title": {
+                "fragments": [],
+                "text": "The SLAM project: debugging system software via static analysis"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work has successfully applied the SLAM toolkit to Windows XP device drivers, to both validate behavior and find defects in their usage of kernel APIs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '02"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1762349"
+                        ],
+                        "name": "D. Aspinall",
+                        "slug": "D.-Aspinall",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Aspinall",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Aspinall"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1758624"
+                        ],
+                        "name": "S. Gilmore",
+                        "slug": "S.-Gilmore",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "Gilmore",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Gilmore"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "41173026"
+                        ],
+                        "name": "M. Hofmann",
+                        "slug": "M.-Hofmann",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Hofmann",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Hofmann"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1759767"
+                        ],
+                        "name": "D. Sannella",
+                        "slug": "D.-Sannella",
+                        "structuredName": {
+                            "firstName": "Donald",
+                            "lastName": "Sannella",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Sannella"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3018833"
+                        ],
+                        "name": "I. Stark",
+                        "slug": "I.-Stark",
+                        "structuredName": {
+                            "firstName": "Ian",
+                            "lastName": "Stark",
+                            "middleNames": [
+                                "David",
+                                "Bede"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. Stark"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 215753828,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "37db9cfe51adaa20d0353dd210958e5ca679bfc8",
+            "isKey": false,
+            "numCitedBy": 199,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present the Mobile Resource Guarantees framework: a system for ensuring that downloaded programs are free from run-time violations of resource bounds. Certificates are attached to code in the form of efficiently checkable proofs of resource bounds; in contrast to cryptographic certificates of code origin, these are independent of trust networks. A novel programming language with resource constraints encoded in function types is used to streamline the generation of proofs of resource usage."
+            },
+            "slug": "Mobile-Resource-Guarantees-for-Smart-Devices-Aspinall-Gilmore",
+            "title": {
+                "fragments": [],
+                "text": "Mobile Resource Guarantees for Smart Devices"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 66,
+                "text": "The Mobile Resource Guarantees framework is presented: a system for ensuring that downloaded programs are free from run-time violations of resource bounds, and a novel programming language with resource constraints encoded in function types is used to streamline the generation of proofs of resource usage."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CASSIS"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144638568"
+                        ],
+                        "name": "Manuel Costa",
+                        "slug": "Manuel-Costa",
+                        "structuredName": {
+                            "firstName": "Manuel",
+                            "lastName": "Costa",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Manuel Costa"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144334554"
+                        ],
+                        "name": "J. Crowcroft",
+                        "slug": "J.-Crowcroft",
+                        "structuredName": {
+                            "firstName": "Jon",
+                            "lastName": "Crowcroft",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Crowcroft"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "73527512"
+                        ],
+                        "name": "M. Castro",
+                        "slug": "M.-Castro",
+                        "structuredName": {
+                            "firstName": "Miguel",
+                            "lastName": "Castro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Castro"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1710239"
+                        ],
+                        "name": "A. Rowstron",
+                        "slug": "A.-Rowstron",
+                        "structuredName": {
+                            "firstName": "Antony",
+                            "lastName": "Rowstron",
+                            "middleNames": [
+                                "Ian",
+                                "Taylor"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Rowstron"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "93317102"
+                        ],
+                        "name": "Lidong Zhou",
+                        "slug": "Lidong-Zhou",
+                        "structuredName": {
+                            "firstName": "Lidong",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lidong Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1978393184"
+                        ],
+                        "name": "Lintao Zhang",
+                        "slug": "Lintao-Zhang",
+                        "structuredName": {
+                            "firstName": "Lintao",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lintao Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144758007"
+                        ],
+                        "name": "P. Barham",
+                        "slug": "P.-Barham",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Barham",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Barham"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 80,
+                                "start": 77
+                            }
+                        ],
+                        "text": "Currently, Z3 is used in Spec#/Boogie [2,7], Pex [13], HAVOC [11], Vigilante [3], a verifying C compiler (VCC), and Yogi [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6908840,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cc9ae5b0b797acbdd901d213e6bbabc91547a6d7",
+            "isKey": false,
+            "numCitedBy": 542,
+            "numCiting": 57,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Worm containment must be automatic because worms can spread too fast for humans to respond. Recent work has proposed network-level techniques to automate worm containment; these techniques have limitations because there is no information about the vulnerabilities exploited by worms at the network level. We propose Vigilante, a new end-to-end approach to contain worms automatically that addresses these limitations. Vigilante relies on collaborative worm detection at end hosts, but does not require hosts to trust each other. Hosts run instrumented software to detect worms and broadcast self-certifying alerts (SCAs) upon worm detection. SCAs are proofs of vulnerability that can be inexpensively verified by any vulnerable host. When hosts receive an SCA, they generate filters that block infection by analysing the SCA-guided execution of the vulnerable software. We show that Vigilante can automatically contain fast-spreading worms that exploit unknown vulnerabilities without blocking innocuous traffic."
+            },
+            "slug": "Vigilante:-end-to-end-containment-of-internet-worms-Costa-Crowcroft",
+            "title": {
+                "fragments": [],
+                "text": "Vigilante: end-to-end containment of internet worms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "Vigilante, a new end-to-end approach to contain worms automatically that addresses limitations of network-level techniques, can automatically contain fast-spreading worms that exploit unknown vulnerabilities without blocking innocuous traffic."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SOSP '05"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 59,
+                                "start": 55
+                            }
+                        ],
+                        "text": "Three textual input-formats are supported: The SMT-LIB [12] format, the Simplify [8] format, and a low-level native format in the spirit of the DIMACS format for propositional SAT formulas."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 7,
+                                "start": 0
+                            }
+                        ],
+                        "text": "SMT-LIB Simplify Native text\nOCaml\nC ."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The Satisfiability Modulo Theories Library (SMT-LIB"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "http://www.SMT-LIB.org"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The Satisfiability Modulo Theories Library (SMT-LIB). www.SMT-LIB.org"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The Satisfiability Modulo Theories Library (SMT-LIB). www.SMT-LIB.org"
+            },
+            "year": 2006
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "methodology": 9
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 16,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Z3:-An-Efficient-SMT-Solver-Moura-Bj\u00f8rner/3960dda299e0f8615a7db675b8e6905b375ecf8a?sort=total-citations"
+}

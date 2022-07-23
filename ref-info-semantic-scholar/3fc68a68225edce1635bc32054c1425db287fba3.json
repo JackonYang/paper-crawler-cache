@@ -1,0 +1,3515 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32857606"
+                        ],
+                        "name": "B. Guenter",
+                        "slug": "B.-Guenter",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Guenter",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Guenter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1883205"
+                        ],
+                        "name": "Adam Eversole",
+                        "slug": "Adam-Eversole",
+                        "structuredName": {
+                            "firstName": "Adam",
+                            "lastName": "Eversole",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Adam Eversole"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2787022"
+                        ],
+                        "name": "O. Kuchaiev",
+                        "slug": "O.-Kuchaiev",
+                        "structuredName": {
+                            "firstName": "Oleksii",
+                            "lastName": "Kuchaiev",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Kuchaiev"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1727524"
+                        ],
+                        "name": "M. Seltzer",
+                        "slug": "M.-Seltzer",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Seltzer",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Seltzer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10097837,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "be10813dfd268e9e5e0c6dd3ee6f116e09a0dbbb",
+            "isKey": false,
+            "numCitedBy": 7,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We introduce the stochastic gradient descent algorithm used in the computational network toolkit (CNTK) \u2014 a general purpose machine learning toolkit written in C++ for training and using models that can be expressed as a computational network. We describe the algorithm used to compute the gradients automatically for a given network. We also propose a low-cost automatic learning rate selection algorithm and demonstrate that it works well in practice. 1 Computational Network Toolkit A computational network (CN) is a directed graph in which each leaf represents an input value or a learnable parameter and each node represents an operator. Figure 1 illustrates an example CN of a log-linear model. Here, each node is identified by a {node name : operator type} pair and takes its ordered children as the operator\u2019s inputs. For example, in the figure, T = Times(W,X) which is different from T = Times(X,W). A CN can have many root nodes which are used under different conditions. For example, one root node may represent a cross-entropy training criterion and another may represent an evaluation criterion. The network in Figure 1 has only one root node {C: Cross Entropy}. Many machine learning models, such as neural networks, that can be described via a series of operations, can be converted into a CN. The computational network toolkit (CNTK) is a general purpose C++ based machine learning toolkit for models that can be described as CNs. Figure 2 illustrates the architecture of CNTK. The core of CNTK is an internal representation of a CN which provides two key methods: Evaluate, which computes the value of a node given its inputs and Compute Gradient, which computes the gradient of a node with respect to its inputs. These methods are executed using an IExecutionEngine such as a CPU, a GPU, or a data flow graph such as pTask [1]. ICNBuilder reads the network description (or language) and creates a CN. IDataReader reads in features and labels stored in different formats."
+            },
+            "slug": "Stochastic-Gradient-Descent-Algorithm-in-the-Guenter-Yu",
+            "title": {
+                "fragments": [],
+                "text": "Stochastic Gradient Descent Algorithm in the Computational Network Toolkit"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 94,
+                "text": "The stochastic gradient descent algorithm used in the computational network toolkit (CNTK) \u2014 a general purpose machine learning toolkit written in C++ for training and using models that can be expressed as a computational network is introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784851"
+                        ],
+                        "name": "T. Sainath",
+                        "slug": "T.-Sainath",
+                        "structuredName": {
+                            "firstName": "Tara",
+                            "lastName": "Sainath",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Sainath"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40360972"
+                        ],
+                        "name": "Abdel-rahman Mohamed",
+                        "slug": "Abdel-rahman-Mohamed",
+                        "structuredName": {
+                            "firstName": "Abdel-rahman",
+                            "lastName": "Mohamed",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Abdel-rahman Mohamed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144707379"
+                        ],
+                        "name": "Brian Kingsbury",
+                        "slug": "Brian-Kingsbury",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Kingsbury",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Brian Kingsbury"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1720857"
+                        ],
+                        "name": "B. Ramabhadran",
+                        "slug": "B.-Ramabhadran",
+                        "structuredName": {
+                            "firstName": "Bhuvana",
+                            "lastName": "Ramabhadran",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Ramabhadran"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 13816461,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "57a5fa22f10ce6ccf27286f74a050d2dac037e06",
+            "isKey": false,
+            "numCitedBy": 1011,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Convolutional Neural Networks (CNNs) are an alternative type of neural network that can be used to reduce spectral variations and model spectral correlations which exist in signals. Since speech signals exhibit both of these properties, CNNs are a more effective model for speech compared to Deep Neural Networks (DNNs). In this paper, we explore applying CNNs to large vocabulary speech tasks. First, we determine the appropriate architecture to make CNNs effective compared to DNNs for LVCSR tasks. Specifically, we focus on how many convolutional layers are needed, what is the optimal number of hidden units, what is the best pooling strategy, and the best input feature type for CNNs. We then explore the behavior of neural network features extracted from CNNs on a variety of LVCSR tasks, comparing CNNs to DNNs and GMMs. We find that CNNs offer between a 13-30% relative improvement over GMMs, and a 4-12% relative improvement over DNNs, on a 400-hr Broadcast News and 300-hr Switchboard task."
+            },
+            "slug": "Deep-convolutional-neural-networks-for-LVCSR-Sainath-Mohamed",
+            "title": {
+                "fragments": [],
+                "text": "Deep convolutional neural networks for LVCSR"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This paper determines the appropriate architecture to make CNNs effective compared to DNNs for LVCSR tasks, and explores the behavior of neural network features extracted from CNNs on a variety of LVCSS tasks, comparing CNNs toDNNs and GMMs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145704247"
+                        ],
+                        "name": "James Martens",
+                        "slug": "James-Martens",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Martens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James Martens"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8843166,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e0e5dd8b206806372b3e20b9a2fbdbd0cf9ce1de",
+            "isKey": false,
+            "numCitedBy": 1267,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recurrent Neural Networks (RNNs) are very powerful sequence models that do not enjoy widespread use because it is extremely difficult to train them properly. Fortunately, recent advances in Hessian-free optimization have been able to overcome the difficulties associated with training RNNs, making it possible to apply them successfully to challenging sequence problems. In this paper we demonstrate the power of RNNs trained with the new Hessian-Free optimizer (HF) by applying them to character-level language modeling tasks. The standard RNN architecture, while effective, is not ideally suited for such tasks, so we introduce a new RNN variant that uses multiplicative (or \"gated\") connections which allow the current input character to determine the transition matrix from one hidden state vector to the next. After training the multiplicative RNN with the HF optimizer for five days on 8 high-end Graphics Processing Units, we were able to surpass the performance of the best previous single method for character-level language modeling \u2013 a hierarchical non-parametric sequence model. To our knowledge this represents the largest recurrent neural network application to date."
+            },
+            "slug": "Generating-Text-with-Recurrent-Neural-Networks-Sutskever-Martens",
+            "title": {
+                "fragments": [],
+                "text": "Generating Text with Recurrent Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The power of RNNs trained with the new Hessian-Free optimizer by applying them to character-level language modeling tasks is demonstrated, and a new RNN variant that uses multiplicative connections which allow the current input character to determine the transition matrix from one hidden state vector to the next is introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1393667185"
+                        ],
+                        "name": "Ossama Abdel-Hamid",
+                        "slug": "Ossama-Abdel-Hamid",
+                        "structuredName": {
+                            "firstName": "Ossama",
+                            "lastName": "Abdel-Hamid",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ossama Abdel-Hamid"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8079975,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "655ae6f82c24e3e01b2b27c56512b06ba36d49c1",
+            "isKey": false,
+            "numCitedBy": 354,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recently, convolutional neural networks (CNNs) have been shown to outperform the standard fully connected deep neural networks within the hybrid deep neural network / hidden Markov model (DNN/HMM) framework on the phone recognition task. In this paper, we extend the earlier basic form of the CNN and explore it in multiple ways. We first investigate several CNN architectures, including full and limited weight sharing, convolution along frequency and time axes, and stacking of several convolution layers. We then develop a novel weighted softmax pooling layer so that the size in the pooling layer can be automatically learned. Further, we evaluate the effect of CNN pretraining, which is achieved by using a convolutional version of the RBM. We show that all CNN architectures we have investigated outperform the earlier basic form of the DNN on both the phone recognition and large vocabulary speech recognition tasks. The architecture with limited weight sharing provides additional gains over the full weight sharing architecture. The softmax pooling layer performs as well as the best CNN with the manually tuned fixed-pooling size, and has a potential for further improvement. Finally, we show that CNN pretraining produces significantly better results on a large vocabulary speech recognition task."
+            },
+            "slug": "Exploring-convolutional-neural-network-structures-Abdel-Hamid-Deng",
+            "title": {
+                "fragments": [],
+                "text": "Exploring convolutional neural network structures and optimization techniques for speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "This paper investigates several CNN architectures, including full and limited weight sharing, convolution along frequency and time axes, and stacking of several convolution layers, and develops a novel weighted softmax pooling layer so that the size in the pooled layer can be automatically learned."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2521869"
+                        ],
+                        "name": "Simon Wiesler",
+                        "slug": "Simon-Wiesler",
+                        "structuredName": {
+                            "firstName": "Simon",
+                            "lastName": "Wiesler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Simon Wiesler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32774629"
+                        ],
+                        "name": "Alexander Richard",
+                        "slug": "Alexander-Richard",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Richard",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alexander Richard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3207549"
+                        ],
+                        "name": "Pavel Golik",
+                        "slug": "Pavel-Golik",
+                        "structuredName": {
+                            "firstName": "Pavel",
+                            "lastName": "Golik",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pavel Golik"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144490010"
+                        ],
+                        "name": "R. Schl\u00fcter",
+                        "slug": "R.-Schl\u00fcter",
+                        "structuredName": {
+                            "firstName": "Ralf",
+                            "lastName": "Schl\u00fcter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Schl\u00fcter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145322333"
+                        ],
+                        "name": "H. Ney",
+                        "slug": "H.-Ney",
+                        "structuredName": {
+                            "firstName": "Hermann",
+                            "lastName": "Ney",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Ney"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 5827642,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "28a23135790ea496cf6564cf43b9f3caab6cd632",
+            "isKey": false,
+            "numCitedBy": 55,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes the new release of RASR - the open source version of the well-proven speech recognition toolkit developed and used at RWTH Aachen University. The focus is put on the implementation of the NN module for training neural network acoustic models. We describe code design, configuration, and features of the NN module. The key feature is a high flexibility regarding the network topology, choice of activation functions, training criteria, and optimization algorithm, as well as a built-in support for efficient GPU computing. The evaluation of run-time performance and recognition accuracy is performed exemplary with a deep neural network as acoustic model in a hybrid NN/HMM system. The results show that RASR achieves a state-of-the-art performance on a real-world large vocabulary task, while offering a complete pipeline for building and applying large scale speech recognition systems."
+            },
+            "slug": "RASR/NN:-The-RWTH-neural-network-toolkit-for-speech-Wiesler-Richard",
+            "title": {
+                "fragments": [],
+                "text": "RASR/NN: The RWTH neural network toolkit for speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The results show that RASR achieves a state-of-the-art performance on a real-world large vocabulary task, while offering a complete pipeline for building and applying large scale speech recognition systems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784851"
+                        ],
+                        "name": "T. Sainath",
+                        "slug": "T.-Sainath",
+                        "structuredName": {
+                            "firstName": "Tara",
+                            "lastName": "Sainath",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Sainath"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144707379"
+                        ],
+                        "name": "Brian Kingsbury",
+                        "slug": "Brian-Kingsbury",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Kingsbury",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Brian Kingsbury"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40360972"
+                        ],
+                        "name": "Abdel-rahman Mohamed",
+                        "slug": "Abdel-rahman-Mohamed",
+                        "structuredName": {
+                            "firstName": "Abdel-rahman",
+                            "lastName": "Mohamed",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Abdel-rahman Mohamed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35188630"
+                        ],
+                        "name": "George E. Dahl",
+                        "slug": "George-E.-Dahl",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Dahl",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "George E. Dahl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1698208"
+                        ],
+                        "name": "G. Saon",
+                        "slug": "G.-Saon",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Saon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Saon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38940652"
+                        ],
+                        "name": "H. Soltau",
+                        "slug": "H.-Soltau",
+                        "structuredName": {
+                            "firstName": "Hagen",
+                            "lastName": "Soltau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Soltau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32264500"
+                        ],
+                        "name": "T. Beran",
+                        "slug": "T.-Beran",
+                        "structuredName": {
+                            "firstName": "Tom\u00e1s",
+                            "lastName": "Beran",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Beran"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3386308"
+                        ],
+                        "name": "A. Aravkin",
+                        "slug": "A.-Aravkin",
+                        "structuredName": {
+                            "firstName": "Aleksandr",
+                            "lastName": "Aravkin",
+                            "middleNames": [
+                                "Y."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aravkin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1720857"
+                        ],
+                        "name": "B. Ramabhadran",
+                        "slug": "B.-Ramabhadran",
+                        "structuredName": {
+                            "firstName": "Bhuvana",
+                            "lastName": "Ramabhadran",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Ramabhadran"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 4690220,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "709e40a2614846a48d8e25f114eb2fa6ece853cc",
+            "isKey": false,
+            "numCitedBy": 189,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep Convolutional Neural Networks (CNNs) are more powerful than Deep Neural Networks (DNN), as they are able to better reduce spectral variation in the input signal. This has also been confirmed experimentally, with CNNs showing improvements in word error rate (WER) between 4-12% relative compared to DNNs across a variety of LVCSR tasks. In this paper, we describe different methods to further improve CNN performance. First, we conduct a deep analysis comparing limited weight sharing and full weight sharing with state-of-the-art features. Second, we apply various pooling strategies that have shown improvements in computer vision to an LVCSR speech task. Third, we introduce a method to effectively incorporate speaker adaptation, namely fMLLR, into log-mel features. Fourth, we introduce an effective strategy to use dropout during Hessian-free sequence training. We find that with these improvements, particularly with fMLLR and dropout, we are able to achieve an additional 2-3% relative improvement in WER on a 50-hour Broadcast News task over our previous best CNN baseline. On a larger 400-hour BN task, we find an additional 4-5% relative improvement over our previous best CNN baseline."
+            },
+            "slug": "Improvements-to-Deep-Convolutional-Neural-Networks-Sainath-Kingsbury",
+            "title": {
+                "fragments": [],
+                "text": "Improvements to Deep Convolutional Neural Networks for LVCSR"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A deep analysis comparing limited weight sharing and full weight sharing with state-of-the-art features is conducted and an effective strategy to use dropout during Hessian-free sequence training is introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2013 IEEE Workshop on Automatic Speech Recognition and Understanding"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35188630"
+                        ],
+                        "name": "George E. Dahl",
+                        "slug": "George-E.-Dahl",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Dahl",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "George E. Dahl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723644"
+                        ],
+                        "name": "A. Acero",
+                        "slug": "A.-Acero",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Acero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Acero"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14862572,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6658bbf68995731b2083195054ff45b4eca38b3a",
+            "isKey": false,
+            "numCitedBy": 2684,
+            "numCiting": 93,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a novel context-dependent (CD) model for large-vocabulary speech recognition (LVSR) that leverages recent advances in using deep belief networks for phone recognition. We describe a pre-trained deep neural network hidden Markov model (DNN-HMM) hybrid architecture that trains the DNN to produce a distribution over senones (tied triphone states) as its output. The deep belief network pre-training algorithm is a robust and often helpful way to initialize deep neural networks generatively that can aid in optimization and reduce generalization error. We illustrate the key components of our model, describe the procedure for applying CD-DNN-HMMs to LVSR, and analyze the effects of various modeling choices on performance. Experiments on a challenging business search dataset demonstrate that CD-DNN-HMMs can significantly outperform the conventional context-dependent Gaussian mixture model (GMM)-HMMs, with an absolute sentence accuracy improvement of 5.8% and 9.2% (or relative error reduction of 16.0% and 23.2%) over the CD-GMM-HMMs trained using the minimum phone error rate (MPE) and maximum-likelihood (ML) criteria, respectively."
+            },
+            "slug": "Context-Dependent-Pre-Trained-Deep-Neural-Networks-Dahl-Yu",
+            "title": {
+                "fragments": [],
+                "text": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A pre-trained deep neural network hidden Markov model (DNN-HMM) hybrid architecture that trains the DNN to produce a distribution over senones (tied triphone states) as its output that can significantly outperform the conventional context-dependent Gaussian mixture model (GMM)-HMMs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Audio, Speech, and Language Processing"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1809791"
+                        ],
+                        "name": "K. Chellapilla",
+                        "slug": "K.-Chellapilla",
+                        "structuredName": {
+                            "firstName": "Kumar",
+                            "lastName": "Chellapilla",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Chellapilla"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2568084"
+                        ],
+                        "name": "Sidd Puri",
+                        "slug": "Sidd-Puri",
+                        "structuredName": {
+                            "firstName": "Sidd",
+                            "lastName": "Puri",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sidd Puri"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2812486"
+                        ],
+                        "name": "P. Simard",
+                        "slug": "P.-Simard",
+                        "structuredName": {
+                            "firstName": "Patrice",
+                            "lastName": "Simard",
+                            "middleNames": [
+                                "Y."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Simard"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14936779,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2cc157afda51873c30b195fff56e917b9c06b853",
+            "isKey": false,
+            "numCitedBy": 418,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Convolutional neural networks (CNNs) are well known for producing state-of-the-art recognizers for document processing [1]. However, they can be difficult to implement and are usually slower than traditional multi-layer perceptrons (MLPs). We present three novel approaches to speeding up CNNs: a) unrolling convolution, b) using BLAS (basic linear algebra subroutines), and c) using GPUs (graphic processing units). Unrolled convolution converts the processing in each convolutional layer (both forward-propagation and back-propagation) into a matrix-matrix product. The matrix-matrix product representation of CNNs makes their implementation as easy as MLPs. BLAS is used to efficiently compute matrix products on the CPU. We also present a pixel shader based GPU implementation of CNNs. Results on character recognition problems indicate that unrolled convolution with BLAS produces a dramatic 2.4X\u22123.0X speedup. The GPU implementation is even faster and produces a 3.1X\u22124.1X speedup."
+            },
+            "slug": "High-Performance-Convolutional-Neural-Networks-for-Chellapilla-Puri",
+            "title": {
+                "fragments": [],
+                "text": "High Performance Convolutional Neural Networks for Document Processing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "Three novel approaches to speeding up CNNs are presented: a) unrolling convolution, b) using BLAS (basic linear algebra subroutines), and c) using GPUs (graphic processing units)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2088380885"
+                        ],
+                        "name": "Rui Zhao",
+                        "slug": "Rui-Zhao",
+                        "structuredName": {
+                            "firstName": "Rui",
+                            "lastName": "Zhao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rui Zhao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152319568"
+                        ],
+                        "name": "Jinyu Li",
+                        "slug": "Jinyu-Li",
+                        "structuredName": {
+                            "firstName": "Jinyu",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jinyu Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777280"
+                        ],
+                        "name": "Y. Gong",
+                        "slug": "Y.-Gong",
+                        "structuredName": {
+                            "firstName": "Yifan",
+                            "lastName": "Gong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Gong"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 18513548,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "42ba5f74fe1301c9c5ea1292157daccb7813721b",
+            "isKey": false,
+            "numCitedBy": 10,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, we propose variable-component DNN (VCDNN) to improve the robustness of context-dependent deep neural network hidden Markov model (CD-DNN-HMM). This method is inspired by the idea from variable-parameter HMM (VPHMM) in which the variation of model parameters are modeled as a set of polynomial functions of environmental signal-to-noise ratio (SNR), and during the testing, the model parameters are recomputed according to the estimated testing SNR. In VCDNN, we refine two types of DNN components: (1) weighting matrix and bias (2) the output of each layer. Experimental results on Aurora4 task show VCDNN achieved 6.53% and 5.92% relative word error rate reduction (WERR) over the standard DNN for the two methods, respectively. Under unseen SNR conditions, VCDNN gave even better result (8.46% relative WERR for the DNN varying matrix and bias, 7.08% relative WERR for the DNN varying layer output). Moreover, VCDNN with 1024 units per hidden layer beats the standard DNN with 2048 units per hidden layer with 3.22% WERR and a half computational/memory cost reduction, showing superior ability to produce sharper and more compact models."
+            },
+            "slug": "Variable-component-deep-neural-network-for-robust-Zhao-Li",
+            "title": {
+                "fragments": [],
+                "text": "Variable-component deep neural network for robust speech recognition"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2675251"
+                        ],
+                        "name": "Stefan Kombrink",
+                        "slug": "Stefan-Kombrink",
+                        "structuredName": {
+                            "firstName": "Stefan",
+                            "lastName": "Kombrink",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Stefan Kombrink"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1816892"
+                        ],
+                        "name": "L. Burget",
+                        "slug": "L.-Burget",
+                        "structuredName": {
+                            "firstName": "Luk\u00e1\u0161",
+                            "lastName": "Burget",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Burget"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1899242"
+                        ],
+                        "name": "J. Cernock\u00fd",
+                        "slug": "J.-Cernock\u00fd",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Cernock\u00fd",
+                            "middleNames": [
+                                "Honza"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Cernock\u00fd"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2803071"
+                        ],
+                        "name": "S. Khudanpur",
+                        "slug": "S.-Khudanpur",
+                        "structuredName": {
+                            "firstName": "Sanjeev",
+                            "lastName": "Khudanpur",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Khudanpur"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14850173,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "07ca885cb5cc4328895bfaec9ab752d5801b14cd",
+            "isKey": false,
+            "numCitedBy": 1433,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present several modifications of the original recurrent neural network language model (RNN LM).While this model has been shown to significantly outperform many competitive language modeling techniques in terms of accuracy, the remaining problem is the computational complexity. In this work, we show approaches that lead to more than 15 times speedup for both training and testing phases. Next, we show importance of using a backpropagation through time algorithm. An empirical comparison with feedforward networks is also provided. In the end, we discuss possibilities how to reduce the amount of parameters in the model. The resulting RNN model can thus be smaller, faster both during training and testing, and more accurate than the basic one."
+            },
+            "slug": "Extensions-of-recurrent-neural-network-language-Mikolov-Kombrink",
+            "title": {
+                "fragments": [],
+                "text": "Extensions of recurrent neural network language model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 58,
+                "text": "Several modifications of the original recurrent neural network language model are presented, showing approaches that lead to more than 15 times speedup for both training and testing phases and possibilities how to reduce the amount of parameters in the model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2011 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1681543"
+                        ],
+                        "name": "G. Zweig",
+                        "slug": "G.-Zweig",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Zweig",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Zweig"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 11383176,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d1275b2a2ab53013310e759e5c6878b96df643d4",
+            "isKey": false,
+            "numCitedBy": 550,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recurrent neural network language models (RNNLMs) have recently demonstrated state-of-the-art performance across a variety of tasks. In this paper, we improve their performance by providing a contextual real-valued input vector in association with each word. This vector is used to convey contextual information about the sentence being modeled. By performing Latent Dirichlet Allocation using a block of preceding text, we achieve a topic-conditioned RNNLM. This approach has the key advantage of avoiding the data fragmentation associated with building multiple topic models on different data subsets. We report perplexity results on the Penn Treebank data, where we achieve a new state-of-the-art. We further apply the model to the Wall Street Journal speech recognition task, where we observe improvements in word-error-rate."
+            },
+            "slug": "Context-dependent-recurrent-neural-network-language-Mikolov-Zweig",
+            "title": {
+                "fragments": [],
+                "text": "Context dependent recurrent neural network language model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 56,
+                "text": "This paper improves recurrent neural network language models performance by providing a contextual real-valued input vector in association with each word to convey contextual information about the sentence being modeled by performing Latent Dirichlet Allocation using a block of preceding text."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2012 IEEE Spoken Language Technology Workshop (SLT)"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48081355"
+                        ],
+                        "name": "Yangyang Shi",
+                        "slug": "Yangyang-Shi",
+                        "structuredName": {
+                            "firstName": "Yangyang",
+                            "lastName": "Shi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yangyang Shi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699908"
+                        ],
+                        "name": "P. Wiggers",
+                        "slug": "P.-Wiggers",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Wiggers",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Wiggers"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1689001"
+                        ],
+                        "name": "C. Jonker",
+                        "slug": "C.-Jonker",
+                        "structuredName": {
+                            "firstName": "Catholijn",
+                            "lastName": "Jonker",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Jonker"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10619968,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a8197dfcc85b274d1d6520abed577872bbccbd6b",
+            "isKey": false,
+            "numCitedBy": 44,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent studies show that recurrent neural network language models (RNNLM) perform better than traditional language models such as smoothed n-grams. For traditional models it is known that the addition of for example part-of-speech information and topical information can improve performance. In this paper we investigate the usefulness of additional features for RNNLM. We look at four types of features: POS tags, lemmas, and the topics and the socio-situational setting of a conversation. In our experiments, almost all RNNLM models that make use of extra information outperform our baseline RNNLM model in terms of both perplexity and word prediction accuracy. Whereas the baseline model has a perplexity of 114.79, the model that uses a combination of POS tags, sociosituational settings and lemmas achieves the lowest perplexity result of 83.59, and the combination of all 4 types of features, using a network with 500 hidden neurons, achieves the highest word prediction accuracy of 23.11%."
+            },
+            "slug": "Towards-Recurrent-Neural-Networks-Language-Models-Shi-Wiggers",
+            "title": {
+                "fragments": [],
+                "text": "Towards Recurrent Neural Networks Language Models with Linguistic and Contextual Features"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "In this paper, the usefulness of additional features for RNNLM is investigated by looking at four types of features: POS tags, lemmas, and the topics and the socio-situational setting of a conversation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3308557"
+                        ],
+                        "name": "S. Hochreiter",
+                        "slug": "S.-Hochreiter",
+                        "structuredName": {
+                            "firstName": "Sepp",
+                            "lastName": "Hochreiter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hochreiter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145341374"
+                        ],
+                        "name": "J. Schmidhuber",
+                        "slug": "J.-Schmidhuber",
+                        "structuredName": {
+                            "firstName": "J\u00fcrgen",
+                            "lastName": "Schmidhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schmidhuber"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1915014,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "44d2abe2175df8153f465f6c39b68b76a0d40ab9",
+            "isKey": false,
+            "numCitedBy": 52390,
+            "numCiting": 68,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O. 1. Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms."
+            },
+            "slug": "Long-Short-Term-Memory-Hochreiter-Schmidhuber",
+            "title": {
+                "fragments": [],
+                "text": "Long Short-Term Memory"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A novel, efficient, gradient based method called long short-term memory (LSTM) is introduced, which can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1727524"
+                        ],
+                        "name": "M. Seltzer",
+                        "slug": "M.-Seltzer",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Seltzer",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Seltzer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8930392,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "008e9e2d3908c964d5b1c408c478215709dbea10",
+            "isKey": false,
+            "numCitedBy": 294,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Bottleneck features have been shown to be effective in improving the accuracy of automatic speech recognition (ASR) systems. Conventionally, bottleneck features are extracted from a multi-layer perceptron (MLP) trained to predict context-independent monophone states. The MLP typically has three hidden layers and is trained using the backpropagation algorithm. In this paper, we propose two improvements to the training of bottleneck features motivated by recent advances in the use of deep neural networks (DNNs) for speech recognition. First, we show how the use of unsupervised pretraining of a DNN enhances the network\u2019s discriminative power and improves the bottleneck features it generates. Second, we show that a neural network trained to predict context-dependent senone targets produces better bottleneck features than one trained to predict monophone states. Bottleneck features trained using the proposed methods produced a 16% relative reduction in sentence error rate over conventional bottleneck features on a large vocabulary business search task."
+            },
+            "slug": "Improved-Bottleneck-Features-Using-Pretrained-Deep-Yu-Seltzer",
+            "title": {
+                "fragments": [],
+                "text": "Improved Bottleneck Features Using Pretrained Deep Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "This paper shows how the use of unsupervised pretraining of a DNN enhances the network\u2019s discriminative power and improves the bottleneck features it generates, and shows that a neural networktrained to predict context-dependent senone targets produces better bottleneck features than one trained to predict monophone states."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1393667185"
+                        ],
+                        "name": "Ossama Abdel-Hamid",
+                        "slug": "Ossama-Abdel-Hamid",
+                        "structuredName": {
+                            "firstName": "Ossama",
+                            "lastName": "Abdel-Hamid",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ossama Abdel-Hamid"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40360972"
+                        ],
+                        "name": "Abdel-rahman Mohamed",
+                        "slug": "Abdel-rahman-Mohamed",
+                        "structuredName": {
+                            "firstName": "Abdel-rahman",
+                            "lastName": "Mohamed",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Abdel-rahman Mohamed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36357862"
+                        ],
+                        "name": "Hui Jiang",
+                        "slug": "Hui-Jiang",
+                        "structuredName": {
+                            "firstName": "Hui",
+                            "lastName": "Jiang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hui Jiang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145047294"
+                        ],
+                        "name": "Gerald Penn",
+                        "slug": "Gerald-Penn",
+                        "structuredName": {
+                            "firstName": "Gerald",
+                            "lastName": "Penn",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Gerald Penn"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10042024,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9a9f4bf3bfe133e1c70f6b60654c238b677c66d0",
+            "isKey": false,
+            "numCitedBy": 818,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Convolutional Neural Networks (CNN) have showed success in achieving translation invariance for many image processing tasks. The success is largely attributed to the use of local filtering and max-pooling in the CNN architecture. In this paper, we propose to apply CNN to speech recognition within the framework of hybrid NN-HMM model. We propose to use local filtering and max-pooling in frequency domain to normalize speaker variance to achieve higher multi-speaker speech recognition performance. In our method, a pair of local filtering layer and max-pooling layer is added at the lowest end of neural network (NN) to normalize spectral variations of speech signals. In our experiments, the proposed CNN architecture is evaluated in a speaker independent speech recognition task using the standard TIMIT data sets. Experimental results show that the proposed CNN method can achieve over 10% relative error reduction in the core TIMIT test sets when comparing with a regular NN using the same number of hidden layers and weights. Our results also show that the best result of the proposed CNN model is better than previously published results on the same TIMIT test sets that use a pre-trained deep NN model."
+            },
+            "slug": "Applying-Convolutional-Neural-Networks-concepts-to-Abdel-Hamid-Mohamed",
+            "title": {
+                "fragments": [],
+                "text": "Applying Convolutional Neural Networks concepts to hybrid NN-HMM model for speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "The proposed CNN architecture is applied to speech recognition within the framework of hybrid NN-HMM model to use local filtering and max-pooling in frequency domain to normalize speaker variance to achieve higher multi-speaker speech recognition performance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2012 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1393667185"
+                        ],
+                        "name": "Ossama Abdel-Hamid",
+                        "slug": "Ossama-Abdel-Hamid",
+                        "structuredName": {
+                            "firstName": "Ossama",
+                            "lastName": "Abdel-Hamid",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ossama Abdel-Hamid"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2032998,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2ec87a97d202d5e432ca96490e409d931bbead7f",
+            "isKey": false,
+            "numCitedBy": 164,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We develop and present a novel deep convolutional neural network architecture, where heterogeneous pooling is used to provide constrained frequency-shift invariance in the speech spectrogram while minimizing speech-class confusion induced by such invariance. The design of the pooling layer is guided by domain knowledge about how speech classes would change when formant frequencies are modified. The convolution and heterogeneous-pooling layers are followed by a fully connected multi-layer neural network to form a deep architecture interfaced to an HMM for continuous speech recognition. During training, all layers of this entire deep net are regularized using a variant of the \u201cdropout\u201d technique. Experimental evaluation demonstrates the effectiveness of both heterogeneous pooling and dropout regularization. On the TIMIT phonetic recognition task, we have achieved an 18.7% phone error rate, lowest on this standard task reported in the literature with a single system and with no use of information about speaker identity. Preliminary experiments on large vocabulary speech recognition in a voice search task also show error rate reduction using heterogeneous pooling in the deep convolutional neural network."
+            },
+            "slug": "A-deep-convolutional-neural-network-using-pooling-Deng-Abdel-Hamid",
+            "title": {
+                "fragments": [],
+                "text": "A deep convolutional neural network using heterogeneous pooling for trading acoustic invariance with phonetic confusion"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 91,
+                "text": "A novel deep convolutional neural network architecture is developed, where heterogeneous pooling is used to provide constrained frequency-shift invariance in the speech spectrogram while minimizing speech-class confusion induced by such invariance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3111912"
+                        ],
+                        "name": "Navdeep Jaitly",
+                        "slug": "Navdeep-Jaitly",
+                        "structuredName": {
+                            "firstName": "Navdeep",
+                            "lastName": "Jaitly",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Navdeep Jaitly"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "14902530"
+                        ],
+                        "name": "P. Nguyen",
+                        "slug": "P.-Nguyen",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Nguyen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Nguyen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33666044"
+                        ],
+                        "name": "A. Senior",
+                        "slug": "A.-Senior",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Senior",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Senior"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2657155"
+                        ],
+                        "name": "Vincent Vanhoucke",
+                        "slug": "Vincent-Vanhoucke",
+                        "structuredName": {
+                            "firstName": "Vincent",
+                            "lastName": "Vanhoucke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vincent Vanhoucke"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 13521651,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a4eb9f4fad5c5a1935c6d0532e2c765ee29b0b37",
+            "isKey": false,
+            "numCitedBy": 240,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The use of Deep Belief Networks (DBN) to pretrain Neural Networks has recently led to a resurgence in the use of Artificial Neural Network Hidden Markov Model (ANN/HMM) hybrid systems for Automatic Speech Recognition (ASR). In this paper we report results of a DBN-pretrained context-dependent ANN/HMM system trained on two datasets that are much larger than any reported previously with DBN-pretrained ANN/HMM systems 5870 hours of Voice Search and 1400 hours of YouTube data. On the first dataset, the pretrained ANN/HMM system outperforms the best Gaussian Mixture Model Hidden Markov Model (GMM/HMM) baseline, built with a much larger dataset by 3.7% absolute WER, while on the second dataset, it outperforms the GMM/HMM baseline by 4.7% absolute. Maximum Mutual Information (MMI) fine tuning and model combination using Segmental Conditional Random Fields (SCARF) give additional gains of 0.1% and 0.4% on the first dataset and 0.5% and 0.9% absolute on the second dataset."
+            },
+            "slug": "Application-of-Pretrained-Deep-Neural-Networks-to-Jaitly-Nguyen",
+            "title": {
+                "fragments": [],
+                "text": "Application of Pretrained Deep Neural Networks to Large Vocabulary Speech Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper reports results of a DBN-pretrained context-dependent ANN/HMM system trained on two datasets that are much larger than any reported previously, and outperforms the best Gaussian Mixture Model Hidden Markov Model baseline."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35188630"
+                        ],
+                        "name": "George E. Dahl",
+                        "slug": "George-E.-Dahl",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Dahl",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "George E. Dahl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40360972"
+                        ],
+                        "name": "Abdel-rahman Mohamed",
+                        "slug": "Abdel-rahman-Mohamed",
+                        "structuredName": {
+                            "firstName": "Abdel-rahman",
+                            "lastName": "Mohamed",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Abdel-rahman Mohamed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3111912"
+                        ],
+                        "name": "Navdeep Jaitly",
+                        "slug": "Navdeep-Jaitly",
+                        "structuredName": {
+                            "firstName": "Navdeep",
+                            "lastName": "Jaitly",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Navdeep Jaitly"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33666044"
+                        ],
+                        "name": "A. Senior",
+                        "slug": "A.-Senior",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Senior",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Senior"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2657155"
+                        ],
+                        "name": "Vincent Vanhoucke",
+                        "slug": "Vincent-Vanhoucke",
+                        "structuredName": {
+                            "firstName": "Vincent",
+                            "lastName": "Vanhoucke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vincent Vanhoucke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "14902530"
+                        ],
+                        "name": "P. Nguyen",
+                        "slug": "P.-Nguyen",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Nguyen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Nguyen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784851"
+                        ],
+                        "name": "T. Sainath",
+                        "slug": "T.-Sainath",
+                        "structuredName": {
+                            "firstName": "Tara",
+                            "lastName": "Sainath",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Sainath"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144707379"
+                        ],
+                        "name": "Brian Kingsbury",
+                        "slug": "Brian-Kingsbury",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Kingsbury",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Brian Kingsbury"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 206485943,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "31868290adf1c000c611dfc966b514d5a34e8d23",
+            "isKey": false,
+            "numCitedBy": 7484,
+            "numCiting": 73,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Most current speech recognition systems use hidden Markov models (HMMs) to deal with the temporal variability of speech and Gaussian mixture models (GMMs) to determine how well each state of each HMM fits a frame or a short window of frames of coefficients that represents the acoustic input. An alternative way to evaluate the fit is to use a feed-forward neural network that takes several frames of coefficients as input and produces posterior probabilities over HMM states as output. Deep neural networks (DNNs) that have many hidden layers and are trained using new methods have been shown to outperform GMMs on a variety of speech recognition benchmarks, sometimes by a large margin. This article provides an overview of this progress and represents the shared views of four research groups that have had recent successes in using DNNs for acoustic modeling in speech recognition."
+            },
+            "slug": "Deep-Neural-Networks-for-Acoustic-Modeling-in-The-Hinton-Deng",
+            "title": {
+                "fragments": [],
+                "text": "Deep Neural Networks for Acoustic Modeling in Speech Recognition: The Shared Views of Four Research Groups"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 36,
+                "text": "This article provides an overview of progress and represents the shared views of four research groups that have had recent successes in using DNNs for acoustic modeling in speech recognition."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Signal Processing Magazine"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2166511"
+                        ],
+                        "name": "R. Socher",
+                        "slug": "R.-Socher",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Socher",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Socher"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2585821"
+                        ],
+                        "name": "Cliff Chiung-Yu Lin",
+                        "slug": "Cliff-Chiung-Yu-Lin",
+                        "structuredName": {
+                            "firstName": "Cliff",
+                            "lastName": "Lin",
+                            "middleNames": [
+                                "Chiung-Yu"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Cliff Chiung-Yu Lin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34699434"
+                        ],
+                        "name": "A. Ng",
+                        "slug": "A.-Ng",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Ng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Ng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144783904"
+                        ],
+                        "name": "Christopher D. Manning",
+                        "slug": "Christopher-D.-Manning",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Manning",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher D. Manning"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 18690358,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9c0ddf74f87d154db88d79c640578c1610451eec",
+            "isKey": false,
+            "numCitedBy": 1331,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recursive structure is commonly found in the inputs of different modalities such as natural scene images or natural language sentences. Discovering this recursive structure helps us to not only identify the units that an image or sentence contains but also how they interact to form a whole. We introduce a max-margin structure prediction architecture based on recursive neural networks that can successfully recover such structure both in complex scene images as well as sentences. The same algorithm can be used both to provide a competitive syntactic parser for natural language sentences from the Penn Treebank and to outperform alternative approaches for semantic scene segmentation, annotation and classification. For segmentation and annotation our algorithm obtains a new level of state-of-the-art performance on the Stanford background dataset (78.1%). The features from the image parse tree outperform Gist descriptors for scene classification by 4%."
+            },
+            "slug": "Parsing-Natural-Scenes-and-Natural-Language-with-Socher-Lin",
+            "title": {
+                "fragments": [],
+                "text": "Parsing Natural Scenes and Natural Language with Recursive Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "A max-margin structure prediction architecture based on recursive neural networks that can successfully recover such structure both in complex scene images as well as sentences is introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1681543"
+                        ],
+                        "name": "G. Zweig",
+                        "slug": "G.-Zweig",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Zweig",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Zweig"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1721446"
+                        ],
+                        "name": "K. Makarychev",
+                        "slug": "K.-Makarychev",
+                        "structuredName": {
+                            "firstName": "Konstantin",
+                            "lastName": "Makarychev",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Makarychev"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15449824,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "25eb5bb4eba859b1eaac200ec0c2e4638b7e83b5",
+            "isKey": false,
+            "numCitedBy": 31,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Word-classing has been used in language modeling for two distinct purposes: to improve the likelihood of the language model, and to improve the runtime speed. In particular, frequency-based heuristics have been proposed to improve the speed of recurrent neural network language models (RNN-LMs). In this paper, we present a dynamic programming algorithm for determining classes in a way that provably minimizes the runtime of the resulting class-based language models. However, we also find that the speed-based methods degrade the perplexity of the language models by 5-10% over traditional likelihood-based classing. We remedy this via the introduction of a speed-based regularization term in the likelihood objective function. This achieves a runtime close to that of the speed based methods without loss in perplexity performance. We demonstrate these improvements with both an RNN-LM and the Model M exponential language model, for three different tasks involving two different languages."
+            },
+            "slug": "Speed-regularization-and-optimality-in-word-Zweig-Makarychev",
+            "title": {
+                "fragments": [],
+                "text": "Speed regularization and optimality in word classing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper presents a dynamic programming algorithm for determining classes in a way that provably minimizes the runtime of the resulting class-based language models, and finds that the speed-based methods degrade the perplexity of the language models by 5-10% over traditional likelihood-based classing."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1753223"
+                        ],
+                        "name": "A. Graves",
+                        "slug": "A.-Graves",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Graves",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Graves"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1697424,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "89b1f4740ae37fd04f6ac007577bdd34621f0861",
+            "isKey": false,
+            "numCitedBy": 3176,
+            "numCiting": 36,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper shows how Long Short-term Memory recurrent neural networks can be used to generate complex sequences with long-range structure, simply by predicting one data point at a time. The approach is demonstrated for text (where the data are discrete) and online handwriting (where the data are real-valued). It is then extended to handwriting synthesis by allowing the network to condition its predictions on a text sequence. The resulting system is able to generate highly realistic cursive handwriting in a wide variety of styles."
+            },
+            "slug": "Generating-Sequences-With-Recurrent-Neural-Networks-Graves",
+            "title": {
+                "fragments": [],
+                "text": "Generating Sequences With Recurrent Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "This paper shows how Long Short-term Memory recurrent neural networks can be used to generate complex sequences with long-range structure, simply by predicting one data point at a time."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2645384"
+                        ],
+                        "name": "K. Kavukcuoglu",
+                        "slug": "K.-Kavukcuoglu",
+                        "structuredName": {
+                            "firstName": "Koray",
+                            "lastName": "Kavukcuoglu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kavukcuoglu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3142556"
+                        ],
+                        "name": "Pierre Sermanet",
+                        "slug": "Pierre-Sermanet",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Sermanet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pierre Sermanet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "90841478"
+                        ],
+                        "name": "Y-Lan Boureau",
+                        "slug": "Y-Lan-Boureau",
+                        "structuredName": {
+                            "firstName": "Y-Lan",
+                            "lastName": "Boureau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y-Lan Boureau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144717963"
+                        ],
+                        "name": "Karol Gregor",
+                        "slug": "Karol-Gregor",
+                        "structuredName": {
+                            "firstName": "Karol",
+                            "lastName": "Gregor",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Karol Gregor"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143949035"
+                        ],
+                        "name": "Micha\u00ebl Mathieu",
+                        "slug": "Micha\u00ebl-Mathieu",
+                        "structuredName": {
+                            "firstName": "Micha\u00ebl",
+                            "lastName": "Mathieu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Micha\u00ebl Mathieu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1302462,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8b25a44f617c1ed3ed52c6655b0d456ff1c565bd",
+            "isKey": false,
+            "numCitedBy": 552,
+            "numCiting": 36,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose an unsupervised method for learning multi-stage hierarchies of sparse convolutional features. While sparse coding has become an increasingly popular method for learning visual features, it is most often trained at the patch level. Applying the resulting filters convolutionally results in highly redundant codes because overlapping patches are encoded in isolation. By training convolutionally over large image windows, our method reduces the redudancy between feature vectors at neighboring locations and improves the efficiency of the overall representation. In addition to a linear decoder that reconstructs the image from sparse features, our method trains an efficient feed-forward encoder that predicts quasi-sparse features from the input. While patch-based training rarely produces anything but oriented edge detectors, we show that convolutional training produces highly diverse filters, including center-surround filters, corner detectors, cross detectors, and oriented grating detectors. We show that using these filters in multistage convolutional network architecture improves performance on a number of visual recognition and detection tasks."
+            },
+            "slug": "Learning-Convolutional-Feature-Hierarchies-for-Kavukcuoglu-Sermanet",
+            "title": {
+                "fragments": [],
+                "text": "Learning Convolutional Feature Hierarchies for Visual Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 70,
+                "text": "This work proposes an unsupervised method for learning multi-stage hierarchies of sparse convolutional features and trains an efficient feed-forward encoder that predicts quasi-sparse features from the input."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1895356"
+                        ],
+                        "name": "D. Ciresan",
+                        "slug": "D.-Ciresan",
+                        "structuredName": {
+                            "firstName": "Dan",
+                            "lastName": "Ciresan",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Ciresan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2514691"
+                        ],
+                        "name": "U. Meier",
+                        "slug": "U.-Meier",
+                        "structuredName": {
+                            "firstName": "Ueli",
+                            "lastName": "Meier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "U. Meier"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145341374"
+                        ],
+                        "name": "J. Schmidhuber",
+                        "slug": "J.-Schmidhuber",
+                        "structuredName": {
+                            "firstName": "J\u00fcrgen",
+                            "lastName": "Schmidhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schmidhuber"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 7358104,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "80e1036a5e6539e0d3035dce9245352e15f7138f",
+            "isKey": false,
+            "numCitedBy": 181,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We analyze transfer learning with Deep Neural Networks (DNN) on various character recognition tasks. DNN trained on digits are perfectly capable of recognizing uppercase letters with minimal retraining. They are on par with DNN fully trained on uppercase letters, but train much faster. DNN trained on Chinese characters easily recognize uppercase Latin letters. Learning Chinese characters is accelerated by first pretraining a DNN on a small subset of all classes and then continuing to train on all classes. Furthermore, pretrained nets consistently outperform randomly initialized nets on new tasks with few labeled data."
+            },
+            "slug": "Transfer-learning-for-Latin-and-Chinese-characters-Ciresan-Meier",
+            "title": {
+                "fragments": [],
+                "text": "Transfer learning for Latin and Chinese characters with Deep Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 65,
+                "text": "This work analyzes transfer learning with Deep Neural Networks on various character recognition tasks and finds that pretrained nets consistently outperform randomly initialized nets on new tasks with few labeled data."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The 2012 International Joint Conference on Neural Networks (IJCNN)"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745715"
+                        ],
+                        "name": "F. Seide",
+                        "slug": "F.-Seide",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Seide",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Seide"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2155118983"
+                        ],
+                        "name": "Gang Li",
+                        "slug": "Gang-Li",
+                        "structuredName": {
+                            "firstName": "Gang",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Gang Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109030402"
+                        ],
+                        "name": "Xie Chen",
+                        "slug": "Xie-Chen",
+                        "structuredName": {
+                            "firstName": "Xie",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xie Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 9933050,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7599dfed1de67c726f9e4fd372cc9ef03d2cf3e9",
+            "isKey": false,
+            "numCitedBy": 658,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We investigate the potential of Context-Dependent Deep-Neural-Network HMMs, or CD-DNN-HMMs, from a feature-engineering perspective. Recently, we had shown that for speaker-independent transcription of phone calls (NIST RT03S Fisher data), CD-DNN-HMMs reduced the word error rate by as much as one third\u2014from 27.4%, obtained by discriminatively trained Gaussian-mixture HMMs with HLDA features, to 18.5%\u2014using 300+ hours of training data (Switchboard), 9000+ tied triphone states, and up to 9 hidden network layers."
+            },
+            "slug": "Feature-engineering-in-Context-Dependent-Deep-for-Seide-Li",
+            "title": {
+                "fragments": [],
+                "text": "Feature engineering in Context-Dependent Deep Neural Networks for conversational speech transcription"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 88,
+                "text": "This work investigates the potential of Context-Dependent Deep-Neural-Network HMMs, or CD-DNN-HMMs, from a feature-engineering perspective to reduce the word error rate for speaker-independent transcription of phone calls."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2011 IEEE Workshop on Automatic Speech Recognition & Understanding"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745715"
+                        ],
+                        "name": "F. Seide",
+                        "slug": "F.-Seide",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Seide",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Seide"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143736623"
+                        ],
+                        "name": "Gang Li",
+                        "slug": "Gang-Li",
+                        "structuredName": {
+                            "firstName": "Gang",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Gang Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 398770,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "473f0739666af2791ad6592822118240ed968b70",
+            "isKey": false,
+            "numCitedBy": 878,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Context-Dependent Deep-Neural-Network HMMs, or CD-DNN-HMMs, combine the classic artificial-neural-network HMMs with traditional context-dependent acoustic modeling and deep-belief-network pre-training. CD-DNN-HMMs greatly outperform conventional CD-GMM (Gaussian mixture model) HMMs: The word error rate is reduced by up to one third on the difficult benchmarking task of speaker-independent single-pass transcription of telephone conversations."
+            },
+            "slug": "Conversational-Speech-Transcription-Using-Deep-Seide-Li",
+            "title": {
+                "fragments": [],
+                "text": "Conversational Speech Transcription Using Context-Dependent Deep Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 96,
+                "text": "Context-Dependent Deep-Neural-Network HMMs, or CD-DNN-HMMs, combine the classic artificial-neural-network HMMs with traditional context-dependent acoustic modeling and deep-belief-network pre-training to greatly outperform conventional CD-GMM (Gaussian mixture model) HMMs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1705299"
+                        ],
+                        "name": "L. Atlas",
+                        "slug": "L.-Atlas",
+                        "structuredName": {
+                            "firstName": "Les",
+                            "lastName": "Atlas",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Atlas"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "19270901"
+                        ],
+                        "name": "T. Homma",
+                        "slug": "T.-Homma",
+                        "structuredName": {
+                            "firstName": "Toshiteru",
+                            "lastName": "Homma",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Homma"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47398186"
+                        ],
+                        "name": "R. Marks",
+                        "slug": "R.-Marks",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Marks",
+                            "middleNames": [
+                                "J."
+                            ],
+                            "suffix": "Jr"
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Marks"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 17693062,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "26d3b7f1b8b2b4161f20019eaebf8af7ddcb328e",
+            "isKey": false,
+            "numCitedBy": 49,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "An artificial neural network is developed to recognize spatio-temporal bipolar patterns associatively. The function of a formal neuron is generalized by replacing multiplication with convolution, weights with transfer functions, and thresholding with nonlinear transform following adaptation. The Hebbian learn\u00ad ing rule and the delta learning rule are generalized accordingly, resulting in the learning of weights and delays. The neural network which was first developed for spatial patterns was thus generalized for spatio-temporal patterns. It was tested using a set of bipolar input patterns derived from speech signals, showing robust classification of 30 model phonemes."
+            },
+            "slug": "An-Artificial-Neural-Network-for-Spatio-Temporal-to-Atlas-Homma",
+            "title": {
+                "fragments": [],
+                "text": "An Artificial Neural Network for Spatio-Temporal Bipolar Patterns: Application to Phoneme Classification"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "The neural network which was first developed for spatial patterns was thus generalized for spatio-temporal patterns and tested using a set of bipolar input patterns derived from speech signals, showing robust classification of 30 model phonemes."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145983059"
+                        ],
+                        "name": "A. Griewank",
+                        "slug": "A.-Griewank",
+                        "structuredName": {
+                            "firstName": "Andreas",
+                            "lastName": "Griewank",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Griewank"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143775646"
+                        ],
+                        "name": "A. Walther",
+                        "slug": "A.-Walther",
+                        "structuredName": {
+                            "firstName": "Andrea",
+                            "lastName": "Walther",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Walther"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 35253217,
+            "fieldsOfStudy": [
+                "Biology"
+            ],
+            "id": "cb11771cbfd45aa09e00f1f3b0fc156a087fa544",
+            "isKey": false,
+            "numCitedBy": 2828,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Algorithmic, or automatic, differentiation (AD) is a growing area of theoretical research and software development concerned with the accurate and efficient evaluation of derivatives for function evaluations given as computer programs. The resulting derivative values are useful for all scientific computations that are based on linear, quadratic, or higher order approximations to nonlinear scalar or vector functions. AD has been applied in particular to optimization, parameter identification, nonlinear equation solving, the numerical integration of differential equations, and combinations of these. Apart from quantifying sensitivities numerically, AD also yields structural dependence information, such as the sparsity pattern and generic rank of Jacobian matrices. The field opens up an exciting opportunity to develop new algorithms that reflect the true cost of accurate derivatives and to use them for improvements in speed and reliability. This second edition has been updated and expanded to cover recent developments in applications and theory, including an elegant NP completeness argument by Uwe Naumann and a brief introduction to scarcity, a generalization of sparsity. There is also added material on checkpointing and iterative differentiation. To improve readability the more detailed analysis of memory and complexity bounds has been relegated to separate, optional chapters.The book consists of three parts: a stand-alone introduction to the fundamentals of AD and its software; a thorough treatment of methods for sparse problems; and final chapters on program-reversal schedules, higher derivatives, nonsmooth problems and iterative processes. Each of the 15 chapters concludes with examples and exercises. Audience: This volume will be valuable to designers of algorithms and software for nonlinear computational problems. Current numerical software users should gain the insight necessary to choose and deploy existing AD software tools to the best advantage. Contents: Rules; Preface; Prologue; Mathematical Symbols; Chapter 1: Introduction; Chapter 2: A Framework for Evaluating Functions; Chapter 3: Fundamentals of Forward and Reverse; Chapter 4: Memory Issues and Complexity Bounds; Chapter 5: Repeating and Extending Reverse; Chapter 6: Implementation and Software; Chapter 7: Sparse Forward and Reverse; Chapter 8: Exploiting Sparsity by Compression; Chapter 9: Going beyond Forward and Reverse; Chapter 10: Jacobian and Hessian Accumulation; Chapter 11: Observations on Efficiency; Chapter 12: Reversal Schedules and Checkpointing; Chapter 13: Taylor and Tensor Coefficients; Chapter 14: Differentiation without Differentiability; Chapter 15: Implicit and Iterative Differentiation; Epilogue; List of Figures; List of Tables; Assumptions and Definitions; Propositions, Corollaries, and Lemmas; Bibliography; Index"
+            },
+            "slug": "Evaluating-derivatives-principles-and-techniques-of-Griewank-Walther",
+            "title": {
+                "fragments": [],
+                "text": "Evaluating derivatives - principles and techniques of algorithmic differentiation, Second Edition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This second edition has been updated and expanded to cover recent developments in applications and theory, including an elegant NP completeness argument by Uwe Naumann and a brief introduction to scarcity, a generalization of sparsity."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Frontiers in applied mathematics"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32857606"
+                        ],
+                        "name": "B. Guenter",
+                        "slug": "B.-Guenter",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Guenter",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Guenter"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 5952844,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ed34637f6a576ecfaa79263eef3a9e7b48e3f69c",
+            "isKey": false,
+            "numCitedBy": 23,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Functions with densely interconnected expression graphs, which arise in computer graphics applications such as dynamics, space-time optimization, and PRT, can be difficult to efficiently differentiate using existing symbolic or automatic differentiation techniques. Our new algorithm, D*, computes efficient symbolic derivatives for these functions by symbolically executing the expression graph at compile time to eliminate common subexpressions and by exploiting the special nature of the graph that represents the derivative of a function. This graph has a sum of products form; the new algorithm computes a factorization of this derivative graph along with an efficient grouping of product terms into subexpressions. For the problems in our test suite D* generates symbolic derivatives which are up to 4.6 x 103 times faster than those computed by the symbolic math program Mathematica and up to 2.2x105 times faster than the non-symbolic automatic differentiation program CppAD. In some cases the D* derivatives rival the best manually derived solutions."
+            },
+            "slug": "Efficient-symbolic-differentiation-for-graphics-Guenter",
+            "title": {
+                "fragments": [],
+                "text": "Efficient symbolic differentiation for graphics applications"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "The new algorithm, D*, computes efficient symbolic derivatives for functions with densely interconnected expression graphs by symbolically executing the expression graph at compile time to eliminate common subexpressions and by exploiting the special nature of the graph that represents the derivative of a function."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Graph."
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1710850"
+                        ],
+                        "name": "C. Bischof",
+                        "slug": "C.-Bischof",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Bischof",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Bischof"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3157288"
+                        ],
+                        "name": "L. Roh",
+                        "slug": "L.-Roh",
+                        "structuredName": {
+                            "firstName": "Lucas",
+                            "lastName": "Roh",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Roh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1406445135"
+                        ],
+                        "name": "A. Mauer-Oats",
+                        "slug": "A.-Mauer-Oats",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Mauer-Oats",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Mauer-Oats"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 9699067,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c19cb622723bc595f5c19af47ff867235a99064c",
+            "isKey": false,
+            "numCitedBy": 194,
+            "numCiting": 71,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In scientific computing, we often require the derivatives \u2202f/\u2202x of a function f expressed as a program with respect to some input parameter(s) x, say. Automatic Differentiation (AD) techniques augment the program with derivative computation by applying the chain rule of calculus to elementary operations in an automated fashion. This article introduces ADIC (Automatic Differentiation of C), a new AD tool for ANSI-C programs. ADIC is currently the only tool for ANSI-C that employs a source-to-source program transformation approach; that is, it takes a C code and produces a new C code that computes the original results as well as the derivatives. We first present ADIC \u2018by example\u2019 to illustrate the functionality and ease of use of ADIC and then describe in detail the architecture of ADIC. ADIC incorporates a modular design that provides a foundation for both rapid prototyping of better AD algorithms and their sharing across AD tools for different languages. A component architecture called AIF (Automatic Differentiation Intermediate Form) separates core AD concepts from their language-specific implementation and allows the development of generic AD modules that can be reused directly in other AIF-based AD tools. The language-specific ADIC front-end and back-end canonicalize C programs to make them fit for semantic augmentation and manage, for example, the association of a program variable with its derivative object. We also report on applications of ADIC to a semiconductor device simulator, 3-D CFD grid generator, vehicle simulator, and neural network code. \u00a9 1997 John Wiley & Sons, Ltd."
+            },
+            "slug": "ADIC:-An-Extensible-Automatic-Differentiation-Tool-Bischof-Roh",
+            "title": {
+                "fragments": [],
+                "text": "ADIC: An Extensible Automatic Differentiation Tool for ANSI-C"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "ADIC (Automatic Differentiation of C), a new AD tool for ANSI-C programs, is introduced and a modular design that provides a foundation for both rapid prototyping of better AD algorithms and their sharing across AD tools for different languages is described."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Softw. Pract. Exp."
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1715952"
+                        ],
+                        "name": "A. Aho",
+                        "slug": "A.-Aho",
+                        "structuredName": {
+                            "firstName": "Alfred",
+                            "lastName": "Aho",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706504"
+                        ],
+                        "name": "J. Hopcroft",
+                        "slug": "J.-Hopcroft",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Hopcroft",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Hopcroft"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1742391"
+                        ],
+                        "name": "J. Ullman",
+                        "slug": "J.-Ullman",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Ullman",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Ullman"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 64893718,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "55395c610edc5e271b8991118ca3638973e53b77",
+            "isKey": false,
+            "numCitedBy": 2008,
+            "numCiting": 45,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "From the Publisher: \nThis book presents the data structures and algorithms that underpin much of today's computer programming. The basis of this book is the material contained in the first six chapters of our earlier work, The Design and Analysis of Computer Algorithms. We have expanded that coverage and have added material on algorithms for external storage and memory management. As a consequence, this book should be suitable as a text for a first course on data structures and algorithms. The only prerequisite we assume is familiarity with some high-level programming language such as Pascal."
+            },
+            "slug": "Data-Structures-and-Algorithms-Aho-Hopcroft",
+            "title": {
+                "fragments": [],
+                "text": "Data Structures and Algorithms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "The basis of this book is the material contained in the first six chapters of the earlier work, The Design and Analysis of Computer Algorithms, and has added material on algorithms for external storage and memory management."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1983
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1721050"
+                        ],
+                        "name": "R. Tarjan",
+                        "slug": "R.-Tarjan",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Tarjan",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Tarjan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16467262,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "385742fffcf113656f0d3cf6c06ef95cb8439dc6",
+            "isKey": false,
+            "numCitedBy": 6206,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The value of depth-first search or \u201cbacktracking\u201d as a technique for solving problems is illustrated by two examples. An improved version of an algorithm for finding the strongly connected components of a directed graph and at algorithm for finding the biconnected components of an undirect graph are presented. The space and time requirements of both algorithms are bounded by $k_1 V + k_2 E + k_3 $ for some constants $k_1 ,k_2 $, and $k_3 $, where V is the number of vertices and E is the number of edges of the graph being examined."
+            },
+            "slug": "Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan",
+            "title": {
+                "fragments": [],
+                "text": "Depth-First Search and Linear Graph Algorithms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 99,
+                "text": "The value of depth-first search or \u201cbacktracking\u201d as a technique for solving problems is illustrated by two examples of an improved version of an algorithm for finding the strongly connected components of a directed graph."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIAM J. Comput."
+            },
+            "year": 1972
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1708185949"
+                        ],
+                        "name": "Cornetto",
+                        "slug": "Cornetto",
+                        "structuredName": {
+                            "firstName": "",
+                            "lastName": "Cornetto",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Cornetto"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 218517809,
+            "fieldsOfStudy": [],
+            "id": "72c19d84a7a45529da8bf98d1fc21faa981057e6",
+            "isKey": false,
+            "numCitedBy": 245,
+            "numCiting": 1,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Test-Cornetto",
+            "title": {
+                "fragments": [],
+                "text": "Test"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2020
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 6916627,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "563e821bb5ea825efb56b77484f5287f08cf3753",
+            "isKey": false,
+            "numCitedBy": 4128,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Convolutional-networks-for-images,-speech,-and-time-LeCun-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Convolutional networks for images, speech, and time series"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Theano: a CPU and GPU math expression compiler"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the Python for scientific computing conference (SciPy)"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "WriteWordAndClass Command, 74 Writing network outputs"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WriteWordAndClass Command, 74 Writing network outputs"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Data structures and algorithms. Pearson education"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Data structures and algorithms. Pearson education"
+            },
+            "year": 1983
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "train-dr1-fcjf0-si1027"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "train-dr1-fcjf0-si1027"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "1 Training"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "1 Training"
+            }
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {},
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 38,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/An-introduction-to-computational-networks-and-the-Yu-Eversole/3fc68a68225edce1635bc32054c1425db287fba3?sort=total-citations"
+}

@@ -1,0 +1,2303 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2518416"
+                        ],
+                        "name": "Jonghong Kim",
+                        "slug": "Jonghong-Kim",
+                        "structuredName": {
+                            "firstName": "Jonghong",
+                            "lastName": "Kim",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonghong Kim"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2549369"
+                        ],
+                        "name": "Kyuyeon Hwang",
+                        "slug": "Kyuyeon-Hwang",
+                        "structuredName": {
+                            "firstName": "Kyuyeon",
+                            "lastName": "Hwang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kyuyeon Hwang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145057126"
+                        ],
+                        "name": "Wonyong Sung",
+                        "slug": "Wonyong-Sung",
+                        "structuredName": {
+                            "firstName": "Wonyong",
+                            "lastName": "Sung",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wonyong Sung"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 160,
+                                "start": 157
+                            }
+                        ],
+                        "text": "In this paper, we propose a high performance fixed-point optimization method that can greatly reduce the word-length of weights and signals for implementing DNNs."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 139,
+                                "start": 135
+                            }
+                        ],
+                        "text": "The early-version of the proposed fixed point optimization method was successfully used in our singlechip VLSI implementation of a DNN [12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 68
+                            }
+                        ],
+                        "text": "TABLE IV compares the performance of floating-point and fixed-point DNNs for phoneme recognition when the number of units in each hidden layer varies from 128 to 1024."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 7,
+                                "start": 4
+                            }
+                        ],
+                        "text": "For DNNs of hidden layer size 128 and 256, we ran 30 and 20 epochs, respectively, for both fine-tuning and retraining thanks to less severe overfitting."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 47
+                            }
+                        ],
+                        "text": "We also examine the performance of fixed-point DNNs with dropout [10], [11], which is a recently developed strong regularization technique."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 37
+                            }
+                        ],
+                        "text": "The proposed scheme allows design of DNNs for real-world problems only with ternary (+1, 0, and -1) weights and 2 or 3 bits of fixedpoint signals."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 53,
+                                "start": 50
+                            }
+                        ],
+                        "text": "I. INTRODUCTION\nFeedforward deep neural networks (DNNs) with multiple hidden layers have outperformed conventional machine learning algorithms in various fields including speech and image recognition [1]\u2013[3]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 29,
+                                "start": 26
+                            }
+                        ],
+                        "text": "However, high performance DNN algorithms contain many weights."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 18,
+                                "start": 15
+                            }
+                        ],
+                        "text": "For example, a DNN for acoustic modeling of speech recognition employs about 20 million weights [3]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 907206,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e277762804aa4615b2258fbd367d91326c00b90e",
+            "isKey": false,
+            "numCitedBy": 50,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep neural networks show very good performance in phoneme and speech recognition applications when compared to previously used GMM (Gaussian Mixture Model)-based ones. However, efficient implementation of deep neural networks is difficult because the network size needs to be very large when high recognition accuracy is demanded. In this work, we develop a digital VLSI for phoneme recognition using deep neural networks and assess the design in terms of throughput, chip size, and power consumption. The developed VLSI employs a fixed-point optimization method that only uses +\u0394, 0, and -\u0394 for representing each of the weight. The design employs 1,024 simple processing units in each layer, which however can be scaled easily according to the needed throughput, and the throughput of the architecture varies from 62.5 to 1,000 times of the real-time processing speed."
+            },
+            "slug": "X1000-real-time-phoneme-recognition-VLSI-using-deep-Kim-Hwang",
+            "title": {
+                "fragments": [],
+                "text": "X1000 real-time phoneme recognition VLSI using feed-forward deep neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work develops a digital VLSI for phoneme recognition using deep neural networks and assess the design in terms of throughput, chip size, and power consumption."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32744106"
+                        ],
+                        "name": "Chuan Zhang Tang",
+                        "slug": "Chuan-Zhang-Tang",
+                        "structuredName": {
+                            "firstName": "Chuan",
+                            "lastName": "Tang",
+                            "middleNames": [
+                                "Zhang"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chuan Zhang Tang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1781941"
+                        ],
+                        "name": "H. Kwan",
+                        "slug": "H.-Kwan",
+                        "structuredName": {
+                            "firstName": "Hon",
+                            "lastName": "Kwan",
+                            "middleNames": [
+                                "Keung"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Kwan"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 93
+                            }
+                        ],
+                        "text": "Instead of direct weight quantization, retraining with backpropagation was developed in [7], [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 95,
+                                "start": 92
+                            }
+                        ],
+                        "text": "There have been many studies about efficient hardware implementation of neural networks [4]\u2013[8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13085796,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6dc04a1b6be52df56be6581fcd6460a0fd5c5521",
+            "isKey": false,
+            "numCitedBy": 61,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A new algorithm for designing multilayer feedforward neural networks with single powers-of-two weights is presented. By applying this algorithm, the digital hardware implementation of such networks becomes easier as a result of the elimination of multipliers. This proposed algorithm consists of two stages. First, the network is trained by using the standard backpropagation algorithm. Weights are then quantized to single powers-of-two values, and weights and slopes of activation functions are adjusted adaptively to reduce the sum of squared output errors to a specified level. Simulation results indicate that the multilayer feedforward neural networks with single powers-of-two weights obtained using the proposed algorithm have generalization performance similar to that of the original networks with continuous weights. >"
+            },
+            "slug": "Multilayer-feedforward-neural-networks-with-single-Tang-Kwan",
+            "title": {
+                "fragments": [],
+                "text": "Multilayer feedforward neural networks with single powers-of-two weights"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 60,
+                "text": "Simulation results indicate that the multilayer feedforward neural networks with single powers-of-two weights obtained using the proposed algorithm have generalization performance similar to that of the original networks with continuous weights."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Signal Process."
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2588465"
+                        ],
+                        "name": "J. L. Holt",
+                        "slug": "J.-L.-Holt",
+                        "structuredName": {
+                            "firstName": "Jordan",
+                            "lastName": "Holt",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. L. Holt"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145159381"
+                        ],
+                        "name": "Jenq-Neng Hwang",
+                        "slug": "Jenq-Neng-Hwang",
+                        "structuredName": {
+                            "firstName": "Jenq-Neng",
+                            "lastName": "Hwang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jenq-Neng Hwang"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 1353891,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4b119dc8a4e38824d73a9f88179935a96e001aaf",
+            "isKey": false,
+            "numCitedBy": 239,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Through parallel processing, low precision fixed point hardware can be used to build a very high speed neural network computing engine where the low precision results in a drastic reduction in system cost. The reduced silicon area required to implement a single processing unit is taken advantage of by implementing multiple processing units on a single piece of silicon and operating them in parallel. The important question which arises is how much precision is required to implement neural network algorithms on this low precision hardware. A theoretical analysis of error due to finite precision computation was undertaken to determine the necessary precision for successful forward retrieving and back-propagation learning in a multilayer perceptron. This analysis can easily be further extended to provide a general finite precision analysis technique by which most neural network algorithms under any set of hardware constraints may be evaluated. >"
+            },
+            "slug": "Finite-Precision-Error-Analysis-of-Neural-Network-Holt-Hwang",
+            "title": {
+                "fragments": [],
+                "text": "Finite Precision Error Analysis of Neural Network Hardware Implementations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A theoretical analysis of error due to finite precision computation was undertaken to determine the necessary precision for successful forward retrieving and back-propagation learning in a multilayer perceptron."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Computers"
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1851823"
+                        ],
+                        "name": "P. Moerland",
+                        "slug": "P.-Moerland",
+                        "structuredName": {
+                            "firstName": "Perry",
+                            "lastName": "Moerland",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Moerland"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694181"
+                        ],
+                        "name": "E. Fiesler",
+                        "slug": "E.-Fiesler",
+                        "structuredName": {
+                            "firstName": "Emile",
+                            "lastName": "Fiesler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Fiesler"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 91,
+                                "start": 88
+                            }
+                        ],
+                        "text": "There have been many studies about efficient hardware implementation of neural networks [4]\u2013[8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 60930620,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f23d8071d175c775d0806ff681942daad216cfd1",
+            "isKey": false,
+            "numCitedBy": 83,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In order to take advantage of the massive parallelism offered by artificial neural networks, hardware implementations are essential. However, most standard neural network models are not very suitable for implementation in hardware and adaptations are needed. In this section an overview is given of the various issues that are encountered when mapping an ideal neural network model onto a compact and reliable neural network hardware implementation, like quantization, handling nonuniformities and nonideal responses, and restraining computational complexity. Furthermore, a broad range of hardware-friendly learning rules is presented, which allow for simpler and more reliable hardware implementations. The relevance of these neural network adaptations to hardware is illustrated by their application in existing hardware implementations."
+            },
+            "slug": "Neural-Network-Adaptations-to-Hardware-Moerland-Fiesler",
+            "title": {
+                "fragments": [],
+                "text": "Neural Network Adaptations to Hardware Implementations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "In this section an overview is given of the various issues that are encountered when mapping an ideal neural network model onto a compact and reliable neural network hardware implementation, like quantization, handling nonuniformities and nonideal responses, and restraining computational complexity."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745715"
+                        ],
+                        "name": "F. Seide",
+                        "slug": "F.-Seide",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Seide",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Seide"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2155118983"
+                        ],
+                        "name": "Gang Li",
+                        "slug": "Gang-Li",
+                        "structuredName": {
+                            "firstName": "Gang",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Gang Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 202,
+                                "start": 199
+                            }
+                        ],
+                        "text": "Recently, a research work that tries to increase the sparseness of the weights by pruning out small valued ones has been developed in order to reduce the model size and the execution time with a CPU [9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10835319,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1c2c11e60755fc1df95f57edc37875e2b43cd946",
+            "isKey": false,
+            "numCitedBy": 149,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recently, we developed context-dependent deep neural network (DNN) hidden Markov models for large vocabulary speech recognition. While reducing errors by 33% compared to its discriminatively trained Gaussian-mixture counterpart on the switchboard benchmark task, DNN requires much more parameters. In this paper, we report our recent work on DNN for improved generalization, model size, and computation speed by exploiting parameter sparseness. We formulate the goal of enforcing sparseness as soft regularization and convex constraint optimization problems, and propose solutions under the stochastic gradient ascent setting. We also propose novel data structures to exploit the random sparseness patterns to reduce model size and computation time. The proposed solutions have been evaluated on the voice-search and switchboard datasets. They have decreased the number of nonzero connections to one third while reducing the error rate by 0.2-0.3% over the fully connected model on both datasets. The nonzero connections have been further reduced to only 12% and 19% on the two respective datasets without sacrificing speech recognition performance. Under these conditions we can reduce the model size to 18% and 29%, and computation to 14% and 23%, respectively, on these two datasets."
+            },
+            "slug": "Exploiting-sparseness-in-deep-neural-networks-for-Yu-Seide",
+            "title": {
+                "fragments": [],
+                "text": "Exploiting sparseness in deep neural networks for large vocabulary speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The goal of enforcing sparseness as soft regularization and convex constraint optimization problems is formulated, solutions under the stochastic gradient ascent setting are proposed, and novel data structures are proposed to exploit the randomSparseness patterns to reduce model size and computation time."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2012 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35188630"
+                        ],
+                        "name": "George E. Dahl",
+                        "slug": "George-E.-Dahl",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Dahl",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "George E. Dahl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784851"
+                        ],
+                        "name": "T. Sainath",
+                        "slug": "T.-Sainath",
+                        "structuredName": {
+                            "firstName": "Tara",
+                            "lastName": "Sainath",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Sainath"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 75,
+                                "start": 71
+                            }
+                        ],
+                        "text": "We also examine the performance of fixed-point DNNs with dropout [10], [11], which is a recently developed strong regularization technique."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 45
+                            }
+                        ],
+                        "text": "We also examine the effects of dropout [10], [11], which is known as very strong regularization technique, and show that dropout can be used together to further increases the performance of the quantized neural network."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6299466,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1a3c74c7b11ad5635570932577cdde2a3f7a6a5c",
+            "isKey": false,
+            "numCitedBy": 1192,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recently, pre-trained deep neural networks (DNNs) have outperformed traditional acoustic models based on Gaussian mixture models (GMMs) on a variety of large vocabulary speech recognition benchmarks. Deep neural nets have also achieved excellent results on various computer vision tasks using a random \u201cdropout\u201d procedure that drastically improves generalization error by randomly omitting a fraction of the hidden units in all layers. Since dropout helps avoid over-fitting, it has also been successful on a small-scale phone recognition task using larger neural nets. However, training deep neural net acoustic models for large vocabulary speech recognition takes a very long time and dropout is likely to only increase training time. Neural networks with rectified linear unit (ReLU) non-linearities have been highly successful for computer vision tasks and proved faster to train than standard sigmoid units, sometimes also improving discriminative performance. In this work, we show on a 50-hour English Broadcast News task that modified deep neural networks using ReLUs trained with dropout during frame level training provide an 4.2% relative improvement over a DNN trained with sigmoid units, and a 14.4% relative improvement over a strong GMM/HMM system. We were able to obtain our results with minimal human hyper-parameter tuning using publicly available Bayesian optimization code."
+            },
+            "slug": "Improving-deep-neural-networks-for-LVCSR-using-and-Dahl-Sainath",
+            "title": {
+                "fragments": [],
+                "text": "Improving deep neural networks for LVCSR using rectified linear units and dropout"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Modelling deep neural networks with rectified linear unit (ReLU) non-linearities with minimal human hyper-parameter tuning on a 50-hour English Broadcast News task shows an 4.2% relative improvement over a DNN trained with sigmoid units, and a 14.4% relative improved over a strong GMM/HMM system."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2897313"
+                        ],
+                        "name": "Nitish Srivastava",
+                        "slug": "Nitish-Srivastava",
+                        "structuredName": {
+                            "firstName": "Nitish",
+                            "lastName": "Srivastava",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nitish Srivastava"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145124475"
+                        ],
+                        "name": "R. Salakhutdinov",
+                        "slug": "R.-Salakhutdinov",
+                        "structuredName": {
+                            "firstName": "Ruslan",
+                            "lastName": "Salakhutdinov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Salakhutdinov"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 69,
+                                "start": 65
+                            }
+                        ],
+                        "text": "We also examine the performance of fixed-point DNNs with dropout [10], [11], which is a recently developed strong regularization technique."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 39
+                            }
+                        ],
+                        "text": "We also examine the effects of dropout [10], [11], which is known as very strong regularization technique, and show that dropout can be used together to further increases the performance of the quantized neural network."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14832074,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1366de5bb112746a555e9c0cd00de3ad8628aea8",
+            "isKey": false,
+            "numCitedBy": 6242,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "When a large feedforward neural network is trained on a small training set, it typically performs poorly on held-out test data. This \"overfitting\" is greatly reduced by randomly omitting half of the feature detectors on each training case. This prevents complex co-adaptations in which a feature detector is only helpful in the context of several other specific feature detectors. Instead, each neuron learns to detect a feature that is generally helpful for producing the correct answer given the combinatorially large variety of internal contexts in which it must operate. Random \"dropout\" gives big improvements on many benchmark tasks and sets new records for speech and object recognition."
+            },
+            "slug": "Improving-neural-networks-by-preventing-of-feature-Hinton-Srivastava",
+            "title": {
+                "fragments": [],
+                "text": "Improving neural networks by preventing co-adaptation of feature detectors"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694181"
+                        ],
+                        "name": "E. Fiesler",
+                        "slug": "E.-Fiesler",
+                        "structuredName": {
+                            "firstName": "Emile",
+                            "lastName": "Fiesler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Fiesler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "29288011"
+                        ],
+                        "name": "A. Choudry",
+                        "slug": "A.-Choudry",
+                        "structuredName": {
+                            "firstName": "Amar",
+                            "lastName": "Choudry",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Choudry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49427181"
+                        ],
+                        "name": "H. Caulfield",
+                        "slug": "H.-Caulfield",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "Caulfield",
+                            "middleNames": [
+                                "John"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Caulfield"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 91,
+                                "start": 88
+                            }
+                        ],
+                        "text": "Instead of direct weight quantization, retraining with backpropagation was developed in [7], [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 62160723,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "843d0f89223e18f20c6d7b1e9e4cc87db1735f0a",
+            "isKey": false,
+            "numCitedBy": 63,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Neural networks are a primary candidate architecture for optical computing. One of the major problems in using neural networks for optical computers is that the information holders: the interconnection strengths (or weights) are normally real valued (continuous), whereas optics (light) is only capable of representing a few distinguishable intensity levels (discrete). In this paper a weight discretization paradigm is presented for back(ward error) propagation neural networks which can work with a very limited number of discretization levels. The number of interconnections in a (fully connected) neural network grows quadratically with the number of neurons of the network. Optics can handle a large number of interconnections because of the fact that light beams do not interfere with each other. A vast amount of light beams can therefore be used per unit of area. However the number of different values one can represent in a light beam is very limited. A flexible, portable (machine independent) neural network software package which is capable of weight discretization, is presented. The development of the software and some experiments have been done on personal computers. The major part of the testing, which requires a lot of computation, has been done using a CRAY X-MP/24 super computer."
+            },
+            "slug": "Weight-discretization-paradigm-for-optical-neural-Fiesler-Choudry",
+            "title": {
+                "fragments": [],
+                "text": "Weight discretization paradigm for optical neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "In this paper a weight discretization paradigm is presented for back(ward error) propagation neural networks which can work with a very limited number of discretized levels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Other Conferences"
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2217144"
+                        ],
+                        "name": "Simon Osindero",
+                        "slug": "Simon-Osindero",
+                        "structuredName": {
+                            "firstName": "Simon",
+                            "lastName": "Osindero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Simon Osindero"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1725303"
+                        ],
+                        "name": "Y. Teh",
+                        "slug": "Y.-Teh",
+                        "structuredName": {
+                            "firstName": "Yee",
+                            "lastName": "Teh",
+                            "middleNames": [
+                                "Whye"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Teh"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 187,
+                                "start": 184
+                            }
+                        ],
+                        "text": "Feedforward deep neural networks (DNNs) with multiple hidden layers have outperformed conventional machine learning algorithms in various fields including speech and image recognition [1]\u2013[3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2309950,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8978cf7574ceb35f4c3096be768c7547b28a35d0",
+            "isKey": false,
+            "numCitedBy": 13502,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We show how to use complementary priors to eliminate the explaining-away effects that make inference difficult in densely connected belief nets that have many hidden layers. Using complementary priors, we derive a fast, greedy algorithm that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory. The fast, greedy algorithm is used to initialize a slower learning procedure that fine-tunes the weights using a contrastive version of the wake-sleep algorithm. After fine-tuning, a network with three hidden layers forms a very good generative model of the joint distribution of handwritten digit images and their labels. This generative model gives better digit classification than the best discriminative learning algorithms. The low-dimensional manifolds on which the digits lie are modeled by long ravines in the free-energy landscape of the top-level associative memory, and it is easy to explore these ravines by using the directed connections to display what the associative memory has in mind."
+            },
+            "slug": "A-Fast-Learning-Algorithm-for-Deep-Belief-Nets-Hinton-Osindero",
+            "title": {
+                "fragments": [],
+                "text": "A Fast Learning Algorithm for Deep Belief Nets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "A fast, greedy algorithm is derived that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1398229863"
+                        ],
+                        "name": "R. Hecht-Nielsen",
+                        "slug": "R.-Hecht-Nielsen",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Hecht-Nielsen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Hecht-Nielsen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 51,
+                                "start": 47
+                            }
+                        ],
+                        "text": "The mini-batch based backpropagation algorithm [14] updates the weight wij , the synaptic strength from the unit j to the unit i, by"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5691634,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f4457792a247c0eb6c6fb11a1d92f6f45b82acc1",
+            "isKey": false,
+            "numCitedBy": 1861,
+            "numCiting": 76,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Theory-of-the-backpropagation-neural-network-Hecht-Nielsen",
+            "title": {
+                "fragments": [],
+                "text": "Theory of the backpropagation neural network"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International 1989 Joint Conference on Neural Networks"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145057126"
+                        ],
+                        "name": "Wonyong Sung",
+                        "slug": "Wonyong-Sung",
+                        "structuredName": {
+                            "firstName": "Wonyong",
+                            "lastName": "Sung",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wonyong Sung"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3151820"
+                        ],
+                        "name": "Ki-Il Kum",
+                        "slug": "Ki-Il-Kum",
+                        "structuredName": {
+                            "firstName": "Ki-Il",
+                            "lastName": "Kum",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ki-Il Kum"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 170,
+                                "start": 166
+                            }
+                        ],
+                        "text": "Since applying a different data format for each weight or signal is too complex, it is needed to group them according to their range and the quantization sensitivity [13]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 181,
+                                "start": 177
+                            }
+                        ],
+                        "text": "The quantization sensitivity can also be determined from simulations that apply quantized weights for a specific group while using the floating-point data type for other groups [13]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 26303913,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "37ca546cc68ebf858f2aa906b93259ec1a70aca8",
+            "isKey": false,
+            "numCitedBy": 214,
+            "numCiting": 5,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Word-length optimization and scaling software that utilizes the fixed-point simulation results using realistic input signal samples is developed for the application to general, including nonlinear and time-varying, signal processing systems. Word-length optimization is conducted to minimize the hardware implementation cost while satisfying a fixed-point performance measure. In order to minimize the computing time, signal grouping and efficient search methods are developed. The search algorithms first determine the minimum bound of the word-length for an individual group of signals and then try to find out the cost-optimal solution by using either exhaustive or heuristic methods."
+            },
+            "slug": "Simulation-based-word-length-optimization-method-Sung-Kum",
+            "title": {
+                "fragments": [],
+                "text": "Simulation-based word-length optimization method for fixed-point digital signal processing systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "Word-length optimization and scaling software that utilizes the fixed-point simulation results using realistic input signal samples is developed for the application to general, including nonlinear and time-varying, signal processing systems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Signal Process."
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145124475"
+                        ],
+                        "name": "R. Salakhutdinov",
+                        "slug": "R.-Salakhutdinov",
+                        "structuredName": {
+                            "firstName": "Ruslan",
+                            "lastName": "Salakhutdinov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Salakhutdinov"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 79
+                            }
+                        ],
+                        "text": "This database has been widely used for evaluation of various image classifiers [2], [15], [16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 194,
+                                "start": 191
+                            }
+                        ],
+                        "text": "The floating-point weights are obtained by employing unsupervised greedy learning with restricted Boltzmann machines (RBMs) as pre-training followed by fine-tuning with error backpropagation [2]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 84
+                            }
+                        ],
+                        "text": "2) Neural Network Configuration: The neural network configuration is the same as in [2]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1658773,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "46eb79e5eec8a4e2b2f5652b66441e8a4c921c3e",
+            "isKey": false,
+            "numCitedBy": 14754,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "High-dimensional data can be converted to low-dimensional codes by training a multilayer neural network with a small central layer to reconstruct high-dimensional input vectors. Gradient descent can be used for fine-tuning the weights in such \u201cautoencoder\u201d networks, but this works well only if the initial weights are close to a good solution. We describe an effective way of initializing the weights that allows deep autoencoder networks to learn low-dimensional codes that work much better than principal components analysis as a tool to reduce the dimensionality of data."
+            },
+            "slug": "Reducing-the-Dimensionality-of-Data-with-Neural-Hinton-Salakhutdinov",
+            "title": {
+                "fragments": [],
+                "text": "Reducing the Dimensionality of Data with Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This work describes an effective way of initializing the weights that allows deep autoencoder networks to learn low-dimensional codes that work much better than principal components analysis as a tool to reduce the dimensionality of data."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Science"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40360972"
+                        ],
+                        "name": "Abdel-rahman Mohamed",
+                        "slug": "Abdel-rahman-Mohamed",
+                        "structuredName": {
+                            "firstName": "Abdel-rahman",
+                            "lastName": "Mohamed",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Abdel-rahman Mohamed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35188630"
+                        ],
+                        "name": "George E. Dahl",
+                        "slug": "George-E.-Dahl",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Dahl",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "George E. Dahl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 123
+                            }
+                        ],
+                        "text": "For the input to the neural network, 11 consecutive frames are used, which results in total 429 dimensional input features [17]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 160,
+                                "start": 156
+                            }
+                        ],
+                        "text": "A similar structure with Gaussian input units, softmax output units, three-state monophone classes, and a bigram language model over phones can be found in [17]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9530137,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d2b62f77cb2864e465aa60bca6c26bb1d2f84963",
+            "isKey": false,
+            "numCitedBy": 1650,
+            "numCiting": 64,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Gaussian mixture models are currently the dominant technique for modeling the emission distribution of hidden Markov models for speech recognition. We show that better phone recognition on the TIMIT dataset can be achieved by replacing Gaussian mixture models by deep neural networks that contain many layers of features and a very large number of parameters. These networks are first pre-trained as a multi-layer generative model of a window of spectral feature vectors without making use of any discriminative information. Once the generative pre-training has designed the features, we perform discriminative fine-tuning using backpropagation to adjust the features slightly to make them better at predicting a probability distribution over the states of monophone hidden Markov models."
+            },
+            "slug": "Acoustic-Modeling-Using-Deep-Belief-Networks-Mohamed-Dahl",
+            "title": {
+                "fragments": [],
+                "text": "Acoustic Modeling Using Deep Belief Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "It is shown that better phone recognition on the TIMIT dataset can be achieved by replacing Gaussian mixture models by deep neural networks that contain many layers of features and a very large number of parameters."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Audio, Speech, and Language Processing"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2562261"
+                        ],
+                        "name": "Kai Labusch",
+                        "slug": "Kai-Labusch",
+                        "structuredName": {
+                            "firstName": "Kai",
+                            "lastName": "Labusch",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kai Labusch"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1839848"
+                        ],
+                        "name": "E. Barth",
+                        "slug": "E.-Barth",
+                        "structuredName": {
+                            "firstName": "Erhardt",
+                            "lastName": "Barth",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Barth"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1764560"
+                        ],
+                        "name": "T. Martinetz",
+                        "slug": "T.-Martinetz",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Martinetz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Martinetz"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 90
+                            }
+                        ],
+                        "text": "This database has been widely used for evaluation of various image classifiers [2], [15], [16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14358161,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1503cbd400cd902f9751995e27973b9286dfd320",
+            "isKey": false,
+            "numCitedBy": 107,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this brief paper, we propose a method of feature extraction for digit recognition that is inspired by vision research: a sparse-coding strategy and a local maximum operation. We show that our method, despite its simplicity, yields state-of-the-art classification results on a highly competitive digit-recognition benchmark. We first employ the unsupervised Sparsenet algorithm to learn a basis for representing patches of handwritten digit images. We then use this basis to extract local coefficients. In a second step, we apply a local maximum operation to implement local shift invariance. Finally, we train a support vector machine (SVM) on the resulting feature vectors and obtain state-of-the-art classification performance in the digit recognition task defined by the MNIST benchmark. We compare the different classification performances obtained with sparse coding, Gabor wavelets, and principal component analysis (PCA). We conclude that the learning of a sparse representation of local image patches combined with a local maximum operation for feature extraction can significantly improve recognition performance."
+            },
+            "slug": "Simple-Method-for-High-Performance-Digit-Based-on-Labusch-Barth",
+            "title": {
+                "fragments": [],
+                "text": "Simple Method for High-Performance Digit Recognition Based on Sparse Coding"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "It is concluded that the learning of a sparse representation of local image patches combined with a local maximum operation for feature extraction can significantly improve recognition performance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Neural Networks"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709234"
+                        ],
+                        "name": "G\u00fcnhan D\u00fcndar",
+                        "slug": "G\u00fcnhan-D\u00fcndar",
+                        "structuredName": {
+                            "firstName": "G\u00fcnhan",
+                            "lastName": "D\u00fcndar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G\u00fcnhan D\u00fcndar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2054976002"
+                        ],
+                        "name": "K. Rose",
+                        "slug": "K.-Rose",
+                        "structuredName": {
+                            "firstName": "K.",
+                            "lastName": "Rose",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Rose"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 2848283,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7680f1c95e41826f9afd0357169e0d74b0488a4a",
+            "isKey": false,
+            "numCitedBy": 96,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The effect of weight quantization in multilayer neural networks is discussed. A method is derived by which one can predict the performance degradation at the output given the properties of the network and number of bits of quantization. Predictions from this method are evaluated against simulation results. An algorithm to decrease the noise at the output is presented and the results are compared with those above."
+            },
+            "slug": "The-effects-of-quantization-on-multilayer-neural-D\u00fcndar-Rose",
+            "title": {
+                "fragments": [],
+                "text": "The effects of quantization on multilayer neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 98,
+                "text": "The effect of weight quantization in multilayer neural networks is discussed and a method is derived by which one can predict the performance degradation at the output given the properties of the network and number of bit quantization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Neural Networks"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35188630"
+                        ],
+                        "name": "George E. Dahl",
+                        "slug": "George-E.-Dahl",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Dahl",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "George E. Dahl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723644"
+                        ],
+                        "name": "A. Acero",
+                        "slug": "A.-Acero",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Acero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Acero"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 191,
+                                "start": 188
+                            }
+                        ],
+                        "text": "Feedforward deep neural networks (DNNs) with multiple hidden layers have outperformed conventional machine learning algorithms in various fields including speech and image recognition [1]\u2013[3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 96
+                            }
+                        ],
+                        "text": "For example, a DNN for acoustic modeling of speech recognition employs about 20 million weights [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14862572,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6658bbf68995731b2083195054ff45b4eca38b3a",
+            "isKey": false,
+            "numCitedBy": 2684,
+            "numCiting": 93,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a novel context-dependent (CD) model for large-vocabulary speech recognition (LVSR) that leverages recent advances in using deep belief networks for phone recognition. We describe a pre-trained deep neural network hidden Markov model (DNN-HMM) hybrid architecture that trains the DNN to produce a distribution over senones (tied triphone states) as its output. The deep belief network pre-training algorithm is a robust and often helpful way to initialize deep neural networks generatively that can aid in optimization and reduce generalization error. We illustrate the key components of our model, describe the procedure for applying CD-DNN-HMMs to LVSR, and analyze the effects of various modeling choices on performance. Experiments on a challenging business search dataset demonstrate that CD-DNN-HMMs can significantly outperform the conventional context-dependent Gaussian mixture model (GMM)-HMMs, with an absolute sentence accuracy improvement of 5.8% and 9.2% (or relative error reduction of 16.0% and 23.2%) over the CD-GMM-HMMs trained using the minimum phone error rate (MPE) and maximum-likelihood (ML) criteria, respectively."
+            },
+            "slug": "Context-Dependent-Pre-Trained-Deep-Neural-Networks-Dahl-Yu",
+            "title": {
+                "fragments": [],
+                "text": "Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A pre-trained deep neural network hidden Markov model (DNN-HMM) hybrid architecture that trains the DNN to produce a distribution over senones (tied triphone states) as its output that can significantly outperform the conventional context-dependent Gaussian mixture model (GMM)-HMMs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Audio, Speech, and Language Processing"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "102429215"
+                        ],
+                        "name": "Kai-Fu Lee",
+                        "slug": "Kai-Fu-Lee",
+                        "structuredName": {
+                            "firstName": "Kai-Fu",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kai-Fu Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145058181"
+                        ],
+                        "name": "H. Hon",
+                        "slug": "H.-Hon",
+                        "structuredName": {
+                            "firstName": "Hsiao-Wuen",
+                            "lastName": "Hon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Hon"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 90
+                            }
+                        ],
+                        "text": "For evaluation, the original 61 phones are folded into standard 39 classes as proposed in [18]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 37373402,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3034afcd45fc190ed71982828b77f6e4154bdc5c",
+            "isKey": false,
+            "numCitedBy": 1044,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Hidden Markov modeling is extended to speaker-independent phone recognition. Using multiple codebooks of various linear-predictive-coding (LPC) parameters and discrete hidden Markov models (HMMs) the authors obtain a speaker-independent phone recognition accuracy of 58.8-73.8% on the TIMIT database, depending on the type of acoustic and language models used. In comparison, the performance of expert spectrogram readers is only 69% without use of higher level knowledge. The authors introduce the co-occurrence smoothing algorithm, which enables accurate recognition even with very limited training data. Since the results were evaluated on a standard database, they can be used as benchmarks to evaluate future systems. >"
+            },
+            "slug": "Speaker-independent-phone-recognition-using-hidden-Lee-Hon",
+            "title": {
+                "fragments": [],
+                "text": "Speaker-independent phone recognition using hidden Markov models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The authors introduce the co-occurrence smoothing algorithm, which enables accurate recognition even with very limited training data, and can be used as benchmarks to evaluate future systems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Acoust. Speech Signal Process."
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52184096"
+                        ],
+                        "name": "L. Bottou",
+                        "slug": "L.-Bottou",
+                        "structuredName": {
+                            "firstName": "L\u00e9on",
+                            "lastName": "Bottou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Bottou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145115014"
+                        ],
+                        "name": "Corinna Cortes",
+                        "slug": "Corinna-Cortes",
+                        "structuredName": {
+                            "firstName": "Corinna",
+                            "lastName": "Cortes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Corinna Cortes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1747317"
+                        ],
+                        "name": "J. Denker",
+                        "slug": "J.-Denker",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Denker",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Denker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2050470845"
+                        ],
+                        "name": "H. Drucker",
+                        "slug": "H.-Drucker",
+                        "structuredName": {
+                            "firstName": "Harris",
+                            "lastName": "Drucker",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Drucker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1743797"
+                        ],
+                        "name": "I. Guyon",
+                        "slug": "I.-Guyon",
+                        "structuredName": {
+                            "firstName": "Isabelle",
+                            "lastName": "Guyon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. Guyon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2041866"
+                        ],
+                        "name": "L. Jackel",
+                        "slug": "L.-Jackel",
+                        "structuredName": {
+                            "firstName": "Lawrence",
+                            "lastName": "Jackel",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Jackel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49128898"
+                        ],
+                        "name": "U. A. M\u00fcller",
+                        "slug": "U.-A.-M\u00fcller",
+                        "structuredName": {
+                            "firstName": "Urs",
+                            "lastName": "M\u00fcller",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "U. A. M\u00fcller"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1776424"
+                        ],
+                        "name": "Eduard S\u00e4ckinger",
+                        "slug": "Eduard-S\u00e4ckinger",
+                        "structuredName": {
+                            "firstName": "Eduard",
+                            "lastName": "S\u00e4ckinger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eduard S\u00e4ckinger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2812486"
+                        ],
+                        "name": "P. Simard",
+                        "slug": "P.-Simard",
+                        "structuredName": {
+                            "firstName": "Patrice",
+                            "lastName": "Simard",
+                            "middleNames": [
+                                "Y."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Simard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50560492"
+                        ],
+                        "name": "V. Vapnik",
+                        "slug": "V.-Vapnik",
+                        "structuredName": {
+                            "firstName": "Vladimir",
+                            "lastName": "Vapnik",
+                            "middleNames": [
+                                "Naumovich"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Vapnik"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 84
+                            }
+                        ],
+                        "text": "This database has been widely used for evaluation of various image classifiers [2], [15], [16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 46946958,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "55f58ee028e8d86ddf80f68b7538bfb5d6005dc8",
+            "isKey": false,
+            "numCitedBy": 582,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper compares the performance of several classifier algorithms on a standard database of handwritten digits. We consider not only raw accuracy, but also training time, recognition time, and memory requirements. When available, we report measurements of the fraction of patterns that must be rejected so that the remaining patterns have misclassification rates less than a given threshold."
+            },
+            "slug": "Comparison-of-classifier-methods:-a-case-study-in-Bottou-Cortes",
+            "title": {
+                "fragments": [],
+                "text": "Comparison of classifier methods: a case study in handwritten digit recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 97,
+                "text": "This paper compares the performance of several classifier algorithms on a standard database of handwritten digits by considering not only raw accuracy, but also training time, recognition time, and memory requirements."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 12th IAPR International Conference on Pattern Recognition, Vol. 3 - Conference C: Signal Processing (Cat. No.94CH3440-5)"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "103176625"
+                        ],
+                        "name": "\u653f\u5b50 \u9db4\u5ca1",
+                        "slug": "\u653f\u5b50-\u9db4\u5ca1",
+                        "structuredName": {
+                            "firstName": "\u653f\u5b50",
+                            "lastName": "\u9db4\u5ca1",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "\u653f\u5b50 \u9db4\u5ca1"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 117493750,
+            "fieldsOfStudy": [
+                "Engineering"
+            ],
+            "id": "234c53522d38b6581b3270c98ef72469adf23608",
+            "isKey": false,
+            "numCitedBy": 269,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "1998-IEEE-International-Conference-on-SMC\u306b\u53c2\u52a0\u3057\u3066-\u653f\u5b50",
+            "title": {
+                "fragments": [],
+                "text": "1998 IEEE International Conference on SMC\u306b\u53c2\u52a0\u3057\u3066"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 10,
+            "methodology": 12
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 19,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Fixed-point-feedforward-deep-neural-network-design-Hwang-Sung/a4db2d26b5d169de6b64de361dc7d4fd5b1f61a3?sort=total-citations"
+}

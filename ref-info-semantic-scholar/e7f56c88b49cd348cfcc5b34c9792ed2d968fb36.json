@@ -1,0 +1,2727 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723644"
+                        ],
+                        "name": "A. Acero",
+                        "slug": "A.-Acero",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Acero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Acero"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 150,
+                                "start": 147
+                            }
+                        ],
+                        "text": "They are determined by the VTR-targets' covariance parameters of the HTM and by the coarticulation properties of the VTR dynamics as elaborated in [4], and are considered fixed for the discussion ofthe cepstral prediction residual parameters as the focus of this paper."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 134,
+                                "start": 124
+                            }
+                        ],
+                        "text": "One particular type of the statistical models that we have been focusing on developing is the hidden trajectory model (HTM) [4, 5, 21], which uses target-directed, cross-unit continuous movement of vocal tract resonances (VTR) as the basis for modeling the underlying dynamic speech structure and for predicting the acoustic features (i."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 70,
+                                "start": 67
+                            }
+                        ],
+                        "text": "Further, we use the \"frameindependent approximation\" (described in [4] in detail) and generalize the approximate estimation formula derived in [4] for cepstral features only to those with joint static and delta cepstra:"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 254,
+                                "start": 248
+                            }
+                        ],
+                        "text": "where the mean vector ttzk and covariance matrix Wz k are dependent on the underlying model parameters representing the phonetic targets and on the coarticulatory properties of the stochastic targetdirected \"hidden\" speech dynamics (see details in [4, 1])."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 164,
+                                "start": 161
+                            }
+                        ],
+                        "text": "The learning algorithm for the cepstral prediction residual parameters tt and Es (as well as the model parameters related to stochastic targets) can be found in [4] and will not be reviewed here."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 16
+                            }
+                        ],
+                        "text": "The notation in [4] has been slightly modified so that the generalization of the HTM described in the next section can be more easily identified."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 91
+                            }
+                        ],
+                        "text": "In this section, we provide a brief overview of the earlier version of the HTM detailed in [4], where \"static\" cepstra are used as the acoustic features that are predicted by the model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 89,
+                                "start": 83
+                            }
+                        ],
+                        "text": "(The model parameters related to the stochastic VTR targets have been presented in [5, 4] and will not be discussed in this paper."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 345,
+                                "start": 335
+                            }
+                        ],
+                        "text": "In recent years, we have been pursuing a research direction in speech modeling and recognition where the dynamic structure associated with human speech generation mechanisms is exploited for the purpose of providing a more accurate and parsimonious characterization of the speech process than the traditional hidden Markov model (HMM) [1, 4, 21]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 60
+                            }
+                        ],
+                        "text": "The most recent approaches, exemplified by our previous HTM [4, 21], represented speech dynamics not on the observed acoustic domain, but on the unobserved or \"hidden\" domain (including VTR or articulatory domain), and the observed acoustic dynamics (in the form of sequences of \"static\" cepstral vectors) becomes a natural consequence of the modeled \"hidden dynamics\"."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14421525,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "62c87f843ae5c1ce7972d7cdcd227e3ec3fe5417",
+            "isKey": false,
+            "numCitedBy": 94,
+            "numCiting": 63,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Modeling dynamic structure of speech is a novel paradigm in speech recognition research within the generative modeling framework, and it offers a potential to overcome limitations of the current hidden Markov modeling approach. Analogous to structured language models where syntactic structure is exploited to represent long-distance relationships among words , the structured speech model described in this paper makes use of the dynamic structure in the hidden vocal tract resonance space to characterize long-span contextual influence among phonetic units. A general overview is provided first on hierarchically classified types of dynamic speech models in the literature. A detailed account is then given for a specific model type called the hidden trajectory model, and we describe detailed steps of model construction and the parameter estimation algorithms. We show how the use of resonance target parameters and their temporal filtering enables joint modeling of long-span coarticulation and phonetic reduction effects. Experiments on phonetic recognition evaluation demonstrate superior recognizer performance over a modern hidden Markov model-based system. Error analysis shows that the greatest performance gain occurs within the sonorant speech class"
+            },
+            "slug": "Structured-speech-modeling-Deng-Yu",
+            "title": {
+                "fragments": [],
+                "text": "Structured speech modeling"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper shows how the use of resonance target parameters and their temporal filtering enables joint modeling of long-span coarticulation and phonetic reduction effects and demonstrates superior recognizer performance over a modern hidden Markov model-based system."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Audio, Speech, and Language Processing"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723644"
+                        ],
+                        "name": "A. Acero",
+                        "slug": "A.-Acero",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Acero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Acero"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10022505,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f05059db776f04eacdf82de7613bad325751d7c6",
+            "isKey": false,
+            "numCitedBy": 22,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "A-lattice-search-technique-for-a-hidden-trajectory-Yu-Deng",
+            "title": {
+                "fragments": [],
+                "text": "A lattice search technique for a long-contextual-span hidden trajectory model of speech"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Speech Commun."
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723644"
+                        ],
+                        "name": "A. Acero",
+                        "slug": "A.-Acero",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Acero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Acero"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 90,
+                                "start": 84
+                            }
+                        ],
+                        "text": "(The model parameters related to the stochastic VTR target s have been presented in [5, 4] and will not be discussed in this paper."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 135,
+                                "start": 125
+                            }
+                        ],
+                        "text": "One particular type of the statistical mode ls that we have been focusing on developing is the hidden trajectory m del (HTM) [4, 5, 21], which uses target-directed, cross-unit co ntinuous movement of vocal tract resonances (VTR) as the basis for mod eling the underlying dynamic speech structure and for predict ing the acoustic features (i."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2449761,
+            "fieldsOfStudy": [
+                "Physics"
+            ],
+            "id": "4917c57f8e070553c24209d40a4b39a05edef799",
+            "isKey": false,
+            "numCitedBy": 8,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We report our new development of a hidden trajectory model for co-articulated, time-varying patterns of speech. The model uses bi-directional filtering of vocal tract resonance targets to jointly represent contextual variation and phonetic reduction in speech acoustics. A novel maximum-likelihood-based learning algorithm is presented that accurately estimates the distributional parameters of the resonance targets. The results of the estimates are analyzed and shown to be consistent with all the relevant acoustic-phonetic facts and intuitions. Phonetic recognition experiments demonstrate that the model with more rigorous target training outperforms the most recent earlier version of the model, producing 17.5% fewer errors in N-best rescoring."
+            },
+            "slug": "Learning-statistically-characterized-resonance-in-a-Deng-Yu",
+            "title": {
+                "fragments": [],
+                "text": "Learning statistically characterized resonance targets in a hidden trajectory model of speech coarticulation and reduction"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A novel maximum-likelihood-based learning algorithm is presented that accurately estimates the distributional parameters of the resonance targets in a hidden trajectory model for co-articulated, time-varying patterns of speech."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144339506"
+                        ],
+                        "name": "Mari Ostendorf",
+                        "slug": "Mari-Ostendorf",
+                        "structuredName": {
+                            "firstName": "Mari",
+                            "lastName": "Ostendorf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mari Ostendorf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2121786"
+                        ],
+                        "name": "V. Digalakis",
+                        "slug": "V.-Digalakis",
+                        "structuredName": {
+                            "firstName": "Vassilios",
+                            "lastName": "Digalakis",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Digalakis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3353221"
+                        ],
+                        "name": "O. Kimball",
+                        "slug": "O.-Kimball",
+                        "structuredName": {
+                            "firstName": "Owen",
+                            "lastName": "Kimball",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Kimball"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 15742861,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8658d645b716d59c5edc80e33e1936e33574bc26",
+            "isKey": false,
+            "numCitedBy": 702,
+            "numCiting": 147,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many alternative models have been proposed to address some of the shortcomings of the hidden Markov model (HMM), which is currently the most popular approach to speech recognition. In particular, a variety of models that could be broadly classified as segment models have been described for representing a variable-length sequence of observation vectors in speech recognition applications. Since there are many aspects in common between these approaches, including the general recognition and training problems, it is useful to consider them in a unified framework. The paper describes a general stochastic model that encompasses most of the models proposed in the literature, pointing out similarities of the models in terms of correlation and parameter tying assumptions, and drawing analogies between segment models and HMMs. In addition, we summarize experimental results assessing different modeling assumptions and point out remaining open questions."
+            },
+            "slug": "From-HMM's-to-segment-models:-a-unified-view-of-for-Ostendorf-Digalakis",
+            "title": {
+                "fragments": [],
+                "text": "From HMM's to segment models: a unified view of stochastic modeling for speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "A general stochastic model is described that encompasses most of the models proposed in the literature for speech recognition, pointing out similarities in terms of correlation and parameter tying assumptions, and drawing analogies between segment models and HMMs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Speech Audio Process."
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145898106"
+                        ],
+                        "name": "James R. Glass",
+                        "slug": "James-R.-Glass",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Glass",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James R. Glass"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 126,
+                                "start": 123
+                            }
+                        ],
+                        "text": "The results are reported on the standard core testset of 192 utterances (24 speakers), the same setup as that described in [8]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 5847709,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d6df5c972ed687aefe41637f3b0433c7dd44a0b6",
+            "isKey": false,
+            "numCitedBy": 335,
+            "numCiting": 46,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "A-probabilistic-framework-for-segment-based-speech-Glass",
+            "title": {
+                "fragments": [],
+                "text": "A probabilistic framework for segment-based speech recognition"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Comput. Speech Lang."
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2512508"
+                        ],
+                        "name": "Andrew K. Halberstadt",
+                        "slug": "Andrew-K.-Halberstadt",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Halberstadt",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew K. Halberstadt"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145898106"
+                        ],
+                        "name": "James R. Glass",
+                        "slug": "James-R.-Glass",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Glass",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James R. Glass"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 41
+                            }
+                        ],
+                        "text": "17 Anti-Phone, Heterogeneous Classifiers [9] 75."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 7548084,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "182c9ba291d97dc8d7482533044416869cb15f23",
+            "isKey": false,
+            "numCitedBy": 132,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper addresses the problem of acoustic phonetic modeling. First, heterogeneous acoustic measurements are chosen in order to maximize the acoustic-phonetic information extracted from the speech signal in preprocessing. Second, classifier systems are presented for successfully utilizing high-dimensional acoustic measurement spaces. The techniques used for achieving these two goals can be broadly categorized as hierarchical, committeebased, or a hybrid of these two. This paper presents committeebased and hybrid approaches. In context-independent classification and context-dependent recognition on the TIMIT core test set using 39 classes, the system achieved error rates of 18.3% and 24.4%, respectively. These error rates are the lowest we have seen reported on these tasks. In addition, experiments with a telephone-based weather information word recognition task led to word error rate reductions of 10\u201316%."
+            },
+            "slug": "Heterogeneous-measurements-and-multiple-classifiers-Halberstadt-Glass",
+            "title": {
+                "fragments": [],
+                "text": "Heterogeneous measurements and multiple classifiers for speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "In context-independent classification and context-dependent recognition on the TIMIT core test set using 39 classes, the system achieved error rates that are the lowest the authors have seen reported on these tasks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICSLP"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "102429215"
+                        ],
+                        "name": "Kai-Fu Lee",
+                        "slug": "Kai-Fu-Lee",
+                        "structuredName": {
+                            "firstName": "Kai-Fu",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kai-Fu Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145058181"
+                        ],
+                        "name": "H. Hon",
+                        "slug": "H.-Hon",
+                        "structuredName": {
+                            "firstName": "Hsiao-Wuen",
+                            "lastName": "Hon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Hon"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 54,
+                                "start": 50
+                            }
+                        ],
+                        "text": "Technique Phone Accuracy % Triphone Discrete HMMs [12] 66."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 37373402,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3034afcd45fc190ed71982828b77f6e4154bdc5c",
+            "isKey": false,
+            "numCitedBy": 1044,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Hidden Markov modeling is extended to speaker-independent phone recognition. Using multiple codebooks of various linear-predictive-coding (LPC) parameters and discrete hidden Markov models (HMMs) the authors obtain a speaker-independent phone recognition accuracy of 58.8-73.8% on the TIMIT database, depending on the type of acoustic and language models used. In comparison, the performance of expert spectrogram readers is only 69% without use of higher level knowledge. The authors introduce the co-occurrence smoothing algorithm, which enables accurate recognition even with very limited training data. Since the results were evaluated on a standard database, they can be used as benchmarks to evaluate future systems. >"
+            },
+            "slug": "Speaker-independent-phone-recognition-using-hidden-Lee-Hon",
+            "title": {
+                "fragments": [],
+                "text": "Speaker-independent phone recognition using hidden Markov models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The authors introduce the co-occurrence smoothing algorithm, which enables accurate recognition even with very limited training data, and can be used as benchmarks to evaluate future systems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Acoust. Speech Signal Process."
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699205"
+                        ],
+                        "name": "S. Furui",
+                        "slug": "S.-Furui",
+                        "structuredName": {
+                            "firstName": "Sadaoki",
+                            "lastName": "Furui",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Furui"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 117,
+                                "start": 114
+                            }
+                        ],
+                        "text": "The importance of modeling speech dynamics for speech proce ssing applications has been well known for many years [7]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 219,
+                                "start": 208
+                            }
+                        ],
+                        "text": "In the work presented in this paper, we generalize the e arlier HTM by predicting not only the \u201cstatic\u201d cepstra but also the f ramedifferential cepstra (also known as dynamic or delta or regr ession features [7, 10, 22])."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 40519557,
+            "fieldsOfStudy": [
+                "Engineering"
+            ],
+            "id": "f64038de5e388bce2f0575cfb4a291a41e3bab57",
+            "isKey": false,
+            "numCitedBy": 902,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper proposes a new isolated word recognition technique based on a combination of instantaneous and dynamic features of the speech spectrum. This technique is shown to be highly effective in speaker-independent speech recognition. Spoken utterances are represented by time sequences of cepstrum coefficients and energy. Regression coefficients for these time functions are extracted for every frame over an approximately 50 ms period. Time functions of regression coefficients extracted for cepstrum and energy are combined with time functions of the original cepstrum coefficients, and used with a staggered array DP matching algorithm to compare multiple templates and input speech. Speaker-independent isolated word recognition experiments using a vocabulary of 100 Japanese city names indicate that a recognition error rate of 2.4 percent can be obtained with this method. Using only the original cepstrum coefficients the error rate is 6.2 percent."
+            },
+            "slug": "Speaker-independent-isolated-word-recognition-using-Furui",
+            "title": {
+                "fragments": [],
+                "text": "Speaker-independent isolated word recognition using dynamic features of speech spectrum"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 95,
+                "text": "This paper proposes a new isolated word recognition technique based on a combination of instantaneous and dynamic features of the speech spectrum that is shown to be highly effective in speaker-independent speech recognition."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Acoust. Speech Signal Process."
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1691713"
+                        ],
+                        "name": "H. Zen",
+                        "slug": "H.-Zen",
+                        "structuredName": {
+                            "firstName": "Heiga",
+                            "lastName": "Zen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Zen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723069"
+                        ],
+                        "name": "K. Tokuda",
+                        "slug": "K.-Tokuda",
+                        "structuredName": {
+                            "firstName": "Keiichi",
+                            "lastName": "Tokuda",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Tokuda"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1788590"
+                        ],
+                        "name": "T. Kitamura",
+                        "slug": "T.-Kitamura",
+                        "structuredName": {
+                            "firstName": "Tadashi",
+                            "lastName": "Kitamura",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Kitamura"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Numerous analyses on and empirical remedy of the inconsistency have appeared in the literature (e.g., [20,  22 ]), demonstrating the usefulness of the dynamic features such as the delta cepstra."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "In the work presented in this paper, we generalize the earlier HTM by predicting not only the \u201cstatic\u201d cepstra but also the framedifferential cepstra (also known as dynamic or delta or regression features [7, 10,  22 ])."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1650776,
+            "fieldsOfStudy": [
+                "Engineering"
+            ],
+            "id": "5707cc05d5ae25e2958afe6a20197bf8c069e7c8",
+            "isKey": false,
+            "numCitedBy": 33,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper introduces a Viterbi algorithm to obtain a sub-optimal state sequence for trajectory-HMM, which is derived from HMM with explicit relationship between static and dynamic features. The trajectory-HMM can alleviate some limitations of HMM, which are (i) constant statistics within HMM state and (ii) conditional independence of observations given the state sequence, without increasing the number of model parameters. The proposed algorithm was applied to state-boundary optimization for Viterbi training and N-best rescoring. In a speaker-dependent continuous speech recognition experiment, trajectory-HMM with the proposed algorithm achieved about 14% error reduction over the standard HMM with the conventional Viterbi algorithm."
+            },
+            "slug": "A-Viterbi-algorithm-for-a-trajectory-model-derived-Zen-Tokuda",
+            "title": {
+                "fragments": [],
+                "text": "A Viterbi algorithm for a trajectory model derived from HMM with explicit relationship between static and dynamic features"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 80,
+                "text": "A Viterbi algorithm is introduced to obtain a sub-optimal state sequence for trajectory-HMM, which is derived from HMM with explicit relationship between static and dynamic features, without increasing the number of model parameters."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2004 IEEE International Conference on Acoustics, Speech, and Signal Processing"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145204681"
+                        ],
+                        "name": "L. Lamel",
+                        "slug": "L.-Lamel",
+                        "structuredName": {
+                            "firstName": "Lori",
+                            "lastName": "Lamel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Lamel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1685010"
+                        ],
+                        "name": "J. Gauvain",
+                        "slug": "J.-Gauvain",
+                        "structuredName": {
+                            "firstName": "Jean-Luc",
+                            "lastName": "Gauvain",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Gauvain"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Triphone Continuous HMMs [ 11 ] 72.90 Conditional Random Field [13] 65.23"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 251250,
+            "fieldsOfStudy": [
+                "Physics",
+                "Computer Science"
+            ],
+            "id": "b250c7238711b5203f2ab9a5e5693d097e38b027",
+            "isKey": true,
+            "numCitedBy": 116,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper we report high phone accuracies on three corpora: WSJ0, BREF and TIMIT. The main characteristics of the phone recognizerare: high dimensional feature vector (48), contextand genderdependent phone models with duration distribution, continuous density HMM with Gaussian mixtures, and n-gram probabilities for the phonotatic constraints. These models are trained on speech data that have either phonetic or orthographic transcriptions using maximum likelihood and maximum a posteriori estimation techniques. On the WSJ0 corpus with a 46 phone set we obtain phone accuraciesof 72.4% and 74.4% using 500 and 1600 CD phone units, respectively. Accuracy on BREF with 35 phones is as high as 78.7% with only 428 CD phone units. On TIMIT using the 61 phone symbols and only 500 CD phone units, we obtain a phone accuracyof 67.2% which correspond to 73.4% when the recognizer output is mapped to the commonly used 39 phone set. Making reference to our work on large vocabulary CSR, we show that it is worthwhile to perform phone recognition experiments as opposed to only focusing attention on word recognition results."
+            },
+            "slug": "High-performance-speaker-independent-phone-using-Lamel-Gauvain",
+            "title": {
+                "fragments": [],
+                "text": "High performance speaker-independent phone recognition using CDHMM"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is shown that it is worthwhile to perform phone recognition experiments as opposed to only focusing attention on word recognition results, and high phone accuracies on three corpora: WSJ0, BREF and TIMIT are reported."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EUROSPEECH"
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110007722"
+                        ],
+                        "name": "Leo J. Lee",
+                        "slug": "Leo-J.-Lee",
+                        "structuredName": {
+                            "firstName": "Leo",
+                            "lastName": "Lee",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Leo J. Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1786990"
+                        ],
+                        "name": "H. Attias",
+                        "slug": "H.-Attias",
+                        "structuredName": {
+                            "firstName": "Hagai",
+                            "lastName": "Attias",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Attias"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723644"
+                        ],
+                        "name": "A. Acero",
+                        "slug": "A.-Acero",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Acero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Acero"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "where z0k is the Taylor series expansion point, which, in our current modeling implementation, is obtained by a high-quality VTR or formant tracker [ 3 , 6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5694079,
+            "fieldsOfStudy": [
+                "Physics"
+            ],
+            "id": "67dd7114873a5375f2957d46660cf7e35e42e515",
+            "isKey": false,
+            "numCitedBy": 54,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A novel Kalman filtering/smoothing algorithm is presented for efficient and accurate estimation of vocal tract resonances or formants, which are natural frequencies and bandwidths of the resonator from larynx to lips, in fluent speech. The algorithm uses a hidden dynamic model, with a state-space formulation, where the resonance frequency and bandwidth values are treated as continuous-valued hidden state variables. The observation equation of the model is constructed by an analytical predictive function from the resonance frequencies and bandwidths to LPC cepstra as the observation vectors. This nonlinear function is adaptively linearized, and a residual or bias term, which is adaptively trained, is added to the nonlinear function to represent the iteratively reduced piecewise linear approximation error. Details of the piecewise linearization design process are described. An iterative tracking algorithm is presented, which embeds both the adaptive residual training and piecewise linearization design in the Kalman filtering/smoothing framework. Experiments on estimating resonances in Switchboard speech data show accurate estimation results. In particular, the effectiveness of the adaptive residual training is demonstrated. Our approach provides a solution to the traditional \"hidden formant problem,\" and produces meaningful results even during consonantal closures when the supra-laryngeal source may cause no spectral prominences in speech acoustics"
+            },
+            "slug": "Adaptive-Kalman-Filtering-and-Smoothing-for-Vocal-a-Deng-Lee",
+            "title": {
+                "fragments": [],
+                "text": "Adaptive Kalman Filtering and Smoothing for Tracking Vocal Tract Resonances Using a Continuous-Valued Hidden Dynamic Model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The approach provides a solution to the traditional \"hidden formant problem,\" and produces meaningful results even during consonantal closures when the supra-laryngeal source may cause no spectral prominences in speech acoustics."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Audio, Speech, and Language Processing"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2357983"
+                        ],
+                        "name": "Xiaodong Cui",
+                        "slug": "Xiaodong-Cui",
+                        "structuredName": {
+                            "firstName": "Xiaodong",
+                            "lastName": "Cui",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiaodong Cui"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3185110"
+                        ],
+                        "name": "Robert Pruvenok",
+                        "slug": "Robert-Pruvenok",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Pruvenok",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Robert Pruvenok"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2157241745"
+                        ],
+                        "name": "Yanyi Chen",
+                        "slug": "Yanyi-Chen",
+                        "structuredName": {
+                            "firstName": "Yanyi",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yanyi Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48190770"
+                        ],
+                        "name": "S. Momen",
+                        "slug": "S.-Momen",
+                        "structuredName": {
+                            "firstName": "Safiyy",
+                            "lastName": "Momen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Momen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145890221"
+                        ],
+                        "name": "A. Alwan",
+                        "slug": "A.-Alwan",
+                        "structuredName": {
+                            "firstName": "Abeer",
+                            "lastName": "Alwan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Alwan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 13855370,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0131f82eadbf40966b110360f97b99289e56dd37",
+            "isKey": false,
+            "numCitedBy": 102,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "While vocal tract resonances (VTRs, or formants that are defined as such resonances) are known to play a critical role in human speech perception and in computer speech processing, there has been a lack of standard databases needed for the quantitative evaluation of automatic VTR extraction techniques. We report in this paper on our recent effort to create a publicly available database of the first three VTR frequency trajectories. The database contains a representative subset of the TEMIT corpus with respect to speaker, gender, dialect and phonetic context, with a total of 538 sentences. A Matlab-based labeling tool is developed, with high-resolution wideband spectrograms displayed to assist in visual identification of VTR frequency values which are then recorded via mouse clicks and local spline interpolation. Special attention is paid to VTR values during consonant-to-vowel (CV) and vowel-to-consonant (VC) transitions, and to speech segments with vocal tract anti-resonances. Using this database, we quantitatively assess two common automatic VTR tracking techniques in terms of their average tracking errors analyzed within each of the six major broad phonetic classes as well as during CV and VC transitions. The potential use of the VTR database for research in several areas of speech processing is discussed"
+            },
+            "slug": "A-Database-of-Vocal-Tract-Resonance-Trajectories-in-Deng-Cui",
+            "title": {
+                "fragments": [],
+                "text": "A Database of Vocal Tract Resonance Trajectories for Research in Speech Processing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The recent effort to create a publicly available database of the first three VTR frequency trajectories is reported on, which contains a representative subset of the TEMIT corpus with respect to speaker, gender, dialect and phonetic context."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2006 IEEE International Conference on Acoustics Speech and Signal Processing Proceedings"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145757665"
+                        ],
+                        "name": "Fei Sha",
+                        "slug": "Fei-Sha",
+                        "structuredName": {
+                            "firstName": "Fei",
+                            "lastName": "Sha",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fei Sha"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1796044"
+                        ],
+                        "name": "L. Saul",
+                        "slug": "L.-Saul",
+                        "structuredName": {
+                            "firstName": "Lawrence",
+                            "lastName": "Saul",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Saul"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1217614,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e084bbb9cbbce7c0d282df263cf70cba4042f067",
+            "isKey": false,
+            "numCitedBy": 159,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We develop a framework for large margin classification by Gaussian mixture models (GMMs). Large margin GMMs have many parallels to support vector machines (SVMs) but use ellipsoids to model classes instead of half-spaces. Model parameters are trained discriminatively to maximize the margin of correct classification, as measured in terms of Mahalanobis distances. The required optimization is convex over the model's parameter space of positive semidefinite matrices and can be performed efficiently. Large margin GMMs are naturally suited to large problems in multiway classification; we apply them to phonetic classification and recognition on the TIMIT database. On both tasks, we obtain significant improvement over baseline systems trained by maximum likelihood estimation. For the problem of phonetic classification, our results are competitive with other state-of-the-art classifiers, such as hidden conditional random fields"
+            },
+            "slug": "Large-Margin-Gaussian-Mixture-Modeling-for-Phonetic-Sha-Saul",
+            "title": {
+                "fragments": [],
+                "text": "Large Margin Gaussian Mixture Modeling for Phonetic Classification and Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 87,
+                "text": "A framework for large margin classification by Gaussian mixture models (GMMs), which have many parallels to support vector machines (SVMs) but use ellipsoids to model classes instead of half-spaces is developed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2006 IEEE International Conference on Acoustics Speech and Signal Processing Proceedings"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40268570"
+                        ],
+                        "name": "A. J. Robinson",
+                        "slug": "A.-J.-Robinson",
+                        "structuredName": {
+                            "firstName": "Anthony",
+                            "lastName": "Robinson",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. J. Robinson"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Recurrent Neural Nets [ 16 ] 73.90 Large-Margin GMM [18] 67.00"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 14787570,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c6629770cb6a00ad585918e71fe6dbad829ad0d1",
+            "isKey": true,
+            "numCitedBy": 543,
+            "numCiting": 91,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents an application of recurrent networks for phone probability estimation in large vocabulary speech recognition. The need for efficient exploitation of context information is discussed; a role for which the recurrent net appears suitable. An overview of early developments of recurrent nets for phone recognition is given along with the more recent improvements that include their integration with Markov models. Recognition results are presented for the DARPA TIMIT and Resource Management tasks, and it is concluded that recurrent nets are competitive with traditional means for performing phone probability estimation."
+            },
+            "slug": "An-application-of-recurrent-nets-to-phone-Robinson",
+            "title": {
+                "fragments": [],
+                "text": "An application of recurrent nets to phone probability estimation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "Recognition results are presented for the DARPA TIMIT and Resource Management tasks, and it is concluded that recurrent nets are competitive with traditional means for performing phone probability estimation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Neural Networks"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8302164"
+                        ],
+                        "name": "J. Olive",
+                        "slug": "J.-Olive",
+                        "structuredName": {
+                            "firstName": "Joseph",
+                            "lastName": "Olive",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Olive"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2068582165"
+                        ],
+                        "name": "Alice Greenwood",
+                        "slug": "Alice-Greenwood",
+                        "structuredName": {
+                            "firstName": "Alice",
+                            "lastName": "Greenwood",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alice Greenwood"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143686251"
+                        ],
+                        "name": "J. Coleman",
+                        "slug": "J.-Coleman",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Coleman",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Coleman"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 227,
+                                "start": 215
+                            }
+                        ],
+                        "text": "While the conventional technique for incorporating speech dynamics into speech recognizers involves the use of cross-frame differentials (deltas) of speech features, the realistic speech dynamics (as illustrated in [23, 14, 19], etc."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 59969166,
+            "fieldsOfStudy": [
+                "Physics",
+                "Linguistics",
+                "Education"
+            ],
+            "id": "5a813213cc53f4b13b464f8bbd9d97a3bd9446a9",
+            "isKey": false,
+            "numCitedBy": 132,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This book presents the most contemporary and comprehensive description of the acoustics of the sounds used in American English. Intended to serve as an introductory text for students and professionals interested in acoustic phonetics, linguistics, physics, electrical engineering, and computer science, the authors bring to the subject the points of view of both linquistics and physics. The book uses numerous examples of acoustic spectrograms to show the continuities and variability of natural speech. The book begins by introducing the basic concepts of phonetics, phonology, and linguistics to readers whose background is in physics or engineering and introducing the physics of sound generation and analysis for speech scientists and linguists. The authors then use the tools developed in the first part to examine the characteristics of individual phonemes as well as the changes introduced when individual sounds are combined in speech. Modern applications of speech acoustics, especially speech synthesis and recognition, are also discussed."
+            },
+            "slug": "Acoustics-of-American-English-speech-:-a-dynamic-Olive-Greenwood",
+            "title": {
+                "fragments": [],
+                "text": "Acoustics of American English speech : a dynamic approach"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 76,
+                "text": "This book presents the most contemporary and comprehensive description of the acoustics of the sounds used in American English, and introduces the physics of sound generation and analysis for speech scientists and linguists."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109474526"
+                        ],
+                        "name": "Jeremy Morris",
+                        "slug": "Jeremy-Morris",
+                        "structuredName": {
+                            "firstName": "Jeremy",
+                            "lastName": "Morris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jeremy Morris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1398481836"
+                        ],
+                        "name": "E. Fosler-Lussier",
+                        "slug": "E.-Fosler-Lussier",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Fosler-Lussier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Fosler-Lussier"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 11305607,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a0125b014ff5171c74bd6d8365f4cffe3714c0b0",
+            "isKey": false,
+            "numCitedBy": 58,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A Conditional Random Field is a mathematical model for sequences that is similar in many ways to a Hidden Markov Model, but is discriminative rather than generative in nature. In this paper, we explore the application of the CRF model to ASR processing of discriminative phonetic features by building a system that performs first-pass phonetic recognition using discriminatively trained phonetic features. With this system, we show that this CRF model achieves an accuracy level in a phone recognition task that is superior to a similarly trained HMM model. Index Terms: speech recognition, conditional random fields."
+            },
+            "slug": "Combining-phonetic-attributes-using-conditional-Morris-Fosler-Lussier",
+            "title": {
+                "fragments": [],
+                "text": "Combining phonetic attributes using conditional random fields"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper builds a system that performs first-pass phonetic recognition using discriminatively trained phonetic features and shows that this CRF model achieves an accuracy level in a phone recognition task that is superior to a similarly trained HMM model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145715698"
+                        ],
+                        "name": "Christopher K. I. Williams",
+                        "slug": "Christopher-K.-I.-Williams",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Williams",
+                            "middleNames": [
+                                "K.",
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher K. I. Williams"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 10,
+                                "start": 2
+                            }
+                        ],
+                        "text": ", [20, 22]), demonstrating the usefulness ofthe dynamic features such as the delta cepstra."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6233060,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5e42d5c01ca9fdbcfd00b8cc559f2b5a2f4d40e6",
+            "isKey": false,
+            "numCitedBy": 36,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In many areas of data modeling, observations at different locations (e.g., time frames or pixel locations) are augmented by differences of nearby observations (e.g., features in speech recognition, Gabor jets in image analysis). These augmented observations are then often modeled as being independent. How can this make sense? We provide two interpretations, showing (1) that the likelihood of data generated from an autoregressive process can be computed in terms of independent augmented observations and (2) that the augmented observations can be given a coherent treatment in terms of the products of experts model (Hinton, 1999)."
+            },
+            "slug": "How-to-Pretend-That-Correlated-Variables-Are-by-Williams",
+            "title": {
+                "fragments": [],
+                "text": "How to Pretend That Correlated Variables Are Independent by Using Difference Observations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "Two interpretations are provided, showing that the likelihood of data generated from an autoregressive process can be computed in terms of independent augmented observations and that the augmented observations can be given a coherent treatment in Terms of the products of experts model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35455336"
+                        ],
+                        "name": "Petr Schwarz",
+                        "slug": "Petr-Schwarz",
+                        "structuredName": {
+                            "firstName": "Petr",
+                            "lastName": "Schwarz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Petr Schwarz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2074389"
+                        ],
+                        "name": "P. Matejka",
+                        "slug": "P.-Matejka",
+                        "structuredName": {
+                            "firstName": "Pavel",
+                            "lastName": "Matejka",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Matejka"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1899242"
+                        ],
+                        "name": "J. Cernock\u00fd",
+                        "slug": "J.-Cernock\u00fd",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Cernock\u00fd",
+                            "middleNames": [
+                                "Honza"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Cernock\u00fd"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15512175,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2e798df4d35beaac0b8968f44e142ae50bc43ca9",
+            "isKey": false,
+            "numCitedBy": 232,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper deals with phoneme recognition based on neural networks (NN). First, several approaches to improve the phoneme error rate are suggested and discussed. In the experimental part, we concentrate on temporal patterns (TRAPs) and novel split temporal context (STC) phoneme recognizers. We also investigate into tandem NN architectures. The results of the final system reported on standard TIMIT database compare favorably to the best published results"
+            },
+            "slug": "Hierarchical-Structures-of-Neural-Networks-for-Schwarz-Matejka",
+            "title": {
+                "fragments": [],
+                "text": "Hierarchical Structures of Neural Networks for Phoneme Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 61,
+                "text": "This paper deals with phoneme recognition based on neural networks (NN), and focuses on temporal patterns (TRAPs) and novel split temporal context (STC) phoneme recognizers and investigates into tandem NN architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2006 IEEE International Conference on Acoustics Speech and Signal Processing Proceedings"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2081421227"
+                        ],
+                        "name": "Coarticulation \u2022 Suprasegmentals",
+                        "slug": "Coarticulation-\u2022-Suprasegmentals",
+                        "structuredName": {
+                            "firstName": "Coarticulation",
+                            "lastName": "Suprasegmentals",
+                            "middleNames": [
+                                "\u2022"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Coarticulation \u2022 Suprasegmentals"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 227,
+                                "start": 215
+                            }
+                        ],
+                        "text": "While the conventional technique for incorporating speech dynamics into speech recognizers involves the use of cross-frame differentials (deltas) of speech features, the realistic speech dynamics (as illustrated in [23, 14, 19], etc."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 17983056,
+            "fieldsOfStudy": [
+                "Physics"
+            ],
+            "id": "01f67cff10fa261ed69ff31ca71db6d10223e6fc",
+            "isKey": false,
+            "numCitedBy": 1735,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "teristics of speech. Speech consists of variations in air pressure that result from physical disturbances of air molecules caused by the flow of air out of the lungs. This airflow makes the air molecules alternately crowd together and move apart (oscillate), creating increases and decreases, respectively, in air pressure. The resulting sound wave transmits these changes in pressure from speaker to hearer. Sound waves can be described in terms of physical properties such as cycle, period, frequency, and amplitude. These concepts are most easily illustrated when considering a simple wave corresponding to a pure tone. A cycle is a sequence of one increase and one decrease in air pressure. A period is the amount of time (expressed in seconds or milliseconds) that one cycle takes. Frequency is the number of cycles in one second, expressed in hertz (Hz). An increase in frequency usually results in an increase in perceived pitch. Amplitude refers to the magnitude of vibrations, with larger vibrations resulting in greater peaks of pressure (greater amplitude), which usually result in an increase in perceived loudness. Unlike pure tones, which rarely occur in the environment, speech sounds are complex waves with combinations of different frequencies and amplitudes. However, as first stated by the French mathematician Fourier (1768\u20131830), any complex wave can be described as a combination of simple waves. A complex wave has a regular rate of repetition, known as the fundamental frequency (F0). Changes in F0 give rise to differences in perceived pitch, whereas changes in the number of constituent simple waves and their amplitude relations result in perceived differences in timbre or quality. Fourier\u2019s theorem enables us to describe speech sounds in terms of the frequency and amplitude of each of its constituent simple waves. Such a description is known as the spectrum of a sound. A spectrum is visually displayed as a plot of frequency vs. amplitude, with frequency represented from low to high along the horizontal axis and amplitude from low to high along the vertical axis. The usual energy source for speech is the airstream generated by the lungs. This steady flow of air is converted into brief puffs of air by the vibrating vocal folds, two muscular folds housed in the larynx. The dominant way of conceptualizing the process of speech production is in terms of the source-filter theory, according to which the acoustic characteristics of speech can be understood as a result of a source component and a filter component. The source component is determined by the rate of vocal fold vibration, which in turn is affected by a number of factors, including the rate of airflow and the mass and stiffness of the vocal folds. The rate of vocal fold vibration directly determines the F0 of the waveform. The mean F0 for adult women is approximately 220 Hz, and approximately 130 Hz for adult men. \u201cIn addition to their role as properties of individual speech sounds, F0 and amplitude also signal emphasis, stress, and intonation.\u201d For speech, the source component itself has a complex waveform, and its spectrum will typically show the highest energy at the lowest frequencies and a number of higher frequency components that"
+            },
+            "slug": "A-Acoustic-Phonetics-Suprasegmentals",
+            "title": {
+                "fragments": [],
+                "text": "A Acoustic Phonetics"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723644"
+                        ],
+                        "name": "A. Acero",
+                        "slug": "A.-Acero",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Acero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Acero"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47932744"
+                        ],
+                        "name": "Xuedong Huang",
+                        "slug": "Xuedong-Huang",
+                        "structuredName": {
+                            "firstName": "Xuedong",
+                            "lastName": "Huang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xuedong Huang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145058181"
+                        ],
+                        "name": "H. Hon",
+                        "slug": "H.-Hon",
+                        "structuredName": {
+                            "firstName": "Hsiao-Wuen",
+                            "lastName": "Hon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Hon"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "In the work presented in this paper, we generalize the earlier HTM by predicting not only the \u201cstatic\u201d cepstra but also the framedifferential cepstra (also known as dynamic or delta or regression features [7, 10, 22])."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 59832957,
+            "fieldsOfStudy": [
+                "Physics"
+            ],
+            "id": "74fe8a40571758823eb1858ccc9411e2b43fe7ea",
+            "isKey": false,
+            "numCitedBy": 960,
+            "numCiting": 3,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A filling assembly for vacuum filling impervious open mouth paper bags with finely divided particulate material. A filling head is provided with at least two independent vertically extending chambers through which a selective vacuum or relief may be applied. Particulate material is fed through a central opening in the filling head whereby interstitial air is withdrawn from between the particles of particulate material as the material falls downwardly into an impervious open mouth bag. Clamping jaws serve to seal the bag against the filler head during the filling operation and include clamping flanges which extend outwardly from the jaws and tightly close the outer edges of the open mouth bag. A shroud extends from the clamping jaws to provide a sealed enclosure about the bag during the vacuum filling operation. A vacuum source is selectively applied to the shroud to open the impervious bag and keep the bag open during the vacuum filling operation."
+            },
+            "slug": "Spoken-Language-Processing-Acero-Huang",
+            "title": {
+                "fragments": [],
+                "text": "Spoken Language Processing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 94,
+                "text": "A filling assembly for vacuum filling impervious open mouth paper bags with finely divided particulate material is provided with at least two independent vertically extending chambers through which a selective vacuum or relief may be applied."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "70341761"
+                        ],
+                        "name": "D. Bailey",
+                        "slug": "D.-Bailey",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Bailey",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Bailey"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 56496317,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5b44a3f6dc2956552e876870f1e7e3424bcf2196",
+            "isKey": false,
+            "numCitedBy": 279,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Algorithms-and-applications-Bailey",
+            "title": {
+                "fragments": [],
+                "text": "Algorithms and applications"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1988
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "A Viterbi algorithm for trajectory model derived from HMMwith explicit relation between static / dynamic features"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc . ICASSP"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 153,
+                                "start": 147
+                            }
+                        ],
+                        "text": "where zo is the Taylor series expansion point, which, in our current modeling implementation, is obtained by a high-quality VTR or formant tracker [3, 6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Adaptive Kalman smoothing for tracking vocal tract resonances using a continuous-valued hidden dynamic model"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans.  Audio, Speech & Language Processing,"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "NOTES ON SPEECH SPECTROGRAM READING"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NOTES ON SPEECH SPECTROGRAM READING"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "\" A Viterbi algorithm for trajectory model derived from HMM with explicit relation between static / dynamic features"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 227,
+                                "start": 215
+                            }
+                        ],
+                        "text": "While the conventional technique for incorporating speech dynamics into speech recognizers involves the use of cross-frame differentials (deltas) of speech features, the realistic speech dynamics (as illustrated in [23, 14, 19], etc."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "ON SPEECH SPECTROGRAMREADING,"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "1 We note recently Brno University researchers published much higher"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "1 We note recently Brno University researchers published much higher"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 219,
+                                "start": 208
+                            }
+                        ],
+                        "text": "In the work presented in this paper, we generalize the e arlier HTM by predicting not only the \u201cstatic\u201d cepstra but also the f ramedifferential cepstra (also known as dynamic or delta or regr ession features [7, 10, 22])."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 10,
+                                "start": 2
+                            }
+                        ],
+                        "text": ", [20, 22]), demonstrating the usefulness of the dynamic feat ur s such as the delta cepstra."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "A Viterbi algorithm for t ajectory model derived from HMM with explicit relation betwe  en static/dynamic features,"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc. ICASSP,"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 345,
+                                "start": 335
+                            }
+                        ],
+                        "text": "In recent years, we have been pursuing a research direction in speech modeling and recognition where the dynamic structure associated with human speech generation mechanisms is exploited for the purpose of providing a more accurate and parsimonious characterization of the speech process than the traditional hidden Markov model (HMM) [1, 4, 21]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 253,
+                                "start": 247
+                            }
+                        ],
+                        "text": "where the mean vector \u03bc zk and covariance matrix \u03a8zk are dependent on the underlying model parameters representing the phonetic targets and on the coarticulatory properties of the stochastic targetdirected \u201chidden\u201d speech dynamics (see details in [4, 1])."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "DYNAMIC SPEECHMODELS\u2014 Theory"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Algorithms, and Applications, Morgan & Claypool Publishers"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 255,
+                                "start": 249
+                            }
+                        ],
+                        "text": "where the mean vector \u03bc zk and covariance matrix \u03a8zk are dependent on the underlying model parameters representing the ph onetic targets and on the coarticulatory properties of the stochas tic targetdirected \u201chidden\u201d speech dynamics (see details in [4, 1])."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 350,
+                                "start": 340
+                            }
+                        ],
+                        "text": "In recent years, we have been pursuing a research direction i n speech modeling and recognition where the dynamic structure assoc iated with human speech generation mechanisms is exploited for th e purpose of providing a more accurate and parsimonious characte rization of the speech process than the traditional hidden Marko v m del (HMM) [1, 4, 21]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "SPEECH MODELS \u2014 Theory, Algorithms, and Applications"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2006
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 124
+                            }
+                        ],
+                        "text": "The results are reported on the standard core testset of 192 utterances (24 speakers), the same setup as that describ ed in [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "A probabilistic framework for segment-based  peech recognition,\u201dComputer"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Speech and Language,  Vol. 17,"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Hon . \" Speakerindependent phone recognition using hidden Markov models"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 262,
+                                "start": 258
+                            }
+                        ],
+                        "text": "\u2026direction in speech modeling and recognition where the dynamic structure associated with human speech generation mechanisms is exploited for the purpose of providing a more accurate and parsimonious characterization of the speech process than the traditional hidden Markov m del (HMM) [1, 4, 21]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 64,
+                                "start": 60
+                            }
+                        ],
+                        "text": "Experimental results on the standard TIMIT phonetic recognition task demonstrate recognition accuracy improvement over the earlier best HTM system, both significantly better than state-of-the-art triphone HMM systems."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "A Viterbi algorithm for trajectory model derived from HMM with explicit relation between static/dynamic features"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc. ICASSP"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 345,
+                                "start": 335
+                            }
+                        ],
+                        "text": "In recent years, we have been pursuing a research direction in speech modeling and recognition where the dynamic structure associated with human speech generation mechanisms is exploited for the purpose of providing a more accurate and parsimonious characterization of the speech process than the traditional hidden Markov model (HMM) [1, 4, 21]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 254,
+                                "start": 248
+                            }
+                        ],
+                        "text": "where the mean vector ttzk and covariance matrix Wz k are dependent on the underlying model parameters representing the phonetic targets and on the coarticulatory properties of the stochastic targetdirected \"hidden\" speech dynamics (see details in [4, 1])."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "DYNA MICSPEECHMODELS Theory"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Algorithms, and Applications, Morgan &  Claypool Publishers"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 79
+                            }
+                        ],
+                        "text": "The standard TIMIT phone set with 48 labels is expanded to 58 (as described in [2, 21]) in training the HTM parameters using standard training utterances."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "SPEECH PROCESSING A Dynamic and Optimization-Oriented Approach"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Marcel Dekker Inc., New  York"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Acero . \" A lattice search technique for longcontextualspan hidden trajectory model of speech"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2005
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Authorized licensed use limited to: IEEE Xplore"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Authorized licensed use limited to: IEEE Xplore"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Combining phonetic a ttributes using conditional random fields,"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc. Interspeech"
+            },
+            "year": 2006
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 13,
+            "methodology": 12
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 38,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Use-of-Differential-Cepstra-as-Acoustic-Features-in-Deng-Yu/e7f56c88b49cd348cfcc5b34c9792ed2d968fb36?sort=total-citations"
+}

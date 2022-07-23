@@ -1,0 +1,4032 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1681543"
+                        ],
+                        "name": "G. Zweig",
+                        "slug": "G.-Zweig",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Zweig",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Zweig"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 11383176,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d1275b2a2ab53013310e759e5c6878b96df643d4",
+            "isKey": false,
+            "numCitedBy": 550,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recurrent neural network language models (RNNLMs) have recently demonstrated state-of-the-art performance across a variety of tasks. In this paper, we improve their performance by providing a contextual real-valued input vector in association with each word. This vector is used to convey contextual information about the sentence being modeled. By performing Latent Dirichlet Allocation using a block of preceding text, we achieve a topic-conditioned RNNLM. This approach has the key advantage of avoiding the data fragmentation associated with building multiple topic models on different data subsets. We report perplexity results on the Penn Treebank data, where we achieve a new state-of-the-art. We further apply the model to the Wall Street Journal speech recognition task, where we observe improvements in word-error-rate."
+            },
+            "slug": "Context-dependent-recurrent-neural-network-language-Mikolov-Zweig",
+            "title": {
+                "fragments": [],
+                "text": "Context dependent recurrent neural network language model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 56,
+                "text": "This paper improves recurrent neural network language models performance by providing a contextual real-valued input vector in association with each word to convey contextual information about the sentence being modeled by performing Latent Dirichlet Allocation using a block of preceding text."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2012 IEEE Spoken Language Technology Workshop (SLT)"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40170001"
+                        ],
+                        "name": "Ofir Press",
+                        "slug": "Ofir-Press",
+                        "structuredName": {
+                            "firstName": "Ofir",
+                            "lastName": "Press",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ofir Press"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145128145"
+                        ],
+                        "name": "Lior Wolf",
+                        "slug": "Lior-Wolf",
+                        "structuredName": {
+                            "firstName": "Lior",
+                            "lastName": "Wolf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lior Wolf"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 70,
+                                "start": 52
+                            }
+                        ],
+                        "text": "We have recently come across a concurrent preprint (Press & Wolf, 2016) where the authors reuse the word embedding matrix in the output projection to improve language modeling."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 836219,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "63e39cdf1ad884da6bc69096bb3413b5b1100559",
+            "isKey": false,
+            "numCitedBy": 574,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We study the topmost weight matrix of neural network language models. We show that this matrix constitutes a valid word embedding. When training language models, we recommend tying the input embedding and this output embedding. We analyze the resulting update rules and show that the tied embedding evolves in a more similar way to the output embedding than to the input embedding in the untied model. We also offer a new method of regularizing the output embedding. Our methods lead to a significant reduction in perplexity, as we are able to show on a variety of neural network language models. Finally, we show that weight tying can reduce the size of neural translation models to less than half of their original size without harming their performance."
+            },
+            "slug": "Using-the-Output-Embedding-to-Improve-Language-Press-Wolf",
+            "title": {
+                "fragments": [],
+                "text": "Using the Output Embedding to Improve Language Models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 76,
+                "text": "The topmost weight matrix of neural network language models is studied and it is shown that this matrix constitutes a valid word embedding and a new method of regularizing the output embedding is offered."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EACL"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2901820"
+                        ],
+                        "name": "Hakan Inan",
+                        "slug": "Hakan-Inan",
+                        "structuredName": {
+                            "firstName": "Hakan",
+                            "lastName": "Inan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hakan Inan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2308992"
+                        ],
+                        "name": "Khashayar Khosravi",
+                        "slug": "Khashayar-Khosravi",
+                        "structuredName": {
+                            "firstName": "Khashayar",
+                            "lastName": "Khosravi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Khashayar Khosravi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 80
+                            }
+                        ],
+                        "text": "The work we present in this paper is based on a report which was made public in Inan & Khosravi (2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 70,
+                                "start": 48
+                            }
+                        ],
+                        "text": "6This model was developed following our work in Inan & Khosravi (2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 45682799,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5762b7deff7e95febe193196d548379ff34b34f1",
+            "isKey": false,
+            "numCitedBy": 3,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present two improvements to the well-known Recurrent Neural Network Language Models(RNNLM). First, we use the word embedding matrix to project the RNN output onto the output space and already achieve a large reduction in the number of free parameters while still improving performance. Second, instead of merely minimizing the standard cross entropy loss between the prediction distribution and the \u201done-hot\u201d target distribution, we minimize an additional loss term which takes into account the inherent metric similarity between the target word and other words. We show with experiments on the Penn Treebank Dataset that our proposed model (1) achieves significantly lower average word perplexity than previous models with the same network size and (2) achieves the new state of the art by using much fewer parameters than used in the previous best work. 1 Background & Introduction Language Modeling, which is the task of determining the probability that a sequence of words occur in a sentence, is an important task in Natural Language Processing(NLP). Its scope includes a large variety of tasks such as speech recognition, machine translation, part of speech tagging, and spelling correction [1]. Old statistical approaches for addressing this problem were based on n-grams and their associated properties. Although these methods seemed to work reasonably well, they needed a larger value of n in order to capture a better model for the language, and they needed a number of parameters exponential in the size of the vocabulary [2]. Researchers have proposed methods to improve these models [1]; nonetheless, they are still difficult to implement in practice. Recently, with the advances in neural network research and the increased availability of faster computers, neural networks have started to replace the old methods for capturing the language structure. Recurrent Neural Networks(RNN) were first proposed in [3] for addressing the language modelling task and attained a reasonably satisfactory performance. The follow-up work [4] improved the result by applying back-propagation in addition to the existing forward-propagation. In [5], Zaremba et. al. used Long Short-Term Memory(LSTM) which were fist introduced in [6], as the building block of their recurrent neural network for language modelling. Furthermore, the authors showed that appropriat application of dropout may avoid overfitting and lead to a better and more generalizable model. The authors were further able to achieve the state of the art for language modeling on the Penn Dataset Treebank corpus[7]. In particular, by training a two-layer LSTM Recurrent Neural Network with 1500 hidden states and appropriate dropout, they could reduce the test perplexity to 78.4 for a single model. However, Recurrent Neural Network Language Models need big models for proper training (2 RNN layers with 1500 hidden units in each in [5]). In addition, their performance rely on training two very large matrices, one for word embeddings and one for output projection, both of which essentially capture the same thing: projection from token space to word vector space and vice versa. In this paper we explain how imposing this structure may help us to achieve a much better accuracy even on smaller networks. We also propose a novel method for augmenting the loss function with ad additional term which utilizes the similarity between words captured in word embeddings."
+            },
+            "slug": "Improved-Learning-through-Augmenting-the-Loss-Inan-Khosravi",
+            "title": {
+                "fragments": [],
+                "text": "Improved Learning through Augmenting the Loss"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 58,
+                "text": "Two improvements to the well-known Recurrent Neural Network Language Models (RNNLM) are presented, and a novel method for augmenting the loss function with ad additional term which utilizes the similarity between words captured in word embeddings is proposed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143845796"
+                        ],
+                        "name": "Jeffrey Pennington",
+                        "slug": "Jeffrey-Pennington",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Pennington",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jeffrey Pennington"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2166511"
+                        ],
+                        "name": "R. Socher",
+                        "slug": "R.-Socher",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Socher",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Socher"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144783904"
+                        ],
+                        "name": "Christopher D. Manning",
+                        "slug": "Christopher-D.-Manning",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Manning",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher D. Manning"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "L G\n] 1\n1 M\nar 2\n01 7"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 215,
+                                "start": 192
+                            }
+                        ],
+                        "text": "In language modeling, there is a well established metric space for the outputs (words in the language) based on word embeddings, with meaningful distances between words (Mikolov et al., 2013; Pennington et al., 2014)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1957433,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f37e1b62a767a307c046404ca96bc140b3e68cb5",
+            "isKey": false,
+            "numCitedBy": 22852,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent methods for learning vector space representations of words have succeeded in capturing fine-grained semantic and syntactic regularities using vector arithmetic, but the origin of these regularities has remained opaque. We analyze and make explicit the model properties needed for such regularities to emerge in word vectors. The result is a new global logbilinear regression model that combines the advantages of the two major model families in the literature: global matrix factorization and local context window methods. Our model efficiently leverages statistical information by training only on the nonzero elements in a word-word cooccurrence matrix, rather than on the entire sparse matrix or on individual context windows in a large corpus. The model produces a vector space with meaningful substructure, as evidenced by its performance of 75% on a recent word analogy task. It also outperforms related models on similarity tasks and named entity recognition."
+            },
+            "slug": "GloVe:-Global-Vectors-for-Word-Representation-Pennington-Socher",
+            "title": {
+                "fragments": [],
+                "text": "GloVe: Global Vectors for Word Representation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A new global logbilinear regression model that combines the advantages of the two major model families in the literature: global matrix factorization and local context window methods and produces a vector space with meaningful substructure."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EMNLP"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38367242"
+                        ],
+                        "name": "Yoon Kim",
+                        "slug": "Yoon-Kim",
+                        "structuredName": {
+                            "firstName": "Yoon",
+                            "lastName": "Kim",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoon Kim"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2262249"
+                        ],
+                        "name": "Yacine Jernite",
+                        "slug": "Yacine-Jernite",
+                        "structuredName": {
+                            "firstName": "Yacine",
+                            "lastName": "Jernite",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yacine Jernite"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746662"
+                        ],
+                        "name": "D. Sontag",
+                        "slug": "D.-Sontag",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Sontag",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Sontag"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2531268"
+                        ],
+                        "name": "Alexander M. Rush",
+                        "slug": "Alexander-M.-Rush",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Rush",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alexander M. Rush"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 686481,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "891ce1687e2befddd19f54e4eef1d3f39c8dbaf7",
+            "isKey": false,
+            "numCitedBy": 1434,
+            "numCiting": 83,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "\n \n We describe a simple neural language model that relies only on character-level inputs. Predictions are still made at the word-level. Our model employs a convolutional neural network (CNN) and a highway net work over characters, whose output is given to a long short-term memory (LSTM) recurrent neural network language model (RNN-LM). On the English Penn Treebank the model is on par with the existing state-of-the-art despite having 60% fewer parameters. On languages with rich morphology (Arabic, Czech, French, German, Spanish, Russian), the model outperforms word-level/morpheme-level LSTM baselines, again with fewer parameters. The results suggest that on many languages, character inputs are sufficient for language modeling. Analysis of word representations obtained from the character composition part of the model reveals that the model is able to encode, from characters only, both semantic and orthographic information.\n \n"
+            },
+            "slug": "Character-Aware-Neural-Language-Models-Kim-Jernite",
+            "title": {
+                "fragments": [],
+                "text": "Character-Aware Neural Language Models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 58,
+                "text": "A simple neural language model that relies only on character-level inputs that is able to encode, from characters only, both semantic and orthographic information and suggests that on many languages, character inputs are sufficient for language modeling."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AAAI"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3375440"
+                        ],
+                        "name": "Stephen Merity",
+                        "slug": "Stephen-Merity",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "Merity",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Stephen Merity"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2228109"
+                        ],
+                        "name": "Caiming Xiong",
+                        "slug": "Caiming-Xiong",
+                        "structuredName": {
+                            "firstName": "Caiming",
+                            "lastName": "Xiong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Caiming Xiong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40518045"
+                        ],
+                        "name": "James Bradbury",
+                        "slug": "James-Bradbury",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bradbury",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James Bradbury"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2166511"
+                        ],
+                        "name": "R. Socher",
+                        "slug": "R.-Socher",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Socher",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Socher"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 108
+                            }
+                        ],
+                        "text": "In our experiments, we use the Penn Treebank corpus (PTB) (Marcus et al., 1993), and the Wikitext2 dataset (Merity et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 110
+                            }
+                        ],
+                        "text": "Since their introduction in Mikolov et al. (2010), many improvements have been proposed for RNNLMs , including different dropout methods (Zaremba et al., 2014; Gal, 2015), novel recurrent units (Zilly et al., 2016), and use of pointer networks to complement the recurrent neural network (Merity et\u2026"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 184,
+                                "start": 165
+                            }
+                        ],
+                        "text": "We test our framework by performing extensive experiments on the Penn Treebank corpus, a dataset widely used for benchmarking language models (Mikolov et al., 2010; Merity et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 63,
+                                "start": 49
+                            }
+                        ],
+                        "text": "We then make our proposition by making this mechanism explicit."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "L G\n] 1\n1 M\nar 2\n01 7"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 91,
+                                "start": 72
+                            }
+                        ],
+                        "text": "We also perform experiments on the newly introduced Wikitext-2 dataset (Merity et al., 2016), and verify that the empirical performance of our proposed framework is consistent across different datasets."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 296,
+                                "start": 277
+                            }
+                        ],
+                        "text": "\u2026introduction in Mikolov et al. (2010), many improvements have been proposed for RNNLMs , including different dropout methods (Zaremba et al., 2014; Gal, 2015), novel recurrent units (Zilly et al., 2016), and use of pointer networks to complement the recurrent neural network (Merity et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16299141,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "efbd381493bb9636f489b965a2034d529cd56bcd",
+            "isKey": false,
+            "numCitedBy": 1053,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent neural network sequence models with softmax classifiers have achieved their best language modeling performance only with very large hidden states and large vocabularies. Even then they struggle to predict rare or unseen words even if the context makes the prediction unambiguous. We introduce the pointer sentinel mixture architecture for neural sequence models which has the ability to either reproduce a word from the recent context or produce a word from a standard softmax classifier. Our pointer sentinel-LSTM model achieves state of the art language modeling performance on the Penn Treebank (70.9 perplexity) while using far fewer parameters than a standard softmax LSTM. In order to evaluate how well language models can exploit longer contexts and deal with more realistic vocabularies and larger corpora we also introduce the freely available WikiText corpus."
+            },
+            "slug": "Pointer-Sentinel-Mixture-Models-Merity-Xiong",
+            "title": {
+                "fragments": [],
+                "text": "Pointer Sentinel Mixture Models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "The pointer sentinel-LSTM model achieves state of the art language modeling performance on the Penn Treebank while using far fewer parameters than a standard softmax LSTM and the freely available WikiText corpus is introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36037226"
+                        ],
+                        "name": "R\u00e9jean Ducharme",
+                        "slug": "R\u00e9jean-Ducharme",
+                        "structuredName": {
+                            "firstName": "R\u00e9jean",
+                            "lastName": "Ducharme",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R\u00e9jean Ducharme"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "120247189"
+                        ],
+                        "name": "Pascal Vincent",
+                        "slug": "Pascal-Vincent",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Vincent",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pascal Vincent"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1909943744"
+                        ],
+                        "name": "Christian Janvin",
+                        "slug": "Christian-Janvin",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Janvin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christian Janvin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 248,
+                                "start": 229
+                            }
+                        ],
+                        "text": "(4.2)\nBy replacing y\u0303t and y\u0302t in (3.4) with their simplified forms according to (4.2), we get\n\u2202Jaugt \u2202 (Wht)i \u2192 1 \u03c42|V | ( Wht \u2212 L Tut ) i as \u03c4 \u2192 \u221e, (4.3)\nwhich is the desired result that augmented loss tries to match the logits of the model to the logits of y\u0303\u2019s."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 274,
+                                "start": 255
+                            }
+                        ],
+                        "text": "\u2026we would like to note that the idea of using the same representation for input and output words has been explored in the past, and there exists language models which could be interpreted as simple neural networks with shared input and output embeddings (Bengio et al., 2001; Mnih & Hinton, 2007)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 221275765,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6c2b28f9354f667cd5bd07afc0471d8334430da7",
+            "isKey": true,
+            "numCitedBy": 6054,
+            "numCiting": 54,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A goal of statistical language modeling is to learn the joint probability function of sequences of words in a language. This is intrinsically difficult because of the curse of dimensionality: a word sequence on which the model will be tested is likely to be different from all the word sequences seen during training. Traditional but very successful approaches based on n-grams obtain generalization by concatenating very short overlapping sequences seen in the training set. We propose to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences. The model learns simultaneously (1) a distributed representation for each word along with (2) the probability function for word sequences, expressed in terms of these representations. Generalization is obtained because a sequence of words that has never been seen before gets high probability if it is made of words that are similar (in the sense of having a nearby representation) to words forming an already seen sentence. Training such large models (with millions of parameters) within a reasonable time is itself a significant challenge. We report on experiments using neural networks for the probability function, showing on two text corpora that the proposed approach significantly improves on state-of-the-art n-gram models, and that the proposed approach allows to take advantage of longer contexts."
+            },
+            "slug": "A-Neural-Probabilistic-Language-Model-Bengio-Ducharme",
+            "title": {
+                "fragments": [],
+                "text": "A Neural Probabilistic Language Model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work proposes to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2166511"
+                        ],
+                        "name": "R. Socher",
+                        "slug": "R.-Socher",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Socher",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Socher"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "24590005"
+                        ],
+                        "name": "Alex Perelygin",
+                        "slug": "Alex-Perelygin",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Perelygin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alex Perelygin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110402830"
+                        ],
+                        "name": "Jean Wu",
+                        "slug": "Jean-Wu",
+                        "structuredName": {
+                            "firstName": "Jean",
+                            "lastName": "Wu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jean Wu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1964541"
+                        ],
+                        "name": "Jason Chuang",
+                        "slug": "Jason-Chuang",
+                        "structuredName": {
+                            "firstName": "Jason",
+                            "lastName": "Chuang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jason Chuang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144783904"
+                        ],
+                        "name": "Christopher D. Manning",
+                        "slug": "Christopher-D.-Manning",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Manning",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher D. Manning"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34699434"
+                        ],
+                        "name": "A. Ng",
+                        "slug": "A.-Ng",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Ng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Ng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144922861"
+                        ],
+                        "name": "Christopher Potts",
+                        "slug": "Christopher-Potts",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Potts",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher Potts"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "L G\n] 1\n1 M\nar 2\n01 7"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 181,
+                                "start": 162
+                            }
+                        ],
+                        "text": "Neural network models have recently made tremendous progress in a variety of NLP applications such as speech recognition (Irie et al., 2016), sentiment analysis (Socher et al., 2013), text summarization (Rush et al., 2015; Nallapati et al., 2016), and machine translation (Firat et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 990233,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "687bac2d3320083eb4530bf18bb8f8f721477600",
+            "isKey": false,
+            "numCitedBy": 5431,
+            "numCiting": 55,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Semantic word spaces have been very useful but cannot express the meaning of longer phrases in a principled way. Further progress towards understanding compositionality in tasks such as sentiment detection requires richer supervised training and evaluation resources and more powerful models of composition. To remedy this, we introduce a Sentiment Treebank. It includes fine grained sentiment labels for 215,154 phrases in the parse trees of 11,855 sentences and presents new challenges for sentiment compositionality. To address them, we introduce the Recursive Neural Tensor Network. When trained on the new treebank, this model outperforms all previous methods on several metrics. It pushes the state of the art in single sentence positive/negative classification from 80% up to 85.4%. The accuracy of predicting fine-grained sentiment labels for all phrases reaches 80.7%, an improvement of 9.7% over bag of features baselines. Lastly, it is the only model that can accurately capture the effects of negation and its scope at various tree levels for both positive and negative phrases."
+            },
+            "slug": "Recursive-Deep-Models-for-Semantic-Compositionality-Socher-Perelygin",
+            "title": {
+                "fragments": [],
+                "text": "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "A Sentiment Treebank that includes fine grained sentiment labels for 215,154 phrases in the parse trees of 11,855 sentences and presents new challenges for sentiment compositionality, and introduces the Recursive Neural Tensor Network."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EMNLP"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2350348"
+                        ],
+                        "name": "Kazuki Irie",
+                        "slug": "Kazuki-Irie",
+                        "structuredName": {
+                            "firstName": "Kazuki",
+                            "lastName": "Irie",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kazuki Irie"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1790221"
+                        ],
+                        "name": "Zolt\u00e1n T\u00fcske",
+                        "slug": "Zolt\u00e1n-T\u00fcske",
+                        "structuredName": {
+                            "firstName": "Zolt\u00e1n",
+                            "lastName": "T\u00fcske",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zolt\u00e1n T\u00fcske"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3169217"
+                        ],
+                        "name": "Tamer Alkhouli",
+                        "slug": "Tamer-Alkhouli",
+                        "structuredName": {
+                            "firstName": "Tamer",
+                            "lastName": "Alkhouli",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tamer Alkhouli"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144490010"
+                        ],
+                        "name": "R. Schl\u00fcter",
+                        "slug": "R.-Schl\u00fcter",
+                        "structuredName": {
+                            "firstName": "Ralf",
+                            "lastName": "Schl\u00fcter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Schl\u00fcter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145322333"
+                        ],
+                        "name": "H. Ney",
+                        "slug": "H.-Ney",
+                        "structuredName": {
+                            "firstName": "Hermann",
+                            "lastName": "Ney",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Ney"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "L G\n] 1\n1 M\nar 2\n01 7"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 139,
+                                "start": 122
+                            }
+                        ],
+                        "text": "Neural network models have recently made tremendous progress in a variety of NLP applications such as speech recognition (Irie et al., 2016), sentiment analysis (Socher et al., 2013), text summarization (Rush et al., 2015; Nallapati et al., 2016), and machine translation (Firat et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11043607,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "49899bd9e5a7f59aa14e6d21ed501e3c3acd5852",
+            "isKey": false,
+            "numCitedBy": 69,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Popularized by the long short-term memory (LSTM), multiplicative gates have become a standard means to design artificial neural networks with intentionally organized information flow. Notable examples of such architectures include gated recurrent units (GRU) and highway networks. In this work, we first focus on the evaluation of each of the classical gated architectures for language modeling for large vocabulary speech recognition. Namely, we evaluate the highway network, lateral network, LSTM and GRU. Furthermore, the motivation underlying the highway network also applies to LSTM and GRU. An extension specific to the LSTM has been recently proposed with an additional highway connection between the memory cells of adjacent LSTM layers. In contrast, we investigate an approach which can be used with both LSTM and GRU: a highway network in which the LSTM or GRU is used as the transformation function. We found that the highway connections enable both standalone feedforward and recurrent neural language models to benefit better from the deep structure and provide a slight improvement of recognition accuracy after interpolation with count models. To complete the overview, we include our initial investigations on the use of the attention mechanism for learning word triggers."
+            },
+            "slug": "LSTM,-GRU,-Highway-and-a-Bit-of-Attention:-An-for-Irie-T\u00fcske",
+            "title": {
+                "fragments": [],
+                "text": "LSTM, GRU, Highway and a Bit of Attention: An Empirical Overview for Language Modeling in Speech Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "It is found that the highway connections enable both standalone feedforward and recurrent neural language models to benefit better from the deep structure and provide a slight improvement of recognition accuracy after interpolation with count models."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2245567"
+                        ],
+                        "name": "M. Karafi\u00e1t",
+                        "slug": "M.-Karafi\u00e1t",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Karafi\u00e1t",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Karafi\u00e1t"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1816892"
+                        ],
+                        "name": "L. Burget",
+                        "slug": "L.-Burget",
+                        "structuredName": {
+                            "firstName": "Luk\u00e1\u0161",
+                            "lastName": "Burget",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Burget"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1899242"
+                        ],
+                        "name": "J. Cernock\u00fd",
+                        "slug": "J.-Cernock\u00fd",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Cernock\u00fd",
+                            "middleNames": [
+                                "Honza"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Cernock\u00fd"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2803071"
+                        ],
+                        "name": "S. Khudanpur",
+                        "slug": "S.-Khudanpur",
+                        "structuredName": {
+                            "firstName": "Sanjeev",
+                            "lastName": "Khudanpur",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Khudanpur"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 28
+                            }
+                        ],
+                        "text": "Since their introduction in Mikolov et al. (2010), many improvements have been proposed for RNNLMs , including different dropout methods (Zaremba et al., 2014; Gal, 2015), novel recurrent units (Zilly et al., 2016), and use of pointer networks to complement the recurrent neural network (Merity et\u2026"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 163,
+                                "start": 143
+                            }
+                        ],
+                        "text": "We test our framework by performing extensive experiments on the Penn Treebank corpus, a dataset widely used for benchmarking language models (Mikolov et al., 2010; Merity et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 65
+                            }
+                        ],
+                        "text": "The version of this dataset which we use is the one processed in Mikolov et al. (2010), with the most frequent 10k words selected to be in the vocabulary and rest replaced with a an <unk> token 2."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "L G\n] 1\n1 M\nar 2\n01 7"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 28
+                            }
+                        ],
+                        "text": "We now theoretically motivate and introduce a second modification to improve learning in the language model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 24
+                            }
+                        ],
+                        "text": "However, none of the improvements dealt with the loss structure, and to the best of our knowledge, our work is the first to offer a new loss framework."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 17048224,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9819b600a828a57e1cde047bbe710d3446b30da5",
+            "isKey": true,
+            "numCitedBy": 4935,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A new recurrent neural network based language model (RNN LM) with applications to speech recognition is presented. Results indicate that it is possible to obtain around 50% reduction of perplexity by using mixture of several RNN LMs, compared to a state of the art backoff language model. Speech recognition experiments show around 18% reduction of word error rate on the Wall Street Journal task when comparing models trained on the same amount of data, and around 5% on the much harder NIST RT05 task, even when the backoff model is trained on much more data than the RNN LM. We provide ample empirical evidence to suggest that connectionist language models are superior to standard n-gram techniques, except their high computational (training) complexity. Index Terms: language modeling, recurrent neural networks, speech recognition"
+            },
+            "slug": "Recurrent-neural-network-based-language-model-Mikolov-Karafi\u00e1t",
+            "title": {
+                "fragments": [],
+                "text": "Recurrent neural network based language model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Results indicate that it is possible to obtain around 50% reduction of perplexity by using mixture of several RNN LMs, compared to a state of the art backoff language model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701451"
+                        ],
+                        "name": "Ramesh Nallapati",
+                        "slug": "Ramesh-Nallapati",
+                        "structuredName": {
+                            "firstName": "Ramesh",
+                            "lastName": "Nallapati",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ramesh Nallapati"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145218984"
+                        ],
+                        "name": "Bowen Zhou",
+                        "slug": "Bowen-Zhou",
+                        "structuredName": {
+                            "firstName": "Bowen",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bowen Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1790831"
+                        ],
+                        "name": "C. D. Santos",
+                        "slug": "C.-D.-Santos",
+                        "structuredName": {
+                            "firstName": "C\u00edcero",
+                            "lastName": "Santos",
+                            "middleNames": [
+                                "Nogueira",
+                                "dos"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. D. Santos"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1854385"
+                        ],
+                        "name": "\u00c7aglar G\u00fcl\u00e7ehre",
+                        "slug": "\u00c7aglar-G\u00fcl\u00e7ehre",
+                        "structuredName": {
+                            "firstName": "\u00c7aglar",
+                            "lastName": "G\u00fcl\u00e7ehre",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "\u00c7aglar G\u00fcl\u00e7ehre"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144028698"
+                        ],
+                        "name": "Bing Xiang",
+                        "slug": "Bing-Xiang",
+                        "structuredName": {
+                            "firstName": "Bing",
+                            "lastName": "Xiang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bing Xiang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "L G\n] 1\n1 M\nar 2\n01 7"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 245,
+                                "start": 223
+                            }
+                        ],
+                        "text": "Neural network models have recently made tremendous progress in a variety of NLP applications such as speech recognition (Irie et al., 2016), sentiment analysis (Socher et al., 2013), text summarization (Rush et al., 2015; Nallapati et al., 2016), and machine translation (Firat et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8928715,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f37076f426023241f19cdc2fb0a0fd733a6fa7fa",
+            "isKey": false,
+            "numCitedBy": 1581,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this work, we model abstractive text summarization using Attentional Encoder-Decoder Recurrent Neural Networks, and show that they achieve state-of-the-art performance on two different corpora. We propose several novel models that address critical problems in summarization that are not adequately modeled by the basic architecture, such as modeling key-words, capturing the hierarchy of sentence-to-word structure, and emitting words that are rare or unseen at training time. Our work shows that many of our proposed models contribute to further improvement in performance. We also propose a new dataset consisting of multi-sentence summaries, and establish performance benchmarks for further research."
+            },
+            "slug": "Abstractive-Text-Summarization-using-RNNs-and-Nallapati-Zhou",
+            "title": {
+                "fragments": [],
+                "text": "Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "This work proposes several novel models that address critical problems in summarization that are not adequately modeled by the basic architecture, such as modeling key-words, capturing the hierarchy of sentence-to-word structure, and emitting words that are rare or unseen at training time."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CoNLL"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2360589"
+                        ],
+                        "name": "Julian G. Zilly",
+                        "slug": "Julian-G.-Zilly",
+                        "structuredName": {
+                            "firstName": "Julian",
+                            "lastName": "Zilly",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Julian G. Zilly"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2100612"
+                        ],
+                        "name": "R. Srivastava",
+                        "slug": "R.-Srivastava",
+                        "structuredName": {
+                            "firstName": "Rupesh",
+                            "lastName": "Srivastava",
+                            "middleNames": [
+                                "Kumar"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Srivastava"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2865775"
+                        ],
+                        "name": "J. Koutn\u00edk",
+                        "slug": "J.-Koutn\u00edk",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Koutn\u00edk",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Koutn\u00edk"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145341374"
+                        ],
+                        "name": "J. Schmidhuber",
+                        "slug": "J.-Schmidhuber",
+                        "structuredName": {
+                            "firstName": "J\u00fcrgen",
+                            "lastName": "Schmidhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schmidhuber"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1101453,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7dba53e72c182e25e98e8f73a99d75ff69dda0c2",
+            "isKey": false,
+            "numCitedBy": 351,
+            "numCiting": 74,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many sequential processing tasks require complex nonlinear transition functions from one step to the next. However, recurrent neural networks with 'deep' transition functions remain difficult to train, even when using Long Short-Term Memory (LSTM) networks. We introduce a novel theoretical analysis of recurrent networks based on Gersgorin's circle theorem that illuminates several modeling and optimization issues and improves our understanding of the LSTM cell. Based on this analysis we propose Recurrent Highway Networks, which extend the LSTM architecture to allow step-to-step transition depths larger than one. Several language modeling experiments demonstrate that the proposed architecture results in powerful and efficient models. On the Penn Treebank corpus, solely increasing the transition depth from 1 to 10 improves word-level perplexity from 90.6 to 65.4 using the same number of parameters. On the larger Wikipedia datasets for character prediction (text8 and enwik8), RHNs outperform all previous results and achieve an entropy of 1.27 bits per character."
+            },
+            "slug": "Recurrent-Highway-Networks-Zilly-Srivastava",
+            "title": {
+                "fragments": [],
+                "text": "Recurrent Highway Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A novel theoretical analysis of recurrent networks based on Gersgorin's circle theorem is introduced that illuminates several modeling and optimization issues and improves the understanding of the LSTM cell."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118440152"
+                        ],
+                        "name": "Kai Chen",
+                        "slug": "Kai-Chen",
+                        "structuredName": {
+                            "firstName": "Kai",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kai Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32131713"
+                        ],
+                        "name": "G. Corrado",
+                        "slug": "G.-Corrado",
+                        "structuredName": {
+                            "firstName": "Gregory",
+                            "lastName": "Corrado",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Corrado"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49959210"
+                        ],
+                        "name": "J. Dean",
+                        "slug": "J.-Dean",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Dean",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dean"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "L G\n] 1\n1 M\nar 2\n01 7"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 190,
+                                "start": 170
+                            }
+                        ],
+                        "text": "In language modeling, there is a well established metric space for the outputs (words in the language) based on word embeddings, with meaningful distances between words (Mikolov et al., 2013; Pennington et al., 2014)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16447573,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "87f40e6f3022adbc1f1905e3e506abad05a9964f",
+            "isKey": false,
+            "numCitedBy": 26281,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The recently introduced continuous Skip-gram model is an efficient method for learning high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships. In this paper we present several extensions that improve both the quality of the vectors and the training speed. By subsampling of the frequent words we obtain significant speedup and also learn more regular word representations. We also describe a simple alternative to the hierarchical softmax called negative sampling. \n \nAn inherent limitation of word representations is their indifference to word order and their inability to represent idiomatic phrases. For example, the meanings of \"Canada\" and \"Air\" cannot be easily combined to obtain \"Air Canada\". Motivated by this example, we present a simple method for finding phrases in text, and show that learning good vector representations for millions of phrases is possible."
+            },
+            "slug": "Distributed-Representations-of-Words-and-Phrases-Mikolov-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "Distributed Representations of Words and Phrases and their Compositionality"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "This paper presents a simple method for finding phrases in text, and shows that learning good vector representations for millions of phrases is possible and describes a simple alternative to the hierarchical softmax called negative sampling."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2345617"
+                        ],
+                        "name": "Orhan Firat",
+                        "slug": "Orhan-Firat",
+                        "structuredName": {
+                            "firstName": "Orhan",
+                            "lastName": "Firat",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Orhan Firat"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1979489"
+                        ],
+                        "name": "Kyunghyun Cho",
+                        "slug": "Kyunghyun-Cho",
+                        "structuredName": {
+                            "firstName": "Kyunghyun",
+                            "lastName": "Cho",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kyunghyun Cho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "L G\n] 1\n1 M\nar 2\n01 7"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 291,
+                                "start": 273
+                            }
+                        ],
+                        "text": "Neural network models have recently made tremendous progress in a variety of NLP applications such as speech recognition (Irie et al., 2016), sentiment analysis (Socher et al., 2013), text summarization (Rush et al., 2015; Nallapati et al., 2016), and machine translation (Firat et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6359641,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9ed9bff37ec952134564b3b2a022b7aba9479ff2",
+            "isKey": false,
+            "numCitedBy": 492,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose multi-way, multilingual neural machine translation. The proposed approach enables a single neural translation model to translate between multiple languages, with a number of parameters that grows only linearly with the number of languages. This is made possible by having a single attention mechanism that is shared across all language pairs. We train the proposed multi-way, multilingual model on ten language pairs from WMT'15 simultaneously and observe clear performance improvements over models trained on only one language pair. In particular, we observe that the proposed model significantly improves the translation quality of low-resource language pairs."
+            },
+            "slug": "Multi-Way,-Multilingual-Neural-Machine-Translation-Firat-Cho",
+            "title": {
+                "fragments": [],
+                "text": "Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 94,
+                "text": "The proposed multi-way, multilingual neural machine translation approach enables a single neural translation model to translate between multiple languages, with a number of parameters that grows only linearly with the number of languages."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NAACL"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116792495"
+                        ],
+                        "name": "W. Cheng",
+                        "slug": "W.-Cheng",
+                        "structuredName": {
+                            "firstName": "Wei",
+                            "lastName": "Cheng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Cheng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3447955"
+                        ],
+                        "name": "Stanley Kok",
+                        "slug": "Stanley-Kok",
+                        "structuredName": {
+                            "firstName": "Stanley",
+                            "lastName": "Kok",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Stanley Kok"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "28114500"
+                        ],
+                        "name": "Hoai Vu Pham",
+                        "slug": "Hoai-Vu-Pham",
+                        "structuredName": {
+                            "firstName": "Hoai",
+                            "lastName": "Pham",
+                            "middleNames": [
+                                "Vu"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hoai Vu Pham"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3024630"
+                        ],
+                        "name": "Hai Leong Chieu",
+                        "slug": "Hai-Leong-Chieu",
+                        "structuredName": {
+                            "firstName": "Hai",
+                            "lastName": "Chieu",
+                            "middleNames": [
+                                "Leong"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hai Leong Chieu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1890071"
+                        ],
+                        "name": "K. M. A. Chai",
+                        "slug": "K.-M.-A.-Chai",
+                        "structuredName": {
+                            "firstName": "Kian",
+                            "lastName": "Chai",
+                            "middleNames": [
+                                "Ming",
+                                "Adam"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. M. A. Chai"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 11826506,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2a76c2121eee30af82a24058b4e149f05bcda911",
+            "isKey": false,
+            "numCitedBy": 72,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Sum product networks (SPNs) are a new class of deep probabilistic models. They can contain multiple hidden layers while keeping their inference and training times tractable. An SPN consists of interleaving layers of sum nodes and product nodes. A sum node can be interpreted as a hidden variable, and a product node can be viewed as a feature capturing rich interactions among an SPN\u2019s inputs. We show that the ability of SPN to use hidden layers to model complex dependencies among words, and its tractable inference and learning times, make it a suitable framework for a language model. Even though SPNs have been applied to a variety of vision problems [1, 2], we are the first to use it for language modeling. Our empirical comparisons with six previous language models indicate that our SPN has superior performance."
+            },
+            "slug": "Language-modeling-with-sum-product-networks-Cheng-Kok",
+            "title": {
+                "fragments": [],
+                "text": "Language modeling with sum-product networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "It is shown that the ability of SPN to use hidden layers to model complex dependencies among words, and its tractable inference and learning times, make it a suitable framework for a language model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1714004"
+                        ],
+                        "name": "A. Mnih",
+                        "slug": "A.-Mnih",
+                        "structuredName": {
+                            "firstName": "Andriy",
+                            "lastName": "Mnih",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Mnih"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 265,
+                                "start": 250
+                            }
+                        ],
+                        "text": "(4.2)\nBy replacing y\u0303t and y\u0302t in (3.4) with their simplified forms according to (4.2), we get\n\u2202Jaugt \u2202 (Wht)i \u2192 1 \u03c42|V | ( Wht \u2212 L Tut ) i as \u03c4 \u2192 \u221e, (4.3)\nwhich is the desired result that augmented loss tries to match the logits of the model to the logits of y\u0303\u2019s."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 295,
+                                "start": 276
+                            }
+                        ],
+                        "text": "\u2026we would like to note that the idea of using the same representation for input and output words has been explored in the past, and there exists language models which could be interpreted as simple neural networks with shared input and output embeddings (Bengio et al., 2001; Mnih & Hinton, 2007)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 577005,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bd7d93193aad6c4b71cc8942e808753019e87706",
+            "isKey": true,
+            "numCitedBy": 609,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The supremacy of n-gram models in statistical language modelling has recently been challenged by parametric models that use distributed representations to counteract the difficulties caused by data sparsity. We propose three new probabilistic language models that define the distribution of the next word in a sequence given several preceding words by using distributed representations of those words. We show how real-valued distributed representations for words can be learned at the same time as learning a large set of stochastic binary hidden features that are used to predict the distributed representation of the next word from previous distributed representations. Adding connections from the previous states of the binary hidden features improves performance as does adding direct connections between the real-valued distributed representations. One of our models significantly outperforms the very best n-gram models."
+            },
+            "slug": "Three-new-graphical-models-for-statistical-language-Mnih-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "Three new graphical models for statistical language modelling"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "It is shown how real-valued distributed representations for words can be learned at the same time as learning a large set of stochastic binary hidden features that are used to predict the distributed representation of the next word from previous distributed representations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML '07"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2531268"
+                        ],
+                        "name": "Alexander M. Rush",
+                        "slug": "Alexander-M.-Rush",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Rush",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alexander M. Rush"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3295092"
+                        ],
+                        "name": "S. Chopra",
+                        "slug": "S.-Chopra",
+                        "structuredName": {
+                            "firstName": "Sumit",
+                            "lastName": "Chopra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Chopra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145183709"
+                        ],
+                        "name": "J. Weston",
+                        "slug": "J.-Weston",
+                        "structuredName": {
+                            "firstName": "Jason",
+                            "lastName": "Weston",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Weston"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1918428,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5082a1a13daea5c7026706738f8528391a1e6d59",
+            "isKey": false,
+            "numCitedBy": 2130,
+            "numCiting": 45,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Summarization based on text extraction is inherently limited, but generation-style abstractive methods have proven challenging to build. In this work, we propose a fully data-driven approach to abstractive sentence summarization. Our method utilizes a local attention-based model that generates each word of the summary conditioned on the input sentence. While the model is structurally simple, it can easily be trained end-to-end and scales to a large amount of training data. The model shows significant performance gains on the DUC-2004 shared task compared with several strong baselines."
+            },
+            "slug": "A-Neural-Attention-Model-for-Abstractive-Sentence-Rush-Chopra",
+            "title": {
+                "fragments": [],
+                "text": "A Neural Attention Model for Abstractive Sentence Summarization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work proposes a fully data-driven approach to abstractive sentence summarization by utilizing a local attention-based model that generates each word of the summary conditioned on the input sentence."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EMNLP"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1689108"
+                        ],
+                        "name": "Oriol Vinyals",
+                        "slug": "Oriol-Vinyals",
+                        "structuredName": {
+                            "firstName": "Oriol",
+                            "lastName": "Vinyals",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Oriol Vinyals"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49959210"
+                        ],
+                        "name": "J. Dean",
+                        "slug": "J.-Dean",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Dean",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dean"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 62,
+                                "start": 42
+                            }
+                        ],
+                        "text": "We proceed in the same\nway as was done in Hinton et al. (2015) to make an identical argument."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 243,
+                                "start": 223
+                            }
+                        ],
+                        "text": "This is not surprising given the fact that small models are rather inflexible, and one would expect to see improved learning by training against a more informative data distribution (contributed by the augmented loss) (see Hinton et al. (2015))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 60,
+                                "start": 40
+                            }
+                        ],
+                        "text": "The idea proposed in the recent work by Hinton et al. (2015) might be considered as an application of this framework, where they try to obtain a good set of y\u0303\u2019s by training very large models and using the model prediction distributions of those."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 47
+                            }
+                        ],
+                        "text": "Our technique is closely related to the one in Hinton et al. (2015), where they also try to estimate a more informed data distribution and augment the conventional loss with KL divergence between model prediction distribution and the estimated data distribution."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 32,
+                                "start": 12
+                            }
+                        ],
+                        "text": "In the framework which we will introduce, we utilize Kullback-Leibler divergence as opposed to cross-entropy due to its intuitive interpretation as a distance between distributions, although the two are not equivalent in our framework."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7200347,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0c908739fbff75f03469d13d4a1a07de3414ee19",
+            "isKey": true,
+            "numCitedBy": 8901,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions. Unfortunately, making predictions using a whole ensemble of models is cumbersome and may be too computationally expensive to allow deployment to a large number of users, especially if the individual models are large neural nets. Caruana and his collaborators have shown that it is possible to compress the knowledge in an ensemble into a single model which is much easier to deploy and we develop this approach further using a different compression technique. We achieve some surprising results on MNIST and we show that we can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model. We also introduce a new type of ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse. Unlike a mixture of experts, these specialist models can be trained rapidly and in parallel."
+            },
+            "slug": "Distilling-the-Knowledge-in-a-Neural-Network-Hinton-Vinyals",
+            "title": {
+                "fragments": [],
+                "text": "Distilling the Knowledge in a Neural Network"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work shows that it can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model and introduces a new type of ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2681954"
+                        ],
+                        "name": "Y. Gal",
+                        "slug": "Y.-Gal",
+                        "structuredName": {
+                            "firstName": "Yarin",
+                            "lastName": "Gal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Gal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1744700"
+                        ],
+                        "name": "Zoubin Ghahramani",
+                        "slug": "Zoubin-Ghahramani",
+                        "structuredName": {
+                            "firstName": "Zoubin",
+                            "lastName": "Ghahramani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zoubin Ghahramani"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 38
+                            }
+                        ],
+                        "text": "Differently from what was proposed in Gal (2015), we tie the dropout weights for hidden states further, and we use the same mask when they are propagated as states in the current layer and when they are used as inputs for the next layer."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 120,
+                                "start": 110
+                            }
+                        ],
+                        "text": "We train our models using stochastic gradient descent, and we use a variant of the dropout method proposed in Gal (2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 158,
+                                "start": 149
+                            }
+                        ],
+                        "text": "\u2026introduction in Mikolov et al. (2010), many improvements have been proposed for RNNLMs , including different dropout methods (Zaremba et al., 2014; Gal, 2015), novel recurrent units (Zilly et al., 2016), and use of pointer networks to complement the recurrent neural network (Merity et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 40
+                            }
+                        ],
+                        "text": "We use the dropout method introduced in Gal (2015); particularly, we use the same dropout mask for each example through the unrolled network."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 60,
+                                "start": 51
+                            }
+                        ],
+                        "text": "We do this by analyzing the proposed augmented loss in a particular setting, and observe an implicit core mechanism of this loss."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15953218,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0c1f9ca23f4f09ecfc44bcc8ca1c2736624f4652",
+            "isKey": true,
+            "numCitedBy": 1320,
+            "numCiting": 36,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recurrent neural networks (RNNs) stand at the forefront of many recent developments in deep learning. Yet a major difficulty with these models is their tendency to overfit, with dropout shown to fail when applied to recurrent layers. Recent results at the intersection of Bayesian modelling and deep learning offer a Bayesian interpretation of common deep learning techniques such as dropout. This grounding of dropout in approximate Bayesian inference suggests an extension of the theoretical results, offering insights into the use of dropout with RNN models. We apply this new variational inference based dropout technique in LSTM and GRU models, assessing it on language modelling and sentiment analysis tasks. The new approach outperforms existing techniques, and to the best of our knowledge improves on the single model state-of-the-art in language modelling with the Penn Treebank (73.4 test perplexity). This extends our arsenal of variational tools in deep learning."
+            },
+            "slug": "A-Theoretically-Grounded-Application-of-Dropout-in-Gal-Ghahramani",
+            "title": {
+                "fragments": [],
+                "text": "A Theoretically Grounded Application of Dropout in Recurrent Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work applies a new variational inference based dropout technique in LSTM and GRU models, which outperforms existing techniques, and to the best of the knowledge improves on the single model state-of-the-art in language modelling with the Penn Treebank."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1979489"
+                        ],
+                        "name": "Kyunghyun Cho",
+                        "slug": "Kyunghyun-Cho",
+                        "structuredName": {
+                            "firstName": "Kyunghyun",
+                            "lastName": "Cho",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kyunghyun Cho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3158246"
+                        ],
+                        "name": "Bart van Merrienboer",
+                        "slug": "Bart-van-Merrienboer",
+                        "structuredName": {
+                            "firstName": "Bart",
+                            "lastName": "Merrienboer",
+                            "middleNames": [
+                                "van"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bart van Merrienboer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3335364"
+                        ],
+                        "name": "Dzmitry Bahdanau",
+                        "slug": "Dzmitry-Bahdanau",
+                        "structuredName": {
+                            "firstName": "Dzmitry",
+                            "lastName": "Bahdanau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dzmitry Bahdanau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 278,
+                                "start": 262
+                            }
+                        ],
+                        "text": "\u2026(RNNLM) are based on the conventional classification framework, which has two major drawbacks: First, there is no assumed metric on the output classes, whereas there is evidence suggesting that learning is improved when one can define a natural metric on the output space (Frogner et al., 2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 215,
+                                "start": 199
+                            }
+                        ],
+                        "text": "Note that the above formulation does not make any assumptions about the specifics of the recurrent neural units, and f could be replaced with a standard recurrent unit, a gated recurrent unit (GRU) (Cho et al., 2014), a long-short term memory (LSTM) unit (Hochreiter & Schmidhuber, 1997), etc."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11336213,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1eb09fecd75eb27825dce4f964b97f4f5cc399d7",
+            "isKey": false,
+            "numCitedBy": 4177,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Neural machine translation is a relatively new approach to statistical machine translation based purely on neural networks. The neural machine translation models often consist of an encoder and a decoder. The encoder extracts a fixed-length representation from a variable-length input sentence, and the decoder generates a correct translation from this representation. In this paper, we focus on analyzing the properties of the neural machine translation using two models; RNN Encoder--Decoder and a newly proposed gated recursive convolutional neural network. We show that the neural machine translation performs relatively well on short sentences without unknown words, but its performance degrades rapidly as the length of the sentence and the number of unknown words increase. Furthermore, we find that the proposed gated recursive convolutional network learns a grammatical structure of a sentence automatically."
+            },
+            "slug": "On-the-Properties-of-Neural-Machine-Translation:-Cho-Merrienboer",
+            "title": {
+                "fragments": [],
+                "text": "On the Properties of Neural Machine Translation: Encoder\u2013Decoder Approaches"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "It is shown that the neural machine translation performs relatively well on short sentences without unknown words, but its performance degrades rapidly as the length of the sentence and the number of unknown words increase."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SSST@EMNLP"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2563432"
+                        ],
+                        "name": "Wojciech Zaremba",
+                        "slug": "Wojciech-Zaremba",
+                        "structuredName": {
+                            "firstName": "Wojciech",
+                            "lastName": "Zaremba",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wojciech Zaremba"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1689108"
+                        ],
+                        "name": "Oriol Vinyals",
+                        "slug": "Oriol-Vinyals",
+                        "structuredName": {
+                            "firstName": "Oriol",
+                            "lastName": "Vinyals",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Oriol Vinyals"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 29
+                            }
+                        ],
+                        "text": "We do this by analyzing the proposed augmented loss in a particular setting, and observe an implicit core mechanism of this loss."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 158,
+                                "start": 138
+                            }
+                        ],
+                        "text": "Since their introduction in Mikolov et al. (2010), many improvements have been proposed for RNNLMs , including different dropout methods (Zaremba et al., 2014; Gal, 2015), novel recurrent units (Zilly et al., 2016), and use of pointer networks to complement the recurrent neural network (Merity et\u2026"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 81,
+                                "start": 60
+                            }
+                        ],
+                        "text": "We closely follow the LSTM based language model proposed in Zaremba et al. (2014) for constructing our baseline model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 17719760,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97",
+            "isKey": false,
+            "numCitedBy": 1997,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a simple regularization technique for Recurrent Neural Networks (RNNs) with Long Short-Term Memory (LSTM) units. Dropout, the most successful technique for regularizing neural networks, does not work well with RNNs and LSTMs. In this paper, we show how to correctly apply dropout to LSTMs, and show that it substantially reduces overfitting on a variety of tasks. These tasks include language modeling, speech recognition, image caption generation, and machine translation."
+            },
+            "slug": "Recurrent-Neural-Network-Regularization-Zaremba-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "Recurrent Neural Network Regularization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 34,
+                "text": "This paper shows how to correctly apply dropout to LSTMs, and shows that it substantially reduces overfitting on a variety of tasks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1996134"
+                        ],
+                        "name": "Razvan Pascanu",
+                        "slug": "Razvan-Pascanu",
+                        "structuredName": {
+                            "firstName": "Razvan",
+                            "lastName": "Pascanu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Razvan Pascanu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1854385"
+                        ],
+                        "name": "\u00c7aglar G\u00fcl\u00e7ehre",
+                        "slug": "\u00c7aglar-G\u00fcl\u00e7ehre",
+                        "structuredName": {
+                            "firstName": "\u00c7aglar",
+                            "lastName": "G\u00fcl\u00e7ehre",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "\u00c7aglar G\u00fcl\u00e7ehre"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1979489"
+                        ],
+                        "name": "Kyunghyun Cho",
+                        "slug": "Kyunghyun-Cho",
+                        "structuredName": {
+                            "firstName": "Kyunghyun",
+                            "lastName": "Cho",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kyunghyun Cho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 47,
+                                "start": 26
+                            }
+                        ],
+                        "text": "We use gradient clipping (Pascanu et al., 2013b); i.e. we rescale the gradients using the global norm if it exceeds a certain value."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1870512,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "533ee188324b833e059cb59b654e6160776d5812",
+            "isKey": false,
+            "numCitedBy": 800,
+            "numCiting": 54,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, we explore different ways to extend a recurrent neural network (RNN) to a \\textit{deep} RNN. We start by arguing that the concept of depth in an RNN is not as clear as it is in feedforward neural networks. By carefully analyzing and understanding the architecture of an RNN, however, we find three points of an RNN which may be made deeper; (1) input-to-hidden function, (2) hidden-to-hidden transition and (3) hidden-to-output function. Based on this observation, we propose two novel architectures of a deep RNN which are orthogonal to an earlier attempt of stacking multiple recurrent layers to build a deep RNN (Schmidhuber, 1992; El Hihi and Bengio, 1996). We provide an alternative interpretation of these deep RNNs using a novel framework based on neural operators. The proposed deep RNNs are empirically evaluated on the tasks of polyphonic music prediction and language modeling. The experimental result supports our claim that the proposed deep RNNs benefit from the depth and outperform the conventional, shallow RNNs."
+            },
+            "slug": "How-to-Construct-Deep-Recurrent-Neural-Networks-Pascanu-G\u00fcl\u00e7ehre",
+            "title": {
+                "fragments": [],
+                "text": "How to Construct Deep Recurrent Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Two novel architectures of a deep RNN are proposed which are orthogonal to an earlier attempt of stacking multiple recurrent layers to build aDeep RNN, and an alternative interpretation is provided using a novel framework based on neural operators."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1734174"
+                        ],
+                        "name": "M. Marcus",
+                        "slug": "M.-Marcus",
+                        "structuredName": {
+                            "firstName": "Mitchell",
+                            "lastName": "Marcus",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Marcus"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2424234"
+                        ],
+                        "name": "Beatrice Santorini",
+                        "slug": "Beatrice-Santorini",
+                        "structuredName": {
+                            "firstName": "Beatrice",
+                            "lastName": "Santorini",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Beatrice Santorini"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2063206"
+                        ],
+                        "name": "Mary Ann Marcinkiewicz",
+                        "slug": "Mary-Ann-Marcinkiewicz",
+                        "structuredName": {
+                            "firstName": "Mary",
+                            "lastName": "Marcinkiewicz",
+                            "middleNames": [
+                                "Ann"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mary Ann Marcinkiewicz"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 252796,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0b44fcbeea9415d400c5f5789d6b892b6f98daff",
+            "isKey": false,
+            "numCitedBy": 8207,
+            "numCiting": 75,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Abstract : As a result of this grant, the researchers have now published oil CDROM a corpus of over 4 million words of running text annotated with part-of- speech (POS) tags, with over 3 million words of that material assigned skeletal grammatical structure. This material now includes a fully hand-parsed version of the classic Brown corpus. About one half of the papers at the ACL Workshop on Using Large Text Corpora this past summer were based on the materials generated by this grant."
+            },
+            "slug": "Building-a-Large-Annotated-Corpus-of-English:-The-Marcus-Santorini",
+            "title": {
+                "fragments": [],
+                "text": "Building a Large Annotated Corpus of English: The Penn Treebank"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 80,
+                "text": "As a result of this grant, the researchers have now published on CDROM a corpus of over 4 million words of running text annotated with part-of- speech (POS) tags, which includes a fully hand-parsed version of the classic Brown corpus."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CL"
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3308557"
+                        ],
+                        "name": "S. Hochreiter",
+                        "slug": "S.-Hochreiter",
+                        "structuredName": {
+                            "firstName": "Sepp",
+                            "lastName": "Hochreiter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hochreiter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145341374"
+                        ],
+                        "name": "J. Schmidhuber",
+                        "slug": "J.-Schmidhuber",
+                        "structuredName": {
+                            "firstName": "J\u00fcrgen",
+                            "lastName": "Schmidhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schmidhuber"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 22
+                            }
+                        ],
+                        "text": "In language modeling, there is a well established metric space for the outputs (words in the language) based on word embeddings, with meaningful distances between words (Mikolov et al., 2013; Pennington et al., 2014)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 286,
+                                "start": 256
+                            }
+                        ],
+                        "text": "Note that the above formulation does not make any assumptions about the specifics of the recurrent neural units, and f could be replaced with a standard recurrent unit, a gated recurrent unit (GRU) (Cho et al., 2014), a long-short term memory (LSTM) unit (Hochreiter & Schmidhuber, 1997), etc."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1915014,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "44d2abe2175df8153f465f6c39b68b76a0d40ab9",
+            "isKey": false,
+            "numCitedBy": 52390,
+            "numCiting": 68,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O. 1. Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms."
+            },
+            "slug": "Long-Short-Term-Memory-Hochreiter-Schmidhuber",
+            "title": {
+                "fragments": [],
+                "text": "Long Short-Term Memory"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A novel, efficient, gradient based method called long short-term memory (LSTM) is introduced, which can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2139116"
+                        ],
+                        "name": "Charlie Frogner",
+                        "slug": "Charlie-Frogner",
+                        "structuredName": {
+                            "firstName": "Charlie",
+                            "lastName": "Frogner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Charlie Frogner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "151505981"
+                        ],
+                        "name": "Chiyuan Zhang",
+                        "slug": "Chiyuan-Zhang",
+                        "structuredName": {
+                            "firstName": "Chiyuan",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chiyuan Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3232655"
+                        ],
+                        "name": "H. Mobahi",
+                        "slug": "H.-Mobahi",
+                        "structuredName": {
+                            "firstName": "Hossein",
+                            "lastName": "Mobahi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Mobahi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1399105101"
+                        ],
+                        "name": "M. Araya-Polo",
+                        "slug": "M.-Araya-Polo",
+                        "structuredName": {
+                            "firstName": "Mauricio",
+                            "lastName": "Araya-Polo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Araya-Polo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1685292"
+                        ],
+                        "name": "T. Poggio",
+                        "slug": "T.-Poggio",
+                        "structuredName": {
+                            "firstName": "Tomaso",
+                            "lastName": "Poggio",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Poggio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 294,
+                                "start": 274
+                            }
+                        ],
+                        "text": "\u2026(RNNLM) are based on the conventional classification framework, which has two major drawbacks: First, there is no assumed metric on the output classes, whereas there is evidence suggesting that learning is improved when one can define a natural metric on the output space (Frogner et al., 2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "L G\n] 1\n1 M\nar 2\n01 7"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 8649027,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ae23eda2faddd824480de2d90638795f797cc66e",
+            "isKey": false,
+            "numCitedBy": 390,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Learning to predict multi-label outputs is challenging, but in many problems there is a natural metric on the outputs that can be used to improve predictions. In this paper we develop a loss function for multi-label learning, based on the Wasserstein distance. The Wasserstein distance provides a natural notion of dissimilarity for probability measures. Although optimizing with respect to the exact Wasserstein distance is costly, recent work has described a regularized approximation that is efficiently computed. We describe an efficient learning algorithm based on this regularization, as well as a novel extension of the Wasserstein distance from probability measures to unnormalized measures. We also describe a statistical learning bound for the loss. The Wasserstein loss can encourage smoothness of the predictions with respect to a chosen metric on the output space. We demonstrate this property on a real-data tag prediction problem, using the Yahoo Flickr Creative Commons dataset, outperforming a baseline that doesn't use the metric."
+            },
+            "slug": "Learning-with-a-Wasserstein-Loss-Frogner-Zhang",
+            "title": {
+                "fragments": [],
+                "text": "Learning with a Wasserstein Loss"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "An efficient learning algorithm based on this regularization, as well as a novel extension of the Wasserstein distance from probability measures to unnormalized measures, which can encourage smoothness of the predictions with respect to a chosen metric on the output space."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1996134"
+                        ],
+                        "name": "Razvan Pascanu",
+                        "slug": "Razvan-Pascanu",
+                        "structuredName": {
+                            "firstName": "Razvan",
+                            "lastName": "Pascanu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Razvan Pascanu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 47,
+                                "start": 26
+                            }
+                        ],
+                        "text": "We use gradient clipping (Pascanu et al., 2013b); i.e. we rescale the gradients using the global norm if it exceeds a certain value."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14650762,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "84069287da0a6b488b8c933f3cb5be759cb6237e",
+            "isKey": false,
+            "numCitedBy": 3849,
+            "numCiting": 37,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "There are two widely known issues with properly training recurrent neural networks, the vanishing and the exploding gradient problems detailed in Bengio et al. (1994). In this paper we attempt to improve the understanding of the underlying issues by exploring these problems from an analytical, a geometric and a dynamical systems perspective. Our analysis is used to justify a simple yet effective solution. We propose a gradient norm clipping strategy to deal with exploding gradients and a soft constraint for the vanishing gradients problem. We validate empirically our hypothesis and proposed solutions in the experimental section."
+            },
+            "slug": "On-the-difficulty-of-training-recurrent-neural-Pascanu-Mikolov",
+            "title": {
+                "fragments": [],
+                "text": "On the difficulty of training recurrent neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "This paper proposes a gradient norm clipping strategy to deal with exploding gradients and a soft constraint for the vanishing gradients problem and validates empirically the hypothesis and proposed solutions."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8536286"
+                        ],
+                        "name": "A. Bosselut",
+                        "slug": "A.-Bosselut",
+                        "structuredName": {
+                            "firstName": "Antoine",
+                            "lastName": "Bosselut",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Bosselut"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39455775"
+                        ],
+                        "name": "Omer Levy",
+                        "slug": "Omer-Levy",
+                        "structuredName": {
+                            "firstName": "Omer",
+                            "lastName": "Levy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Omer Levy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "14487640"
+                        ],
+                        "name": "Ari Holtzman",
+                        "slug": "Ari-Holtzman",
+                        "structuredName": {
+                            "firstName": "Ari",
+                            "lastName": "Holtzman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ari Holtzman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40479850"
+                        ],
+                        "name": "C. Ennis",
+                        "slug": "C.-Ennis",
+                        "structuredName": {
+                            "firstName": "Corin",
+                            "lastName": "Ennis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Ennis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145197953"
+                        ],
+                        "name": "D. Fox",
+                        "slug": "D.-Fox",
+                        "structuredName": {
+                            "firstName": "Dieter",
+                            "lastName": "Fox",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Fox"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699545"
+                        ],
+                        "name": "Yejin Choi",
+                        "slug": "Yejin-Choi",
+                        "structuredName": {
+                            "firstName": "Yejin",
+                            "lastName": "Choi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yejin Choi"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 51540074,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bcd857d75841aa3e92cd4284a8818aba9f6c0c3f",
+            "isKey": false,
+            "numCitedBy": 156,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Understanding procedural language requires anticipating the causal effects of actions, even when they are not explicitly stated. In this work, we introduce Neural Process Networks to understand procedural text through (neural) simulation of action dynamics. Our model complements existing memory architectures with dynamic entity tracking by explicitly modeling actions as state transformers. The model updates the states of the entities by executing learned action operators. Empirical results demonstrate that our proposed model can reason about the unstated causal effects of actions, allowing it to provide more accurate contextual information for understanding and generating procedural text, all while offering more interpretable internal representations than existing alternatives."
+            },
+            "slug": "Published-as-a-conference-paper-at-ICLR-2018-S-A-D-Bosselut-Levy",
+            "title": {
+                "fragments": [],
+                "text": "Published as a conference paper at ICLR 2018 S IMULATING A CTION D YNAMICS WITH N EURAL P ROCESS N ETWORKS"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "This work introduces Neural Process Networks to understand procedural text through (neural) simulation of action dynamics, and complements existing memory architectures with dynamic entity tracking by explicitly modeling actions as state transformers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1425082935"
+                        ],
+                        "name": "Xinyun Chen",
+                        "slug": "Xinyun-Chen",
+                        "structuredName": {
+                            "firstName": "Xinyun",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xinyun Chen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 17735339,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "94e3e7bc3d23276f0ee2d1cb8f9d14aa19668d5f",
+            "isKey": false,
+            "numCitedBy": 488,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "An intriguing property of deep neural networks is the existence of adversarial examples, which can transfer among different architectures. These transferable adversarial examples may severely hinder deep neural network-based applications. Previous works mostly study the transferability using small scale datasets. In this work, we are the first to conduct an extensive study of the transferability over large models and a large scale dataset, and we are also the first to study the transferability of targeted adversarial examples with their target labels. We study both non-targeted and targeted adversarial examples, and show that while transferable non-targeted adversarial examples are easy to find, targeted adversarial examples generated using existing approaches almost never transfer with their target labels. Therefore, we propose novel ensemble-based approaches to generating transferable adversarial examples. Using such approaches, we observe a large proportion of targeted adversarial examples that are able to transfer with their target labels for the first time. We also present some geometric studies to help understanding the transferable adversarial examples. Finally, we show that the adversarial examples generated using ensemble-based approaches can successfully attack Clarifai.com, which is a black-box image classification system."
+            },
+            "slug": "Under-Review-as-a-Conference-Paper-at-Iclr-2017-Ex-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "This work is the first to conduct an extensive study of the transferability over large models and a large scale dataset, and it is also theFirst to study the transferabilities of targeted adversarial examples with their target labels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "102624579"
+                        ],
+                        "name": "A. Bjoerck",
+                        "slug": "A.-Bjoerck",
+                        "structuredName": {
+                            "firstName": "Ake",
+                            "lastName": "Bjoerck",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Bjoerck"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1712211"
+                        ],
+                        "name": "G. Golub",
+                        "slug": "G.-Golub",
+                        "structuredName": {
+                            "firstName": "Gene",
+                            "lastName": "Golub",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Golub"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 133,
+                                "start": 113
+                            }
+                        ],
+                        "text": "For this, we use a common metric based on the relative residual norm from projection of one matrix onto another (Bjo\u0308rck & Golub, 1973)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 122439165,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "bcf377585fa0751b8bb983ccc7cf0866826eebec",
+            "isKey": false,
+            "numCitedBy": 597,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Assume that two subspaces F and G of unitary space are defined as the ranges (or nullspaces) of given rectangular matrices A and B. Accurate numerical methods are developed for computing the principal angles $\\theta_k (F,G)$ and orthogonal sets of principal vectors $u_k\\ \\epsilon\\ F$ and $v_k\\ \\epsilon\\ G$, k = 1,2,..., q = dim(G) $\\leq$ dim(F). An important application in statistics is computing the canonical correlations $\\sigma_k\\ = cos \\theta_k$ between two sets of variates. A perturbation analysis shows that the condition number for $\\theta_k$ essentially is max($\\kappa (A),\\kappa (B)$), where $\\kappa$ denotes the condition number of a matrix. The algorithms are based on a preliminary QR-factorization of A and B (or $A^H$ and $B^H$), for which either the method of Householder transformations (HT) or the modified Gram-Schmidt method (MGS) is used. Then cos $\\theta_k$ and sin $\\theta_k$ are computed as the singular values of certain related matrices. Experimental results are given, which indicates that MGS gives $\\theta_k$ with equal precision and fewer arithmetic operations than HT. However, HT gives principal vectors, which are orthogonal to working accuracy, which is not in general true for MGS. Finally the case when A and/or B are rank deficient is discussed."
+            },
+            "slug": "Numerical-methods-for-computing-angles-between-Bjoerck-Golub",
+            "title": {
+                "fragments": [],
+                "text": "Numerical methods for computing angles between linear subspaces"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "Experimental results are given, which indicates that MGS gives $\\theta_k$ with equal precision and fewer arithmetic operations than HT, however, HT gives principal vectors, which are orthogonal to working accuracy, which is not in general true for MGS."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Milestones in Matrix Computation"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 114,
+                                "start": 101
+                            }
+                        ],
+                        "text": "The computed metric is closely related with the principle angles between subspaces, first defined in Jordan (1875)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 184480211,
+            "fieldsOfStudy": [],
+            "id": "e6647feeaafa97f2b888b906232bcaed38c5bd0d",
+            "isKey": false,
+            "numCitedBy": 147,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Bulletin-de-la-Soci\u00e9t\u00e9-Math\u00e9matique-de-France",
+            "title": {
+                "fragments": [],
+                "text": "Bulletin de la Soci\u00e9t\u00e9 Math\u00e9matique de France"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1891
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1767244"
+                        ],
+                        "name": "S. Baluja",
+                        "slug": "S.-Baluja",
+                        "structuredName": {
+                            "firstName": "Shumeet",
+                            "lastName": "Baluja",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Baluja"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48855558"
+                        ],
+                        "name": "D. Pomerleau",
+                        "slug": "D.-Pomerleau",
+                        "structuredName": {
+                            "firstName": "Dean",
+                            "lastName": "Pomerleau",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Pomerleau"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 57122527,
+            "fieldsOfStudy": [
+                "Psychology"
+            ],
+            "id": "412b11a5552f4afbbed98c37fdadbf20d2e5de75",
+            "isKey": false,
+            "numCitedBy": 144,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Advances-in-Neural-Information-Processing-Baluja-Pomerleau",
+            "title": {
+                "fragments": [],
+                "text": "Advances in Neural Information Processing"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1994
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "How to construct deep"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2017
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "aracter-aware neural language models.arXiv preprint arXiv:1508.06615"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2015
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "A neural at"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2016
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 18,
+            "methodology": 9,
+            "result": 1
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 34,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Tying-Word-Vectors-and-Word-Classifiers:-A-Loss-for-Inan-Khosravi/424aef7340ee618132cc3314669400e23ad910ba?sort=total-citations"
+}

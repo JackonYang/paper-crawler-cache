@@ -1,0 +1,2852 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2082718"
+                        ],
+                        "name": "H. Massalin",
+                        "slug": "H.-Massalin",
+                        "structuredName": {
+                            "firstName": "Henry",
+                            "lastName": "Massalin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Massalin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 6074260,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b9addc8ce998f6892120c2c8b23ae183312bfa6c",
+            "isKey": false,
+            "numCitedBy": 230,
+            "numCiting": 5,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Given an instruction set, the superoptimizer finds the shortest program to compute a function. Startling programs have been generated, many of them engaging in convoluted bit-fiddling bearing little resemblance to the source programs which defined the functions. The key idea in the superoptimizer is a probabilistic test that makes exhaustive searches practical for programs of useful size. The search space is defined by the processor's instruction set, which may include the whole set, but it is typically restricted to a subset. By constraining the instructions and observing the effect on the output program, one can gain insight into the design of instruction sets. In addition, superoptimized programs may be used by peephole optimizers to improve the quality of generated code, or by assembly language programmers to improve manually written code."
+            },
+            "slug": "Superoptimizer:-a-look-at-the-smallest-program-Massalin",
+            "title": {
+                "fragments": [],
+                "text": "Superoptimizer: a look at the smallest program"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 68,
+                "text": "Given an instruction set, the superoptimizer finds the shortest program to compute a function, a probabilistic test that makes exhaustive searches practical for programs of useful size."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ASPLOS"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145083365"
+                        ],
+                        "name": "Sorav Bansal",
+                        "slug": "Sorav-Bansal",
+                        "structuredName": {
+                            "firstName": "Sorav",
+                            "lastName": "Bansal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sorav Bansal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 42
+                            }
+                        ],
+                        "text": "large executable hardware instruction set [2] to implicit enumeration through symbolic theorem proving techniques of programs over some restricted register transaction language [9, 11, 14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 10,
+                                "start": 7
+                            }
+                        ],
+                        "text": "Bansal [2] identifies the Linked List Traversal Benchmark for superoptimizers shown in Figure 14."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 10,
+                                "start": 7
+                            }
+                        ],
+                        "text": "Bansal [2] describes a system that automatically enumerates 32-bit x86 superoptimizations and stores the results in a database for later use."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 140,
+                                "start": 137
+                            }
+                        ],
+                        "text": "STOKE uses a sound procedure for validating the equality of two sequences of loop-free assembly which is similar to the one described in [2]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 990671,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "25a77652204ae3e524a1ca25cca7a44c72d37d6d",
+            "isKey": false,
+            "numCitedBy": 151,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Peephole optimizers are typically constructed using human-written pattern matching rules, an approach that requires expertise and time, as well as being less than systematic at exploiting all opportunities for optimization. We explore fully automatic construction of peephole optimizers using brute force superoptimization. While the optimizations discovered by our automatic system may be less general than human-written counterparts, our approach has the potential to automatically learn a database of thousands to millions of optimizations, in contrast to the hundreds found in current peephole optimizers. We show experimentally that our optimizer is able to exploit performance opportunities not found by existing compilers; in particular, we show speedups from 1.7 to a factor of 10 on some compute intensive kernels over a conventional optimizing compiler."
+            },
+            "slug": "Automatic-generation-of-peephole-superoptimizers-Bansal-Aiken",
+            "title": {
+                "fragments": [],
+                "text": "Automatic generation of peephole superoptimizers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is shown experimentally that the fully automatic construction of peephole optimizers using brute force superoptimization is able to exploit performance opportunities not found by existing compilers, and speedups from 1.7 to a factor of 10 on some compute intensive kernels over a conventional optimizing compiler are shown."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ASPLOS XII"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144058482"
+                        ],
+                        "name": "R. Joshi",
+                        "slug": "R.-Joshi",
+                        "structuredName": {
+                            "firstName": "Rajeev",
+                            "lastName": "Joshi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Joshi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145802352"
+                        ],
+                        "name": "Greg Nelson",
+                        "slug": "Greg-Nelson",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Nelson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Greg Nelson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3234133"
+                        ],
+                        "name": "K. H. Randall",
+                        "slug": "K.-H.-Randall",
+                        "structuredName": {
+                            "firstName": "Keith",
+                            "lastName": "Randall",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. H. Randall"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 7
+                            }
+                        ],
+                        "text": "Denali [11], and the more recent Equality Saturation technique [18], attempt to gain scalability by only considering programs that are known to be equal to the input program."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 188,
+                                "start": 177
+                            }
+                        ],
+                        "text": "large executable hardware instruction set [2] to implicit enumeration through symbolic theorem proving techniques of programs over some restricted register transaction language [9, 11, 14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11799896,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5090ed315d3ab9f0135c83f287c5021d61929760",
+            "isKey": false,
+            "numCitedBy": 145,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper provides a preliminary report on a new research project that aims to construct a code generator that uses an automatic theorem prover to produce very high-quality (in fact, nearly mathematically optimal) machine code for modern architectures. The code generator is not intended for use in an ordinary compiler, but is intended to be used for inner loops and critical subroutines in those cases where peak performance is required, no available compiler generates adequately efficient code, and where current engineering practice is to use hand-coded machine language. The paper describes the design of the superoptimizer, and presents some encouraging preliminary results."
+            },
+            "slug": "Denali:-a-goal-directed-superoptimizer-Joshi-Nelson",
+            "title": {
+                "fragments": [],
+                "text": "Denali: a goal-directed superoptimizer"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "A code generator that uses an automatic theorem prover to produce very high-quality (in fact, nearly mathematically optimal) machine code for modern architectures is constructed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '02"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108314"
+                        ],
+                        "name": "Sumit Gulwani",
+                        "slug": "Sumit-Gulwani",
+                        "structuredName": {
+                            "firstName": "Sumit",
+                            "lastName": "Gulwani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sumit Gulwani"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37747652"
+                        ],
+                        "name": "Susmit Jha",
+                        "slug": "Susmit-Jha",
+                        "structuredName": {
+                            "firstName": "Susmit",
+                            "lastName": "Jha",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Susmit Jha"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145219494"
+                        ],
+                        "name": "A. Tiwari",
+                        "slug": "A.-Tiwari",
+                        "structuredName": {
+                            "firstName": "Ashish",
+                            "lastName": "Tiwari",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Tiwari"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144002578"
+                        ],
+                        "name": "R. Venkatesan",
+                        "slug": "R.-Venkatesan",
+                        "structuredName": {
+                            "firstName": "Ramarathnam",
+                            "lastName": "Venkatesan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Venkatesan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 8
+                            }
+                        ],
+                        "text": "Gulwani [9] notes this as a source of benchmarks for program synthesis and superoptimization, and identifies a 25 program benchmark which ranges in complexity from turning off the right-most bit in a word, to rounding up to the next highest power of 2, or selecting the upper 32 bits from a 64-bit multiplication."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 188,
+                                "start": 177
+                            }
+                        ],
+                        "text": "large executable hardware instruction set [2] to implicit enumeration through symbolic theorem proving techniques of programs over some restricted register transaction language [9, 11, 14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 25,
+                                "start": 19
+                            }
+                        ],
+                        "text": "Sketching [17] and Brahma [9] address the \nclosely related component-based program synthesis problem."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 29,
+                                "start": 26
+                            }
+                        ],
+                        "text": "Sketching [17] and Brahma [9] address the closely related component-based program synthesis problem."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6554381,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ea93cf600859aa09b0b7b727c12f36543608e1cd",
+            "isKey": true,
+            "numCitedBy": 307,
+            "numCiting": 59,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider the problem of synthesizing loop-free programs that implement a desired functionality using components from a given library. Specifications of the desired functionality and the library components are provided as logical relations between their respective input and output variables. The library components can be used at most once, and hence the library is required to contain a reasonable overapproximation of the multiset of the components required.\n We solve the above component-based synthesis problem using a constraint-based approach that involves first generating a synthesis constraint, and then solving the constraint. The synthesis constraint is a first-order \u2203\u2200 logic formula whose size is quadratic in the number of components. We present a novel algorithm for solving such constraints. Our algorithm is based on counterexample guided iterative synthesis paradigm and uses off-the-shelf SMT solvers.\n We present experimental results that show that our tool Brahma can efficiently synthesize highly nontrivial 10-20 line loop-free bitvector programs. These programs represent a state space of approximately 2010 programs, and are beyond the reach of the other tools based on sketching and superoptimization."
+            },
+            "slug": "Synthesis-of-loop-free-programs-Gulwani-Jha",
+            "title": {
+                "fragments": [],
+                "text": "Synthesis of loop-free programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Results are presented that show that the tool Brahma can efficiently synthesize highly nontrivial 10-20 line loop-free bitvector programs, and are beyond the reach of the other tools based on sketching and superoptimization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '11"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "6331083"
+                        ],
+                        "name": "R. Tate",
+                        "slug": "R.-Tate",
+                        "structuredName": {
+                            "firstName": "Ross",
+                            "lastName": "Tate",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Tate"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "30073551"
+                        ],
+                        "name": "M. Stepp",
+                        "slug": "M.-Stepp",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Stepp",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Stepp"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2272813"
+                        ],
+                        "name": "Zachary Tatlock",
+                        "slug": "Zachary-Tatlock",
+                        "structuredName": {
+                            "firstName": "Zachary",
+                            "lastName": "Tatlock",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zachary Tatlock"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145655689"
+                        ],
+                        "name": "Sorin Lerner",
+                        "slug": "Sorin-Lerner",
+                        "structuredName": {
+                            "firstName": "Sorin",
+                            "lastName": "Lerner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sorin Lerner"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 63
+                            }
+                        ],
+                        "text": "Denali [11], and the more recent Equality Saturation technique [18], attempt to gain scalability by only considering programs that are known to be equal to the input program."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2138086,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f09d36476445c7f44d46555a753eae446cfed180",
+            "isKey": false,
+            "numCitedBy": 157,
+            "numCiting": 85,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Optimizations in a traditional compiler are applied sequentially, with each optimization destructively modifying the program to produce a transformed program that is then passed to the next optimization. We present a new approach for structuring the optimization phase of a compiler. In our approach, optimizations take the form of equality analyses that add equality information to a common intermediate representation. The optimizer works by repeatedly applying these analyses to infer equivalences between program fragments, thus saturating the intermediate representation with equalities. Once saturated, the intermediate representation encodes multiple optimized versions of the input program. At this point, a profitability heuristic picks the final optimized program from the various programs represented in the saturated representation. Our proposed way of structuring optimizers has a variety of benefits over previous approaches: our approach obviates the need to worry about optimization ordering, enables the use of a global optimization heuristic that selects among fully optimized programs, and can be used to perform translation validation, even on compilers other than our own. We present our approach, formalize it, and describe our choice of intermediate representation. We also present experimental results showing that our approach is practical in terms of time and space overhead, is effective at discovering intricate optimization opportunities, and is effective at performing translation validation for a realistic optimizer."
+            },
+            "slug": "Equality-saturation:-a-new-approach-to-optimization-Tate-Stepp",
+            "title": {
+                "fragments": [],
+                "text": "Equality saturation: a new approach to optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "The proposed way of structuring optimizers has a variety of benefits over previous approaches: it obviates the need to worry about optimization ordering, enables the use of a global optimization heuristic that selects among fully optimized programs, and can be used to perform translation validation, even on compilers other than the authors' own."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '09"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145520209"
+                        ],
+                        "name": "Vijay Ganesh",
+                        "slug": "Vijay-Ganesh",
+                        "structuredName": {
+                            "firstName": "Vijay",
+                            "lastName": "Ganesh",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vijay Ganesh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699040"
+                        ],
+                        "name": "D. Dill",
+                        "slug": "D.-Dill",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Dill",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Dill"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 116,
+                                "start": 113
+                            }
+                        ],
+                        "text": "Code sequences are converted into SMT formulae \nin the quanti.er free theory of bit-vector arithmetic used by the STP [7] theorem prover, and used to \nproduce a query which asks whether both sequences produce the same side effects on live out\u00adputs when \nexecuted from the same initial machine state."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 121,
+                                "start": 118
+                            }
+                        ],
+                        "text": "Code sequences are converted into SMT formulae in the quantifier free theory of bit-vector arithmetic used by the STP [7] theorem prover, and used to produce a query which asks whether both sequences produce the same side effects on live outputs when executed from the same initial machine state."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 8
+                            }
+                        ],
+                        "text": "Whereas STP diverges when reasoning ex\u00adplicitly about \ntwo or more such operations, our benchmarks contain as many as four per program."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 46,
+                                "start": 43
+                            }
+                        ],
+                        "text": "Using these constraints, STOKE performs an STP query \nwhich asks whether there does not exist an initial machine state which causes the two sequences to produce \ndifferent values for the live outputs with respect to the target."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 258,
+                                "start": 255
+                            }
+                        ],
+                        "text": "Acknowledgments The authors would like to thank Peter Johnston, Juan Manuel Tamayo, and \nKushal Tayal for their assistance in the implemen\u00adtation of STOKE, Ankur Taly and David Ramos for their \nadvice regarding the semantics of x86-64 opcodes and the use of STP, Jake Herczeg for his time spent \ndesigning Figure 4, and Martin Rinard for suggesting a technique which focuses more on testcases than \nvalidation."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 9149475,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "580772507bca7b9a0318d251e13f5cd8fb028d7b",
+            "isKey": true,
+            "numCitedBy": 620,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "STP is a decision procedure for the satisfiability of quantifier-free formulas in the theory of bit-vectors and arrays that has been optimized for large problems encountered in software analysis applications. The basic architecture of the procedure consists of word-level pre-processing algorithms followed by translation to SAT. The primary bottlenecks in software verification and bug finding applications are large arrays and linear bit-vector arithmetic. New algorithms based on the abstraction-refinement paradigm are presented for reasoning about large arrays. A solver for bit-vector linear arithmetic is presented that eliminates variables and parts of variables to enable other transformations, and reduce the size of the problem that is eventually received by the SAT solver. \n \nThese and other algorithms have been implemented in STP, which has been heavily tested over thousands of examples obtained from several real-world applications. Experimental results indicate that the above mix of algorithms along with the overall architecture is far more effective, for a variety of applications, than a direct translation of the original formula to SAT or other comparable decision procedures."
+            },
+            "slug": "A-Decision-Procedure-for-Bit-Vectors-and-Arrays-Ganesh-Dill",
+            "title": {
+                "fragments": [],
+                "text": "A Decision Procedure for Bit-Vectors and Arrays"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "Experimental results indicate that the above mix of algorithms along with the overall architecture is far more effective, for a variety of applications, than a direct translation of the original formula to SAT or other comparable decision procedures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CAV"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2279823"
+                        ],
+                        "name": "Cristian Cadar",
+                        "slug": "Cristian-Cadar",
+                        "structuredName": {
+                            "firstName": "Cristian",
+                            "lastName": "Cadar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Cristian Cadar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153173886"
+                        ],
+                        "name": "Daniel Dunbar",
+                        "slug": "Daniel-Dunbar",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Dunbar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel Dunbar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2373056"
+                        ],
+                        "name": "D. Engler",
+                        "slug": "D.-Engler",
+                        "structuredName": {
+                            "firstName": "Dawson",
+                            "lastName": "Engler",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Engler"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2520229,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b187a252f54f4cc266cdbe5d91aa25b994176073",
+            "isKey": false,
+            "numCitedBy": 2793,
+            "numCiting": 58,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a new symbolic execution tool, KLEE, capable of automatically generating tests that achieve high coverage on a diverse set of complex and environmentally-intensive programs. We used KLEE to thoroughly check all 89 stand-alone programs in the GNU COREUTILS utility suite, which form the core user-level environment installed on millions of Unix systems, and arguably are the single most heavily tested set of open-source programs in existence. KLEE-generated tests achieve high line coverage -- on average over 90% per tool (median: over 94%) -- and significantly beat the coverage of the developers' own hand-written test suite. When we did the same for 75 equivalent tools in the BUSYBOX embedded system suite, results were even better, including 100% coverage on 31 of them. \n \nWe also used KLEE as a bug finding tool, applying it to 452 applications (over 430K total lines of code), where it found 56 serious bugs, including three in COREUTILS that had been missed for over 15 years. Finally, we used KLEE to crosscheck purportedly identical BUSYBOX and COREUTILS utilities, finding functional correctness errors and a myriad of inconsistencies."
+            },
+            "slug": "KLEE:-Unassisted-and-Automatic-Generation-of-Tests-Cadar-Dunbar",
+            "title": {
+                "fragments": [],
+                "text": "KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 77,
+                "text": "A new symbolic execution tool, KLEE, capable of automatically generating tests that achieve high coverage on a diverse set of complex and environmentally-intensive programs, and significantly beat the coverage of the developers' own hand-written test suite is presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "OSDI"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1389870240"
+                        ],
+                        "name": "Armando Solar-Lezama",
+                        "slug": "Armando-Solar-Lezama",
+                        "structuredName": {
+                            "firstName": "Armando",
+                            "lastName": "Solar-Lezama",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Armando Solar-Lezama"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2155805"
+                        ],
+                        "name": "Liviu Tancau",
+                        "slug": "Liviu-Tancau",
+                        "structuredName": {
+                            "firstName": "Liviu",
+                            "lastName": "Tancau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Liviu Tancau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1991345"
+                        ],
+                        "name": "R. Bod\u00edk",
+                        "slug": "R.-Bod\u00edk",
+                        "structuredName": {
+                            "firstName": "Rastislav",
+                            "lastName": "Bod\u00edk",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Bod\u00edk"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1775517"
+                        ],
+                        "name": "S. Seshia",
+                        "slug": "S.-Seshia",
+                        "structuredName": {
+                            "firstName": "Sanjit",
+                            "lastName": "Seshia",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Seshia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1714061"
+                        ],
+                        "name": "V. Saraswat",
+                        "slug": "V.-Saraswat",
+                        "structuredName": {
+                            "firstName": "Vijay",
+                            "lastName": "Saraswat",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Saraswat"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15367706,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1ef301c1b275091b6a50d620b41df4722f2108f0",
+            "isKey": false,
+            "numCitedBy": 697,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Sketching is a software synthesis approach where the programmer develops a partial implementation - a sketch - and a separate specification of the desired functionality. The synthesizer then completes the sketch to behave like the specification. The correctness of the synthesized implementation is guaranteed by the compiler, which allows, among other benefits, rapid development of highly tuned implementations without the fear of introducing bugs.We develop SKETCH, a language for finite programs with linguistic support for sketching. Finite programs include many highperformance kernels, including cryptocodes. In contrast to prior synthesizers, which had to be equipped with domain-specific rules, SKETCH completes sketches by means of a combinatorial search based on generalized boolean satisfiability. Consequently, our combinatorial synthesizer is complete for the class of finite programs: it is guaranteed to complete any sketch in theory, and in practice has scaled to realistic programming problems.Freed from domain rules, we can now write sketches as simpleto-understand partial programs, which are regular programs in which difficult code fragments are replaced with holes to be filled by the synthesizer. Holes may stand for index expressions, lookup tables, or bitmasks, but the programmer can easily define new kinds of holes using a single versatile synthesis operator.We have used SKETCH to synthesize an efficient implementation of the AES cipher standard. The synthesizer produces the most complex part of the implementation and runs in about an hour."
+            },
+            "slug": "Combinatorial-sketching-for-finite-programs-Solar-Lezama-Tancau",
+            "title": {
+                "fragments": [],
+                "text": "Combinatorial sketching for finite programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "SKETCH is a language for finite programs with linguistic support for sketching and its combinatorial synthesizer is complete for the class of finite programs, guaranteed to complete any sketch in theory, and in practice has scaled to realistic programming problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ASPLOS XII"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144655364"
+                        ],
+                        "name": "C. Luk",
+                        "slug": "C.-Luk",
+                        "structuredName": {
+                            "firstName": "C.",
+                            "lastName": "Luk",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Luk"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143935580"
+                        ],
+                        "name": "R. Cohn",
+                        "slug": "R.-Cohn",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Cohn",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Cohn"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145426175"
+                        ],
+                        "name": "R. Muth",
+                        "slug": "R.-Muth",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Muth",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Muth"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144578495"
+                        ],
+                        "name": "H. Patil",
+                        "slug": "H.-Patil",
+                        "structuredName": {
+                            "firstName": "Harish",
+                            "lastName": "Patil",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Patil"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47602144"
+                        ],
+                        "name": "A. Klauser",
+                        "slug": "A.-Klauser",
+                        "structuredName": {
+                            "firstName": "Artur",
+                            "lastName": "Klauser",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Klauser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145819402"
+                        ],
+                        "name": "P. G. Lowney",
+                        "slug": "P.-G.-Lowney",
+                        "structuredName": {
+                            "firstName": "P.",
+                            "lastName": "Lowney",
+                            "middleNames": [
+                                "Geoffrey"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. G. Lowney"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "148161334"
+                        ],
+                        "name": "S. Wallace",
+                        "slug": "S.-Wallace",
+                        "structuredName": {
+                            "firstName": "Steven",
+                            "lastName": "Wallace",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Wallace"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1805668"
+                        ],
+                        "name": "V. Reddi",
+                        "slug": "V.-Reddi",
+                        "structuredName": {
+                            "firstName": "Vijay",
+                            "lastName": "Reddi",
+                            "middleNames": [
+                                "Janapa"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Reddi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1775500"
+                        ],
+                        "name": "Kim M. Hazelwood",
+                        "slug": "Kim-M.-Hazelwood",
+                        "structuredName": {
+                            "firstName": "Kim",
+                            "lastName": "Hazelwood",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kim M. Hazelwood"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 6719639,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6de5a2f262cfeb6327af46e2066959a2320ffc9f",
+            "isKey": false,
+            "numCitedBy": 4067,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Robust and powerful software instrumentation tools are essential for program analysis tasks such as profiling, performance evaluation, and bug detection. To meet this need, we have developed a new instrumentation system called Pin. Our goals are to provide easy-to-use, portable, transparent, and efficient instrumentation. Instrumentation tools (called Pintools) are written in C/C++ using Pin's rich API. Pin follows the model of ATOM, allowing the tool writer to analyze an application at the instruction level without the need for detailed knowledge of the underlying instruction set. The API is designed to be architecture independent whenever possible, making Pintools source compatible across different architectures. However, a Pintool can access architecture-specific details when necessary. Instrumentation with Pin is mostly transparent as the application and Pintool observe the application's original, uninstrumented behavior. Pin uses dynamic compilation to instrument executables while they are running. For efficiency, Pin uses several techniques, including inlining, register re-allocation, liveness analysis, and instruction scheduling to optimize instrumentation. This fully automated approach delivers significantly better instrumentation performance than similar tools. For example, Pin is 3.3x faster than Valgrind and 2x faster than DynamoRIO for basic-block counting. To illustrate Pin's versatility, we describe two Pintools in daily use to analyze production software. Pin is publicly available for Linux platforms on four architectures: IA32 (32-bit x86), EM64T (64-bit x86), Itanium\u00ae, and ARM. In the ten months since Pin 2 was released in July 2004, there have been over 3000 downloads from its website."
+            },
+            "slug": "Pin:-building-customized-program-analysis-tools-Luk-Cohn",
+            "title": {
+                "fragments": [],
+                "text": "Pin: building customized program analysis tools with dynamic instrumentation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "The goals are to provide easy-to-use, portable, transparent, and efficient instrumentation, and to illustrate Pin's versatility, two Pintools in daily use to analyze production software are described."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '05"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34939726"
+                        ],
+                        "name": "H. S. Warren",
+                        "slug": "H.-S.-Warren",
+                        "structuredName": {
+                            "firstName": "Henry",
+                            "lastName": "Warren",
+                            "middleNames": [
+                                "S."
+                            ],
+                            "suffix": "Jr."
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. S. Warren"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 16,
+                                "start": 9
+                            }
+                        ],
+                        "text": "Hacker s Delight."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 20,
+                                "start": 13
+                            }
+                        ],
+                        "text": "6.1 Hacker s Delight Hacker s Delight \n[20], commonly referred to as the bible of bit\u00adtwiddling hacks , is a collection of techniques for encoding \noth\u00aderwise complex algorithms as small loop-free sequences of bit\u00admanipulating instructions."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 95
+                            }
+                        ],
+                        "text": "In similar fashion, for machines without \n64-bit instructions, the implementation that Hacker s Delight recommends for the Com\u00adpute the Higher \nOrder Half of a 64-bit Product multiplies two 32-bit inputs in four parts and aggregates the results."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 105,
+                                "start": 98
+                            }
+                        ],
+                        "text": "As shown in Figure 11 (bottom), STOKE is unable to synthe\u00adsize a rewrite for three of the Hacker \ns Delight Benchmarks."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 201,
+                                "start": 194
+                            }
+                        ],
+                        "text": "Figure 12 shows the Cycle Through 3 \nValues benchmark, which takes an input, x, and transforms it to the next value in the sequence (a, b, \nc): a becomes b, b becomes c, and c becomes a. Hacker s Delight points out that the most natural implementation \nof this function is a sequence of conditional assignments, but notes that for an ISA without conditional \nmove intrinsics the implemen\u00adtation shown is cheaper than one which uses branch instructions."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 17
+                            }
+                        ],
+                        "text": "Hacker\u2019s Delight [20], commonly referred to as \u201cthe bible of bittwiddling hacks\u201d, is a collection of techniques for encoding otherwise complex algorithms as small loop-free sequences of bitmanipulating instructions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 53918233,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f5bf32bade6ae00d33d99d5f53fcc7b4c466c68c",
+            "isKey": true,
+            "numCitedBy": 383,
+            "numCiting": 68,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "From the Book: \nCaveat Emptor: The cost of software maintenance increases with the square of the programmer's creativity. \nFirst Law of Programmer Creativity, \nRobert D. Bliss, 1992 \n \nThis is a collection of small programming tricks which the author has comeacross over many years. Most of them will work only on computers that representintegers in two's-complement form. Although a 32-bit machine is assumedwhen the register length is relevant, most of the tricks are easily adapted tomachines with other register sizes. \n \nThis book does not deal with \"large\" tricks such as sophisticated sorting andcompiler optimization techniques. Rather, it deals with \"small\" tricks that usuallyinvolve individual computer words or instructions, such as counting thenumber of 1-bits in a word. Such tricks often use a mixture of arithmetic and logicalinstructions. \n \nIt is assumed throughout that integer overflow interrupts have been maskedoff, so they cannot occur. C, Fortran, and even Java programs run in thisenvironment, but Pascal and ADA users beware! \n \nThe presentation is informal. Proofs are given only when the algorithm is definitelynot obvious, and sometimes not even then. The methods use computer-arithmetic, \"floor\" functions, mixtures of arithmetic and logical operations, etc.Proofs in this domain are often difficult and awkward to express.To reduce typographical errors and oversights, many of the algorithms havebeen executed. That is why they are given in a real programming language eventhough it, like every computer language, has some ugly features. For the highlevel language C is used, because it is widely known, it allows the straightforwardmixture of integer and bit-stringoperations, and C compilers are availablethat produce high quality object code. \n \nOccasionally machine language is used. It employs a 3-address format, mainlyfor ease of readability. The assembly language used is that of a fictitiousmachine that is representative of today's RISC computers. \n \nBranch-free code is favored. This is because on many computers branchesslow down instruction fetching and inhibit executing instructions in parallel.Another problem with branches is that they may inhibit compiler optimizationssuch as instruction scheduling, commoning, and register allocation. That is, thecompiler may be more effective at these optimizations with a program that consistsof a few large basic blocks, rather than many small ones. \n \nThe code sequences also tend to favor small immediate values, comparisons tozero (rather than to some other number), and instruction-level parallelism.Although much of the code would become more concise by using table lookups(from memory), this is not often mentioned. This is because loads are becomingmore expensive relative to arithmetic instructions, and the table lookup methodsare often not very interesting (although they are often practical). But there areexceptional cases. \n \nFinally, I should mention that the term \"hacker\" in the title is meant in the originalsense of an aficionado of computers\u0097someone who enjoys making computersdo new things, or do old things in a new and clever way. The hacker isusually quite good at his craft, but may very well not be a professional computerprogrammer or designer. The hacker's work may be useful or may be just agame. As an example of the latter, more than one determined hacker has writtena program which, when executed, writes out an exact copy of itself. 1 This is thesense in which we use \"hacker.\" If you're looking for tips on how to break intoother's computers, you won't find them here. \nH. S. Warren, Jr. \nFebruary 2002"
+            },
+            "slug": "Hacker's-Delight-Warren",
+            "title": {
+                "fragments": [],
+                "text": "Hacker's Delight"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 37,
+                "text": "The term \"hacker\" in the title is meant in the originalsense of an aficionado of computers\u0097someone who enjoys making computers do new things, or do old things in a new and clever way."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2075292388"
+                        ],
+                        "name": "P. Liang",
+                        "slug": "P.-Liang",
+                        "structuredName": {
+                            "firstName": "Percy",
+                            "lastName": "Liang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Liang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694621"
+                        ],
+                        "name": "Michael I. Jordan",
+                        "slug": "Michael-I.-Jordan",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Jordan",
+                            "middleNames": [
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael I. Jordan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38666915"
+                        ],
+                        "name": "D. Klein",
+                        "slug": "D.-Klein",
+                        "structuredName": {
+                            "firstName": "Dan",
+                            "lastName": "Klein",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Klein"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 10,
+                                "start": 6
+                            }
+                        ],
+                        "text": "Liang [12] considers the task of learning programs from testcases alone, but at a similarly high level of abstraction."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6756014,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c26770f29afafe22f2a507506e3f43c413f6a619",
+            "isKey": false,
+            "numCitedBy": 108,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We are interested in learning programs for multiple related tasks given only a few training examples per task. Since the program for a single task is underdetermined by its data, we introduce a nonparametric hierarchical Bayesian prior over programs which shares statistical strength across multiple tasks. The key challenge is to parametrize this multi-task sharing. For this, we introduce a new representation of programs based on combinatory logic and provide an MCMC algorithm that can perform safe program transformations on this representation to reveal shared inter-program substructures."
+            },
+            "slug": "Learning-Programs:-A-Hierarchical-Bayesian-Approach-Liang-Jordan",
+            "title": {
+                "fragments": [],
+                "text": "Learning Programs: A Hierarchical Bayesian Approach"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A nonparametric hierarchical Bayesian prior over programs which shares statistical strength across multiple tasks is introduced and an MCMC algorithm is provided that can perform safe program transformations on this representation to reveal shared inter-program substructures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3230876"
+                        ],
+                        "name": "Eric Veach",
+                        "slug": "Eric-Veach",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Veach",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eric Veach"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1744254"
+                        ],
+                        "name": "L. Guibas",
+                        "slug": "L.-Guibas",
+                        "structuredName": {
+                            "firstName": "Leonidas",
+                            "lastName": "Guibas",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Guibas"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 150,
+                                "start": 143
+                            }
+                        ],
+                        "text": "Successful applications are many, and include protein alignment [16], code breaking [6], and scene modeling and rendering in computer graphics [5, 19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1832504,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "36d4383f5664aaae31b70a8bebe3f3ff7832e7d5",
+            "isKey": false,
+            "numCitedBy": 624,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a new Monte Carlo method for solving the light transport problem, inspired by the Metropolis sampling method in computational physics. To render an image, we generate a sequence of light transport paths by randomly mutating a single current path (e.g. adding a new vertex to the path). Each mutation is accepted or rejected with a carefully chosen probability, to ensure that paths are sampled according to the contribution they make to the ideal image. We then estimate this image by sampling many paths, and recording their locations on the image plane. Our algorithm is unbiased, handles general geometric and scattering models, uses little storage, and can be orders of magnitude more efficient than previous unbiased approaches. It performs especially well on problems that are usually considered difficult, e.g. those involving bright indirect light, small geometric holes, or glossy surfaces. Furthermore, it is competitive with previous unbiased algorithms even for relatively simple scenes. The key advantage of the Metropolis approach is that the path space is explored locally, by favoring mutations that make small changes to the current path. This has several consequences. First, the average cost per sample is small (typically only one or two rays). Second, once an important path is found, the nearby paths are explored as well, thus amortizing the expense of finding such paths over many samples. Third, the mutation set is easily extended. By constructing mutations that preserve certain properties of the path (e.g. which light source is used) while changing others, we can exploit various kinds of coherence in the scene. It is often possible to handle difficult lighting problems efficiently by designing a specialized mutation in this way. CR Categories: I.3.7 [Computer Graphics]: ThreeDimensional Graphics and Realism; I.3.3 [Computer Graphics]: Picture/Image Generation; G.1.9 [Numerical Analysis]: Integral Equations\u2014Fredholm equations."
+            },
+            "slug": "Metropolis-light-transport-Veach-Guibas",
+            "title": {
+                "fragments": [],
+                "text": "Metropolis light transport"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 65,
+                "text": "A new Monte Carlo method for solving the light transport problem, inspired by the Metropolis sampling method in computational physics, is presented, which is unbiased, handles general geometric and scattering models, uses little storage, and can be orders of magnitude more efficient than previous unbiased approaches."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGGRAPH"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1687162"
+                        ],
+                        "name": "Stephen Chenney",
+                        "slug": "Stephen-Chenney",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "Chenney",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Stephen Chenney"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144016256"
+                        ],
+                        "name": "D. Forsyth",
+                        "slug": "D.-Forsyth",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Forsyth",
+                            "middleNames": [
+                                "Alexander"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Forsyth"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 150,
+                                "start": 143
+                            }
+                        ],
+                        "text": "Successful applications are many, and include protein alignment [16], code breaking [7], and scene modeling and rendering in computer graphics [19, 6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5094948,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "87f7de949153b282111910520944e68fef2b7e7a",
+            "isKey": false,
+            "numCitedBy": 119,
+            "numCiting": 55,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Traditional collision intensive multi-body simulations are difficult to control due to extreme sensitivity to initial conditions or model parameters. Furthermore, there may be multiple ways to achieve any one goal, and it may be difficult to codify a user's preferences before they have seen the available solutions. In this paper we extend simulation models to include plausible sources of uncertainty, and then use a Markov chain Monte Carlo algorithm to sample multiple animations that satisfy constraints. A user can choose the animation they prefer, or applications can take direct advantage of the multiple solutions. Our technique is applicable when a probability can be attached to each animation, with \u201cgood\u201d animations having high probability, and for such cases we provide a definition of physical plausibility for animations. We demonstrate our approach with examples of multi-body rigid-body simulations that satisfy constraints of various kinds, for each case presenting animations that are true to a physical model, are significantly different from each other, and yet still satisfy the constraints."
+            },
+            "slug": "Sampling-plausible-solutions-to-multi-body-problems-Chenney-Forsyth",
+            "title": {
+                "fragments": [],
+                "text": "Sampling plausible solutions to multi-body constraint problems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This paper extends simulation models to include plausible sources of uncertainty, and then uses a Markov chain Monte Carlo algorithm to sample multiple animations that satisfy constraints, and provides a definition of physical plausibility for animations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGGRAPH"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48491978"
+                        ],
+                        "name": "W. K. Hastings",
+                        "slug": "W.-K.-Hastings",
+                        "structuredName": {
+                            "firstName": "W.",
+                            "lastName": "Hastings",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. K. Hastings"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 223,
+                                "start": 215
+                            }
+                        ],
+                        "text": "Although computing Z is in general intractable, the MetropolisHastings algorithm for generating Markov chains is designed to explore density functions such as p(\u00b7) without the need to compute the partition function [10, 15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 21204149,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "143d2e02ab91ae6259576ac50b664b8647af8988",
+            "isKey": false,
+            "numCitedBy": 13682,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "SUMMARY A generalization of the sampling method introduced by Metropolis et al. (1953) is presented along with an exposition of the relevant theory, techniques of application and methods and difficulties of assessing the error in Monte Carlo estimates. Examples of the methods, including the generation of random orthogonal matrices and potential applications of the methods to numerical problems arising in statistics, are discussed. For numerical problems in a large number of dimensions, Monte Carlo methods are often more efficient than conventional numerical methods. However, implementation of the Monte Carlo methods requires sampling from high dimensional probability distributions and this may be very difficult and expensive in analysis and computer time. General methods for sampling from, or estimating expectations with respect to, such distributions are as follows. (i) If possible, factorize the distribution into the product of one-dimensional conditional distributions from which samples may be obtained. (ii) Use importance sampling, which may also be used for variance reduction. That is, in order to evaluate the integral J = X) p(x)dx = Ev(f), where p(x) is a probability density function, instead of obtaining independent samples XI, ..., Xv from p(x) and using the estimate J, = Zf(xi)/N, we instead obtain the sample from a distribution with density q(x) and use the estimate J2 = Y{f(xj)p(x1)}/{q(xj)N}. This may be advantageous if it is easier to sample from q(x) thanp(x), but it is a difficult method to use in a large number of dimensions, since the values of the weights w(xi) = p(x1)/q(xj) for reasonable values of N may all be extremely small, or a few may be extremely large. In estimating the probability of an event A, however, these difficulties may not be as serious since the only values of w(x) which are important are those for which x -A. Since the methods proposed by Trotter & Tukey (1956) for the estimation of conditional expectations require the use of importance sampling, the same difficulties may be encountered in their use. (iii) Use a simulation technique; that is, if it is difficult to sample directly from p(x) or if p(x) is unknown, sample from some distribution q(y) and obtain the sample x values as some function of the corresponding y values. If we want samples from the conditional dis"
+            },
+            "slug": "Monte-Carlo-Sampling-Methods-Using-Markov-Chains-Hastings",
+            "title": {
+                "fragments": [],
+                "text": "Monte Carlo Sampling Methods Using Markov Chains and Their Applications"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1970
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2050907"
+                        ],
+                        "name": "A. F. Neuwald",
+                        "slug": "A.-F.-Neuwald",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Neuwald",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. F. Neuwald"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2151711389"
+                        ],
+                        "name": "J. Liu",
+                        "slug": "J.-Liu",
+                        "structuredName": {
+                            "firstName": "J",
+                            "lastName": "Liu",
+                            "middleNames": [
+                                "S"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1816655"
+                        ],
+                        "name": "D. Lipman",
+                        "slug": "D.-Lipman",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Lipman",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Lipman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2043726"
+                        ],
+                        "name": "C. Lawrence",
+                        "slug": "C.-Lawrence",
+                        "structuredName": {
+                            "firstName": "Charles",
+                            "lastName": "Lawrence",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Lawrence"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 68,
+                                "start": 64
+                            }
+                        ],
+                        "text": "Successful applications are many, and include protein alignment [16], code breaking [6], and scene modeling and rendering in computer graphics [5, 19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15671690,
+            "fieldsOfStudy": [
+                "Biology"
+            ],
+            "id": "a27242a176c92af19a3c8da5e3d05e9fa793caec",
+            "isKey": false,
+            "numCitedBy": 274,
+            "numCiting": 153,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Biologists often gain structural and functional insights into a protein sequence by constructing a multiple alignment model of the family. Here a program called Probe fully automates this process of model construction starting from a single sequence. Central to this program is a powerful new method to locate and align only those, often subtly, conserved patterns essential to the family as a whole. When applied to randomly chosen proteins, Probe found on average about four times as many relationships as a pairwise search and yielded many new discoveries. These include: an obscure subfamily of globins in the roundworm Caenorhabditis elegans ; two new superfamilies of metallohydrolases; a lipoyl/biotin swinging arm domain in bacterial membrane fusion proteins; and a DH domain in the yeast Bud3 and Fus2 proteins. By identifying distant relationships and merging families into superfamilies in this way, this analysis further confirms the notion that proteins evolved from relatively few ancient sequences. Moreover, this method automatically generates models of these ancient conserved regions for rapid and sensitive screening of sequences."
+            },
+            "slug": "Extracting-protein-alignment-models-from-the-Neuwald-Liu",
+            "title": {
+                "fragments": [],
+                "text": "Extracting protein alignment models from the sequence database."
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "Investigating distant relationships and merging families into superfamilies further confirms the notion that proteins evolved from relatively few ancient sequences by generating models of these ancient conserved regions for rapid and sensitive screening of sequences."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Nucleic acids research"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49630843"
+                        ],
+                        "name": "C. Andrieu",
+                        "slug": "C.-Andrieu",
+                        "structuredName": {
+                            "firstName": "Christophe",
+                            "lastName": "Andrieu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Andrieu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1737568"
+                        ],
+                        "name": "N. D. Freitas",
+                        "slug": "N.-D.-Freitas",
+                        "structuredName": {
+                            "firstName": "Nando",
+                            "lastName": "Freitas",
+                            "middleNames": [
+                                "de"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. D. Freitas"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701800"
+                        ],
+                        "name": "A. Doucet",
+                        "slug": "A.-Doucet",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Doucet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Doucet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694621"
+                        ],
+                        "name": "Michael I. Jordan",
+                        "slug": "Michael-I.-Jordan",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Jordan",
+                            "middleNames": [
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael I. Jordan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 37,
+                                "start": 34
+                            }
+                        ],
+                        "text": "The interested reader may consult [2] for a thorough treatment of why this is necessary."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 38363,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "596dac923657992a817d3d68ae83f2fba9cf1ab8",
+            "isKey": false,
+            "numCitedBy": 2349,
+            "numCiting": 169,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This purpose of this introductory paper is threefold. First, it introduces the Monte Carlo method with emphasis on probabilistic machine learning. Second, it reviews the main building blocks of modern Markov chain Monte Carlo simulation, thereby providing and introduction to the remaining papers of this special issue. Lastly, it discusses new interesting research horizons."
+            },
+            "slug": "An-Introduction-to-MCMC-for-Machine-Learning-Andrieu-Freitas",
+            "title": {
+                "fragments": [],
+                "text": "An Introduction to MCMC for Machine Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 88,
+                "text": "This purpose of this introductory paper is to introduce the Monte Carlo method with emphasis on probabilistic machine learning and review the main building blocks of modern Markov chain Monte Carlo simulation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Machine Learning"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32922277"
+                        ],
+                        "name": "N. Metropolis",
+                        "slug": "N.-Metropolis",
+                        "structuredName": {
+                            "firstName": "N.",
+                            "lastName": "Metropolis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Metropolis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "91743329"
+                        ],
+                        "name": "A. W. Rosenbluth",
+                        "slug": "A.-W.-Rosenbluth",
+                        "structuredName": {
+                            "firstName": "Arianna",
+                            "lastName": "Rosenbluth",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. W. Rosenbluth"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2991661"
+                        ],
+                        "name": "M. Rosenbluth",
+                        "slug": "M.-Rosenbluth",
+                        "structuredName": {
+                            "firstName": "Marshall",
+                            "lastName": "Rosenbluth",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Rosenbluth"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46516796"
+                        ],
+                        "name": "A. H. Teller",
+                        "slug": "A.-H.-Teller",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Teller",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. H. Teller"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3840350"
+                        ],
+                        "name": "E. Teller",
+                        "slug": "E.-Teller",
+                        "structuredName": {
+                            "firstName": "Edward",
+                            "lastName": "Teller",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Teller"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 223,
+                                "start": 215
+                            }
+                        ],
+                        "text": "Although computing Z is in general intractable, the MetropolisHastings algorithm for generating Markov chains is designed to explore density functions such as p(\u00b7) without the need to compute the partition function [10, 15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1046577,
+            "fieldsOfStudy": [
+                "Physics"
+            ],
+            "id": "f6a13f116e270dde9d67848495f801cdb8efa25d",
+            "isKey": false,
+            "numCitedBy": 32503,
+            "numCiting": 1,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A general method, suitable for fast computing machines, for investigating such properties as equations of state for substances consisting of interacting individual molecules is described. The method consists of a modified Monte Carlo integration over configuration space. Results for the two\u2010dimensional rigid\u2010sphere system have been obtained on the Los Alamos MANIAC and are presented here. These results are compared to the free volume equation of state and to a four\u2010term virial coefficient expansion."
+            },
+            "slug": "Equation-of-state-calculations-by-fast-computing-Metropolis-Rosenbluth",
+            "title": {
+                "fragments": [],
+                "text": "Equation of state calculations by fast computing machines"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1953
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2796350"
+                        ],
+                        "name": "P. Diaconis",
+                        "slug": "P.-Diaconis",
+                        "structuredName": {
+                            "firstName": "Persi",
+                            "lastName": "Diaconis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Diaconis"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 84
+                            }
+                        ],
+                        "text": "Successful applications are many, and include protein alignment [16], code breaking [6], and scene modeling and rendering in computer graphics [5, 19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14905050,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "4e6258ebd07b548f77f8cd33caf72d811c2bd54c",
+            "isKey": false,
+            "numCitedBy": 264,
+            "numCiting": 148,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The use of simulation for high dimensional intractable computations has revolutionized applied mathematics. Designing, improving and understanding the new tools leads to (and leans on) fascinating mathematics, from representation theory through micro-local analysis."
+            },
+            "slug": "The-Markov-chain-Monte-Carlo-revolution-Diaconis",
+            "title": {
+                "fragments": [],
+                "text": "The Markov chain Monte Carlo revolution"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 92,
+                "text": "The use of simulation for high dimensional intractable computations has revolutionized applied mathematics and design, improving and understanding the new tools leads to fascinating mathematics."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32678325"
+                        ],
+                        "name": "S. Blackford",
+                        "slug": "S.-Blackford",
+                        "structuredName": {
+                            "firstName": "Susan",
+                            "lastName": "Blackford",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Blackford"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1700326"
+                        ],
+                        "name": "J. Demmel",
+                        "slug": "J.-Demmel",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Demmel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Demmel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1708869"
+                        ],
+                        "name": "J. Dongarra",
+                        "slug": "J.-Dongarra",
+                        "structuredName": {
+                            "firstName": "Jack",
+                            "lastName": "Dongarra",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dongarra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1804540"
+                        ],
+                        "name": "I. Duff",
+                        "slug": "I.-Duff",
+                        "structuredName": {
+                            "firstName": "Iain",
+                            "lastName": "Duff",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. Duff"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1776509"
+                        ],
+                        "name": "S. Hammarling",
+                        "slug": "S.-Hammarling",
+                        "structuredName": {
+                            "firstName": "Sven",
+                            "lastName": "Hammarling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hammarling"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145131827"
+                        ],
+                        "name": "G. Henry",
+                        "slug": "G.-Henry",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Henry",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Henry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145352563"
+                        ],
+                        "name": "M. Heroux",
+                        "slug": "M.-Heroux",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Heroux",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Heroux"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "10706913"
+                        ],
+                        "name": "L. Kaufman",
+                        "slug": "L.-Kaufman",
+                        "structuredName": {
+                            "firstName": "Linda",
+                            "lastName": "Kaufman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Kaufman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143962909"
+                        ],
+                        "name": "A. Lumsdaine",
+                        "slug": "A.-Lumsdaine",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Lumsdaine",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Lumsdaine"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1719457"
+                        ],
+                        "name": "A. Petitet",
+                        "slug": "A.-Petitet",
+                        "structuredName": {
+                            "firstName": "Antoine",
+                            "lastName": "Petitet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Petitet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145612450"
+                        ],
+                        "name": "R. Pozo",
+                        "slug": "R.-Pozo",
+                        "structuredName": {
+                            "firstName": "Roldan",
+                            "lastName": "Pozo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Pozo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2352689"
+                        ],
+                        "name": "K. Remington",
+                        "slug": "K.-Remington",
+                        "structuredName": {
+                            "firstName": "Karin",
+                            "lastName": "Remington",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Remington"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47440383"
+                        ],
+                        "name": "C. Whaley",
+                        "slug": "C.-Whaley",
+                        "structuredName": {
+                            "firstName": "Clint",
+                            "lastName": "Whaley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Whaley"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 126,
+                                "start": 87
+                            }
+                        ],
+                        "text": "6.2 SAXPY SAXPY (Single-precision Alpha X Plus Y) is a level 1 \nvector operation in the Basic Linear Algebra Subsystems Library [3]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 120,
+                                "start": 117
+                            }
+                        ],
+                        "text": "SAXPY (Single-precision Alpha X Plus Y) is a level 1 vector operation in the Basic Linear Algebra Subsystems Library [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 207706875,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "4de571b44a7612189dded764f7a2988ac7529158",
+            "isKey": true,
+            "numCitedBy": 672,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "L. SUSAN BLACKFORD Myricom, Inc. JAMES DEMMEL University of California, Berkeley JACK DONGARRA The University of Tennessee IAIN DUFF Rutherford Appleton Laboratory and CERFACS SVEN HAMMARLING Numerical Algorithms Group, Ltd. GREG HENRY Intel Corporation MICHAEL HEROUX Sandia National Laboratories LINDA KAUFMAN William Patterson University ANDREW LUMSDAINE Indiana University ANTOINE PETITET Sun Microsystems ROLDAN POZO National Institute of Standards and Technology KARIN REMINGTON The Center for Advancement of Genomics and R. CLINT WHALEY Florida State University"
+            },
+            "slug": "An-updated-set-of-basic-linear-algebra-subprograms-Blackford-Demmel",
+            "title": {
+                "fragments": [],
+                "text": "An updated set of basic linear algebra subprograms (BLAS)"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TOMS"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 8
+                            }
+                        ],
+                        "text": "Gulwani [9] notes this as a source of benchmarks for program synthesis and superoptimization, and identifies a 25 program benchmark which ranges in complexity from turning off the right-most bit in a word, to rounding up to the next highest power of 2, or selecting the upper 32 bits from a 64-bit multiplication."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 188,
+                                "start": 177
+                            }
+                        ],
+                        "text": "large executable hardware instruction set [2] to implicit enumeration through symbolic theorem proving techniques of programs over some restricted register transaction language [9, 11, 14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 25,
+                                "start": 19
+                            }
+                        ],
+                        "text": "Sketching [17] and Brahma [9] address the \nclosely related component-based program synthesis problem."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 29,
+                                "start": 26
+                            }
+                        ],
+                        "text": "Sketching [17] and Brahma [9] address the closely related component-based program synthesis problem."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Synthesis of loopfree programs"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI, pages 62\u201373"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145392702"
+                        ],
+                        "name": "P. Green",
+                        "slug": "P.-Green",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Green",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Green"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 33,
+                                "start": 30
+                            }
+                        ],
+                        "text": "A common method (described by [8]) for transforming an arbitrary cost function, c(\u00b7), into a probability density function is the following, where \u03b2 is a constant and Z is a partition function that normalizes the distribution:"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 125093681,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "3f1bb45d5d20c107daa9dbc489019cf22a3a6e6b",
+            "isKey": false,
+            "numCitedBy": 4686,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Markov-chain-Monte-Carlo-in-Practice-Green",
+            "title": {
+                "fragments": [],
+                "text": "Markov chain Monte Carlo in Practice"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1996
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Bansal and A . Aiken . Automatic generation of peephole superoptimizers"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2006
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Markov Chain Monte Carlo in Practice: Interdisciplinary Statistics (Chapman & Hall/CRC Interdisciplinary Statistics). Chapman and Hall/CRC, 1 edition"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Markov Chain Monte Carlo in Practice: Interdisciplinary Statistics (Chapman & Hall/CRC Interdisciplinary Statistics). Chapman and Hall/CRC, 1 edition"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "r8 12 movl (r8),eax 13 imull edi,eax 14 addl (rdx,r9,4),eax 15 leaq 2(rcx),r9 16 addq 3,rcx 17 movl eax"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "eax 20 imull edi,eax 21 addl (rdx,r9,4),eax 22 movl eax,(r8) 23 leaq (rsi,rcx,4),rax 24 imull (rax)"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "leaq (rsi,r9,4),r8 19 movl (r8)"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Bansal and A . Aiken . Automatic generation of peephole superopti - mizers"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2006
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 33,
+                                "start": 30
+                            }
+                        ],
+                        "text": "A common method (described by [1]) for transforming an arbitrary cost function, c(\u00b7), into a probability density function is the following, where \u03b2 is a constant and Z is a partition function that normalizes the distribution:"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Monte Carlo in Practice: Interdisciplinary Statistics (Chapman & Hall/CRC Interdisciplinary Statistics)"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Chapman and Hall/CRC,"
+            },
+            "year": 1995
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 13,
+            "methodology": 9
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 27,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Stochastic-superoptimization-Schkufza-Sharma/308388616c12158423fbf8bd8c441d11d1f432a2?sort=total-citations"
+}

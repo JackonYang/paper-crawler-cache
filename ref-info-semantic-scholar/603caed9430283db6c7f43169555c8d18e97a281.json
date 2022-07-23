@@ -1,0 +1,1360 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2929739"
+                        ],
+                        "name": "Robert Gens",
+                        "slug": "Robert-Gens",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Gens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Robert Gens"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1740213"
+                        ],
+                        "name": "Pedro M. Domingos",
+                        "slug": "Pedro-M.-Domingos",
+                        "structuredName": {
+                            "firstName": "Pedro",
+                            "lastName": "Domingos",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pedro M. Domingos"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 267009,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4f939bb8dd6a660a8f6851bf8ad2ce8a55c974ae",
+            "isKey": false,
+            "numCitedBy": 227,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The chief difficulty in object recognition is that objects' classes are obscured by a large number of extraneous sources of variability, such as pose and part deformation. These sources of variation can be represented by symmetry groups, sets of composable transformations that preserve object identity. Convolutional neural networks (convnets) achieve a degree of translational invariance by computing feature maps over the translation group, but cannot handle other groups. As a result, these groups' effects have to be approximated by small translations, which often requires augmenting datasets and leads to high sample complexity. In this paper, we introduce deep symmetry networks (symnets), a generalization of convnets that forms feature maps over arbitrary symmetry groups. Symnets use kernel-based interpolation to tractably tie parameters and pool over symmetry spaces of any dimension. Like convnets, they are trained with backpropagation. The composition of feature transformations through the layers of a symnet provides a new approach to deep learning. Experiments on NORB and MNIST-rot show that symnets over the affine group greatly reduce sample complexity relative to convnets by better capturing the symmetries in the data."
+            },
+            "slug": "Deep-Symmetry-Networks-Gens-Domingos",
+            "title": {
+                "fragments": [],
+                "text": "Deep Symmetry Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "Deep symmetry networks (symnets), a generalization of convnets that forms feature maps over arbitrary symmetry groups that uses kernel-based interpolation to tractably tie parameters and pool over symmetry spaces of any dimension are introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145567037"
+                        ],
+                        "name": "D. Laptev",
+                        "slug": "D.-Laptev",
+                        "structuredName": {
+                            "firstName": "Dmitry",
+                            "lastName": "Laptev",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Laptev"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2417003"
+                        ],
+                        "name": "Nikolay Savinov",
+                        "slug": "Nikolay-Savinov",
+                        "structuredName": {
+                            "firstName": "Nikolay",
+                            "lastName": "Savinov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nikolay Savinov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1682548"
+                        ],
+                        "name": "J. Buhmann",
+                        "slug": "J.-Buhmann",
+                        "structuredName": {
+                            "firstName": "Joachim",
+                            "lastName": "Buhmann",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Buhmann"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1742208"
+                        ],
+                        "name": "M. Pollefeys",
+                        "slug": "M.-Pollefeys",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Pollefeys",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Pollefeys"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 5183383,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "049a5a81bd664c27a6f5c973f253c7664463d13b",
+            "isKey": false,
+            "numCitedBy": 193,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper we present a deep neural network topology that incorporates a simple to implement transformationinvariant pooling operator (TI-POOLING). This operator is able to efficiently handle prior knowledge on nuisance variations in the data, such as rotation or scale changes. Most current methods usually make use of dataset augmentation to address this issue, but this requires larger number of model parameters and more training data, and results in significantly increased training time and larger chance of under-or overfitting. The main reason for these drawbacks is that that the learned model needs to capture adequate features for all the possible transformations of the input. On the other hand, we formulate features in convolutional neural networks to be transformation-invariant. We achieve that using parallel siamese architectures for the considered transformation set and applying the TI-POOLING operator on their outputs before the fully-connected layers. We show that this topology internally finds the most optimal \"canonical\" instance of the input image for training and therefore limits the redundancy in learned features. This more efficient use of training data results in better performance on popular benchmark datasets with smaller number of parameters when comparing to standard convolutional neural networks with dataset augmentation and to other baselines."
+            },
+            "slug": "TI-POOLING:-Transformation-Invariant-Pooling-for-in-Laptev-Savinov",
+            "title": {
+                "fragments": [],
+                "text": "TI-POOLING: Transformation-Invariant Pooling for Feature Learning in Convolutional Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 87,
+                "text": "A deep neural network topology that incorporates a simple to implement transformationinvariant pooling operator (TI-POOLING) that is able to efficiently handle prior knowledge on nuisance variations in the data, such as rotation or scale changes is presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3471551"
+                        ],
+                        "name": "Daniel E. Worrall",
+                        "slug": "Daniel-E.-Worrall",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Worrall",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel E. Worrall"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8472317"
+                        ],
+                        "name": "Stephan J. Garbin",
+                        "slug": "Stephan-J.-Garbin",
+                        "structuredName": {
+                            "firstName": "Stephan",
+                            "lastName": "Garbin",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Stephan J. Garbin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2810420"
+                        ],
+                        "name": "Daniyar Turmukhambetov",
+                        "slug": "Daniyar-Turmukhambetov",
+                        "structuredName": {
+                            "firstName": "Daniyar",
+                            "lastName": "Turmukhambetov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniyar Turmukhambetov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3309893"
+                        ],
+                        "name": "G. Brostow",
+                        "slug": "G.-Brostow",
+                        "structuredName": {
+                            "firstName": "Gabriel",
+                            "lastName": "Brostow",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Brostow"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 206596746,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "11aada215e6f72cbd5928619de839ba35106a88f",
+            "isKey": false,
+            "numCitedBy": 479,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Translating or rotating an input image should not affect the results of many computer vision tasks. Convolutional neural networks (CNNs) are already translation equivariant: input image translations produce proportionate feature map translations. This is not the case for rotations. Global rotation equivariance is typically sought through data augmentation, but patch-wise equivariance is more difficult. We present Harmonic Networks or H-Nets, a CNN exhibiting equivariance to patch-wise translation and 360-rotation. We achieve this by replacing regular CNN filters with circular harmonics, returning a maximal response and orientation for every receptive field patch. H-Nets use a rich, parameter-efficient and fixed computational complexity representation, and we show that deep feature maps within the network encode complicated rotational invariants. We demonstrate that our layers are general enough to be used in conjunction with the latest architectures and techniques, such as deep supervision and batch normalization. We also achieve state-of-the-art classification on rotated-MNIST, and competitive results on other benchmark challenges."
+            },
+            "slug": "Harmonic-Networks:-Deep-Translation-and-Rotation-Worrall-Garbin",
+            "title": {
+                "fragments": [],
+                "text": "Harmonic Networks: Deep Translation and Rotation Equivariance"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "H-Nets are presented, a CNN exhibiting equivariance to patch-wise translation and 360-rotation, and it is demonstrated that their layers are general enough to be used in conjunction with the latest architectures and techniques, such as deep supervision and batch normalization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8729431"
+                        ],
+                        "name": "Sida I. Wang",
+                        "slug": "Sida-I.-Wang",
+                        "structuredName": {
+                            "firstName": "Sida",
+                            "lastName": "Wang",
+                            "middleNames": [
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sida I. Wang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 6138085,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "20f0357688876fa4662f806f985779dce6e24f3c",
+            "isKey": false,
+            "numCitedBy": 845,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The artificial neural networks that are used to recognize shapes typically use one or more layers of learned feature detectors that produce scalar outputs. By contrast, the computer vision community uses complicated, hand-engineered features, like SIFT [6], that produce a whole vector of outputs including an explicit representation of the pose of the feature. We show how neural networks can be used to learn features that output a whole vector of instantiation parameters and we argue that this is a much more promising way of dealing with variations in position, orientation, scale and lighting than the methods currently employed in the neural networks community. It is also more promising than the hand-engineered features currently used in computer vision because it provides an efficient way of adapting the features to the domain."
+            },
+            "slug": "Transforming-Auto-Encoders-Hinton-Krizhevsky",
+            "title": {
+                "fragments": [],
+                "text": "Transforming Auto-Encoders"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "It is argued that neural networks can be used to learn features that output a whole vector of instantiation parameters and this is a much more promising way of dealing with variations in position, orientation, scale and lighting than the methods currently employed in the neural networks community."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICANN"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40348417"
+                        ],
+                        "name": "Ashish Vaswani",
+                        "slug": "Ashish-Vaswani",
+                        "structuredName": {
+                            "firstName": "Ashish",
+                            "lastName": "Vaswani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ashish Vaswani"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1846258"
+                        ],
+                        "name": "Noam M. Shazeer",
+                        "slug": "Noam-M.-Shazeer",
+                        "structuredName": {
+                            "firstName": "Noam",
+                            "lastName": "Shazeer",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Noam M. Shazeer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3877127"
+                        ],
+                        "name": "Niki Parmar",
+                        "slug": "Niki-Parmar",
+                        "structuredName": {
+                            "firstName": "Niki",
+                            "lastName": "Parmar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Niki Parmar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39328010"
+                        ],
+                        "name": "Jakob Uszkoreit",
+                        "slug": "Jakob-Uszkoreit",
+                        "structuredName": {
+                            "firstName": "Jakob",
+                            "lastName": "Uszkoreit",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jakob Uszkoreit"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145024664"
+                        ],
+                        "name": "Llion Jones",
+                        "slug": "Llion-Jones",
+                        "structuredName": {
+                            "firstName": "Llion",
+                            "lastName": "Jones",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Llion Jones"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "19177000"
+                        ],
+                        "name": "Aidan N. Gomez",
+                        "slug": "Aidan-N.-Gomez",
+                        "structuredName": {
+                            "firstName": "Aidan",
+                            "lastName": "Gomez",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aidan N. Gomez"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40527594"
+                        ],
+                        "name": "Lukasz Kaiser",
+                        "slug": "Lukasz-Kaiser",
+                        "structuredName": {
+                            "firstName": "Lukasz",
+                            "lastName": "Kaiser",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lukasz Kaiser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3443442"
+                        ],
+                        "name": "Illia Polosukhin",
+                        "slug": "Illia-Polosukhin",
+                        "structuredName": {
+                            "firstName": "Illia",
+                            "lastName": "Polosukhin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Illia Polosukhin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 13756489,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+            "isKey": false,
+            "numCitedBy": 36491,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data."
+            },
+            "slug": "Attention-is-All-you-Need-Vaswani-Shazeer",
+            "title": {
+                "fragments": [],
+                "text": "Attention is All you Need"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely is proposed, which generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2056266"
+                        ],
+                        "name": "Taco Cohen",
+                        "slug": "Taco-Cohen",
+                        "structuredName": {
+                            "firstName": "Taco",
+                            "lastName": "Cohen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Taco Cohen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1678311"
+                        ],
+                        "name": "M. Welling",
+                        "slug": "M.-Welling",
+                        "structuredName": {
+                            "firstName": "Max",
+                            "lastName": "Welling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Welling"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 609898,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5c077b3ad4de4f2ea99561908aa9be1520f18a14",
+            "isKey": false,
+            "numCitedBy": 993,
+            "numCiting": 67,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We introduce Group equivariant Convolutional Neural Networks (G-CNNs), a natural generalization of convolutional neural networks that reduces sample complexity by exploiting symmetries. G-CNNs use G-convolutions, a new type of layer that enjoys a substantially higher degree of weight sharing than regular convolution layers. G-convolutions increase the expressive capacity of the network without increasing the number of parameters. Group convolution layers are easy to use and can be implemented with negligible computational overhead for discrete groups generated by translations, reflections and rotations. G-CNNs achieve state of the art results on CI- FAR10 and rotated MNIST."
+            },
+            "slug": "Group-Equivariant-Convolutional-Networks-Cohen-Welling",
+            "title": {
+                "fragments": [],
+                "text": "Group Equivariant Convolutional Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 82,
+                "text": "Group equivariant Convolutional Neural Networks (G-CNNs), a natural generalization of convolutional neural networks that reduces sample complexity by exploiting symmetries and achieves state of the art results on CI- FAR10 and rotated MNIST."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8745904"
+                        ],
+                        "name": "B. Fasel",
+                        "slug": "B.-Fasel",
+                        "structuredName": {
+                            "firstName": "Beat",
+                            "lastName": "Fasel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Fasel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1403029865"
+                        ],
+                        "name": "D. G\u00e1tica-P\u00e9rez",
+                        "slug": "D.-G\u00e1tica-P\u00e9rez",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "G\u00e1tica-P\u00e9rez",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. G\u00e1tica-P\u00e9rez"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 6803124,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6316a4b689706b0f01b40f9a3cef47b92bc52411",
+            "isKey": false,
+            "numCitedBy": 38,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Approaches based on local features and descriptors are increasingly used for the task of object recognition due to their robustness with regard to occlusions and geometrical deformations of objects. In this paper we present a local feature based, rotation-invariant Neoperceptron. By extending the weight-sharing properties of convolutional neural networks to orientations, we obtain a neural network that is inherently robust to object rotations, while still being capable to learn optimally discriminant features from training data. The performance of the network is evaluated on a facial expression database and compared to a standard Neoperceptron as well as to the scale invariant feature transform (SIFT), a-state-of-the-art local descriptor. The results confirm the validity of our approach"
+            },
+            "slug": "Rotation-Invariant-Neoperceptron-Fasel-G\u00e1tica-P\u00e9rez",
+            "title": {
+                "fragments": [],
+                "text": "Rotation-Invariant Neoperceptron"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "By extending the weight-sharing properties of convolutional neural networks to orientations, this paper obtains a neural network that is inherently robust to object rotations, while still being capable to learn optimally discriminant features from training data."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "18th International Conference on Pattern Recognition (ICPR'06)"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "13919023"
+                        ],
+                        "name": "F. Huang",
+                        "slug": "F.-Huang",
+                        "structuredName": {
+                            "firstName": "Fu",
+                            "lastName": "Huang",
+                            "middleNames": [
+                                "Jie"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Huang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52184096"
+                        ],
+                        "name": "L. Bottou",
+                        "slug": "L.-Bottou",
+                        "structuredName": {
+                            "firstName": "L\u00e9on",
+                            "lastName": "Bottou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Bottou"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 712708,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f354310098e09c1e1dc88758fca36767fd9d084d",
+            "isKey": false,
+            "numCitedBy": 1321,
+            "numCiting": 41,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We assess the applicability of several popular learning methods for the problem of recognizing generic visual categories with invariance to pose, lighting, and surrounding clutter. A large dataset comprising stereo image pairs of 50 uniform-colored toys under 36 azimuths, 9 elevations, and 6 lighting conditions was collected (for a total of 194,400 individual images). The objects were 10 instances of 5 generic categories: four-legged animals, human figures, airplanes, trucks, and cars. Five instances of each category were used for training, and the other five for testing. Low-resolution grayscale images of the objects with various amounts of variability and surrounding clutter were used for training and testing. Nearest neighbor methods, support vector machines, and convolutional networks, operating on raw pixels or on PCA-derived features were tested. Test error rates for unseen object instances placed on uniform backgrounds were around 13% for SVM and 7% for convolutional nets. On a segmentation/recognition task with highly cluttered images, SVM proved impractical, while convolutional nets yielded 16/7% error. A real-time version of the system was implemented that can detect and classify objects in natural scenes at around 10 frames per second."
+            },
+            "slug": "Learning-methods-for-generic-object-recognition-to-LeCun-Huang",
+            "title": {
+                "fragments": [],
+                "text": "Learning methods for generic object recognition with invariance to pose and lighting"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A real-time version of the system was implemented that can detect and classify objects in natural scenes at around 10 frames per second and proved impractical, while convolutional nets yielded 16/7% error."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 2004 IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 2004. CVPR 2004."
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3257286"
+                        ],
+                        "name": "Karel Lenc",
+                        "slug": "Karel-Lenc",
+                        "structuredName": {
+                            "firstName": "Karel",
+                            "lastName": "Lenc",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Karel Lenc"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1687524"
+                        ],
+                        "name": "A. Vedaldi",
+                        "slug": "A.-Vedaldi",
+                        "structuredName": {
+                            "firstName": "Andrea",
+                            "lastName": "Vedaldi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Vedaldi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 11282931,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2faef2d5cd56aec03c66315d36b0ec791312f308",
+            "isKey": false,
+            "numCitedBy": 105,
+            "numCiting": 53,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Local covariant feature detection, namely the problem of extracting viewpoint invariant features from images, has so far largely resisted the application of machine learning techniques. In this paper, we propose the first fully general formulation for learning local covariant feature detectors. We propose to cast detection as a regression problem, enabling the use of powerful regressors such as deep neural networks. We then derive a covariance constraint that can be used to automatically learn which visual structures provide stable anchors for local feature detection. We support these ideas theoretically, proposing a novel analysis of local features in term of geometric transformations, and we show that all common and many uncommon detectors can be derived in this framework. Finally, we present empirical results on translation and rotation covariant detectors on standard feature benchmarks, showing the power and flexibility of the framework."
+            },
+            "slug": "Learning-Covariant-Feature-Detectors-Lenc-Vedaldi",
+            "title": {
+                "fragments": [],
+                "text": "Learning Covariant Feature Detectors"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper proposes to cast detection as a regression problem, enabling the use of powerful regressors such as deep neural networks, and derives a covariance constraint that can be used to automatically learn which visual structures provide stable anchors for local feature detection."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ECCV Workshops"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153440022"
+                        ],
+                        "name": "Ian J. Goodfellow",
+                        "slug": "Ian-J.-Goodfellow",
+                        "structuredName": {
+                            "firstName": "Ian",
+                            "lastName": "Goodfellow",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ian J. Goodfellow"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1789737"
+                        ],
+                        "name": "Jonathon Shlens",
+                        "slug": "Jonathon-Shlens",
+                        "structuredName": {
+                            "firstName": "Jonathon",
+                            "lastName": "Shlens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathon Shlens"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2574060"
+                        ],
+                        "name": "Christian Szegedy",
+                        "slug": "Christian-Szegedy",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Szegedy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christian Szegedy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 6706414,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bee044c8e8903fb67523c1f8c105ab4718600cdb",
+            "isKey": false,
+            "numCitedBy": 10305,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Several machine learning models, including neural networks, consistently misclassify adversarial examples---inputs formed by applying small but intentionally worst-case perturbations to examples from the dataset, such that the perturbed input results in the model outputting an incorrect answer with high confidence. Early attempts at explaining this phenomenon focused on nonlinearity and overfitting. We argue instead that the primary cause of neural networks' vulnerability to adversarial perturbation is their linear nature. This explanation is supported by new quantitative results while giving the first explanation of the most intriguing fact about them: their generalization across architectures and training sets. Moreover, this view yields a simple and fast method of generating adversarial examples. Using this approach to provide examples for adversarial training, we reduce the test set error of a maxout network on the MNIST dataset."
+            },
+            "slug": "Explaining-and-Harnessing-Adversarial-Examples-Goodfellow-Shlens",
+            "title": {
+                "fragments": [],
+                "text": "Explaining and Harnessing Adversarial Examples"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "It is argued that the primary cause of neural networks' vulnerability to adversarial perturbation is their linear nature, supported by new quantitative results while giving the first explanation of the most intriguing fact about them: their generalization across architectures and training sets."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40634590"
+                        ],
+                        "name": "Wieland Brendel",
+                        "slug": "Wieland-Brendel",
+                        "structuredName": {
+                            "firstName": "Wieland",
+                            "lastName": "Brendel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wieland Brendel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1731199"
+                        ],
+                        "name": "M. Bethge",
+                        "slug": "M.-Bethge",
+                        "structuredName": {
+                            "firstName": "Matthias",
+                            "lastName": "Bethge",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Bethge"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 41154093,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0eb0ef63e7886c1f3da8174a81df256cebc133f6",
+            "isKey": false,
+            "numCitedBy": 35,
+            "numCiting": 4,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A recent paper suggests that Deep Neural Networks can be protected from gradient-based adversarial perturbations by driving the network activations into a highly saturated regime. Here we analyse such saturated networks and show that the attacks fail due to numerical limitations in the gradient computations. A simple stabilisation of the gradient estimates enables successful and efficient attacks. Thus, it has yet to be shown that the robustness observed in highly saturated networks is not simply due to numerical limitations."
+            },
+            "slug": "Comment-on-\"Biologically-inspired-protection-of-Brendel-Bethge",
+            "title": {
+                "fragments": [],
+                "text": "Comment on \"Biologically inspired protection of deep networks from adversarial attacks\""
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This work analyzes saturated networks and shows that the attacks fail due to numerical limitations in the gradient computations, and suggests a simple stabilisation of the gradient estimates enables successful and efficient attacks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2076469"
+                        ],
+                        "name": "Y. Guermeur",
+                        "slug": "Y.-Guermeur",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "Guermeur",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Guermeur"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064222"
+                        ],
+                        "name": "E. Monfrini",
+                        "slug": "E.-Monfrini",
+                        "structuredName": {
+                            "firstName": "Emmanuel",
+                            "lastName": "Monfrini",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Monfrini"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 6271357,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2ccce4de99d87403072c58168bb01506e18c608a",
+            "isKey": false,
+            "numCitedBy": 54,
+            "numCiting": 45,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "To set the values of the hyperparameters of a support vector machine (SVM), the method of choice is cross-validation. Several upper bounds on the leave-one-out error of the pattern recognition SVM have been derived. One of the most popular is the radius-margin bound. It applies to the hard margin machine, and, by extension, to the 2-norm SVM. In this article, we introduce the first quadratic loss multi-class SVM: the M-SVM2. It can be seen as a direct extension of the 2-norm SVM to the multi-class case, which we establish by deriving the corresponding generalized radius-margin bound."
+            },
+            "slug": "A-Quadratic-Loss-Multi-Class-SVM-for-which-a-Bound-Guermeur-Monfrini",
+            "title": {
+                "fragments": [],
+                "text": "A Quadratic Loss Multi-Class SVM for which a Radius-Margin Bound Applies"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "The first quadratic loss multi-class SVM is introduced: the M-SVM2, which can be seen as a direct extension of the 2-norm SVM to the multi- class case, which is established by deriving the corresponding generalized radius-margin bound."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Informatica"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2219581"
+                        ],
+                        "name": "B. Boser",
+                        "slug": "B.-Boser",
+                        "structuredName": {
+                            "firstName": "Bernhard",
+                            "lastName": "Boser",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Boser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1747317"
+                        ],
+                        "name": "J. Denker",
+                        "slug": "J.-Denker",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Denker",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Denker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37274089"
+                        ],
+                        "name": "D. Henderson",
+                        "slug": "D.-Henderson",
+                        "structuredName": {
+                            "firstName": "Donnie",
+                            "lastName": "Henderson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Henderson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2799635"
+                        ],
+                        "name": "R. Howard",
+                        "slug": "R.-Howard",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Howard",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Howard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34859193"
+                        ],
+                        "name": "W. Hubbard",
+                        "slug": "W.-Hubbard",
+                        "structuredName": {
+                            "firstName": "Wayne",
+                            "lastName": "Hubbard",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Hubbard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2041866"
+                        ],
+                        "name": "L. Jackel",
+                        "slug": "L.-Jackel",
+                        "structuredName": {
+                            "firstName": "Lawrence",
+                            "lastName": "Jackel",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Jackel"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2542741,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "86ab4cae682fbd49c5a5bedb630e5a40fa7529f6",
+            "isKey": false,
+            "numCitedBy": 2955,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present an application of back-propagation networks to handwritten digit recognition. Minimal preprocessing of the data was required, but architecture of the network was highly constrained and specifically designed for the task. The input of the network consists of normalized images of isolated digits. The method has 1% error rate and about a 9% reject rate on zipcode digits provided by the U.S. Postal Service."
+            },
+            "slug": "Handwritten-Digit-Recognition-with-a-Network-LeCun-Boser",
+            "title": {
+                "fragments": [],
+                "text": "Handwritten Digit Recognition with a Back-Propagation Network"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 62,
+                "text": "Minimal preprocessing of the data was required, but architecture of the network was highly constrained and specifically designed for the task, and has 1% error rate and about a 9% reject rate on zipcode digits provided by the U.S. Postal Service."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1989
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {},
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 13,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Matrix-capsules-with-EM-routing-Hinton-Sabour/603caed9430283db6c7f43169555c8d18e97a281?sort=total-citations"
+}

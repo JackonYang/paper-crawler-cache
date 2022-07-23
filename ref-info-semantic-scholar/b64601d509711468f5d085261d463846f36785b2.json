@@ -1,0 +1,4294 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40081727"
+                        ],
+                        "name": "Emily L. Denton",
+                        "slug": "Emily-L.-Denton",
+                        "structuredName": {
+                            "firstName": "Emily",
+                            "lastName": "Denton",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Emily L. Denton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2563432"
+                        ],
+                        "name": "Wojciech Zaremba",
+                        "slug": "Wojciech-Zaremba",
+                        "structuredName": {
+                            "firstName": "Wojciech",
+                            "lastName": "Zaremba",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wojciech Zaremba"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143627859"
+                        ],
+                        "name": "Joan Bruna",
+                        "slug": "Joan-Bruna",
+                        "structuredName": {
+                            "firstName": "Joan",
+                            "lastName": "Bruna",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Joan Bruna"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2276554"
+                        ],
+                        "name": "R. Fergus",
+                        "slug": "R.-Fergus",
+                        "structuredName": {
+                            "firstName": "Rob",
+                            "lastName": "Fergus",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Fergus"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 110,
+                                "start": 103
+                            }
+                        ],
+                        "text": "The algorithms and approximations in the previous work are developed for reconstructing linear filters [3, 10] and linear responses [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 75
+                            }
+                        ],
+                        "text": "While the low-rank assumptions of filters have been adopted in recent work [3, 10], we further adopt the lowrank assumptions of the filter input x, which is a local volume and should have correlations."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 62
+                            }
+                        ],
+                        "text": "These methods have shown promising speedup ratios on a single [3] or a few layers [10] with some degradation of accuracy."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 95
+                            }
+                        ],
+                        "text": "There have been a few studies on approximating deep CNNs for accelerating test-time evaluation [22, 3, 10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 29
+                            }
+                        ],
+                        "text": "Actually, in the recent work [3, 10] the approximations are applied on a single layer of large CNN models, such as those trained on ImageNet [2, 16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7340116,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e5ae8ab688051931b4814f6d32b18391f8d1fa8d",
+            "isKey": true,
+            "numCitedBy": 1281,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present techniques for speeding up the test-time evaluation of large convolutional networks, designed for object recognition tasks. These models deliver impressive accuracy, but each image evaluation requires millions of floating point operations, making their deployment on smartphones and Internet-scale clusters problematic. The computation is dominated by the convolution operations in the lower layers of the model. We exploit the redundancy present within the convolutional filters to derive approximations that significantly reduce the required computation. Using large state-of-the-art models, we demonstrate speedups of convolutional layers on both CPU and GPU by a factor of 2 x, while keeping the accuracy within 1% of the original model."
+            },
+            "slug": "Exploiting-Linear-Structure-Within-Convolutional-Denton-Zaremba",
+            "title": {
+                "fragments": [],
+                "text": "Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Using large state-of-the-art models, this work demonstrates speedups of convolutional layers on both CPU and GPU by a factor of 2 x, while keeping the accuracy within 1% of the original model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3093886"
+                        ],
+                        "name": "Max Jaderberg",
+                        "slug": "Max-Jaderberg",
+                        "structuredName": {
+                            "firstName": "Max",
+                            "lastName": "Jaderberg",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Max Jaderberg"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1687524"
+                        ],
+                        "name": "A. Vedaldi",
+                        "slug": "A.-Vedaldi",
+                        "structuredName": {
+                            "firstName": "Andrea",
+                            "lastName": "Vedaldi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Vedaldi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688869"
+                        ],
+                        "name": "Andrew Zisserman",
+                        "slug": "Andrew-Zisserman",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Zisserman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Zisserman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 110,
+                                "start": 103
+                            }
+                        ],
+                        "text": "The algorithms and approximations in the previous work are developed for reconstructing linear filters [3, 10] and linear responses [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 58,
+                                "start": 54
+                            }
+                        ],
+                        "text": "Our comparisons are based on our re-implementation of [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 75
+                            }
+                        ],
+                        "text": "While the low-rank assumptions of filters have been adopted in recent work [3, 10], we further adopt the lowrank assumptions of the filter input x, which is a local volume and should have correlations."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 82
+                            }
+                        ],
+                        "text": "These methods have shown promising speedup ratios on a single [3] or a few layers [10] with some degradation of accuracy."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 14,
+                                "start": 10
+                            }
+                        ],
+                        "text": "\u2019s method [10], which is a recent state-of-the-art solution to efficient evaluation."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 20,
+                                "start": 16
+                            }
+                        ],
+                        "text": "In the paper of [10], their method is only evaluated on a single layer of a model trained for ImageNet."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 37
+                            }
+                        ],
+                        "text": "We use the Scheme 2 decomposition in [10] and its filter reconstruction version, which is the one used for ImageNet as in [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 95
+                            }
+                        ],
+                        "text": "There have been a few studies on approximating deep CNNs for accelerating test-time evaluation [22, 3, 10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 29
+                            }
+                        ],
+                        "text": "Actually, in the recent work [3, 10] the approximations are applied on a single layer of large CNN models, such as those trained on ImageNet [2, 16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 17864746,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "021fc345d40d3e6332cd2ef276e2eaa5e71102e4",
+            "isKey": true,
+            "numCitedBy": 1154,
+            "numCiting": 45,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The focus of this paper is speeding up the application of convolutional neural networks. While delivering impressive results across a range of computer vision and machine learning tasks, these networks are computationally demanding, limiting their deployability. Convolutional layers generally consume the bulk of the processing time, and so in this work we present two simple schemes for drastically speeding up these layers. This is achieved by exploiting cross-channel or filter redundancy to construct a low rank basis of filters that are rank-1 in the spatial domain. Our methods are architecture agnostic, and can be easily applied to existing CPU and GPU convolutional frameworks for tuneable speedup performance. We demonstrate this with a real world network designed for scene text character recognition [15], showing a possible 2.5\u00d7 speedup with no loss in accuracy, and 4.5\u00d7 speedup with less than 1% drop in accuracy, still achieving state-of-the-art on standard benchmarks."
+            },
+            "slug": "Speeding-up-Convolutional-Neural-Networks-with-Low-Jaderberg-Vedaldi",
+            "title": {
+                "fragments": [],
+                "text": "Speeding up Convolutional Neural Networks with Low Rank Expansions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 51,
+                "text": "Two simple schemes for drastically speeding up convolutional neural networks are presented, achieved by exploiting cross-channel or filter redundancy to construct a low rank basis of filters that are rank-1 in the spatial domain."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "BMVC"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34838386"
+                        ],
+                        "name": "K. Simonyan",
+                        "slug": "K.-Simonyan",
+                        "structuredName": {
+                            "firstName": "Karen",
+                            "lastName": "Simonyan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Simonyan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688869"
+                        ],
+                        "name": "Andrew Zisserman",
+                        "slug": "Andrew-Zisserman",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Zisserman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Zisserman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 92
+                            }
+                        ],
+                        "text": "This paper addresses efficient test-time computation of deep convolutional neural networks (CNNs) [12, 11]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 151,
+                                "start": 140
+                            }
+                        ],
+                        "text": "It is insufficient for practical usage to speedup one or a few layers, especially for the deeper models which have been shown very accurate [18, 19, 8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 110
+                            }
+                        ],
+                        "text": "Since the success of CNNs [11] for large-scale image classification, the accuracy of the newly developed CNNs [24, 17, 8, 18, 19] has been continuously improving."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 103
+                            }
+                        ],
+                        "text": "For these reasons and others, it is of practical importance to accelerate the test-time computation of CNNs."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 56,
+                                "start": 52
+                            }
+                        ],
+                        "text": "There have been a few studies on approximating deep CNNs for accelerating test-time evaluation [22, 3, 10]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 63
+                            }
+                        ],
+                        "text": "A similar behavior exhibits on the compelling VGG-16/19 models [18]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14124313,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "eb42cf88027de515750f230b23b1a057dc782108",
+            "isKey": true,
+            "numCitedBy": 63195,
+            "numCiting": 57,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting. Our main contribution is a thorough evaluation of networks of increasing depth using an architecture with very small (3x3) convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers. These findings were the basis of our ImageNet Challenge 2014 submission, where our team secured the first and the second places in the localisation and classification tracks respectively. We also show that our representations generalise well to other datasets, where they achieve state-of-the-art results. We have made our two best-performing ConvNet models publicly available to facilitate further research on the use of deep visual representations in computer vision."
+            },
+            "slug": "Very-Deep-Convolutional-Networks-for-Large-Scale-Simonyan-Zisserman",
+            "title": {
+                "fragments": [],
+                "text": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 73,
+                "text": "This work investigates the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting using an architecture with very small convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 74,
+                                "start": 59
+                            }
+                        ],
+                        "text": "First, its architecture is similar to many existing models [11, 24, 17, 1] (such as the first/second layers and the cascade usage of 3\u00d73 filters), so we believe most observations should be valid on other models."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 73,
+                                "start": 65
+                            }
+                        ],
+                        "text": "However, the nonlinearity like the Rectified Linear Units (ReLU) [14, 11] is not involved in their optimization."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 79
+                            }
+                        ],
+                        "text": "When our model is accelerated to have a comparably fast speed as the \u201cAlexNet\u201d [11], our accuracy is 4."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 98
+                            }
+                        ],
+                        "text": "This paper addresses efficient test-time computation of deep convolutional neural networks (CNNs) [12, 11]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 40
+                            }
+                        ],
+                        "text": "This is better than the one reported in [11]1."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 26
+                            }
+                        ],
+                        "text": "Since the success of CNNs [11] for large-scale image classification, the accuracy of the newly developed CNNs [24, 17, 8, 18, 19] has been continuously improving."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 67
+                            }
+                        ],
+                        "text": "Our accelerated model has a comparably fast speed as the \u201cAlexNet\u201d [11], but is 4."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 40
+                            }
+                        ],
+                        "text": "Besides the standard strategies used in [11], we train this model using the 224\u00d7224 views cropped from resized images whose shorter edge is 256 [9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 78
+                            }
+                        ],
+                        "text": "Finally, we compare the accelerated whole model with the well-known \u201cAlexNet\u201d [11]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 35
+                            }
+                        ],
+                        "text": "The architecture is the same as in [11] except that the GPU splitting is ignored."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 195908774,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+            "isKey": true,
+            "numCitedBy": 82046,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
+            },
+            "slug": "ImageNet-classification-with-deep-convolutional-Krizhevsky-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet classification with deep convolutional neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "A large, deep convolutional neural network was trained to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes and employed a recently developed regularization method called \"dropout\" that proved to be very effective."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Commun. ACM"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1764761"
+                        ],
+                        "name": "K. Chatfield",
+                        "slug": "K.-Chatfield",
+                        "structuredName": {
+                            "firstName": "Ken",
+                            "lastName": "Chatfield",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Chatfield"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34838386"
+                        ],
+                        "name": "K. Simonyan",
+                        "slug": "K.-Simonyan",
+                        "structuredName": {
+                            "firstName": "Karen",
+                            "lastName": "Simonyan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Simonyan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1687524"
+                        ],
+                        "name": "A. Vedaldi",
+                        "slug": "A.-Vedaldi",
+                        "structuredName": {
+                            "firstName": "Andrea",
+                            "lastName": "Vedaldi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Vedaldi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688869"
+                        ],
+                        "name": "Andrew Zisserman",
+                        "slug": "Andrew-Zisserman",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Zisserman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Zisserman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 74,
+                                "start": 59
+                            }
+                        ],
+                        "text": "First, its architecture is similar to many existing models [11, 24, 17, 1] (such as the first/second layers and the cascade usage of 3\u00d73 filters), so we believe most observations should be valid on other models."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7204540,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "14d9be7962a4ec5a6e55755f4c7588ea00793652",
+            "isKey": false,
+            "numCitedBy": 3066,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The latest generation of Convolutional Neural Networks (CNN) have achieved impressive results in challenging benchmarks on image recognition and object detection, significantly raising the interest of the community in these methods. Nevertheless, it is still unclear how different CNN methods compare with each other and with previous state-of-the-art shallow representations such as the Bag-of-Visual-Words and the Improved Fisher Vector. This paper conducts a rigorous evaluation of these new techniques, exploring different deep architectures and comparing them on a common ground, identifying and disclosing important implementation details. We identify several useful properties of CNN-based representations, including the fact that the dimensionality of the CNN output layer can be reduced significantly without having an adverse effect on performance. We also identify aspects of deep and shallow methods that can be successfully shared. In particular, we show that the data augmentation techniques commonly applied to CNN-based methods can also be applied to shallow methods, and result in an analogous performance boost. Source code and models to reproduce the experiments in the paper is made publicly available."
+            },
+            "slug": "Return-of-the-Devil-in-the-Details:-Delving-Deep-Chatfield-Simonyan",
+            "title": {
+                "fragments": [],
+                "text": "Return of the Devil in the Details: Delving Deep into Convolutional Nets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is shown that the data augmentation techniques commonly applied to CNN-based methods can also be applied to shallow methods, and result in an analogous performance boost, and it is identified that the dimensionality of the CNN output layer can be reduced significantly without having an adverse effect on performance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "BMVC"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2068068778"
+                        ],
+                        "name": "Andrew G. Howard",
+                        "slug": "Andrew-G.-Howard",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Howard",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew G. Howard"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 147,
+                                "start": 144
+                            }
+                        ],
+                        "text": "Besides the standard strategies used in [11], we train this model using the 224\u00d7224 views cropped from resized images whose shorter edge is 256 [9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 651286,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d67175d17c450ab0ac9c256103828f9e9a0acb85",
+            "isKey": false,
+            "numCitedBy": 366,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Abstract: We investigate multiple techniques to improve upon the current state of the art deep convolutional neural network based image classification pipeline. The techiques include adding more image transformations to training data, adding more transformations to generate additional predictions at test time and using complementary models applied to higher resolution images. This paper summarizes our entry in the Imagenet Large Scale Visual Recognition Challenge 2013. Our system achieved a top 5 classification error rate of 13.55% using no external data which is over a 20% relative improvement on the previous year's winner."
+            },
+            "slug": "Some-Improvements-on-Deep-Convolutional-Neural-Howard",
+            "title": {
+                "fragments": [],
+                "text": "Some Improvements on Deep Convolutional Neural Network Based Image Classification"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper summarizes the entry in the Imagenet Large Scale Visual Recognition Challenge 2013, which achieved a top 5 classification error rate and achieved over a 20% relative improvement on the previous year's winner."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2115913164"
+                        ],
+                        "name": "Min Lin",
+                        "slug": "Min-Lin",
+                        "structuredName": {
+                            "firstName": "Min",
+                            "lastName": "Lin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Min Lin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35370244"
+                        ],
+                        "name": "Qiang Chen",
+                        "slug": "Qiang-Chen",
+                        "structuredName": {
+                            "firstName": "Qiang",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qiang Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143653681"
+                        ],
+                        "name": "Shuicheng Yan",
+                        "slug": "Shuicheng-Yan",
+                        "structuredName": {
+                            "firstName": "Shuicheng",
+                            "lastName": "Yan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shuicheng Yan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 117,
+                                "start": 109
+                            }
+                        ],
+                        "text": "The usage of 1 \u00d7 1 spatial filters to adjust dimensions has been adopted for designing network architectures [13, 19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16636683,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5e83ab70d0cbc003471e87ec306d27d9c80ecb16",
+            "isKey": false,
+            "numCitedBy": 4255,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a novel deep network structure called \"Network In Network\" (NIN) to enhance model discriminability for local patches within the receptive field. The conventional convolutional layer uses linear filters followed by a nonlinear activation function to scan the input. Instead, we build micro neural networks with more complex structures to abstract the data within the receptive field. We instantiate the micro neural network with a multilayer perceptron, which is a potent function approximator. The feature maps are obtained by sliding the micro networks over the input in a similar manner as CNN; they are then fed into the next layer. Deep NIN can be implemented by stacking mutiple of the above described structure. With enhanced local modeling via the micro network, we are able to utilize global average pooling over feature maps in the classification layer, which is easier to interpret and less prone to overfitting than traditional fully connected layers. We demonstrated the state-of-the-art classification performances with NIN on CIFAR-10 and CIFAR-100, and reasonable performances on SVHN and MNIST datasets."
+            },
+            "slug": "Network-In-Network-Lin-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Network In Network"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "With enhanced local modeling via the micro network, the proposed deep network structure NIN is able to utilize global average pooling over feature maps in the classification layer, which is easier to interpret and less prone to overfitting than traditional fully connected layers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2574060"
+                        ],
+                        "name": "Christian Szegedy",
+                        "slug": "Christian-Szegedy",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Szegedy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christian Szegedy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2157222093"
+                        ],
+                        "name": "Wei Liu",
+                        "slug": "Wei-Liu",
+                        "structuredName": {
+                            "firstName": "Wei",
+                            "lastName": "Liu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wei Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39978391"
+                        ],
+                        "name": "Yangqing Jia",
+                        "slug": "Yangqing-Jia",
+                        "structuredName": {
+                            "firstName": "Yangqing",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yangqing Jia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3142556"
+                        ],
+                        "name": "Pierre Sermanet",
+                        "slug": "Pierre-Sermanet",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Sermanet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pierre Sermanet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144828948"
+                        ],
+                        "name": "Scott E. Reed",
+                        "slug": "Scott-E.-Reed",
+                        "structuredName": {
+                            "firstName": "Scott",
+                            "lastName": "Reed",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Scott E. Reed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838674"
+                        ],
+                        "name": "Dragomir Anguelov",
+                        "slug": "Dragomir-Anguelov",
+                        "structuredName": {
+                            "firstName": "Dragomir",
+                            "lastName": "Anguelov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dragomir Anguelov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1761978"
+                        ],
+                        "name": "D. Erhan",
+                        "slug": "D.-Erhan",
+                        "structuredName": {
+                            "firstName": "D.",
+                            "lastName": "Erhan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Erhan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2657155"
+                        ],
+                        "name": "Vincent Vanhoucke",
+                        "slug": "Vincent-Vanhoucke",
+                        "structuredName": {
+                            "firstName": "Vincent",
+                            "lastName": "Vanhoucke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vincent Vanhoucke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39863668"
+                        ],
+                        "name": "Andrew Rabinovich",
+                        "slug": "Andrew-Rabinovich",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Rabinovich",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Rabinovich"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 92
+                            }
+                        ],
+                        "text": "This paper addresses efficient test-time computation of deep convolutional neural networks (CNNs) [12, 11]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 151,
+                                "start": 140
+                            }
+                        ],
+                        "text": "It is insufficient for practical usage to speedup one or a few layers, especially for the deeper models which have been shown very accurate [18, 19, 8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 110
+                            }
+                        ],
+                        "text": "Since the success of CNNs [11] for large-scale image classification, the accuracy of the newly developed CNNs [24, 17, 8, 18, 19] has been continuously improving."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 103
+                            }
+                        ],
+                        "text": "For these reasons and others, it is of practical importance to accelerate the test-time computation of CNNs."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 117,
+                                "start": 109
+                            }
+                        ],
+                        "text": "The usage of 1 \u00d7 1 spatial filters to adjust dimensions has been adopted for designing network architectures [13, 19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 56,
+                                "start": 52
+                            }
+                        ],
+                        "text": "There have been a few studies on approximating deep CNNs for accelerating test-time evaluation [22, 3, 10]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 206592484,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e15cf50aa89fee8535703b9f9512fca5bfc43327",
+            "isKey": true,
+            "numCitedBy": 29917,
+            "numCiting": 278,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a deep convolutional neural network architecture codenamed Inception that achieves the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC14). The main hallmark of this architecture is the improved utilization of the computing resources inside the network. By a carefully crafted design, we increased the depth and width of the network while keeping the computational budget constant. To optimize quality, the architectural decisions were based on the Hebbian principle and the intuition of multi-scale processing. One particular incarnation used in our submission for ILSVRC14 is called GoogLeNet, a 22 layers deep network, the quality of which is assessed in the context of classification and detection."
+            },
+            "slug": "Going-deeper-with-convolutions-Szegedy-Liu",
+            "title": {
+                "fragments": [],
+                "text": "Going deeper with convolutions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 95,
+                "text": "A deep convolutional neural network architecture codenamed Inception is proposed that achieves the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC14)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2657155"
+                        ],
+                        "name": "Vincent Vanhoucke",
+                        "slug": "Vincent-Vanhoucke",
+                        "structuredName": {
+                            "firstName": "Vincent",
+                            "lastName": "Vanhoucke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vincent Vanhoucke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33666044"
+                        ],
+                        "name": "A. Senior",
+                        "slug": "A.-Senior",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Senior",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Senior"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1715548"
+                        ],
+                        "name": "Mark Z. Mao",
+                        "slug": "Mark-Z.-Mao",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Mao",
+                            "middleNames": [
+                                "Z."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mark Z. Mao"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 95
+                            }
+                        ],
+                        "text": "There have been a few studies on approximating deep CNNs for accelerating test-time evaluation [22, 3, 10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15196840,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fbeaa499e10e98515f7e1c4ad89165e8c0677427",
+            "isKey": false,
+            "numCitedBy": 692,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent advances in deep learning have made the use of large, deep neural networks with tens of millions of parameters suitable for a number of applications that require real-time processing. The sheer size of these networks can represent a challenging computational burden, even for modern CPUs. For this reason, GPUs are routinely used instead to train and run such networks. This paper is a tutorial for students and researchers on some of the techniques that can be used to reduce this computational cost considerably on modern x86 CPUs. We emphasize data layout, batching of the computation, the use of SSE2 instructions, and particularly leverage SSSE3 and SSE4 fixed-point instructions which provide a 3\u00d7 improvement over an optimized floating-point baseline. We use speech recognition as an example task, and show that a real-time hybrid hidden Markov model / neural network (HMM/NN) large vocabulary system can be built with a 10\u00d7 speedup over an unoptimized baseline and a 4\u00d7 speedup over an aggressively optimized floating-point baseline at no cost in accuracy. The techniques described extend readily to neural network training and provide an effective alternative to the use of specialized hardware."
+            },
+            "slug": "Improving-the-speed-of-neural-networks-on-CPUs-Vanhoucke-Senior",
+            "title": {
+                "fragments": [],
+                "text": "Improving the speed of neural networks on CPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper uses speech recognition as an example task, and shows that a real-time hybrid hidden Markov model / neural network (HMM/NN) large vocabulary system can be built with a 10\u00d7 speedup over an unoptimized baseline and a 4\u00d7 speed up over an aggressively optimized floating-point baseline at no cost in accuracy."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39353098"
+                        ],
+                        "name": "Kaiming He",
+                        "slug": "Kaiming-He",
+                        "structuredName": {
+                            "firstName": "Kaiming",
+                            "lastName": "He",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kaiming He"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1771551"
+                        ],
+                        "name": "X. Zhang",
+                        "slug": "X.-Zhang",
+                        "structuredName": {
+                            "firstName": "X.",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3080683"
+                        ],
+                        "name": "Shaoqing Ren",
+                        "slug": "Shaoqing-Ren",
+                        "structuredName": {
+                            "firstName": "Shaoqing",
+                            "lastName": "Ren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shaoqing Ren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [],
+                        "name": "Jian Sun",
+                        "slug": "Jian-Sun",
+                        "structuredName": {
+                            "firstName": "Jian",
+                            "lastName": "Sun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jian Sun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 80,
+                                "start": 77
+                            }
+                        ],
+                        "text": "The final convolutional layer is followed by a spatial pyramid pooling layer [8] that have 4 levels ({6\u00d7 6, 3\u00d7 3, 2\u00d7 2, 1\u00d7 1}, totally 50 bins)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 96
+                            }
+                        ],
+                        "text": "We train the model on the 1000-class dataset of ImageNet 2012 [2, 16], following the details in [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 92
+                            }
+                        ],
+                        "text": "This paper addresses efficient test-time computation of deep convolutional neural networks (CNNs) [12, 11]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 151,
+                                "start": 140
+                            }
+                        ],
+                        "text": "It is insufficient for practical usage to speedup one or a few layers, especially for the deeper models which have been shown very accurate [18, 19, 8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 110
+                            }
+                        ],
+                        "text": "Since the success of CNNs [11] for large-scale image classification, the accuracy of the newly developed CNNs [24, 17, 8, 18, 19] has been continuously improving."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 222,
+                                "start": 213
+                            }
+                        ],
+                        "text": "For example, a cloud service needs to process thousands of new requests per seconds; portable devices such as phones and tablets mostly have CPUs or low-end GPUs only; some recognition tasks like object detection [4, 8, 7] are still time-consuming for processing a single image even on a high-end GPU."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 47
+                            }
+                        ],
+                        "text": "We evaluate on the \u201cSPPnet (Overfeat-7)\u201d model [8], which is one of the state-of-the-art models for ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2014 [16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 103
+                            }
+                        ],
+                        "text": "For these reasons and others, it is of practical importance to accelerate the test-time computation of CNNs."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 35,
+                                "start": 32
+                            }
+                        ],
+                        "text": "A spatial pyramid pooling layer [8] is used after the last convolutional layer, which improves the classification accuracy."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 56,
+                                "start": 52
+                            }
+                        ],
+                        "text": "There have been a few studies on approximating deep CNNs for accelerating test-time evaluation [22, 3, 10]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 436933,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cbb19236820a96038d000dc629225d36e0b6294a",
+            "isKey": false,
+            "numCitedBy": 4977,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Existing deep convolutional neural networks (CNNs) require a fixed-size (e.g., 224<inline-formula><tex-math>$\\times$ </tex-math><alternatives><inline-graphic xlink:type=\"simple\" xlink:href=\"he-ieq1-2389824.gif\"/></alternatives></inline-formula>224) input image. This requirement is \u201cartificial\u201d and may reduce the recognition accuracy for the images or sub-images of an arbitrary size/scale. In this work, we equip the networks with another pooling strategy, \u201cspatial pyramid pooling\u201d, to eliminate the above requirement. The new network structure, called SPP-net, can generate a fixed-length representation regardless of image size/scale. Pyramid pooling is also robust to object deformations. With these advantages, SPP-net should in general improve all CNN-based image classification methods. On the ImageNet 2012 dataset, we demonstrate that SPP-net boosts the accuracy of a variety of CNN architectures despite their different designs. On the Pascal VOC 2007 and Caltech101 datasets, SPP-net achieves state-of-the-art classification results using a single full-image representation and no fine-tuning. The power of SPP-net is also significant in object detection. Using SPP-net, we compute the feature maps from the entire image only once, and then pool features in arbitrary regions (sub-images) to generate fixed-length representations for training the detectors. This method avoids repeatedly computing the convolutional features. In processing test images, our method is 24-102 <inline-formula><tex-math>$\\times$</tex-math><alternatives><inline-graphic xlink:type=\"simple\" xlink:href=\"he-ieq2-2389824.gif\"/> </alternatives></inline-formula> faster than the R-CNN method, while achieving better or comparable accuracy on Pascal VOC 2007. In ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2014, our methods rank #2 in object detection and #3 in image classification among all 38 teams. This manuscript also introduces the improvement made for this competition."
+            },
+            "slug": "Spatial-Pyramid-Pooling-in-Deep-Convolutional-for-He-Zhang",
+            "title": {
+                "fragments": [],
+                "text": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "This work equips the networks with another pooling strategy, \u201cspatial pyramid pooling\u201d, to eliminate the above requirement, and develops a new network structure, called SPP-net, which can generate a fixed-length representation regardless of image size/scale."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "71563118"
+                        ],
+                        "name": "Jinjun Wang",
+                        "slug": "Jinjun-Wang",
+                        "structuredName": {
+                            "firstName": "Jinjun",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jinjun Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706007"
+                        ],
+                        "name": "Jianchao Yang",
+                        "slug": "Jianchao-Yang",
+                        "structuredName": {
+                            "firstName": "Jianchao",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jianchao Yang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144782042"
+                        ],
+                        "name": "Kai Yu",
+                        "slug": "Kai-Yu",
+                        "structuredName": {
+                            "firstName": "Kai",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kai Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39157653"
+                        ],
+                        "name": "Fengjun Lv",
+                        "slug": "Fengjun-Lv",
+                        "structuredName": {
+                            "firstName": "Fengjun",
+                            "lastName": "Lv",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fengjun Lv"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153652752"
+                        ],
+                        "name": "Thomas S. Huang",
+                        "slug": "Thomas-S.-Huang",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Huang",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Thomas S. Huang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144768792"
+                        ],
+                        "name": "Yihong Gong",
+                        "slug": "Yihong-Gong",
+                        "structuredName": {
+                            "firstName": "Yihong",
+                            "lastName": "Gong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yihong Gong"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 59,
+                                "start": 55
+                            }
+                        ],
+                        "text": "In theory, \u03bb should be gradually increased to infinity [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 67
+                            }
+                        ],
+                        "text": "If \u03bb \u2192 \u221e, the solution to (6) will converge to the solution to (5) [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6718692,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2f7713dcc35e7c05becf3be5522f36c9546b0364",
+            "isKey": false,
+            "numCitedBy": 3252,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The traditional SPM approach based on bag-of-features (BoF) requires nonlinear classifiers to achieve good image classification performance. This paper presents a simple but effective coding scheme called Locality-constrained Linear Coding (LLC) in place of the VQ coding in traditional SPM. LLC utilizes the locality constraints to project each descriptor into its local-coordinate system, and the projected coordinates are integrated by max pooling to generate the final representation. With linear classifier, the proposed approach performs remarkably better than the traditional nonlinear SPM, achieving state-of-the-art performance on several benchmarks. Compared with the sparse coding strategy [22], the objective function used by LLC has an analytical solution. In addition, the paper proposes a fast approximated LLC method by first performing a K-nearest-neighbor search and then solving a constrained least square fitting problem, bearing computational complexity of O(M + K2). Hence even with very large codebooks, our system can still process multiple frames per second. This efficiency significantly adds to the practical values of LLC for real applications."
+            },
+            "slug": "Locality-constrained-Linear-Coding-for-image-Wang-Yang",
+            "title": {
+                "fragments": [],
+                "text": "Locality-constrained Linear Coding for image classification"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 55,
+                "text": "This paper presents a simple but effective coding scheme called Locality-constrained Linear Coding (LLC) in place of the VQ coding in traditional SPM, using the locality constraints to project each descriptor into its local-coordinate system, and the projected coordinates are integrated by max pooling to generate the final representation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3142556"
+                        ],
+                        "name": "Pierre Sermanet",
+                        "slug": "Pierre-Sermanet",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Sermanet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pierre Sermanet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2060028"
+                        ],
+                        "name": "D. Eigen",
+                        "slug": "D.-Eigen",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Eigen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Eigen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46447747"
+                        ],
+                        "name": "X. Zhang",
+                        "slug": "X.-Zhang",
+                        "structuredName": {
+                            "firstName": "Xiang",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143949035"
+                        ],
+                        "name": "Micha\u00ebl Mathieu",
+                        "slug": "Micha\u00ebl-Mathieu",
+                        "structuredName": {
+                            "firstName": "Micha\u00ebl",
+                            "lastName": "Mathieu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Micha\u00ebl Mathieu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2276554"
+                        ],
+                        "name": "R. Fergus",
+                        "slug": "R.-Fergus",
+                        "structuredName": {
+                            "firstName": "Rob",
+                            "lastName": "Fergus",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Fergus"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 74,
+                                "start": 59
+                            }
+                        ],
+                        "text": "First, its architecture is similar to many existing models [11, 24, 17, 1] (such as the first/second layers and the cascade usage of 3\u00d73 filters), so we believe most observations should be valid on other models."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 92
+                            }
+                        ],
+                        "text": "This paper addresses efficient test-time computation of deep convolutional neural networks (CNNs) [12, 11]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 110
+                            }
+                        ],
+                        "text": "Since the success of CNNs [11] for large-scale image classification, the accuracy of the newly developed CNNs [24, 17, 8, 18, 19] has been continuously improving."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 103,
+                                "start": 99
+                            }
+                        ],
+                        "text": "5% increase of error on Conv2 under a 2\u00d7 single-layer speedup, evaluated on another Overfeat model [17]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 103
+                            }
+                        ],
+                        "text": "For these reasons and others, it is of practical importance to accelerate the test-time computation of CNNs."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 82
+                            }
+                        ],
+                        "text": "This model (detailed in Table 1) has a similar architecture to the Overfeat model [17], but has 7 convolutional layers."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 56,
+                                "start": 52
+                            }
+                        ],
+                        "text": "There have been a few studies on approximating deep CNNs for accelerating test-time evaluation [22, 3, 10]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 4071727,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5507caf1210b6bfbd04fe02b2669bc14292e23a1",
+            "isKey": true,
+            "numCitedBy": 4388,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present an integrated framework for using Convolutional Networks for classification, localization and detection. We show how a multiscale and sliding window approach can be efficiently implemented within a ConvNet. We also introduce a novel deep learning approach to localization by learning to predict object boundaries. Bounding boxes are then accumulated rather than suppressed in order to increase detection confidence. We show that different tasks can be learned simultaneously using a single shared network. This integrated framework is the winner of the localization task of the ImageNet Large Scale Visual Recognition Challenge 2013 (ILSVRC2013) and obtained very competitive results for the detection and classifications tasks. In post-competition work, we establish a new state of the art for the detection task. Finally, we release a feature extractor from our best model called OverFeat."
+            },
+            "slug": "OverFeat:-Integrated-Recognition,-Localization-and-Sermanet-Eigen",
+            "title": {
+                "fragments": [],
+                "text": "OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 60,
+                "text": "This integrated framework for using Convolutional Networks for classification, localization and detection is the winner of the localization task of the ImageNet Large Scale Visual Recognition Challenge 2013 and obtained very competitive results for the detection and classifications tasks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2983898"
+                        ],
+                        "name": "Ross B. Girshick",
+                        "slug": "Ross-B.-Girshick",
+                        "structuredName": {
+                            "firstName": "Ross",
+                            "lastName": "Girshick",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ross B. Girshick"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7408951"
+                        ],
+                        "name": "Jeff Donahue",
+                        "slug": "Jeff-Donahue",
+                        "structuredName": {
+                            "firstName": "Jeff",
+                            "lastName": "Donahue",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jeff Donahue"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1753210"
+                        ],
+                        "name": "Trevor Darrell",
+                        "slug": "Trevor-Darrell",
+                        "structuredName": {
+                            "firstName": "Trevor",
+                            "lastName": "Darrell",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Trevor Darrell"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153652147"
+                        ],
+                        "name": "J. Malik",
+                        "slug": "J.-Malik",
+                        "structuredName": {
+                            "firstName": "Jitendra",
+                            "lastName": "Malik",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Malik"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 222,
+                                "start": 213
+                            }
+                        ],
+                        "text": "For example, a cloud service needs to process thousands of new requests per seconds; portable devices such as phones and tablets mostly have CPUs or low-end GPUs only; some recognition tasks like object detection [4, 8, 7] are still time-consuming for processing a single image even on a high-end GPU."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 215827080,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2f4df08d9072fc2ac181b7fced6a245315ce05c8",
+            "isKey": false,
+            "numCitedBy": 17379,
+            "numCiting": 66,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Object detection performance, as measured on the canonical PASCAL VOC dataset, has plateaued in the last few years. The best-performing methods are complex ensemble systems that typically combine multiple low-level image features with high-level context. In this paper, we propose a simple and scalable detection algorithm that improves mean average precision (mAP) by more than 30% relative to the previous best result on VOC 2012 -- achieving a mAP of 53.3%. Our approach combines two key insights: (1) one can apply high-capacity convolutional neural networks (CNNs) to bottom-up region proposals in order to localize and segment objects and (2) when labeled training data is scarce, supervised pre-training for an auxiliary task, followed by domain-specific fine-tuning, yields a significant performance boost. Since we combine region proposals with CNNs, we call our method R-CNN: Regions with CNN features. We also present experiments that provide insight into what the network learns, revealing a rich hierarchy of image features. Source code for the complete system is available at http://www.cs.berkeley.edu/~rbg/rcnn."
+            },
+            "slug": "Rich-Feature-Hierarchies-for-Accurate-Object-and-Girshick-Donahue",
+            "title": {
+                "fragments": [],
+                "text": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "This paper proposes a simple and scalable detection algorithm that improves mean average precision (mAP) by more than 30% relative to the previous best result on VOC 2012 -- achieving a mAP of 53.3%."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2014 IEEE Conference on Computer Vision and Pattern Recognition"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1790580"
+                        ],
+                        "name": "Bharath Hariharan",
+                        "slug": "Bharath-Hariharan",
+                        "structuredName": {
+                            "firstName": "Bharath",
+                            "lastName": "Hariharan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bharath Hariharan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1778133"
+                        ],
+                        "name": "Pablo Arbel\u00e1ez",
+                        "slug": "Pablo-Arbel\u00e1ez",
+                        "structuredName": {
+                            "firstName": "Pablo",
+                            "lastName": "Arbel\u00e1ez",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pablo Arbel\u00e1ez"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2983898"
+                        ],
+                        "name": "Ross B. Girshick",
+                        "slug": "Ross-B.-Girshick",
+                        "structuredName": {
+                            "firstName": "Ross",
+                            "lastName": "Girshick",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ross B. Girshick"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143751119"
+                        ],
+                        "name": "Jitendra Malik",
+                        "slug": "Jitendra-Malik",
+                        "structuredName": {
+                            "firstName": "Jitendra",
+                            "lastName": "Malik",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jitendra Malik"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 222,
+                                "start": 213
+                            }
+                        ],
+                        "text": "For example, a cloud service needs to process thousands of new requests per seconds; portable devices such as phones and tablets mostly have CPUs or low-end GPUs only; some recognition tasks like object detection [4, 8, 7] are still time-consuming for processing a single image even on a high-end GPU."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9272368,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "342786659379879f58bf5c4ff43c84c83a6a7389",
+            "isKey": false,
+            "numCitedBy": 1068,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We aim to detect all instances of a category in an image and, for each instance, mark the pixels that belong to it. We call this task Simultaneous Detection and Segmentation (SDS). Unlike classical bounding box detection, SDS requires a segmentation and not just a box. Unlike classical semantic segmentation, we require individual object instances. We build on recent work that uses convolutional neural networks to classify category-independent region proposals (R-CNN [16]), introducing a novel architecture tailored for SDS. We then use category-specific, top-down figure-ground predictions to refine our bottom-up proposals. We show a 7 point boost (16% relative) over our baselines on SDS, a 5 point boost (10% relative) over state-of-the-art on semantic segmentation, and state-of-the-art performance in object detection. Finally, we provide diagnostic tools that unpack performance and provide directions for future work."
+            },
+            "slug": "Simultaneous-Detection-and-Segmentation-Hariharan-Arbel\u00e1ez",
+            "title": {
+                "fragments": [],
+                "text": "Simultaneous Detection and Segmentation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work builds on recent work that uses convolutional neural networks to classify category-independent region proposals (R-CNN), introducing a novel architecture tailored for SDS, and uses category-specific, top-down figure-ground predictions to refine the bottom-up proposals."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ECCV"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2192178"
+                        ],
+                        "name": "Olga Russakovsky",
+                        "slug": "Olga-Russakovsky",
+                        "structuredName": {
+                            "firstName": "Olga",
+                            "lastName": "Russakovsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Olga Russakovsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153302678"
+                        ],
+                        "name": "Jia Deng",
+                        "slug": "Jia-Deng",
+                        "structuredName": {
+                            "firstName": "Jia",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jia Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144914140"
+                        ],
+                        "name": "Hao Su",
+                        "slug": "Hao-Su",
+                        "structuredName": {
+                            "firstName": "Hao",
+                            "lastName": "Su",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hao Su"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2285165"
+                        ],
+                        "name": "J. Krause",
+                        "slug": "J.-Krause",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Krause",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Krause"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145031342"
+                        ],
+                        "name": "S. Satheesh",
+                        "slug": "S.-Satheesh",
+                        "structuredName": {
+                            "firstName": "Sanjeev",
+                            "lastName": "Satheesh",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Satheesh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145423516"
+                        ],
+                        "name": "S. Ma",
+                        "slug": "S.-Ma",
+                        "structuredName": {
+                            "firstName": "Sean",
+                            "lastName": "Ma",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Ma"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3109481"
+                        ],
+                        "name": "Zhiheng Huang",
+                        "slug": "Zhiheng-Huang",
+                        "structuredName": {
+                            "firstName": "Zhiheng",
+                            "lastName": "Huang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhiheng Huang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2354728"
+                        ],
+                        "name": "A. Karpathy",
+                        "slug": "A.-Karpathy",
+                        "structuredName": {
+                            "firstName": "Andrej",
+                            "lastName": "Karpathy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Karpathy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2556428"
+                        ],
+                        "name": "A. Khosla",
+                        "slug": "A.-Khosla",
+                        "structuredName": {
+                            "firstName": "Aditya",
+                            "lastName": "Khosla",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Khosla"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145879842"
+                        ],
+                        "name": "Michael S. Bernstein",
+                        "slug": "Michael-S.-Bernstein",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Bernstein",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael S. Bernstein"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39668247"
+                        ],
+                        "name": "A. Berg",
+                        "slug": "A.-Berg",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Berg",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Berg"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48004138"
+                        ],
+                        "name": "Li Fei-Fei",
+                        "slug": "Li-Fei-Fei",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Fei-Fei",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Li Fei-Fei"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2930547,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+            "isKey": false,
+            "numCitedBy": 25826,
+            "numCiting": 138,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The ImageNet Large Scale Visual Recognition Challenge is a benchmark in object category classification and detection on hundreds of object categories and millions of images. The challenge has been run annually from 2010 to present, attracting participation from more than fifty institutions. This paper describes the creation of this benchmark dataset and the advances in object recognition that have been possible as a result. We discuss the challenges of collecting large-scale ground truth annotation, highlight key breakthroughs in categorical object recognition, provide a detailed analysis of the current state of the field of large-scale image classification and object detection, and compare the state-of-the-art computer vision accuracy with human accuracy. We conclude with lessons learned in the 5\u00a0years of the challenge, and propose future directions and improvements."
+            },
+            "slug": "ImageNet-Large-Scale-Visual-Recognition-Challenge-Russakovsky-Deng",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet Large Scale Visual Recognition Challenge"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The creation of this benchmark dataset and the advances in object recognition that have been possible as a result are described, and the state-of-the-art computer vision accuracy with human accuracy is compared."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Computer Vision"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2219581"
+                        ],
+                        "name": "B. Boser",
+                        "slug": "B.-Boser",
+                        "structuredName": {
+                            "firstName": "Bernhard",
+                            "lastName": "Boser",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Boser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1747317"
+                        ],
+                        "name": "J. Denker",
+                        "slug": "J.-Denker",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Denker",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Denker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37274089"
+                        ],
+                        "name": "D. Henderson",
+                        "slug": "D.-Henderson",
+                        "structuredName": {
+                            "firstName": "Donnie",
+                            "lastName": "Henderson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Henderson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2799635"
+                        ],
+                        "name": "R. Howard",
+                        "slug": "R.-Howard",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Howard",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Howard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34859193"
+                        ],
+                        "name": "W. Hubbard",
+                        "slug": "W.-Hubbard",
+                        "structuredName": {
+                            "firstName": "Wayne",
+                            "lastName": "Hubbard",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Hubbard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2041866"
+                        ],
+                        "name": "L. Jackel",
+                        "slug": "L.-Jackel",
+                        "structuredName": {
+                            "firstName": "Lawrence",
+                            "lastName": "Jackel",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Jackel"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 98
+                            }
+                        ],
+                        "text": "This paper addresses efficient test-time computation of deep convolutional neural networks (CNNs) [12, 11]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 41312633,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a8e8f3c8d4418c8d62e306538c9c1292635e9d27",
+            "isKey": false,
+            "numCitedBy": 7920,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The ability of learning networks to generalize can be greatly enhanced by providing constraints from the task domain. This paper demonstrates how such constraints can be integrated into a backpropagation network through the architecture of the network. This approach has been successfully applied to the recognition of handwritten zip code digits provided by the U.S. Postal Service. A single network learns the entire recognition operation, going from the normalized image of the character to the final classification."
+            },
+            "slug": "Backpropagation-Applied-to-Handwritten-Zip-Code-LeCun-Boser",
+            "title": {
+                "fragments": [],
+                "text": "Backpropagation Applied to Handwritten Zip Code Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 56,
+                "text": "This paper demonstrates how constraints from the task domain can be integrated into a backpropagation network through the architecture of the network, successfully applied to the recognition of handwritten zip code digits provided by the U.S. Postal Service."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2073603971"
+                        ],
+                        "name": "Vinod Nair",
+                        "slug": "Vinod-Nair",
+                        "structuredName": {
+                            "firstName": "Vinod",
+                            "lastName": "Nair",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vinod Nair"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 63,
+                                "start": 59
+                            }
+                        ],
+                        "text": "In this paper we focus on the Rectified Linear Unit (ReLU) [14]: r(\u00b7) = max(\u00b7, 0)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 73,
+                                "start": 65
+                            }
+                        ],
+                        "text": "However, the nonlinearity like the Rectified Linear Units (ReLU) [14, 11] is not involved in their optimization."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15539264,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a538b05ebb01a40323997629e171c91aa28b8e2f",
+            "isKey": false,
+            "numCitedBy": 12985,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Restricted Boltzmann machines were developed using binary stochastic hidden units. These can be generalized by replacing each binary unit by an infinite number of copies that all have the same weights but have progressively more negative biases. The learning and inference rules for these \"Stepped Sigmoid Units\" are unchanged. They can be approximated efficiently by noisy, rectified linear units. Compared with binary units, these units learn features that are better for object recognition on the NORB dataset and face verification on the Labeled Faces in the Wild dataset. Unlike binary units, rectified linear units preserve information about relative intensities as information travels through multiple layers of feature detectors."
+            },
+            "slug": "Rectified-Linear-Units-Improve-Restricted-Boltzmann-Nair-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "Rectified Linear Units Improve Restricted Boltzmann Machines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 62,
+                "text": "Restricted Boltzmann machines were developed using binary stochastic hidden units that learn features that are better for object recognition on the NORB dataset and face verification on the Labeled Faces in the Wild dataset."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153302678"
+                        ],
+                        "name": "Jia Deng",
+                        "slug": "Jia-Deng",
+                        "structuredName": {
+                            "firstName": "Jia",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jia Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144847596"
+                        ],
+                        "name": "Wei Dong",
+                        "slug": "Wei-Dong",
+                        "structuredName": {
+                            "firstName": "Wei",
+                            "lastName": "Dong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wei Dong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2166511"
+                        ],
+                        "name": "R. Socher",
+                        "slug": "R.-Socher",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Socher",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Socher"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2040091191"
+                        ],
+                        "name": "Li-Jia Li",
+                        "slug": "Li-Jia-Li",
+                        "structuredName": {
+                            "firstName": "Li-Jia",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Li-Jia Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "94451829"
+                        ],
+                        "name": "K. Li",
+                        "slug": "K.-Li",
+                        "structuredName": {
+                            "firstName": "K.",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48004138"
+                        ],
+                        "name": "Li Fei-Fei",
+                        "slug": "Li-Fei-Fei",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Fei-Fei",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Li Fei-Fei"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 98
+                            }
+                        ],
+                        "text": "We evaluate on the \u201cSPPnet (Overfeat-7)\u201d model [8], which is one of the state-of-the-art models for ImageNet\nLarge Scale Visual Recognition Challenge (ILSVRC) 2014 [16]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 57
+                            }
+                        ],
+                        "text": "The single-view error rate of the model is 12.51% on the ImageNet validation set, and the increased error rates of the approximated models are all based on this number."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 69,
+                                "start": 62
+                            }
+                        ],
+                        "text": "We train the model on the 1000-class dataset of ImageNet 2012 [2, 16], following the details in [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 75,
+                                "start": 67
+                            }
+                        ],
+                        "text": "We evaluate our method on a 7-convolutional-layer model trained on ImageNet."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 22,
+                                "start": 14
+                            }
+                        ],
+                        "text": "3) trained on ImageNet [2]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 114,
+                                "start": 106
+                            }
+                        ],
+                        "text": "For the training of the approximations as in (4), (6), and (12), we randomly sample 3,000 images from the ImageNet training set and use their responses as the training samples."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 94
+                            }
+                        ],
+                        "text": "In the paper of [10], their method is only evaluated on a single layer of a model trained for ImageNet."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 107
+                            }
+                        ],
+                        "text": "We use the Scheme 2 decomposition in [10] and its filter reconstruction version, which is the one used for ImageNet as in [10]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 141
+                            }
+                        ],
+                        "text": "Actually, in the recent work [3, 10] the approximations are applied on a single layer of large CNN models, such as those trained on ImageNet [2, 16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 57246310,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
+            "isKey": true,
+            "numCitedBy": 28266,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The explosion of image data on the Internet has the potential to foster more sophisticated and robust models and algorithms to index, retrieve, organize and interact with images and multimedia data. But exactly how such data can be harnessed and organized remains a critical problem. We introduce here a new database called \u201cImageNet\u201d, a large-scale ontology of images built upon the backbone of the WordNet structure. ImageNet aims to populate the majority of the 80,000 synsets of WordNet with an average of 500-1000 clean and full resolution images. This will result in tens of millions of annotated images organized by the semantic hierarchy of WordNet. This paper offers a detailed analysis of ImageNet in its current state: 12 subtrees with 5247 synsets and 3.2 million images in total. We show that ImageNet is much larger in scale and diversity and much more accurate than the current image datasets. Constructing such a large-scale database is a challenging task. We describe the data collection scheme with Amazon Mechanical Turk. Lastly, we illustrate the usefulness of ImageNet through three simple applications in object recognition, image classification and automatic object clustering. We hope that the scale, accuracy, diversity and hierarchical structure of ImageNet can offer unparalleled opportunities to researchers in the computer vision community and beyond."
+            },
+            "slug": "ImageNet:-A-large-scale-hierarchical-image-database-Deng-Dong",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet: A large-scale hierarchical image database"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A new database called \u201cImageNet\u201d is introduced, a large-scale ontology of images built upon the backbone of the WordNet structure, much larger in scale and diversity and much more accurate than the current image datasets."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2009 IEEE Conference on Computer Vision and Pattern Recognition"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2077678"
+                        ],
+                        "name": "Y. Takane",
+                        "slug": "Y.-Takane",
+                        "structuredName": {
+                            "firstName": "Yoshio",
+                            "lastName": "Takane",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Takane"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2898791"
+                        ],
+                        "name": "Sunho Jung",
+                        "slug": "Sunho-Jung",
+                        "structuredName": {
+                            "firstName": "Sunho",
+                            "lastName": "Jung",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sunho Jung"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 8,
+                                "start": 4
+                            }
+                        ],
+                        "text": "The GSVD is applied on M\u0302 as M\u0302 = USV>, such that U is a d-by-d orthogonal matrix satisfying U>U = Id where Id is a d-by-d identity matrix, and V is a d-by-d matrix satisfying V>YY>V = Id (called generalized orthogonality)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 74,
+                                "start": 63
+                            }
+                        ],
+                        "text": "This optimization problem is a Reduced Rank Regression problem [6, 21, 20], and it can be solved by a kind of Generalized Singular Vector Decomposition (GSVD) [6, 21, 20]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 79
+                            }
+                        ],
+                        "text": "This constraint enables closed-form solutions, e.g., PCA to the problem (4) or GSVD to the subproblem (7)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 122607098,
+            "fieldsOfStudy": [
+                "Engineering"
+            ],
+            "id": "126d7da89b181faf572501f93519b6182895f5ce",
+            "isKey": false,
+            "numCitedBy": 11,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A method of generalized constrained redundancy analysis (GCRA) is proposed, which incorporates external information in redundancy analysis (RA). In this method both the criterion variables and the orthogonal projector defined by the predictor variables are first decomposed into several components according to the external information, and RA is applied to the decomposed matrices. By combining the terms in the two decompositions, a variety of existing and new methods of RA are realized including a variety of partial (non-partial, partial, semi-partial and bi-partial) and constrained (unconstrained, semi-constrained and bi-constrained) RA. An example is given to illustrate the method."
+            },
+            "slug": "Generalized-Constrained-Redundancy-Analysis-Takane-Jung",
+            "title": {
+                "fragments": [],
+                "text": "Generalized Constrained Redundancy Analysis"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3029253"
+                        ],
+                        "name": "Snigdhansu Chatterjee",
+                        "slug": "Snigdhansu-Chatterjee",
+                        "structuredName": {
+                            "firstName": "Snigdhansu",
+                            "lastName": "Chatterjee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Snigdhansu Chatterjee"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 8,
+                                "start": 4
+                            }
+                        ],
+                        "text": "The GSVD is applied on M\u0302 as M\u0302 = USV>, such that U is a d-by-d orthogonal matrix satisfying U>U = Id where Id is a d-by-d identity matrix, and V is a d-by-d matrix satisfying V>YY>V = Id (called generalized orthogonality)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 74,
+                                "start": 63
+                            }
+                        ],
+                        "text": "This optimization problem is a Reduced Rank Regression problem [6, 21, 20], and it can be solved by a kind of Generalized Singular Vector Decomposition (GSVD) [6, 21, 20]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 79
+                            }
+                        ],
+                        "text": "This constraint enables closed-form solutions, e.g., PCA to the problem (4) or GSVD to the subproblem (7)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 207016589,
+            "fieldsOfStudy": [
+                "Psychology"
+            ],
+            "id": "a7eb8a8f6dd488d307371cbdd6fd377efbadcaf9",
+            "isKey": false,
+            "numCitedBy": 270,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "At 520 pages and with a title of Cognition and Chance: The Psychology of Probabilistic Reasoning, I had hoped that this book would deepen my understanding of how human beings reason probabilistically. My interest stems from teaching and practicing statistics, where I have learned to be wary of quantitative intuition. I think that this is a common feeling among statisticians, who as a group often directly experience the inherent limitations and biases of how human beings observe, process, and interpret quantitative information. We know, for example, that human beings tend to find patterns in data where none exist, are wonderfully adept at post hoc rationalization of results and outcomes, quickly leap from correlation to causation, are subject to many subtle biases, and so on. So an authoritative treatment of the psychology of probabilistic reasoning would be quite useful and could help us understand when to trust and when to question human intuition. For example, what types of quantitative reasoning is the human brain naturally better or worse at? When are we good intuitive probabilists and when are we bad? Do we know why? Thus in reading this book, I hoped to gain a better understanding of such issues, if for no other reason than to help me better know when to trust my own intuition. Unfortunately, this book did not live up to my expectations. As I discuss more fully later in this review, it disappointed in three specific ways. The first disappointment is that the amount of the text specifically devoted to probabilistic reasoning is relatively small compared to the book\u2019s total length. At 520 pages and 12 chapters, I expected a fairly deep and thorough discussion of the book\u2019s titled topic. Yet only Chapter 11 (\u201cPeople as Intuitive Probabilists\u201d) is devoted to the particular subject of probabilistic reasoning. Chapters 8\u201310 (\u201cEstimation and Prediction,\u201d \u201cPerception of Covariation and Contingency,\u201d and \u201cChoice Under Uncertainty\u201d) are also related, discussing other aspects of quantitative reasoning, but fully two-thirds of the book is devoted to topics that are largely general background material. In particular, Chapters 1\u20137 focus on topics such as a general history of the field of probability as it developed from games of chance; the various meanings, interpretations, and misinterpretations of the concepts of randomness and coincidence; an entire chapter explaining Bayes\u2019 theorem; another chapter devoted to a discussion of various paradoxes (e.g., St. Petersburg, Simpson\u2019s); and, a general exposition of the field of statistics. These chapters seem to have been written for a lay audience and are largely nonquantitative. Other than perhaps the first chapter, they are likely to be of only passing interest to someone with advanced statistical training. The second disappointment is that the exposition tends to be more broad than deep. A typical discussion in the later chapters is of the form \u201cresearcher A found this and researcher B found that, whereas researcher C found a contrary result,\u201d with the results described in only the briefest and most general terms. Few, if any, specifics about the various research efforts are described, and little effort seems to have been made to discuss the results in anything more than a superficial manner. For example, in Chapter 8 the author writes, \u201cWhen asked to observe a set of numbers and to estimate some measure of central tendency, such as its mean, people are able under some conditions to produce reasonably accurate estimates (Beach & Swensson, 1966; Edwards, 1967; C.R. Peterson & Beach, 1967), although systematic deviations from actual values have also been reported (N.H. Anderson, 1964; I.P. Levin, 1974, 1975)\u201d (p. 284). Now, although I have chosen one of the more egregious examples of a singularly unhelpful \u201cdiscussion,\u201d the lack of detail here is not atypical of the book\u2019s general tone and approach. As a result, the reader is often left without sufficient information to truly understand the strengths or limitations of the cited results or the author\u2019s summary conclusion. In a related vein, although the author\u2019s grasp of a very large body of material is quite impressive, the narration often feels more like a wandering discussion than a focused examination. Furthermore, although each chapter does have a summary section, as does the book, each of these is superficial, simply regurgitating various general discussions from each chapter in an even more general fashion. In fact, after 435 pages of text, the summary chapter for the entire book is less than two full pages long. The third disappointment\u2014related to the second\u2014is the failure of the text to go beyond lists and discussions of individual studies and provide the reader with a broader context in which to place the information. That is, on completion of the book, the reader is left with various categories of research study results generally summarized, but little to no information about what this means for the broader question of how humans reason quantitatively and whether or not there are theories or models that help explain, summarize, or synthesize the various study results into some larger framework of human probabilistic reasoning. For example, there are no charts or graphics or tabularizations anywhere in the book that provide the reader with an overview or taxonomy of the field of research. Similarly, there is no outline or description of how psychologists think about or summarize the observed phenomenon nor any real discussion about various theories that may exist to explain human quantitative or probabilistic reasoning. Nothing in the book provides a reader with any sort of \u201cbig picture\u201d within which to understand how the various lengthy expositions fit. Criticism aside, in reading Cognition and Chance: The Psychology of Probabilistic Reasoning, I did expand my knowledge about probabilistic reasoning. My disappointment may be the result of unrealistic expectations on my part or perhaps insufficient editorial assistance by the publisher. On the positive side, the book does bring together many diverse sources and results on a host of topics. As such, it could serve as a useful starting point for a new researcher beginning a study of some aspect of quantitative reasoning."
+            },
+            "slug": "Procrustes-Problems-Chatterjee",
+            "title": {
+                "fragments": [],
+                "text": "Procrustes Problems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This book did not live up to my expectations and disappointed in three specific ways, including that the amount of the text specifically devoted to probabilistic reasoning is relatively small compared to the book\u2019s total length."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Technometrics"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2077678"
+                        ],
+                        "name": "Y. Takane",
+                        "slug": "Y.-Takane",
+                        "structuredName": {
+                            "firstName": "Yoshio",
+                            "lastName": "Takane",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Takane"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3184507"
+                        ],
+                        "name": "Heungsun Hwang",
+                        "slug": "Heungsun-Hwang",
+                        "structuredName": {
+                            "firstName": "Heungsun",
+                            "lastName": "Hwang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Heungsun Hwang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 8,
+                                "start": 4
+                            }
+                        ],
+                        "text": "The GSVD is applied on M\u0302 as M\u0302 = USV>, such that U is a d-by-d orthogonal matrix satisfying U>U = Id where Id is a d-by-d identity matrix, and V is a d-by-d matrix satisfying V>YY>V = Id (called generalized orthogonality)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 74,
+                                "start": 63
+                            }
+                        ],
+                        "text": "This optimization problem is a Reduced Rank Regression problem [6, 21, 20], and it can be solved by a kind of Generalized Singular Vector Decomposition (GSVD) [6, 21, 20]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 79
+                            }
+                        ],
+                        "text": "This constraint enables closed-form solutions, e.g., PCA to the problem (4) or GSVD to the subproblem (7)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 13889894,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "1c32fb359bef96c6cdbc4b668bb7e365538a5047",
+            "isKey": false,
+            "numCitedBy": 31,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Regularized-linear-and-kernel-redundancy-analysis-Takane-Hwang",
+            "title": {
+                "fragments": [],
+                "text": "Regularized linear and kernel redundancy analysis"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Comput. Stat. Data Anal."
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2059358552"
+                        ],
+                        "name": "P. Cochat",
+                        "slug": "P.-Cochat",
+                        "structuredName": {
+                            "firstName": "P.",
+                            "lastName": "Cochat",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Cochat"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "13267685"
+                        ],
+                        "name": "L. Vaucoret",
+                        "slug": "L.-Vaucoret",
+                        "structuredName": {
+                            "firstName": "L",
+                            "lastName": "Vaucoret",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Vaucoret"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2097644863"
+                        ],
+                        "name": "J. Sarles",
+                        "slug": "J.-Sarles",
+                        "structuredName": {
+                            "firstName": "J",
+                            "lastName": "Sarles",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Sarles"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 98
+                            }
+                        ],
+                        "text": "We evaluate on the \u201cSPPnet (Overfeat-7)\u201d model [8], which is one of the state-of-the-art models for ImageNet\nLarge Scale Visual Recognition Challenge (ILSVRC) 2014 [16]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 57
+                            }
+                        ],
+                        "text": "The single-view error rate of the model is 12.51% on the ImageNet validation set, and the increased error rates of the approximated models are all based on this number."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 69,
+                                "start": 62
+                            }
+                        ],
+                        "text": "We train the model on the 1000-class dataset of ImageNet 2012 [2, 16], following the details in [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 75,
+                                "start": 67
+                            }
+                        ],
+                        "text": "We evaluate our method on a 7-convolutional-layer model trained on ImageNet."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 168,
+                                "start": 164
+                            }
+                        ],
+                        "text": "We evaluate on the \u201cSPPnet (Overfeat-7)\u201d model [8], which is one of the state-of-the-art models for ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2014 [16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 22,
+                                "start": 14
+                            }
+                        ],
+                        "text": "3) trained on ImageNet [2]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 114,
+                                "start": 106
+                            }
+                        ],
+                        "text": "For the training of the approximations as in (4), (6), and (12), we randomly sample 3,000 images from the ImageNet training set and use their responses as the training samples."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 94
+                            }
+                        ],
+                        "text": "In the paper of [10], their method is only evaluated on a single layer of a model trained for ImageNet."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 107
+                            }
+                        ],
+                        "text": "We use the Scheme 2 decomposition in [10] and its filter reconstruction version, which is the one used for ImageNet as in [10]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 141
+                            }
+                        ],
+                        "text": "Actually, in the recent work [3, 10] the approximations are applied on a single layer of large CNN models, such as those trained on ImageNet [2, 16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11759366,
+            "fieldsOfStudy": [
+                "Medicine"
+            ],
+            "id": "bc6dff14a130c57a91d5a21339c23471faf1d46f",
+            "isKey": true,
+            "numCitedBy": 58258,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "disasters. Plenum, 2001. 11. Haley R, Thomas L, Hom J. Is there a Gulf War Syndrome? Searching for syndromes by factor analysis of symptoms. JAMA 1997;277:215\u201322. 12. Fukuda K, Nisenbaum R, Stewart G, et al. Chronic multi-symptom illness affecting Air Force veterans of the Gulf War. JAMA 1998;280:981\u20138. 13. Ismail K, Everitt B, Blatchley N, et al. Is there a Gulf War Syndrome? Lancet 1999;353:179\u201382. 14. Shapiro S, Lasarev M, McCauley L. Factor analysis of Gulf War illness: what does it add to our understanding of possible health effects of deployment. Am J Epidemiol 2002;156:578\u201385. 15. Doebbeling B, Clarke W, Watson D, et al. Is there a Persian Gulf War Syndrome? Evidence from a large population-based survey of veterans and nondeployed controls. Am J Med 2000;108:695\u2013704. 16. Knoke J, Smith T, Gray G, et al. Factor analysis of self reported symptoms: Does it identify a Gulf War Syndrome? Am J Epidemiol 2000;152:379\u201388. 17. Kang H, Mahan C, Lee K, et al. Evidence for a deployment-related Gulf War syndrome by factor analysis. Arch Environ Health 2002;57:61\u20138."
+            },
+            "slug": "Et-al-Cochat-Vaucoret",
+            "title": {
+                "fragments": [],
+                "text": "Et al"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A large population-based survey of veterans and nondeployed controls found evidence of a deployment-related Gulf War syndrome by factor analysis in Air Force veterans and controls."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Archives de pediatrie : organe officiel de la Societe francaise de pediatrie"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145740789"
+                        ],
+                        "name": "F. Glover",
+                        "slug": "F.-Glover",
+                        "structuredName": {
+                            "firstName": "Fred",
+                            "lastName": "Glover",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Glover"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144853029"
+                        ],
+                        "name": "M. Laguna",
+                        "slug": "M.-Laguna",
+                        "structuredName": {
+                            "firstName": "Manuel",
+                            "lastName": "Laguna",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Laguna"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 51,
+                                "start": 47
+                            }
+                        ],
+                        "text": "The problem in (14) is a combinatorial problem [15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 61044533,
+            "fieldsOfStudy": [
+                "Business"
+            ],
+            "id": "48cb5d93025ea63a00942ca058d287c5a198ff9e",
+            "isKey": false,
+            "numCitedBy": 1025,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A rock drill bit comprises a bit body and at least one rolling cone cutter mounted on the bit body, the rolling cone cutter comprising a plurality of tungsten carbide inserts including a plurality of gage inserts for drilling adjacent the peripheral wall of the hole being drilled. At least one diamond cutter protrudes from the bit body to provide a cutting edge substantially on the gage diameter of the rock bit so that such a diamond insert can engage the peripheral wall of the hole being drilled, thereby maintaining the hole gage. Each diamond cutter comprises a carbide slug inserted in the bit body and a diamond plate bonded to the slug. Such diamond cutters are on a peripheral portion of the bit body above the cutter cones."
+            },
+            "slug": "In-Modern-Heuristic-Techniques-for-Combinatorial-Glover-Laguna",
+            "title": {
+                "fragments": [],
+                "text": "In Modern Heuristic Techniques for Combinatorial Problems"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48799969"
+                        ],
+                        "name": "Matthew D. Zeiler",
+                        "slug": "Matthew-D.-Zeiler",
+                        "structuredName": {
+                            "firstName": "Matthew",
+                            "lastName": "Zeiler",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matthew D. Zeiler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2276554"
+                        ],
+                        "name": "R. Fergus",
+                        "slug": "R.-Fergus",
+                        "structuredName": {
+                            "firstName": "Rob",
+                            "lastName": "Fergus",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Fergus"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 74,
+                                "start": 59
+                            }
+                        ],
+                        "text": "First, its architecture is similar to many existing models [11, 24, 17, 1] (such as the first/second layers and the cascade usage of 3\u00d73 filters), so we believe most observations should be valid on other models."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 92
+                            }
+                        ],
+                        "text": "This paper addresses efficient test-time computation of deep convolutional neural networks (CNNs) [12, 11]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 110
+                            }
+                        ],
+                        "text": "Since the success of CNNs [11] for large-scale image classification, the accuracy of the newly developed CNNs [24, 17, 8, 18, 19] has been continuously improving."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 103
+                            }
+                        ],
+                        "text": "For these reasons and others, it is of practical importance to accelerate the test-time computation of CNNs."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 56,
+                                "start": 52
+                            }
+                        ],
+                        "text": "There have been a few studies on approximating deep CNNs for accelerating test-time evaluation [22, 3, 10]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 62099841,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fc26b9c1afe81e1b20195123fe6f3ced9520abb6",
+            "isKey": true,
+            "numCitedBy": 494,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Visualizing-and-Understanding-Convolutional-Neural-Zeiler-Fergus",
+            "title": {
+                "fragments": [],
+                "text": "Visualizing and Understanding Convolutional Neural Networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "65739159"
+                        ],
+                        "name": "A. Chrz\u0229szczyk",
+                        "slug": "A.-Chrz\u0229szczyk",
+                        "structuredName": {
+                            "firstName": "Andrzej",
+                            "lastName": "Chrz\u0229szczyk",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Chrz\u0229szczyk"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1920259"
+                        ],
+                        "name": "J. Kochanowski",
+                        "slug": "J.-Kochanowski",
+                        "structuredName": {
+                            "firstName": "Janusz",
+                            "lastName": "Kochanowski",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Kochanowski"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 291377,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "444d70e3331b5083b40ef32e49390ef683a65e67",
+            "isKey": false,
+            "numCitedBy": 8504,
+            "numCiting": 5,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Matrix-Computations-Chrz\u0229szczyk-Kochanowski",
+            "title": {
+                "fragments": [],
+                "text": "Matrix Computations"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Encyclopedia of Parallel Computing"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Network in network Rectified linear units improve restricted boltzmann machines"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Modern heuristic techniques for combinatorial problems"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 104
+                            }
+                        ],
+                        "text": "This optimization problem is a Reduced Rank Regression problem [6, 21, 20], and it can be solved by a kind of Generalized Singular Vector Decomposition (GSVD) [6, 21, 20]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Procrustes problems, volume 3"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Procrustes problems, volume 3"
+            },
+            "year": 2004
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 15,
+            "methodology": 17
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 27,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Efficient-and-accurate-approximations-of-nonlinear-Zhang-Zou/b64601d509711468f5d085261d463846f36785b2?sort=total-citations"
+}

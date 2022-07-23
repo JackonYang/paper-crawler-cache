@@ -1,0 +1,4573 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401885963"
+                        ],
+                        "name": "Jonathan Ragan-Kelley",
+                        "slug": "Jonathan-Ragan-Kelley",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Ragan-Kelley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Ragan-Kelley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1801789"
+                        ],
+                        "name": "M. Levoy",
+                        "slug": "M.-Levoy",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Levoy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Levoy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 128,
+                                "start": 124
+                            }
+                        ],
+                        "text": "Our reference comparison is a hand-optimized, manually fused and multithreaded loop nest defined entirely in SSE intrinsics [26]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 163,
+                                "start": 159
+                            }
+                        ],
+                        "text": "Halide is an open-source domain-specific language for the complex image processing pipelines found in modern computational photography and vision applications [26]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 143,
+                                "start": 139
+                            }
+                        ],
+                        "text": "Earlier work on the Halide language included a weaker model of schedules, and required programmers to explicitly specify schedules by hand [26]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 90
+                            }
+                        ],
+                        "text": "We use the Halide DSL to describe image processing pipelines in a simple functional style [26]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9001340,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3e06546182d5a36796a0f48e70151bf1d38e094d",
+            "isKey": false,
+            "numCitedBy": 247,
+            "numCiting": 51,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Using existing programming tools, writing high-performance image processing code requires sacrificing readability, portability, and modularity. We argue that this is a consequence of conflating what computations define the algorithm, with decisions about storage and the order of computation. We refer to these latter two concerns as the schedule, including choices of tiling, fusion, recomputation vs. storage, vectorization, and parallelism. We propose a representation for feed-forward imaging pipelines that separates the algorithm from its schedule, enabling high-performance without sacrificing code clarity. This decoupling simplifies the algorithm specification: images and intermediate buffers become functions over an infinite integer domain, with no explicit storage or boundary conditions. Imaging pipelines are compositions of functions. Programmers separately specify scheduling strategies for the various functions composing the algorithm, which allows them to efficiently explore different optimizations without changing the algorithmic code. We demonstrate the power of this representation by expressing a range of recent image processing applications in an embedded domain specific language called Halide, and compiling them for ARM, x86, and GPUs. Our compiler targets SIMD units, multiple cores, and complex memory hierarchies. We demonstrate that it can handle algorithms such as a camera raw pipeline, the bilateral grid, fast local Laplacian filtering, and image segmentation. The algorithms expressed in our language are both shorter and faster than state-of-the-art implementations."
+            },
+            "slug": "Decoupling-algorithms-from-schedules-for-easy-of-Ragan-Kelley-Adams",
+            "title": {
+                "fragments": [],
+                "text": "Decoupling algorithms from schedules for easy optimization of image processing pipelines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This work proposes a representation for feed-forward imaging pipelines that separates the algorithm from its schedule, enabling high-performance without sacrificing code clarity, and demonstrates the power of this representation by expressing a range of recent image processing applications in an embedded domain specific language called Halide and compiling them for ARM, x86, and GPUs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Graph."
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145854753"
+                        ],
+                        "name": "P. Tseng",
+                        "slug": "P.-Tseng",
+                        "structuredName": {
+                            "firstName": "P.",
+                            "lastName": "Tseng",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Tseng"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 54141060,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "dbf03edddd61e1d0578ee0998306fc1ffec6ef90",
+            "isKey": false,
+            "numCitedBy": 75,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Distributed memory parallel computers provide an attractive approach to high speed computing because their performance can be easily scaled up by increasing the number of processor-memory modules. To use these computers, we have to design parallel algorithms and produce parallel programs. In many cases, parallel algorithm design is a mapping of existing algorithms to parallel architectures. In this thesis, we study such a mapping process and present a parallelizing compiler which can: (1) automate the program mapping, and (2) generate efficient parallel code. \nThere are three key components in our program mapping: data decomposition, loop distribution and data relations. Data decomposition maps data structures to the distributed memory system; loop distribution maps the computation to processors; and data relations determine the interprocessor communication. The compiler applies data flow analysis and data dependence analysis to minimize interprocessor communication overhead and parallelize program execution. \nBased on these ideas, we have implemented the AL parallelizing compiler for the Warp machine. AL is a generic programming language for the prototype implementation. The target machine, Warp, is a programmable linear systolic array of 10 processors. AL has been successfully used to program many applications on Warp. These applications include matrix computations, image processing, finite element analysis, and partial differential equations. The AL compiler is able to generate efficient parallel code. For example, for the LINPACK routines such as LU decomposition, QR decomposition, and singular value decomposition (SVD), the AL compiler generates parallel code which achieves 8-fold speedup on the 10-processor array for small matrices of size 180 x 180. \nThis thesis makes contributions to the research area of parallelizing compilers by introducing a model for mapping programs to distributed memory parallel computers. This thesis also makes contributions to the research area of parallel programming by introducing an approach to programming distributed memory parallel computers."
+            },
+            "slug": "A-parallelizing-compiler-for-distributed-memory-Tseng",
+            "title": {
+                "fragments": [],
+                "text": "A parallelizing compiler for distributed memory parallel computers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This thesis presents a parallelizing compiler which can automate the program mapping, and generate efficient parallel code which achieves 8-fold speedup on the 10-processor array for small matrices of size 180 x 180."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI 1989"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1773260"
+                        ],
+                        "name": "Jason Ansel",
+                        "slug": "Jason-Ansel",
+                        "structuredName": {
+                            "firstName": "Jason",
+                            "lastName": "Ansel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jason Ansel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145287069"
+                        ],
+                        "name": "Cy P. Chan",
+                        "slug": "Cy-P.-Chan",
+                        "structuredName": {
+                            "firstName": "Cy",
+                            "lastName": "Chan",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Cy P. Chan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33301740"
+                        ],
+                        "name": "Y. Wong",
+                        "slug": "Y.-Wong",
+                        "structuredName": {
+                            "firstName": "Yee",
+                            "lastName": "Wong",
+                            "middleNames": [
+                                "Lok"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Wong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37962969"
+                        ],
+                        "name": "Marek Olszewski",
+                        "slug": "Marek-Olszewski",
+                        "structuredName": {
+                            "firstName": "Marek",
+                            "lastName": "Olszewski",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marek Olszewski"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145392101"
+                        ],
+                        "name": "Qin Zhao",
+                        "slug": "Qin-Zhao",
+                        "structuredName": {
+                            "firstName": "Qin",
+                            "lastName": "Zhao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qin Zhao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144397527"
+                        ],
+                        "name": "A. Edelman",
+                        "slug": "A.-Edelman",
+                        "structuredName": {
+                            "firstName": "Alan",
+                            "lastName": "Edelman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Edelman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 42,
+                                "start": 39
+                            }
+                        ],
+                        "text": "out[y][x] = blurx[0] + blurx[1] + blurx[2]"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 173,
+                                "start": 170
+                            }
+                        ],
+                        "text": "Because the search problem has many local minima, we use a genetic algorithm to seek out a plausible approximate solution, inspired by the search procedure in PetaBricks [2]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 58,
+                                "start": 55
+                            }
+                        ],
+                        "text": "This is directly derived from the PetaBricks autotuner [2]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6959721,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "871411f0ea43c5dda953c22a64b7558b91e40bf8",
+            "isKey": false,
+            "numCitedBy": 412,
+            "numCiting": 47,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "It is often impossible to obtain a one-size-fits-all solution for high performance algorithms when considering different choices for data distributions, parallelism, transformations, and blocking. The best solution to these choices is often tightly coupled to different architectures, problem sizes, data, and available system resources. In some cases, completely different algorithms may provide the best performance. Current compiler and programming language techniques are able to change some of these parameters, but today there is no simple way for the programmer to express or the compiler to choose different algorithms to handle different parts of the data. Existing solutions normally can handle only coarse-grained, library level selections or hand coded cutoffs between base cases and recursive cases.\n We present PetaBricks, a new implicitly parallel language and compiler where having multiple implementations of multiple algorithms to solve a problem is the natural way of programming. We make algorithmic choice a first class construct of the language. Choices are provided in a way that also allows our compiler to tune at a finer granularity. The PetaBricks compiler autotunes programs by making both fine-grained as well as algorithmic choices. Choices also include different automatic parallelization techniques, data distributions, algorithmic parameters, transformations, and blocking.\n Additionally, we introduce novel techniques to autotune algorithms for different convergence criteria. When choosing between various direct and iterative methods, the PetaBricks compiler is able to tune a program in such a way that delivers near-optimal efficiency for any desired level of accuracy. The compiler has the flexibility of utilizing different convergence criteria for the various components within a single algorithm, providing the user with accuracy choice alongside algorithmic choice."
+            },
+            "slug": "PetaBricks:-a-language-and-compiler-for-algorithmic-Ansel-Chan",
+            "title": {
+                "fragments": [],
+                "text": "PetaBricks: a language and compiler for algorithmic choice"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "PetaBricks is presented, a new implicitly parallel language and compiler where having multiple implementations of multiple algorithms to solve a problem is the natural way of programming and makes algorithmic choice a first class construct of the language."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '09"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2341914"
+                        ],
+                        "name": "Michael I. Gordon",
+                        "slug": "Michael-I.-Gordon",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Gordon",
+                            "middleNames": [
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael I. Gordon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1718457"
+                        ],
+                        "name": "William Thies",
+                        "slug": "William-Thies",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Thies",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "William Thies"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1739385"
+                        ],
+                        "name": "M. Karczmarek",
+                        "slug": "M.-Karczmarek",
+                        "structuredName": {
+                            "firstName": "Michal",
+                            "lastName": "Karczmarek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Karczmarek"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48208672"
+                        ],
+                        "name": "Jasper Lin",
+                        "slug": "Jasper-Lin",
+                        "structuredName": {
+                            "firstName": "Jasper",
+                            "lastName": "Lin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jasper Lin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2602165"
+                        ],
+                        "name": "Ali S. Meli",
+                        "slug": "Ali-S.-Meli",
+                        "structuredName": {
+                            "firstName": "Ali",
+                            "lastName": "Meli",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ali S. Meli"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32689850"
+                        ],
+                        "name": "Andrew A. Lamb",
+                        "slug": "Andrew-A.-Lamb",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Lamb",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew A. Lamb"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2070611374"
+                        ],
+                        "name": "Chris Leger",
+                        "slug": "Chris-Leger",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Leger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chris Leger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1643893286"
+                        ],
+                        "name": "J.S.S.M. Wong",
+                        "slug": "J.S.S.M.-Wong",
+                        "structuredName": {
+                            "firstName": "J.S.S.M.",
+                            "lastName": "Wong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J.S.S.M. Wong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144704832"
+                        ],
+                        "name": "H. Hoffmann",
+                        "slug": "H.-Hoffmann",
+                        "structuredName": {
+                            "firstName": "Henry",
+                            "lastName": "Hoffmann",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Hoffmann"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144604583"
+                        ],
+                        "name": "David Maze",
+                        "slug": "David-Maze",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Maze",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Maze"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 93,
+                                "start": 82
+                            }
+                        ],
+                        "text": "Graph-structured programs have been studied in the context of streaming languages [4, 11, 29]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 116
+                            }
+                        ],
+                        "text": "Stream Programs Compiler optimization of stream programs was studied extensively in the StreamIt and Brook projects [4, 11, 29]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 110712,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4ce393506dc1e0ddbc65225d2dad24d31d430c90",
+            "isKey": false,
+            "numCitedBy": 370,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "With the increasing miniaturization of transistors, wire delays are becoming a dominant factor in microprocessor performance. To address this issue, a number of emerging architectures contain replicated processing units with software-exposed communication between one unit and another (e.g., Raw, SmartMemories, TRIPS). However, for their use to be widespread, it will be necessary to develop compiler technology that enables a portable, high-level language to execute efficiently across a range of wire-exposed architectures.In this paper, we describe our compiler for StreamIt: a high-level, architecture-independent language for streaming applications. We focus on our backend for the Raw processor. Though StreamIt exposes the parallelism and communication patterns of stream programs, some analysis is needed to adapt a stream program to a software-exposed processor. We describe a partitioning algorithm that employs fission and fusion transformations to adjust the granularity of a stream graph, a layout algorithm that maps a stream graph to a given network topology, and a scheduling strategy that generates a fine-grained static communication pattern for each computational element.We have implemented a fully functional compiler that parallelizes StreamIt applications for Raw, including several load-balancing transformations. Using the cycle-accurate Raw simulator, we demonstrate that the StreamIt compiler can automatically map a high-level stream abstraction to Raw without losing performance. We consider this work to be a first step towards a portable programming model for communication-exposed architectures."
+            },
+            "slug": "A-stream-compiler-for-communication-exposed-Gordon-Thies",
+            "title": {
+                "fragments": [],
+                "text": "A stream compiler for communication-exposed architectures"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This paper describes a fully functional compiler that parallelizes StreamIt applications for Raw, including several load-balancing transformations, and demonstrates that the StreamIt compiler can automatically map a high-level stream abstraction to Raw without losing performance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ASPLOS X"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36758880"
+                        ],
+                        "name": "Jiayuan Meng",
+                        "slug": "Jiayuan-Meng",
+                        "structuredName": {
+                            "firstName": "Jiayuan",
+                            "lastName": "Meng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jiayuan Meng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1735065"
+                        ],
+                        "name": "K. Skadron",
+                        "slug": "K.-Skadron",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Skadron",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Skadron"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 169,
+                                "start": 161
+                            }
+                        ],
+                        "text": "(In the iterated stencil computation literature, the redundant regions are often called \u201cghost zones,\u201d and this strategy is sometimes called \u201coverlapped tiling\u201d [17, 31]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15277889,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "62b836eaa8cb1f5246e101ec0b28329025f5a76f",
+            "isKey": false,
+            "numCitedBy": 46,
+            "numCiting": 46,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Iterative stencil loops (ISLs) are used in many applications and tiling is a well-known technique to localize their computation. When ISLs are tiled across a parallel architecture, there are usually halo regions that need to be updated and exchanged among different processing elements (PEs). In addition, synchronization is often used to signal the completion of halo exchanges. Both communication and synchronization may incur significant overhead on parallel architectures with shared memory. This is especially true in the case of graphics processors (GPUs), which do not preserve the state of the per-core L1 storage across global synchronizations. To reduce these overheads, ghost zones can be created to replicate stencil operations, reducing communication and synchronization costs at the expense of redundantly computing some values on multiple PEs. However, the selection of the optimal ghost zone size depends on the characteristics of both the architecture and the application, and it has only been studied for message-passing systems in distributed environments. To automate this process on shared memory systems, we establish a performance model using NVIDIA\u2019s Tesla architecture as a case study and propose a framework that uses the performance model to automatically select the ghost zone size that performs best and generate appropriate code. The modeling is validated by four diverse ISL applications, for which the predicted ghost zone configurations are able to achieve a speedup no less than 95% of the optimal speedup."
+            },
+            "slug": "A-Performance-Study-for-Iterative-Stencil-Loops-on-Meng-Skadron",
+            "title": {
+                "fragments": [],
+                "text": "A Performance Study for Iterative Stencil Loops on GPUs with Ghost Zone Optimizations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A performance model is established using NVIDIA\u2019s Tesla architecture as a case study and a framework is proposed that uses the performance model to automatically select the ghost zone size that performs best and generate appropriate code to automate this process on shared memory systems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1883512"
+                        ],
+                        "name": "Justin Holewinski",
+                        "slug": "Justin-Holewinski",
+                        "structuredName": {
+                            "firstName": "Justin",
+                            "lastName": "Holewinski",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Justin Holewinski"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1793611"
+                        ],
+                        "name": "L. Pouchet",
+                        "slug": "L.-Pouchet",
+                        "structuredName": {
+                            "firstName": "Louis-No\u00ebl",
+                            "lastName": "Pouchet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Pouchet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145293384"
+                        ],
+                        "name": "P. Sadayappan",
+                        "slug": "P.-Sadayappan",
+                        "structuredName": {
+                            "firstName": "P.",
+                            "lastName": "Sadayappan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Sadayappan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 141,
+                                "start": 133
+                            }
+                        ],
+                        "text": "Past compilers have automatically synthesized parallel loop nests with overlapped tiling on CPUs and GPUs using the polyhedral model [13, 16]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15462468,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3087eeb39c88b1fc9bdc72812930451fc98cedec",
+            "isKey": false,
+            "numCitedBy": 231,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Stencil computations arise in many scientific computing domains, and often represent time-critical portions of applications. There is significant interest in offloading these computations to high-performance devices such as GPU accelerators, but these architectures offer challenges for developers and compilers alike. Stencil computations in particular require careful attention to off-chip memory access and the balancing of work among compute units in GPU devices.\n In this paper, we present a code generation scheme for stencil computations on GPU accelerators, which optimizes the code by trading an increase in the computational workload for a decrease in the required global memory bandwidth. We develop compiler algorithms for automatic generation of efficient, time-tiled stencil code for GPU accelerators from a high-level description of the stencil operation. We show that the code generation scheme can achieve high performance on a range of GPU architectures, including both nVidia and AMD devices."
+            },
+            "slug": "High-performance-code-generation-for-stencil-on-GPU-Holewinski-Pouchet",
+            "title": {
+                "fragments": [],
+                "text": "High-performance code generation for stencil computations on GPU architectures"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "This paper develops compiler algorithms for automatic generation of efficient, time-tiled stencil code for GPU accelerators from a high-level description of the stencil operation, and shows that the code generation scheme can achieve high performance on a range of GPU architectures, including both nVidia and AMD devices."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICS '12"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144497869"
+                        ],
+                        "name": "S. Krishnamoorthy",
+                        "slug": "S.-Krishnamoorthy",
+                        "structuredName": {
+                            "firstName": "Sriram",
+                            "lastName": "Krishnamoorthy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Krishnamoorthy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47800062"
+                        ],
+                        "name": "M. Baskaran",
+                        "slug": "M.-Baskaran",
+                        "structuredName": {
+                            "firstName": "Muthu",
+                            "lastName": "Baskaran",
+                            "middleNames": [
+                                "Manikandan"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Baskaran"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751936"
+                        ],
+                        "name": "Uday Bondhugula",
+                        "slug": "Uday-Bondhugula",
+                        "structuredName": {
+                            "firstName": "Uday",
+                            "lastName": "Bondhugula",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Uday Bondhugula"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145981817"
+                        ],
+                        "name": "J. Ramanujam",
+                        "slug": "J.-Ramanujam",
+                        "structuredName": {
+                            "firstName": "J.",
+                            "lastName": "Ramanujam",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Ramanujam"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1793925"
+                        ],
+                        "name": "A. Rountev",
+                        "slug": "A.-Rountev",
+                        "structuredName": {
+                            "firstName": "Atanas",
+                            "lastName": "Rountev",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Rountev"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145293384"
+                        ],
+                        "name": "P. Sadayappan",
+                        "slug": "P.-Sadayappan",
+                        "structuredName": {
+                            "firstName": "P.",
+                            "lastName": "Sadayappan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Sadayappan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 198,
+                                "start": 194
+                            }
+                        ],
+                        "text": "Image processing pipelines are everywhere, and are essential to capturing, analyzing, mining, and rendering the rivers of visual information gathered by our countless cameras and imaging-based sensors."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 900262,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1bec73cbc0ffb8eb32d6da63895f5319b7409386",
+            "isKey": false,
+            "numCitedBy": 221,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Performance optimization of stencil computations has been widely studied in the literature, since they occur in many computationally intensive scientific and engineering applications. Compiler frameworks have also been developed that can transform sequential stencil codes for optimization of data locality and parallelism. However, loop skewing is typically required in order to tile stencil codes along the time dimension, resulting in load imbalance in pipelined parallel execution of the tiles. In this paper, we develop an approach for automatic parallelization of stencil codes, that explicitly addresses the issue of load-balanced execution of tiles. Experimental results are provided that demonstrate the effectiveness of the approach."
+            },
+            "slug": "Effective-automatic-parallelization-of-stencil-Krishnamoorthy-Baskaran",
+            "title": {
+                "fragments": [],
+                "text": "Effective automatic parallelization of stencil computations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper develops an approach for automatic parallelization of stencil codes, that explicitly addresses the issue of load-balanced execution of tiles, and demonstrates the effectiveness of the approach."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '07"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153737678"
+                        ],
+                        "name": "Yuan Tang",
+                        "slug": "Yuan-Tang",
+                        "structuredName": {
+                            "firstName": "Yuan",
+                            "lastName": "Tang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yuan Tang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7536938"
+                        ],
+                        "name": "R. Chowdhury",
+                        "slug": "R.-Chowdhury",
+                        "structuredName": {
+                            "firstName": "Rezaul",
+                            "lastName": "Chowdhury",
+                            "middleNames": [
+                                "Alam"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Chowdhury"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1871661"
+                        ],
+                        "name": "Bradley C. Kuszmaul",
+                        "slug": "Bradley-C.-Kuszmaul",
+                        "structuredName": {
+                            "firstName": "Bradley",
+                            "lastName": "Kuszmaul",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bradley C. Kuszmaul"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144655364"
+                        ],
+                        "name": "C. Luk",
+                        "slug": "C.-Luk",
+                        "structuredName": {
+                            "firstName": "C.",
+                            "lastName": "Luk",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Luk"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145372049"
+                        ],
+                        "name": "C. Leiserson",
+                        "slug": "C.-Leiserson",
+                        "structuredName": {
+                            "firstName": "Charles",
+                            "lastName": "Leiserson",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Leiserson"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 143,
+                                "start": 139
+                            }
+                        ],
+                        "text": "The Pochoir compiler automatically transforms stencil codes from serial form into a parallel cache oblivious form using similar algorithms [28]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5880214,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e1ef06c2662a78dd2d885fb375b549dc4f01c9ba",
+            "isKey": false,
+            "numCitedBy": 336,
+            "numCiting": 55,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A stencil computation repeatedly updates each point of a d-dimensional grid as a function of itself and its near neighbors. Parallel cache-efficient stencil algorithms based on \"trapezoidal decompositions\" are known, but most programmers find them difficult to write. The Pochoir stencil compiler allows a programmer to write a simple specification of a stencil in a domain-specific stencil language embedded in C++ which the Pochoir compiler then translates into high-performing Cilk code that employs an efficient parallel cache-oblivious algorithm. Pochoir supports general d-dimensional stencils and handles both periodic and aperiodic boundary conditions in one unified algorithm. The Pochoir system provides a C++ template library that allows the user's stencil specification to be executed directly in C++ without the Pochoir compiler (albeit more slowly), which simplifies user debugging and greatly simplified the implementation of the Pochoir compiler itself. A host of stencil benchmarks run on a modern multicore machine demonstrates that Pochoir outperforms standard parallelloop implementations, typically running 2-10 times faster. The algorithm behind Pochoir improves on prior cache-efficient algorithms on multidimensional grids by making \"hyperspace\" cuts, which yield asymptotically more parallelism for the same cache efficiency."
+            },
+            "slug": "The-pochoir-stencil-compiler-Tang-Chowdhury",
+            "title": {
+                "fragments": [],
+                "text": "The pochoir stencil compiler"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "The Pochoir stencil compiler allows a programmer to write a simple specification of a stencil in a domain-specific stencil language embedded in C++ which the Pochir compiler then translates into high-performing Cilk code that employs an efficient parallel cache-oblivious algorithm."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SPAA '11"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145683292"
+                        ],
+                        "name": "S. Kamil",
+                        "slug": "S.-Kamil",
+                        "structuredName": {
+                            "firstName": "Shoaib",
+                            "lastName": "Kamil",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Kamil"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145287069"
+                        ],
+                        "name": "Cy P. Chan",
+                        "slug": "Cy-P.-Chan",
+                        "structuredName": {
+                            "firstName": "Cy",
+                            "lastName": "Chan",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Cy P. Chan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1757847"
+                        ],
+                        "name": "L. Oliker",
+                        "slug": "L.-Oliker",
+                        "structuredName": {
+                            "firstName": "Leonid",
+                            "lastName": "Oliker",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Oliker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746446"
+                        ],
+                        "name": "J. Shalf",
+                        "slug": "J.-Shalf",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Shalf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Shalf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145117071"
+                        ],
+                        "name": "Samuel Williams",
+                        "slug": "Samuel-Williams",
+                        "structuredName": {
+                            "firstName": "Samuel",
+                            "lastName": "Williams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Samuel Williams"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 180,
+                                "start": 176
+                            }
+                        ],
+                        "text": "Autotuning has also been applied to iterated stencil computations, but past tuning work has focussed on exhaustive search of small parameter spaces for one or a few strategies [15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10088651,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7b1928d4a3a141998a04290a52522062b666559f",
+            "isKey": false,
+            "numCitedBy": 233,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Although stencil auto-tuning has shown tremendous potential in effectively utilizing architectural resources, it has hitherto been limited to single kernel instantiations; in addition, the large variety of stencil kernels used in practice makes this computation pattern difficult to assemble into a library. This work presents a stencil auto-tuning framework that significantly advances programmer productivity by automatically converting a straightforward sequential Fortran 95 stencil expression into tuned parallel implementations in Fortran, C, or CUDA, thus allowing performance portability across diverse computer architectures, including the AMD Barcelona, Intel Nehalem, Sun Victoria Falls, and the latest NVIDIA GPUs. Results show that our generalized methodology delivers significant performance gains of up to 22\u00d7 speedup over the reference serial implementation. Overall we demonstrate that such domain-specific auto-tuners hold enormous promise for architectural efficiency, programmer productivity, performance portability, and algorithmic adaptability on existing and emerging multicore systems."
+            },
+            "slug": "An-auto-tuning-framework-for-parallel-multicore-Kamil-Chan",
+            "title": {
+                "fragments": [],
+                "text": "An auto-tuning framework for parallel multicore stencil computations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work presents a stencil auto-tuning framework that significantly advances programmer productivity by automatically converting a straightforward sequential Fortran 95 stencil expression into tuned parallel implementations in Fortran, C, or CUDA, thus allowing performance portability across diverse computer architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2010 IEEE International Symposium on Parallel & Distributed Processing (IPDPS)"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32661398"
+                        ],
+                        "name": "A. Nguyen",
+                        "slug": "A.-Nguyen",
+                        "structuredName": {
+                            "firstName": "Anthony",
+                            "lastName": "Nguyen",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Nguyen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143758120"
+                        ],
+                        "name": "N. Satish",
+                        "slug": "N.-Satish",
+                        "structuredName": {
+                            "firstName": "Nadathur",
+                            "lastName": "Satish",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Satish"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1727275"
+                        ],
+                        "name": "J. Chhugani",
+                        "slug": "J.-Chhugani",
+                        "structuredName": {
+                            "firstName": "Jatin",
+                            "lastName": "Chhugani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Chhugani"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7297702"
+                        ],
+                        "name": "Changkyu Kim",
+                        "slug": "Changkyu-Kim",
+                        "structuredName": {
+                            "firstName": "Changkyu",
+                            "lastName": "Kim",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Changkyu Kim"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145126868"
+                        ],
+                        "name": "P. Dubey",
+                        "slug": "P.-Dubey",
+                        "structuredName": {
+                            "firstName": "Pradeep",
+                            "lastName": "Dubey",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Dubey"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 248,
+                                "start": 236
+                            }
+                        ],
+                        "text": "These tradeoffs exist in scheduling individual iterated stencil computations in scientific applications, and the complexity of the choice space is reflected by the many different tiling and scheduling strategies introduced in past work [10, 16, 19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 201,
+                                "start": 189
+                            }
+                        ],
+                        "text": "Stencils have been well studied in scientific applications in the form of iterated stencil computations, where one or a few small stencils are applied to the same grid over many iterations [10, 16, 19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 103
+                            }
+                        ],
+                        "text": "Other tiling strategies represent different points in the tradeoff space modeled by our representation [19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5676824,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "def34f422d6930bd23d5c58de78be98804e44e97",
+            "isKey": true,
+            "numCitedBy": 280,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Stencil computation sweeps over a spatial grid over multiple time steps to perform nearest-neighbor computations. The bandwidth-to-compute requirement for a large class of stencil kernels is very high, and their performance is bound by the available memory bandwidth. Since memory bandwidth grows slower than compute, the performance of stencil kernels will not scale with increasing compute density. We present a novel 3.5D-blocking algorithm that performs 2.5D-spatial and temporal blocking of the input grid into on-chip memory for both CPUs and GPUs. The resultant algorithm is amenable to both thread- level and data-level parallelism, and scales near-linearly with the SIMD width and multiple-cores. Our performance numbers are faster or comparable to state-of-the-art-stencil implementations on CPUs and GPUs. Our implementation of 7-point-stencil is 1.5X-faster on CPUs, and 1.8X faster on GPUs for single- precision floating point inputs than previously reported numbers. For Lattice Boltzmann methods, the corresponding speedup number on CPUs is 2.1X."
+            },
+            "slug": "3.5-D-Blocking-Optimization-for-Stencil-on-Modern-Nguyen-Satish",
+            "title": {
+                "fragments": [],
+                "text": "3.5-D Blocking Optimization for Stencil Computations on Modern CPUs and GPUs"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2010 ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2789576"
+                        ],
+                        "name": "Kayvon Fatahalian",
+                        "slug": "Kayvon-Fatahalian",
+                        "structuredName": {
+                            "firstName": "Kayvon",
+                            "lastName": "Fatahalian",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kayvon Fatahalian"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144353929"
+                        ],
+                        "name": "D. Horn",
+                        "slug": "D.-Horn",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Horn",
+                            "middleNames": [
+                                "Reiter"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Horn"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33524821"
+                        ],
+                        "name": "T. Knight",
+                        "slug": "T.-Knight",
+                        "structuredName": {
+                            "firstName": "Timothy",
+                            "lastName": "Knight",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Knight"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3076242"
+                        ],
+                        "name": "L. Leem",
+                        "slug": "L.-Leem",
+                        "structuredName": {
+                            "firstName": "Larkhoon",
+                            "lastName": "Leem",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Leem"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "21387495"
+                        ],
+                        "name": "M. Houston",
+                        "slug": "M.-Houston",
+                        "structuredName": {
+                            "firstName": "Mike",
+                            "lastName": "Houston",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Houston"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116022755"
+                        ],
+                        "name": "Ji Young Park",
+                        "slug": "Ji-Young-Park",
+                        "structuredName": {
+                            "firstName": "Ji",
+                            "lastName": "Park",
+                            "middleNames": [
+                                "Young"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ji Young Park"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143676711"
+                        ],
+                        "name": "M. Erez",
+                        "slug": "M.-Erez",
+                        "structuredName": {
+                            "firstName": "Mattan",
+                            "lastName": "Erez",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Erez"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50768112"
+                        ],
+                        "name": "Manman Ren",
+                        "slug": "Manman-Ren",
+                        "structuredName": {
+                            "firstName": "Manman",
+                            "lastName": "Ren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Manman Ren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "80724002"
+                        ],
+                        "name": "W. Dally",
+                        "slug": "W.-Dally",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Dally",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Dally"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144872229"
+                        ],
+                        "name": "P. Hanrahan",
+                        "slug": "P.-Hanrahan",
+                        "structuredName": {
+                            "firstName": "Pat",
+                            "lastName": "Hanrahan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Hanrahan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 203,
+                                "start": 196
+                            }
+                        ],
+                        "text": "Split Compilers Sequoia\u2019s \u201cmappings\u201d and SPIRAL\u2019s loop synthesis algebra echo our separation of the model of scheduling from the description of the algorithm, and its lifting outside our compiler [9, 25]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8396510,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0ac7e127033f1534bb2042461c653784dcf29b55",
+            "isKey": false,
+            "numCitedBy": 394,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present Sequoia, a programming language designed to facilitate the development of memory hierarchy aware parallel programs that remain portable across modern machines featuring different memory hierarchy configurations. Sequoia abstractly exposes hierarchical memory in the programming model and provides language mechanisms to describe communication vertically through the machine and to localize computation to particular memory locations within it. We have implemented a complete programming system, including a compiler and runtime systems for cell processor-based blade systems and distributed memory clusters, and demonstrate efficient performance running Sequoia programs on both of these platforms"
+            },
+            "slug": "Sequoia:-Programming-the-Memory-Hierarchy-Fatahalian-Horn",
+            "title": {
+                "fragments": [],
+                "text": "Sequoia: Programming the Memory Hierarchy"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work has implemented a complete programming system, including a compiler and runtime systems for cell processor-based blade systems and distributed memory clusters, and demonstrates efficient performance running Sequoia programs on both of these platforms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM/IEEE SC 2006 Conference (SC'06)"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1690697"
+                        ],
+                        "name": "Markus P\u00fcschel",
+                        "slug": "Markus-P\u00fcschel",
+                        "structuredName": {
+                            "firstName": "Markus",
+                            "lastName": "P\u00fcschel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Markus P\u00fcschel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144915495"
+                        ],
+                        "name": "Jos\u00e9 M. F. Moura",
+                        "slug": "Jos\u00e9-M.-F.-Moura",
+                        "structuredName": {
+                            "firstName": "Jos\u00e9",
+                            "lastName": "Moura",
+                            "middleNames": [
+                                "M.",
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jos\u00e9 M. F. Moura"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33888389"
+                        ],
+                        "name": "Jeremy R. Johnson",
+                        "slug": "Jeremy-R.-Johnson",
+                        "structuredName": {
+                            "firstName": "Jeremy",
+                            "lastName": "Johnson",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jeremy R. Johnson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1729097"
+                        ],
+                        "name": "D. Padua",
+                        "slug": "D.-Padua",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Padua",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Padua"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1956361"
+                        ],
+                        "name": "M. Veloso",
+                        "slug": "M.-Veloso",
+                        "structuredName": {
+                            "firstName": "Manuela",
+                            "lastName": "Veloso",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Veloso"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47525853"
+                        ],
+                        "name": "Bryan Singer",
+                        "slug": "Bryan-Singer",
+                        "structuredName": {
+                            "firstName": "Bryan",
+                            "lastName": "Singer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bryan Singer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2819266"
+                        ],
+                        "name": "Jianxin Xiong",
+                        "slug": "Jianxin-Xiong",
+                        "structuredName": {
+                            "firstName": "Jianxin",
+                            "lastName": "Xiong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jianxin Xiong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1803350"
+                        ],
+                        "name": "F. Franchetti",
+                        "slug": "F.-Franchetti",
+                        "structuredName": {
+                            "firstName": "Franz",
+                            "lastName": "Franchetti",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Franchetti"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1815451"
+                        ],
+                        "name": "A. Gacic",
+                        "slug": "A.-Gacic",
+                        "structuredName": {
+                            "firstName": "Aca",
+                            "lastName": "Gacic",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Gacic"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2637756"
+                        ],
+                        "name": "Y. Voronenko",
+                        "slug": "Y.-Voronenko",
+                        "structuredName": {
+                            "firstName": "Yevgen",
+                            "lastName": "Voronenko",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Voronenko"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1680073"
+                        ],
+                        "name": "Kang Chen",
+                        "slug": "Kang-Chen",
+                        "structuredName": {
+                            "firstName": "Kang",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kang Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2111257581"
+                        ],
+                        "name": "Robert W. Johnson",
+                        "slug": "Robert-W.-Johnson",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Johnson",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Robert W. Johnson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2265224"
+                        ],
+                        "name": "Nicholas Rizzolo",
+                        "slug": "Nicholas-Rizzolo",
+                        "structuredName": {
+                            "firstName": "Nicholas",
+                            "lastName": "Rizzolo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicholas Rizzolo"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 203,
+                                "start": 196
+                            }
+                        ],
+                        "text": "Split Compilers Sequoia\u2019s \u201cmappings\u201d and SPIRAL\u2019s loop synthesis algebra echo our separation of the model of scheduling from the description of the algorithm, and its lifting outside our compiler [9, 25]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12427750,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0221bee380311d75ffcc11fd66be7d5cf632f636",
+            "isKey": false,
+            "numCitedBy": 867,
+            "numCiting": 126,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Fast changing, increasingly complex, and diverse computing platforms pose central problems in scientific computing: How to achieve, with reasonable effort, portable optimal performance? We present SPIRAL, which considers this problem for the performance-critical domain of linear digital signal processing (DSP) transforms. For a specified transform, SPIRAL automatically generates high-performance code that is tuned to the given platform. SPIRAL formulates the tuning as an optimization problem and exploits the domain-specific mathematical structure of transform algorithms to implement a feedback-driven optimizer. Similar to a human expert, for a specified transform, SPIRAL \"intelligently\" generates and explores algorithmic and implementation choices to find the best match to the computer's microarchitecture. The \"intelligence\" is provided by search and learning techniques that exploit the structure of the algorithm and implementation space to guide the exploration and optimization. SPIRAL generates high-performance code for a broad set of DSP transforms, including the discrete Fourier transform, other trigonometric transforms, filter transforms, and discrete wavelet transforms. Experimental results show that the code generated by SPIRAL competes with, and sometimes outperforms, the best available human tuned transform library code."
+            },
+            "slug": "SPIRAL:-Code-Generation-for-DSP-Transforms-P\u00fcschel-Moura",
+            "title": {
+                "fragments": [],
+                "text": "SPIRAL: Code Generation for DSP Transforms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "SPIRAL generates high-performance code for a broad set of DSP transforms, including the discrete Fourier transform, other trigonometric transforms, filter transforms, and discrete wavelet transforms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the IEEE"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144437216"
+                        ],
+                        "name": "I. Buck",
+                        "slug": "I.-Buck",
+                        "structuredName": {
+                            "firstName": "Ian",
+                            "lastName": "Buck",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. Buck"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143882867"
+                        ],
+                        "name": "T. Foley",
+                        "slug": "T.-Foley",
+                        "structuredName": {
+                            "firstName": "Tim",
+                            "lastName": "Foley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Foley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144353929"
+                        ],
+                        "name": "D. Horn",
+                        "slug": "D.-Horn",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Horn",
+                            "middleNames": [
+                                "Reiter"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Horn"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3200943"
+                        ],
+                        "name": "J. Sugerman",
+                        "slug": "J.-Sugerman",
+                        "structuredName": {
+                            "firstName": "Jeremy",
+                            "lastName": "Sugerman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Sugerman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2789576"
+                        ],
+                        "name": "Kayvon Fatahalian",
+                        "slug": "Kayvon-Fatahalian",
+                        "structuredName": {
+                            "firstName": "Kayvon",
+                            "lastName": "Fatahalian",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kayvon Fatahalian"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "21387495"
+                        ],
+                        "name": "M. Houston",
+                        "slug": "M.-Houston",
+                        "structuredName": {
+                            "firstName": "Mike",
+                            "lastName": "Houston",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Houston"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144872229"
+                        ],
+                        "name": "P. Hanrahan",
+                        "slug": "P.-Hanrahan",
+                        "structuredName": {
+                            "firstName": "Pat",
+                            "lastName": "Hanrahan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Hanrahan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 93,
+                                "start": 82
+                            }
+                        ],
+                        "text": "Graph-structured programs have been studied in the context of streaming languages [4, 11, 29]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 116
+                            }
+                        ],
+                        "text": "Stream Programs Compiler optimization of stream programs was studied extensively in the StreamIt and Brook projects [4, 11, 29]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5650649,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b5aa2c16c495e44a3a69e246e17eb155a0e9acc4",
+            "isKey": false,
+            "numCitedBy": 859,
+            "numCiting": 72,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, we present Brook for GPUs, a system for general-purpose computation on programmable graphics hardware. Brook extends C to include simple data-parallel constructs, enabling the use of the GPU as a streaming co-processor. We present a compiler and runtime system that abstracts and virtualizes many aspects of graphics hardware. In addition, we present an analysis of the effectiveness of the GPU as a compute engine compared to the CPU, to determine when the GPU can outperform the CPU for a particular algorithm. We evaluate our system with five applications, the SAXPY and SGEMV BLAS operators, image segmentation, FFT, and ray tracing. For these applications, we demonstrate that our Brook implementations perform comparably to hand-written GPU code and up to seven times faster than their CPU counterparts."
+            },
+            "slug": "Brook-for-GPUs:-stream-computing-on-graphics-Buck-Foley",
+            "title": {
+                "fragments": [],
+                "text": "Brook for GPUs: stream computing on graphics hardware"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 66,
+                "text": "This paper presents Brook for GPUs, a system for general-purpose computation on programmable graphics hardware that abstracts and virtualizes many aspects of graphics hardware, and presents an analysis of the effectiveness of the GPU as a compute engine compared to the CPU."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Graph."
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2974104"
+                        ],
+                        "name": "Jay L. T. Cornwall",
+                        "slug": "Jay-L.-T.-Cornwall",
+                        "structuredName": {
+                            "firstName": "Jay",
+                            "lastName": "Cornwall",
+                            "middleNames": [
+                                "L.",
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jay L. T. Cornwall"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38503116"
+                        ],
+                        "name": "Lee W. Howes",
+                        "slug": "Lee-W.-Howes",
+                        "structuredName": {
+                            "firstName": "Lee",
+                            "lastName": "Howes",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lee W. Howes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144676513"
+                        ],
+                        "name": "P. Kelly",
+                        "slug": "P.-Kelly",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Kelly",
+                            "middleNames": [
+                                "H.",
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Kelly"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2819848"
+                        ],
+                        "name": "Phil Parsonage",
+                        "slug": "Phil-Parsonage",
+                        "structuredName": {
+                            "firstName": "Phil",
+                            "lastName": "Parsonage",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Phil Parsonage"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "15148414"
+                        ],
+                        "name": "Bruno Nicoletti",
+                        "slug": "Bruno-Nicoletti",
+                        "structuredName": {
+                            "firstName": "Bruno",
+                            "lastName": "Nicoletti",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bruno Nicoletti"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 79,
+                                "start": 76
+                            }
+                        ],
+                        "text": "GPU code generation for image processing code using polyhedral optimization [7]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11894641,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "766029c400becba364ea17d60354d1501c69ae90",
+            "isKey": false,
+            "numCitedBy": 13,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "SIMT (Single-Instruction Multiple-Thread) is an emerging programming paradigm for high-performance computational accelerators, pioneered in current and next generation GPUs and hybrid CPUs. We present a domain-specific active-library supported approach to SIMT code generation and optimisation in the field of visual effects. Our approach uses high-level metadata and runtime context to guide and to ensure the correctness of optimisation-driven code transformations and to implement runtime-context-sensitive optimisations. Our advanced optimisations require no analysis of the original C++ kernel code and deliver 1.3x to 6.6x speedups over syntax-directed translation on GeForce 8800 GTX and GTX 260 GPUs with two commercial visual effects."
+            },
+            "slug": "High-performance-SIMT-code-generation-in-an-active-Cornwall-Howes",
+            "title": {
+                "fragments": [],
+                "text": "High-performance SIMT code generation in an active visual effects library"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This work presents a domain-specific active-library supported approach to SIMT code generation and optimisation in the field of visual effects, which uses high-level metadata and runtime context to guide and to ensure the correctness of optimisation-driven code transformations and to implement runtime-context-sensitive optimisations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CF '09"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1718457"
+                        ],
+                        "name": "William Thies",
+                        "slug": "William-Thies",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Thies",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "William Thies"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1739385"
+                        ],
+                        "name": "M. Karczmarek",
+                        "slug": "M.-Karczmarek",
+                        "structuredName": {
+                            "firstName": "Michal",
+                            "lastName": "Karczmarek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Karczmarek"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 93,
+                                "start": 82
+                            }
+                        ],
+                        "text": "Graph-structured programs have been studied in the context of streaming languages [4, 11, 29]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 116
+                            }
+                        ],
+                        "text": "Stream Programs Compiler optimization of stream programs was studied extensively in the StreamIt and Brook projects [4, 11, 29]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5108408,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "553fdbe4c82296cc0a2db2731f252fbb434fe22d",
+            "isKey": false,
+            "numCitedBy": 1259,
+            "numCiting": 64,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We characterize high-performance streaming applications as a new and distinct domain of programs that is becoming increasingly important. The StreamIt language provides novel high-level representations to improve programmer productivity and program robustness within the streaming domain. At the same time, the StreamIt compiler aims to improve the performance of streaming applications via stream-specific analyses and optimizations. In this paper, we motivate, describe and justify the language features of StreamIt, which include: a structured model of streams, a messaging system for control, a re-initialization mechanism, and a natural textual syntax."
+            },
+            "slug": "StreamIt:-A-Language-for-Streaming-Applications-Thies-Karczmarek",
+            "title": {
+                "fragments": [],
+                "text": "StreamIt: A Language for Streaming Applications"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 52,
+                "text": "The StreamIt language provides novel high-level representations to improve programmer productivity and program robustness within the streaming domain and the StreamIt compiler aims to improve the performance of streaming applications via stream-specific analyses and optimizations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CC"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2270385"
+                        ],
+                        "name": "H. Printz",
+                        "slug": "H.-Printz",
+                        "structuredName": {
+                            "firstName": "Harry",
+                            "lastName": "Printz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Printz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144153718"
+                        ],
+                        "name": "H. T. Kung",
+                        "slug": "H.-T.-Kung",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "Kung",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. T. Kung"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1866078"
+                        ],
+                        "name": "T. Mummert",
+                        "slug": "T.-Mummert",
+                        "structuredName": {
+                            "firstName": "Todd",
+                            "lastName": "Mummert",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Mummert"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "66519758"
+                        ],
+                        "name": "P. Scherer",
+                        "slug": "P.-Scherer",
+                        "structuredName": {
+                            "firstName": "Paulino",
+                            "lastName": "Scherer",
+                            "middleNames": [
+                                "Jose"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Scherer"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 82
+                            }
+                        ],
+                        "text": "In this framework, sliding window communication implements stencils on 1D streams [12, 24, 30]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 62590912,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6cea5bb27eadb7f95f3ef3838709e4e4dd8f78ea",
+            "isKey": false,
+            "numCitedBy": 74,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Since the spring of 1988, Carnegie Mellon University and the Naval Air Development Center have been working together to implement several large signal processing systems on the Warp parallel computer. In the course of this work, we have developed a prototype of a software tool that can automatically and efficiently map signal processing systems to distributed-memory parallel machines, such as Warp. We have used this tool to produce Warp implementations of small test systems. The automatically generated programs compare favorably with hand-crafted code. We believe this tool will be a significant aid in the creation of high speed signal processing systems. We assume that signal processing systems have the following characteristics: \u2022They can be described by directed graphs of computational tasks; these graphs may contain thousands of task vertices. \u2022 Some tasks can be parallelized in a systolic or data-partitioned manner, while others cannot be parallelized at all. \u2022 The side effects of each task, if any, are limited to changes in local variables. \u2022 Each task has a data-independent execution time bound, which may be expressed as a function of the way it is parallelized, and the number of processors it is mapped to. In this paper we describe techniques to automatically map such systems to Warp-like parallel machines. We identify and address key issues in gracefully combining different parallel programming styles, in allocating processor, memory and communication bandwidth, and in generating and scheduling efficient parallel code. When iWarp, the VLSI version of the Warp machine, becomes available in 1990, we will extend this tool to generate efficient code for very large applications, which may require as many as 3000 iWarp processors, with an aggregate peak performance of 60 gigaflops."
+            },
+            "slug": "Automatic-Mapping-Of-Large-Signal-Processing-To-A-Printz-Kung",
+            "title": {
+                "fragments": [],
+                "text": "Automatic Mapping Of Large Signal Processing Systems To A Parallel Machine"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Optics & Photonics"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48230516"
+                        ],
+                        "name": "Matteo Frigo",
+                        "slug": "Matteo-Frigo",
+                        "structuredName": {
+                            "firstName": "Matteo",
+                            "lastName": "Frigo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matteo Frigo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2267968"
+                        ],
+                        "name": "V. Strumpen",
+                        "slug": "V.-Strumpen",
+                        "structuredName": {
+                            "firstName": "Volker",
+                            "lastName": "Strumpen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Strumpen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 193,
+                                "start": 189
+                            }
+                        ],
+                        "text": "Image processing pipelines are everywhere, and are essential to capturing, analyzing, mining, and rendering the rivers of visual information gathered by our countless cameras and imaging-based sensors."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11226792,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "e6cc17a1e30ab3ede3a47289b4ad1dd994621b33",
+            "isKey": false,
+            "numCitedBy": 184,
+            "numCiting": 6,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a cache oblivious algorithm for stencil computations, which arise for example in finite-difference methods. Our algorithm applies to arbitrary stencils in <i>n</i>-dimensional spaces. On an \"ideal cache\" of size <i>Z</i>, our algorithm saves a factor of \u0398(<i>Z</i><sup>1/<i>n</i></sup>) cache misses compared to a naive algorithm, and it exploits temporal locality optimally throughout the entire memory hierarchy."
+            },
+            "slug": "Cache-oblivious-stencil-computations-Frigo-Strumpen",
+            "title": {
+                "fragments": [],
+                "text": "Cache oblivious stencil computations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 70,
+                "text": "This work presents a cache oblivious algorithm for stencil computations, which arise for example in finite-difference methods, and it exploits temporal locality optimally throughout the entire memory hierarchy."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICS '05"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1705634"
+                        ],
+                        "name": "P. Guernic",
+                        "slug": "P.-Guernic",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Guernic",
+                            "middleNames": [
+                                "Le"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Guernic"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1770186"
+                        ],
+                        "name": "A. Benveniste",
+                        "slug": "A.-Benveniste",
+                        "structuredName": {
+                            "firstName": "Albert",
+                            "lastName": "Benveniste",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Benveniste"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2393959"
+                        ],
+                        "name": "P. Bournai",
+                        "slug": "P.-Bournai",
+                        "structuredName": {
+                            "firstName": "Patricia",
+                            "lastName": "Bournai",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Bournai"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144178034"
+                        ],
+                        "name": "T. Gautier",
+                        "slug": "T.-Gautier",
+                        "structuredName": {
+                            "firstName": "Thierry",
+                            "lastName": "Gautier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Gautier"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 82
+                            }
+                        ],
+                        "text": "In this framework, sliding window communication implements stencils on 1D streams [12, 24, 30]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 39484454,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f167c04cce1e7fe7d8ccb328a91662158a077418",
+            "isKey": false,
+            "numCitedBy": 185,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present the language SIGNAL which is a data flow-oriented real-time, synchronous, side effect-free language suited to the expression and recovery of the parallelism in signal or image processing algorithms. The language is intended to be, at the same time, an executable simulation language, and a specification of a virtual machine implementing the algorithm. The language is semantically sound, and is suitable to perform program transforms-a major requirement when the ultimate goal is an aid to the architecture design."
+            },
+            "slug": "Signal-A-data-flow-oriented-language-for-signal-Guernic-Benveniste",
+            "title": {
+                "fragments": [],
+                "text": "Signal-A data flow-oriented language for signal processing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 94,
+                "text": "The language SIGNAL is presented, which is a data flow-oriented real-time, synchronous, side effect-free language suited to the expression and recovery of the parallelism in signal or image processing algorithms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Acoust. Speech Signal Process."
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2148928685"
+                        ],
+                        "name": "Xing Zhou",
+                        "slug": "Xing-Zhou",
+                        "structuredName": {
+                            "firstName": "Xing",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xing Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32481677"
+                        ],
+                        "name": "J. Giacalone",
+                        "slug": "J.-Giacalone",
+                        "structuredName": {
+                            "firstName": "Jean",
+                            "lastName": "Giacalone",
+                            "middleNames": [
+                                "Pierre"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Giacalone"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3106639"
+                        ],
+                        "name": "M. Garzar\u00e1n",
+                        "slug": "M.-Garzar\u00e1n",
+                        "structuredName": {
+                            "firstName": "Mar\u00eda",
+                            "lastName": "Garzar\u00e1n",
+                            "middleNames": [
+                                "Jes\u00fas"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Garzar\u00e1n"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2094177"
+                        ],
+                        "name": "R. Kuhn",
+                        "slug": "R.-Kuhn",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Kuhn",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Kuhn"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2072724094"
+                        ],
+                        "name": "Yang Ni",
+                        "slug": "Yang-Ni",
+                        "structuredName": {
+                            "firstName": "Yang",
+                            "lastName": "Ni",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yang Ni"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1729097"
+                        ],
+                        "name": "D. Padua",
+                        "slug": "D.-Padua",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Padua",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Padua"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 11902048,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "52d0aff3e4407302dd49123a8f87151bf94fdb52",
+            "isKey": false,
+            "numCitedBy": 65,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper introduces hierarchical overlapped tiling, a transformation that applies loop tiling and fusion to conventional loops. Overlapped tiling is a useful transformation to reduce communication overhead, but it may also generate a significant amount of redundant computation. Hierarchical overlapped tiling performs overlapped tiling hierarchically to balance communication overhead and redundant computation, and thus has the potential to provide better performance.\n In this paper, we describe the hierarchical overlapped tiling optimization and its implementation in an OpenCL compiler. We also evaluate the effectiveness of this optimization using 8 programs that implement different forms of stencil computation. Our results show that hierarchical overlapped tiling achieves an average 37% speedup over traditional tiling on a 32-core workstation."
+            },
+            "slug": "Hierarchical-overlapped-tiling-Zhou-Giacalone",
+            "title": {
+                "fragments": [],
+                "text": "Hierarchical overlapped tiling"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 67,
+                "text": "Hierarchical overlapped tiling is introduced, a transformation that applies loop tiling and fusion to conventional loops and its implementation in an OpenCL compiler is described and evaluated."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CGO '12"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144965099"
+                        ],
+                        "name": "Conal Elliott",
+                        "slug": "Conal-Elliott",
+                        "structuredName": {
+                            "firstName": "Conal",
+                            "lastName": "Elliott",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Conal Elliott"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 176,
+                                "start": 162
+                            }
+                        ],
+                        "text": "Most prior image processing languages and systems have focused on efficient expression of individual kernels, as well as simple fusion in the absence of stencils [6, 8, 23, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 54801877,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "05e9ea2f6382fe7324a838242ec0bcad117c764c",
+            "isKey": false,
+            "numCitedBy": 20,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Software used to produce visual beauty is usually created with imperative programming languages and is typically unbeautiful itself. One fundamental reason for this situation is that these languages reflect the underlying discreteness and sequentiality of the computers that run them. The essential nature of what an image is becomes muddled with details of how to display it on a computer. We can, however, generate beautiful images with beautiful programs, by making a shift of programming paradigm, from doing to being. This claim is illustrated by many examples expressed in Pan, an image synthesis language with a freely available optimizing compiler."
+            },
+            "slug": "Functional-Image-Synthesis-Elliott",
+            "title": {
+                "fragments": [],
+                "text": "Functional Image Synthesis"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "Pan, an image synthesis language with a freely available optimizing compiler, proves that one can generate beautiful images with beautiful programs, by making a shift of programming paradigm, from doing to being."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2330227"
+                        ],
+                        "name": "Michael A. Shantzis",
+                        "slug": "Michael-A.-Shantzis",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Shantzis",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael A. Shantzis"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 176,
+                                "start": 162
+                            }
+                        ],
+                        "text": "Most prior image processing languages and systems have focused on efficient expression of individual kernels, as well as simple fusion in the absence of stencils [6, 8, 23, 27]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1849078,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b9984d1d766d20fff5ea6ce2f06649407ca678b4",
+            "isKey": false,
+            "numCitedBy": 28,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "As common as imaging operations are, the literature contains little about how to build systems for image computation. This paper presents a system which addresses the major issues of image computing. The system includes an algorithm for performing imaging operations which guarantees that we only compute those regions of the image that will affect the result. The paper also discusses several other issues critical when creating a flexible image computing environment and describes solutions for these problems in the context of our model. These issues include how one handles images of any resolution and how one works in arbitrary coordinate systems. It also includes a discussion of the standard memory models, a presentation of a new model, and a discussion of each one's advantages and disadvantages."
+            },
+            "slug": "A-model-for-efficient-and-flexible-image-computing-Shantzis",
+            "title": {
+                "fragments": [],
+                "text": "A model for efficient and flexible image computing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A system which addresses the major issues of image computing is presented, which includes an algorithm for performing imaging operations which guarantees that the authors only compute those regions of the image that will affect the result."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGGRAPH"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145506199"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2059096618"
+                        ],
+                        "name": "David E. Jacobs",
+                        "slug": "David-E.-Jacobs",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Jacobs",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David E. Jacobs"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2889257"
+                        ],
+                        "name": "Jennifer Dolson",
+                        "slug": "Jennifer-Dolson",
+                        "structuredName": {
+                            "firstName": "Jennifer",
+                            "lastName": "Dolson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jennifer Dolson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1717236"
+                        ],
+                        "name": "M. Tico",
+                        "slug": "M.-Tico",
+                        "structuredName": {
+                            "firstName": "Marius",
+                            "lastName": "Tico",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Tico"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1704409"
+                        ],
+                        "name": "K. Pulli",
+                        "slug": "K.-Pulli",
+                        "structuredName": {
+                            "firstName": "Kari",
+                            "lastName": "Pulli",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Pulli"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3129635"
+                        ],
+                        "name": "Eino-Ville Talvala",
+                        "slug": "Eino-Ville-Talvala",
+                        "structuredName": {
+                            "firstName": "Eino-Ville",
+                            "lastName": "Talvala",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eino-Ville Talvala"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2027612"
+                        ],
+                        "name": "B. Ajdin",
+                        "slug": "B.-Ajdin",
+                        "structuredName": {
+                            "firstName": "Boris",
+                            "lastName": "Ajdin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Ajdin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2000950"
+                        ],
+                        "name": "D. Vaquero",
+                        "slug": "D.-Vaquero",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Vaquero",
+                            "middleNames": [
+                                "Andr\u00e9"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Vaquero"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1809190"
+                        ],
+                        "name": "H. Lensch",
+                        "slug": "H.-Lensch",
+                        "structuredName": {
+                            "firstName": "Hendrik",
+                            "lastName": "Lensch",
+                            "middleNames": [
+                                "P.",
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Lensch"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144764327"
+                        ],
+                        "name": "M. Horowitz",
+                        "slug": "M.-Horowitz",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Horowitz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Horowitz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2115277036"
+                        ],
+                        "name": "S. H. Park",
+                        "slug": "S.-H.-Park",
+                        "structuredName": {
+                            "firstName": "Sung",
+                            "lastName": "Park",
+                            "middleNames": [
+                                "Hee"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. H. Park"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1683095"
+                        ],
+                        "name": "N. Gelfand",
+                        "slug": "N.-Gelfand",
+                        "structuredName": {
+                            "firstName": "Natasha",
+                            "lastName": "Gelfand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Gelfand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1969961"
+                        ],
+                        "name": "Jongmin Baek",
+                        "slug": "Jongmin-Baek",
+                        "structuredName": {
+                            "firstName": "Jongmin",
+                            "lastName": "Baek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jongmin Baek"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1752521"
+                        ],
+                        "name": "W. Matusik",
+                        "slug": "W.-Matusik",
+                        "structuredName": {
+                            "firstName": "Wojciech",
+                            "lastName": "Matusik",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Matusik"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1801789"
+                        ],
+                        "name": "M. Levoy",
+                        "slug": "M.-Levoy",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Levoy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Levoy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 138,
+                                "start": 135
+                            }
+                        ],
+                        "text": "It compiles to an implementation which is 1.7\u00d7 faster than the highly optimized expert implementation (roughly 20\u00d7 faster than the clean C++ without IPP and OpenMP)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 130,
+                                "start": 127
+                            }
+                        ],
+                        "text": "The reference comparison is a single carefully tiled and fused loop nest from the Frankencamera, expressed in 306 lines of C++ [1]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 45
+                            }
+                        ],
+                        "text": "The reference implementation is 262 lines of C++, developed at Adobe, and carefully parallelized with OpenMP, and offloading most intensive kernels to tuned assembly routines from Intel Performance Primitives [14, 20]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 99
+                            }
+                        ],
+                        "text": "It is 10\u00d7 faster than an algorithmically identical reference version written by the authors in pure C++, without IPP or OpenMP."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 104,
+                                "start": 101
+                            }
+                        ],
+                        "text": "The CPU reference code is a tuned but clean implementation from the original authors in 122 lines of C++."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 12,
+                                "start": 9
+                            }
+                        ],
+                        "text": "A simple C++ implementation of local Laplacian filters (Fig."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 28
+                            }
+                        ],
+                        "text": "out[y][x] = blurx[0] + blurx[1] + blurx[2]"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 10154698,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5a13b81891828290426e94f74815a8cc88b05645",
+            "isKey": true,
+            "numCitedBy": 100,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Although there has been much interest in computational photography within the research and photography communities, progress has been hampered by the lack of a portable, programmable camera with sufficient image quality and computing power. To address this problem, we have designed and implemented an open architecture and application programming interface (API) for such cameras: the Frankencamera. It consists of a base hardware specification, a software stack based on Linux, and an API for C++. Our architecture permits control and synchronization of the sensor and image processing pipeline at the microsecond timescale, as well as the ability to incorporate and synchronize external hardware like lenses and flashes. This paper specifies our architecture and API, and it describes two reference implementations we have built. Using these implementations, we demonstrate several computational photography applications: high dynamic range (HDR) viewfinding and capture, automated acquisition of extended dynamic range panoramas, foveal imaging, and inertial measurement unit (IMU)-based hand shake detection. Our goal is to standardize the architecture and distribute Frankencameras to researchers and students, as a step toward creating a community of photographer-programmers who develop algorithms, applications, and hardware for computational cameras."
+            },
+            "slug": "The-Frankencamera:-an-experimental-platform-for-Adams-Jacobs",
+            "title": {
+                "fragments": [],
+                "text": "The Frankencamera: an experimental platform for computational photography"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The architecture and API of the Frankencamera are designed and implemented, and two reference implementations are described, which demonstrate several computational photography applications: high dynamic range viewfinding and capture, automated acquisition of extended dynamic range panoramas, foveal imaging, and inertial measurement unit-based hand shake detection."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1979640"
+                        ],
+                        "name": "S. Hasinoff",
+                        "slug": "S.-Hasinoff",
+                        "structuredName": {
+                            "firstName": "Samuel",
+                            "lastName": "Hasinoff",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hasinoff"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1690538"
+                        ],
+                        "name": "J. Kautz",
+                        "slug": "J.-Kautz",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Kautz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Kautz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48582897"
+                        ],
+                        "name": "Mathieu Aubry",
+                        "slug": "Mathieu-Aubry",
+                        "structuredName": {
+                            "firstName": "Mathieu",
+                            "lastName": "Aubry",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mathieu Aubry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 13343711,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "44acd8015f6df86da5025fe7f40c0dba47bc03c3",
+            "isKey": false,
+            "numCitedBy": 12,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Multi-scale manipulations are central to image editing but they are also prone to halos. Achieving artifact-free results requires sophisticated edge-aware techniques and careful parameter tuning. These shortcomings were recently addressed by the local Laplacian filters, which can achieve a broad range of effects using standard Laplacian pyramids. However, these filters are slow to evaluate and their relationship to other approaches is unclear. In this paper, we show that they are closely related to anisotropic diffusion and to bilateral filtering. Our study also leads to a variant of the bilateral filter that produces cleaner edges while retaining its speed. Building upon this result, we describe an acceleration scheme for local Laplacian filters that yields speed-ups on the order of 50\u00d7. Finally, we demonstrate how to use local Laplacian filters to alter the distribution of gradients in an image. We illustrate this property with a robust algorithm for photographic style transfer."
+            },
+            "slug": "Fast-and-Robust-Pyramid-based-Image-Processing-Paris-Hasinoff",
+            "title": {
+                "fragments": [],
+                "text": "Fast and Robust Pyramid-based Image Processing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This paper shows that local Laplacian filters are closely related to anisotropic diffusion and to bilateral filtering, and leads to a variant of the bilateral filter that produces cleaner edges while retaining its speed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1979640"
+                        ],
+                        "name": "S. Hasinoff",
+                        "slug": "S.-Hasinoff",
+                        "structuredName": {
+                            "firstName": "Samuel",
+                            "lastName": "Hasinoff",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hasinoff"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1690538"
+                        ],
+                        "name": "J. Kautz",
+                        "slug": "J.-Kautz",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Kautz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Kautz"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1570311,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f91afeda3f233c8f48fdb84120aecf4b1e45ad55",
+            "isKey": false,
+            "numCitedBy": 231,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The Laplacian pyramid is ubiquitous for decomposing images into multiple scales and is widely used for image analysis. However, because it is constructed with spatially invariant Gaussian kernels, the Laplacian pyramid is widely believed as being unable to represent edges well and as being ill-suited for edge-aware operations such as edge-preserving smoothing and tone mapping. To tackle these tasks, a wealth of alternative techniques and representations have been proposed, e.g., anisotropic diffusion, neighborhood filtering, and specialized wavelet bases. While these methods have demonstrated successful results, they come at the price of additional complexity, often accompanied by higher computational cost or the need to post-process the generated results. In this paper, we show state-of-the-art edge-aware processing using standard Laplacian pyramids. We characterize edges with a simple threshold on pixel values that allows us to differentiate large-scale edges from small-scale details. Building upon this result, we propose a set of image filters to achieve edge-preserving smoothing, detail enhancement, tone mapping, and inverse tone mapping. The advantage of our approach is its simplicity and flexibility, relying only on simple point-wise nonlinearities and small Gaussian convolutions; no optimization or post-processing is required. As we demonstrate, our method produces consistently high-quality results, without degrading edges or introducing halos."
+            },
+            "slug": "Local-Laplacian-filters:-edge-aware-image-with-a-Paris-Hasinoff",
+            "title": {
+                "fragments": [],
+                "text": "Local Laplacian filters: edge-aware image processing with a Laplacian pyramid"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This paper shows state-of-the-art edge-aware processing using standard Laplacian pyramids, and proposes a set of image filters to achieve edge-preserving smoothing, detail enhancement, tone mapping, and inverse tone mapping."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Graph."
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1967685"
+                        ],
+                        "name": "Jiawen Chen",
+                        "slug": "Jiawen-Chen",
+                        "structuredName": {
+                            "firstName": "Jiawen",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jiawen Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 134,
+                                "start": 127
+                            }
+                        ],
+                        "text": "Bilateral grid is an efficient implementation of the bilateral filter, which smoothes an image while preserving its main edges [5, 21]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13028666,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4ef0a1200a1d9e69a291184d5c4c7cffc562135f",
+            "isKey": false,
+            "numCitedBy": 312,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a new data structure---the bilateral grid, that enables fast edge-aware image processing. By working in the bilateral grid, algorithms such as bilateral filtering, edge-aware painting, and local histogram equalization become simple manipulations that are both local and independent. We parallelize our algorithms on modern GPUs to achieve real-time frame rates on high-definition video. We demonstrate our method on a variety of applications such as image editing, transfer of photographic look, and contrast enhancement of medical images."
+            },
+            "slug": "Real-time-edge-aware-image-processing-with-the-grid-Chen-Paris",
+            "title": {
+                "fragments": [],
+                "text": "Real-time edge-aware image processing with the bilateral grid"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 69,
+                "text": "A new data structure---the bilateral grid, that enables fast edge-aware image processing that parallelize the algorithms on modern GPUs to achieve real-time frame rates on high-definition video."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Graph."
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46784982"
+                        ],
+                        "name": "S. Paris",
+                        "slug": "S.-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2796589"
+                        ],
+                        "name": "P. Kornprobst",
+                        "slug": "P.-Kornprobst",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Kornprobst",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Kornprobst"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2914934"
+                        ],
+                        "name": "J. Tumblin",
+                        "slug": "J.-Tumblin",
+                        "structuredName": {
+                            "firstName": "Jack",
+                            "lastName": "Tumblin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Tumblin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 64469565,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d68141f4b1cc0e5efa0e8439039704b7decb9841",
+            "isKey": false,
+            "numCitedBy": 125,
+            "numCiting": 3,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Bilateral filtering is one of the most popular image processing techniques. The bilateral filter is a nonlinear process that can blur an image while respecting strong edges. Its ability to decompose an image into different scales without causing haloes after modification has made it ubiquitous in computational photography applications such as tone mapping, style transfer, relighting, and denoising. Bilateral Filtering: Theory and Applications provides a graphical, intuitive introduction to bilateral filtering, a practical guide for efficient implementation, an overview of its numerous applications, as well as mathematical analysis. This broad and detailed overview covers theoretical and practical issues that will be useful to researchers and software developers."
+            },
+            "slug": "Bilateral-Filtering-Paris-Kornprobst",
+            "title": {
+                "fragments": [],
+                "text": "Bilateral Filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "A graphical, intuitive introduction to bilateral filtering, a practical guide for efficient implementation, an overview of its numerous applications, as well as mathematical analysis."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2796589"
+                        ],
+                        "name": "P. Kornprobst",
+                        "slug": "P.-Kornprobst",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Kornprobst",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Kornprobst"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2914934"
+                        ],
+                        "name": "J. Tumblin",
+                        "slug": "J.-Tumblin",
+                        "structuredName": {
+                            "firstName": "Jack",
+                            "lastName": "Tumblin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Tumblin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143800609"
+                        ],
+                        "name": "B. Curless",
+                        "slug": "B.-Curless",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Curless",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Curless"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1681236"
+                        ],
+                        "name": "L. Gool",
+                        "slug": "L.-Gool",
+                        "structuredName": {
+                            "firstName": "Luc",
+                            "lastName": "Gool",
+                            "middleNames": [
+                                "Van"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Gool"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1717841"
+                        ],
+                        "name": "R. Szeliski",
+                        "slug": "R.-Szeliski",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Szeliski",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Szeliski"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 67417024,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "12b1ce71ff1a73f74b65c6c283204370ba0805ee",
+            "isKey": false,
+            "numCitedBy": 109,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Bilateral-Filtering:-Theory-and-Applications:-and-Paris-Kornprobst",
+            "title": {
+                "fragments": [],
+                "text": "Bilateral Filtering: Theory and Applications: Series: Foundations and Trends\u00ae in Computer Graphics and Vision"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2009
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Adobe PixelBender reference"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Adobe PixelBender reference"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "http://software.intel.com/en-us/articles/intel-ipp"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "http://software.intel.com/en-us/articles/intel-ipp"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Apple CoreImage programming guide"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Apple CoreImage programming guide"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Intel Integrated Performance Primitives"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Intel Integrated Performance Primitives"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 82
+                            }
+                        ],
+                        "text": "In this framework, sliding window communication implements stencils on 1D streams [12, 24, 30]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "A Parallelizing Compiler for Disributed Memory Parallel Computers"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "A Parallelizing Compiler for Disributed Memory Parallel Computers"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Intel Integrated Performance Primitives"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 134,
+                                "start": 127
+                            }
+                        ],
+                        "text": "Bilateral grid is an efficient implementation of the bilateral filter, which smoothes an image while preserving its main edges [5, 21]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Bilateral filtering: Theory and applications"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Foundations and Trends in Computer Graphics and Vision"
+            },
+            "year": 2009
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 14,
+            "methodology": 13
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 34,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Halide:-a-language-and-compiler-for-optimizing-and-Ragan-Kelley-Barnes/4d23db55e6671a82c95dacec33b2967a4b8b677d?sort=total-citations"
+}

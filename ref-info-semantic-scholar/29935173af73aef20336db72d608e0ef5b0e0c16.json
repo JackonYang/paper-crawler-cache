@@ -1,0 +1,4149 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32837403"
+                        ],
+                        "name": "J. Bergstra",
+                        "slug": "J.-Bergstra",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bergstra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bergstra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2292273"
+                        ],
+                        "name": "Daniel Yamins",
+                        "slug": "Daniel-Yamins",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Yamins",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel Yamins"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2042941"
+                        ],
+                        "name": "D. Cox",
+                        "slug": "D.-Cox",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Cox",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Cox"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 268,
+                                "start": 247
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & Ke\u0301gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 527821,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0e652a99761d2664f28f8931fee5b1d6b78c2a82",
+            "isKey": false,
+            "numCitedBy": 45,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many computer vision algorithms depend on a variety of parameter choices and settings that are typically hand-tuned in the course of evaluating the algorithm. While such parameter tuning is often presented as being incidental to the algorithm, correctly setting these parameter choices is frequently critical to evaluating a method's full potential. Compounding matters, these parameters often must be re-tuned when the algorithm is applied to a new problem domain, and the tuning process itself often depends on personal experience and intuition in ways that are hard to describe. Since the performance of a given technique depends on both the fundamental quality of the algorithm and the details of its tuning, it can be difficult to determine whether a given technique is genuinely better, or simply better tuned. \nIn this work, we propose a meta-modeling approach to support automated hyper parameter optimization, with the goal of providing practical tools to replace hand-tuning with a reproducible and unbiased optimization process. Our approach is to expose the underlying expression graph of how a performance metric (e.g. classification accuracy on validation examples) is computed from parameters that govern not only how individual processing steps are applied, but even which processing steps are included. A hyper parameter optimization algorithm transforms this graph into a program for optimizing that performance metric. Our approach yields state of the art results on three disparate computer vision problems: a face-matching verification task (LFW), a face identification task (PubFig83) and an object recognition task (CIFAR-10), using a single algorithm. More broadly, we argue that the formalization of a meta-model supports more objective, reproducible, and quantitative evaluation of computer vision algorithms, and that it can serve as a valuable tool for guiding algorithm development."
+            },
+            "slug": "Making-a-Science-of-Model-Search-Bergstra-Yamins",
+            "title": {
+                "fragments": [],
+                "text": "Making a Science of Model Search"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is argued that the formalization of a meta-model supports more objective, reproducible, and quantitative evaluation of computer vision algorithms, and that it can serve as a valuable tool for guiding algorithm development."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144108062"
+                        ],
+                        "name": "Jasper Snoek",
+                        "slug": "Jasper-Snoek",
+                        "structuredName": {
+                            "firstName": "Jasper",
+                            "lastName": "Snoek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jasper Snoek"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777528"
+                        ],
+                        "name": "H. Larochelle",
+                        "slug": "H.-Larochelle",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "Larochelle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Larochelle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1722180"
+                        ],
+                        "name": "Ryan P. Adams",
+                        "slug": "Ryan-P.-Adams",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "Adams",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan P. Adams"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 103,
+                                "start": 85
+                            }
+                        ],
+                        "text": "All else being equal, configurations that are cheaper to evaluate should be favored (Snoek et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 632197,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2e2089ae76fe914706e6fa90081a79c8fe01611e",
+            "isKey": false,
+            "numCitedBy": 5088,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The use of machine learning algorithms frequently involves careful tuning of learning parameters and model hyperparameters. Unfortunately, this tuning is often a \"black art\" requiring expert experience, rules of thumb, or sometimes brute-force search. There is therefore great appeal for automatic approaches that can optimize the performance of any given learning algorithm to the problem at hand. In this work, we consider this problem through the framework of Bayesian optimization, in which a learning algorithm's generalization performance is modeled as a sample from a Gaussian process (GP). We show that certain choices for the nature of the GP, such as the type of kernel and the treatment of its hyperparameters, can play a crucial role in obtaining a good optimizer that can achieve expertlevel performance. We describe new algorithms that take into account the variable cost (duration) of learning algorithm experiments and that can leverage the presence of multiple cores for parallel experimentation. We show that these proposed algorithms improve on previous automatic procedures and can reach or surpass human expert-level optimization for many algorithms including latent Dirichlet allocation, structured SVMs and convolutional neural networks."
+            },
+            "slug": "Practical-Bayesian-Optimization-of-Machine-Learning-Snoek-Larochelle",
+            "title": {
+                "fragments": [],
+                "text": "Practical Bayesian Optimization of Machine Learning Algorithms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This work describes new algorithms that take into account the variable cost of learning algorithm experiments and that can leverage the presence of multiple cores for parallel experimentation and shows that these proposed algorithms improve on previous automatic procedures and can reach or surpass human expert-level optimization for many algorithms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32837403"
+                        ],
+                        "name": "J. Bergstra",
+                        "slug": "J.-Bergstra",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bergstra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bergstra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2103302"
+                        ],
+                        "name": "R. Bardenet",
+                        "slug": "R.-Bardenet",
+                        "structuredName": {
+                            "firstName": "R\u00e9mi",
+                            "lastName": "Bardenet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Bardenet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143674326"
+                        ],
+                        "name": "B. K\u00e9gl",
+                        "slug": "B.-K\u00e9gl",
+                        "structuredName": {
+                            "firstName": "Bal\u00e1zs",
+                            "lastName": "K\u00e9gl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. K\u00e9gl"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 202,
+                                "start": 181
+                            }
+                        ],
+                        "text": "We evaluate the technique of automatic hyperparameter configuration by comparing two hyperparameter optimization algorithms: random search versus a Tree of Parzen Estimators (TPE) (Bergstra et al., 2011)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 9
+                            }
+                        ],
+                        "text": "Recently Bergstra et al. (2011) suggested an approach to Bayesian optimization based on a model of P (c|y) instead."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 218,
+                                "start": 196
+                            }
+                        ],
+                        "text": "Our search space is configured by a total of 238 hyperparameters \u2013 far too large for brute force search, and an order of magnitude larger in dimensionality than the 32-dimensional space searched by Bergstra et al. (2011)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 34,
+                                "start": 12
+                            }
+                        ],
+                        "text": "Relative to Bergstra et al. (2011) we made two minor modifications to the search algorithm."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11688126,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "03911c85305d42aa2eeb02be82ef6fb7da644dd0",
+            "isKey": false,
+            "numCitedBy": 2516,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Several recent advances to the state of the art in image classification benchmarks have come from better configurations of existing techniques rather than novel approaches to feature learning. Traditionally, hyper-parameter optimization has been the job of humans because they can be very efficient in regimes where only a few trials are possible. Presently, computer clusters and GPU processors make it possible to run more trials and we show that algorithmic approaches can find better results. We present hyper-parameter optimization results on tasks of training neural networks and deep belief networks (DBNs). We optimize hyper-parameters using random search and two new greedy sequential methods based on the expected improvement criterion. Random search has been shown to be sufficiently efficient for learning neural networks for several datasets, but we show it is unreliable for training DBNs. The sequential algorithms are applied to the most difficult DBN learning problems from [1] and find significantly better results than the best previously reported. This work contributes novel techniques for making response surface models P(y|x) in which many elements of hyper-parameter assignment (x) are known to be irrelevant given particular values of other elements."
+            },
+            "slug": "Algorithms-for-Hyper-Parameter-Optimization-Bergstra-Bardenet",
+            "title": {
+                "fragments": [],
+                "text": "Algorithms for Hyper-Parameter Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work contributes novel techniques for making response surface models P(y|x) in which many elements of hyper-parameter assignment (x) are known to be irrelevant given particular values of other elements."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "30017846"
+                        ],
+                        "name": "N. Pinto",
+                        "slug": "N.-Pinto",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Pinto",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Pinto"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3250342"
+                        ],
+                        "name": "D. Doukhan",
+                        "slug": "D.-Doukhan",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Doukhan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Doukhan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1865831"
+                        ],
+                        "name": "J. DiCarlo",
+                        "slug": "J.-DiCarlo",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "DiCarlo",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. DiCarlo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2042941"
+                        ],
+                        "name": "D. Cox",
+                        "slug": "D.-Cox",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Cox",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Cox"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 24,
+                                "start": 5
+                            }
+                        ],
+                        "text": "Like Pinto et al. (2009), we allow for 2-layer and 3-layer sequences of filtering and non-linear spatial pooling."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 85,
+                                "start": 66
+                            }
+                        ],
+                        "text": "This space is a combination of the work of Coates & Ng (2011) and Pinto et al. (2009), and is known to contain parameter settings that achieve the state of the art performance on three data sets (i.e, loss functions): LFW, Pubfig83, and CIFAR-10."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 89,
+                                "start": 70
+                            }
+                        ],
+                        "text": "Relative to Bergstra et al. (2011) we made two minor modifications to the search algorithm."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 92,
+                                "start": 73
+                            }
+                        ],
+                        "text": "The TPE algorithm is an HOA that acts by replacing stochastic nodes in the null description language with ratios of Gaussian Mixture Models (GMM)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 215779860,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Biology"
+            ],
+            "id": "d46fd54609e09bcd135fd28750003185a5ee4125",
+            "isKey": false,
+            "numCitedBy": 254,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "While many models of biological object recognition share a common set of \u201cbroad-stroke\u201d properties, the performance of any one model depends strongly on the choice of parameters in a particular instantiation of that model\u2014e.g., the number of units per layer, the size of pooling kernels, exponents in normalization operations, etc. Since the number of such parameters (explicit or implicit) is typically large and the computational cost of evaluating one particular parameter set is high, the space of possible model instantiations goes largely unexplored. Thus, when a model fails to approach the abilities of biological visual systems, we are left uncertain whether this failure is because we are missing a fundamental idea or because the correct \u201cparts\u201d have not been tuned correctly, assembled at sufficient scale, or provided with enough training. Here, we present a high-throughput approach to the exploration of such parameter sets, leveraging recent advances in stream processing hardware (high-end NVIDIA graphic cards and the PlayStation 3's IBM Cell Processor). In analogy to high-throughput screening approaches in molecular biology and genetics, we explored thousands of potential network architectures and parameter instantiations, screening those that show promising object recognition performance for further analysis. We show that this approach can yield significant, reproducible gains in performance across an array of basic object recognition tasks, consistently outperforming a variety of state-of-the-art purpose-built vision systems from the literature. As the scale of available computational power continues to expand, we argue that this approach has the potential to greatly accelerate progress in both artificial vision and our understanding of the computational underpinning of biological vision."
+            },
+            "slug": "A-High-Throughput-Screening-Approach-to-Discovering-Pinto-Doukhan",
+            "title": {
+                "fragments": [],
+                "text": "A High-Throughput Screening Approach to Discovering Good Forms of Biologically Inspired Visual Representation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This approach can yield significant, reproducible gains in performance across an array of basic object recognition tasks, consistently outperforming a variety of state-of-the-art purpose-built vision systems from the literature."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLoS Comput. Biol."
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144661829"
+                        ],
+                        "name": "F. Hutter",
+                        "slug": "F.-Hutter",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Hutter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Hutter"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 82
+                            }
+                        ],
+                        "text": "Choice nodes make it possible to encode conditional parameters in a search space (Hutter, 2009)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 187,
+                                "start": 175
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & Ke\u0301gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 269,
+                                "start": 174
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & K\u00e9gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 64427497,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "08c4fdd974d874c87ea87faa6b404a7b8eb72c73",
+            "isKey": false,
+            "numCitedBy": 104,
+            "numCiting": 182,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The best-performing algorithms for many hard problems are highly parameterized. Selecting the best heuristics and tuning their parameters for optimal overall performance is often a difficult, tedious, and unsatisfying task. This thesis studies the automation of this important part of algorithm design: the configuration of discrete algorithm components and their continuous parameters to construct an algorithm with desirable empirical performance characteristics. Automated configuration procedures can facilitate algorithm development and be applied on the end user side to optimize performance for new instance types and optimization objectives. The use of such procedures separates high-level cognitive tasks carried out by humans from tedious low-level tasks that can be left to machines. We introduce two alternative algorithm configuration frameworks: iterated local search in parameter configuration space and sequential optimization based on response surface models. To the best of our knowledge, our local search approach is the first that goes beyond local optima. Our model-based search techniques significantly outperform existing techniques and extend them in ways crucial for general algorithm configuration: they can handle categorical parameters, optimization objectives defined across multiple instances, and tens of thousands of data points. We study how many runs to perform for evaluating a parameter configuration and how to set the cutoff time, after which algorithm runs are terminated unsuccessfully. We introduce data-driven approaches for making these choices adaptively, most notably the first general method for adaptively setting the cutoff time. Using our procedures\u2014to the best of our knowledge still the only ones applicable to these complex configuration tasks\u2014we configured state-of-the-art tree search and local search algorithms for SAT, as well as CPLEX, the most widely-used commercial optimization tool for solving mixed integer programs (MIP). In many cases, we achieved improvements of orders of magnitude over the algorithm default, thereby substantially improving the state of the art in solving a broad range of problems, including industrially relevant instances of SAT and MIP. Based on these results, we believe that automated algorithm configuration procedures, such as ours, will play an increasingly crucial role in the design of high-performance algorithms and will be widely used in academia and industry."
+            },
+            "slug": "Automated-configuration-of-algorithms-for-solving-Hutter",
+            "title": {
+                "fragments": [],
+                "text": "Automated configuration of algorithms for solving hard computational problems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This thesis studies the automation of this important part of algorithm design: the configuration of discrete algorithm components and their continuous parameters to construct an algorithm with desirable empirical performance characteristics and introduces data-driven approaches for making these choices adaptively."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144661829"
+                        ],
+                        "name": "F. Hutter",
+                        "slug": "F.-Hutter",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Hutter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Hutter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2470869"
+                        ],
+                        "name": "H. Hoos",
+                        "slug": "H.-Hoos",
+                        "structuredName": {
+                            "firstName": "Holger",
+                            "lastName": "Hoos",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Hoos"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388404060"
+                        ],
+                        "name": "Kevin Leyton-Brown",
+                        "slug": "Kevin-Leyton-Brown",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Leyton-Brown",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin Leyton-Brown"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 245,
+                                "start": 226
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & Ke\u0301gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 25
+                            }
+                        ],
+                        "text": "Algorithms such as SMAC (Hutter et al., 2011) that can represent such interactions might be significantly more effective optimizers than TPE."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 269,
+                                "start": 174
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & K\u00e9gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6944647,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "728744423ff0fb7e327664ed4e6352a95bb6c893",
+            "isKey": false,
+            "numCitedBy": 2055,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "State-of-the-art algorithms for hard computational problems often expose many parameters that can be modified to improve empirical performance. However, manually exploring the resulting combinatorial space of parameter settings is tedious and tends to lead to unsatisfactory outcomes. Recently, automated approaches for solving this algorithm configuration problem have led to substantial improvements in the state of the art for solving various problems. One promising approach constructs explicit regression models to describe the dependence of target algorithm performance on parameter settings; however, this approach has so far been limited to the optimization of few numerical algorithm parameters on single instances. In this paper, we extend this paradigm for the first time to general algorithm configuration problems, allowing many categorical parameters and optimization for sets of instances. We experimentally validate our new algorithm configuration procedure by optimizing a local search and a tree search solver for the propositional satisfiability problem (SAT), as well as the commercial mixed integer programming (MIP) solver CPLEX. In these experiments, our procedure yielded state-of-the-art performance, and in many cases outperformed the previous best configuration approach."
+            },
+            "slug": "Sequential-Model-Based-Optimization-for-General-Hutter-Hoos",
+            "title": {
+                "fragments": [],
+                "text": "Sequential Model-Based Optimization for General Algorithm Configuration"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper extends the explicit regression models paradigm for the first time to general algorithm configuration problems, allowing many categorical parameters and optimization for sets of instances, and yields state-of-the-art performance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LION"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2103302"
+                        ],
+                        "name": "R. Bardenet",
+                        "slug": "R.-Bardenet",
+                        "structuredName": {
+                            "firstName": "R\u00e9mi",
+                            "lastName": "Bardenet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Bardenet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143674326"
+                        ],
+                        "name": "B. K\u00e9gl",
+                        "slug": "B.-K\u00e9gl",
+                        "structuredName": {
+                            "firstName": "Bal\u00e1zs",
+                            "lastName": "K\u00e9gl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. K\u00e9gl"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 7130568,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "560ac582a82dc0ce9765fc942f07f94908eaeeb3",
+            "isKey": false,
+            "numCitedBy": 42,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In global optimization, when the evaluation of the target function is costly, the usual strategy is to learn a surrogate model for the target function and replace the initial optimization by the optimization of the model. Gaussian processes have been widely used since they provide an elegant way to model the fitness and to deal with the exploration-exploitation trade-off in a principled way. Several empirical criteria have been proposed to drive the model optimization, among which is the well-known Expected Improvement criterion. The major computational bottleneck of these algorithms is the exhaustive grid search used to optimize the highly multimodal merit function. In this paper, we propose a competitive \"adaptive grid\" approach, based on a properly derived cross-entropy optimization algorithm with mixture proposals. Experiments suggest that 1) we outperform the classical single-Gaussian cross-entropy method when the fitness function is highly multimodal, and 2) we improve on standard exhaustive search in GP-based surrogate optimization."
+            },
+            "slug": "Surrogating-the-surrogate:-accelerating-global-with-Bardenet-K\u00e9gl",
+            "title": {
+                "fragments": [],
+                "text": "Surrogating the surrogate: accelerating Gaussian-process-based global optimization with a mixture cross-entropy algorithm"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Experiments suggest that 1) the competitive \"adaptive grid\" approach outperforms the classical single-Gaussian cross-entropy method when the fitness function is highly multimodal, and 2) it improves on standard exhaustive search in GP-based surrogate optimization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2042941"
+                        ],
+                        "name": "D. Cox",
+                        "slug": "D.-Cox",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Cox",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Cox"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "30017846"
+                        ],
+                        "name": "N. Pinto",
+                        "slug": "N.-Pinto",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Pinto",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Pinto"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 618769,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1128c5607a19af6022be723d10dbf8fad3ca26ab",
+            "isKey": false,
+            "numCitedBy": 220,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many modern computer vision algorithms are built atop of a set of low-level feature operators (such as SIFT [1], [2]; HOG [3], [4]; or LBP [5], [6]) that transform raw pixel values into a representation better suited to subsequent processing and classification. While the choice of feature representation is often not central to the logic of a given algorithm, the quality of the feature representation can have critically important implications for performance. Here, we demonstrate a large-scale feature search approach to generating new, more powerful feature representations in which a multitude of complex, nonlinear, multilayer neuromorphic feature representations are randomly generated and screened to find those best suited for the task at hand. In particular, we show that a brute-force search can generate representations that, in combination with standard machine learning blending techniques, achieve state-of-the-art performance on the Labeled Faces in the Wild (LFW) [7] unconstrained face recognition challenge set. These representations outperform previous state-of-the-art approaches, in spite of requiring less training data and using a conceptually simpler machine learning backend. We argue that such large-scale-search-derived feature sets can play a synergistic role with other computer vision approaches by providing a richer base of features with which to work."
+            },
+            "slug": "Beyond-simple-features:-A-large-scale-feature-to-Cox-Pinto",
+            "title": {
+                "fragments": [],
+                "text": "Beyond simple features: A large-scale feature search approach to unconstrained face recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This work demonstrates a large-scale feature search approach to generating new, more powerful feature representations in which a multitude of complex, nonlinear, multilayer neuromorphic feature representations are randomly generated and screened to find those best suited for the task at hand."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Face and Gesture 2011"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 143,
+                                "start": 125
+                            }
+                        ],
+                        "text": "proaches are competitive with the best multi-layer alternatives for 10-way object classification using the CIFAR-10 data set (Krizhevsky, 2009)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 188,
+                                "start": 172
+                            }
+                        ],
+                        "text": "Coates & Ng (2011) showed that single-layer ap-\nproaches are competitive with the best multi-layer alternatives for 10-way object classification using the CIFAR-10 data set (Krizhevsky, 2009)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 18268744,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+            "isKey": false,
+            "numCitedBy": 17474,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Groups at MIT and NYU have collected a dataset of millions of tiny colour images from the web. It is, in principle, an excellent dataset for unsupervised training of deep generative models, but previous researchers who have tried this have found it dicult to learn a good set of lters from the images. We show how to train a multi-layer generative model that learns to extract meaningful features which resemble those found in the human visual cortex. Using a novel parallelization algorithm to distribute the work among multiple machines connected on a network, we show how training such a model can be done in reasonable time. A second problematic aspect of the tiny images dataset is that there are no reliable class labels which makes it hard to use for object recognition experiments. We created two sets of reliable labels. The CIFAR-10 set has 6000 examples of each of 10 classes and the CIFAR-100 set has 600 examples of each of 100 non-overlapping classes. Using these labels, we show that object recognition is signicantly improved by pre-training a layer of features on a large set of unlabeled tiny images."
+            },
+            "slug": "Learning-Multiple-Layers-of-Features-from-Tiny-Krizhevsky",
+            "title": {
+                "fragments": [],
+                "text": "Learning Multiple Layers of Features from Tiny Images"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "It is shown how to train a multi-layer generative model that learns to extract meaningful features which resemble those found in the human visual cortex, using a novel parallelization algorithm to distribute the work among multiple machines connected on a network."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32837403"
+                        ],
+                        "name": "J. Bergstra",
+                        "slug": "J.-Bergstra",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bergstra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bergstra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "30017846"
+                        ],
+                        "name": "N. Pinto",
+                        "slug": "N.-Pinto",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Pinto",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Pinto"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2042941"
+                        ],
+                        "name": "D. Cox",
+                        "slug": "D.-Cox",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Cox",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Cox"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 268,
+                                "start": 247
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & Ke\u0301gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 269,
+                                "start": 174
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & K\u00e9gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13215527,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8f731c693587f25f93f22e2ed88bdaac843a4a05",
+            "isKey": false,
+            "numCitedBy": 73,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The rapidly evolving landscape of multicore architectures makes the construction of efficient libraries a daunting task. A family of methods known collectively as \u201cauto-tuning\u201d has emerged to address this challenge. Two major approaches to auto-tuning are empirical and model-based: empirical autotuning is a generic but slow approach that works by measuring runtimes of candidate implementations, model-based auto-tuning predicts those runtimes using simplified abstractions designed by hand. We show that machine learning methods for non-linear regression can be used to estimate timing models from data, capturing the best of both approaches. A statistically-derived model offers the speed of a model-based approach, with the generality and simplicity of empirical auto-tuning. We validate our approach using the filterbank correlation kernel described in Pinto and Cox [2012], where we find that 0.1 seconds of hill climbing on the regression model (\u201cpredictive auto-tuning\u201d) can achieve almost the same speed-up as is brought by minutes of empirical auto-tuning. Our approach is not specific to filterbank correlation, nor even to GPU kernel auto-tuning, and can be applied to almost any templated-code optimization problem, spanning a wide variety of problem types, kernel types, and platforms."
+            },
+            "slug": "Machine-learning-for-predictive-auto-tuning-with-Bergstra-Pinto",
+            "title": {
+                "fragments": [],
+                "text": "Machine learning for predictive auto-tuning with boosted regression trees"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work shows that machine learning methods for non-linear regression can be used to estimate timing models from data, and shows that a statistically-derived model offers the speed of a model-based approach, with the generality and simplicity of empirical auto-tuning."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2012 Innovative Parallel Computing (InPar)"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32837403"
+                        ],
+                        "name": "J. Bergstra",
+                        "slug": "J.-Bergstra",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bergstra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bergstra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 193,
+                                "start": 170
+                            }
+                        ],
+                        "text": "A priori, random search confers some advantages: it is trivially parallel, it is simpler to implement, and the independence of trials supports more interesting analysis (Bergstra & Bengio, 2012)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 15700257,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "188e247506ad992b8bc62d6c74789e89891a984f",
+            "isKey": false,
+            "numCitedBy": 5726,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Grid search and manual search are the most widely used strategies for hyper-parameter optimization. This paper shows empirically and theoretically that randomly chosen trials are more efficient for hyper-parameter optimization than trials on a grid. Empirical evidence comes from a comparison with a large previous study that used grid search and manual search to configure neural networks and deep belief networks. Compared with neural networks configured by a pure grid search, we find that random search over the same domain is able to find models that are as good or better within a small fraction of the computation time. Granting random search the same computational budget, random search finds better models by effectively searching a larger, less promising configuration space. Compared with deep belief networks configured by a thoughtful combination of manual search and grid search, purely random search over the same 32-dimensional configuration space found statistically equal performance on four of seven data sets, and superior performance on one of seven. A Gaussian process analysis of the function from hyper-parameters to validation set performance reveals that for most data sets only a few of the hyper-parameters really matter, but that different hyper-parameters are important on different data sets. This phenomenon makes grid search a poor choice for configuring algorithms for new data sets. Our analysis casts some light on why recent \"High Throughput\" methods achieve surprising success--they appear to search through a large number of hyper-parameters because most hyper-parameters do not matter much. We anticipate that growing interest in large hierarchical models will place an increasing burden on techniques for hyper-parameter optimization; this work shows that random search is a natural baseline against which to judge progress in the development of adaptive (sequential) hyper-parameter optimization algorithms."
+            },
+            "slug": "Random-Search-for-Hyper-Parameter-Optimization-Bergstra-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Random Search for Hyper-Parameter Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 59,
+                "text": "This paper shows empirically and theoretically that randomly chosen trials are more efficient for hyper-parameter optimization than trials on a grid, and shows that random search is a natural baseline against which to judge progress in the development of adaptive (sequential) hyper- parameter optimization algorithms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144638694"
+                        ],
+                        "name": "Adam Coates",
+                        "slug": "Adam-Coates",
+                        "structuredName": {
+                            "firstName": "Adam",
+                            "lastName": "Coates",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Adam Coates"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34699434"
+                        ],
+                        "name": "A. Ng",
+                        "slug": "A.-Ng",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Ng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Ng"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 160,
+                                "start": 142
+                            }
+                        ],
+                        "text": "Within pooling strategy (2) we used two strategies to define the spatial patches used in the summation: either (2a) grid cell summation as in Coates & Ng (2011), or (2b) box filtering."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 80,
+                                "start": 62
+                            }
+                        ],
+                        "text": "TPE found a configuration very similar to the one found by in Coates & Ng (2011) within roughly 24 hours of processing on 6 GPUs."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 61,
+                                "start": 43
+                            }
+                        ],
+                        "text": "This space is a combination of the work of Coates & Ng (2011) and Pinto et al. (2009), and is known to contain parameter settings that achieve the state of the art performance on three data sets (i.e, loss functions): LFW, Pubfig83, and CIFAR-10."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 32,
+                                "start": 11
+                            }
+                        ],
+                        "text": "Hand-tuned (Coates and Ng, 2011) Method (# configs) Test Acc."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 18,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Coates & Ng (2011) showed that single-layer ap-\nproaches are competitive with the best multi-layer alternatives for 10-way object classification using the CIFAR-10 data set (Krizhevsky, 2009)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 5
+                            }
+                        ],
+                        "text": "Like Coates & Ng (2011), we include ZCA-based filter-generation algorithms (Hyva\u0308rinen & Oja, 2000) and coarse histogram features (described in their work as the R-T and RP-T algorithms)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 155,
+                                "start": 137
+                            }
+                        ],
+                        "text": "Whereas Pinto & Cox (2011) employed only random uniform filters fk, we include also some of the filter-generation strategies employed in Coates & Ng (2011): namely random projections of ZCA components, and randomly chosen ZCA-filtered image patches."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12132619,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6f568d757d2c1ab42f2006faa25690b74c3d2d44",
+            "isKey": true,
+            "numCitedBy": 603,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "While vector quantization (VQ) has been applied widely to generate features for visual recognition problems, much recent work has focused on more powerful methods. In particular, sparse coding has emerged as a strong alternative to traditional VQ approaches and has been shown to achieve consistently higher performance on benchmark datasets. Both approaches can be split into a training phase, where the system learns a dictionary of basis functions, and an encoding phase, where the dictionary is used to extract features from new inputs. In this work, we investigate the reasons for the success of sparse coding over VQ by decoupling these phases, allowing us to separate out the contributions of training and encoding in a controlled way. Through extensive experiments on CIFAR, NORB and Caltech 101 datasets, we compare several training and encoding schemes, including sparse coding and a form of VQ with a soft threshold activation function. Our results show not only that we can use fast VQ algorithms for training, but that we can just as well use randomly chosen exemplars from the training set. Rather than spend resources on training, we find it is more important to choose a good encoder\u2014which can often be a simple feed forward non-linearity. Our results include state-of-the-art performance on both CIFAR and NORB."
+            },
+            "slug": "The-Importance-of-Encoding-Versus-Training-with-and-Coates-Ng",
+            "title": {
+                "fragments": [],
+                "text": "The Importance of Encoding Versus Training with Sparse Coding and Vector Quantization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work investigates the reasons for the success of sparse coding over VQ by decoupling these phases, allowing us to separate out the contributions of training and encoding in a controlled way and shows not only that it can use fast VQ algorithms for training, but that they can just as well use randomly chosen exemplars from the training set."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2217144"
+                        ],
+                        "name": "Simon Osindero",
+                        "slug": "Simon-Osindero",
+                        "structuredName": {
+                            "firstName": "Simon",
+                            "lastName": "Osindero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Simon Osindero"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1725303"
+                        ],
+                        "name": "Y. Teh",
+                        "slug": "Y.-Teh",
+                        "structuredName": {
+                            "firstName": "Yee",
+                            "lastName": "Teh",
+                            "middleNames": [
+                                "Whye"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Teh"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 188,
+                                "start": 169
+                            }
+                        ],
+                        "text": "There is a long tradition of basing computer vision systems on models of biological vision (Fukushima, 1980; LeCun et al., 1989; Riesenhuber & Poggio, 1999; Lowe, 1999; Hinton et al., 2006; DiCarlo et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2309950,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8978cf7574ceb35f4c3096be768c7547b28a35d0",
+            "isKey": false,
+            "numCitedBy": 13502,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We show how to use complementary priors to eliminate the explaining-away effects that make inference difficult in densely connected belief nets that have many hidden layers. Using complementary priors, we derive a fast, greedy algorithm that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory. The fast, greedy algorithm is used to initialize a slower learning procedure that fine-tunes the weights using a contrastive version of the wake-sleep algorithm. After fine-tuning, a network with three hidden layers forms a very good generative model of the joint distribution of handwritten digit images and their labels. This generative model gives better digit classification than the best discriminative learning algorithms. The low-dimensional manifolds on which the digits lie are modeled by long ravines in the free-energy landscape of the top-level associative memory, and it is easy to explore these ravines by using the directed connections to display what the associative memory has in mind."
+            },
+            "slug": "A-Fast-Learning-Algorithm-for-Deep-Belief-Nets-Hinton-Osindero",
+            "title": {
+                "fragments": [],
+                "text": "A Fast Learning Algorithm for Deep Belief Nets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "A fast, greedy algorithm is derived that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3219900"
+                        ],
+                        "name": "Gary B. Huang",
+                        "slug": "Gary-B.-Huang",
+                        "structuredName": {
+                            "firstName": "Gary",
+                            "lastName": "Huang",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Gary B. Huang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2985062"
+                        ],
+                        "name": "Marwan A. Mattar",
+                        "slug": "Marwan-A.-Mattar",
+                        "structuredName": {
+                            "firstName": "Marwan",
+                            "lastName": "Mattar",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marwan A. Mattar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1685538"
+                        ],
+                        "name": "Tamara L. Berg",
+                        "slug": "Tamara-L.-Berg",
+                        "structuredName": {
+                            "firstName": "Tamara",
+                            "lastName": "Berg",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tamara L. Berg"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1404579703"
+                        ],
+                        "name": "Eric Learned-Miller",
+                        "slug": "Eric-Learned-Miller",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Learned-Miller",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eric Learned-Miller"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Our search space is similar to the one used in those works, so LFW (Huang et al., 2007) and PubFig83 (Pinto et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 88166,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c6b3ca4f939e36a9679a70e14ce8b1bbbc5618f3",
+            "isKey": false,
+            "numCitedBy": 4941,
+            "numCiting": 62,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Most face databases have been created under controlled conditions to facilitate the study of specific parameters on the face recognition problem. These parameters include such variables as position, pose, lighting, background, camera quality, and gender. While there are many applications for face recognition technology in which one can control the parameters of image acquisition, there are also many applications in which the practitioner has little or no control over such parameters. This database, Labeled Faces in the Wild, is provided as an aid in studying the latter, unconstrained, recognition problem. The database contains labeled face photographs spanning the range of conditions typically encountered in everyday life. The database exhibits \u201cnatural\u201d variability in factors such as pose, lighting, race, accessories, occlusions, and background. In addition to describing the details of the database, we provide specific experimental paradigms for which the database is suitable. This is done in an effort to make research performed with the database as consistent and comparable as possible. We provide baseline results, including results of a state of the art face recognition system combined with a face alignment system. To facilitate experimentation on the database, we provide several parallel databases, including an aligned version."
+            },
+            "slug": "Labeled-Faces-in-the-Wild:-A-Database-forStudying-Huang-Mattar",
+            "title": {
+                "fragments": [],
+                "text": "Labeled Faces in the Wild: A Database forStudying Face Recognition in Unconstrained Environments"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "The database contains labeled face photographs spanning the range of conditions typically encountered in everyday life, and exhibits \u201cnatural\u201d variability in factors such as pose, lighting, race, accessories, occlusions, and background."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3472959"
+                        ],
+                        "name": "C. Rasmussen",
+                        "slug": "C.-Rasmussen",
+                        "structuredName": {
+                            "firstName": "Carl",
+                            "lastName": "Rasmussen",
+                            "middleNames": [
+                                "Edward"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Rasmussen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145715698"
+                        ],
+                        "name": "Christopher K. I. Williams",
+                        "slug": "Christopher-K.-I.-Williams",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Williams",
+                            "middleNames": [
+                                "K.",
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher K. I. Williams"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 26
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & Ke\u0301gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1430472,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "82266f6103bade9005ec555ed06ba20b5210ff22",
+            "isKey": false,
+            "numCitedBy": 18076,
+            "numCiting": 231,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Gaussian processes (GPs) provide a principled, practical, probabilistic approach to learning in kernel machines. GPs have received growing attention in the machine learning community over the past decade. The book provides a long-needed, systematic and unified treatment of theoretical and practical aspects of GPs in machine learning. The treatment is comprehensive and self-contained, targeted at researchers and students in machine learning and applied statistics. The book deals with the supervised learning problem for both regression and classification, and includes detailed algorithms. A wide variety of covariance (kernel) functions are presented and their properties discussed. Model selection is discussed both from a Bayesian and classical perspective. Many connections to other well-known techniques from machine learning and statistics are discussed, including support vector machines, neural networks, splines, regularization networks, relevance vector machines and others. Theoretical issues including learning curves and the PAC-Bayesian framework are treated, and several approximation methods for learning with large datasets are discussed. The book contains illustrative examples and exercises. Code and datasets can be obtained on the web. Appendices provide mathematical background and a discussion of Gaussian Markov processes."
+            },
+            "slug": "Gaussian-Processes-for-Machine-Learning-Rasmussen-Williams",
+            "title": {
+                "fragments": [],
+                "text": "Gaussian Processes for Machine Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The treatment is comprehensive and self-contained, targeted at researchers and students in machine learning and applied statistics, and deals with the supervised learning problem for both regression and classification."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Adaptive computation and machine learning"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "30017846"
+                        ],
+                        "name": "N. Pinto",
+                        "slug": "N.-Pinto",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Pinto",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Pinto"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2201347"
+                        ],
+                        "name": "Z. Stone",
+                        "slug": "Z.-Stone",
+                        "structuredName": {
+                            "firstName": "Zak",
+                            "lastName": "Stone",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Z. Stone"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1713451"
+                        ],
+                        "name": "Todd E. Zickler",
+                        "slug": "Todd-E.-Zickler",
+                        "structuredName": {
+                            "firstName": "Todd",
+                            "lastName": "Zickler",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Todd E. Zickler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2042941"
+                        ],
+                        "name": "D. Cox",
+                        "slug": "D.-Cox",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Cox",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Cox"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 166,
+                                "start": 158
+                            }
+                        ],
+                        "text": "Our approach yields state of the art results on three disparate computer vision problems: a facematching verification task (LFW), a face identification task (PubFig83) and an object recognition task (CIFAR-10), using a single broad class of feed-forward vision architectures."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Pinto et al. (2011)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 3
+                            }
+                        ],
+                        "text": "On PubFig83, the optimal TPE configuration outperforms the best random configuration found by our random search (86.5% vs 81.0% accurate) and the previous state of the art result (85.2"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 185,
+                                "start": 167
+                            }
+                        ],
+                        "text": "Random search in a large space of biologically-inspired models has been shown to be an effective approach to face verification (Pinto & Cox, 2011) and identification (Pinto et al., 2011)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 120,
+                                "start": 102
+                            }
+                        ],
+                        "text": "Our search space is similar to the one used in those works, so LFW (Huang et al., 2007) and PubFig83 (Pinto et al., 2011) provide fair playing\nfields for comparing TPE with random search."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 111
+                            }
+                        ],
+                        "text": "The PubFig83 data set contains 8300 color images of size 100\u00d7 100, with 100 pictures of each of 83 celebrities (Pinto et al., 2011)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 16,
+                                "start": 8
+                            }
+                        ],
+                        "text": "For our PubFig83 experiments we converted the un-aligned images to gray scale and screened models on the 83-way identification task using 3 splits of 20 train/20 validation examples per class, running two simultaneous TPE optimization processes for a total of 1200 model evaluations."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 191074,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9c23859ec7313f2e756a3e85575735e0c52249f4",
+            "isKey": false,
+            "numCitedBy": 125,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Biological visual systems are currently unrivaled by artificial systems in their ability to recognize faces and objects in highly variable and cluttered real-world environments. Biologically-inspired computer vision systems seek to capture key aspects of the computational architecture of the brain, and such approaches have proven successful across a range of standard object and face recognition tasks (e.g. [23, 8, 9, 18]). Here, we explore the effectiveness of these algorithms on a large-scale unconstrained real-world face recognition problem based on images taken from the Face-book social networking website. In particular, we use a family of biologically-inspired models derived from a high-throughput feature search paradigm [19, 15] to tackle a face identification task with up to one hundred individuals (a number that approaches the reasonable size of real-world social networks). We show that these models yield high levels of face-identification performance even when large numbers of individuals are considered; this performance increases steadily as more examples are used, and the models outperform a state-of-the-art commercial face recognition system. Finally, we discuss current limitations and future opportunities associated with datasets such as these, and we argue that careful creation of large sets is an important future direction."
+            },
+            "slug": "Scaling-up-biologically-inspired-computer-vision:-A-Pinto-Stone",
+            "title": {
+                "fragments": [],
+                "text": "Scaling up biologically-inspired computer vision: A case study in unconstrained face recognition on facebook"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "It is shown that a family of biologically-inspired models derived from a high-throughput feature search paradigm yield high levels of face-identification performance even when large numbers of individuals are considered, and this performance increases steadily as more examples are used, and the models outperform a state-of-the-art commercial face recognition system."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CVPR 2011 WORKSHOPS"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1791548"
+                        ],
+                        "name": "A. Hyv\u00e4rinen",
+                        "slug": "A.-Hyv\u00e4rinen",
+                        "structuredName": {
+                            "firstName": "Aapo",
+                            "lastName": "Hyv\u00e4rinen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Hyv\u00e4rinen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1726997"
+                        ],
+                        "name": "E. Oja",
+                        "slug": "E.-Oja",
+                        "structuredName": {
+                            "firstName": "Erkki",
+                            "lastName": "Oja",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Oja"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 28
+                            }
+                        ],
+                        "text": "It chooses the hyperparameter value x that maximizes the ratio `(x)/g(x)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 97,
+                                "start": 76
+                            }
+                        ],
+                        "text": "Like Coates & Ng (2011), we include ZCA-based filter-generation algorithms (Hyva\u0308rinen & Oja, 2000) and coarse histogram features (described in their work as the R-T and RP-T algorithms)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11959218,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "577d19a115f9ef6f002483fcf88adbb3b5479556",
+            "isKey": false,
+            "numCitedBy": 7657,
+            "numCiting": 77,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Independent-component-analysis:-algorithms-and-Hyv\u00e4rinen-Oja",
+            "title": {
+                "fragments": [],
+                "text": "Independent component analysis: algorithms and applications"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Networks"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35238678"
+                        ],
+                        "name": "D. Lowe",
+                        "slug": "D.-Lowe",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Lowe",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Lowe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 167,
+                                "start": 157
+                            }
+                        ],
+                        "text": "There is a long tradition of basing computer vision systems on models of biological vision (Fukushima, 1980; LeCun et al., 1989; Riesenhuber & Poggio, 1999; Lowe, 1999; Hinton et al., 2006; DiCarlo et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5258236,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f9f836d28f52ad260213d32224a6d227f8e8849a",
+            "isKey": false,
+            "numCitedBy": 16329,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "An object recognition system has been developed that uses a new class of local image features. The features are invariant to image scaling, translation, and rotation, and partially invariant to illumination changes and affine or 3D projection. These features share similar properties with neurons in inferior temporal cortex that are used for object recognition in primate vision. Features are efficiently detected through a staged filtering approach that identifies stable points in scale space. Image keys are created that allow for local geometric deformations by representing blurred image gradients in multiple orientation planes and at multiple scales. The keys are used as input to a nearest neighbor indexing method that identifies candidate object matches. Final verification of each match is achieved by finding a low residual least squares solution for the unknown model parameters. Experimental results show that robust object recognition can be achieved in cluttered partially occluded images with a computation time of under 2 seconds."
+            },
+            "slug": "Object-recognition-from-local-scale-invariant-Lowe",
+            "title": {
+                "fragments": [],
+                "text": "Object recognition from local scale-invariant features"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "Experimental results show that robust object recognition can be achieved in cluttered partially occluded images with a computation time of under 2 seconds."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the Seventh IEEE International Conference on Computer Vision"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3160228"
+                        ],
+                        "name": "K. Fukushima",
+                        "slug": "K.-Fukushima",
+                        "structuredName": {
+                            "firstName": "Kunihiko",
+                            "lastName": "Fukushima",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Fukushima"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 92
+                            }
+                        ],
+                        "text": "There is a long tradition of basing computer vision systems on models of biological vision (Fukushima, 1980; LeCun et al., 1989; Riesenhuber & Poggio, 1999; Lowe, 1999; Hinton et al., 2006; DiCarlo et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206775608,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Biology"
+            ],
+            "id": "69e68bfaadf2dccff800158749f5a50fe82d173b",
+            "isKey": false,
+            "numCitedBy": 3740,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A neural network model for a mechanism of visual pattern recognition is proposed in this paper. The network is self-organized by \u201clearning without a teacher\u201d, and acquires an ability to recognize stimulus patterns based on the geometrical similarity (Gestalt) of their shapes without affected by their positions. This network is given a nickname \u201cneocognitron\u201d. After completion of self-organization, the network has a structure similar to the hierarchy model of the visual nervous system proposed by Hubel and Wiesel. The network consits of an input layer (photoreceptor array) followed by a cascade connection of a number of modular structures, each of which is composed of two layers of cells connected in a cascade. The first layer of each module consists of \u201cS-cells\u201d, which show characteristics similar to simple cells or lower order hypercomplex cells, and the second layer consists of \u201cC-cells\u201d similar to complex cells or higher order hypercomplex cells. The afferent synapses to each S-cell have plasticity and are modifiable. The network has an ability of unsupervised learning: We do not need any \u201cteacher\u201d during the process of self-organization, and it is only needed to present a set of stimulus patterns repeatedly to the input layer of the network. The network has been simulated on a digital computer. After repetitive presentation of a set of stimulus patterns, each stimulus pattern has become to elicit an output only from one of the C-cell of the last layer, and conversely, this C-cell has become selectively responsive only to that stimulus pattern. That is, none of the C-cells of the last layer responds to more than one stimulus pattern. The response of the C-cells of the last layer is not affected by the pattern's position at all. Neither is it affected by a small change in shape nor in size of the stimulus pattern."
+            },
+            "slug": "Neocognitron:-A-self-organizing-neural-network-for-Fukushima",
+            "title": {
+                "fragments": [],
+                "text": "Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 86,
+                "text": "A neural network model for a mechanism of visual pattern recognition that is self-organized by \u201clearning without a teacher\u201d, and acquires an ability to recognize stimulus patterns based on the geometrical similarity of their shapes without affected by their positions."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Biological Cybernetics"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1865831"
+                        ],
+                        "name": "J. DiCarlo",
+                        "slug": "J.-DiCarlo",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "DiCarlo",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. DiCarlo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "6072034"
+                        ],
+                        "name": "D. Zoccolan",
+                        "slug": "D.-Zoccolan",
+                        "structuredName": {
+                            "firstName": "Davide",
+                            "lastName": "Zoccolan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Zoccolan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2913957"
+                        ],
+                        "name": "N. Rust",
+                        "slug": "N.-Rust",
+                        "structuredName": {
+                            "firstName": "Nicole",
+                            "lastName": "Rust",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Rust"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 210,
+                                "start": 190
+                            }
+                        ],
+                        "text": "There is a long tradition of basing computer vision systems on models of biological vision (Fukushima, 1980; LeCun et al., 1989; Riesenhuber & Poggio, 1999; Lowe, 1999; Hinton et al., 2006; DiCarlo et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13366193,
+            "fieldsOfStudy": [
+                "Biology"
+            ],
+            "id": "3bc8c19cd2257790f2c92c0b6b757c0550a8404b",
+            "isKey": false,
+            "numCitedBy": 1245,
+            "numCiting": 221,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "How-Does-the-Brain-Solve-Visual-Object-Recognition-DiCarlo-Zoccolan",
+            "title": {
+                "fragments": [],
+                "text": "How Does the Brain Solve Visual Object Recognition?"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neuron"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1996960"
+                        ],
+                        "name": "M. Riesenhuber",
+                        "slug": "M.-Riesenhuber",
+                        "structuredName": {
+                            "firstName": "Maximilian",
+                            "lastName": "Riesenhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Riesenhuber"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1685292"
+                        ],
+                        "name": "T. Poggio",
+                        "slug": "T.-Poggio",
+                        "structuredName": {
+                            "firstName": "Tomaso",
+                            "lastName": "Poggio",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Poggio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 155,
+                                "start": 129
+                            }
+                        ],
+                        "text": "There is a long tradition of basing computer vision systems on models of biological vision (Fukushima, 1980; LeCun et al., 1989; Riesenhuber & Poggio, 1999; Lowe, 1999; Hinton et al., 2006; DiCarlo et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8920227,
+            "fieldsOfStudy": [
+                "Biology",
+                "Psychology"
+            ],
+            "id": "85abadb689897997f1e37baa7b5fc6f7d497518b",
+            "isKey": false,
+            "numCitedBy": 3322,
+            "numCiting": 51,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Visual processing in cortex is classically modeled as a hierarchy of increasingly sophisticated representations, naturally extending the model of simple to complex cells of Hubel and Wiesel. Surprisingly, little quantitative modeling has been done to explore the biological feasibility of this class of models to explain aspects of higher-level visual processing such as object recognition. We describe a new hierarchical model consistent with physiological data from inferotemporal cortex that accounts for this complex visual task and makes testable predictions. The model is based on a MAX-like operation applied to inputs to certain cortical neurons that may have a general role in cortical function."
+            },
+            "slug": "Hierarchical-models-of-object-recognition-in-cortex-Riesenhuber-Poggio",
+            "title": {
+                "fragments": [],
+                "text": "Hierarchical models of object recognition in cortex"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "A new hierarchical model consistent with physiological data from inferotemporal cortex that accounts for this complex visual task and makes testable predictions is described."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Nature Neuroscience"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2219581"
+                        ],
+                        "name": "B. Boser",
+                        "slug": "B.-Boser",
+                        "structuredName": {
+                            "firstName": "Bernhard",
+                            "lastName": "Boser",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Boser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1747317"
+                        ],
+                        "name": "J. Denker",
+                        "slug": "J.-Denker",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Denker",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Denker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37274089"
+                        ],
+                        "name": "D. Henderson",
+                        "slug": "D.-Henderson",
+                        "structuredName": {
+                            "firstName": "Donnie",
+                            "lastName": "Henderson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Henderson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2799635"
+                        ],
+                        "name": "R. Howard",
+                        "slug": "R.-Howard",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Howard",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Howard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34859193"
+                        ],
+                        "name": "W. Hubbard",
+                        "slug": "W.-Hubbard",
+                        "structuredName": {
+                            "firstName": "Wayne",
+                            "lastName": "Hubbard",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Hubbard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2041866"
+                        ],
+                        "name": "L. Jackel",
+                        "slug": "L.-Jackel",
+                        "structuredName": {
+                            "firstName": "Lawrence",
+                            "lastName": "Jackel",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Jackel"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 109
+                            }
+                        ],
+                        "text": "There is a long tradition of basing computer vision systems on models of biological vision (Fukushima, 1980; LeCun et al., 1989; Riesenhuber & Poggio, 1999; Lowe, 1999; Hinton et al., 2006; DiCarlo et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 41312633,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a8e8f3c8d4418c8d62e306538c9c1292635e9d27",
+            "isKey": false,
+            "numCitedBy": 7920,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The ability of learning networks to generalize can be greatly enhanced by providing constraints from the task domain. This paper demonstrates how such constraints can be integrated into a backpropagation network through the architecture of the network. This approach has been successfully applied to the recognition of handwritten zip code digits provided by the U.S. Postal Service. A single network learns the entire recognition operation, going from the normalized image of the character to the final classification."
+            },
+            "slug": "Backpropagation-Applied-to-Handwritten-Zip-Code-LeCun-Boser",
+            "title": {
+                "fragments": [],
+                "text": "Backpropagation Applied to Handwritten Zip Code Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 56,
+                "text": "This paper demonstrates how constraints from the task domain can be integrated into a backpropagation network through the architecture of the network, successfully applied to the recognition of handwritten zip code digits provided by the U.S. Postal Service."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2570016"
+                        ],
+                        "name": "Fabian Pedregosa",
+                        "slug": "Fabian-Pedregosa",
+                        "structuredName": {
+                            "firstName": "Fabian",
+                            "lastName": "Pedregosa",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fabian Pedregosa"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3025780"
+                        ],
+                        "name": "G. Varoquaux",
+                        "slug": "G.-Varoquaux",
+                        "structuredName": {
+                            "firstName": "Ga\u00ebl",
+                            "lastName": "Varoquaux",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Varoquaux"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1797840"
+                        ],
+                        "name": "Alexandre Gramfort",
+                        "slug": "Alexandre-Gramfort",
+                        "structuredName": {
+                            "firstName": "Alexandre",
+                            "lastName": "Gramfort",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alexandre Gramfort"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52200573"
+                        ],
+                        "name": "V. Michel",
+                        "slug": "V.-Michel",
+                        "structuredName": {
+                            "firstName": "Vincent",
+                            "lastName": "Michel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Michel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8493461"
+                        ],
+                        "name": "B. Thirion",
+                        "slug": "B.-Thirion",
+                        "structuredName": {
+                            "firstName": "Bertrand",
+                            "lastName": "Thirion",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Thirion"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2958756"
+                        ],
+                        "name": "O. Grisel",
+                        "slug": "O.-Grisel",
+                        "structuredName": {
+                            "firstName": "Olivier",
+                            "lastName": "Grisel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Grisel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "27257992"
+                        ],
+                        "name": "Mathieu Blondel",
+                        "slug": "Mathieu-Blondel",
+                        "structuredName": {
+                            "firstName": "Mathieu",
+                            "lastName": "Blondel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mathieu Blondel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1881041"
+                        ],
+                        "name": "Gilles Louppe",
+                        "slug": "Gilles-Louppe",
+                        "structuredName": {
+                            "firstName": "Gilles",
+                            "lastName": "Louppe",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Gilles Louppe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2780213"
+                        ],
+                        "name": "P. Prettenhofer",
+                        "slug": "P.-Prettenhofer",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Prettenhofer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Prettenhofer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2067827437"
+                        ],
+                        "name": "Ron Weiss",
+                        "slug": "Ron-Weiss",
+                        "structuredName": {
+                            "firstName": "Ron",
+                            "lastName": "Weiss",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ron Weiss"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39571582"
+                        ],
+                        "name": "Ron J. Weiss",
+                        "slug": "Ron-J.-Weiss",
+                        "structuredName": {
+                            "firstName": "Ron",
+                            "lastName": "Weiss",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ron J. Weiss"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2081469"
+                        ],
+                        "name": "J. Vanderplas",
+                        "slug": "J.-Vanderplas",
+                        "structuredName": {
+                            "firstName": "J.",
+                            "lastName": "Vanderplas",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Vanderplas"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144720379"
+                        ],
+                        "name": "Alexandre Passos",
+                        "slug": "Alexandre-Passos",
+                        "structuredName": {
+                            "firstName": "Alexandre",
+                            "lastName": "Passos",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alexandre Passos"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3084321"
+                        ],
+                        "name": "D. Cournapeau",
+                        "slug": "D.-Cournapeau",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Cournapeau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Cournapeau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2423884"
+                        ],
+                        "name": "M. Brucher",
+                        "slug": "M.-Brucher",
+                        "structuredName": {
+                            "firstName": "Matthieu",
+                            "lastName": "Brucher",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Brucher"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35243423"
+                        ],
+                        "name": "M. Perrot",
+                        "slug": "M.-Perrot",
+                        "structuredName": {
+                            "firstName": "Matthieu",
+                            "lastName": "Perrot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Perrot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1710398"
+                        ],
+                        "name": "E. Duchesnay",
+                        "slug": "E.-Duchesnay",
+                        "structuredName": {
+                            "firstName": "E.",
+                            "lastName": "Duchesnay",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Duchesnay"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10659969,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "168f28ac3c8c7ea63bf7ed25f2288e8b67e2fe74",
+            "isKey": false,
+            "numCitedBy": 43894,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Scikit-learn is a Python module integrating a wide range of state-of-the-art machine learning algorithms for medium-scale supervised and unsupervised problems. This package focuses on bringing machine learning to non-specialists using a general-purpose high-level language. Emphasis is put on ease of use, performance, documentation, and API consistency. It has minimal dependencies and is distributed under the simplified BSD license, encouraging its use in both academic and commercial settings. Source code, binaries, and documentation can be downloaded from http://scikit-learn.sourceforge.net."
+            },
+            "slug": "Scikit-learn:-Machine-Learning-in-Python-Pedregosa-Varoquaux",
+            "title": {
+                "fragments": [],
+                "text": "Scikit-learn: Machine Learning in Python"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 94,
+                "text": "Scikit-learn is a Python module integrating a wide range of state-of-the-art machine learning algorithms for medium-scale supervised and unsupervised problems, focusing on bringing machine learning to non-specialists using a general-purpose high-level language."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118096690"
+                        ],
+                        "name": "Donald R. Jones",
+                        "slug": "Donald-R.-Jones",
+                        "structuredName": {
+                            "firstName": "Donald",
+                            "lastName": "Jones",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Donald R. Jones"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 142,
+                                "start": 129
+                            }
+                        ],
+                        "text": "In these approaches, the criterion of Expected Improvement (EI) beyond a threshold \u03bc is a popular heuristic for making proposals (Jones, 2001)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 139,
+                                "start": 128
+                            }
+                        ],
+                        "text": "In these approaches, the criterion of Expected Improvement (EI) beyond a threshold \u00b5 is a popular heuristic for making proposals (Jones, 2001)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8723392,
+            "fieldsOfStudy": [
+                "Engineering"
+            ],
+            "id": "a3db48fdc9aaf6921f269817ba4ed16b9b198394",
+            "isKey": false,
+            "numCitedBy": 1873,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a taxonomy of existing approaches for using response surfaces for global optimization. Each method is illustrated with a simple numerical example that brings out its advantages and disadvantages. The central theme is that methods that seem quite reasonable often have non-obvious failure modes. Understanding these failure modes is essential for the development of practical algorithms that fulfill the intuitive promise of the response surface approach."
+            },
+            "slug": "A-Taxonomy-of-Global-Optimization-Methods-Based-on-Jones",
+            "title": {
+                "fragments": [],
+                "text": "A Taxonomy of Global Optimization Methods Based on Response Surfaces"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 93,
+                "text": "This paper presents a taxonomy of existing approaches for using response surfaces for global optimization, illustrating each method with a simple numerical example that brings out its advantages and disadvantages."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Glob. Optim."
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1849128"
+                        ],
+                        "name": "Rong-En Fan",
+                        "slug": "Rong-En-Fan",
+                        "structuredName": {
+                            "firstName": "Rong-En",
+                            "lastName": "Fan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rong-En Fan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2782886"
+                        ],
+                        "name": "Kai-Wei Chang",
+                        "slug": "Kai-Wei-Chang",
+                        "structuredName": {
+                            "firstName": "Kai-Wei",
+                            "lastName": "Chang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kai-Wei Chang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1793529"
+                        ],
+                        "name": "Cho-Jui Hsieh",
+                        "slug": "Cho-Jui-Hsieh",
+                        "structuredName": {
+                            "firstName": "Cho-Jui",
+                            "lastName": "Hsieh",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Cho-Jui Hsieh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2144799660"
+                        ],
+                        "name": "Xiang-Rui Wang",
+                        "slug": "Xiang-Rui-Wang",
+                        "structuredName": {
+                            "firstName": "Xiang-Rui",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiang-Rui Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1711460"
+                        ],
+                        "name": "Chih-Jen Lin",
+                        "slug": "Chih-Jen-Lin",
+                        "structuredName": {
+                            "firstName": "Chih-Jen",
+                            "lastName": "Lin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chih-Jen Lin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 90,
+                                "start": 74
+                            }
+                        ],
+                        "text": "For the smaller training sets we used liblinear via sklearn as the solver(Fan et al., 2008; Pedregosa et al., 2011), for larger ones we used a generic L-BFGS algorithm in the primal domain (Bergstra et al., 2010)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 73
+                            }
+                        ],
+                        "text": "For the smaller training sets we used liblinear via sklearn as the solver(Fan et al., 2008; Pedregosa et al., 2011), for larger ones we used a generic L-BFGS algorithm in the primal domain (Bergstra et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3116168,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "268a4f8da15a42f3e0e71691f760ff5edbf9cec8",
+            "isKey": false,
+            "numCitedBy": 7779,
+            "numCiting": 36,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "LIBLINEAR is an open source library for large-scale linear classification. It supports logistic regression and linear support vector machines. We provide easy-to-use command-line tools and library calls for users and developers. Comprehensive documents are available for both beginners and advanced users. Experiments demonstrate that LIBLINEAR is very efficient on large sparse data sets."
+            },
+            "slug": "LIBLINEAR:-A-Library-for-Large-Linear-Fan-Chang",
+            "title": {
+                "fragments": [],
+                "text": "LIBLINEAR: A Library for Large Linear Classification"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 96,
+                "text": "LIBLINEAR is an open source library for large-scale linear classification that supports logistic regression and linear support vector machines and provides easy-to-use command-line tools and library calls for users and developers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2008
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 71
+                            }
+                        ],
+                        "text": "These choices can have enormous impact on system performance: e.g. in (Pinto & Cox, 2011), the authors extensively explored a single richly-parameterized model family, yielding classification performance that ranged from chance to state-ofthe-art performance, depending solely on hyperparameter\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 49
+                            }
+                        ],
+                        "text": "The best configuration found by random search in Pinto & Cox (2011) does well on View 2 relative to View 1 (84.1% vs. approximately 79.5"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 157,
+                                "start": 139
+                            }
+                        ],
+                        "text": "The TPE algorithm exceeded the best random search view 1 performance within 200 trials, for both our random search and that carried out in Pinto & Cox (2011)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 64
+                            }
+                        ],
+                        "text": "Local spatial pooling (lpool, Equation 3) was implemented as in Pinto & Cox (2011).\ny = lpool(x) \u21d4 yijk = xi\u2032j\u2032k/||x\u030ci\u2032j\u2032k||p (3)\nThe operation is parameterized by a patch size Sp \u2208 [2, 8], a sub-sampling stride i\u2032/i = j\u2032/j \u2208 {1, 2}, and a log-normally distributed norm parameter p."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 145,
+                                "start": 128
+                            }
+                        ],
+                        "text": "Random search in a large space of biologically-inspired models has been shown to be an effective approach to face verification (Pinto & Cox, 2011) and identification (Pinto et al., 2011)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 64
+                            }
+                        ],
+                        "text": "These layers are very much in the spirit of the elements of the Pinto & Cox (2011) model, except that we have combined the normalization and filter bank cross-correlation into a single mathematical operation (fbncc, Equations 1-2).\ny = fbncc(x, f) (1) yijk = f\u030ck \u2217 u\u030cij\u221a\n\u03c1max(||u\u030cij ||2, \u03b2) + (1\u2212\u2026"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 10
+                            }
+                        ],
+                        "text": "Following Pinto & Cox (2011) we used one comparison function for model selection (square root of absolute difference) and we concatenated four comparison functions for the final \u201cview 2\u201d model evaluation (product, absolute difference, squared difference, square root of absolute difference)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 34
+                            }
+                        ],
+                        "text": "For experiments on LFW, we follow Pinto & Cox (2011) in using the aligned image set, and resizing the gray scale images to 200 \u00d7 200."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 26,
+                                "start": 8
+                            }
+                        ],
+                        "text": "Whereas Pinto & Cox (2011) employed only random uniform filters fk, we include also some of the filter-generation strategies employed in Coates & Ng (2011): namely random projections of ZCA components, and randomly chosen ZCA-filtered image patches."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 85,
+                                "start": 67
+                            }
+                        ],
+                        "text": "Pooling is done either (1) with lpool and lnorm (Equation 4) as in Pinto & Cox (2011), or (2) with spatial summation of positive and negative half-rectified filter bank responses (dihist, Equation 5)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Beyond simple features: A"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2011
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 166,
+                                "start": 158
+                            }
+                        ],
+                        "text": "Our approach yields state of the art results on three disparate computer vision problems: a facematching verification task (LFW), a face identification task (PubFig83) and an object recognition task (CIFAR-10), using a single broad class of feed-forward vision architectures."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Pinto et al. (2011)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 3
+                            }
+                        ],
+                        "text": "On PubFig83, the optimal TPE configuration outperforms the best random configuration found by our random search (86.5% vs 81.0% accurate) and the previous state of the art result (85.2"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 185,
+                                "start": 167
+                            }
+                        ],
+                        "text": "Random search in a large space of biologically-inspired models has been shown to be an effective approach to face verification (Pinto & Cox, 2011) and identification (Pinto et al., 2011)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 120,
+                                "start": 102
+                            }
+                        ],
+                        "text": "Our search space is similar to the one used in those works, so LFW (Huang et al., 2007) and PubFig83 (Pinto et al., 2011) provide fair playing\nfields for comparing TPE with random search."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 111
+                            }
+                        ],
+                        "text": "The PubFig83 data set contains 8300 color images of size 100\u00d7 100, with 100 pictures of each of 83 celebrities (Pinto et al., 2011)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 16,
+                                "start": 8
+                            }
+                        ],
+                        "text": "For our PubFig83 experiments we converted the un-aligned images to gray scale and screened models on the 83-way identification task using 3 splits of 20 train/20 validation examples per class, running two simultaneous TPE optimization processes for a total of 1200 model evaluations."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Scaling - up Biologically - Inspired Computer Vision : A Case - Study on Facebook"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Computer Vision and Pattern Recognition , Workshop on Biologically Consistent Vision"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 166,
+                                "start": 158
+                            }
+                        ],
+                        "text": "Our approach yields state of the art results on three disparate computer vision problems: a facematching verification task (LFW), a face identification task (PubFig83) and an object recognition task (CIFAR-10), using a single broad class of feed-forward vision architectures."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Pinto et al. (2011)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 3
+                            }
+                        ],
+                        "text": "On PubFig83, the optimal TPE configuration outperforms the best random configuration found by our random search (86.5% vs 81.0% accurate) and the previous state of the art result (85.2"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 185,
+                                "start": 167
+                            }
+                        ],
+                        "text": "Random search in a large space of biologically-inspired models has been shown to be an effective approach to face verification (Pinto & Cox, 2011) and identification (Pinto et al., 2011)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 120,
+                                "start": 102
+                            }
+                        ],
+                        "text": "Our search space is similar to the one used in those works, so LFW (Huang et al., 2007) and PubFig83 (Pinto et al., 2011) provide fair playing\nfields for comparing TPE with random search."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 111
+                            }
+                        ],
+                        "text": "The PubFig83 data set contains 8300 color images of size 100\u00d7 100, with 100 pictures of each of 83 celebrities (Pinto et al., 2011)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 16,
+                                "start": 8
+                            }
+                        ],
+                        "text": "For our PubFig83 experiments we converted the un-aligned images to gray scale and screened models on the 83-way identification task using 3 splits of 20 train/20 validation examples per class, running two simultaneous TPE optimization processes for a total of 1200 model evaluations."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Scaling - up BiologicallyInspired Computer Vision : A Case - Study on Facebook"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2011
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The application of Bayesian methods for seeking the extremum"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Towards Global Optimization"
+            },
+            "year": 1978
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 79,
+                                "start": 58
+                            }
+                        ],
+                        "text": "An implementation of the model is available for download (Bergstra et al., 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 238,
+                                "start": 217
+                            }
+                        ],
+                        "text": "Our implementation of these four components is available for download as both a general purpose tool for program optimization and a specific visual system model for new image classification data sets (Bergstra, 2013; Bergstra et al., 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Hyperparameter optimization for convolutional vision architectures"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "https://github.com/jaberg/hyperoptconvnet,"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 224,
+                                "start": 203
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & Ke\u0301gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Surrogating the surrogate: accelerating Gaussian Process optimization with mixtures"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "In ICML,"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 211,
+                                "start": 190
+                            }
+                        ],
+                        "text": "For the smaller training sets we used liblinear via sklearn as the solver(Fan et al., 2008; Pedregosa et al., 2011), for larger ones we used a generic L-BFGS algorithm in the primal domain (Bergstra et al., 2010)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 104,
+                                "start": 81
+                            }
+                        ],
+                        "text": ", 2011), for larger ones we used a generic L-BFGS algorithm in the primal domain (Bergstra et al., 2010)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 122,
+                                "start": 101
+                            }
+                        ],
+                        "text": "Code for these experiments was written in Python, with the feature extraction carried out by Theano (Bergstra et al., 2010) and hyperparameter optimization carried out by the hyperopt package (Bergstra, 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Theano: a CPU and GPU math expression compiler"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "In Proceedings of the Python for Scientific Computing Conference (SciPy),"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 193,
+                                "start": 170
+                            }
+                        ],
+                        "text": "A priori, random search confers some advantages: it is trivially parallel, it is simpler to implement, and the independence of trials supports more interesting analysis (Bergstra & Bengio, 2012)."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Random search for hyperparameter optimization"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Journal of Machine Learning Research,"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 92,
+                                "start": 76
+                            }
+                        ],
+                        "text": ", 2010) and hyperparameter optimization carried out by the hyperopt package (Bergstra, 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 215,
+                                "start": 201
+                            }
+                        ],
+                        "text": "Our implementation of these four components is available for download as both a general purpose tool for program optimization and a specific visual system model for new image classification data sets (Bergstra, 2013; Bergstra et al., 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 207,
+                                "start": 193
+                            }
+                        ],
+                        "text": "Code for these experiments was written in Python, with the feature extraction carried out by Theano (Bergstra et al., 2010) and hyperparameter optimization carried out by the hyperopt package (Bergstra, 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Hyperopt: Distributed asynchronous hyperparameter optimization in Python"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "http://jaberg.github.com/hyperopt,"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 101,
+                                "start": 86
+                            }
+                        ],
+                        "text": "Bayesian optimization approaches have proved useful in these difficult domains (Mockus et al., 1978)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The application of Bayesian methods for seeking the extremum"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 103,
+                                "start": 85
+                            }
+                        ],
+                        "text": "All else being equal, configurations that are cheaper to evaluate should be favored (Snoek et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Practi - cal bayesian optimization of machine learning algorithms"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Information Processing Systems"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 201,
+                                "start": 189
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & Ke\u0301gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 269,
+                                "start": 174
+                            }
+                        ],
+                        "text": "Gaussian processes (Rasmussen & Williams, 2006) have often been used as the probability model, but other regression models such as decision trees have also proved successful (Hutter, 2009; Brochu, 2010; Bardenet & K\u00e9gl, 2010; Hutter et al., 2011; Bergstra et al., 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Interactive Bayesian Optimization: Learning Parameters for Graphics and Animation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PhD thesis,"
+            },
+            "year": 2010
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 18,
+            "methodology": 21,
+            "result": 1
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 37,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Making-a-Science-of-Model-Search:-Hyperparameter-in-Bergstra-Yamins/29935173af73aef20336db72d608e0ef5b0e0c16?sort=total-citations"
+}

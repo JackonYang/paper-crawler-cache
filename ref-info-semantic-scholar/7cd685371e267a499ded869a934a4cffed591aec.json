@@ -1,0 +1,2309 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 1902814,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cd0cbf0ed87ec9947b301a0b48fe60e0d5051cb7",
+            "isKey": false,
+            "numCitedBy": 111,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A common problem in restructuring programs for vector or parallel execution is the suppression of false dependencies which originate in the reuse of the same memory cell for unrelated values. The method is simple and well understood in the case of scalars. This paper gives the general solution for the case of arrays. The expansion is done in two steps: first, modify all definitions of the offending array in order to obtain the single assignment property. Then, reconstruct the original data flow by adapting all uses of the array. This is done with the help of a new algorithm for solving parametric integer programs. The technique is quite general and may be used for other purposes, including program checking, collecting array predicates, etc\u2026"
+            },
+            "slug": "Array-expansion-Feautrier",
+            "title": {
+                "fragments": [],
+                "text": "Array expansion"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "The general solution for the case of arrays of false dependencies is given, which is to modify all definitions of the offending array in order to obtain the single assignment property."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICS '88"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144616193"
+                        ],
+                        "name": "R. Allen",
+                        "slug": "R.-Allen",
+                        "structuredName": {
+                            "firstName": "Randy",
+                            "lastName": "Allen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Allen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "70455556"
+                        ],
+                        "name": "K. Kennedy",
+                        "slug": "K.-Kennedy",
+                        "structuredName": {
+                            "firstName": "Ken",
+                            "lastName": "Kennedy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kennedy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 3102993,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f3d2ab514353cb80c2ea6504f05374d4549b26c6",
+            "isKey": false,
+            "numCitedBy": 57,
+            "numCiting": 56,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Parallel and vector machines are becoming increasingly important to many computation intensive applications. Effectively utilizing such architectures, particularly from sequential languages such as Fortran, has demanded increasingly sophisticated compilers. In general, a compiler needs to significantly reorder a program in order to generate code optimal for a specific architecture.Because DO loops typically control the execution of a number of statements, the order in which loops are executed can dramatically affect the performance of a machine on a particular section of code. In particular, loop interchange can often be used to enhance the performance of code on parallel or vector machines.Determining when loops may be safely and profitably interchanged requires a study of the data dependences in the program. This work discusses specific applications of that theory to loop interchange. This theory is described as it has been implemented in PFC (Parallel Fortran Converter) -- a program which attempts to uncover operations in sequential Fortran code that may be safely rewritten as vector operations."
+            },
+            "slug": "Automatic-loop-interchange-Allen-Kennedy",
+            "title": {
+                "fragments": [],
+                "text": "Automatic loop interchange"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Specific applications of that theory to loop interchange are discussed as it has been implemented in PFC (Parallel Fortran Converter) -- a program which attempts to uncover operations in sequential Fortran code that may be safely rewritten as vector operations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGP"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50073003"
+                        ],
+                        "name": "M. Wolfe",
+                        "slug": "M.-Wolfe",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Wolfe",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wolfe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145811910"
+                        ],
+                        "name": "U. Banerjee",
+                        "slug": "U.-Banerjee",
+                        "structuredName": {
+                            "firstName": "Utpal",
+                            "lastName": "Banerjee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "U. Banerjee"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 24894676,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9ab3e947a4558288fb8687f1495cde78a6939b8b",
+            "isKey": false,
+            "numCitedBy": 60,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Data dependence testing is required to detect parallelism in programs. In this paper data dependence concepts and data dependence direction vectors are reviewed. Data dependence computation in parallel and vector constructs as well as serialdo loops is covered. Several transformations that require data dependence are given as examples, such as vectorization (translating serial code into vector code), concurrentization (translating serial code into concurrent code for multiprocessors), scalarization (translating vector or concurrent code into serial code for a scalar uniprocessor), loop interchanging and loop fusion. The details of data dependence testing including several data dependence decision algorithms are given."
+            },
+            "slug": "Data-dependence-and-its-application-to-parallel-Wolfe-Banerjee",
+            "title": {
+                "fragments": [],
+                "text": "Data dependence and its application to parallel processing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 54,
+                "text": "In this paper data dependence concepts and data dependence direction vectors are reviewed and several data dependence decision algorithms are given."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal of Parallel Programming"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144979187"
+                        ],
+                        "name": "M. Beck",
+                        "slug": "M.-Beck",
+                        "structuredName": {
+                            "firstName": "Micah",
+                            "lastName": "Beck",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Beck"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2157207880"
+                        ],
+                        "name": "Richard Johnson",
+                        "slug": "Richard-Johnson",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Johnson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Richard Johnson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1776186"
+                        ],
+                        "name": "K. Pingali",
+                        "slug": "K.-Pingali",
+                        "structuredName": {
+                            "firstName": "Keshav",
+                            "lastName": "Pingali",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Pingali"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1354743,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6025b073281e4eda64900ebb43378ff84b2a90c5",
+            "isKey": false,
+            "numCitedBy": 74,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "From-Control-Flow-to-Dataflow-Beck-Johnson",
+            "title": {
+                "fragments": [],
+                "text": "From Control Flow to Dataflow"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Parallel Distributed Comput."
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "69048861"
+                        ],
+                        "name": "R. Cytron",
+                        "slug": "R.-Cytron",
+                        "structuredName": {
+                            "firstName": "Ronald",
+                            "lastName": "Cytron",
+                            "middleNames": [
+                                "Gary"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Cytron"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144704592"
+                        ],
+                        "name": "J. Ferrante",
+                        "slug": "J.-Ferrante",
+                        "structuredName": {
+                            "firstName": "Jeanne",
+                            "lastName": "Ferrante",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Ferrante"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1685689"
+                        ],
+                        "name": "B. Rosen",
+                        "slug": "B.-Rosen",
+                        "structuredName": {
+                            "firstName": "Barry",
+                            "lastName": "Rosen",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Rosen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36114502"
+                        ],
+                        "name": "M. Wegman",
+                        "slug": "M.-Wegman",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Wegman",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wegman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2386609"
+                        ],
+                        "name": "F. K. Zadeck",
+                        "slug": "F.-K.-Zadeck",
+                        "structuredName": {
+                            "firstName": "F.",
+                            "lastName": "Zadeck",
+                            "middleNames": [
+                                "Kenneth"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. K. Zadeck"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8301431,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "effed4c75ca3595841fa951a2005287859a743eb",
+            "isKey": false,
+            "numCitedBy": 478,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In optimizing compilers, data structure choices directly influence the power and efficiency of practical program optimization. A poor choice of data structure can inhibit optimization or slow compilation to the point where advanced optimization features become undesirable. Recently, static single assignment form and the control dependence graph have been proposed to represent data flow and control flow properties of programs. Each of these previously unrelated techniques lends efficiency and power to a useful class of program optimizations. Although both of these structures are attractive, the difficulty of their construction and their potential size have discouraged their use. We present a new algorithm that efficiently computes these data structures for arbitrary control flow graph We also give analytical and experimental evidence that they are usually {\\em linear} in the size of the original program. This paper thus presents strong evidence that these structures can be of {\\em practical} use in optimization."
+            },
+            "slug": "An-efficient-method-of-computing-static-single-form-Cytron-Ferrante",
+            "title": {
+                "fragments": [],
+                "text": "An efficient method of computing static single assignment form"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper presents strong evidence that static single assignment form and the control dependence graph can be of practical use in optimization, and presents a new algorithm that efficiently computes these data structures for arbitrary control flow graph."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '89"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34898274"
+                        ],
+                        "name": "B. Baker",
+                        "slug": "B.-Baker",
+                        "structuredName": {
+                            "firstName": "Brenda",
+                            "lastName": "Baker",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Baker"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 28162076,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6a1ebd289d8a3312870e02dadeb23d76c44529bd",
+            "isKey": false,
+            "numCitedBy": 108,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes an algorithm which transforms a flowgraph into a program containing control constructs such as if then else statements, repeat (do forever) statements, multilevel break statements (causing jumps out of enclosing repeats), and multilevel next statements (causing jumps to iterations of enclosing repeats). The algorithm can be extended to create other types of control constructs, such as while or until. The program appears natural because the constructs are used according to common programming practices. The algorithm does not copy code, create subroutines, or add new variables. Instead, goto statements are generated when no other available control construct describes the flow of control. The algorithm has been implemented in a program called STRUCT which rewrites Fortran programs using constructs such as while, repeat, and if then else statements. The resulting programs are substantially more readable than their Fortran counterparts."
+            },
+            "slug": "An-Algorithm-for-Structuring-Flowgraphs-Baker",
+            "title": {
+                "fragments": [],
+                "text": "An Algorithm for Structuring Flowgraphs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 77,
+                "text": "An algorithm which transforms a flowgraph into a program containing control constructs such as if then else statements, repeat (do forever) statements, multileVEL break statements, and multilevel next statements, which is substantially more readable than their Fortran counterparts."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. ACM"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1768785"
+                        ],
+                        "name": "W. Wadge",
+                        "slug": "W.-Wadge",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Wadge",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Wadge"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2629665"
+                        ],
+                        "name": "E. Ashcroft",
+                        "slug": "E.-Ashcroft",
+                        "structuredName": {
+                            "firstName": "Edward",
+                            "lastName": "Ashcroft",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Ashcroft"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 58265579,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d9f1ac9c46a94408c8ed9bee7d3ac984ac27ee8b",
+            "isKey": false,
+            "numCitedBy": 73,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "LUCID is a new dataflow language. It was designed to exploit the capabilities of the coming generation of supercomputers - multi-processor ''dataflow'' machines which are (potentially) hundreds or thousands of times more powerful than conventional, single-processor ''von Neumann'' machines and which need languages in which highly parallel algorithms can be easily expressed. LUCID is a functional language, but one which supports variables, i.e., values which change with time. LUCID programmers can therefore use iteration (repetition) as well as recursion. The statements of a LUCID program are equations which can be thought of as defining a network of processors and communication lines. LUCID's dataflow approach to programming has more in common with that of the UNIX (TM) shell, with its filters and pipelines, than with the imperative, one-step-at-a-time approach of a conventional language like C or PASCAL. The primary objective of this book is to prove that Dataflow is a real alternative to sequential/imperative computing, and that dataflow algorithms can be expressed naturally and concisely in LUCID."
+            },
+            "slug": "LUCID:-The-data-flow-programming-language-Wadge-Ashcroft",
+            "title": {
+                "fragments": [],
+                "text": "LUCID: The data flow programming language"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The primary objective of this book is to prove that Dataflow is a real alternative to sequential/imperative computing, and that dataflow algorithms can be expressed naturally and concisely in LUCID."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1985
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2913872"
+                        ],
+                        "name": "P. Jouvelot",
+                        "slug": "P.-Jouvelot",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Jouvelot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Jouvelot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1689479"
+                        ],
+                        "name": "B. Dehbonei",
+                        "slug": "B.-Dehbonei",
+                        "structuredName": {
+                            "firstName": "Babak",
+                            "lastName": "Dehbonei",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Dehbonei"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16138312,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f2cb17330b421134a243fc1d93110c8b58d2a259",
+            "isKey": false,
+            "numCitedBy": 40,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Generalized reductions include some of the most well known programming idioms, for instance loop invariant variables, induction variables and reduction operations. We propose a unified framework that allows the detection of these paradigms and thus the efficient parallel implementation of programs that use these otherwise parallel-inhibiting constructs. Moreover, using a semantic-based symbolic evaluator, this technique is able to detect parallelizable constructs inside standard benchmarks that no other vectorizer or parallelizer can currently handle. An interesting by-product of our approach is that correctness proofs can be based on the sound and powerful abstract interpretation theory. This method has been implemented in the Velour vectorizer under current development at the Bull Research Center."
+            },
+            "slug": "A-unified-semantic-approach-for-the-vectorization-Jouvelot-Dehbonei",
+            "title": {
+                "fragments": [],
+                "text": "A unified semantic approach for the vectorization and parallelization of generalized reductions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A unified framework that allows the detection of these paradigms and thus the efficient parallel implementation of programs that use these otherwise parallel-inhibiting constructs is proposed, using a semantic-based symbolic evaluator."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICS '89"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144022269"
+                        ],
+                        "name": "W. Pugh",
+                        "slug": "W.-Pugh",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Pugh",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Pugh"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14351145,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "01f2893273d7e26dc38dea1069eea7f7314451f6",
+            "isKey": false,
+            "numCitedBy": 90,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many different kinds of loop transformations have been described, such as loop interchange, loop skewing and loop fusion. Each transformation requires its own particular set of dependence analysis tests and paraltelizing a section of code may require perforfig a series of transformations. The only way to decide if there is a way of parallelizing a section of code is to try all possible sequences of transformations, which presents a difficult search problem. We present a uniform method of performing loop optimization. Rather than optimizing a program by performing a murky search through a series of transformations, our method considers a very powerful class of program transformations that includes any transformation that also can be obtained by any sequence of standard loop transformations. This optimization technique uniformly encompasses the effects of parallelization, loop fusion, loop splitting, loop interchange, loop skewing and statement reordering, as well as transformations not previously described. Thus, we only need to perform one program transformation. We show that standard techniques for representing dependencies (dependence directions and dependence distances) are insufficient for this type of optimization and describe a more powerful technique, dependence relations, that have sufficient descriptive power."
+            },
+            "slug": "Uniform-techniques-for-loop-optimization-Pugh",
+            "title": {
+                "fragments": [],
+                "text": "Uniform techniques for loop optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "It is shown that standard techniques for representing dependencies (dependence directions and dependence distances) are insufficient for this type of optimization and described a more powerful technique, dependence relations, that have sufficient descriptive power."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICS '91"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1895532"
+                        ],
+                        "name": "L. Tesler",
+                        "slug": "L.-Tesler",
+                        "structuredName": {
+                            "firstName": "Lawrence",
+                            "lastName": "Tesler",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Tesler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1962099"
+                        ],
+                        "name": "H. Enea",
+                        "slug": "H.-Enea",
+                        "structuredName": {
+                            "firstName": "Horace",
+                            "lastName": "Enea",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Enea"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 31923343,
+            "fieldsOfStudy": [
+                "Linguistics"
+            ],
+            "id": "f5cff704fec71c6dd6cc2bda59a00186c360ea03",
+            "isKey": false,
+            "numCitedBy": 85,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In conventional programming languages, the sequence of execution is specified by rules such as:\n (1) The statement \"GO TO L\" is followed by the statement labelled \"L\" (Branching rule).\n (2) The last statement in the range of an iteration is followed, under certain conditions, by the first statement in the range (Looping rule).\n (3) The last statement of a subroutine is followed by the statement immediately after its CALL (Out-of-line code rule).\n ... (Other rules)\n (n) In other cases, each statement is followed by the statement immediately after it (Order rule)."
+            },
+            "slug": "A-language-design-for-concurrent-processes-Tesler-Enea",
+            "title": {
+                "fragments": [],
+                "text": "A language design for concurrent processes"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 99,
+                "text": "In conventional programming languages, the sequence of execution is specified by rules such as: The statement \"GO TO L\" is followed by the statement labelled \"L\" (Branching rule)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AFIPS '68 (Spring)"
+            },
+            "year": 1968
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144616193"
+                        ],
+                        "name": "R. Allen",
+                        "slug": "R.-Allen",
+                        "structuredName": {
+                            "firstName": "Randy",
+                            "lastName": "Allen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Allen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "70455556"
+                        ],
+                        "name": "K. Kennedy",
+                        "slug": "K.-Kennedy",
+                        "structuredName": {
+                            "firstName": "Ken",
+                            "lastName": "Kennedy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kennedy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 13978052,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e8ddfb7574926d50b75937424ff907b53d264ca6",
+            "isKey": false,
+            "numCitedBy": 824,
+            "numCiting": 53,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The recent success of vector computers such as the Cray-1 and array processors such as those manufactured by Floating Point Systems has increased interest in making vector operations available to the FORTRAN programmer. The FORTRAN standards committee is currently considering a successor to FORTRAN 77, usually called FORTRAN 8x, that will permit the programmer to explicitly specify vector and array operations.\nAlthough FORTRAN 8x will make it convenient to specify explicit vector operations in new programs, it does little for existing code. In order to benefit from the power of vector hardware, existing programs will need to be rewritten in some language (presumably FORTRAN 8x) that permits the explicit specification of vector operations. One way to avoid a massive manual recoding effort is to provide a translator that discovers the parallelism implicit in a FORTRAN program and automatically rewrites that program in FORTRAN 8x.\nSuch a translation from FORTRAN to FORTRAN 8x is not straightforward because FORTRAN DO loops are not always semantically equivalent to the corresponding FORTRAN 8x parallel operation. The semantic difference between these two constructs is precisely captured by the concept of dependence. A translation from FORTRAN to FORTRAN 8x preserves the semantics of the original program if it preserves the dependences in that program.\nThe theoretical background is developed here for employing data dependence to convert FORTRAN programs to parallel form. Dependence is defined and characterized in terms of the conditions that give rise to it; accurate tests to determine dependence are presented; and transformations that use dependence to uncover additional parallelism are discussed."
+            },
+            "slug": "Automatic-translation-of-FORTRAN-programs-to-vector-Allen-Kennedy",
+            "title": {
+                "fragments": [],
+                "text": "Automatic translation of FORTRAN programs to vector form"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The theoretical background is developed here for employing data dependence to convert FORTRAN programs to parallel form and transformations that use dependence to uncover additional parallelism are discussed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TOPL"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35157982"
+                        ],
+                        "name": "L. Lu",
+                        "slug": "L.-Lu",
+                        "structuredName": {
+                            "firstName": "Lee-Chung",
+                            "lastName": "Lu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Lu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 7326508,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "21f2e87d1cb7a9a52d90ae7b5533d83849e36881",
+            "isKey": false,
+            "numCitedBy": 33,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Abstract : This paper presents a formal mathematical framework which unifies the existing loop transformations. This framework also includes more general classes of loop transformations, which can extract more parallelism from a class of programs than the existing techniques. We classify schedules into three classes: uniform, subdomain-variant, and statement-variant. Viewing from the degree of parallelism to be gained by loop transformation, the schedules can also be classified as single-sequential level, multiple-sequential level, and mixed schedules. We also illustrate the usefulness of the more general loop transformation with an example program."
+            },
+            "slug": "A-unified-framework-for-systematic-loop-Lu",
+            "title": {
+                "fragments": [],
+                "text": "A unified framework for systematic loop transformations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 89,
+                "text": "This paper presents a formal mathematical framework which unifies the existing loop transformations and includes more general classes of loop transformations, which can extract more parallelism from a class of programs than the existing techniques."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PPOPP '91"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2912411"
+                        ],
+                        "name": "F. Irigoin",
+                        "slug": "F.-Irigoin",
+                        "structuredName": {
+                            "firstName": "Fran\u00e7ois",
+                            "lastName": "Irigoin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Irigoin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3317184"
+                        ],
+                        "name": "R. Triolet",
+                        "slug": "R.-Triolet",
+                        "structuredName": {
+                            "firstName": "R\u00e9mi",
+                            "lastName": "Triolet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Triolet"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2980454,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "38747b103e631e1a3800a0f4aed496d1bf8fb82f",
+            "isKey": false,
+            "numCitedBy": 584,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Supercompilers must reschedule computations defined by nested DO-loops in order to make an efficient use of supercomputer features (vector units, multiple elementary processors, cache memory, etc\u2026). Many rescheduling techniques like loop interchange, loop strip-mining or rectangular partitioning have been described to speedup program execution. We present here a class of partitionings that encompasses previous techniques and provides enough flexibility to adapt code to multiprocessors with two levels of parallelism and two levels of memory."
+            },
+            "slug": "Supernode-partitioning-Irigoin-Triolet",
+            "title": {
+                "fragments": [],
+                "text": "Supernode partitioning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A class of partitionings is presented that encompasses previous techniques and provides enough flexibility to adapt code to multiprocessors with two levels of parallelism and two level of memory."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '88"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143857033"
+                        ],
+                        "name": "T. Brandes",
+                        "slug": "T.-Brandes",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Brandes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Brandes"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 29244971,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f90929e977ed9af9bc64d62778d1dcf2a100fe6a",
+            "isKey": false,
+            "numCitedBy": 31,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "For the automatic vectorization and concurrentization of Fortran- or Pascal-like programs the dependencies have to be determined and to be observed with every transformation. The full dependence relation is a transitive relation. Direct dependencies are defined as such dependencies that cannot be represented transitively by other dependencies.\nIt will be shown that information about the direct dependencies is useful for renaming and expansion of structured variables. Indeed, many other transformations that are applied for automatic parallelization and program restructuring can be extended in this way. Though some extensions have already been made by other authors, with the concept of direct dependencies a uniform theoretical background for all these transformations is given.\nAs most known dependence tests do not give information about direct dependencies, it is also explained how to determine direct dependencies."
+            },
+            "slug": "The-importance-of-direct-dependences-for-automatic-Brandes",
+            "title": {
+                "fragments": [],
+                "text": "The importance of direct dependences for automatic parallelization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "It will be shown that information about the direct dependencies is useful for renaming and expansion of structured variables and many other transformations that are applied for automatic parallelization and program restructuring can be extended in this way."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICS '88"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1679622"
+                        ],
+                        "name": "L. Lamport",
+                        "slug": "L.-Lamport",
+                        "structuredName": {
+                            "firstName": "Leslie",
+                            "lastName": "Lamport",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Lamport"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 7407863,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f8303a66826d531ec126d69cb3e4346d7d3aba68",
+            "isKey": false,
+            "numCitedBy": 707,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Methods are developed for the parallel execution of different iterations of a DO loop. Both asynchronous multiprocessor computers and array computers are considered. Practical application to the design of compilers for such computers is discussed."
+            },
+            "slug": "The-parallel-execution-of-DO-loops-Lamport",
+            "title": {
+                "fragments": [],
+                "text": "The parallel execution of DO loops"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 72,
+                "text": "Methods are developed for the parallel execution of different iterations of a DO loop and practical application to the design of compilers for such computers is discussed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 1974
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 17754865,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "94db9b5d42d8c77af57bdd44fc53d2949e90464e",
+            "isKey": false,
+            "numCitedBy": 11,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper gives a general method for the construction of parallel algorithms. Starting from a conventional sequential program, one rst constructs a timing function, i.e. a schedule for a paracomputer. It is shown that the ratio of the maximum value of the timing function to the total operation count is a good measure of the degree of parallelism in the original algorithm. In particular, if this ratio tends to zero when the operation count grows large, then there is an asymptotically eecient parallel version of the original algorithm. This implementation is shown to be surprisingly robust in the face of variations, random and otherwise, of the operation execution times. The technique may be used as the starting point of the construction of programs for all kinds of parallel computers: vector, synchronous, asynchronous and distributed architectures."
+            },
+            "slug": "Asymptotically-Efficient-Algorithms-for-Parallel-Feautrier",
+            "title": {
+                "fragments": [],
+                "text": "Asymptotically Efficient Algorithms for Parallel Architectures"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 76,
+                "text": "This paper gives a general method for the construction of parallel algorithms, starting from a conventional sequential program, and shows that the ratio of the maximum value of the timing function to the total operation count is a good measure of the degree of parallelism in the original algorithm."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1715952"
+                        ],
+                        "name": "A. Aho",
+                        "slug": "A.-Aho",
+                        "structuredName": {
+                            "firstName": "Alfred",
+                            "lastName": "Aho",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144281449"
+                        ],
+                        "name": "R. Sethi",
+                        "slug": "R.-Sethi",
+                        "structuredName": {
+                            "firstName": "Ravi",
+                            "lastName": "Sethi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Sethi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1742391"
+                        ],
+                        "name": "J. Ullman",
+                        "slug": "J.-Ullman",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Ullman",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Ullman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 42981739,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b7f33d55d94e75a554251fe7dc07f1d7b4db8e1a",
+            "isKey": false,
+            "numCitedBy": 9135,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "1 Introduction 1.1 Language Processors 1.2 The Structure of a Compiler 1.3 The Evolution of Programming Languages 1.4 The Science of Building a Compiler 1.5 Applications of Compiler Technology 1.6 Programming Language Basics 1.7 Summary of Chapter 1 1.8 References for Chapter 1 2 A Simple Syntax-Directed Translator 2.1 Introduction 2.2 Syntax Definition 2.3 Syntax-Directed Translation 2.4 Parsing 2.5 A Translator for Simple Expressions 2.6 Lexical Analysis 2.7 Symbol Tables 2.8 Intermediate Code Generation 2.9 Summary of Chapter 2 3 Lexical Analysis 3.1 The Role of the Lexical Analyzer 3.2 Input Buffering 3.3 Specification of Tokens 3.4 Recognition of Tokens 3.5 The Lexical-Analyzer Generator Lex 3.6 Finite Automata 3.7 From Regular Expressions to Automata 3.8 Design of a Lexical-Analyzer Generator 3.9 Optimization of DFA-Based Pattern Matchers 3.10 Summary of Chapter 3 3.11 References for Chapter 3 4 Syntax Analysis 4.1 Introduction 4.2 Context-Free Grammars 4.3 Writing a Grammar 4.4 Top-Down Parsing 4.5 Bottom-Up Parsing 4.6 Introduction to LR Parsing: Simple LR 4.7 More Powerful LR Parsers 4.8 Using Ambiguous Grammars 4.9 Parser Generators 4.10 Summary of Chapter 4 4.11 References for Chapter 4 5 Syntax-Directed Translation 5.1 Syntax-Directed Definitions 5.2 Evaluation Orders for SDD's 5.3 Applications of Syntax-Directed Translation 5.4 Syntax-Directed Translation Schemes 5.5 Implementing L-Attributed SDD's 5.6 Summary of Chapter 5 5.7 References for Chapter 5 6 Intermediate-Code Generation 6.1 Variants of Syntax Trees 6.2 Three-Address Code 6.3 Types and Declarations 6.4 Translation of Expressions 6.5 Type Checking 6.6 Control Flow 6.7 Backpatching 6.8 Switch-Statements 6.9 Intermediate Code for Procedures 6.10 Summary of Chapter 6 6.11 References for Chapter 6 7 Run-Time Environments 7.1 Storage Organization 7.2 Stack Allocation of Space 7.3 Access to Nonlocal Data on the Stack 7.4 Heap Management 7.5 Introduction to Garbage Collection 7.6 Introduction to Trace-Based Collection 7.7 Short-Pause Garbage Collection 7.8 Advanced Topics in Garbage Collection 7.9 Summary of Chapter 7 7.10 References for Chapter 7 8 Code Generation 8.1 Issues in the Design of a Code Generator 8.2 The Target Language 8.3 Addresses in the Target Code 8.4 Basic Blocks and Flow Graphs 8.5 Optimization of Basic Blocks 8.6 A Simple Code Generator 8.7 Peephole Optimization 8.8 Register Allocation and Assignment 8.9 Instruction Selection by Tree Rewriting 8.10 Optimal Code Generation for Expressions 8.11 Dynamic Programming Code-Generation 8.12 Summary of Chapter 8 8.13 References for Chapter 8 9 Machine-Independent Optimizations 9.1 The Principal Sources of Optimization 9.2 Introduction to Data-Flow Analysis 9.3 Foundations of Data-Flow Analysis 9.4 Constant Propagation 9.5 Partial-Redundancy Elimination 9.6 Loops in Flow Graphs 9.7 Region-Based Analysis 9.8 Symbolic Analysis 9.9 Summary of Chapter 9 9.10 References for Chapter 9 10 Instruction-Level Parallelism 10.1 Processor Architectures 10.2 Code-Scheduling Constraints 10.3 Basic-Block Scheduling 10.4 Global Code Scheduling 10.5 Software Pipelining 10.6 Summary of Chapter 10 10.7 References for Chapter 10 11 Optimizing for Parallelism and Locality 11.1 Basic Concepts 11.2 Matrix Multiply: An In-Depth Example 11.3 Iteration Spaces 11.4 Affine Array Indexes 11.5 Data Reuse 11.6 Array Data-Dependence Analysis 11.7 Finding Synchronization-Free Parallelism 11.8 Synchronization Between Parallel Loops 11.9 Pipelining 11.10 Locality Optimizations 11.11 Other Uses of Affine Transforms 11.12 Summary of Chapter 11 11.13 References for Chapter 11 12 Interprocedural Analysis 12.1 Basic Concepts 12.2 Why Interprocedural Analysis? 12.3 A Logical Representation of Data Flow 12.4 A Simple Pointer-Analysis Algorithm 12.5 Context-Insensitive Interprocedural Analysis 12.6 Context-Sensitive Pointer Analysis 12.7 Datalog Implementation by BDD's 12.8 Summary of Chapter 12 12.9 References for Chapter 12 A A Complete Front End A.1 The Source Language A.2 Main A.3 Lexical Analyzer A.4 Symbol Tables and Types A.5 Intermediate Code for Expressions A.6 Jumping Code for Boolean Expressions A.7 Intermediate Code for Statements A.8 Parser A.9 Creating the Front End B Finding Linearly Independent Solutions Index"
+            },
+            "slug": "Compilers:-Principles,-Techniques,-and-Tools-Aho-Sethi",
+            "title": {
+                "fragments": [],
+                "text": "Compilers: Principles, Techniques, and Tools"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 37,
+                "text": "This book discusses the design of a Code Generator, the role of the Lexical Analyzer, and other topics related to code generation and optimization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Addison-Wesley series in computer science / World student series edition"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1729097"
+                        ],
+                        "name": "D. Padua",
+                        "slug": "D.-Padua",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Padua",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Padua"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50073003"
+                        ],
+                        "name": "M. Wolfe",
+                        "slug": "M.-Wolfe",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Wolfe",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wolfe"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 16351316,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4a7bbb5718449555f63eb45a1ab2c71fd212a75c",
+            "isKey": false,
+            "numCitedBy": 769,
+            "numCiting": 67,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Compilers for vector or multiprocessor computers must have certain optimization features to successfully generate parallel code."
+            },
+            "slug": "Advanced-compiler-optimizations-for-supercomputers-Padua-Wolfe",
+            "title": {
+                "fragments": [],
+                "text": "Advanced compiler optimizations for supercomputers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 87,
+                "text": "Compilers for vector or multiprocessor computers must have certain optimization features to successfully generate parallel code to be able to operate on parallel systems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838186"
+                        ],
+                        "name": "P. Feautrier",
+                        "slug": "P.-Feautrier",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Feautrier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Feautrier"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 58913364,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "d6613b9ca5b21506b56b004be7593d9d40fb84da",
+            "isKey": false,
+            "numCitedBy": 472,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "L'analyse semantique des programmes informatiques conduit a la resolution de problemes de programmation parametrique entiere. L'article s'est ainsi consacre a la construction d'un algorithme de ce type"
+            },
+            "slug": "Parametric-integer-programming-Feautrier",
+            "title": {
+                "fragments": [],
+                "text": "Parametric integer programming"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143759604"
+                        ],
+                        "name": "K. Bowyer",
+                        "slug": "K.-Bowyer",
+                        "structuredName": {
+                            "firstName": "K.",
+                            "lastName": "Bowyer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Bowyer"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 35251851,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "65a63a0ffe4ceccf485fa76af427d6ed06bdd2af",
+            "isKey": false,
+            "numCitedBy": 20,
+            "numCiting": 1,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Any textbook with this title, authored by a researcher of Kuck' s stature, cannot help but generate a great deal of interest. It is apparently to be the first of a two-volume work, resulting, according to the acknowledgments, from I0 years of class notes for an advanced course taught at the University of Illinois. The book has a definite 'theoretical', as opposed to 'practical', flavor. The phrase \"structure of computers\" in the title may even be a bit misleading for some persons. The subject of computer architecture, in the architecture / implementation / realization sense of Blaauw, Brooks, and others is never really addressed. Nor is there any comprehensive coverage of a variety of specific computer systems, as in Bell & Newell's Computing Structures. Rather, the book concentrates on those aspects of computers and computations which can be abstracted, generalized, and possibly analyzed for some measure of optimality. Thus, the book is really not centered directly on \"computer architecture\" or \"computer systems organization\", but more nearly on \"analysis of computing structures\". The material covered is definitely at the advanced undergraduate / graduate level, and there is more here than would generally be covered in one semester. Extensive references to the literature are used to support the concepts introduced. Two sections of problems, grouped under \"easy\" and \"medium and hard\", are provided at the end of each chapter, and are ordered according to the presentation of the material. The printing quality is above average, with only two or three minor typos and one garbled sentence in the nearly six hundred pages of text. The book is organized into the following chapter headings and major subsections -"
+            },
+            "slug": "Book-review-of-The-structure-of-computers-and-one-&-Bowyer",
+            "title": {
+                "fragments": [],
+                "text": "Book review of The structure of computers and computations: volume one by David J. Kuck. John Wiley & Sons 1978."
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The material covered is definitely at the advanced undergraduate / graduate level, and there is more here than would generally be covered in one semester, and extensive references to the literature are used to support the concepts introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CARN"
+            },
+            "year": 1979
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2095126034"
+                        ],
+                        "name": "Zahira Ammarguellat",
+                        "slug": "Zahira-Ammarguellat",
+                        "structuredName": {
+                            "firstName": "Zahira",
+                            "lastName": "Ammarguellat",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zahira Ammarguellat"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 59653514,
+            "fieldsOfStudy": [
+                "Political Science"
+            ],
+            "id": "ef34c2ed6eff5bcb7fb73185ca8c3784c23df41b",
+            "isKey": false,
+            "numCitedBy": 7,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "La phase preliminaire de restructuration proposee consiste a transformer les programmes de sorte qu'ils n'utilisent que des if, while et affectations. Ces while pouvant representer des boucles do cachees, une phase de standardisation des listes d'indices de boucles est necessaire"
+            },
+            "slug": "Restructuration-des-programmes-fortran-en-vue-de-Ammarguellat",
+            "title": {
+                "fragments": [],
+                "text": "Restructuration des programmes fortran en vue de leur parallelisation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34898274"
+                        ],
+                        "name": "B. Baker",
+                        "slug": "B.-Baker",
+                        "structuredName": {
+                            "firstName": "Brenda",
+                            "lastName": "Baker",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Baker"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 208947544,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3de78994c70db6526b05e5c0261baf1723f7f685",
+            "isKey": false,
+            "numCitedBy": 7,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "An-Algorithm-for-Structuring-Programs.-Baker",
+            "title": {
+                "fragments": [],
+                "text": "An Algorithm for Structuring Programs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1976
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1894669"
+                        ],
+                        "name": "J. Arsac",
+                        "slug": "J.-Arsac",
+                        "structuredName": {
+                            "firstName": "Jacques",
+                            "lastName": "Arsac",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Arsac"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 61039567,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6a066be14901d872bce8c68f5caca540278d8279",
+            "isKey": false,
+            "numCitedBy": 31,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "La-construction-de-programmes-structur\u00e9s-Arsac",
+            "title": {
+                "fragments": [],
+                "text": "La construction de programmes structur\u00e9s"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1977
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "69998330"
+                        ],
+                        "name": "D. L. Kuck",
+                        "slug": "D.-L.-Kuck",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Kuck",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. L. Kuck"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 60827809,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e06ad6164946b5593727f43456b35e343d2c694e",
+            "isKey": false,
+            "numCitedBy": 533,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "The-Structure-of-Computers-and-Computations-Kuck",
+            "title": {
+                "fragments": [],
+                "text": "The Structure of Computers and Computations"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1978
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2111638949"
+                        ],
+                        "name": "Zhiyu Shen",
+                        "slug": "Zhiyu-Shen",
+                        "structuredName": {
+                            "firstName": "Zhiyu",
+                            "lastName": "Shen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhiyu Shen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109822007"
+                        ],
+                        "name": "Zhiyuan Li",
+                        "slug": "Zhiyuan-Li",
+                        "structuredName": {
+                            "firstName": "Zhiyuan",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhiyuan Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699961"
+                        ],
+                        "name": "P. Yew",
+                        "slug": "P.-Yew",
+                        "structuredName": {
+                            "firstName": "P.",
+                            "lastName": "Yew",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Yew"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 41415053,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "14b85671b134f37ef9c07e5044d4a4bee16a6dc6",
+            "isKey": false,
+            "numCitedBy": 107,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "An-Empirical-Study-on-Array-Subscripts-and-Data-Shen-Li",
+            "title": {
+                "fragments": [],
+                "text": "An Empirical Study on Array Subscripts and Data Dependencies"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICPP"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Wolfe and Utpal Banerjee , Data dependence and its application to paralJcJ processing ,"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IJPP"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Parametric integer programming, RAIRO Rcchcr~'he Op~;ratiomlelh"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1988
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Pipelining, parallelism and asynchronism in the LAU system"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Int. Conf. on Parallel Processing"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Mapping recurrences on parallel architectures, 3rd IntL Con./"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1988
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Advanced compiler optimization for supercomputers"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "PAl\": un parallt31iscur automatiquc pour FORTRAN"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Technical Report 185,"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "La construction de programmes structurOs, Dunod, Paris"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "3 1 is the vector all of whose components are 1"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "3 1 is the vector all of whose components are 1"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Lucid, the Data--ow Programming Language"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Lucid, the Data--ow Programming Language"
+            },
+            "year": 1985
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Advanced compiler optimization for supercomputers, ('A('M~"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1986
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Mapping recurrences on parallel architectures"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "3rd Int. Conf. on Supercomputing"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Veriication decidability of Pressburger array programs"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Procs. of a conf. on TCS"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "From control ow to dataaow"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Journal of Parallel and Distributed Computing"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The importance of direct dependences fi)r automatic parallelization, ACM Int7"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Conf on Supercomputing,"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Verilication decidability of Pressburger array programs, Proes"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "r Cons on TCS,"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Normalization of Program ('ontrol I\"low"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Technical Report 885,"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Verilication decidability of Pressburger array programs"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proes. r Cons on TCS"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Baker , An algorithm for structuring programs"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J . o / the Af ' M"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "An empirical study tm array subscripls and data dependencies, lnl'l"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Con/'. on Parallel Processing,"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Normalization of Program Control Flow"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Normalization of Program Control Flow"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "PAF : un parall eliseur automatique pour FORTRAN"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PAF : un parall eliseur automatique pour FORTRAN"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Supernode partitioning, San I)iego, Califi~rnia, Prm'. 15th POPL"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Data dependence and its application to paralJcJ processing, IJPP"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1987
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "A unified semantic approach for the veclorization and parallelization of generalized reductions, ACM Press, I'roc,~'. o l t h c 3rd Int'l"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "('tm/~ on Supercomputing,"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "La construction de programmes structur es"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "La construction de programmes structur es"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Compilers: Principh's, Techniques and 7'ools, Addison-Wesley"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1986
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Restructuralion des programmes I,()RTRAN en vue de leur parallhlisation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Ph.D. thesis,"
+            },
+            "year": 1988
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {},
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 52,
+        "totalPages": 6
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Dataflow-analysis-of-array-and-scalar-references-Feautrier/7cd685371e267a499ded869a934a4cffed591aec?sort=total-citations"
+}

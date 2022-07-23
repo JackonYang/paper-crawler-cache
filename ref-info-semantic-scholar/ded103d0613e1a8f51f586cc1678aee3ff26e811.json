@@ -1,0 +1,4337 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145704247"
+                        ],
+                        "name": "James Martens",
+                        "slug": "James-Martens",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Martens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James Martens"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 9153163,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0d6203718c15f137fda2f295c96269bc2b254644",
+            "isKey": false,
+            "numCitedBy": 588,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this work we resolve the long-outstanding problem of how to effectively train recurrent neural networks (RNNs) on complex and difficult sequence modeling problems which may contain long-term data dependencies. Utilizing recent advances in the Hessian-free optimization approach (Martens, 2010), together with a novel damping scheme, we successfully train RNNs on two sets of challenging problems. First, a collection of pathological synthetic datasets which are known to be impossible for standard optimization approaches (due to their extremely long-term dependencies), and second, on three natural and highly complex real-world sequence datasets where we find that our method significantly outperforms the previous state-of-the-art method for training neural sequence models: the Long Short-term Memory approach of Hochreiter and Schmidhuber (1997). Additionally, we offer a new interpretation of the generalized Gauss-Newton matrix of Schraudolph (2002) which is used within the HF approach of Martens."
+            },
+            "slug": "Learning-Recurrent-Neural-Networks-with-Martens-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "Learning Recurrent Neural Networks with Hessian-Free Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 75,
+                "text": "This work solves the long-outstanding problem of how to effectively train recurrent neural networks on complex and difficult sequence modeling problems which may contain long-term data dependencies and offers a new interpretation of the generalized Gauss-Newton matrix of Schraudolph which is used within the HF approach of Martens."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2675251"
+                        ],
+                        "name": "Stefan Kombrink",
+                        "slug": "Stefan-Kombrink",
+                        "structuredName": {
+                            "firstName": "Stefan",
+                            "lastName": "Kombrink",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Stefan Kombrink"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1816892"
+                        ],
+                        "name": "L. Burget",
+                        "slug": "L.-Burget",
+                        "structuredName": {
+                            "firstName": "Luk\u00e1\u0161",
+                            "lastName": "Burget",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Burget"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1899242"
+                        ],
+                        "name": "J. Cernock\u00fd",
+                        "slug": "J.-Cernock\u00fd",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Cernock\u00fd",
+                            "middleNames": [
+                                "Honza"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Cernock\u00fd"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2803071"
+                        ],
+                        "name": "S. Khudanpur",
+                        "slug": "S.-Khudanpur",
+                        "structuredName": {
+                            "firstName": "Sanjeev",
+                            "lastName": "Khudanpur",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Khudanpur"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14850173,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "07ca885cb5cc4328895bfaec9ab752d5801b14cd",
+            "isKey": false,
+            "numCitedBy": 1433,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present several modifications of the original recurrent neural network language model (RNN LM).While this model has been shown to significantly outperform many competitive language modeling techniques in terms of accuracy, the remaining problem is the computational complexity. In this work, we show approaches that lead to more than 15 times speedup for both training and testing phases. Next, we show importance of using a backpropagation through time algorithm. An empirical comparison with feedforward networks is also provided. In the end, we discuss possibilities how to reduce the amount of parameters in the model. The resulting RNN model can thus be smaller, faster both during training and testing, and more accurate than the basic one."
+            },
+            "slug": "Extensions-of-recurrent-neural-network-language-Mikolov-Kombrink",
+            "title": {
+                "fragments": [],
+                "text": "Extensions of recurrent neural network language model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 58,
+                "text": "Several modifications of the original recurrent neural network language model are presented, showing approaches that lead to more than 15 times speedup for both training and testing phases and possibilities how to reduce the amount of parameters in the model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2011 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "ients effect. 3.5. Simpli\ufb01ed Nesterov Momentum Nesterov accelerated gradient (NAG) [30] is a \ufb01rst-order optimization method to improve stability and convergence of regular gradient descent. Recently, [6] showed that NAG could be computed by the following update rules: vt = \u00b5t\u22121vt\u22121 \u2212\u01ebt\u22121\u2207f(\u03b8t\u22121 + \u00b5t\u22121vt\u22121) (1) \u03b8t = \u03b8t\u22121 +vt (2) where \u03b8t are the model parameters, vt the velocity, \u00b5t \u2208 [0,1] the moment"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "rise to these dif\ufb01culties and discusses, review s, and combines several techniques that have been proposed in order to improve training of RNNs, following up on a recent thesis devoted to the subject [6]. We \ufb01nd that these techniques generally help genera lization performance as well as training performance, which suggest they help to improve the optimization of the training criterion. We also \ufb01nd th"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 61713861,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f34607a6aa2d984e34a5ce7f0bdac4a860fa98a4",
+            "isKey": true,
+            "numCitedBy": 288,
+            "numCiting": 94,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recurrent Neural Networks (RNNs) are powerful sequence models that were believed to be difficult to train, and as a result they were rarely used in machine learning applications. This thesis presents methods that overcome the difficulty of training RNNs, and applications of RNNs to challenging problems. \nWe first describe a new probabilistic sequence model that combines Restricted Boltzmann Machines and RNNs. The new model is more powerful than similar models while being less difficult to train. \nNext, we present a new variant of the Hessian-free (HF) optimizer and show that it can train RNNs on tasks that have extreme long-range temporal dependencies, which were previously considered to be impossibly hard. We then apply HF to character-level language modelling and get excellent results. \nWe also apply HF to optimal control and obtain RNN control laws that can successfully operate under conditions of delayed feedback and unknown disturbances. \nFinally, we describe a random parameter initialization scheme that allows gradient descent with momentum to train RNNs on problems with long-term dependencies. This directly contradicts widespread beliefs about the inability of first-order methods to do so, and suggests that previous attempts at training RNNs failed partly due to flaws in the random initialization."
+            },
+            "slug": "Training-recurrent-neural-networks-Hinton-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "Training recurrent neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "A new probabilistic sequence model that combines Restricted Boltzmann Machines and RNNs is described, more powerful than similar models while being less difficult to train, and a random parameter initialization scheme is described that allows gradient descent with momentum to train Rnns on problems with long-term dependencies."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2812486"
+                        ],
+                        "name": "P. Simard",
+                        "slug": "P.-Simard",
+                        "structuredName": {
+                            "firstName": "Patrice",
+                            "lastName": "Simard",
+                            "middleNames": [
+                                "Y."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Simard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688235"
+                        ],
+                        "name": "P. Frasconi",
+                        "slug": "P.-Frasconi",
+                        "structuredName": {
+                            "firstName": "Paolo",
+                            "lastName": "Frasconi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Frasconi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 206457500,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d0be39ee052d246ae99c082a565aba25b811be2d",
+            "isKey": false,
+            "numCitedBy": 6204,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recurrent neural networks can be used to map input sequences to output sequences, such as for recognition, production or prediction problems. However, practical difficulties have been reported in training recurrent neural networks to perform tasks in which the temporal contingencies present in the input/output sequences span long intervals. We show why gradient based learning algorithms face an increasingly difficult problem as the duration of the dependencies to be captured increases. These results expose a trade-off between efficient learning by gradient descent and latching on information for long periods. Based on an understanding of this problem, alternatives to standard gradient descent are considered."
+            },
+            "slug": "Learning-long-term-dependencies-with-gradient-is-Bengio-Simard",
+            "title": {
+                "fragments": [],
+                "text": "Learning long-term dependencies with gradient descent is difficult"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work shows why gradient based learning algorithms face an increasingly difficult problem as the duration of the dependencies to be captured increases, and exposes a trade-off between efficient learning by gradient descent and latching on information for long periods."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Neural Networks"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3087941"
+                        ],
+                        "name": "Pascal Lamblin",
+                        "slug": "Pascal-Lamblin",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Lamblin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pascal Lamblin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32384143"
+                        ],
+                        "name": "D. Popovici",
+                        "slug": "D.-Popovici",
+                        "structuredName": {
+                            "firstName": "Dan",
+                            "lastName": "Popovici",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Popovici"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777528"
+                        ],
+                        "name": "H. Larochelle",
+                        "slug": "H.-Larochelle",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "Larochelle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Larochelle"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14201947,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "355d44f53428b1ac4fb2ab468d593c720640e5bd",
+            "isKey": false,
+            "numCitedBy": 3486,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Complexity theory of circuits strongly suggests that deep architectures can be much more efficient (sometimes exponentially) than shallow architectures, in terms of computational elements required to represent some functions. Deep multi-layer neural networks have many levels of non-linearities allowing them to compactly represent highly non-linear and highly-varying functions. However, until recently it was not clear how to train such deep networks, since gradient-based optimization starting from random initialization appears to often get stuck in poor solutions. Hinton et al. recently introduced a greedy layer-wise unsupervised learning algorithm for Deep Belief Networks (DBN), a generative model with many layers of hidden causal variables. In the context of the above optimization problem, we study this algorithm empirically and explore variants to better understand its success and extend it to cases where the inputs are continuous or where the structure of the input distribution is not revealing enough about the variable to be predicted in a supervised task. Our experiments also confirm the hypothesis that the greedy layer-wise unsupervised training strategy mostly helps the optimization, by initializing weights in a region near a good local minimum, giving rise to internal distributed representations that are high-level abstractions of the input, bringing better generalization."
+            },
+            "slug": "Greedy-Layer-Wise-Training-of-Deep-Networks-Bengio-Lamblin",
+            "title": {
+                "fragments": [],
+                "text": "Greedy Layer-Wise Training of Deep Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "These experiments confirm the hypothesis that the greedy layer-wise unsupervised training strategy mostly helps the optimization, by initializing weights in a region near a good local minimum, giving rise to internal distributed representations that are high-level abstractions of the input, bringing better generalization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8378471,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "da5d2b6344fce4314e5f05356d06cdf1aafeef1a",
+            "isKey": false,
+            "numCitedBy": 45,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Temporal-Kernel-Recurrent-Neural-Networks-Sutskever-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "Temporal-Kernel Recurrent Neural Networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Networks"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1681543"
+                        ],
+                        "name": "G. Zweig",
+                        "slug": "G.-Zweig",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Zweig",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Zweig"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 11383176,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d1275b2a2ab53013310e759e5c6878b96df643d4",
+            "isKey": false,
+            "numCitedBy": 550,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recurrent neural network language models (RNNLMs) have recently demonstrated state-of-the-art performance across a variety of tasks. In this paper, we improve their performance by providing a contextual real-valued input vector in association with each word. This vector is used to convey contextual information about the sentence being modeled. By performing Latent Dirichlet Allocation using a block of preceding text, we achieve a topic-conditioned RNNLM. This approach has the key advantage of avoiding the data fragmentation associated with building multiple topic models on different data subsets. We report perplexity results on the Penn Treebank data, where we achieve a new state-of-the-art. We further apply the model to the Wall Street Journal speech recognition task, where we observe improvements in word-error-rate."
+            },
+            "slug": "Context-dependent-recurrent-neural-network-language-Mikolov-Zweig",
+            "title": {
+                "fragments": [],
+                "text": "Context dependent recurrent neural network language model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 56,
+                "text": "This paper improves recurrent neural network language models performance by providing a contextual real-valued input vector in association with each word to convey contextual information about the sentence being modeled by performing Latent Dirichlet Allocation using a block of preceding text."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2012 IEEE Spoken Language Technology Workshop (SLT)"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1996134"
+                        ],
+                        "name": "Razvan Pascanu",
+                        "slug": "Razvan-Pascanu",
+                        "structuredName": {
+                            "firstName": "Razvan",
+                            "lastName": "Pascanu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Razvan Pascanu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 60,
+                                "start": 56
+                            }
+                        ],
+                        "text": "The specific form of clipping used here was proposed in [15] and is discussed there at much greater length: when the norm of the gradient vector g for a given sequence is above a threshold, the update is done in the direction threshold g ||g|| ."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 42
+                            }
+                        ],
+                        "text": "To address the exploding gradient effect, [16, 15] recently proposed to clip gradients above a given threshold."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 59,
+                                "start": 55
+                            }
+                        ],
+                        "text": "A much deeper discussion of this issue can be found in [15], along with a point of view inspired by dynamical systems theory and by the geometrical aspect of the problem, having to do with the shape of the training criterion as a function of \u03b8 near those regions of exploding gradient."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 17,
+                                "start": 13
+                            }
+                        ],
+                        "text": "As argued in [15], this very simple method implements a very simple form of second order optimization in the sense that the second derivative is also proportionally large in those exploding gradient regions."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 81
+                            }
+                        ],
+                        "text": "An important aspect of these difficulties is that the gradient can be decomposed [2, 15] into terms that involve products of Jacobians \u2202ht \u2202ht\u22121 over subsequences linking an event at time t1 and one at time"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16074905,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c5145b1d15fea9340840cc8bb6f0e46e8934827f",
+            "isKey": false,
+            "numCitedBy": 465,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Training Recurrent Neural Networks is more troublesome than feedforward ones because of the vanishing and exploding gradient problems detailed in Bengio et al. (1994). In this paper we attempt to understand the fundamental issues underlying the exploding gradient problem by exploring it from an analytical, a geometric and a dynamical system perspective. Our analysis is used to justify the simple yet effective solution of norm clipping the exploded gradient. In the experimental section, the comparison between this heuristic solution and standard SGD provides empirical evidence towards our hypothesis as well as it shows that such a heuristic is required to reach state of the art results on a character prediction task and a polyphonic music prediction one."
+            },
+            "slug": "Understanding-the-exploding-gradient-problem-Pascanu-Mikolov",
+            "title": {
+                "fragments": [],
+                "text": "Understanding the exploding gradient problem"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The analysis is used to justify the simple yet effective solution of norm clipping the exploded gradient, and the comparison between this heuristic solution and standard SGD provides empirical evidence towards the hypothesis that such a heuristic is required to reach state of the art results on a character prediction task and a polyphonic music prediction one."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2308463"
+                        ],
+                        "name": "Salah El Hihi",
+                        "slug": "Salah-El-Hihi",
+                        "structuredName": {
+                            "firstName": "Salah",
+                            "lastName": "Hihi",
+                            "middleNames": [
+                                "El"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Salah El Hihi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2843869,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b13813b49f160e1a2010c44bd4fb3d09a28446e3",
+            "isKey": false,
+            "numCitedBy": 334,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We have already shown that extracting long-term dependencies from sequential data is difficult, both for determimstic dynamical systems such as recurrent networks, and probabilistic models such as hidden Markov models (HMMs) or input/output hidden Markov models (IOHMMs). In practice, to avoid this problem, researchers have used domain specific a-priori knowledge to give meaning to the hidden or state variables representing past context. In this paper, we propose to use a more general type of a-priori knowledge, namely that the temporal dependencies are structured hierarchically. This implies that long-term dependencies are represented by variables with a long time scale. This principle is applied to a recurrent network which includes delays and multiple time scales. Experiments confirm the advantages of such structures. A similar approach is proposed for HMMs and IOHMMs."
+            },
+            "slug": "Hierarchical-Recurrent-Neural-Networks-for-Hihi-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Hierarchical Recurrent Neural Networks for Long-Term Dependencies"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This paper proposes to use a more general type of a-priori knowledge, namely that the temporal dependencies are structured hierarchically, which implies that long-term dependencies are represented by variables with a long time scale."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1761978"
+                        ],
+                        "name": "D. Erhan",
+                        "slug": "D.-Erhan",
+                        "structuredName": {
+                            "firstName": "D.",
+                            "lastName": "Erhan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Erhan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760871"
+                        ],
+                        "name": "Aaron C. Courville",
+                        "slug": "Aaron-C.-Courville",
+                        "structuredName": {
+                            "firstName": "Aaron",
+                            "lastName": "Courville",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aaron C. Courville"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "120247189"
+                        ],
+                        "name": "Pascal Vincent",
+                        "slug": "Pascal-Vincent",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Vincent",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pascal Vincent"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 17
+                            }
+                        ],
+                        "text": "Some experiments [12] sho wed the presence of an extremely large number of apparent local mini ma of the training criterion, with no two different initializati ons going to the samefunction (i."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15796526,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0d2336389dff3031910bd21dd1c44d1b4cd51725",
+            "isKey": false,
+            "numCitedBy": 1748,
+            "numCiting": 72,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Much recent research has been devoted to learning algorithms for deep architectures such as Deep Belief Networks and stacks of auto-encoder variants, with impressive results obtained in several areas, mostly on vision and language data sets. The best results obtained on supervised learning tasks involve an unsupervised learning component, usually in an unsupervised pre-training phase. Even though these new algorithms have enabled training deep models, many questions remain as to the nature of this difficult learning problem. The main question investigated here is the following: how does unsupervised pre-training work? Answering this questions is important if learning in deep architectures is to be further improved. We propose several explanatory hypotheses and test them through extensive simulations. We empirically show the influence of pre-training with respect to architecture depth, model capacity, and number of training examples. The experiments confirm and clarify the advantage of unsupervised pre-training. The results suggest that unsupervised pre-training guides the learning towards basins of attraction of minima that support better generalization from the training data set; the evidence from these results supports a regularization explanation for the effect of pre-training."
+            },
+            "slug": "Why-Does-Unsupervised-Pre-training-Help-Deep-Erhan-Courville",
+            "title": {
+                "fragments": [],
+                "text": "Why Does Unsupervised Pre-training Help Deep Learning?"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "The results suggest that unsupervised pre-training guides the learning towards basins of attraction of minima that support better generalization from the training data set; the evidence from these results supports a regularization explanation for the effect of pre- training."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AISTATS"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[7] hypothesized that one reason for the difficulty in optimizing deep networks is that in ordinary neural networks gradients diffuse through the layers, diffusing credit and blame through many units, maybe making it difficult for hidden units to specialize."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 140,
+                                "start": 137
+                            }
+                        ],
+                        "text": "There has been several breakthroughs in recent years in the algorithms and results obtained with so-called deep learning algorithms (see [7] and [8] for reviews)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 207178999,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e60ff004dde5c13ec53087872cfcdd12e85beb57",
+            "isKey": false,
+            "numCitedBy": 7604,
+            "numCiting": 346,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Theoretical results strongly suggest that in order to learn the kind of complicated functions that can represent high-level abstractions (e.g. in vision, language, and other AI-level tasks), one needs deep architectures. Deep architectures are composed of multiple levels of non-linear operations, such as in neural nets with many hidden layers or in complicated propositional formulae re-using many sub-formulae. Searching the parameter space of deep architectures is a difficult optimization task, but learning algorithms such as those for Deep Belief Networks have recently been proposed to tackle this problem with notable success, beating the state-of-the-art in certain areas. This paper discusses the motivations and principles regarding learning algorithms for deep architectures, in particular those exploiting as building blocks unsupervised learning of single-layer models such as Restricted Boltzmann Machines, used to construct deeper models such as Deep Belief Networks."
+            },
+            "slug": "Learning-Deep-Architectures-for-AI-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Learning Deep Architectures for AI"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The motivations and principles regarding learning algorithms for deep architectures, in particular those exploiting as building blocks unsupervised learning of single-layer modelssuch as Restricted Boltzmann Machines, used to construct deeper models such as Deep Belief Networks are discussed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Found. Trends Mach. Learn."
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3308557"
+                        ],
+                        "name": "S. Hochreiter",
+                        "slug": "S.-Hochreiter",
+                        "structuredName": {
+                            "firstName": "Sepp",
+                            "lastName": "Hochreiter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hochreiter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145341374"
+                        ],
+                        "name": "J. Schmidhuber",
+                        "slug": "J.-Schmidhuber",
+                        "structuredName": {
+                            "firstName": "J\u00fcrgen",
+                            "lastName": "Schmidhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schmidhuber"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1915014,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "44d2abe2175df8153f465f6c39b68b76a0d40ab9",
+            "isKey": false,
+            "numCitedBy": 52390,
+            "numCiting": 68,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O. 1. Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms."
+            },
+            "slug": "Long-Short-Term-Memory-Hochreiter-Schmidhuber",
+            "title": {
+                "fragments": [],
+                "text": "Long Short-Term Memory"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A novel, efficient, gradient based method called long short-term memory (LSTM) is introduced, which can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2681887"
+                        ],
+                        "name": "D. Rumelhart",
+                        "slug": "D.-Rumelhart",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Rumelhart",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Rumelhart"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116648700"
+                        ],
+                        "name": "Ronald J. Williams",
+                        "slug": "Ronald-J.-Williams",
+                        "structuredName": {
+                            "firstName": "Ronald",
+                            "lastName": "Williams",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ronald J. Williams"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 118,
+                                "start": 115
+                            }
+                        ],
+                        "text": "In principle, RNNs can be trained by gradient-based optimizat ion procedures (using the back-propagation algorithm [3] to compu te a gradient), but it was observed early on [1, 2] that capturing dependencies that span a long interval was difficult, making the ta sk of optimizing\u03b8 to minimize the average of Ct\u2019s almost impossible for some tasks when the span of the dependencies of interest incr eases sufficiently."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 29,
+                                "start": 26
+                            }
+                        ],
+                        "text": "Recurrent neural networks [3] can represent such non-linea r maps (F , below) that iteratively build a relevant summary of past observations."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 205001834,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "052b1d8ce63b07fec3de9dbb583772d860b7c769",
+            "isKey": false,
+            "numCitedBy": 20461,
+            "numCiting": 3,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe a new learning procedure, back-propagation, for networks of neurone-like units. The procedure repeatedly adjusts the weights of the connections in the network so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector. As a result of the weight adjustments, internal \u2018hidden\u2019 units which are not part of the input or output come to represent important features of the task domain, and the regularities in the task are captured by the interactions of these units. The ability to create useful new features distinguishes back-propagation from earlier, simpler methods such as the perceptron-convergence procedure1."
+            },
+            "slug": "Learning-representations-by-back-propagating-errors-Rumelhart-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "Learning representations by back-propagating errors"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 67,
+                "text": "Back-propagation repeatedly adjusts the weights of the connections in the network so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector, which helps to represent important features of the task domain."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Nature"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760871"
+                        ],
+                        "name": "Aaron C. Courville",
+                        "slug": "Aaron-C.-Courville",
+                        "structuredName": {
+                            "firstName": "Aaron",
+                            "lastName": "Courville",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aaron C. Courville"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145467703"
+                        ],
+                        "name": "Pascal Vincent",
+                        "slug": "Pascal-Vincent",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Vincent",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pascal Vincent"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 393948,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "184ac0766262312ba76bbdece4e7ffad0aa8180b",
+            "isKey": false,
+            "numCitedBy": 8833,
+            "numCiting": 285,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data. Although specific domain knowledge can be used to help design representations, learning with generic priors can also be used, and the quest for AI is motivating the design of more powerful representation-learning algorithms implementing such priors. This paper reviews recent work in the area of unsupervised feature learning and deep learning, covering advances in probabilistic models, autoencoders, manifold learning, and deep networks. This motivates longer term unanswered questions about the appropriate objectives for learning good representations, for computing representations (i.e., inference), and the geometrical connections between representation learning, density estimation, and manifold learning."
+            },
+            "slug": "Representation-Learning:-A-Review-and-New-Bengio-Courville",
+            "title": {
+                "fragments": [],
+                "text": "Representation Learning: A Review and New Perspectives"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "Recent work in the area of unsupervised feature learning and deep learning is reviewed, covering advances in probabilistic models, autoencoders, manifold learning, and deep networks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "5631525"
+                        ],
+                        "name": "H. Jaeger",
+                        "slug": "H.-Jaeger",
+                        "structuredName": {
+                            "firstName": "Herbert",
+                            "lastName": "Jaeger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Jaeger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2759349"
+                        ],
+                        "name": "M. Luko\u0161evi\u010dius",
+                        "slug": "M.-Luko\u0161evi\u010dius",
+                        "structuredName": {
+                            "firstName": "Mantas",
+                            "lastName": "Luko\u0161evi\u010dius",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Luko\u0161evi\u010dius"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32384143"
+                        ],
+                        "name": "D. Popovici",
+                        "slug": "D.-Popovici",
+                        "structuredName": {
+                            "firstName": "Dan",
+                            "lastName": "Popovici",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Popovici"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "10707214"
+                        ],
+                        "name": "U. Siewert",
+                        "slug": "U.-Siewert",
+                        "structuredName": {
+                            "firstName": "Udo",
+                            "lastName": "Siewert",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "U. Siewert"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 227,
+                                "start": 219
+                            }
+                        ],
+                        "text": "An old idea to reduce the effect of vanishing gradients is to i n roduce shorter paths between t1 and t2, either via connections with longer time delays [17] or inertia (slow-changing units) in some of the hidden units [18, 19], or both [20]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 17795421,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a10ec7cc6c42c7780ef631c038b16c49ed865038",
+            "isKey": false,
+            "numCitedBy": 650,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Optimization-and-applications-of-echo-state-with-Jaeger-Luko\u0161evi\u010dius",
+            "title": {
+                "fragments": [],
+                "text": "Optimization and applications of echo state networks with leaky- integrator neurons"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Networks"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144639556"
+                        ],
+                        "name": "Graham W. Taylor",
+                        "slug": "Graham-W.-Taylor",
+                        "structuredName": {
+                            "firstName": "Graham",
+                            "lastName": "Taylor",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Graham W. Taylor"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8435923,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0228810a988f6b8f06337e14f564e2fd3f6e1056",
+            "isKey": false,
+            "numCitedBy": 393,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The Temporal Restricted Boltzmann Machine (TRBM) is a probabilistic model for sequences that is able to successfully model (i.e., generate nice-looking samples of) several very high dimensional sequences, such as motion capture data and the pixels of low resolution videos of balls bouncing in a box. The major disadvantage of the TRBM is that exact inference is extremely hard, since even computing a Gibbs update for a single variable of the posterior is exponentially expensive. This difficulty has necessitated the use of a heuristic inference procedure, that nonetheless was accurate enough for successful learning. In this paper we introduce the Recurrent TRBM, which is a very slight modification of the TRBM for which exact inference is very easy and exact gradient learning is almost tractable. We demonstrate that the RTRBM is better than an analogous TRBM at generating motion capture and videos of bouncing balls."
+            },
+            "slug": "The-Recurrent-Temporal-Restricted-Boltzmann-Machine-Sutskever-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "The Recurrent Temporal Restricted Boltzmann Machine"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The Recurrent TRBM is introduced, which is a very slight modification of the TRBM for which exact inference is very easy and exact gradient learning is almost tractable."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2217144"
+                        ],
+                        "name": "Simon Osindero",
+                        "slug": "Simon-Osindero",
+                        "structuredName": {
+                            "firstName": "Simon",
+                            "lastName": "Osindero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Simon Osindero"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1725303"
+                        ],
+                        "name": "Y. Teh",
+                        "slug": "Y.-Teh",
+                        "structuredName": {
+                            "firstName": "Yee",
+                            "lastName": "Teh",
+                            "middleNames": [
+                                "Whye"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Teh"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2309950,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8978cf7574ceb35f4c3096be768c7547b28a35d0",
+            "isKey": false,
+            "numCitedBy": 13502,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We show how to use complementary priors to eliminate the explaining-away effects that make inference difficult in densely connected belief nets that have many hidden layers. Using complementary priors, we derive a fast, greedy algorithm that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory. The fast, greedy algorithm is used to initialize a slower learning procedure that fine-tunes the weights using a contrastive version of the wake-sleep algorithm. After fine-tuning, a network with three hidden layers forms a very good generative model of the joint distribution of handwritten digit images and their labels. This generative model gives better digit classification than the best discriminative learning algorithms. The low-dimensional manifolds on which the digits lie are modeled by long ravines in the free-energy landscape of the top-level associative memory, and it is easy to explore these ravines by using the directed connections to display what the associative memory has in mind."
+            },
+            "slug": "A-Fast-Learning-Algorithm-for-Deep-Belief-Nets-Hinton-Osindero",
+            "title": {
+                "fragments": [],
+                "text": "A Fast Learning Algorithm for Deep Belief Nets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "A fast, greedy algorithm is derived that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760871"
+                        ],
+                        "name": "Aaron C. Courville",
+                        "slug": "Aaron-C.-Courville",
+                        "structuredName": {
+                            "firstName": "Aaron",
+                            "lastName": "Courville",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aaron C. Courville"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145467703"
+                        ],
+                        "name": "Pascal Vincent",
+                        "slug": "Pascal-Vincent",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Vincent",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pascal Vincent"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 4493778,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f8c8619ea7d68e604e40b814b40c72888a755e95",
+            "isKey": false,
+            "numCitedBy": 485,
+            "numCiting": 220,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data. Although domain knowledge can be used to help design representations, learning can also be used, and the quest for AI is motivating the design of more powerful representation-learning algorithms. This paper reviews recent work in the area of unsupervised feature learning and deep learning, covering advances in probabilistic models, manifold learning, and deep learning. This motivates longer-term unanswered questions about the appropriate objectives for learning good representations, for computing representations (i.e., inference), and the geometrical connections between representation learning, density estimation and manifold learning."
+            },
+            "slug": "Unsupervised-Feature-Learning-and-Deep-Learning:-A-Bengio-Courville",
+            "title": {
+                "fragments": [],
+                "text": "Unsupervised Feature Learning and Deep Learning: A Review and New Perspectives"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Recent work in the area of unsupervised feature learning and deep learning is reviewed, covering advances in probabilistic models, manifold learning, anddeep learning."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "70910366"
+                        ],
+                        "name": "Vysok\u00e9 U\u010den\u00ed",
+                        "slug": "Vysok\u00e9-U\u010den\u00ed",
+                        "structuredName": {
+                            "firstName": "Vysok\u00e9",
+                            "lastName": "U\u010den\u00ed",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vysok\u00e9 U\u010den\u00ed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "70952562"
+                        ],
+                        "name": "Technick\u00e9 V Brn\u011b",
+                        "slug": "Technick\u00e9-V-Brn\u011b",
+                        "structuredName": {
+                            "firstName": "Technick\u00e9",
+                            "lastName": "Brn\u011b",
+                            "middleNames": [
+                                "V"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Technick\u00e9 V Brn\u011b"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "74555031"
+                        ],
+                        "name": "Grafiky A Multim\u00e9di\u00ed",
+                        "slug": "Grafiky-A-Multim\u00e9di\u00ed",
+                        "structuredName": {
+                            "firstName": "Grafiky",
+                            "lastName": "Multim\u00e9di\u00ed",
+                            "middleNames": [
+                                "A"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Grafiky A Multim\u00e9di\u00ed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "74393604"
+                        ],
+                        "name": "Diserta\u010dn\u00ed Pr\u00e1ce",
+                        "slug": "Diserta\u010dn\u00ed-Pr\u00e1ce",
+                        "structuredName": {
+                            "firstName": "Diserta\u010dn\u00ed",
+                            "lastName": "Pr\u00e1ce",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Diserta\u010dn\u00ed Pr\u00e1ce"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 179,
+                                "start": 175
+                            }
+                        ],
+                        "text": "This paper studies the issues giving rise to these difficulties and discusses, reviews, and combines several techniques that have been proposed in order toimpr ve training of RNNs, following up on a recent thesis devoted to the subject [6]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 294,
+                                "start": 290
+                            }
+                        ],
+                        "text": "We also find that although these techniques can be applied in the online setting, i.e., as add-ons to stochastic gradient descent (SGD), they allow to compete with batch (or large minibatch) second-order methods such as Hessian-Free optimization, recently found to greatly help training of RNNs [4]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 36
+                            }
+                        ],
+                        "text": "The same questions can be asked for RNNs."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 37
+                            }
+                        ],
+                        "text": "They form interesting benchmarks for RNNs because of their high dimensionality and the complex temporal dependencies involved at different time scales."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 46,
+                                "start": 42
+                            }
+                        ],
+                        "text": "Here, we apply this deep learning idea to RNNs, using an L1 penalty on outputs of hidden units to promote sparsity of activations."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 103
+                            }
+                        ],
+                        "text": "These difficulties are probably responsible for the major reduction in research efforts in the area of RNNs in the 90\u2019s and 2000\u2019s."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 18,
+                                "start": 14
+                            }
+                        ],
+                        "text": "In principle, RNNs can be trained by gradient-based optimization procedures (using the back-propagation algorithm [3] to compute a gradient), but it was observed early on [1, 2] that capturingdependencies that span a long interval was difficult, making the task of\noptimizing\u03b8 to minimize the average ofCt\u2019s almost impossible for some tasks when the span of the dependencies of interest increases sufficiently."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 46,
+                                "start": 42
+                            }
+                        ],
+                        "text": "One way to reduce the underfitting of RNNs is to introduce multiplicative interactions in the parametrization ofF , as was done successfully in [4]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 76,
+                                "start": 72
+                            }
+                        ],
+                        "text": "In table 2 we have entropy (bits per character) or perplexityfor varous RNNs on the word and character prediction tasks."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 83
+                            }
+                        ],
+                        "text": "Table 1 presents log-likelihood (LL) and expected frame-level accuracy for various RNNs in the symbolic music prediction task."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 176,
+                                "start": 172
+                            }
+                        ],
+                        "text": "Results clearly show that these enhancements allow to improve on regular SGD in almost all cases; they also make SGD competitive with HF for the sigmoid recognition layers RNNs."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 258,
+                                "start": 254
+                            }
+                        ],
+                        "text": "We follow an incremental set of improvements to SGD, and show that in most cases they improve both the training and test error, and allow this enhanced SGD to compete or even improve on a second-order method which was found to work particularly well for RNNs, i.e., Hessian-Free optimization."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 55,
+                                "start": 51
+                            }
+                        ],
+                        "text": "In their simplest form, recurrent neural networks (RNNs) form a deterministicstatevariableht as a function of the present input observationxt and the past value(s) of the state variable, e.g.,ht = F\u03b8(ht\u22121, xt), where\u03b8 are tunable parameters that control what will be remembered about the past sequence and what will be discarded."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 68116583,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "96364af2d208ea75ca3aeb71892d2f7ce7326b55",
+            "isKey": true,
+            "numCitedBy": 578,
+            "numCiting": 88,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Statistical language models are crucial part of many successful applications, such as automatic speech recognition and statistical machine translation (for example well-known Google Translate). Traditional techniques for estimating these models are based on N gram counts. Despite known weaknesses of N -grams and huge efforts of research communities across many fields (speech recognition, machine translation, neuroscience, artificial intelligence, natural language processing, data compression, psychology etc.), N -grams remained basically the state-of-the-art. The goal of this thesis is to present various architectures of language models that are based on artificial neural networks. Although these models are computationally more expensive than N -gram models, with the presented techniques it is possible to apply them to state-of-the-art systems efficiently. Achieved reductions of word error rate of speech recognition systems are up to 20%, against stateof-the-art N -gram model. The presented recurrent neural network based model achieves the best published performance on well-known Penn Treebank setup. K\u013a\u0131\u010dov\u00e1 slova jazykov\u00fd model, neuronov\u00e1 \u015b\u0131t\u2019, rekurent\u0144\u0131, maxim\u00e1l\u0144\u0131 entropie, rozpozn\u00e1v\u00e1\u0144\u0131 \u0159e\u010di, komprese dat, um\u011bl\u00e1 inteligence"
+            },
+            "slug": "Statistical-Language-Models-Based-on-Neural-U\u010den\u00ed-Brn\u011b",
+            "title": {
+                "fragments": [],
+                "text": "Statistical Language Models Based on Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "Although these models are computationally more expensive than N -gram models, with the presented techniques it is possible to apply them to state-of-the-art systems efficiently and achieves the best published performance on well-known Penn Treebank setup."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 195908774,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+            "isKey": false,
+            "numCitedBy": 82046,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
+            },
+            "slug": "ImageNet-classification-with-deep-convolutional-Krizhevsky-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet classification with deep convolutional neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "A large, deep convolutional neural network was trained to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes and employed a recently developed regularization method called \"dropout\" that proved to be very effective."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Commun. ACM"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2156973"
+                        ],
+                        "name": "Sajid A. Marhon",
+                        "slug": "Sajid-A.-Marhon",
+                        "structuredName": {
+                            "firstName": "Sajid",
+                            "lastName": "Marhon",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sajid A. Marhon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2057335270"
+                        ],
+                        "name": "Christopher J. F. Cameron",
+                        "slug": "Christopher-J.-F.-Cameron",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Cameron",
+                            "middleNames": [
+                                "J.",
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher J. F. Cameron"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2492622"
+                        ],
+                        "name": "S. C. Kremer",
+                        "slug": "S.-C.-Kremer",
+                        "structuredName": {
+                            "firstName": "Stefan",
+                            "lastName": "Kremer",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. C. Kremer"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 13,
+                                "start": 10
+                            }
+                        ],
+                        "text": "Recently, [6] showed that NAG could be computed by t he following update rules:"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 243,
+                                "start": 240
+                            }
+                        ],
+                        "text": "This paper studie s the issues giving rise to these difficulties and discusses, review s, and combines several techniques that have been proposed in order to impr ve training of RNNs, following up on a recent thesis devoted to t he subject [6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2444500,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "889c945167c5aa99e7d8627e9c2cad8795290199",
+            "isKey": false,
+            "numCitedBy": 372,
+            "numCiting": 61,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This chapter presents an introduction to recurrent neural networks for readers familiar with artificial neural networks in general, and multi-layer perceptrons trained with gradient descent algorithms (back-propagation) in particular. A recurrent neural network (RNN) is an artificial neural network with internal loops. These internal loops induce recursive dynamics in the networks and thus introduce delayed activation dependencies across the processing elements (PEs) in the network."
+            },
+            "slug": "Recurrent-Neural-Networks-Marhon-Cameron",
+            "title": {
+                "fragments": [],
+                "text": "Recurrent Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "This chapter presents an introduction to recurrent neural networks for readers familiar with artificial neural networks in general, and multi-layer perceptrons trained with gradient descent algorithms (back-propagation) in particular."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Handbook on Neural Information Processing"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777528"
+                        ],
+                        "name": "H. Larochelle",
+                        "slug": "H.-Larochelle",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "Larochelle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Larochelle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145797336"
+                        ],
+                        "name": "Iain Murray",
+                        "slug": "Iain-Murray",
+                        "structuredName": {
+                            "firstName": "Iain",
+                            "lastName": "Murray",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Iain Murray"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 13975441,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "32f078a7478d1ec2169599500a4507aceaccdda7",
+            "isKey": false,
+            "numCitedBy": 471,
+            "numCiting": 37,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe a new approach for modeling the distribution of high-dimensional vectors of discrete variables. This model is inspired by the restricted Boltzmann machine (RBM), which has been shown to be a powerful model of such distributions. However, an RBM typically does not provide a tractable distribution estimator, since evaluating the probability it assigns to some given observation requires the computation of the so-called partition function, which itself is intractable for RBMs of even moderate size. Our model circumvents this diculty by decomposing the joint distribution of observations into tractable conditional distributions and modeling each conditional using a non-linear function similar to a conditional of an RBM. Our model can also be interpreted as an autoencoder wired such that its output can be used to assign valid probabilities to observations. We show that this new model outperforms other multivariate binary distribution estimators on several datasets and performs similarly to a large (but intractable) RBM."
+            },
+            "slug": "The-Neural-Autoregressive-Distribution-Estimator-Larochelle-Murray",
+            "title": {
+                "fragments": [],
+                "text": "The Neural Autoregressive Distribution Estimator"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 72,
+                "text": "A new approach for modeling the distribution of high-dimensional vectors of discrete variables inspired by the restricted Boltzmann machine, which outperforms other multivariate binary distribution estimators on several datasets and performs similarly to a large (but intractable) RBM."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AISTATS"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "9283686"
+                        ],
+                        "name": "Mounir Ben Nasr",
+                        "slug": "Mounir-Ben-Nasr",
+                        "structuredName": {
+                            "firstName": "Mounir",
+                            "lastName": "Ben Nasr",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mounir Ben Nasr"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144907147"
+                        ],
+                        "name": "M. Chtourou",
+                        "slug": "M.-Chtourou",
+                        "structuredName": {
+                            "firstName": "Mohamed",
+                            "lastName": "Chtourou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Chtourou"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 145
+                            }
+                        ],
+                        "text": "\u2026hyperparameters, such as the number of hidden unitsnh, regularization coefficients\u03bbL1, the choice of non-linearity function, or the momentum schedule\u00b5t, learning rate\u01ebt, number of leaky unitsnleaky or leaky factors\u03b1 according to log-likelihood on a validation set and we report the final\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 99
+                            }
+                        ],
+                        "text": "This paper studies the issues giving rise to these difficulties and discusses, reviews, and combines several techniques that have been proposed in order toimpr ve training of RNNs, following up on a recent thesis devoted to the subject [6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 35253869,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "52121b38358023f1aa3c010434f605e69b612043",
+            "isKey": false,
+            "numCitedBy": 211,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper proposes a new approach which combines unsupervised and supervised learning for training recurrent neural networks (RNNs). In this approach, the weights between input and hidden layers were determined according to an unsupervised procedure relying on the Kohonen algorithm and the weights between hidden and output layers were updated according to a supervised procedure based on dynamic gradient descent method. The simulation results show that the proposed method performs well in comparison with the back propagation through time algorithm."
+            },
+            "slug": "On-the-training-of-recurrent-neural-networks-Nasr-Chtourou",
+            "title": {
+                "fragments": [],
+                "text": "On the training of recurrent neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 70,
+                "text": "This paper proposes a new approach which combines unsupervised and supervised learning for training recurrent neural networks (RNNs) and results show that the proposed method performs well in comparison with the back propagation through time algorithm."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Eighth International Multi-Conference on Systems, Signals & Devices"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2827616"
+                        ],
+                        "name": "Quoc V. Le",
+                        "slug": "Quoc-V.-Le",
+                        "structuredName": {
+                            "firstName": "Quoc",
+                            "lastName": "Le",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Quoc V. Le"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706809"
+                        ],
+                        "name": "Marc'Aurelio Ranzato",
+                        "slug": "Marc'Aurelio-Ranzato",
+                        "structuredName": {
+                            "firstName": "Marc'Aurelio",
+                            "lastName": "Ranzato",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc'Aurelio Ranzato"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3089272"
+                        ],
+                        "name": "R. Monga",
+                        "slug": "R.-Monga",
+                        "structuredName": {
+                            "firstName": "Rajat",
+                            "lastName": "Monga",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Monga"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145139947"
+                        ],
+                        "name": "Matthieu Devin",
+                        "slug": "Matthieu-Devin",
+                        "structuredName": {
+                            "firstName": "Matthieu",
+                            "lastName": "Devin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matthieu Devin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32131713"
+                        ],
+                        "name": "G. Corrado",
+                        "slug": "G.-Corrado",
+                        "structuredName": {
+                            "firstName": "Gregory",
+                            "lastName": "Corrado",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Corrado"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118440152"
+                        ],
+                        "name": "Kai Chen",
+                        "slug": "Kai-Chen",
+                        "structuredName": {
+                            "firstName": "Kai",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kai Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49959210"
+                        ],
+                        "name": "J. Dean",
+                        "slug": "J.-Dean",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Dean",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dean"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34699434"
+                        ],
+                        "name": "A. Ng",
+                        "slug": "A.-Ng",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Ng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Ng"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 206741597,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "72e93aa6767ee683de7f001fa72f1314e40a8f35",
+            "isKey": false,
+            "numCitedBy": 2112,
+            "numCiting": 63,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider the problem of building high-level, class-specific feature detectors from only unlabeled data. For example, is it possible to learn a face detector using only unlabeled images? To answer this, we train a deep sparse autoencoder on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200\u00d7200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days. Contrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting from these learned features, we trained our network to recognize 22,000 object categories from ImageNet and achieve a leap of 70% relative improvement over the previous state-of-the-art."
+            },
+            "slug": "Building-high-level-features-using-large-scale-Le-Ranzato",
+            "title": {
+                "fragments": [],
+                "text": "Building high-level features using large scale unsupervised learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 51,
+                "text": "Contrary to what appears to be a widely-held intuition, the experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145704247"
+                        ],
+                        "name": "James Martens",
+                        "slug": "James-Martens",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Martens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James Martens"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 11154521,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4c46347fbc272b21468efe3d9af34b4b2bad6684",
+            "isKey": false,
+            "numCitedBy": 851,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We develop a 2nd-order optimization method based on the \"Hessian-free\" approach, and apply it to training deep auto-encoders. Without using pre-training, we obtain results superior to those reported by Hinton & Salakhutdinov (2006) on the same tasks they considered. Our method is practical, easy to use, scales nicely to very large datasets, and isn't limited in applicability to auto-encoders, or any specific model class. We also discuss the issue of \"pathological curvature\" as a possible explanation for the difficulty of deep-learning and how 2nd-order optimization, and our method in particular, effectively deals with it."
+            },
+            "slug": "Deep-learning-via-Hessian-free-optimization-Martens",
+            "title": {
+                "fragments": [],
+                "text": "Deep learning via Hessian-free optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 77,
+                "text": "A 2nd-order optimization method based on the \"Hessian-free\" approach is developed, and applied to training deep auto-encoders, and results superior to those reported by Hinton & Salakhutdinov (2006) are obtained."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706809"
+                        ],
+                        "name": "Marc'Aurelio Ranzato",
+                        "slug": "Marc'Aurelio-Ranzato",
+                        "structuredName": {
+                            "firstName": "Marc'Aurelio",
+                            "lastName": "Ranzato",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc'Aurelio Ranzato"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2060013"
+                        ],
+                        "name": "Christopher S. Poultney",
+                        "slug": "Christopher-S.-Poultney",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Poultney",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher S. Poultney"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3295092"
+                        ],
+                        "name": "S. Chopra",
+                        "slug": "S.-Chopra",
+                        "structuredName": {
+                            "firstName": "Sumit",
+                            "lastName": "Chopra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Chopra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 819006,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "932c2a02d462abd75af018125413b1ceaa1ee3f4",
+            "isKey": false,
+            "numCitedBy": 1191,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe a novel unsupervised method for learning sparse, overcomplete features. The model uses a linear encoder, and a linear decoder preceded by a sparsifying non-linearity that turns a code vector into a quasi-binary sparse code vector. Given an input, the optimal code minimizes the distance between the output of the decoder and the input patch while being as similar as possible to the encoder output. Learning proceeds in a two-phase EM-like fashion: (1) compute the minimum-energy code vector, (2) adjust the parameters of the encoder and decoder so as to decrease the energy. The model produces \"stroke detectors\" when trained on handwritten numerals, and Gabor-like filters when trained on natural image patches. Inference and learning are very fast, requiring no preprocessing, and no expensive sampling. Using the proposed unsupervised method to initialize the first layer of a convolutional network, we achieved an error rate slightly lower than the best reported result on the MNIST dataset. Finally, an extension of the method is described to learn topographical filter maps."
+            },
+            "slug": "Efficient-Learning-of-Sparse-Representations-with-Ranzato-Poultney",
+            "title": {
+                "fragments": [],
+                "text": "Efficient Learning of Sparse Representations with an Energy-Based Model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 89,
+                "text": "A novel unsupervised method for learning sparse, overcomplete features using a linear encoder, and a linear decoder preceded by a sparsifying non-linearity that turns a code vector into a quasi-binary sparse code vector."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1395619597"
+                        ],
+                        "name": "Nicolas Boulanger-Lewandowski",
+                        "slug": "Nicolas-Boulanger-Lewandowski",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Boulanger-Lewandowski",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicolas Boulanger-Lewandowski"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "120247189"
+                        ],
+                        "name": "Pascal Vincent",
+                        "slug": "Pascal-Vincent",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Vincent",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pascal Vincent"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 175089,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "18c82d4b6cf94fb84ba6ea230e80cb07ed9a9cf8",
+            "isKey": false,
+            "numCitedBy": 611,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We investigate the problem of modeling symbolic sequences of polyphonic music in a completely general piano-roll representation. We introduce a probabilistic model based on distribution estimators conditioned on a recurrent neural network that is able to discover temporal dependencies in high-dimensional sequences. Our approach outperforms many traditional models of polyphonic music on a variety of realistic datasets. We show how our musical language model can serve as a symbolic prior to improve the accuracy of polyphonic transcription."
+            },
+            "slug": "Modeling-Temporal-Dependencies-in-High-Dimensional-Boulanger-Lewandowski-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Modeling Temporal Dependencies in High-Dimensional Sequences: Application to Polyphonic Music Generation and Transcription"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "A probabilistic model based on distribution estimators conditioned on a recurrent neural network that is able to discover temporal dependencies in high-dimensional sequences that outperforms many traditional models of polyphonic music on a variety of realistic datasets is introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2073603971"
+                        ],
+                        "name": "Vinod Nair",
+                        "slug": "Vinod-Nair",
+                        "structuredName": {
+                            "firstName": "Vinod",
+                            "lastName": "Nair",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vinod Nair"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 112,
+                                "start": 108
+                            }
+                        ],
+                        "text": "This is what was advocated in [27], exploiting the idea of rectifier non-linearities introduced e arlier in [28], i."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15539264,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a538b05ebb01a40323997629e171c91aa28b8e2f",
+            "isKey": false,
+            "numCitedBy": 12985,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Restricted Boltzmann machines were developed using binary stochastic hidden units. These can be generalized by replacing each binary unit by an infinite number of copies that all have the same weights but have progressively more negative biases. The learning and inference rules for these \"Stepped Sigmoid Units\" are unchanged. They can be approximated efficiently by noisy, rectified linear units. Compared with binary units, these units learn features that are better for object recognition on the NORB dataset and face verification on the Labeled Faces in the Wild dataset. Unlike binary units, rectified linear units preserve information about relative intensities as information travels through multiple layers of feature detectors."
+            },
+            "slug": "Rectified-Linear-Units-Improve-Restricted-Boltzmann-Nair-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "Rectified Linear Units Improve Restricted Boltzmann Machines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 62,
+                "text": "Restricted Boltzmann machines were developed using binary stochastic hidden units that learn features that are better for object recognition on the NORB dataset and face verification on the Labeled Faces in the Wild dataset."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32837403"
+                        ],
+                        "name": "J. Bergstra",
+                        "slug": "J.-Bergstra",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bergstra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bergstra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 32
+                            }
+                        ],
+                        "text": "We do so by using random search [31] on the following intervals:"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15700257,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "188e247506ad992b8bc62d6c74789e89891a984f",
+            "isKey": false,
+            "numCitedBy": 5726,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Grid search and manual search are the most widely used strategies for hyper-parameter optimization. This paper shows empirically and theoretically that randomly chosen trials are more efficient for hyper-parameter optimization than trials on a grid. Empirical evidence comes from a comparison with a large previous study that used grid search and manual search to configure neural networks and deep belief networks. Compared with neural networks configured by a pure grid search, we find that random search over the same domain is able to find models that are as good or better within a small fraction of the computation time. Granting random search the same computational budget, random search finds better models by effectively searching a larger, less promising configuration space. Compared with deep belief networks configured by a thoughtful combination of manual search and grid search, purely random search over the same 32-dimensional configuration space found statistically equal performance on four of seven data sets, and superior performance on one of seven. A Gaussian process analysis of the function from hyper-parameters to validation set performance reveals that for most data sets only a few of the hyper-parameters really matter, but that different hyper-parameters are important on different data sets. This phenomenon makes grid search a poor choice for configuring algorithms for new data sets. Our analysis casts some light on why recent \"High Throughput\" methods achieve surprising success--they appear to search through a large number of hyper-parameters because most hyper-parameters do not matter much. We anticipate that growing interest in large hierarchical models will place an increasing burden on techniques for hyper-parameter optimization; this work shows that random search is a natural baseline against which to judge progress in the development of adaptive (sequential) hyper-parameter optimization algorithms."
+            },
+            "slug": "Random-Search-for-Hyper-Parameter-Optimization-Bergstra-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Random Search for Hyper-Parameter Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 59,
+                "text": "This paper shows empirically and theoretically that randomly chosen trials are more efficient for hyper-parameter optimization than trials on a grid, and shows that random search is a natural baseline against which to judge progress in the development of adaptive (sequential) hyper- parameter optimization algorithms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3119801"
+                        ],
+                        "name": "Xavier Glorot",
+                        "slug": "Xavier-Glorot",
+                        "structuredName": {
+                            "firstName": "Xavier",
+                            "lastName": "Glorot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xavier Glorot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1713934"
+                        ],
+                        "name": "Antoine Bordes",
+                        "slug": "Antoine-Bordes",
+                        "structuredName": {
+                            "firstName": "Antoine",
+                            "lastName": "Bordes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Antoine Bordes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 34,
+                                "start": 30
+                            }
+                        ],
+                        "text": "This is what was advocated in [27], exploiting the idea of rectifier non-linearities introduced earlier in [28], i."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2239473,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "67107f78a84bdb2411053cb54e94fa226eea6d8e",
+            "isKey": false,
+            "numCitedBy": 5985,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "While logistic sigmoid neurons are more biologically plausible than hyperbolic tangent neurons, the latter work better for training multi-layer neural networks. This paper shows that rectifying neurons are an even better model of biological neurons and yield equal or better performance than hyperbolic tangent networks in spite of the hard non-linearity and non-dierentiabil ity"
+            },
+            "slug": "Deep-Sparse-Rectifier-Neural-Networks-Glorot-Bordes",
+            "title": {
+                "fragments": [],
+                "text": "Deep Sparse Rectifier Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "This paper shows that rectifying neurons are an even better model of biological neurons and yield equal or better performance than hyperbolic tangent networks in spite of the hard non-linearity and non-dierentiabil ity."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AISTATS"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143676697"
+                        ],
+                        "name": "Y. Nesterov",
+                        "slug": "Y.-Nesterov",
+                        "structuredName": {
+                            "firstName": "Yurii",
+                            "lastName": "Nesterov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Nesterov"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 36
+                            }
+                        ],
+                        "text": "Nesterov accelerated gradient (NAG) [30] is a first-order op timization method to improve stability and convergence of regular gr dient descent."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 34,
+                                "start": 31
+                            }
+                        ],
+                        "text": "Nesterov accelerated gradient (NAG) [30] is a first-order optimization method to improve stability and convergence of regulargr dient descent."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 29,
+                                "start": 26
+                            }
+                        ],
+                        "text": "Recently, [6] showed that NAG could be computed by the following update rules:\nvt = \u00b5t\u22121vt\u22121 \u2212 \u01ebt\u22121\u2207f(\u03b8t\u22121 + \u00b5t\u22121vt\u22121) (1)\n\u03b8t = \u03b8t\u22121 + vt (2)\nwhere\u03b8t are the model parameters,vt the velocity,\u00b5t \u2208 [0, 1] the momentum (decay) coefficient and\u01ebt > 0 the learning rate at iterationt, f(\u03b8) is the objective function and\u2207f(\u03b8\u2032) is a shorthand notation for the gradient\u2202f(\u03b8)\n\u2202\u03b8 |\u03b8=\u03b8\u2032 ."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 202149403,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "ed910d96802212c9e45d956adaa27d915f5d7469",
+            "isKey": true,
+            "numCitedBy": 878,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "A-method-for-unconstrained-convex-minimization-with-Nesterov",
+            "title": {
+                "fragments": [],
+                "text": "A method for unconstrained convex minimization problem with the rate of convergence o(1/k^2)"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1983
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2115356552"
+                        ],
+                        "name": "Tsungnan Lin",
+                        "slug": "Tsungnan-Lin",
+                        "structuredName": {
+                            "firstName": "Tsungnan",
+                            "lastName": "Lin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tsungnan Lin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35216199"
+                        ],
+                        "name": "B. Horne",
+                        "slug": "B.-Horne",
+                        "structuredName": {
+                            "firstName": "Bill",
+                            "lastName": "Horne",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Horne"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "4023505"
+                        ],
+                        "name": "P. Ti\u0148o",
+                        "slug": "P.-Ti\u0148o",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Ti\u0148o",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Ti\u0148o"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145200131"
+                        ],
+                        "name": "C. L. Giles",
+                        "slug": "C.-L.-Giles",
+                        "structuredName": {
+                            "firstName": "C.",
+                            "lastName": "Giles",
+                            "middleNames": [
+                                "Lee"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. L. Giles"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 60494878,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "063fe6ed19c0204d55bde174483c5a93eb4819c0",
+            "isKey": false,
+            "numCitedBy": 56,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Learning-long-term-dependencies-is-not-as-difficult-Lin-Horne",
+            "title": {
+                "fragments": [],
+                "text": "Learning long-term dependencies is not as difficult with NARX recurrent neural networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066667188"
+                        ],
+                        "name": "Sepp Hochreiter",
+                        "slug": "Sepp-Hochreiter",
+                        "structuredName": {
+                            "firstName": "Sepp",
+                            "lastName": "Hochreiter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sepp Hochreiter"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 60091947,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3f3d13e95c25a8f6a753e38dfce88885097cbd43",
+            "isKey": false,
+            "numCitedBy": 609,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Untersuchungen-zu-dynamischen-neuronalen-Netzen-Hochreiter",
+            "title": {
+                "fragments": [],
+                "text": "Untersuchungen zu dynamischen neuronalen Netzen"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 177,
+                                "start": 171
+                            }
+                        ],
+                        "text": "In principle, RNNs can be trained by gradient-based optimization procedures (using the back-propagation algorithm [3] to compute a gradient), but it was observed early on [1, 2] that capturing dependencies that span a long interval was difficult, making the task of optimizing \u03b8 to minimize the average of Ct\u2019s almost impossible for some tasks when the span of the dependencies of interest increases sufficiently."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 116,
+                                "start": 110
+                            }
+                        ],
+                        "text": "Machine learning algorithms for capturing statistical structure in sequential data face a fundamental problem [1, 2], called the difficulty of learning long-term dependencies."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Untersuchungen zu dynamischen neuronalen Netzen. Diploma thesis, T.U. M\u00fcnich"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "1991."
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Deep sparse rectifier neural networks Rectified linear units improver - stricted Boltzmann machines"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 241,
+                                "start": 237
+                            }
+                        ],
+                        "text": "An old idea to reduce the effect of vanishing gradients is to i n roduce shorter paths between t1 and t2, either via connections with longer time delays [17] or inertia (slow-changing units) in some of the hidden units [18, 19], or both [20]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Temporal kernel recurrent neural networks,\u201dNeural"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Networks ,"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 117,
+                                "start": 111
+                            }
+                        ],
+                        "text": "Machine learning algorithms for capturing statistical str uc ure in sequential data face a fundamental problem [1, 2], called the difficulty of learning long-term dependencies ."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 179,
+                                "start": 173
+                            }
+                        ],
+                        "text": "In principle, RNNs can be trained by gradient-based optimizat ion procedures (using the back-propagation algorithm [3] to compu te a gradient), but it was observed early on [1, 2] that capturing dependencies that span a long interval was difficult, making the ta sk of optimizing\u03b8 to minimize the average of Ct\u2019s almost impossible for some tasks when the span of the dependencies of interest incr eases sufficiently."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Untersuchungen zu dynamischen neurona len Netzen. Diploma thesis, T.U. M\u00fcnich"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "1991."
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 145
+                            }
+                        ],
+                        "text": "There has been several breakthroughs in recent years in the a lgorithms and results obtained with so-called deep learningalgorithms (see [7] and [8] for reviews)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Unsupervised f eature learning and deep learning: A review and new perspectives"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Tech. Rep., arXiv:1206.5538, 2012."
+            },
+            "year": 2012
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 84
+                            }
+                        ],
+                        "text": "The an alogy can be brought one step further by introducing band-pass filt er units [22] or by using domain specific knowledge to decide on what fr equency bands different units should focus."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Echo-state networks wi th band-pass neurons: Towards generic time-scale-independe nt reservoir structures"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Preliminary Report, October 2007."
+            },
+            "year": 2007
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 157,
+                                "start": 153
+                            }
+                        ],
+                        "text": "An old idea to reduce the effect of vanishing gradients is to i n roduce shorter paths between t1 and t2, either via connections with longer time delays [17] or inertia (slow-changing units) in some of the hidden units [18, 19], or both [20]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Learning lo ngterm dependencies is not as difficult with NARX recurrent neu ral networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Tech. Rep. UMICAS-TR-95-78, U. Mariland, 1995."
+            },
+            "year": 1995
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Temporal kernel recurrentneural networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Networks"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 113,
+                                "start": 109
+                            }
+                        ],
+                        "text": "Here, we apply this deep learning idea to RNNs, using an L1 penalty on outputs of hidden units to promote sparsity of activations."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Context dependent reucrrent neural network language model Workshop on Spoken Language Technology"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Context dependent reucrrent neural network language model Workshop on Spoken Language Technology"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 219,
+                                "start": 216
+                            }
+                        ],
+                        "text": "When the output predictions are multivariate, another approach is to capture the high-order dependencies between the output variables using a powerful output probability model such as a Restricted Boltzmann Machine (RBM) [24, 25] or a deterministic variant of it called NADE [26, 25]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 232,
+                                "start": 224
+                            }
+                        ],
+                        "text": "When the output predictions are multivari ate, another approach is to capture the high-order dependencies be tween the output variables using a powerful output probability mo del such as a Restricted Boltzmann Machine (RBM) [24, 25] or a determi nistic variant of it called NADE [26, 25]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The recurrent t emporal restricted Boltzmann machine"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS\u20192008. 2009."
+            },
+            "year": 2008
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 82
+                            }
+                        ],
+                        "text": "The analogy can be brought one step further by introducing band-pass filter units [22] or by using domain specific knowledge to decide on what frequency bands different units should focus."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Echo-state networks with band-pass neurons: Towards generic time-scale-independent reservoir structures"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "\u00a1p\u00bfPreliminary Report\u00a1/p\u00bf, October 2007."
+            },
+            "year": 2007
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 34,
+                                "start": 30
+                            }
+                        ],
+                        "text": "This is what was advocated in [27], exploiting the idea of rectifier non-linearities introduced e arlier in [28], i."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Deep sparse rectifi er neural networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "inAISTATS\u20192011 , 2011."
+            },
+            "year": 2011
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Deep sparse rectifier neural networks Rectified linear units improve restricted Boltzmann machines"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Hochreiter , \u201c Untersuchungen zu dynamischen neuronalen Netzen"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Diploma thesis , T . U . M\u00fcnich , \u201d"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 40
+                            }
+                        ],
+                        "text": "Long-Short-Term Mem ory (LSTM) networks [21], which were shown to be able to handle much longer range dependencies, also benefit from a linea rly self-connected memory unit with a near 1 self-weight which a llows signals (and gradients) to propagate over long time spans."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Long short-term mem ory"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation , vol. 9, no. 8, pp. 1735\u20131780, 1997."
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 274,
+                                "start": 270
+                            }
+                        ],
+                        "text": "When the output predictions are multivariate, another approach is to capture the high-order dependencies between the output variables using a powerful output probability model such as a Restricted Boltzmann Machine (RBM) [24, 25] or a deterministic variant of it called NADE [26, 25]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 287,
+                                "start": 279
+                            }
+                        ],
+                        "text": "When the output predictions are multivari ate, another approach is to capture the high-order dependencies be tween the output variables using a powerful output probability mo del such as a Restricted Boltzmann Machine (RBM) [24, 25] or a determi nistic variant of it called NADE [26, 25]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 63
+                            }
+                        ],
+                        "text": "In the experiments performed here, we have experimented with a NADE output model for the music data."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The Neural Autoregressiv e Distribution Estimator"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "inAISTATS\u20192011 , 2011."
+            },
+            "year": 2011
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 42
+                            }
+                        ],
+                        "text": "To address the exploding gradient effect, [16, 15] recently proposed to clip gradients above a given threshold ."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Language Models based on"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Networks, Ph.D. thesis, Brno University of Technology,"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 240,
+                                "start": 237
+                            }
+                        ],
+                        "text": "This paper studies the issues giving rise to these difficulties and discusses, reviews, and combines several techniques that have been proposed in order to improve training of RNNs, following up on a recent thesis devoted to the subject [6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 13,
+                                "start": 10
+                            }
+                        ],
+                        "text": "Recently, [6] showed that NAG could be computed by the following update rules:"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Training Recurrent Neural Networks, Ph.D"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "thesis, CS Dept., U. Toronto,"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 156,
+                                "start": 152
+                            }
+                        ],
+                        "text": "An old idea to reduce the effect of vanishing gradients is to introduce shorter paths between t1 and t2, either via connections with longer time delays [17] or inertia (slow-changing units) in some of the hidden units [18, 19], or both [20]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Learning longterm dependencies is not as difficult with NARX recurrent neural networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Tech. Rep. UMICAS-TR-95-78, U. Mariland, 1995."
+            },
+            "year": 1995
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 42
+                            }
+                        ],
+                        "text": "To address the exploding gradient effect, [16, 15] recently proposed to clip gradients above a given threshold."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Statistical Language Models based on"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Networks, Ph.D. thesis, Brno University of Technology,"
+            },
+            "year": 2012
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 20,
+            "methodology": 12
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 53,
+        "totalPages": 6
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Advances-in-optimizing-recurrent-networks-Bengio-Boulanger-Lewandowski/ded103d0613e1a8f51f586cc1678aee3ff26e811?sort=total-citations"
+}

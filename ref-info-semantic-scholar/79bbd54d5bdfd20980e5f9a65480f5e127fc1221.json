@@ -1,0 +1,2740 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1790411"
+                        ],
+                        "name": "G. Necula",
+                        "slug": "G.-Necula",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Necula",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Necula"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 2448939,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "011f7da0095ac8c0d4477eeda2728e5f80a35767",
+            "isKey": true,
+            "numCitedBy": 486,
+            "numCiting": 36,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe a translation validation infrastructure for the GNU C compiler. During the compilation the infrastructure compares the intermediate form of the program before and after each compiler pass and verifies the preservation of semantics. We discuss a general framework that the optimizer can use to communicate to the validator what transformations were performed. Our implementation however does not rely on help from the optimizer and it is quite successful by using instead a few heuristics to detect the transformations that take place.\nThe main message of this paper is that a practical translation validation infrastructure, able to check the correctness of many of the transformations performed by a realistic compiler, can be implemented with about the effort typically required to implement one compiler pass. We demonstrate this in the context of the GNU C compiler for a number of its optimizations while compiling realistic programs such as the compiler itself or the Linux kernel. We believe that the price of such an infrastructure is small considering the qualitative increase in the ability to isolate compilation errors during compiler testing and maintenance."
+            },
+            "slug": "Translation-validation-for-an-optimizing-compiler-Necula",
+            "title": {
+                "fragments": [],
+                "text": "Translation validation for an optimizing compiler"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 52,
+                "text": "A practical translation validation infrastructure, able to check the correctness of many of the transformations performed by a realistic compiler, can be implemented with about the effort typically required to implement one compiler pass."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '00"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2145180765"
+                        ],
+                        "name": "Xuejun Yang",
+                        "slug": "Xuejun-Yang",
+                        "structuredName": {
+                            "firstName": "Xuejun",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xuejun Yang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2144353532"
+                        ],
+                        "name": "Yang Chen",
+                        "slug": "Yang-Chen",
+                        "structuredName": {
+                            "firstName": "Yang",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yang Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39080210"
+                        ],
+                        "name": "E. Eide",
+                        "slug": "E.-Eide",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Eide",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Eide"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1783210"
+                        ],
+                        "name": "J. Regehr",
+                        "slug": "J.-Regehr",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Regehr",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Regehr"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 6,
+                                "start": 2
+                            }
+                        ],
+                        "text": "Others, however, can cause compilers to silently miscompile a program and produce wrong code, subverting the programmer\u2019s intent."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "It is clear that EMI is a relaxed notion of semantic equivalence:\nJPK = JQK =\u21d2 JPK =I JQK.\n3 Note that we may also force a non-deterministic language to assume deterministic behavior."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 868674,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3b1bae14269d1e3bbb45f79bb471af3bd0bf4e1e",
+            "isKey": true,
+            "numCitedBy": 748,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Compilers should be correct. To improve the quality of C compilers, we created Csmith, a randomized test-case generation tool, and spent three years using it to find compiler bugs. During this period we reported more than 325 previously unknown bugs to compiler developers. Every compiler we tested was found to crash and also to silently generate wrong code when presented with valid input. In this paper we present our compiler-testing tool and the results of our bug-hunting study. Our first contribution is to advance the state of the art in compiler testing. Unlike previous tools, Csmith generates programs that cover a large subset of C while avoiding the undefined and unspecified behaviors that would destroy its ability to automatically find wrong-code bugs. Our second contribution is a collection of qualitative and quantitative results about the bugs we have found in open-source C compilers."
+            },
+            "slug": "Finding-and-understanding-bugs-in-C-compilers-Yang-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Finding and understanding bugs in C compilers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 58,
+                "text": "Csmith, a randomized test-case generation tool, is created and spent three years using it to find compiler bugs, and a collection of qualitative and quantitative results about the bugs it found are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '11"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1783210"
+                        ],
+                        "name": "J. Regehr",
+                        "slug": "J.-Regehr",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Regehr",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Regehr"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2144353532"
+                        ],
+                        "name": "Yang Chen",
+                        "slug": "Yang-Chen",
+                        "structuredName": {
+                            "firstName": "Yang",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yang Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1754214"
+                        ],
+                        "name": "Pascal Cuoq",
+                        "slug": "Pascal-Cuoq",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Cuoq",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pascal Cuoq"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39080210"
+                        ],
+                        "name": "E. Eide",
+                        "slug": "E.-Eide",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Eide",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Eide"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2397500"
+                        ],
+                        "name": "Chucky Ellison",
+                        "slug": "Chucky-Ellison",
+                        "structuredName": {
+                            "firstName": "Chucky",
+                            "lastName": "Ellison",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chucky Ellison"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2145180765"
+                        ],
+                        "name": "Xuejun Yang",
+                        "slug": "Xuejun-Yang",
+                        "structuredName": {
+                            "firstName": "Xuejun",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xuejun Yang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The information presented here does not necessarily reflect the position or the policy of the Government and no official endorsement should be inferred."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1025409,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "edd971fe845e73b303988691deb891f208731b50",
+            "isKey": false,
+            "numCitedBy": 204,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "To report a compiler bug, one must often find a small test case that triggers the bug. The existing approach to automated test-case reduction, delta debugging, works by removing substrings of the original input; the result is a concatenation of substrings that delta cannot remove. We have found this approach less than ideal for reducing C programs because it typically yields test cases that are too large or even invalid (relying on undefined behavior). To obtain small and valid test cases consistently, we designed and implemented three new, domain-specific test-case reducers. The best of these is based on a novel framework in which a generic fixpoint computation invokes modular transformations that perform reduction operations. This reducer produces outputs that are, on average, more than 25 times smaller than those produced by our other reducers or by the existing reducer that is most commonly used by compiler developers. We conclude that effective program reduction requires more than straightforward delta debugging."
+            },
+            "slug": "Test-case-reduction-for-C-compiler-bugs-Regehr-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Test-case reduction for C compiler bugs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "It is concluded that effective program reduction requires more than straightforward delta debugging, so three new, domain-specific test-case reducers are designed and implemented based on a novel framework in which a generic fixpoint computation invokes modular transformations that perform reduction operations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39941731"
+                        ],
+                        "name": "Eriko Nagai",
+                        "slug": "Eriko-Nagai",
+                        "structuredName": {
+                            "firstName": "Eriko",
+                            "lastName": "Nagai",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eriko Nagai"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "73265131"
+                        ],
+                        "name": "Hironobu Awazu",
+                        "slug": "Hironobu-Awazu",
+                        "structuredName": {
+                            "firstName": "Hironobu",
+                            "lastName": "Awazu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hironobu Awazu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1762811"
+                        ],
+                        "name": "Nagisa Ishiura",
+                        "slug": "Nagisa-Ishiura",
+                        "structuredName": {
+                            "firstName": "Nagisa",
+                            "lastName": "Ishiura",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nagisa Ishiura"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34144208"
+                        ],
+                        "name": "N. Takeda",
+                        "slug": "N.-Takeda",
+                        "structuredName": {
+                            "firstName": "Naoya",
+                            "lastName": "Takeda",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Takeda"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16947207,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c61a3cde3aba1c00901f41310b93468d32a6bf47",
+            "isKey": false,
+            "numCitedBy": 22,
+            "numCiting": 5,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a method of testing valid- ity of arithmetic optimization of C compilers using ran- dom programs. Compilers are tested by programs which contain randomly generated arithmetic expressions. Un- defined behavior (such as zero division and signed over- flow) of the C language is carefully avoided during ran- dom program generation. This is based on precise com- putation of expected values of the expressions which takes implementation-defined behavior (such as the size of int and the semantics of shift right on negative integers) into account. A method for automatic minimization of error programs is also presented which expedites the analysis of detected errors. A random test program based on our method has detected malfunctions in several compilers, which include LLVM GCC 4.2.1 shipped with the latest Mac OS X, GCC 4.4.4 for Ubuntu Linux, GCC 4.3.4 for Cygwin, and GCC 4.4.1 for h8300-elf and m32r-elf."
+            },
+            "slug": "Random-Testing-of-C-Compilers-Targeting-Arithmetic-Nagai-Awazu",
+            "title": {
+                "fragments": [],
+                "text": "Random Testing of C Compilers Targeting Arithmetic Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "This paper presents a method of testing valid- ity of arithmetic optimization of C compilers using ran- dom programs and a method for automatic minimization of error programs which expedites the analysis of detected errors."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "9489218"
+                        ],
+                        "name": "Jianzhou Zhao",
+                        "slug": "Jianzhou-Zhao",
+                        "structuredName": {
+                            "firstName": "Jianzhou",
+                            "lastName": "Zhao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jianzhou Zhao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2375915"
+                        ],
+                        "name": "Santosh Nagarakatte",
+                        "slug": "Santosh-Nagarakatte",
+                        "structuredName": {
+                            "firstName": "Santosh",
+                            "lastName": "Nagarakatte",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Santosh Nagarakatte"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110607721"
+                        ],
+                        "name": "Milo M. K. Martin",
+                        "slug": "Milo-M.-K.-Martin",
+                        "structuredName": {
+                            "firstName": "Milo",
+                            "lastName": "Martin",
+                            "middleNames": [
+                                "M.",
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Milo M. K. Martin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751798"
+                        ],
+                        "name": "S. Zdancewic",
+                        "slug": "S.-Zdancewic",
+                        "structuredName": {
+                            "firstName": "Steve",
+                            "lastName": "Zdancewic",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Zdancewic"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 888868,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "54cc1e9d38763083aa13dd484ddf48a9653b353b",
+            "isKey": false,
+            "numCitedBy": 61,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Modern compilers, such as LLVM and GCC, use a static single assignment(SSA) intermediate representation (IR) to simplify and enable many advanced optimizations. However, formally verifying the correctness of SSA-based optimizations is challenging because SSA properties depend on a function's entire control-flow graph. This paper addresses this challenge by developing a proof technique for proving SSA-based program invariants and compiler optimizations. We use this technique in the Coq proof assistant to create mechanized correctness proofs of several \"micro\" transformations that form the building blocks for larger SSA optimizations. To demonstrate the utility of this approach, we formally verify a variant of LLVM's mem2reg transformation in Vellvm, a Coq-based formal semantics of the LLVM IR. The extracted implementation generates code with performance comparable to that of LLVM's unverified implementation."
+            },
+            "slug": "Formal-verification-of-SSA-based-optimizations-for-Zhao-Nagarakatte",
+            "title": {
+                "fragments": [],
+                "text": "Formal verification of SSA-based optimizations for LLVM"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper develops a proof technique for proving SSA-based program invariants and compiler optimizations and uses this technique in the Coq proof assistant to create mechanized correctness proofs of several \"micro\" transformations that form the building blocks for larger SSA optimizations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI 2013"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2081044172"
+                        ],
+                        "name": "Christian Holler",
+                        "slug": "Christian-Holler",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Holler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christian Holler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39496137"
+                        ],
+                        "name": "Kim Herzig",
+                        "slug": "Kim-Herzig",
+                        "structuredName": {
+                            "firstName": "Kim",
+                            "lastName": "Herzig",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kim Herzig"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145594351"
+                        ],
+                        "name": "A. Zeller",
+                        "slug": "A.-Zeller",
+                        "structuredName": {
+                            "firstName": "Andreas",
+                            "lastName": "Zeller",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Zeller"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 12516527,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4275190822a329f06adb7f576d115f3618888edf",
+            "isKey": false,
+            "numCitedBy": 282,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Fuzz testing is an automated technique providing random data as input to a software system in the hope to expose a vulnerability. In order to be effective, the fuzzed input must be common enough to pass elementary consistency checks; a JavaScript interpreter, for instance, would only accept a semantically valid program. On the other hand, the fuzzed input must be uncommon enough to trigger exceptional behavior, such as a crash of the interpreter. The LangFuzz approach resolves this conflict by using a grammar to randomly generate valid programs; the code fragments, however, partially stem from programs known to have caused invalid behavior before. LangFuzz is an effective tool for security testing: Applied on the Mozilla JavaScript interpreter, it discovered a total of 105 new severe vulnerabilities within three months of operation (and thus became one of the top security bug bounty collectors within this period); applied on the PHP interpreter, it discovered 18 new defects causing crashes."
+            },
+            "slug": "Fuzzing-with-Code-Fragments-Holler-Herzig",
+            "title": {
+                "fragments": [],
+                "text": "Fuzzing with Code Fragments"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "LangFuzz is an effective tool for security testing: Applied on the Mozilla JavaScript interpreter, it discovered a total of 105 new severe vulnerabilities within three months of operation (and thus became one of the top security bug bounty collectors within this period); applied on the PHP interpreter, It discovered 18 new defects causing crashes."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "USENIX Security Symposium"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144851415"
+                        ],
+                        "name": "Chen Zhao",
+                        "slug": "Chen-Zhao",
+                        "structuredName": {
+                            "firstName": "Chen",
+                            "lastName": "Zhao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chen Zhao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2589068"
+                        ],
+                        "name": "Yunzhi Xue",
+                        "slug": "Yunzhi-Xue",
+                        "structuredName": {
+                            "firstName": "Yunzhi",
+                            "lastName": "Xue",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yunzhi Xue"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3336644"
+                        ],
+                        "name": "Qiuming Tao",
+                        "slug": "Qiuming-Tao",
+                        "structuredName": {
+                            "firstName": "Qiuming",
+                            "lastName": "Tao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qiuming Tao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110660839"
+                        ],
+                        "name": "Liang Guo",
+                        "slug": "Liang-Guo",
+                        "structuredName": {
+                            "firstName": "Liang",
+                            "lastName": "Guo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Liang Guo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2144713944"
+                        ],
+                        "name": "Zhaohui Wang",
+                        "slug": "Zhaohui-Wang",
+                        "structuredName": {
+                            "firstName": "Zhaohui",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhaohui Wang"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 13445441,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3c7d1f9a4d3d43f4b57b865f145e4913c6929a09",
+            "isKey": false,
+            "numCitedBy": 26,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents joint research and practice on automated test program generation for an industrial compiler, UniPhier, by Matsushita Electric Industrial Co., Ltd. (MEI) and Institute of Software, Chinese Academy of Sciences (ISCAS) since Sept. 2002. To meet the test requirements of MEI's engineers, we proposed an automated approach to produce test programs for UniPhier, and as a result we developed an integrated tool named JTT. Firstly, we show the script-driven test program generation process in JTT. Secondly, we show how to produce test programs automatically, based on a temporal-logic model of compiler optimizations, to guarantee the execution of optimizing modules under test during compilation. JTT has gained success in testing UniPhier: even after benchmark testing and comprehensive manual testing, JTT still found 6 new serious defects."
+            },
+            "slug": "Automated-test-program-generation-for-an-industrial-Zhao-Xue",
+            "title": {
+                "fragments": [],
+                "text": "Automated test program generation for an industrial optimizing compiler"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "The script-driven test program generation process in JTT is shown, and how to produce test programs automatically, based on a temporal-logic model of compiler optimizations, to guarantee the execution of optimizing modules under test during compilation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2009 ICSE Workshop on Automation of Software Test"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1755724"
+                        ],
+                        "name": "Jean-Baptiste Tristan",
+                        "slug": "Jean-Baptiste-Tristan",
+                        "structuredName": {
+                            "firstName": "Jean-Baptiste",
+                            "lastName": "Tristan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jean-Baptiste Tristan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3032062"
+                        ],
+                        "name": "Paul Govereau",
+                        "slug": "Paul-Govereau",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Govereau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Paul Govereau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143649399"
+                        ],
+                        "name": "J. G. Morrisett",
+                        "slug": "J.-G.-Morrisett",
+                        "structuredName": {
+                            "firstName": "J.",
+                            "lastName": "Morrisett",
+                            "middleNames": [
+                                "Gregory"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. G. Morrisett"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 966104,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b40c2883a0b9bef9be6c9fa56c9f8dd48e2c3909",
+            "isKey": false,
+            "numCitedBy": 95,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Translation validators are static analyzers that attempt to verify that program transformations preserve semantics. Normalizing translation validators do so by trying to match the value-graphs of an original function and its transformed counterpart. In this paper, we present the design of such a validator for LLVM's intra-procedural optimizations, a design that does not require any instrumentation of the optimizer, nor any rewriting of the source code to compile, and needs to run only once to validate a pipeline of optimizations. We present the results of our preliminary experiments on a set of benchmarks that include GCC, a perl interpreter, SQLite3, and other C programs."
+            },
+            "slug": "Evaluating-value-graph-translation-validation-for-Tristan-Govereau",
+            "title": {
+                "fragments": [],
+                "text": "Evaluating value-graph translation validation for LLVM"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "The design of a translation validator for LLVM's intra-procedural optimizations is presented, a design that does not require any instrumentation of the optimizer, nor any rewriting of the source code to compile, and needs to run only once to validate a pipeline of optimizations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '11"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2144353532"
+                        ],
+                        "name": "Yang Chen",
+                        "slug": "Yang-Chen",
+                        "structuredName": {
+                            "firstName": "Yang",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yang Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1753974"
+                        ],
+                        "name": "Alex Groce",
+                        "slug": "Alex-Groce",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Groce",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alex Groce"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3288326"
+                        ],
+                        "name": "Chaoqiang Zhang",
+                        "slug": "Chaoqiang-Zhang",
+                        "structuredName": {
+                            "firstName": "Chaoqiang",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chaoqiang Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37535697"
+                        ],
+                        "name": "Weng-Keen Wong",
+                        "slug": "Weng-Keen-Wong",
+                        "structuredName": {
+                            "firstName": "Weng-Keen",
+                            "lastName": "Wong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Weng-Keen Wong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694273"
+                        ],
+                        "name": "Xiaoli Z. Fern",
+                        "slug": "Xiaoli-Z.-Fern",
+                        "structuredName": {
+                            "firstName": "Xiaoli",
+                            "lastName": "Fern",
+                            "middleNames": [
+                                "Z."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiaoli Z. Fern"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39080210"
+                        ],
+                        "name": "E. Eide",
+                        "slug": "E.-Eide",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Eide",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Eide"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1783210"
+                        ],
+                        "name": "J. Regehr",
+                        "slug": "J.-Regehr",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Regehr",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Regehr"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 54166086,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "66c0a8c12aa7de61d71dd2595099c8ac343d5797",
+            "isKey": false,
+            "numCitedBy": 93,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Aggressive random testing tools (\"fuzzers\") are impressively effective at finding compiler bugs. For example, a single test-case generator has resulted in more than 1,700 bugs reported for a single JavaScript engine. However, fuzzers can be frustrating to use: they indiscriminately and repeatedly find bugs that may not be severe enough to fix right away. Currently, users filter out undesirable test cases using ad hoc methods such as disallowing problematic features in tests and grepping test results. This paper formulates and addresses the fuzzer taming problem: given a potentially large number of random test cases that trigger failures, order them such that diverse, interesting test cases are highly ranked. Our evaluation shows our ability to solve the fuzzer taming problem for 3,799 test cases triggering 46 bugs in a C compiler and 2,603 test cases triggering 28 bugs in a JavaScript engine."
+            },
+            "slug": "Taming-compiler-fuzzers-Chen-Groce",
+            "title": {
+                "fragments": [],
+                "text": "Taming compiler fuzzers"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "6331083"
+                        ],
+                        "name": "R. Tate",
+                        "slug": "R.-Tate",
+                        "structuredName": {
+                            "firstName": "Ross",
+                            "lastName": "Tate",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Tate"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "30073551"
+                        ],
+                        "name": "M. Stepp",
+                        "slug": "M.-Stepp",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Stepp",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Stepp"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2272813"
+                        ],
+                        "name": "Zachary Tatlock",
+                        "slug": "Zachary-Tatlock",
+                        "structuredName": {
+                            "firstName": "Zachary",
+                            "lastName": "Tatlock",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zachary Tatlock"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145655689"
+                        ],
+                        "name": "Sorin Lerner",
+                        "slug": "Sorin-Lerner",
+                        "structuredName": {
+                            "firstName": "Sorin",
+                            "lastName": "Lerner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sorin Lerner"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2138086,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f09d36476445c7f44d46555a753eae446cfed180",
+            "isKey": false,
+            "numCitedBy": 157,
+            "numCiting": 85,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Optimizations in a traditional compiler are applied sequentially, with each optimization destructively modifying the program to produce a transformed program that is then passed to the next optimization. We present a new approach for structuring the optimization phase of a compiler. In our approach, optimizations take the form of equality analyses that add equality information to a common intermediate representation. The optimizer works by repeatedly applying these analyses to infer equivalences between program fragments, thus saturating the intermediate representation with equalities. Once saturated, the intermediate representation encodes multiple optimized versions of the input program. At this point, a profitability heuristic picks the final optimized program from the various programs represented in the saturated representation. Our proposed way of structuring optimizers has a variety of benefits over previous approaches: our approach obviates the need to worry about optimization ordering, enables the use of a global optimization heuristic that selects among fully optimized programs, and can be used to perform translation validation, even on compilers other than our own. We present our approach, formalize it, and describe our choice of intermediate representation. We also present experimental results showing that our approach is practical in terms of time and space overhead, is effective at discovering intricate optimization opportunities, and is effective at performing translation validation for a realistic optimizer."
+            },
+            "slug": "Equality-saturation:-a-new-approach-to-optimization-Tate-Stepp",
+            "title": {
+                "fragments": [],
+                "text": "Equality saturation: a new approach to optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "The proposed way of structuring optimizers has a variety of benefits over previous approaches: it obviates the need to worry about optimization ordering, enables the use of a global optimization heuristic that selects among fully optimized programs, and can be used to perform translation validation, even on compilers other than the authors' own."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '09"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39941731"
+                        ],
+                        "name": "Eriko Nagai",
+                        "slug": "Eriko-Nagai",
+                        "structuredName": {
+                            "firstName": "Eriko",
+                            "lastName": "Nagai",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eriko Nagai"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2057302987"
+                        ],
+                        "name": "Atsushi Hashimoto",
+                        "slug": "Atsushi-Hashimoto",
+                        "structuredName": {
+                            "firstName": "Atsushi",
+                            "lastName": "Hashimoto",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Atsushi Hashimoto"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1762811"
+                        ],
+                        "name": "Nagisa Ishiura",
+                        "slug": "Nagisa-Ishiura",
+                        "structuredName": {
+                            "firstName": "Nagisa",
+                            "lastName": "Ishiura",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nagisa Ishiura"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15404471,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6c0d034e6e4350c6a536fecdcfc4e111127c3d25",
+            "isKey": false,
+            "numCitedBy": 22,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents an enhanced method of testing validity of arithmetic optimization of C com- pilers using randomly generated programs. Its bug de- tection capability is improved over an existing method by 1) generating longer arithmetic expressions and 2) accommodating multiple expressions in test programs. Undefined behavior in long expressions is successfully avoided by modifying problematic subexpressions dur- ing computation of expected values for the expres- sions. An efficient method for minimizing error in- ducing test programs is also presented, which utilizes binary search. Experimental results show that a ran- dom test system based on our method has higher bug detection capability than existing methods; it has de- tected more bugs than previous method in earlier ver- sions of GCCs and has revealed new bugs in the latest versions of GCCs and LLVMs."
+            },
+            "slug": "Scaling-up-Size-and-Number-of-Expressions-in-Random-Nagai-Hashimoto",
+            "title": {
+                "fragments": [],
+                "text": "Scaling up Size and Number of Expressions in Random Testing of Arithmetic Optimization of C Compilers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "Experimental results show that a ran- dom test system based on the enhanced method has higher bug detection capability than existing methods; it has de- tected more bugs than previous method in earlier ver- sions of GCCs and has revealed new bugs in the latest versions of GCC's and LLVMs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1698938"
+                        ],
+                        "name": "A. Pnueli",
+                        "slug": "A.-Pnueli",
+                        "structuredName": {
+                            "firstName": "Amir",
+                            "lastName": "Pnueli",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Pnueli"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "119614910"
+                        ],
+                        "name": "M. Siegel",
+                        "slug": "M.-Siegel",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Siegel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Siegel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1774977"
+                        ],
+                        "name": "Eli Singerman",
+                        "slug": "Eli-Singerman",
+                        "structuredName": {
+                            "firstName": "Eli",
+                            "lastName": "Singerman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eli Singerman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 14822655,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d8b4164fef65ffc7082a3c95b0a706e5c3aa38f9",
+            "isKey": true,
+            "numCitedBy": 515,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present the notion of translation validation as a new approach to the veriication of translators (compilers, code generators). Rather than proving in advance that the compiler always produces a target code which correctly implements the source code (compiler verii-cation), each individual translation (i.e. a run of the compiler) is followed by a validation phase which veriies that the target code produced on this run correctly implements the submitted source program. Several ingredients are necessary to set up the { fully automatic { translation validation process, among which are: 1. A common semantic framework for the representation of the source code and the generated target code. 2. A formalization of the notion of \"correct implementation\" as a re-nement relation. 3. A syntactic simulation-based proof method which allows to automatically verify that one model of the semantic framework, representing the produced target code, correctly implements another model which represents the source. These, and other ingredients are elaborated in this paper, in which we illustrate the new approach in a most challenging case. We consider a translation (compilation) from the synchronous multi-clock data-ow language Signal to asynchronous (sequential) C-code."
+            },
+            "slug": "Translation-Validation-Pnueli-Siegel",
+            "title": {
+                "fragments": [],
+                "text": "Translation Validation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "This paper considers a translation (compilation) from the synchronous multi-clock data-ow language Signal to asynchronous (sequential) C-code and presents the notion of translation validation as a new approach to the veriication of translators (compilers, code generators)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TACAS"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1754214"
+                        ],
+                        "name": "Pascal Cuoq",
+                        "slug": "Pascal-Cuoq",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Cuoq",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pascal Cuoq"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3031934"
+                        ],
+                        "name": "Benjamin Monate",
+                        "slug": "Benjamin-Monate",
+                        "structuredName": {
+                            "firstName": "Benjamin",
+                            "lastName": "Monate",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benjamin Monate"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2153915"
+                        ],
+                        "name": "Anne Pacalet",
+                        "slug": "Anne-Pacalet",
+                        "structuredName": {
+                            "firstName": "Anne",
+                            "lastName": "Pacalet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Anne Pacalet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2107542"
+                        ],
+                        "name": "V. Prevosto",
+                        "slug": "V.-Prevosto",
+                        "structuredName": {
+                            "firstName": "Virgile",
+                            "lastName": "Prevosto",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Prevosto"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1783210"
+                        ],
+                        "name": "J. Regehr",
+                        "slug": "J.-Regehr",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Regehr",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Regehr"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2192101"
+                        ],
+                        "name": "Boris Yakobowski",
+                        "slug": "Boris-Yakobowski",
+                        "structuredName": {
+                            "firstName": "Boris",
+                            "lastName": "Yakobowski",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Boris Yakobowski"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2145180765"
+                        ],
+                        "name": "Xuejun Yang",
+                        "slug": "Xuejun-Yang",
+                        "structuredName": {
+                            "firstName": "Xuejun",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xuejun Yang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 18591891,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "db5ce7b184f3632ebb8ab3f948e53ca2ec002a9a",
+            "isKey": false,
+            "numCitedBy": 66,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Static analyzers should be correct. We used the random C-program generator Csmith, initially intended to test C compilers, to test parts of the Frama-C static analysis platform. Although Frama-C was already relatively mature at that point, fifty bugs were found and fixed during the process, in the front-end (AST elaboration and type-checking) and in the value analysis, constant propagation and slicing plug-ins. Several bugs were also found in Csmith, even though it had been extensively tested and had been used to find numerous bugs in compilers."
+            },
+            "slug": "Testing-Static-Analyzers-with-Randomly-Generated-Cuoq-Monate",
+            "title": {
+                "fragments": [],
+                "text": "Testing Static Analyzers with Randomly Generated Programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 52,
+                "text": "The random C-program generator Csmith was used to test parts of the Frama-C static analysis platform, and fifty bugs were found and fixed during the process, in the front-end (AST elaboration and type-checking) and in the value analysis, constant propagation and slicing plug-ins."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NASA Formal Methods"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2397500"
+                        ],
+                        "name": "Chucky Ellison",
+                        "slug": "Chucky-Ellison",
+                        "structuredName": {
+                            "firstName": "Chucky",
+                            "lastName": "Ellison",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chucky Ellison"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1682619"
+                        ],
+                        "name": "G. Rosu",
+                        "slug": "G.-Rosu",
+                        "structuredName": {
+                            "firstName": "Grigore",
+                            "lastName": "Rosu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Rosu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The information presented here does not necessarily reflect the position or the policy of the Government and no official endorsement should be inferred."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 846035,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cc2025e865cf5f4b109c4c7744d87d3f0b203ea2",
+            "isKey": false,
+            "numCitedBy": 251,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes an executable formal semantics of C. Being executable, the semantics has been thoroughly tested against the GCC torture test suite and successfully passes 99.2% of 776 test programs. It is the most complete and thoroughly tested formal definition of C to date. The semantics yields an interpreter, debugger, state space search tool, and model checker \"for free\". The semantics is shown capable of automatically finding program errors, both statically and at runtime. It is also used to enumerate nondeterministic behavior."
+            },
+            "slug": "An-executable-formal-semantics-of-C-with-Ellison-Rosu",
+            "title": {
+                "fragments": [],
+                "text": "An executable formal semantics of C with applications"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The semantics is shown capable of automatically finding program errors, both statically and at runtime, and it is also used to enumerate nondeterministic behavior."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '12"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49392754"
+                        ],
+                        "name": "X. Leroy",
+                        "slug": "X.-Leroy",
+                        "structuredName": {
+                            "firstName": "Xavier",
+                            "lastName": "Leroy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Leroy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 98
+                            }
+                        ],
+                        "text": "Compiler Testing The most directly related is compiler testing, which remains the dominant technique for validating production compilers in practice."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 15,
+                                "start": 11
+                            }
+                        ],
+                        "text": "Note that a rarely occurring bug can still be a severe issue."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 87730,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cf38e244e4f6ff4f31ab46f002fb2869e215ca15",
+            "isKey": true,
+            "numCitedBy": 479,
+            "numCiting": 134,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This article describes the development and formal verification (proof of semantic preservation) of a compiler back-end from Cminor (a simple imperative intermediate language) to PowerPC assembly code, using the Coq proof assistant both for programming the compiler and for proving its soundness. Such a verified compiler is useful in the context of formal methods applied to the certification of critical software: the verification of the compiler guarantees that the safety properties proved on the source code hold for the executable compiled code as well."
+            },
+            "slug": "A-Formally-Verified-Compiler-Back-end-Leroy",
+            "title": {
+                "fragments": [],
+                "text": "A Formally Verified Compiler Back-end"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 88,
+                "text": "This article describes the development and formal verification of a compiler back-end from Cminor (a simple imperative intermediate language) to PowerPC assembly code, using the Coq proof assistant both for programming the compiler and for proving its soundness."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Journal of Automated Reasoning"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49392754"
+                        ],
+                        "name": "X. Leroy",
+                        "slug": "X.-Leroy",
+                        "structuredName": {
+                            "firstName": "Xavier",
+                            "lastName": "Leroy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Leroy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 97,
+                                "start": 93
+                            }
+                        ],
+                        "text": "Compiler Testing The most directly related is compiler testing, which remains the dominant technique for validating production compilers in practice."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 10,
+                                "start": 6
+                            }
+                        ],
+                        "text": "Note that a rarely occurring bug can still be a severe issue."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13281,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3369e43abcb499eea4d208f2239df00551b8d2dd",
+            "isKey": true,
+            "numCitedBy": 737,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper reports on the development and formal certification (proof of semantic preservation) of a compiler from Cminor (a C-like imperative language) to PowerPC assembly code, using the Coq proof assistant both for programming the compiler and for proving its correctness. Such a certified compiler is useful in the context of formal methods applied to the certification of critical software: the certification of the compiler guarantees that the safety properties proved on the source code hold for the executable compiled code as well."
+            },
+            "slug": "Formal-certification-of-a-compiler-back-end-or:-a-a-Leroy",
+            "title": {
+                "fragments": [],
+                "text": "Formal certification of a compiler back-end or: programming a compiler with a proof assistant"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 87,
+                "text": "This paper reports on the development and formal certification of a compiler from Cminor (a C-like imperative language) to PowerPC assembly code, using the Coq proof assistant both for programming the compiler and for proving its correctness."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '06"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144058482"
+                        ],
+                        "name": "R. Joshi",
+                        "slug": "R.-Joshi",
+                        "structuredName": {
+                            "firstName": "Rajeev",
+                            "lastName": "Joshi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Joshi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145802352"
+                        ],
+                        "name": "Greg Nelson",
+                        "slug": "Greg-Nelson",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Nelson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Greg Nelson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3234133"
+                        ],
+                        "name": "K. H. Randall",
+                        "slug": "K.-H.-Randall",
+                        "structuredName": {
+                            "firstName": "Keith",
+                            "lastName": "Randall",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. H. Randall"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 11799896,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5090ed315d3ab9f0135c83f287c5021d61929760",
+            "isKey": false,
+            "numCitedBy": 145,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper provides a preliminary report on a new research project that aims to construct a code generator that uses an automatic theorem prover to produce very high-quality (in fact, nearly mathematically optimal) machine code for modern architectures. The code generator is not intended for use in an ordinary compiler, but is intended to be used for inner loops and critical subroutines in those cases where peak performance is required, no available compiler generates adequately efficient code, and where current engineering practice is to use hand-coded machine language. The paper describes the design of the superoptimizer, and presents some encouraging preliminary results."
+            },
+            "slug": "Denali:-a-goal-directed-superoptimizer-Joshi-Nelson",
+            "title": {
+                "fragments": [],
+                "text": "Denali: a goal-directed superoptimizer"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "A code generator that uses an automatic theorem prover to produce very high-quality (in fact, nearly mathematically optimal) machine code for modern architectures is constructed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '02"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2082718"
+                        ],
+                        "name": "H. Massalin",
+                        "slug": "H.-Massalin",
+                        "structuredName": {
+                            "firstName": "Henry",
+                            "lastName": "Massalin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Massalin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 6074260,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b9addc8ce998f6892120c2c8b23ae183312bfa6c",
+            "isKey": false,
+            "numCitedBy": 230,
+            "numCiting": 5,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Given an instruction set, the superoptimizer finds the shortest program to compute a function. Startling programs have been generated, many of them engaging in convoluted bit-fiddling bearing little resemblance to the source programs which defined the functions. The key idea in the superoptimizer is a probabilistic test that makes exhaustive searches practical for programs of useful size. The search space is defined by the processor's instruction set, which may include the whole set, but it is typically restricted to a subset. By constraining the instructions and observing the effect on the output program, one can gain insight into the design of instruction sets. In addition, superoptimized programs may be used by peephole optimizers to improve the quality of generated code, or by assembly language programmers to improve manually written code."
+            },
+            "slug": "Superoptimizer:-a-look-at-the-smallest-program-Massalin",
+            "title": {
+                "fragments": [],
+                "text": "Superoptimizer: a look at the smallest program"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 68,
+                "text": "Given an instruction set, the superoptimizer finds the shortest program to compute a function, a probabilistic test that makes exhaustive searches practical for programs of useful size."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ASPLOS"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144861543"
+                        ],
+                        "name": "C. Hoare",
+                        "slug": "C.-Hoare",
+                        "structuredName": {
+                            "firstName": "Charles",
+                            "lastName": "Hoare",
+                            "middleNames": [
+                                "Antony",
+                                "Richard"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Hoare"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 92,
+                                "start": 89
+                            }
+                        ],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 441648,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Education"
+            ],
+            "id": "79db98d89846b5831069922aaaa78daacdd807fe",
+            "isKey": true,
+            "numCitedBy": 243,
+            "numCiting": 60,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This contribution proposes a set of criteria that distinguish a grand challenge in science or engineering from the many other kinds of short-term or long-term research problems that engage the interest of scientists and engineers. As an example drawn from Computer Science, it revives an old challenge: the construction and application of a verifying compiler that guarantees correctness of a program before running it."
+            },
+            "slug": "The-verifying-compiler:-A-grand-challenge-for-Hoare",
+            "title": {
+                "fragments": [],
+                "text": "The verifying compiler: A grand challenge for computing research"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "This contribution proposes a set of criteria that distinguish a grand challenge in science or engineering from the many other kinds of short-term or long-term research problems that engage the interest of scientists and engineers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "JACM"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145083365"
+                        ],
+                        "name": "Sorav Bansal",
+                        "slug": "Sorav-Bansal",
+                        "structuredName": {
+                            "firstName": "Sorav",
+                            "lastName": "Bansal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sorav Bansal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 990671,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "25a77652204ae3e524a1ca25cca7a44c72d37d6d",
+            "isKey": true,
+            "numCitedBy": 151,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Peephole optimizers are typically constructed using human-written pattern matching rules, an approach that requires expertise and time, as well as being less than systematic at exploiting all opportunities for optimization. We explore fully automatic construction of peephole optimizers using brute force superoptimization. While the optimizations discovered by our automatic system may be less general than human-written counterparts, our approach has the potential to automatically learn a database of thousands to millions of optimizations, in contrast to the hundreds found in current peephole optimizers. We show experimentally that our optimizer is able to exploit performance opportunities not found by existing compilers; in particular, we show speedups from 1.7 to a factor of 10 on some compute intensive kernels over a conventional optimizing compiler."
+            },
+            "slug": "Automatic-generation-of-peephole-superoptimizers-Bansal-Aiken",
+            "title": {
+                "fragments": [],
+                "text": "Automatic generation of peephole superoptimizers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is shown experimentally that the fully automatic construction of peephole optimizers using brute force superoptimization is able to exploit performance opportunities not found by existing compilers, and speedups from 1.7 to a factor of 10 on some compute intensive kernels over a conventional optimizing compiler are shown."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ASPLOS XII"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1753974"
+                        ],
+                        "name": "Alex Groce",
+                        "slug": "Alex-Groce",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Groce",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alex Groce"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3288326"
+                        ],
+                        "name": "Chaoqiang Zhang",
+                        "slug": "Chaoqiang-Zhang",
+                        "structuredName": {
+                            "firstName": "Chaoqiang",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chaoqiang Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39080210"
+                        ],
+                        "name": "E. Eide",
+                        "slug": "E.-Eide",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Eide",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Eide"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2144353532"
+                        ],
+                        "name": "Yang Chen",
+                        "slug": "Yang-Chen",
+                        "structuredName": {
+                            "firstName": "Yang",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yang Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1783210"
+                        ],
+                        "name": "J. Regehr",
+                        "slug": "J.-Regehr",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Regehr",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Regehr"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The information presented here does not necessarily reflect the position or the policy of the Government and no official endorsement should be inferred."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12178760,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cefac5c328d0ac6635fd52644887d777479c715f",
+            "isKey": false,
+            "numCitedBy": 85,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Swarm testing is a novel and inexpensive way to improve the diversity of test cases generated during random testing. Increased diversity leads to improved coverage and fault detection. In swarm testing, the usual practice of potentially including all features in every test case is abandoned. Rather, a large \u201cswarm\u201d of randomly generated configurations, each of which omits some features, is used, with configurations receiving equal resources. We have identified two mechanisms by which feature omission leads to better exploration of a system\u2019s state space. First, some features actively prevent the system from executing interesting behaviors; e.g., \u201cpop\u201d calls may prevent a stack data structure from executing a bug in its overflow detection logic. Second, even when there is no active suppression of behaviors, test features compete for space in each test, limiting the depth to which logic driven by features can be explored. Experimental results show that swarm testing increases coverage and can improve fault detection dramatically; for example, in a week of testing it found 42% more distinct ways to crash a collection of C compilers than did the heavily hand-tuned default configuration of a random tester."
+            },
+            "slug": "Swarm-testing-Groce-Zhang",
+            "title": {
+                "fragments": [],
+                "text": "Swarm testing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "Experimental results show that swarm testing increases coverage and can improve fault detection dramatically; for example, in a week of testing it found 42% more distinct ways to crash a collection of C compilers than did the heavily hand-tuned default configuration of a random tester."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ISSTA 2012"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2630944"
+                        ],
+                        "name": "W. M. McKeeman",
+                        "slug": "W.-M.-McKeeman",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "McKeeman",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. M. McKeeman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 14018070,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fc881e8d0432ea8e4dd5fda4979243cac5e4b9e3",
+            "isKey": true,
+            "numCitedBy": 385,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Successful commercial computer systems contain tens of millions of lines of handwritten software, all of which is subject to change as competitive pressures motivate the addition of new features in each release. As a practical matter, quality is not a question of correctness, but rather of how many bugs are fixed and how few are introduced in the ongoing development process. If the bug count is increasing, the software is deteriorating."
+            },
+            "slug": "Differential-Testing-for-Software-McKeeman",
+            "title": {
+                "fragments": [],
+                "text": "Differential Testing for Software"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Quality is not a question of correctness, but rather of how many bugs are fixed and how few are introduced in the ongoing development process, if the bug count is increasing, the software is deteriorating."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Digit. Tech. J."
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3282408"
+                        ],
+                        "name": "G. Malecha",
+                        "slug": "G.-Malecha",
+                        "structuredName": {
+                            "firstName": "Gregory",
+                            "lastName": "Malecha",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Malecha"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143649399"
+                        ],
+                        "name": "J. G. Morrisett",
+                        "slug": "J.-G.-Morrisett",
+                        "structuredName": {
+                            "firstName": "J.",
+                            "lastName": "Morrisett",
+                            "middleNames": [
+                                "Gregory"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. G. Morrisett"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2100468"
+                        ],
+                        "name": "Avraham Shinnar",
+                        "slug": "Avraham-Shinnar",
+                        "structuredName": {
+                            "firstName": "Avraham",
+                            "lastName": "Shinnar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Avraham Shinnar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3153223"
+                        ],
+                        "name": "Ryan Wisnesky",
+                        "slug": "Ryan-Wisnesky",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "Wisnesky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan Wisnesky"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 9186910,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "587815d5dabffa750d20f10caf6a503db3c2c8f9",
+            "isKey": false,
+            "numCitedBy": 98,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We report on our experience implementing a lightweight, fully verified relational database management system (RDBMS). The functional specification of RDBMS behavior, RDBMS implementation, and proof that the implementation meets the specification are all written and verified in Coq. Our contributions include: (1) a complete specification of the relational algebra in Coq; (2) an efficient realization of that model (B+ trees) implemented with the Ynot extension to Coq; and (3) a set of simple query optimizations proven to respect both semantics and run-time cost. In addition to describing the design and implementation of these artifacts, we highlight the challenges we encountered formalizing them, including the choice of representation for finite relations of typed tuples and the challenges of reasoning about data structures with complex sharing. Our experience shows that though many challenges remain, building fully-verified systems software in Coq is within reach."
+            },
+            "slug": "Toward-a-verified-relational-database-management-Malecha-Morrisett",
+            "title": {
+                "fragments": [],
+                "text": "Toward a verified relational database management system"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 63,
+                "text": "The experience of implementing a lightweight, fully verified relational database management system (RDBMS) in Coq shows that though many challenges remain, building fully-verified systems software in CoQ is within reach."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '10"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "SuperTest compiler test and validation suite"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SuperTest compiler test and validation suite"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The Plum Hall Validation Suite for C"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The Plum Hall Validation Suite for C"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "C; H.3.4 [Programming Languages]: Processors\u2014compilers\nGeneral Terms Algorithms, Languages, Reliability, Verification\nKeywords Compiler testing, miscompilation, equivalent program variants, automated testing"
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "CCG: A random C code generator. https://github. com/Merkil/ccg"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CCG: A random C code generator. https://github. com/Merkil/ccg"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "SuperTest compiler test and validation suite"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 37
+                            }
+                        ],
+                        "text": "One of the reasons why Csmith has not been extended to C++ or other languages is because it requires significant engineering efforts to realize."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 84,
+                                "start": 80
+                            }
+                        ],
+                        "text": "The key technical challenge is to define the \u201cequivalence\u201d of floating-point EMI variants considering the inherent inaccuracy of floating-point computation."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The Clang Team. Clang 3.4 documentation: LibTooling"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The Clang Team. Clang 3.4 documentation: LibTooling"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Embedded in academia"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Embedded in academia"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "GNU Compiler Collection. gcov"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "GNU Compiler Collection. gcov"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "ACE . SuperTest compiler test and validation suite S . Bansal and A . Aiken . Automatic generation of peephole super - optimizers"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 12 th International Conference on Architectural Support for Programming Languages and Operating Systems ( ASPLOS ) , pages 394 \u2013 403"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "CCG: A random C code generator"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 7,
+            "methodology": 2
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 32,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Compiler-validation-via-equivalence-modulo-inputs-Le-Afshari/79bbd54d5bdfd20980e5f9a65480f5e127fc1221?sort=total-citations"
+}

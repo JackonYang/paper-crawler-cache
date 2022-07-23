@@ -1,0 +1,3388 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2072782550"
+                        ],
+                        "name": "Zhihao Jia",
+                        "slug": "Zhihao-Jia",
+                        "structuredName": {
+                            "firstName": "Zhihao",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhihao Jia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143834867"
+                        ],
+                        "name": "M. Zaharia",
+                        "slug": "M.-Zaharia",
+                        "structuredName": {
+                            "firstName": "Matei",
+                            "lastName": "Zaharia",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Zaharia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 26,
+                                "start": 10
+                            }
+                        ],
+                        "text": "FlexFlow (Jia et al., 2019) introduces a comprehensive search space of parallelization strategies for DNNs and uses randomized search to find efficient strategies in the search space."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 49868726,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f971658ab845d7573c4bbb760d5e7e5332025254",
+            "isKey": false,
+            "numCitedBy": 233,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The computational requirements for training deep neural networks (DNNs) have grown to the point that it is now standard practice to parallelize training. Existing deep learning systems commonly use data or model parallelism, but unfortunately, these strategies often result in suboptimal parallelization performance. \nIn this paper, we define a more comprehensive search space of parallelization strategies for DNNs called SOAP, which includes strategies to parallelize a DNN in the Sample, Operation, Attribute, and Parameter dimensions. We also propose FlexFlow, a deep learning framework that uses guided randomized search of the SOAP space to find a fast parallelization strategy for a specific parallel machine. To accelerate this search, FlexFlow introduces a novel execution simulator that can accurately predict a parallelization strategy's performance and is three orders of magnitude faster than prior approaches that have to execute each strategy. We evaluate FlexFlow with six real-world DNN benchmarks on two GPU clusters and show that FlexFlow can increase training throughput by up to 3.8x over state-of-the-art approaches, even when including its search time, and also improves scalability."
+            },
+            "slug": "Beyond-Data-and-Model-Parallelism-for-Deep-Neural-Jia-Zaharia",
+            "title": {
+                "fragments": [],
+                "text": "Beyond Data and Model Parallelism for Deep Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "A more comprehensive search space of parallelization strategies for DNNs called SOAP, which includes strategies to parallelize a DNN in the Sample, Operation, Attribute, and Parameter dimensions is defined and FlexFlow, a deep learning framework that uses guided randomized search of the SOAP space to find a fast parallelization strategy for a specific parallel machine is proposed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "MLSys"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1861312"
+                        ],
+                        "name": "Azalia Mirhoseini",
+                        "slug": "Azalia-Mirhoseini",
+                        "structuredName": {
+                            "firstName": "Azalia",
+                            "lastName": "Mirhoseini",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Azalia Mirhoseini"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143950636"
+                        ],
+                        "name": "Hieu Pham",
+                        "slug": "Hieu-Pham",
+                        "structuredName": {
+                            "firstName": "Hieu",
+                            "lastName": "Pham",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hieu Pham"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2827616"
+                        ],
+                        "name": "Quoc V. Le",
+                        "slug": "Quoc-V.-Le",
+                        "structuredName": {
+                            "firstName": "Quoc",
+                            "lastName": "Le",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Quoc V. Le"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32163737"
+                        ],
+                        "name": "Benoit Steiner",
+                        "slug": "Benoit-Steiner",
+                        "structuredName": {
+                            "firstName": "Benoit",
+                            "lastName": "Steiner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benoit Steiner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47223513"
+                        ],
+                        "name": "Rasmus Larsen",
+                        "slug": "Rasmus-Larsen",
+                        "structuredName": {
+                            "firstName": "Rasmus",
+                            "lastName": "Larsen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rasmus Larsen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116451595"
+                        ],
+                        "name": "Yuefeng Zhou",
+                        "slug": "Yuefeng-Zhou",
+                        "structuredName": {
+                            "firstName": "Yuefeng",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yuefeng Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116960562"
+                        ],
+                        "name": "Naveen Kumar",
+                        "slug": "Naveen-Kumar",
+                        "structuredName": {
+                            "firstName": "Naveen",
+                            "lastName": "Kumar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Naveen Kumar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144739074"
+                        ],
+                        "name": "Mohammad Norouzi",
+                        "slug": "Mohammad-Norouzi",
+                        "structuredName": {
+                            "firstName": "Mohammad",
+                            "lastName": "Norouzi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mohammad Norouzi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751569"
+                        ],
+                        "name": "Samy Bengio",
+                        "slug": "Samy-Bengio",
+                        "structuredName": {
+                            "firstName": "Samy",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Samy Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48448318"
+                        ],
+                        "name": "J. Dean",
+                        "slug": "J.-Dean",
+                        "structuredName": {
+                            "firstName": "Jeff",
+                            "lastName": "Dean",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dean"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 3635282,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bfbd10ebffc9494423770a5bd30ebd0f9cbce66d",
+            "isKey": false,
+            "numCitedBy": 312,
+            "numCiting": 53,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The past few years have witnessed a growth in size and computational requirements for training and inference with neural networks. Currently, a common approach to address these requirements is to use a heterogeneous distributed environment with a mixture of hardware devices such as CPUs and GPUs. Importantly, the decision of placing parts of the neural models on devices is often made by human experts based on simple heuristics and intuitions. In this paper, we propose a method which learns to optimize device placement for TensorFlow computational graphs. Key to our method is the use of a sequence-to-sequence model to predict which subsets of operations in a TensorFlow graph should run on which of the available devices. The execution time of the predicted placements is then used as the reward signal to optimize the parameters of the sequence-to-sequence model. Our main result is that on Inception-V3 for ImageNet classification, and on RNN LSTM, for language modeling and neural machine translation, our model finds non-trivial device placements that outperform hand-crafted heuristics and traditional algorithmic methods."
+            },
+            "slug": "Device-Placement-Optimization-with-Reinforcement-Mirhoseini-Pham",
+            "title": {
+                "fragments": [],
+                "text": "Device Placement Optimization with Reinforcement Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "A method which learns to optimize device placement for TensorFlow computational graphs using a sequence-to-sequence model, which finds non-trivial device placements that outperform hand-crafted heuristics and traditional algorithmic methods."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1800919"
+                        ],
+                        "name": "Nicolas Vasilache",
+                        "slug": "Nicolas-Vasilache",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Vasilache",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicolas Vasilache"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2054833547"
+                        ],
+                        "name": "O. Zinenko",
+                        "slug": "O.-Zinenko",
+                        "structuredName": {
+                            "firstName": "Oleksandr",
+                            "lastName": "Zinenko",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Zinenko"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2097631216"
+                        ],
+                        "name": "Theodoros Theodoridis",
+                        "slug": "Theodoros-Theodoridis",
+                        "structuredName": {
+                            "firstName": "Theodoros",
+                            "lastName": "Theodoridis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Theodoros Theodoridis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47316088"
+                        ],
+                        "name": "Priya Goyal",
+                        "slug": "Priya-Goyal",
+                        "structuredName": {
+                            "firstName": "Priya",
+                            "lastName": "Goyal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Priya Goyal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2375710"
+                        ],
+                        "name": "Zach DeVito",
+                        "slug": "Zach-DeVito",
+                        "structuredName": {
+                            "firstName": "Zach",
+                            "lastName": "DeVito",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zach DeVito"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "16521420"
+                        ],
+                        "name": "William S. Moses",
+                        "slug": "William-S.-Moses",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Moses",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "William S. Moses"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1772079"
+                        ],
+                        "name": "Sven Verdoolaege",
+                        "slug": "Sven-Verdoolaege",
+                        "structuredName": {
+                            "firstName": "Sven",
+                            "lastName": "Verdoolaege",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sven Verdoolaege"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145509576"
+                        ],
+                        "name": "Albert Cohen",
+                        "slug": "Albert-Cohen",
+                        "structuredName": {
+                            "firstName": "Albert",
+                            "lastName": "Cohen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Albert Cohen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 44014988,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cae9d90524cccac5081666985d5d055b71697cee",
+            "isKey": false,
+            "numCitedBy": 284,
+            "numCiting": 102,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep learning models with convolutional and recurrent networks are now ubiquitous and analyze massive amounts of audio, image, video, text and graph data, with applications in automatic translation, speech-to-text, scene understanding, ranking user preferences, ad placement, etc. Competing frameworks for building these networks such as TensorFlow, Chainer, CNTK, Torch/PyTorch, Caffe1/2, MXNet and Theano, explore different tradeoffs between usability and expressiveness, research or production orientation and supported hardware. They operate on a DAG of computational operators, wrapping high-performance libraries such as CUDNN (for NVIDIA GPUs) or NNPACK (for various CPUs), and automate memory allocation, synchronization, distribution. Custom operators are needed where the computation does not fit existing high-performance library calls, usually at a high engineering cost. This is frequently required when new operators are invented by researchers: such operators suffer a severe performance penalty, which limits the pace of innovation. Furthermore, even if there is an existing runtime call these frameworks can use, it often doesn't offer optimal performance for a user's particular network architecture and dataset, missing optimizations between operators as well as optimizations that can be done knowing the size and shape of data. Our contributions include (1) a language close to the mathematics of deep learning called Tensor Comprehensions offering both imperative and declarative styles, (2) a polyhedral Just-In-Time compiler to convert a mathematical description of a deep learning DAG into a CUDA kernel with delegated memory management and synchronization, also providing optimizations such as operator fusion and specialization for specific sizes, (3) a compilation cache populated by an autotuner. [Abstract cutoff]"
+            },
+            "slug": "Tensor-Comprehensions:-Framework-Agnostic-Machine-Vasilache-Zinenko",
+            "title": {
+                "fragments": [],
+                "text": "Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A language close to the mathematics of deep learning called Tensor Comprehensions offering both imperative and declarative styles, a polyhedral Just-In-Time compiler to convert a mathematical description of a deep learning DAG into a CUDA kernel with delegated memory management and synchronization, and a compilation cache populated by an autotuner are contributed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2072782550"
+                        ],
+                        "name": "Zhihao Jia",
+                        "slug": "Zhihao-Jia",
+                        "structuredName": {
+                            "firstName": "Zhihao",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhihao Jia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3349220"
+                        ],
+                        "name": "Sina Lin",
+                        "slug": "Sina-Lin",
+                        "structuredName": {
+                            "firstName": "Sina",
+                            "lastName": "Lin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sina Lin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144329939"
+                        ],
+                        "name": "C. Qi",
+                        "slug": "C.-Qi",
+                        "structuredName": {
+                            "firstName": "C.",
+                            "lastName": "Qi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Qi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 36
+                            }
+                        ],
+                        "text": "For dynamic metrics, previous work (Jia et al., 2018) shows that it is possible to accurately predict the execution time of a computation graph by only measuring a few representative operators on hardware."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3619071,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3ea088eae8637530d1108065acab244f3b6c280d",
+            "isKey": false,
+            "numCitedBy": 68,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The past few years have witnessed growth in the size and computational requirements for training deep convolutional neural networks. Current approaches parallelize the training process onto multiple devices by applying a single parallelization strategy (e.g., data or model parallelism) to all layers in a network. Although easy to reason about, this design results in suboptimal runtime performance in large-scale distributed training, since different layers in a network may prefer different parallelization strategies. In this paper, we propose layer-wise parallelism that allows each layer in a network to use an individual parallelization strategy. We jointly optimize how each layer is parallelized by solving a graph search problem. Our experiments show that layer-wise parallelism outperforms current parallelization approaches by increasing training speed, reducing communication costs, achieving better scalability to multiple GPUs, while maintaining the same network accuracy."
+            },
+            "slug": "Exploring-Hidden-Dimensions-in-Parallelizing-Neural-Jia-Lin",
+            "title": {
+                "fragments": [],
+                "text": "Exploring Hidden Dimensions in Parallelizing Convolutional Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "The experiments show that layer-wise parallelism outperforms current parallelization approaches by increasing training speed, reducing communication costs, achieving better scalability to multiple GPUs, while maintaining the same network accuracy."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1913774"
+                        ],
+                        "name": "Tianqi Chen",
+                        "slug": "Tianqi-Chen",
+                        "structuredName": {
+                            "firstName": "Tianqi",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tianqi Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47108160"
+                        ],
+                        "name": "T. Moreau",
+                        "slug": "T.-Moreau",
+                        "structuredName": {
+                            "firstName": "Thierry",
+                            "lastName": "Moreau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Moreau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1732910"
+                        ],
+                        "name": "Ziheng Jiang",
+                        "slug": "Ziheng-Jiang",
+                        "structuredName": {
+                            "firstName": "Ziheng",
+                            "lastName": "Jiang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ziheng Jiang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3050154"
+                        ],
+                        "name": "Haichen Shen",
+                        "slug": "Haichen-Shen",
+                        "structuredName": {
+                            "firstName": "Haichen",
+                            "lastName": "Shen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Haichen Shen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2621619"
+                        ],
+                        "name": "Eddie Q. Yan",
+                        "slug": "Eddie-Q.-Yan",
+                        "structuredName": {
+                            "firstName": "Eddie",
+                            "lastName": "Yan",
+                            "middleNames": [
+                                "Q."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eddie Q. Yan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2185540"
+                        ],
+                        "name": "Leyuan Wang",
+                        "slug": "Leyuan-Wang",
+                        "structuredName": {
+                            "firstName": "Leyuan",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Leyuan Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49994783"
+                        ],
+                        "name": "Yuwei Hu",
+                        "slug": "Yuwei-Hu",
+                        "structuredName": {
+                            "firstName": "Yuwei",
+                            "lastName": "Hu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yuwei Hu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1717411"
+                        ],
+                        "name": "L. Ceze",
+                        "slug": "L.-Ceze",
+                        "structuredName": {
+                            "firstName": "Luis",
+                            "lastName": "Ceze",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Ceze"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1730156"
+                        ],
+                        "name": "Carlos Guestrin",
+                        "slug": "Carlos-Guestrin",
+                        "structuredName": {
+                            "firstName": "Carlos",
+                            "lastName": "Guestrin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Carlos Guestrin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144695691"
+                        ],
+                        "name": "A. Krishnamurthy",
+                        "slug": "A.-Krishnamurthy",
+                        "structuredName": {
+                            "firstName": "Arvind",
+                            "lastName": "Krishnamurthy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krishnamurthy"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 24,
+                                "start": 21
+                            }
+                        ],
+                        "text": "The optimizations in TVM operate at a lower level than the optimizations in MetaFlow, so they could easily be composed."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 36
+                            }
+                        ],
+                        "text": "In the future, we plan to integrate TVM as a backend for MetaFlow so that we can improve performance via both graph optimization and individual kernel code generation."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 160,
+                                "start": 143
+                            }
+                        ],
+                        "text": "Recent work has proposed different approaches to automatically generate highperformance kernels for specific hardware (Vasilache et al., 2018; Chen et al., 2018; Ragan-Kelley et al., 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 212,
+                                "start": 194
+                            }
+                        ],
+                        "text": "Existing deep learning systems such as TensorFlow, PyTorch, and TVM optimize an input computation graph by performing greedy rule-based substitutions on the graph (Abadi et al. (2016); PyTorch; Chen et al. (2018))."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 122,
+                                "start": 119
+                            }
+                        ],
+                        "text": "Our current implementation of MetaFlow directly uses the cuDNN and cuBLAS libraries to run individual operators, while TVM uses auto-generated high-performance kernels, especially for convolutions, making it competitive on some benchmarks despite its lack of the higher-level graph optimizations MetaFlow provides."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 73,
+                                "start": 56
+                            }
+                        ],
+                        "text": "Similar to existing DNN optimizers (Abadi et al., 2016; Chen et al., 2018; PyTorch), MetaFlow uses a computation graph G to define computation and state in a DNN model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 98,
+                                "start": 81
+                            }
+                        ],
+                        "text": "Figure 8 compares the end-to-end inference performance between MetaFlow and TVM (Chen et al., 2018)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3296374,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ec3071fb918ad69ec80df1ca9cf1fdeb386a9603",
+            "isKey": true,
+            "numCitedBy": 140,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Scalable frameworks, such as TensorFlow, MXNet, Caffe, and PyTorch drive the current popularity and utility of deep learning. However, these frameworks are optimized for a narrow range of server-class GPUs and deploying workloads to other platforms such as mobile phones, embedded devices, and specialized accelerators (e.g., FPGAs, ASICs) requires laborious manual effort. We propose TVM, an end-to-end optimization stack that exposes graph-level and operator-level optimizations to provide performance portability to deep learning workloads across diverse hardware back-ends. We discuss the optimization challenges specific to deep learning that TVM solves: high-level operator fusion, low-level memory reuse across threads, mapping to arbitrary hardware primitives, and memory latency hiding. Experimental results demonstrate that TVM delivers performance across hardware back-ends that are competitive with state-of-the-art libraries for low-power CPU and server-class GPUs. We also demonstrate TVM's ability to target new hardware accelerator back-ends by targeting an FPGA-based generic deep learning accelerator. The compiler infrastructure is open sourced."
+            },
+            "slug": "TVM:-End-to-End-Optimization-Stack-for-Deep-Chen-Moreau",
+            "title": {
+                "fragments": [],
+                "text": "TVM: End-to-End Optimization Stack for Deep Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "TVM is proposed, an end-to-end optimization stack that exposes graph-level and operator-level optimizations to provide performance portability to deep learning workloads across diverse hardware back-ends and discusses the optimization challenges specific toDeep learning that TVM solves."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145824029"
+                        ],
+                        "name": "David Silver",
+                        "slug": "David-Silver",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Silver",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Silver"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1885349"
+                        ],
+                        "name": "Aja Huang",
+                        "slug": "Aja-Huang",
+                        "structuredName": {
+                            "firstName": "Aja",
+                            "lastName": "Huang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aja Huang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2772217"
+                        ],
+                        "name": "Chris J. Maddison",
+                        "slug": "Chris-J.-Maddison",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Maddison",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chris J. Maddison"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35099444"
+                        ],
+                        "name": "A. Guez",
+                        "slug": "A.-Guez",
+                        "structuredName": {
+                            "firstName": "Arthur",
+                            "lastName": "Guez",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Guez"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2175946"
+                        ],
+                        "name": "L. Sifre",
+                        "slug": "L.-Sifre",
+                        "structuredName": {
+                            "firstName": "L.",
+                            "lastName": "Sifre",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Sifre"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47568983"
+                        ],
+                        "name": "George van den Driessche",
+                        "slug": "George-van-den-Driessche",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Driessche",
+                            "middleNames": [
+                                "van",
+                                "den"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "George van den Driessche"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "4337102"
+                        ],
+                        "name": "Julian Schrittwieser",
+                        "slug": "Julian-Schrittwieser",
+                        "structuredName": {
+                            "firstName": "Julian",
+                            "lastName": "Schrittwieser",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Julian Schrittwieser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2460849"
+                        ],
+                        "name": "Ioannis Antonoglou",
+                        "slug": "Ioannis-Antonoglou",
+                        "structuredName": {
+                            "firstName": "Ioannis",
+                            "lastName": "Antonoglou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ioannis Antonoglou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2749418"
+                        ],
+                        "name": "Vedavyas Panneershelvam",
+                        "slug": "Vedavyas-Panneershelvam",
+                        "structuredName": {
+                            "firstName": "Vedavyas",
+                            "lastName": "Panneershelvam",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vedavyas Panneershelvam"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1975889"
+                        ],
+                        "name": "Marc Lanctot",
+                        "slug": "Marc-Lanctot",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Lanctot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc Lanctot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48373216"
+                        ],
+                        "name": "S. Dieleman",
+                        "slug": "S.-Dieleman",
+                        "structuredName": {
+                            "firstName": "Sander",
+                            "lastName": "Dieleman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Dieleman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2401609"
+                        ],
+                        "name": "Dominik Grewe",
+                        "slug": "Dominik-Grewe",
+                        "structuredName": {
+                            "firstName": "Dominik",
+                            "lastName": "Grewe",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dominik Grewe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "4111313"
+                        ],
+                        "name": "John Nham",
+                        "slug": "John-Nham",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Nham",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John Nham"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2583391"
+                        ],
+                        "name": "Nal Kalchbrenner",
+                        "slug": "Nal-Kalchbrenner",
+                        "structuredName": {
+                            "firstName": "Nal",
+                            "lastName": "Kalchbrenner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nal Kalchbrenner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2542999"
+                        ],
+                        "name": "T. Lillicrap",
+                        "slug": "T.-Lillicrap",
+                        "structuredName": {
+                            "firstName": "Timothy",
+                            "lastName": "Lillicrap",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Lillicrap"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40662181"
+                        ],
+                        "name": "M. Leach",
+                        "slug": "M.-Leach",
+                        "structuredName": {
+                            "firstName": "Madeleine",
+                            "lastName": "Leach",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Leach"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2645384"
+                        ],
+                        "name": "K. Kavukcuoglu",
+                        "slug": "K.-Kavukcuoglu",
+                        "structuredName": {
+                            "firstName": "Koray",
+                            "lastName": "Kavukcuoglu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kavukcuoglu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1686971"
+                        ],
+                        "name": "T. Graepel",
+                        "slug": "T.-Graepel",
+                        "structuredName": {
+                            "firstName": "Thore",
+                            "lastName": "Graepel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Graepel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48987704"
+                        ],
+                        "name": "D. Hassabis",
+                        "slug": "D.-Hassabis",
+                        "structuredName": {
+                            "firstName": "Demis",
+                            "lastName": "Hassabis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Hassabis"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 249,
+                                "start": 230
+                            }
+                        ],
+                        "text": "Deep neural networks (DNNs) have driven advances in many practical problems, such as image classification (Krizhevsky et al., 2012; He et al., 2016), machine translation (Wu et al., 2016; Bahdanau et al., 2014), and game playing (Silver et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 515925,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "846aedd869a00c09b40f1f1f35673cb22bc87490",
+            "isKey": false,
+            "numCitedBy": 11516,
+            "numCiting": 81,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The game of Go has long been viewed as the most challenging of classic games for artificial intelligence owing to its enormous search space and the difficulty of evaluating board positions and moves. Here we introduce a new approach to computer Go that uses \u2018value networks\u2019 to evaluate board positions and \u2018policy networks\u2019 to select moves. These deep neural networks are trained by a novel combination of supervised learning from human expert games, and reinforcement learning from games of self-play. Without any lookahead search, the neural networks play Go at the level of state-of-the-art Monte Carlo tree search programs that simulate thousands of random games of self-play. We also introduce a new search algorithm that combines Monte Carlo simulation with value and policy networks. Using this search algorithm, our program AlphaGo achieved a 99.8% winning rate against other Go programs, and defeated the human European Go champion by 5 games to 0. This is the first time that a computer program has defeated a human professional player in the full-sized game of Go, a feat previously thought to be at least a decade away."
+            },
+            "slug": "Mastering-the-game-of-Go-with-deep-neural-networks-Silver-Huang",
+            "title": {
+                "fragments": [],
+                "text": "Mastering the game of Go with deep neural networks and tree search"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Using this search algorithm, the program AlphaGo achieved a 99.8% winning rate against other Go programs, and defeated the human European Go champion by 5 games to 0.5, the first time that a computer program has defeated a human professional player in the full-sized game of Go."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Nature"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49986267"
+                        ],
+                        "name": "Tao Lei",
+                        "slug": "Tao-Lei",
+                        "structuredName": {
+                            "firstName": "Tao",
+                            "lastName": "Lei",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tao Lei"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2153632494"
+                        ],
+                        "name": "Yu Zhang",
+                        "slug": "Yu-Zhang",
+                        "structuredName": {
+                            "firstName": "Yu",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yu Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3167681"
+                        ],
+                        "name": "Yoav Artzi",
+                        "slug": "Yoav-Artzi",
+                        "structuredName": {
+                            "firstName": "Yoav",
+                            "lastName": "Artzi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoav Artzi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 53,
+                                "start": 37
+                            }
+                        ],
+                        "text": "We follow previous work and use SRU (Lei et al., 2017) as the recurrent units for RNNTC and NMT."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 147,
+                                "start": 130
+                            }
+                        ],
+                        "text": "As another example, the following equations show how to simplify the computation in a Simple Recurrent Unit (Equations 2 and 4 in Lei et al. (2017)) by using a sequence of graph substitutions that distribute multiplications, reorder commutative operators, and factor out common terms, respectively."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 76,
+                                "start": 60
+                            }
+                        ],
+                        "text": "RNNTC and NMT are two sequence-to-sequence RNN models from (Lei et al., 2017) for text classification and neural machine translation, respectively."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3393165,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "901e5f840daa0609a80232ec363d7c77de25b611",
+            "isKey": true,
+            "numCitedBy": 152,
+            "numCiting": 88,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Common recurrent neural network architectures scale poorly due to the intrinsic difficulty in parallelizing their state computations. In this work, we propose the Simple Recurrent Unit (SRU) architecture, a recurrent unit that simplifies the computation and exposes more parallelism. In SRU, the majority of computation for each step is independent of the recurrence and can be easily parallelized. SRU is as fast as a convolutional layer and 5-10x faster than an optimized LSTM implementation. We study SRUs on a wide range of applications, including classification, question answering, language modeling, translation and speech recognition. Our experiments demonstrate the effectiveness of SRU and the trade-off it enables between speed and performance. We open source our implementation in PyTorch and CNTK."
+            },
+            "slug": "Training-RNNs-as-Fast-as-CNNs-Lei-Zhang",
+            "title": {
+                "fragments": [],
+                "text": "Training RNNs as Fast as CNNs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "The Simple Recurrent Unit architecture is proposed, a recurrent unit that simplifies the computation and exposes more parallelism, and is as fast as a convolutional layer and 5-10x faster than an optimized LSTM implementation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EMNLP 2018"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3003738"
+                        ],
+                        "name": "Sharan Chetlur",
+                        "slug": "Sharan-Chetlur",
+                        "structuredName": {
+                            "firstName": "Sharan",
+                            "lastName": "Chetlur",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sharan Chetlur"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2266717"
+                        ],
+                        "name": "Cliff Woolley",
+                        "slug": "Cliff-Woolley",
+                        "structuredName": {
+                            "firstName": "Cliff",
+                            "lastName": "Woolley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Cliff Woolley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2101730"
+                        ],
+                        "name": "Philippe Vandermersch",
+                        "slug": "Philippe-Vandermersch",
+                        "structuredName": {
+                            "firstName": "Philippe",
+                            "lastName": "Vandermersch",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Philippe Vandermersch"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145611200"
+                        ],
+                        "name": "Jonathan M. Cohen",
+                        "slug": "Jonathan-M.-Cohen",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Cohen",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan M. Cohen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066786849"
+                        ],
+                        "name": "J. Tran",
+                        "slug": "J.-Tran",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Tran",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Tran"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2301680"
+                        ],
+                        "name": "Bryan Catanzaro",
+                        "slug": "Bryan-Catanzaro",
+                        "structuredName": {
+                            "firstName": "Bryan",
+                            "lastName": "Catanzaro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bryan Catanzaro"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1782282"
+                        ],
+                        "name": "Evan Shelhamer",
+                        "slug": "Evan-Shelhamer",
+                        "structuredName": {
+                            "firstName": "Evan",
+                            "lastName": "Shelhamer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Evan Shelhamer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 87
+                            }
+                        ],
+                        "text": "The MetaFlow cost model and runtime use existing deep learning libraries (e.g., cuDNN (Chetlur et al., 2014) and cuBLAS (cuBLAS) for GPUs, and MKL2 for CPUs) to estimate the execution time of a computation graph and perform real executions on different devices."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 8
+                            }
+                        ],
+                        "text": ", cuDNN (Chetlur et al., 2014) and cuBLAS (cuBLAS) for GPUs, and MKL2 for CPUs) to estimate the execution time of a computation graph and perform real executions on different devices."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 12330432,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "31c36d445367ba204244bb74893c5654e31c3869",
+            "isKey": false,
+            "numCitedBy": 1419,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a library that provides optimized implementations for deep learning primitives. Deep learning workloads are computationally intensive, and optimizing the kernels of deep learning workloads is difficult and time-consuming. As parallel architectures evolve, kernels must be reoptimized for new processors, which makes maintaining codebases difficult over time. Similar issues have long been addressed in the HPC community by libraries such as the Basic Linear Algebra Subroutines (BLAS) [2]. However, there is no analogous library for deep learning. Without such a library, researchers implementing deep learning workloads on parallel processors must create and optimize their own implementations of the main computational kernels, and this work must be repeated as new parallel processors emerge. To address this problem, we have created a library similar in intent to BLAS, with optimized routines for deep learning workloads. Our implementation contains routines for GPUs, and similarly to the BLAS library, could be implemented for other platforms. The library is easy to integrate into existing frameworks, and provides optimized performance and memory usage. For example, integrating cuDNN into Caffe, a popular framework for convolutional networks, improves performance by 36% on a standard model while also reducing memory consumption."
+            },
+            "slug": "cuDNN:-Efficient-Primitives-for-Deep-Learning-Chetlur-Woolley",
+            "title": {
+                "fragments": [],
+                "text": "cuDNN: Efficient Primitives for Deep Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "A library similar in intent to BLAS, with optimized routines for deep learning workloads, that contains routines for GPUs, and similarly to the BLAS library, could be implemented for other platforms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401885963"
+                        ],
+                        "name": "Jonathan Ragan-Kelley",
+                        "slug": "Jonathan-Ragan-Kelley",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Ragan-Kelley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Ragan-Kelley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2496412"
+                        ],
+                        "name": "Connelly Barnes",
+                        "slug": "Connelly-Barnes",
+                        "structuredName": {
+                            "firstName": "Connelly",
+                            "lastName": "Barnes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Connelly Barnes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 5885207,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d032f74b16457584f8a60ae07cfef9b617033638",
+            "isKey": false,
+            "numCitedBy": 878,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Image processing pipelines combine the challenges of stencil computations and stream programs. They are composed of large graphs of different stencil stages, as well as complex reductions, and stages with global or data-dependent access patterns. Because of their complex structure, the performance difference between a naive implementation of a pipeline and an optimized one is often an order of magnitude. Efficient implementations require optimization of both parallelism and locality, but due to the nature of stencils, there is a fundamental tension between parallelism, locality, and introducing redundant recomputation of shared values. We present a systematic model of the tradeoff space fundamental to stencil pipelines, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule. Combining this compiler with stochastic search over the space of schedules enables terse, composable programs to achieve state-of-the-art performance on a wide range of real image processing pipelines, and across different hardware architectures, including multicores with SIMD, and heterogeneous CPU+GPU execution. From simple Halide programs written in a few hours, we demonstrate performance up to 5x faster than hand-tuned C, intrinsics, and CUDA implementations optimized by experts over weeks or months, for image processing applications beyond the reach of past automatic compilers."
+            },
+            "slug": "Halide:-a-language-and-compiler-for-optimizing-and-Ragan-Kelley-Barnes",
+            "title": {
+                "fragments": [],
+                "text": "Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A systematic model of the tradeoff space fundamental to stencil pipelines is presented, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI 2013"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3346186"
+                        ],
+                        "name": "Forrest N. Iandola",
+                        "slug": "Forrest-N.-Iandola",
+                        "structuredName": {
+                            "firstName": "Forrest",
+                            "lastName": "Iandola",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Forrest N. Iandola"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2318023"
+                        ],
+                        "name": "M. Moskewicz",
+                        "slug": "M.-Moskewicz",
+                        "structuredName": {
+                            "firstName": "Matthew",
+                            "lastName": "Moskewicz",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Moskewicz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2059241"
+                        ],
+                        "name": "Khalid Ashraf",
+                        "slug": "Khalid-Ashraf",
+                        "structuredName": {
+                            "firstName": "Khalid",
+                            "lastName": "Ashraf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Khalid Ashraf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143840275"
+                        ],
+                        "name": "Song Han",
+                        "slug": "Song-Han",
+                        "structuredName": {
+                            "firstName": "Song",
+                            "lastName": "Han",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Song Han"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "80724002"
+                        ],
+                        "name": "W. Dally",
+                        "slug": "W.-Dally",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Dally",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Dally"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1732330"
+                        ],
+                        "name": "K. Keutzer",
+                        "slug": "K.-Keutzer",
+                        "structuredName": {
+                            "firstName": "Kurt",
+                            "lastName": "Keutzer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Keutzer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 125,
+                                "start": 105
+                            }
+                        ],
+                        "text": "We evaluate MetaFlow on five real-world DNNs, including Inception-v3 (Szegedy et al., 2016), SqueezeNet (Iandola et al., 2016), ResNet-50 (He et al., 2016), RNN Text Classification (Kim, 2014), and Neural Machine Translation (Wu et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 128,
+                                "start": 108
+                            }
+                        ],
+                        "text": "We use three representative CNNs for image classification: Inception-v3 (Szegedy et al., 2016), SqueezeNet (Iandola et al., 2016), and ResNet50 (He et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 42,
+                                "start": 20
+                            }
+                        ],
+                        "text": ", 2016), SqueezeNet (Iandola et al., 2016), and ResNet50 (He et al."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 42,
+                                "start": 20
+                            }
+                        ],
+                        "text": ", 2016), SqueezeNet (Iandola et al., 2016), ResNet-50 (He et al."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 114,
+                                "start": 94
+                            }
+                        ],
+                        "text": "For example, none of our substitutions cross the boundary between fire modules in SqueezeNet (Iandola et al., 2016), yielding an easy way to split the graph."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14136028,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "969fbdcd0717bec06228053788c2ff78bbb4daac",
+            "isKey": true,
+            "numCitedBy": 4092,
+            "numCiting": 62,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent research on deep neural networks has focused primarily on improving accuracy. For a given accuracy level, it is typically possible to identify multiple DNN architectures that achieve that accuracy level. With equivalent accuracy, smaller DNN architectures offer at least three advantages: (1) Smaller DNNs require less communication across servers during distributed training. (2) Smaller DNNs require less bandwidth to export a new model from the cloud to an autonomous car. (3) Smaller DNNs are more feasible to deploy on FPGAs and other hardware with limited memory. To provide all of these advantages, we propose a small DNN architecture called SqueezeNet. SqueezeNet achieves AlexNet-level accuracy on ImageNet with 50x fewer parameters. Additionally, with model compression techniques we are able to compress SqueezeNet to less than 0.5MB (510x smaller than AlexNet). \nThe SqueezeNet architecture is available for download here: this https URL"
+            },
+            "slug": "SqueezeNet:-AlexNet-level-accuracy-with-50x-fewer-Iandola-Moskewicz",
+            "title": {
+                "fragments": [],
+                "text": "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <1MB model size"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work proposes a small DNN architecture called SqueezeNet, which achieves AlexNet-level accuracy on ImageNet with 50x fewer parameters and is able to compress to less than 0.5MB (510x smaller than AlexNet)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2574060"
+                        ],
+                        "name": "Christian Szegedy",
+                        "slug": "Christian-Szegedy",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Szegedy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christian Szegedy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2657155"
+                        ],
+                        "name": "Vincent Vanhoucke",
+                        "slug": "Vincent-Vanhoucke",
+                        "structuredName": {
+                            "firstName": "Vincent",
+                            "lastName": "Vanhoucke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vincent Vanhoucke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2054165706"
+                        ],
+                        "name": "S. Ioffe",
+                        "slug": "S.-Ioffe",
+                        "structuredName": {
+                            "firstName": "Sergey",
+                            "lastName": "Ioffe",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Ioffe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1789737"
+                        ],
+                        "name": "Jonathon Shlens",
+                        "slug": "Jonathon-Shlens",
+                        "structuredName": {
+                            "firstName": "Jonathon",
+                            "lastName": "Shlens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathon Shlens"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3282833"
+                        ],
+                        "name": "Z. Wojna",
+                        "slug": "Z.-Wojna",
+                        "structuredName": {
+                            "firstName": "Zbigniew",
+                            "lastName": "Wojna",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Z. Wojna"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 93
+                            }
+                        ],
+                        "text": "Performance comparison between MetaFlow and TensorRT on individual subgraphs in Inception-v3 (Szegedy et al., 2016)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 72
+                            }
+                        ],
+                        "text": "We use three representative CNNs for image classification: Inception-v3 (Szegedy et al., 2016), SqueezeNet (Iandola et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 91,
+                                "start": 69
+                            }
+                        ],
+                        "text": "We evaluate MetaFlow on five real-world DNNs, including Inception-v3 (Szegedy et al., 2016), SqueezeNet (Iandola et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 90,
+                                "start": 70
+                            }
+                        ],
+                        "text": "We evaluate MetaFlow on five real-world DNNs, including Inception-v3 (Szegedy et al., 2016), SqueezeNet (Iandola et al., 2016), ResNet-50 (He et al., 2016), RNN Text Classification (Kim, 2014), and Neural Machine Translation (Wu et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 93,
+                                "start": 73
+                            }
+                        ],
+                        "text": "We use three representative CNNs for image classification: Inception-v3 (Szegedy et al., 2016), SqueezeNet (Iandola et al., 2016), and ResNet50 (He et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206593880,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "23ffaa0fe06eae05817f527a47ac3291077f9e58",
+            "isKey": true,
+            "numCitedBy": 15857,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Convolutional networks are at the core of most state of-the-art computer vision solutions for a wide variety of tasks. Since 2014 very deep convolutional networks started to become mainstream, yielding substantial gains in various benchmarks. Although increased model size and computational cost tend to translate to immediate quality gains for most tasks (as long as enough labeled data is provided for training), computational efficiency and low parameter count are still enabling factors for various use cases such as mobile vision and big-data scenarios. Here we are exploring ways to scale up networks in ways that aim at utilizing the added computation as efficiently as possible by suitably factorized convolutions and aggressive regularization. We benchmark our methods on the ILSVRC 2012 classification challenge validation set demonstrate substantial gains over the state of the art: 21:2% top-1 and 5:6% top-5 error for single frame evaluation using a network with a computational cost of 5 billion multiply-adds per inference and with using less than 25 million parameters. With an ensemble of 4 models and multi-crop evaluation, we report 3:5% top-5 error and 17:3% top-1 error on the validation set and 3:6% top-5 error on the official test set."
+            },
+            "slug": "Rethinking-the-Inception-Architecture-for-Computer-Szegedy-Vanhoucke",
+            "title": {
+                "fragments": [],
+                "text": "Rethinking the Inception Architecture for Computer Vision"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work is exploring ways to scale up networks in ways that aim at utilizing the added computation as efficiently as possible by suitably factorized convolutions and aggressive regularization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3335364"
+                        ],
+                        "name": "Dzmitry Bahdanau",
+                        "slug": "Dzmitry-Bahdanau",
+                        "structuredName": {
+                            "firstName": "Dzmitry",
+                            "lastName": "Bahdanau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dzmitry Bahdanau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1979489"
+                        ],
+                        "name": "Kyunghyun Cho",
+                        "slug": "Kyunghyun-Cho",
+                        "structuredName": {
+                            "firstName": "Kyunghyun",
+                            "lastName": "Cho",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kyunghyun Cho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 69,
+                                "start": 29
+                            }
+                        ],
+                        "text": ", 2016), machine translation (Wu et al., 2016; Bahdanau et al., 2014), and game playing (Silver et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 209,
+                                "start": 188
+                            }
+                        ],
+                        "text": "Deep neural networks (DNNs) have driven advances in many practical problems, such as image classification (Krizhevsky et al., 2012; He et al., 2016), machine translation (Wu et al., 2016; Bahdanau et al., 2014), and game playing (Silver et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11212020,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+            "isKey": false,
+            "numCitedBy": 19562,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Neural machine translation is a recently proposed approach to machine translation. Unlike the traditional statistical machine translation, the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance. The models proposed recently for neural machine translation often belong to a family of encoder-decoders and consists of an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition."
+            },
+            "slug": "Neural-Machine-Translation-by-Jointly-Learning-to-Bahdanau-Cho",
+            "title": {
+                "fragments": [],
+                "text": "Neural Machine Translation by Jointly Learning to Align and Translate"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "It is conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and it is proposed to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145610313"
+                        ],
+                        "name": "K. Andreev",
+                        "slug": "K.-Andreev",
+                        "structuredName": {
+                            "firstName": "Konstantin",
+                            "lastName": "Andreev",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Andreev"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145671880"
+                        ],
+                        "name": "Harald R\u00e4cke",
+                        "slug": "Harald-R\u00e4cke",
+                        "structuredName": {
+                            "firstName": "Harald",
+                            "lastName": "R\u00e4cke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Harald R\u00e4cke"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 92,
+                                "start": 71
+                            }
+                        ],
+                        "text": "We have examined another graph split algorithm, balanced partitioning (Andreev & Racke, 2006), to see if the results differ."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7330838,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "eb098fafb33cd98a216045cfb83e6de31acb78f6",
+            "isKey": false,
+            "numCitedBy": 450,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider the problem of partitioning a graph into k components of roughly equal size while minimizing the capacity of the edges between different components of the cut. In particular we require that for a parameter \u03bd \u2265 1, no component contains more than \u03bd \u00b7 n/k of the graph vertices.For k = 2 and \u03bd = 1 this problem is equivalent to the well-known Minimum Bisection problem for which an approximation algorithm with a polylogarithmic approximation guarantee has been presented in [FK]. For arbitrary k and \u03bd \u2265 2 a bicriteria approximation ratio of O(log n) was obtained by Even et al. [ENRS1] using the spreading metrics technique.We present a bicriteria approximation algorithm that for any constant \u03bd > 1 runs in polynomial time and guarantees an approximation ratio of O(log1.5n) (for a precise statement of the main result see Theorem 6). For \u03bd = 1 and k \u2265 3 we show that no polynomial time approximation algorithm can guarantee a finite approximation ratio unless P = NP."
+            },
+            "slug": "Balanced-Graph-Partitioning-Andreev-R\u00e4cke",
+            "title": {
+                "fragments": [],
+                "text": "Balanced Graph Partitioning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A bicriteria approximation algorithm that for any constant \u03bd > 1 runs in polynomial time and guarantees an approximation ratio of O(log1.5n) (for a precise statement of the main result see Theorem 6)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SPAA '04"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39353098"
+                        ],
+                        "name": "Kaiming He",
+                        "slug": "Kaiming-He",
+                        "structuredName": {
+                            "firstName": "Kaiming",
+                            "lastName": "He",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kaiming He"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1771551"
+                        ],
+                        "name": "X. Zhang",
+                        "slug": "X.-Zhang",
+                        "structuredName": {
+                            "firstName": "X.",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3080683"
+                        ],
+                        "name": "Shaoqing Ren",
+                        "slug": "Shaoqing-Ren",
+                        "structuredName": {
+                            "firstName": "Shaoqing",
+                            "lastName": "Ren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shaoqing Ren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [],
+                        "name": "Jian Sun",
+                        "slug": "Jian-Sun",
+                        "structuredName": {
+                            "firstName": "Jian",
+                            "lastName": "Sun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jian Sun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 147,
+                                "start": 132
+                            }
+                        ],
+                        "text": "Deep neural networks (DNNs) have driven advances in many practical problems, such as image classification (Krizhevsky et al., 2012; He et al., 2016), machine translation (Wu et al., 2016; Bahdanau et al., 2014), and game playing (Silver et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 154,
+                                "start": 139
+                            }
+                        ],
+                        "text": "We evaluate MetaFlow on five real-world DNNs, including Inception-v3 (Szegedy et al., 2016), SqueezeNet (Iandola et al., 2016), ResNet-50 (He et al., 2016), RNN Text Classification (Kim, 2014), and Neural Machine Translation (Wu et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 19
+                            }
+                        ],
+                        "text": ", 2016), ResNet-50 (He et al., 2016), RNN Text Classification (Kim, 2014), and Neural Machine Translation (Wu et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 78,
+                                "start": 61
+                            }
+                        ],
+                        "text": "A sequence of relaxed graph substitutions on a ResNet module (He et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 160,
+                                "start": 145
+                            }
+                        ],
+                        "text": "We use three representative CNNs for image classification: Inception-v3 (Szegedy et al., 2016), SqueezeNet (Iandola et al., 2016), and ResNet50 (He et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 106
+                            }
+                        ],
+                        "text": "Deep neural networks (DNNs) have driven advances in many practical problems, such as image classification (Krizhevsky et al., 2012; He et al., 2016), machine translation (Wu et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 105,
+                                "start": 90
+                            }
+                        ],
+                        "text": "As a motivating example, we show how we can optimize the widely used ResNet architecture (He et al., 2016) using our approach, as shown in Figure 1."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206594692,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+            "isKey": true,
+            "numCitedBy": 97653,
+            "numCiting": 61,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers - 8\u00d7 deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions1, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation."
+            },
+            "slug": "Deep-Residual-Learning-for-Image-Recognition-He-Zhang",
+            "title": {
+                "fragments": [],
+                "text": "Deep Residual Learning for Image Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 63,
+                "text": "This work presents a residual learning framework to ease the training of networks that are substantially deeper than those used previously, and provides comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38367242"
+                        ],
+                        "name": "Yoon Kim",
+                        "slug": "Yoon-Kim",
+                        "structuredName": {
+                            "firstName": "Yoon",
+                            "lastName": "Kim",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoon Kim"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 191,
+                                "start": 182
+                            }
+                        ],
+                        "text": "We evaluate MetaFlow on five real-world DNNs, including Inception-v3 (Szegedy et al., 2016), SqueezeNet (Iandola et al., 2016), ResNet-50 (He et al., 2016), RNN Text Classification (Kim, 2014), and Neural Machine Translation (Wu et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 33
+                            }
+                        ],
+                        "text": ", 2016), RNN Text Classification (Kim, 2014), and Neural Machine Translation (Wu et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9672033,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1f6ba0782862ec12a5ec6d7fb608523d55b0c6ba",
+            "isKey": false,
+            "numCitedBy": 10170,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We report on a series of experiments with convolutional neural networks (CNN) trained on top of pre-trained word vectors for sentence-level classification tasks. We show that a simple CNN with little hyperparameter tuning and static vectors achieves excellent results on multiple benchmarks. Learning task-specific vectors through fine-tuning offers further gains in performance. We additionally propose a simple modification to the architecture to allow for the use of both task-specific and static vectors. The CNN models discussed herein improve upon the state of the art on 4 out of 7 tasks, which include sentiment analysis and question classification."
+            },
+            "slug": "Convolutional-Neural-Networks-for-Sentence-Kim",
+            "title": {
+                "fragments": [],
+                "text": "Convolutional Neural Networks for Sentence Classification"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The CNN models discussed herein improve upon the state of the art on 4 out of 7 tasks, which include sentiment analysis and question classification, and are proposed to allow for the use of both task-specific and static vectors."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EMNLP"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34838386"
+                        ],
+                        "name": "K. Simonyan",
+                        "slug": "K.-Simonyan",
+                        "structuredName": {
+                            "firstName": "Karen",
+                            "lastName": "Simonyan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Simonyan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688869"
+                        ],
+                        "name": "Andrew Zisserman",
+                        "slug": "Andrew-Zisserman",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Zisserman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Zisserman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 165,
+                                "start": 139
+                            }
+                        ],
+                        "text": "To allow the exhaustive search to complete in reasonable time, we use small DNN models including AlexNet (Krizhevsky et al., 2012), VGG16 (Simonyan & Zisserman, 2014), ResNet18, and an Inception module shown in Figure 7a.\nTable 3 compares the search time of the two algorithms."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14124313,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "eb42cf88027de515750f230b23b1a057dc782108",
+            "isKey": false,
+            "numCitedBy": 63195,
+            "numCiting": 57,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting. Our main contribution is a thorough evaluation of networks of increasing depth using an architecture with very small (3x3) convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers. These findings were the basis of our ImageNet Challenge 2014 submission, where our team secured the first and the second places in the localisation and classification tracks respectively. We also show that our representations generalise well to other datasets, where they achieve state-of-the-art results. We have made our two best-performing ConvNet models publicly available to facilitate further research on the use of deep visual representations in computer vision."
+            },
+            "slug": "Very-Deep-Convolutional-Networks-for-Large-Scale-Simonyan-Zisserman",
+            "title": {
+                "fragments": [],
+                "text": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 73,
+                "text": "This work investigates the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting using an architecture with very small convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 106
+                            }
+                        ],
+                        "text": "Deep neural networks (DNNs) have driven advances in many practical problems, such as image classification (Krizhevsky et al., 2012; He et al., 2016), machine translation (Wu et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 130,
+                                "start": 105
+                            }
+                        ],
+                        "text": "To allow the exhaustive search to complete in reasonable time, we use small DNN models including AlexNet (Krizhevsky et al., 2012), VGG16 (Simonyan & Zisserman, 2014), ResNet18, and an Inception module shown in Figure 7a."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 106
+                            }
+                        ],
+                        "text": "To allow the exhaustive search to complete in reasonable time, we use small DNN models including AlexNet (Krizhevsky et al., 2012), VGG16 (Simonyan & Zisserman, 2014), ResNet18, and an Inception module shown in Figure 7a.\nTable 3 compares the search time of the two algorithms."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 130,
+                                "start": 107
+                            }
+                        ],
+                        "text": "Deep neural networks (DNNs) have driven advances in many practical problems, such as image classification (Krizhevsky et al., 2012; He et al., 2016), machine translation (Wu et al., 2016; Bahdanau et al., 2014), and game playing (Silver et al., 2016)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 195908774,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+            "isKey": true,
+            "numCitedBy": 82046,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
+            },
+            "slug": "ImageNet-classification-with-deep-convolutional-Krizhevsky-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet classification with deep convolutional neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "A large, deep convolutional neural network was trained to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes and employed a recently developed regularization method called \"dropout\" that proved to be very effective."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Commun. ACM"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1725180"
+                        ],
+                        "name": "T. Cormen",
+                        "slug": "T.-Cormen",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Cormen",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Cormen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145372049"
+                        ],
+                        "name": "C. Leiserson",
+                        "slug": "C.-Leiserson",
+                        "structuredName": {
+                            "firstName": "Charles",
+                            "lastName": "Leiserson",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Leiserson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2113911099"
+                        ],
+                        "name": "R. Rivest",
+                        "slug": "R.-Rivest",
+                        "structuredName": {
+                            "firstName": "Ronald",
+                            "lastName": "Rivest",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Rivest"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1690758"
+                        ],
+                        "name": "C. Stein",
+                        "slug": "C.-Stein",
+                        "structuredName": {
+                            "firstName": "Clifford",
+                            "lastName": "Stein",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Stein"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 172,
+                                "start": 153
+                            }
+                        ],
+                        "text": "The graph is split in a way that minimizes the number of graph substitutions spanning different subgraphs and is computed by solving a max-flow problem (Cormen et al., 2009)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 133,
+                                "start": 114
+                            }
+                        ],
+                        "text": "By using Cap(oi) as the weight for each operator, we map the graph split problem to a minimum vertex cut problem (Cormen et al., 2009) and can use any max-flow algorithm to find a minimum cut."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 60621753,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "611c2c20f6566946694d832e58bfd7b7cb58b66e",
+            "isKey": false,
+            "numCitedBy": 2767,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "If you had to buy just one text on algorithms, Introduction to Algorithms is a magnificent choice. The book begins by considering the mathematical foundations of the analysis of algorithms and maintains this mathematical rigor throughout the work. The tools developed in these opening sections are then applied to sorting, data structures, graphs, and a variety of selected algorithms including computational geometry, string algorithms, parallel models of computation, fast Fourier transforms (FFTs), and more. This book's strength lies in its encyclopedic range, clear exposition, and powerful analysis. Pseudo-code explanation of the algorithms coupled with proof of their accuracy makes this book is a great resource on the basic tools used to analyze the performance of algorithms."
+            },
+            "slug": "Introduction-to-Algorithms,-third-edition-Cormen-Leiserson",
+            "title": {
+                "fragments": [],
+                "text": "Introduction to Algorithms, third edition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "Pseudo-code explanation of the algorithms coupled with proof of their accuracy makes this book a great resource on the basic tools used to analyze the performance of algorithms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2009
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 22
+                            }
+                        ],
+                        "text": "For example, ColocRL (Mirhoseini et al.,\n2017) uses reinforcement learning to find efficient device assignment for model parallelism across multiple GPUs."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 46,
+                                "start": 21
+                            }
+                        ],
+                        "text": "For example, ColocRL (Mirhoseini et al., 2017) uses reinforcement learning to find efficient device assignment for model parallelism across multiple GPUs."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Device placement optimization with reinforcement"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2017
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 7,
+            "methodology": 13
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 19,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Optimizing-DNN-Computation-with-Relaxed-Graph-Jia-Thomas/a226e7dc70c9902fa57b987f8fee78b04052c954?sort=total-citations"
+}

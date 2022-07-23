@@ -1,0 +1,2793 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1996134"
+                        ],
+                        "name": "Razvan Pascanu",
+                        "slug": "Razvan-Pascanu",
+                        "structuredName": {
+                            "firstName": "Razvan",
+                            "lastName": "Pascanu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Razvan Pascanu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784667"
+                        ],
+                        "name": "Guido Mont\u00fafar",
+                        "slug": "Guido-Mont\u00fafar",
+                        "structuredName": {
+                            "firstName": "Guido",
+                            "lastName": "Mont\u00fafar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Guido Mont\u00fafar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 357,
+                                "start": 86
+                            }
+                        ],
+                        "text": "Our result is a significant improvement over the bound \u03a9 ( (/n0) L\u22121 n0 ) obtained by Pascanu et al. (2013). In particular, our result demonstrates that even for small values of L and n, deep rectifier models are able to produce substantially more linear regions than shallow rectifier models. Additionally, using the same strategy as Pascanu et al. (2013), our result can be reformulated in terms of the number of linear regions per parameter."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 27
+                            }
+                        ],
+                        "text": "Building on the ideas from (Pascanu et al. 2013), we develop a general framework for analyzing deep models with piecewise linear activations."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 53,
+                                "start": 31
+                            }
+                        ],
+                        "text": "We improve upon the results by Pascanu et al. (2013), with a tighter lower-bound on the maximal number of linear regions of functions computable by deep rectifier networks."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 108,
+                                "start": 86
+                            }
+                        ],
+                        "text": "Our result is a significant improvement over the bound \u03a9 ( (/n0) L\u22121 n0 ) obtained by Pascanu et al. (2013). In particular, our result demonstrates that even for small values of L and n, deep rectifier models are able to produce substantially more linear regions than shallow rectifier models."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 17
+                            }
+                        ],
+                        "text": "In this respect, Pascanu et al. (2013) reported a theoretical result on the complexity of functions computable by deep feedforward networks with rectifier units."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 39332089,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "c12fefe264e42e77f1275ce56fb3e905347761a3",
+            "isKey": false,
+            "numCitedBy": 96,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Abstract: This paper explores the complexity of deep feed forward networks with linear pre-synaptic couplings and rectified linear activations. This is a contribution to the growing body of work contrasting the representational power of deep and shallow network architectures. In particular, we offer a framework for comparing deep and shallow models that belong to the family of piecewise linear functions based on computational geometry. We look at a deep rectifier multi-layer perceptron (MLP) with linear outputs units and compare it with a single layer version of the model. In the asymptotic regime, when the number of inputs stays constant, if the shallow model has $kn$ hidden units and $n_0$ inputs, then the number of linear regions is $O(k^{n_0}n^{n_0})$. For a $k$ layer model with $n$ hidden units on each layer it is $\\Omega(\\left( {n}/{n_0}\\right)^{k-1}n^{n_0})$. $\\left({n}/{n_0}\\right)^{k-1}$ grows faster then $k^{n_0}$ when either $n$ goes to infinity or $k$ goes to infinity and $n > 2n_0$. We consider this as a first step towards understanding the complexity of these models and specifically towards providing suitable mathematical tools for future analysis."
+            },
+            "slug": "On-the-number-of-inference-regions-of-deep-feed-Pascanu-Mont\u00fafar",
+            "title": {
+                "fragments": [],
+                "text": "On the number of inference regions of deep feed forward networks with piece-wise linear activations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper offers a framework for comparing deep and shallow models that belong to the family of piecewise linear functions based on computational geometry and looks at a deep rectifier multi-layer perceptron (MLP) with linear outputs units and compares it with a single layer version of the model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1996134"
+                        ],
+                        "name": "Razvan Pascanu",
+                        "slug": "Razvan-Pascanu",
+                        "structuredName": {
+                            "firstName": "Razvan",
+                            "lastName": "Pascanu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Razvan Pascanu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784667"
+                        ],
+                        "name": "Guido Mont\u00fafar",
+                        "slug": "Guido-Mont\u00fafar",
+                        "structuredName": {
+                            "firstName": "Guido",
+                            "lastName": "Mont\u00fafar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Guido Mont\u00fafar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 62,
+                                "start": 41
+                            }
+                        ],
+                        "text": "Additionally, using the same strategy as Pascanu et al. (2013), our result can be reformulated in terms of the number of linear regions per parameter."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 186,
+                                "start": 167
+                            }
+                        ],
+                        "text": "This implies that the maximal number of linear regions of functions computed by a shallow rectifier network with n0 inputs and n1 hidden units is \u2211n0 j=0 ( n1 j\n) (see Pascanu et al. 2013; Proposition 5)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 357,
+                                "start": 86
+                            }
+                        ],
+                        "text": "Our result is a significant improvement over the bound \u03a9 ( (/n0) L\u22121 n0 ) obtained by Pascanu et al. (2013). In particular, our result demonstrates that even for small values of L and n, deep rectifier models are able to produce substantially more linear regions than shallow rectifier models. Additionally, using the same strategy as Pascanu et al. (2013), our result can be reformulated in terms of the number of linear regions per parameter."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 85
+                            }
+                        ],
+                        "text": "Our result is a significant improvement over the bound \u2126 ( (n/n0) L\u22121 nn0 )\nobtained by Pascanu et al. (2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 47,
+                                "start": 28
+                            }
+                        ],
+                        "text": "Building on the ideas from (Pascanu et al. 2013), we develop a general framework for analyzing deep models with piecewise linear activations."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 31
+                            }
+                        ],
+                        "text": "We improve upon the results by Pascanu et al. (2013), with a tighter lower-bound on the maximal number of linear regions of functions computable by deep rectifier networks."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 27
+                            }
+                        ],
+                        "text": "Building on the ideas from Pascanu et al. (2013), we develop a general framework for analyzing deep models with piecewise linear activations."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 108,
+                                "start": 86
+                            }
+                        ],
+                        "text": "Our result is a significant improvement over the bound \u03a9 ( (/n0) L\u22121 n0 ) obtained by Pascanu et al. (2013). In particular, our result demonstrates that even for small values of L and n, deep rectifier models are able to produce substantially more linear regions than shallow rectifier models."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 38,
+                                "start": 17
+                            }
+                        ],
+                        "text": "In this respect, Pascanu et al. (2013) reported a theoretical result on the complexity of functions computable by deep feedforward networks with rectifier units."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 159,
+                                "start": 140
+                            }
+                        ],
+                        "text": "Assuming that n0 = O(1) and ni = n for all i \u2265 1, the number of regions of a single layer model with Ln hidden units behaves asO(Ln0nn0) (see Pascanu et al. 2013; Proposition 10)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9254343,
+            "fieldsOfStudy": [
+                "Mathematics",
+                "Computer Science"
+            ],
+            "id": "d06a2ce22b60b5d806b22bbbc754b4d83d7c82d1",
+            "isKey": false,
+            "numCitedBy": 164,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper explores the complexity of deep feedforward networks with linear pre-synaptic couplings and rectified linear activations. This is a contribution to the growing body of work contrasting the representational power of deep and shallow network architectures. In particular, we offer a framework for comparing deep and shallow models that belong to the family of piecewise linear functions based on computational geometry. We look at a deep rectifier multi-layer perceptron (MLP) with linear outputs units and compare it with a single layer version of the model. In the asymptotic regime, when the number of inputs stays constant, if the shallow model has $kn$ hidden units and $n_0$ inputs, then the number of linear regions is $O(k^{n_0}n^{n_0})$. For a $k$ layer model with $n$ hidden units on each layer it is $\\Omega(\\left\\lfloor {n}/{n_0}\\right\\rfloor^{k-1}n^{n_0})$. The number $\\left\\lfloor{n}/{n_0}\\right\\rfloor^{k-1}$ grows faster than $k^{n_0}$ when $n$ tends to infinity or when $k$ tends to infinity and $n \\geq 2n_0$. Additionally, even when $k$ is small, if we restrict $n$ to be $2n_0$, we can show that a deep model has considerably more linear regions that a shallow one. We consider this as a first step towards understanding the complexity of these models and specifically towards providing suitable mathematical tools for future analysis."
+            },
+            "slug": "On-the-number-of-response-regions-of-deep-feed-with-Pascanu-Mont\u00fafar",
+            "title": {
+                "fragments": [],
+                "text": "On the number of response regions of deep feed forward networks with piece-wise linear activations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This paper offers a framework for comparing deep and shallow models that belong to the family of piecewise linear functions based on computational geometry, and looks at a deep rectifier multi-layer perceptron with linear outputs units and compares it with a single layer version of the model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2416462"
+                        ],
+                        "name": "G. Cybenko",
+                        "slug": "G.-Cybenko",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Cybenko",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Cybenko"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 190,
+                                "start": 178
+                            }
+                        ],
+                        "text": "A well-known result states that a feedforward neural network with a single, huge, hidden layer is a universal approximator of Borel measurable functions (see Hornik et al. 1989, Cybenko 1989)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3958369,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8da1dda34ecc96263102181448c94ec7d645d085",
+            "isKey": false,
+            "numCitedBy": 6455,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper we demonstrate that finite linear combinations of compositions of a fixed, univariate function and a set of affine functionals can uniformly approximate any continuous function ofn real variables with support in the unit hypercube; only mild conditions are imposed on the univariate function. Our results settle an open question about representability in the class of single hidden layer neural networks. In particular, we show that arbitrary decision regions can be arbitrarily well approximated by continuous feedforward neural networks with only a single internal, hidden layer and any continuous sigmoidal nonlinearity. The paper discusses approximation properties of other possible types of nonlinearities that might be implemented by artificial neural networks."
+            },
+            "slug": "Approximation-by-superpositions-of-a-sigmoidal-Cybenko",
+            "title": {
+                "fragments": [],
+                "text": "Approximation by superpositions of a sigmoidal function"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 95,
+                "text": "It is demonstrated that finite linear combinations of compositions of a fixed, univariate function and a set of affine functionals can uniformly approximate any continuous function ofn real variables with support in the unit hypercube."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Math. Control. Signals Syst."
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2460212"
+                        ],
+                        "name": "Olivier Delalleau",
+                        "slug": "Olivier-Delalleau",
+                        "structuredName": {
+                            "firstName": "Olivier",
+                            "lastName": "Delalleau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Olivier Delalleau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "nits), and are often implemented with more than \ufb01ve layers. At the time being, however, only a limited amount of publications have investigated deep networks from a theoretical perspective. Recently, Delalleau and Bengio (2011) showed that a shallow network requires exponentially many more sum-product hidden units1 than a deep sum-product network in order to compute certain families of polynomials. We are interested in exte"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 37,
+                                "start": 10
+                            }
+                        ],
+                        "text": "Recently, Delalleau and Bengio (2011) showed that a shallow network requires exponentially many more sum-product hidden units1 than a deep sum-product network in order to compute certain families of polynomials."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14318106,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4b4d7ff8192c3862379f6ee58ad1fa0ec3de3937",
+            "isKey": false,
+            "numCitedBy": 281,
+            "numCiting": 54,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We investigate the representational power of sum-product networks (computation networks analogous to neural networks, but whose individual units compute either products or weighted sums), through a theoretical analysis that compares deep (multiple hidden layers) vs. shallow (one hidden layer) architectures. We prove there exist families of functions that can be represented much more efficiently with a deep network than with a shallow one, i.e. with substantially fewer hidden units. Such results were not available until now, and contribute to motivate recent research involving learning of deep sum-product networks, and more generally motivate research in Deep Learning."
+            },
+            "slug": "Shallow-vs.-Deep-Sum-Product-Networks-Delalleau-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Shallow vs. Deep Sum-Product Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "It is proved there exist families of functions that can be represented much more efficiently with a deep network than with a shallow one, i.e. with substantially fewer hidden units."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1996134"
+                        ],
+                        "name": "Razvan Pascanu",
+                        "slug": "Razvan-Pascanu",
+                        "structuredName": {
+                            "firstName": "Razvan",
+                            "lastName": "Pascanu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Razvan Pascanu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 111,
+                                "start": 88
+                            }
+                        ],
+                        "text": "The MLPs were trained on the same synthetic dataset using a conjugate natural gradient (Pascanu and Bengio 2014) which was used to minimize the effect of optimization."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15085443,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e8f95ccfd13689f672c39dca3eccf1c484533bcc",
+            "isKey": false,
+            "numCitedBy": 281,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We evaluate natural gradient, an algorithm originally proposed in Amari (1997), for learning deep models. The contributions of this paper are as follows. We show the connection between natural gradient and three other recently proposed methods for training deep models: Hessian-Free (Martens, 2010), Krylov Subspace Descent (Vinyals and Povey, 2012) and TONGA (Le Roux et al., 2008). We describe how one can use unlabeled data to improve the generalization error obtained by natural gradient and empirically evaluate the robustness of the algorithm to the ordering of the training set compared to stochastic gradient descent. Finally we extend natural gradient to incorporate second order information alongside the manifold information and provide a benchmark of the new algorithm using a truncated Newton approach for inverting the metric matrix instead of using a diagonal approximation of it."
+            },
+            "slug": "Revisiting-Natural-Gradient-for-Deep-Networks-Pascanu-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Revisiting Natural Gradient for Deep Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "It is described how one can use unlabeled data to improve the generalization error obtained by natural gradient and empirically evaluate the robustness of the algorithm to the ordering of the training set compared to stochastic gradient descent."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145004630"
+                        ],
+                        "name": "M. Anthony",
+                        "slug": "M.-Anthony",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Anthony",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Anthony"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745169"
+                        ],
+                        "name": "P. Bartlett",
+                        "slug": "P.-Bartlett",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Bartlett",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Bartlett"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 152,
+                                "start": 127
+                            }
+                        ],
+                        "text": "There is a wealth of literature discussing approximation, estimation, and complexity of artificial neural networks (see, e.g., Anthony and Bartlett 1999)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 35737200,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6d2e0be460e0e3b2b74ec8260d886b2397f8f320",
+            "isKey": false,
+            "numCitedBy": 1588,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This important work describes recent theoretical advances in the study of artificial neural networks. It explores probabilistic models of supervised learning problems, and addresses the key statistical and computational questions. Chapters survey research on pattern classification with binary-output networks, including a discussion of the relevance of the Vapnik Chervonenkis dimension, and of estimates of the dimension for several neural network models. In addition, Anthony and Bartlett develop a model of classification by real-output networks, and demonstrate the usefulness of classification with a \"large margin.\" The authors explain the role of scale-sensitive versions of the Vapnik Chervonenkis dimension in large margin classification, and in real prediction. Key chapters also discuss the computational complexity of neural network learning, describing a variety of hardness results, and outlining two efficient, constructive learning algorithms. The book is self-contained and accessible to researchers and graduate students in computer science, engineering, and mathematics."
+            },
+            "slug": "Neural-Network-Learning-Theoretical-Foundations-Anthony-Bartlett",
+            "title": {
+                "fragments": [],
+                "text": "Neural Network Learning - Theoretical Foundations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "The authors explain the role of scale-sensitive versions of the Vapnik Chervonenkis dimension in large margin classification, and in real prediction, and discuss the computational complexity of neural network learning."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34578133"
+                        ],
+                        "name": "Oswin Krause",
+                        "slug": "Oswin-Krause",
+                        "structuredName": {
+                            "firstName": "Oswin",
+                            "lastName": "Krause",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Oswin Krause"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35988982"
+                        ],
+                        "name": "Asja Fischer",
+                        "slug": "Asja-Fischer",
+                        "structuredName": {
+                            "firstName": "Asja",
+                            "lastName": "Fischer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Asja Fischer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1756710"
+                        ],
+                        "name": "T. Glasmachers",
+                        "slug": "T.-Glasmachers",
+                        "structuredName": {
+                            "firstName": "Tobias",
+                            "lastName": "Glasmachers",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Glasmachers"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1748824"
+                        ],
+                        "name": "C. Igel",
+                        "slug": "C.-Igel",
+                        "structuredName": {
+                            "firstName": "C.",
+                            "lastName": "Igel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Igel"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 232,
+                                "start": 214
+                            }
+                        ],
+                        "text": "Other works have investigated universal approximation of probability distributions by deep belief networks (Le Roux and Bengio 2010, Montu\u0301far and Ay 2011), as well as their approximation properties (Montu\u0301far 2014, Krause et al. 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 443891,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fc2b601c689aa6fa271ca6d000855ddfa047a012",
+            "isKey": false,
+            "numCitedBy": 8,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep belief networks (DBNs) can approximate any distribution over fixed-length binary vectors. However, DBNs are frequently applied to model real-valued data, and so far little is known about their representational power in this case. We analyze the approximation properties of DBNs with two layers of binary hidden units and visible units with conditional distributions from the exponential family. It is shown that these DBNs can, under mild assumptions, model any additive mixture of distributions from the exponential family with independent variables. An arbitrarily good approximation in terms of Kullback-Leibler divergence of an m-dimensional mixture distribution with n components can be achieved by a DBN with m visible variables and n and n + 1 hidden variables in the first and second hidden layer, respectively. Furthermore, relevant infinite mixtures can be approximated arbitrarily well by a DBN with a finite number of neurons. This includes the important special case of an infinite mixture of Gaussian distributions with fixed variance restricted to a compact domain, which in turn can approximate any strictly positive density over this domain."
+            },
+            "slug": "Approximation-properties-of-DBNs-with-binary-hidden-Krause-Fischer",
+            "title": {
+                "fragments": [],
+                "text": "Approximation properties of DBNs with binary hidden units and real-valued visible units"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "It is shown that these DBNs can, under mild assumptions, model any additive mixture of distributions from the exponential family with independent variables, and relevant infinite mixtures can be approximated arbitrarily well by a DBN with a finite number of neurons."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784667"
+                        ],
+                        "name": "Guido Mont\u00fafar",
+                        "slug": "Guido-Mont\u00fafar",
+                        "structuredName": {
+                            "firstName": "Guido",
+                            "lastName": "Mont\u00fafar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Guido Mont\u00fafar"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 212,
+                                "start": 199
+                            }
+                        ],
+                        "text": "Other works have investigated universal approximation of probability distributions by deep belief networks (Le Roux and Bengio 2010, Montu\u0301far and Ay 2011), as well as their approximation properties (Montu\u0301far 2014, Krause et al. 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9714964,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7f2172513add69f771f552775be33929ad381c95",
+            "isKey": false,
+            "numCitedBy": 39,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We generalize recent theoretical work on the minimal number of layers of narrow deep belief networks that can approximate any probability distribution on the states of their visible units arbitrarily well. We relax the setting of binary units (Sutskever & Hinton, 2008; Le Roux & Bengio, 2008, 2010; Mont\u00fafar & Ay, 2011) to units with arbitrary finite state spaces and the vanishing approximation error to an arbitrary approximation error tolerance. For example, we show that a q-ary deep belief network with layers of width for some can approximate any probability distribution on without exceeding a Kullback-Leibler divergence of . Our analysis covers discrete restricted Boltzmann machines and naive Bayes models as special cases."
+            },
+            "slug": "Universal-Approximation-Depth-and-Errors-of-Narrow-Mont\u00fafar",
+            "title": {
+                "fragments": [],
+                "text": "Universal Approximation Depth and Errors of Narrow Belief Networks with Discrete Units"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 51,
+                "text": "This analysis covers discrete restricted Boltzmann machines and naive Bayes models as special cases and shows that a q-ary deep belief network with layers of width for some can approximate any probability distribution on without exceeding a Kullback-Leibler divergence."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 116,
+                                "start": 94
+                            }
+                        ],
+                        "text": "For example, if we consider a convolutional network with rectifier units, as the one used in (Krizhevsky et al. 2012), we can see that the convolution followed by max pooling at each layer identifies all patches of the input within a pooling region."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 212,
+                                "start": 190
+                            }
+                        ],
+                        "text": "Artificial neural networks with several hidden layers, called deep neural networks, have become popular due to their unprecedented success in a variety of machine learning tasks (see, e.g., Krizhevsky et al. 2012, Ciresan et al. 2012, Goodfellow et al. 2013, Hinton et al. 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 195908774,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+            "isKey": false,
+            "numCitedBy": 82046,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
+            },
+            "slug": "ImageNet-classification-with-deep-convolutional-Krizhevsky-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet classification with deep convolutional neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "A large, deep convolutional neural network was trained to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes and employed a recently developed regularization method called \"dropout\" that proved to be very effective."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Commun. ACM"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784667"
+                        ],
+                        "name": "Guido Mont\u00fafar",
+                        "slug": "Guido-Mont\u00fafar",
+                        "structuredName": {
+                            "firstName": "Guido",
+                            "lastName": "Mont\u00fafar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Guido Mont\u00fafar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2850091"
+                        ],
+                        "name": "N. Ay",
+                        "slug": "N.-Ay",
+                        "structuredName": {
+                            "firstName": "Nihat",
+                            "lastName": "Ay",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Ay"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 153,
+                                "start": 133
+                            }
+                        ],
+                        "text": "Other works have investigated universal approximation of probability distributions by deep belief networks (Le Roux and Bengio 2010, Montu\u0301far and Ay 2011), as well as their approximation properties (Montu\u0301far 2014, Krause et al. 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14731002,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c23aee7e7aba32ec76dd63c34d3ed1a7ccd2cbcd",
+            "isKey": false,
+            "numCitedBy": 86,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We improve recently published results about resources of restricted Boltzmann machines (RBM) and deep belief networks (DBN) required to make them universal approximators. We show that any distribution on the set of binary vectors of length can be arbitrarily well approximated by an RBM with hidden units, where is the minimal number of pairs of binary vectors differing in only one entry such that their union contains the support set of . In important cases this number is half the cardinality of the support set of (given in Le Roux & Bengio, 2008). We construct a DBN with , hidden layers of width that is capable of approximating any distribution on arbitrarily well. This confirms a conjecture presented in Le Roux and Bengio (2010)."
+            },
+            "slug": "Refinements-of-Universal-Approximation-Results-for-Mont\u00fafar-Ay",
+            "title": {
+                "fragments": [],
+                "text": "Refinements of Universal Approximation Results for Deep Belief Networks and Restricted Boltzmann Machines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "It is shown that any distribution on the set of binary vectors of length can be arbitrarily well approximated by an RBM with hidden units, and this confirms a conjecture presented in Le Roux and Bengio (2010)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7245737"
+                        ],
+                        "name": "Nicolas Le Roux",
+                        "slug": "Nicolas-Le-Roux",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Le Roux",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicolas Le Roux"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 131,
+                                "start": 111
+                            }
+                        ],
+                        "text": "Other works have investigated universal approximation of probability distributions by deep belief networks (Le Roux and Bengio 2010, Montu\u0301far and Ay 2011), as well as their approximation properties (Montu\u0301far 2014, Krause et al. 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15146942,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5028ad7b06aad811f7bf328d48365795117e7938",
+            "isKey": false,
+            "numCitedBy": 142,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep belief networks (DBN) are generative models with many layers of hidden causal variables, recently introduced by Hinton, Osindero, and Teh (2006), along with a greedy layer-wise unsupervised learning algorithm. Building on Le Roux and Bengio (2008) and Sutskever and Hinton (2008), we show that deep but narrow generative networks do not require more parameters than shallow ones to achieve universal approximation. Exploiting the proof technique, we prove that deep but narrow feedforward neural networks with sigmoidal units can represent any Boolean expression."
+            },
+            "slug": "Deep-Belief-Networks-Are-Compact-Universal-Roux-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Deep Belief Networks Are Compact Universal Approximators"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is proved that deep but narrow feedforward neural networks with sigmoidal units can represent any Boolean expression."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48799969"
+                        ],
+                        "name": "Matthew D. Zeiler",
+                        "slug": "Matthew-D.-Zeiler",
+                        "structuredName": {
+                            "firstName": "Matthew",
+                            "lastName": "Zeiler",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matthew D. Zeiler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2276554"
+                        ],
+                        "name": "R. Fergus",
+                        "slug": "R.-Fergus",
+                        "structuredName": {
+                            "firstName": "Rob",
+                            "lastName": "Fergus",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Fergus"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 105
+                            }
+                        ],
+                        "text": "This visualization technique, a byproduct of our theoretical analysis, is similar to the one proposed by Zeiler and Fergus (2013), but is motivated by a different perspective."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 24,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Zeiler and Fergus (2013) attempt to visualize the behaviour of units in the upper layer, specifically, of a deep convolutional network with rectifiers."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 24,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Zeiler and Fergus (2013) approaches the problem of visualization from the perspective of (approximately) inverting the feedforward computation of the neural network, whereas our approach is derived by identifying a set of linear maps per hidden unit."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 38,
+                                "start": 14
+                            }
+                        ],
+                        "text": "For instance, Zeiler and Fergus (2013) approximates the inverse of a rectifier by simply using another rectifier."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3960646,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1a2a770d23b4a171fa81de62a78a3deb0588f238",
+            "isKey": true,
+            "numCitedBy": 11942,
+            "numCiting": 36,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Large Convolutional Network models have recently demonstrated impressive classification performance on the ImageNet benchmark Krizhevsky et al. [18]. However there is no clear understanding of why they perform so well, or how they might be improved. In this paper we explore both issues. We introduce a novel visualization technique that gives insight into the function of intermediate feature layers and the operation of the classifier. Used in a diagnostic role, these visualizations allow us to find model architectures that outperform Krizhevsky et al on the ImageNet classification benchmark. We also perform an ablation study to discover the performance contribution from different model layers. We show our ImageNet model generalizes well to other datasets: when the softmax classifier is retrained, it convincingly beats the current state-of-the-art results on Caltech-101 and Caltech-256 datasets."
+            },
+            "slug": "Visualizing-and-Understanding-Convolutional-Zeiler-Fergus",
+            "title": {
+                "fragments": [],
+                "text": "Visualizing and Understanding Convolutional Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A novel visualization technique is introduced that gives insight into the function of intermediate feature layers and the operation of the classifier in large Convolutional Network models, used in a diagnostic role to find model architectures that outperform Krizhevsky et al on the ImageNet classification benchmark."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ECCV"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144718788"
+                        ],
+                        "name": "L. Deng",
+                        "slug": "L.-Deng",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Deng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Deng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144580027"
+                        ],
+                        "name": "Dong Yu",
+                        "slug": "Dong-Yu",
+                        "structuredName": {
+                            "firstName": "Dong",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dong Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35188630"
+                        ],
+                        "name": "George E. Dahl",
+                        "slug": "George-E.-Dahl",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Dahl",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "George E. Dahl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40360972"
+                        ],
+                        "name": "Abdel-rahman Mohamed",
+                        "slug": "Abdel-rahman-Mohamed",
+                        "structuredName": {
+                            "firstName": "Abdel-rahman",
+                            "lastName": "Mohamed",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Abdel-rahman Mohamed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3111912"
+                        ],
+                        "name": "Navdeep Jaitly",
+                        "slug": "Navdeep-Jaitly",
+                        "structuredName": {
+                            "firstName": "Navdeep",
+                            "lastName": "Jaitly",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Navdeep Jaitly"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33666044"
+                        ],
+                        "name": "A. Senior",
+                        "slug": "A.-Senior",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Senior",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Senior"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2657155"
+                        ],
+                        "name": "Vincent Vanhoucke",
+                        "slug": "Vincent-Vanhoucke",
+                        "structuredName": {
+                            "firstName": "Vincent",
+                            "lastName": "Vanhoucke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vincent Vanhoucke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "14902530"
+                        ],
+                        "name": "P. Nguyen",
+                        "slug": "P.-Nguyen",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Nguyen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Nguyen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784851"
+                        ],
+                        "name": "T. Sainath",
+                        "slug": "T.-Sainath",
+                        "structuredName": {
+                            "firstName": "Tara",
+                            "lastName": "Sainath",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Sainath"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144707379"
+                        ],
+                        "name": "Brian Kingsbury",
+                        "slug": "Brian-Kingsbury",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Kingsbury",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Brian Kingsbury"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 277,
+                                "start": 259
+                            }
+                        ],
+                        "text": "Artificial neural networks with several hidden layers, called deep neural networks, have become popular due to their unprecedented success in a variety of machine learning tasks (see, e.g., Krizhevsky et al. 2012, Ciresan et al. 2012, Goodfellow et al. 2013, Hinton et al. 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7230302,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e33cbb25a8c7390aec6a398e36381f4f7770c283",
+            "isKey": false,
+            "numCitedBy": 2230,
+            "numCiting": 121,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Most current speech recognition systems use hidden Markov models ( HMMs) to deal with the temporal variability of speech and Gaussian mixture models to determine how well each state of each HMM fits a frame or a short window of frames of coefficients that represents the acoustic input. An alternati ve way to evaluate the fit is to use a feedforward neural network that takes several frames of coefficients a s input and produces posterior probabilities over HMM states as output. Deep neural networks with many hidden layers, that are trained using new methods have been shown to outperform Gaussian mixture models on a variety of speech rec ognition benchmarks, sometimes by a large margin. This paper provides an overview of this progress and repres nts the shared views of four research groups who have had recent successes in using deep neural networks for a coustic modeling in speech recognition."
+            },
+            "slug": "Deep-Neural-Networks-for-Acoustic-Modeling-in-Hinton-Deng",
+            "title": {
+                "fragments": [],
+                "text": "Deep Neural Networks for Acoustic Modeling in Speech Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 36,
+                "text": "This paper provides an overview of this progress and repres nts the shared views of four research groups who have had recent successes in using deep neural networks for a coustic modeling in speech recognition."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153440022"
+                        ],
+                        "name": "Ian J. Goodfellow",
+                        "slug": "Ian-J.-Goodfellow",
+                        "structuredName": {
+                            "firstName": "Ian",
+                            "lastName": "Goodfellow",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ian J. Goodfellow"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1393680089"
+                        ],
+                        "name": "David Warde-Farley",
+                        "slug": "David-Warde-Farley",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Warde-Farley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Warde-Farley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153583218"
+                        ],
+                        "name": "Mehdi Mirza",
+                        "slug": "Mehdi-Mirza",
+                        "structuredName": {
+                            "firstName": "Mehdi",
+                            "lastName": "Mirza",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mehdi Mirza"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760871"
+                        ],
+                        "name": "Aaron C. Courville",
+                        "slug": "Aaron-C.-Courville",
+                        "structuredName": {
+                            "firstName": "Aaron",
+                            "lastName": "Courville",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aaron C. Courville"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 257,
+                                "start": 235
+                            }
+                        ],
+                        "text": "Artificial neural networks with several hidden layers, called deep neural networks, have become popular due to their unprecedented success in a variety of machine learning tasks (see, e.g., Krizhevsky et al. 2012, Ciresan et al. 2012, Goodfellow et al. 2013, Hinton et al. 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": " become more common to use piecewise linear functions, such as the recti\ufb01er activation g(a) = maxf0;ag(Glorot et al. 2011, Nair and Hinton 2010) or the maxout activation g(a1;:::;ak) = maxfa1;:::;akg(Goodfellow et al. 2013). The practical success of deep neural networks with piecewise linear units calls for the theoretical analysis speci\ufb01c for this type of neural networks. In this respect, Pascanu et al. (2013) reported"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "eral hidden layers, called deep neural networks, have become popular due to their unprecedented success in a variety of machine learning tasks (see, e.g., Krizhevsky et al. 2012, Ciresan et al. 2012, Goodfellow et al. 2013, Hinton et al. 2012). In view of this empirical evidence, deep neural networks are becoming increasingly favoured over shallow networks (i.e., with a single layer of hidden units), and are often impl"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 270,
+                                "start": 248
+                            }
+                        ],
+                        "text": "On the other hand, recently it has become more common to use piecewise linear functions, such as the rectifier activation g(a) = max{0, a} (Glorot et al. 2011, Nair and Hinton 2010) or the maxout activation g(a1, . . . , ak) = max{a1, . . . , ak} (Goodfellow et al. 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10600578,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b7b915d508987b73b61eccd2b237e7ed099a2d29",
+            "isKey": false,
+            "numCitedBy": 1834,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider the problem of designing models to leverage a recently introduced approximate model averaging technique called dropout. We define a simple new model called maxout (so named because its output is the max of a set of inputs, and because it is a natural companion to dropout) designed to both facilitate optimization by dropout and improve the accuracy of dropout's fast approximate model averaging technique. We empirically verify that the model successfully accomplishes both of these tasks. We use maxout and dropout to demonstrate state of the art classification performance on four benchmark datasets: MNIST, CIFAR-10, CIFAR-100, and SVHN."
+            },
+            "slug": "Maxout-Networks-Goodfellow-Warde-Farley",
+            "title": {
+                "fragments": [],
+                "text": "Maxout Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A simple new model called maxout is defined designed to both facilitate optimization by dropout and improve the accuracy of dropout's fast approximate model averaging technique."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2073603971"
+                        ],
+                        "name": "Vinod Nair",
+                        "slug": "Vinod-Nair",
+                        "structuredName": {
+                            "firstName": "Vinod",
+                            "lastName": "Nair",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vinod Nair"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 180,
+                                "start": 160
+                            }
+                        ],
+                        "text": "On the other hand, recently it has become more common to use piecewise linear functions, such as the rectifier activation g(a) = max{0, a} (Glorot et al. 2011, Nair and Hinton 2010) or the maxout activation g(a1, . . . , ak) = max{a1, . . . , ak} (Goodfellow et al. 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15539264,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a538b05ebb01a40323997629e171c91aa28b8e2f",
+            "isKey": false,
+            "numCitedBy": 12985,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Restricted Boltzmann machines were developed using binary stochastic hidden units. These can be generalized by replacing each binary unit by an infinite number of copies that all have the same weights but have progressively more negative biases. The learning and inference rules for these \"Stepped Sigmoid Units\" are unchanged. They can be approximated efficiently by noisy, rectified linear units. Compared with binary units, these units learn features that are better for object recognition on the NORB dataset and face verification on the Labeled Faces in the Wild dataset. Unlike binary units, rectified linear units preserve information about relative intensities as information travels through multiple layers of feature detectors."
+            },
+            "slug": "Rectified-Linear-Units-Improve-Restricted-Boltzmann-Nair-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "Rectified Linear Units Improve Restricted Boltzmann Machines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 62,
+                "text": "Restricted Boltzmann machines were developed using binary stochastic hidden units that learn features that are better for object recognition on the NORB dataset and face verification on the Labeled Faces in the Wild dataset."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1764952"
+                        ],
+                        "name": "K. Hornik",
+                        "slug": "K.-Hornik",
+                        "structuredName": {
+                            "firstName": "Kurt",
+                            "lastName": "Hornik",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Hornik"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2964655"
+                        ],
+                        "name": "M. Stinchcombe",
+                        "slug": "M.-Stinchcombe",
+                        "structuredName": {
+                            "firstName": "Maxwell",
+                            "lastName": "Stinchcombe",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Stinchcombe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2149702798"
+                        ],
+                        "name": "H. White",
+                        "slug": "H.-White",
+                        "structuredName": {
+                            "firstName": "Halbert",
+                            "lastName": "White",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. White"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 176,
+                                "start": 158
+                            }
+                        ],
+                        "text": "A well-known result states that a feedforward neural network with a single, huge, hidden layer is a universal approximator of Borel measurable functions (see Hornik et al. 1989, Cybenko 1989)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2757547,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "f22f6972e66bdd2e769fa64b0df0a13063c0c101",
+            "isKey": false,
+            "numCitedBy": 17443,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Multilayer-feedforward-networks-are-universal-Hornik-Stinchcombe",
+            "title": {
+                "fragments": [],
+                "text": "Multilayer feedforward networks are universal approximators"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Networks"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3119801"
+                        ],
+                        "name": "Xavier Glorot",
+                        "slug": "Xavier-Glorot",
+                        "structuredName": {
+                            "firstName": "Xavier",
+                            "lastName": "Glorot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xavier Glorot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1713934"
+                        ],
+                        "name": "Antoine Bordes",
+                        "slug": "Antoine-Bordes",
+                        "structuredName": {
+                            "firstName": "Antoine",
+                            "lastName": "Bordes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Antoine Bordes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 158,
+                                "start": 140
+                            }
+                        ],
+                        "text": "On the other hand, recently it has become more common to use piecewise linear functions, such as the rectifier activation g(a) = max{0, a} (Glorot et al. 2011, Nair and Hinton 2010) or the maxout activation g(a1, . . . , ak) = max{a1, . . . , ak} (Goodfellow et al. 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2239473,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "67107f78a84bdb2411053cb54e94fa226eea6d8e",
+            "isKey": false,
+            "numCitedBy": 5985,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "While logistic sigmoid neurons are more biologically plausible than hyperbolic tangent neurons, the latter work better for training multi-layer neural networks. This paper shows that rectifying neurons are an even better model of biological neurons and yield equal or better performance than hyperbolic tangent networks in spite of the hard non-linearity and non-dierentiabil ity"
+            },
+            "slug": "Deep-Sparse-Rectifier-Neural-Networks-Glorot-Bordes",
+            "title": {
+                "fragments": [],
+                "text": "Deep Sparse Rectifier Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "This paper shows that rectifying neurons are an even better model of biological neurons and yield equal or better performance than hyperbolic tangent networks in spite of the hard non-linearity and non-dierentiabil ity."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AISTATS"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1895356"
+                        ],
+                        "name": "D. Ciresan",
+                        "slug": "D.-Ciresan",
+                        "structuredName": {
+                            "firstName": "Dan",
+                            "lastName": "Ciresan",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Ciresan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2514691"
+                        ],
+                        "name": "U. Meier",
+                        "slug": "U.-Meier",
+                        "structuredName": {
+                            "firstName": "Ueli",
+                            "lastName": "Meier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "U. Meier"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2426718"
+                        ],
+                        "name": "Jonathan Masci",
+                        "slug": "Jonathan-Masci",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Masci",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Masci"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145341374"
+                        ],
+                        "name": "J. Schmidhuber",
+                        "slug": "J.-Schmidhuber",
+                        "structuredName": {
+                            "firstName": "J\u00fcrgen",
+                            "lastName": "Schmidhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schmidhuber"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 233,
+                                "start": 214
+                            }
+                        ],
+                        "text": "Artificial neural networks with several hidden layers, called deep neural networks, have become popular due to their unprecedented success in a variety of machine learning tasks (see, e.g., Krizhevsky et al. 2012, Ciresan et al. 2012, Goodfellow et al. 2013, Hinton et al. 2012)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14628685,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5bdfd78fb2285b9306e93bd3a4b534d19bf55f06",
+            "isKey": false,
+            "numCitedBy": 908,
+            "numCiting": 36,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Multi-column-deep-neural-network-for-traffic-sign-Ciresan-Meier",
+            "title": {
+                "fragments": [],
+                "text": "Multi-column deep neural network for traffic sign classification"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Networks"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1681338"
+                        ],
+                        "name": "R. Stanley",
+                        "slug": "R.-Stanley",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Stanley",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Stanley"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 51,
+                                "start": 39
+                            }
+                        ],
+                        "text": "For details on these arrangements see (Stanley 2004; Corollary 5.1 and Proposition 5.15)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 125711241,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "283943f3c1390f8641dd34ef7d00fa30cfa89713",
+            "isKey": true,
+            "numCitedBy": 343,
+            "numCiting": 61,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "An-Introduction-to-Hyperplane-Arrangements-Stanley",
+            "title": {
+                "fragments": [],
+                "text": "An Introduction to Hyperplane Arrangements"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2007
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 62,
+                                "start": 41
+                            }
+                        ],
+                        "text": "Additionally, using the same strategy as Pascanu et al. (2013), our result can be reformulated in terms of the number of linear regions per parameter."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 186,
+                                "start": 167
+                            }
+                        ],
+                        "text": "This implies that the maximal number of linear regions of functions computed by a shallow rectifier network with n0 inputs and n1 hidden units is \u2211n0 j=0 ( n1 j\n) (see Pascanu et al. 2013; Proposition 5)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 85
+                            }
+                        ],
+                        "text": "Our result is a significant improvement over the bound \u2126 ( (n/n0) L\u22121 nn0 )\nobtained by Pascanu et al. (2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 47,
+                                "start": 28
+                            }
+                        ],
+                        "text": "Building on the ideas from (Pascanu et al. 2013), we develop a general framework for analyzing deep models with piecewise linear activations."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 31
+                            }
+                        ],
+                        "text": "We improve upon the results by Pascanu et al. (2013), with a tighter lower-bound on the maximal number of linear regions of functions computable by deep rectifier networks."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 38,
+                                "start": 17
+                            }
+                        ],
+                        "text": "In this respect, Pascanu et al. (2013) reported a theoretical result on the complexity of functions computable by deep feedforward networks with rectifier units."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 159,
+                                "start": 140
+                            }
+                        ],
+                        "text": "Assuming that n0 = O(1) and ni = n for all i \u2265 1, the number of regions of a single layer model with Ln hidden units behaves asO(Ln0nn0) (see Pascanu et al. 2013; Proposition 10)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Bengio . On the number of response regions of deep feed forward networks with piecewise linear activations"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1689322"
+                        ],
+                        "name": "T. Zaslavsky",
+                        "slug": "T.-Zaslavsky",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Zaslavsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Zaslavsky"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 3
+                            }
+                        ],
+                        "text": "By Zaslavsky (1975), the latter is \u2211n j=0 ( k2m j ) , which behaves as O((k2m)n), i.e., polynomially in k and in m.\nProof of Theorem 8."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 162,
+                                "start": 146
+                            }
+                        ],
+                        "text": "The number of regions of an arrangement can be given in terms of a characteristic function of the arrangement, as shown in a well-known result by Zaslavsky (1975)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 121048564,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "d8b20802f6c9adb619e3b978b3e5ed46a34f7a67",
+            "isKey": false,
+            "numCitedBy": 589,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Facing-Up-to-Arrangements:-Face-Count-Formulas-for-Zaslavsky",
+            "title": {
+                "fragments": [],
+                "text": "Facing Up to Arrangements: Face-Count Formulas for Partitions of Space by Hyperplanes"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1975
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145004630"
+                        ],
+                        "name": "M. Anthony",
+                        "slug": "M.-Anthony",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Anthony",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Anthony"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745169"
+                        ],
+                        "name": "P. Bartlett",
+                        "slug": "P.-Bartlett",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Bartlett",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Bartlett"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 152,
+                                "start": 127
+                            }
+                        ],
+                        "text": "There is a wealth of literature discussing approximation, estimation, and complexity of artificial neural networks (see, e.g., Anthony and Bartlett 1999)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 61068933,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6c69ec28c04f0bd283ccd1b09263274016731197",
+            "isKey": false,
+            "numCitedBy": 252,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Learning-in-Neural-Networks:-Theoretical-Anthony-Bartlett",
+            "title": {
+                "fragments": [],
+                "text": "Learning in Neural Networks: Theoretical Foundations"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1999
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 103,
+                                "start": 83
+                            }
+                        ],
+                        "text": "We trained a rectifier MLP with three hidden layer on Toronto Faces Dataset (TFD) (Susskind et al. 2010)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The Toronto face dataset"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Technical Report UTML TR 2010-001, U. Toronto,"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Bengio . Shallow vs . deep sumproduct networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Mathematics of Control , Signals and Systems"
+            },
+            "year": 1989
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 19,
+            "methodology": 11
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 24,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/On-the-Number-of-Linear-Regions-of-Deep-Neural-Mont\u00fafar-Pascanu/b034b5769ab94acf9fb8ae48c7edb560a300bb63?sort=total-citations"
+}

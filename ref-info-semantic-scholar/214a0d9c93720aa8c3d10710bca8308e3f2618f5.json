@@ -1,0 +1,1316 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1748118"
+                        ],
+                        "name": "J. Bilmes",
+                        "slug": "J.-Bilmes",
+                        "structuredName": {
+                            "firstName": "Jeff",
+                            "lastName": "Bilmes",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bilmes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760896"
+                        ],
+                        "name": "K. Asanovi\u0107",
+                        "slug": "K.-Asanovi\u0107",
+                        "structuredName": {
+                            "firstName": "Krste",
+                            "lastName": "Asanovi\u0107",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Asanovi\u0107"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145295214"
+                        ],
+                        "name": "Chee-Whye Chin",
+                        "slug": "Chee-Whye-Chin",
+                        "structuredName": {
+                            "firstName": "Chee-Whye",
+                            "lastName": "Chin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chee-Whye Chin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1700326"
+                        ],
+                        "name": "J. Demmel",
+                        "slug": "J.-Demmel",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Demmel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Demmel"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 55,
+                                "start": 52
+                            }
+                        ],
+                        "text": "The closest parallel to ATLAS is seen in the PHiPAC [3] e ort."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 38
+                            }
+                        ],
+                        "text": "Current PHiPAC timings as reported in [3] use timing method 2 discussed in section 4."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1034654,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cf930ef021583e2afc7d06bd43f1f781ae1428c1",
+            "isKey": false,
+            "numCitedBy": 482,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Modern microprocessors can achieve high performance on linear algebra kernels but this currently requires extensive machinoapeci6c hand tuning. We have developed a methodology whereby near-peak performance on a wide range of systems can be achieved automatically for such routines. First, by analyzing current machines and C compilers, we\u2019ve developed guidelines for writing Portable, High-Performance, ANSI C (PHiPAC, pre nounced Weopack\u201d). Second, rather than code by hand, we produce parameterized code generators. Third, we write search scripts that find the best parameters for a given system. We report on a BLAS GEMM compatible multi-level cache-blocked matrix multiply generator which produces code that achieves around 90% of peak on the Sparcstation-20/61, IBM RS/6000-590, HP 712/8Oi, SGI Power Challenge RBk, and SGI Octane RlOk, and over 80% of peak on the SGI Indigo R4k. The resulting routines are competitive with vendoroptimized BLAS GEMMs. l CS Divirion, University of California at Berkeley and the International Computer Science Inatitute. The author ncknowledgea the support of JSBP contract F49620-94COOSS. \u2018CS Divirion, University of California at Berkeley and the International Computer Science Inrtitute. The author acknowledger the support of ONR UBJ Grant NOO01492-J-1617. \u2018CS Divirion, Univenity of California at Berkeley. The author acknowledgea the rupport of ARPA contract DAALOSQIC-0047 (University of \u2018Ibnneaaee Subcontract OBA4466.02). tCS Division and Mathematia Dept., University of California at Berkeley. The author acknowledger the rupport of ARPA contract DAAL0991-C-0047 (Univenity of Tenneaaee Subcontract OBA4466.02). ARPA contract DAAH04961-0077 (University of Tennea&Subcontract OB.A7463.02), DOE grant\u2018 DE PG0394ER26219, DOE contract W-31-109-Eng-33, NSF grant ASC-QSlSQSS, and DOE grant DEFG03-94ER26206. Permission to make digitahbard copies of all or pntt of this material for personal or classrocm use is mted without fee pmvided that the copies are not made or distributed for profit or commercial advantage, the copy right notice. the title ofthe publication and its date appear. and notice is given that copyigbht is by petmission of the ACM, Inc. To copy otherwise. to republish. to post on servers or to r&tribute to lists. requires specific permission and/or fee ICY 97 Vienna Austria Copyright 1997 ACM O-8979l-902-5/97ff..SB.50"
+            },
+            "slug": "Optimizing-matrix-multiply-using-PHiPAC:-a-ANSI-C-Bilmes-Asanovi\u0107",
+            "title": {
+                "fragments": [],
+                "text": "Optimizing matrix multiply using PHiPAC: a portable, high-performance, ANSI C coding methodology"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 36,
+                "text": "A BLAS GEMM compatible multi-level cache-blocked matrix multiply generator which produces code that achieves around 90% of peak on the Sparcstation-20/61, IBM RS/6000-590, HP 712/8Oi, SGI Power Challenge RBk, and SGI Octane RlOk, and over 80% ofpeak on the SGI Indigo R4k."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICS '97"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746171"
+                        ],
+                        "name": "B. K\u00e5gstr\u00f6m",
+                        "slug": "B.-K\u00e5gstr\u00f6m",
+                        "structuredName": {
+                            "firstName": "Bo",
+                            "lastName": "K\u00e5gstr\u00f6m",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. K\u00e5gstr\u00f6m"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39034743"
+                        ],
+                        "name": "P. Ling",
+                        "slug": "P.-Ling",
+                        "structuredName": {
+                            "firstName": "Per",
+                            "lastName": "Ling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Ling"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2077001"
+                        ],
+                        "name": "C. Loan",
+                        "slug": "C.-Loan",
+                        "structuredName": {
+                            "firstName": "Charles",
+                            "lastName": "Loan",
+                            "middleNames": [
+                                "Van"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Loan"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 7643,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8a40722f25d3588a715bb97e90b76181db638664",
+            "isKey": false,
+            "numCitedBy": 29,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The Level 3 Basic Linear Algebra subprograms (BLAS) are designed to perform various matrix multiply and triangular system solving computations. The development of optimal Level 3 BLAS code is costly and time consuming, because it requires assembly level programming/thinking. However, it is possible to develop a portable and high performance Level 3 BLAS only relying on an optimized GEMM, the BLAS subprogram for the general matrix multiply and add operation. With suitable partitioning, all the other Level 3 BLA subprograms can be defined in terms of GEMM and a negligible amount of Level 1 and 2 computations. Performance results of our portable GEMM-Based library for double precision real data are presented for various target architectures."
+            },
+            "slug": "Portable-High-Performance-GEMM-Based-Level-3-BLAS-K\u00e5gstr\u00f6m-Ling",
+            "title": {
+                "fragments": [],
+                "text": "Portable High Performance GEMM-Based Level 3 BLAS"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "Performance results of the portable GEMM-Based library for double precision real data are presented for various target architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PPSC"
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1708869"
+                        ],
+                        "name": "J. Dongarra",
+                        "slug": "J.-Dongarra",
+                        "structuredName": {
+                            "firstName": "Jack",
+                            "lastName": "Dongarra",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dongarra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2072448175"
+                        ],
+                        "name": "P. Mayes",
+                        "slug": "P.-Mayes",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Mayes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Mayes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2781666"
+                        ],
+                        "name": "G. R. Brozolo",
+                        "slug": "G.-R.-Brozolo",
+                        "structuredName": {
+                            "firstName": "Giuseppe",
+                            "lastName": "Brozolo",
+                            "middleNames": [
+                                "Radicati",
+                                "di"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. R. Brozolo"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 58961839,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "031318fefce5b056793076c8e40d391b32b441e8",
+            "isKey": false,
+            "numCitedBy": 34,
+            "numCiting": 3,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper discusses the IBM RISC System/6000 workstation and a set of experiments with blocked algorithms commonly used in solving problems in numerical linear algebra. We describe the performance of these algorithms and discuss the techniques used in achieving high performance on such an architecture. 10 refs., 11 figs., 6 tabs."
+            },
+            "slug": "LAPPACK-Working-Note-No.-28:-The-IBM-RISC-and-Dongarra-Mayes",
+            "title": {
+                "fragments": [],
+                "text": "LAPPACK Working Note No. 28: The IBM RISC System/6000 and Linear Algebra Operations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 58,
+                "text": "The performance of blocked algorithms commonly used in solving problems in numerical linear algebra on the IBM RISC System/6000 workstation are described and the techniques used in achieving high performance on such an architecture are discussed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1708869"
+                        ],
+                        "name": "J. Dongarra",
+                        "slug": "J.-Dongarra",
+                        "structuredName": {
+                            "firstName": "Jack",
+                            "lastName": "Dongarra",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dongarra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760847"
+                        ],
+                        "name": "J. D. Croz",
+                        "slug": "J.-D.-Croz",
+                        "structuredName": {
+                            "firstName": "Jeremy",
+                            "lastName": "Croz",
+                            "middleNames": [
+                                "Du"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. D. Croz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1776509"
+                        ],
+                        "name": "S. Hammarling",
+                        "slug": "S.-Hammarling",
+                        "structuredName": {
+                            "firstName": "Sven",
+                            "lastName": "Hammarling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hammarling"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144308260"
+                        ],
+                        "name": "R. Hanson",
+                        "slug": "R.-Hanson",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Hanson",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Hanson"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 3579623,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d02db4d1633c7f06935212b4c7610768797e9602",
+            "isKey": false,
+            "numCitedBy": 1060,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes an extension to the set of Basic Linear Algebra Subprograms. The extensions are targeted at matrix-vector operations that should provide for efficient and portable implementations of algorithms for high-performance computers."
+            },
+            "slug": "An-extended-set-of-FORTRAN-basic-linear-algebra-Dongarra-Croz",
+            "title": {
+                "fragments": [],
+                "text": "An extended set of FORTRAN basic linear algebra subprograms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 92,
+                "text": "This paper describes an extension to the set of Basic Linear Algebra Subprograms targeted at matrix-vector operations that should provide for efficient and portable implementations of algorithms for high-performance computers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TOMS"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1708869"
+                        ],
+                        "name": "J. Dongarra",
+                        "slug": "J.-Dongarra",
+                        "structuredName": {
+                            "firstName": "Jack",
+                            "lastName": "Dongarra",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dongarra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760847"
+                        ],
+                        "name": "J. D. Croz",
+                        "slug": "J.-D.-Croz",
+                        "structuredName": {
+                            "firstName": "Jeremy",
+                            "lastName": "Croz",
+                            "middleNames": [
+                                "Du"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. D. Croz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1776509"
+                        ],
+                        "name": "S. Hammarling",
+                        "slug": "S.-Hammarling",
+                        "structuredName": {
+                            "firstName": "Sven",
+                            "lastName": "Hammarling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hammarling"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1804540"
+                        ],
+                        "name": "I. Duff",
+                        "slug": "I.-Duff",
+                        "structuredName": {
+                            "firstName": "Iain",
+                            "lastName": "Duff",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. Duff"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 72,
+                                "start": 66
+                            }
+                        ],
+                        "text": "Since their inception, the use of defacto standards like the BLAS [5, 4] has been a means of achieving portability and e ciency for a wide range of kernel scienti c computations."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 52873593,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "166641a1c482e2aadbafed7d5f7e637924442237",
+            "isKey": false,
+            "numCitedBy": 1946,
+            "numCiting": 53,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes an extension to the set of Basic Linear Algebra Subprograms. The extensions are targeted at matrix-vector operations that should provide for efficient and portable implementations of algorithms for high-performance computers"
+            },
+            "slug": "A-set-of-level-3-basic-linear-algebra-subprograms-Dongarra-Croz",
+            "title": {
+                "fragments": [],
+                "text": "A set of level 3 basic linear algebra subprograms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 92,
+                "text": "This paper describes an extension to the set of Basic Linear Algebra Subprograms targeted at matrix-vector operations that should provide for efficient and portable implementations of algorithms for high-performance computers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TOMS"
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143913004"
+                        ],
+                        "name": "L. Blackford",
+                        "slug": "L.-Blackford",
+                        "structuredName": {
+                            "firstName": "L.",
+                            "lastName": "Blackford",
+                            "middleNames": [
+                                "Susan"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Blackford"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1692966"
+                        ],
+                        "name": "Jaeyoung Choi",
+                        "slug": "Jaeyoung-Choi",
+                        "structuredName": {
+                            "firstName": "Jaeyoung",
+                            "lastName": "Choi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jaeyoung Choi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34895815"
+                        ],
+                        "name": "A. Cleary",
+                        "slug": "A.-Cleary",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Cleary",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Cleary"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401170132"
+                        ],
+                        "name": "E. D'Azevedo",
+                        "slug": "E.-D'Azevedo",
+                        "structuredName": {
+                            "firstName": "Eduardo",
+                            "lastName": "D'Azevedo",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. D'Azevedo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1700326"
+                        ],
+                        "name": "J. Demmel",
+                        "slug": "J.-Demmel",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Demmel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Demmel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1783667"
+                        ],
+                        "name": "I. Dhillon",
+                        "slug": "I.-Dhillon",
+                        "structuredName": {
+                            "firstName": "Inderjit",
+                            "lastName": "Dhillon",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. Dhillon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1708869"
+                        ],
+                        "name": "J. Dongarra",
+                        "slug": "J.-Dongarra",
+                        "structuredName": {
+                            "firstName": "Jack",
+                            "lastName": "Dongarra",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dongarra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1776509"
+                        ],
+                        "name": "S. Hammarling",
+                        "slug": "S.-Hammarling",
+                        "structuredName": {
+                            "firstName": "Sven",
+                            "lastName": "Hammarling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hammarling"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145131827"
+                        ],
+                        "name": "G. Henry",
+                        "slug": "G.-Henry",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Henry",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Henry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1719457"
+                        ],
+                        "name": "A. Petitet",
+                        "slug": "A.-Petitet",
+                        "structuredName": {
+                            "firstName": "Antoine",
+                            "lastName": "Petitet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Petitet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145382783"
+                        ],
+                        "name": "K. Stanley",
+                        "slug": "K.-Stanley",
+                        "structuredName": {
+                            "firstName": "Ken",
+                            "lastName": "Stanley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Stanley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116410910"
+                        ],
+                        "name": "David Walker",
+                        "slug": "David-Walker",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Walker",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Walker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144301481"
+                        ],
+                        "name": "R. C. Whaley",
+                        "slug": "R.-C.-Whaley",
+                        "structuredName": {
+                            "firstName": "R.",
+                            "lastName": "Whaley",
+                            "middleNames": [
+                                "Clinton"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. C. Whaley"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 59805161,
+            "fieldsOfStudy": [
+                "Education"
+            ],
+            "id": "4eaef17e197680398bbf5eef58903be29fc0f31f",
+            "isKey": false,
+            "numCitedBy": 882,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Where you can find the scalapack users guide easily? Is it in the book store? On-line book store? are you sure? Keep in mind that you will find the book in this site. This book is very referred for you because it gives not only the experience but also lesson. The lessons are very valuable to serve for you, that's not about who are reading this scalapack users guide book. It is about this book that will give wellness for all people from many societies."
+            },
+            "slug": "ScaLAPACK-Users'-Guide-Blackford-Choi",
+            "title": {
+                "fragments": [],
+                "text": "ScaLAPACK Users' Guide"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This book is very referred for you because it gives not only the experience but also lesson, it is about this book that will give wellness for all people from many societies."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1987
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "75 HP C Compiler (CXREF A.09.75) HP9K/735 P5MMX gcc version 2.7.2.1, Red Hat Linux 5.0 PPRO gcc version 2.7.2.3, Red Hat Linux 5.0 PII300 gcc version 2.7.2.3, Red Hat Linux 5"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "HP9K/715 HP92453-01 A.09"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 163,
+                                "start": 160
+                            }
+                        ],
+                        "text": "Because the BLAS are e cient, portable, and widely available, they are commonly used in the development of high quality linear algebra software, such as LAPACK [1] and ScaLAPACK [2], for example."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "LAPACK Users' Guide  (second edition)"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1995
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "R10Kip27 cc -64 -mips4 -r10000 -OPT:Olimit=15000 -TARG:platform=ip27"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "R10Kip27 cc -64 -mips4 -r10000 -OPT:Olimit=15000 -TARG:platform=ip27"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Table 8: System and ATLAS SGEMM comparison across platforms References"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Table 8: System and ATLAS SGEMM comparison across platforms References"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The IBM RISC System 6000 and linear algebra operations. Supercomputer"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1991
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 181,
+                                "start": 178
+                            }
+                        ],
+                        "text": "Because the BLAS are e cient, portable, and widely available, they are commonly used in the development of high quality linear algebra software, such as LAPACK [1] and ScaLAPACK [2], for example."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "ScaLA-  PACK Users' Guide"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIAM, Philadelphia,"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "ScaLA-PACK Users"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Table 7: Double precision LU timings on various platforms (MFLOPS) References"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Table 7: Double precision LU timings on various platforms (MFLOPS) References"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "R10Kip28 cc -64 -mips4 -r10000 -OPT:Olimit=15000 -TARG"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "R10Kip28 cc -64 -mips4 -r10000 -OPT:Olimit=15000 -TARG"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 72,
+                                "start": 66
+                            }
+                        ],
+                        "text": "Since their inception, the use of defacto standards like the BLAS [5, 4] has been a means of achieving portability and e ciency for a wide range of kernel scienti c computations."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "An Extended Set of FORTRAN Basic Linear Algebra Subroutines"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Math. Soft.,"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Table 5: System and ATLAS DGEMM comparison across platforms MFLOPS References"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Table 5: System and ATLAS DGEMM comparison across platforms MFLOPS References"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "LOPT:alias=typed -LNO:blocking=OFF -O2"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LOPT:alias=typed -LNO:blocking=OFF -O2"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "ScaLA- PACK Users' Guide. SIAM"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ScaLA- PACK Users' Guide. SIAM"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "LAPACK Users' Guide (second edition). SIAM, Philadelphia"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LAPACK Users' Guide (second edition). SIAM, Philadelphia"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "LOPT:alias=typed -LNO:blocking=OFF -O3"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LOPT:alias=typed -LNO:blocking=OFF -O3"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 77,
+                                "start": 74
+                            }
+                        ],
+                        "text": "These run-time adaptations could include matrix dependent transformations [8], as well as speci c code generation."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Improving instruction-level parallelism in sparse matrix-vector multiplication using reordering, blocking, and prefetching"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 8th SIAM Conference on Parallel Processing for Scienti c Computing. SIAM,"
+            },
+            "year": 1997
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 2,
+            "methodology": 4
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 22,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Automatically-Tuned-Linear-Algebra-Software-Whaley-Dongarra/214a0d9c93720aa8c3d10710bca8308e3f2618f5?sort=total-citations"
+}

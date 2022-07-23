@@ -1,0 +1,4437 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3493948"
+                        ],
+                        "name": "Manuele Rusci",
+                        "slug": "Manuele-Rusci",
+                        "structuredName": {
+                            "firstName": "Manuele",
+                            "lastName": "Rusci",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Manuele Rusci"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2780990"
+                        ],
+                        "name": "Alessandro Capotondi",
+                        "slug": "Alessandro-Capotondi",
+                        "structuredName": {
+                            "firstName": "Alessandro",
+                            "lastName": "Capotondi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alessandro Capotondi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1710649"
+                        ],
+                        "name": "L. Benini",
+                        "slug": "L.-Benini",
+                        "structuredName": {
+                            "firstName": "Luca",
+                            "lastName": "Benini",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Benini"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 157,
+                                "start": 153
+                            }
+                        ],
+                        "text": "configuration of the Mobilenet are quantized using a trainingaware quantization scheme and converted into a \u201conly-integer\u201d forward model as described in [14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 75,
+                                "start": 71
+                            }
+                        ],
+                        "text": "Finally, applying the mixed-precision quantization method presented by [14] to the recent MobilenetV2 224_1."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[14], setting the memory constraints MRO = 2MB and MRW = 512kB, corresponding with the memory characteristics of the STM32H7 device, used in this brief."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 105,
+                                "start": 101
+                            }
+                        ],
+                        "text": "Per-Channel quantization are justified by a higher precision of the quantized inference network [8], [14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 26
+                            }
+                        ],
+                        "text": "The approach described in [14] leveraged heterogeneous mixed-precision to deploy deep inference networks on tiny MCUs."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 246,
+                                "start": 242
+                            }
+                        ],
+                        "text": "However, due to the high accuracy drop caused by the folding process in case of low-bitwidth weights, the IntegerChannel Normalization (ICN) technique aims at folding the extra non-convolutional parameters into the activation function itself [14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 170078885,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "099f4ef673778856bddb8638657aa6cc3eb112c9",
+            "isKey": false,
+            "numCitedBy": 33,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a novel end-to-end methodology for enabling the deployment of low-error deep networks on microcontrollers. To fit the memory and computational limitations of resource-constrained edge-devices, we exploit mixed low-bitwidth compression, featuring 8, 4 or 2-bit uniform quantization, and we model the inference graph with integer-only operations. Our approach aims at determining the minimum bit precision of every activation and weight tensor given the memory constraints of a device. This is achieved through a rule-based iterative procedure, which cuts the number of bits of the most memory-demanding layers, aiming at meeting the memory constraints. After a quantization-aware retraining step, the fake-quantized graph is converted into an inference integer-only model by inserting the Integer Channel-Normalization (ICN) layers, which introduce a negligible loss as demonstrated on INT4 MobilenetV1 models. We report the latency-accuracy evaluation of mixed-precision MobilenetV1 family networks on a STM32H7 microcontroller. Our experimental results demonstrate an end-to-end deployment of an integer-only Mobilenet network with Top1 accuracy of 68% on a device with only 2MB of FLASH memory and 512kB of RAM, improving by 8% the Top1 accuracy with respect to previously published 8 bit implementations for microcontrollers."
+            },
+            "slug": "Memory-Driven-Mixed-Low-Precision-Quantization-For-Rusci-Capotondi",
+            "title": {
+                "fragments": [],
+                "text": "Memory-Driven Mixed Low Precision Quantization For Enabling Deep Network Inference On Microcontrollers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "An end-to-end deployment of an integer-only Mobilenet network with Top1 accuracy of 68% on a device with only 2MB of FLASH memory and 512kB of RAM is demonstrated, improving by 8% the Top 1 accuracy with respect to previously published 8 bit implementations for microcontrollers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "MLSys"
+            },
+            "year": 2020
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3493948"
+                        ],
+                        "name": "Manuele Rusci",
+                        "slug": "Manuele-Rusci",
+                        "structuredName": {
+                            "firstName": "Manuele",
+                            "lastName": "Rusci",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Manuele Rusci"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2780990"
+                        ],
+                        "name": "Alessandro Capotondi",
+                        "slug": "Alessandro-Capotondi",
+                        "structuredName": {
+                            "firstName": "Alessandro",
+                            "lastName": "Capotondi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alessandro Capotondi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1721381"
+                        ],
+                        "name": "Francesco Conti",
+                        "slug": "Francesco-Conti",
+                        "structuredName": {
+                            "firstName": "Francesco",
+                            "lastName": "Conti",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Francesco Conti"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1710649"
+                        ],
+                        "name": "L. Benini",
+                        "slug": "L.-Benini",
+                        "structuredName": {
+                            "firstName": "Luca",
+                            "lastName": "Benini",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Benini"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 144
+                            }
+                        ],
+                        "text": "less threshold-based compressor, to convert the output of the integer convolution into the quantized input of the next convolutional layer [10]\u2013[12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 60,
+                                "start": 56
+                            }
+                        ],
+                        "text": "5 instructions per element, instead of 2 as proposed by [12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 53281535,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Engineering"
+            ],
+            "id": "cfeef5655de414f615520ec615e941366ada938a",
+            "isKey": false,
+            "numCitedBy": 17,
+            "numCiting": 6,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "High energy efficiency and low memory footprint are the key requirements for the deployment of deep learning based analytics on low-power microcontrollers. Here we present work-in-progress results with <tex>$Q$</tex>-bit Quantized Neural Networks (QNNs) deployed on a commercial Cortex-M7 class microcontroller by means of an extension to the ARM CMSIS-NN library. We show that i) for <tex>$Q=4$</tex> and <tex>$Q=2$</tex> low memory footprint QNNs can be deployed with an energy overhead of 30% and 36% respectively against the 8-bit CMSIS-NN due to the lack of quantization support in the ISA; ii) for <tex>$Q=1$</tex> native instructions can be used, yielding an energy and latency reduction of \u223c3.8\u00d7 with respect to CMSIS-NN. Our initial results suggest that a small set of QNN-related specialized instructions could improve performance by as much as 7.5\u00d7 for <tex>$Q=4$</tex>, 13.6\u00d7 for <tex>$Q=2$</tex> and 6.5\u00d7 for binary NNs."
+            },
+            "slug": "Work-in-Progress:-Quantized-NNs-as-the-Definitive-Rusci-Capotondi",
+            "title": {
+                "fragments": [],
+                "text": "Work-in-Progress: Quantized NNs as the Definitive Solution for Inference on Low-Power ARM MCUs?"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 36,
+                "text": "The initial results suggest that a small set of QNN-related specialized instructions could improve performance by as much as 7.5\u00d7 for binary NNs and up to 6.8\u00d7 with respect to CMSIS-NN."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2018 International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS)"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2112666139"
+                        ],
+                        "name": "Hongxing Gao",
+                        "slug": "Hongxing-Gao",
+                        "structuredName": {
+                            "firstName": "Hongxing",
+                            "lastName": "Gao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hongxing Gao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2112528277"
+                        ],
+                        "name": "Wei Tao",
+                        "slug": "Wei-Tao",
+                        "structuredName": {
+                            "firstName": "Wei",
+                            "lastName": "Tao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wei Tao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "115712451"
+                        ],
+                        "name": "Dongchao Wen",
+                        "slug": "Dongchao-Wen",
+                        "structuredName": {
+                            "firstName": "Dongchao",
+                            "lastName": "Wen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dongchao Wen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2145223699"
+                        ],
+                        "name": "Tse-Wei Chen",
+                        "slug": "Tse-Wei-Chen",
+                        "structuredName": {
+                            "firstName": "Tse-Wei",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tse-Wei Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47373253"
+                        ],
+                        "name": "Kinya Osa",
+                        "slug": "Kinya-Osa",
+                        "structuredName": {
+                            "firstName": "Kinya",
+                            "lastName": "Osa",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kinya Osa"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1845879900"
+                        ],
+                        "name": "Masami Kato",
+                        "slug": "Masami-Kato",
+                        "structuredName": {
+                            "firstName": "Masami",
+                            "lastName": "Kato",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Masami Kato"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 53400337,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9a90ce38c5ad0fdfd18463a5ad8ff76ff625229e",
+            "isKey": false,
+            "numCitedBy": 8,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deploying deep models on embedded devices has been a challenging problem since the great success of deep learning based networks. Fixed-point networks, which represent their data with low bits fixed-point and thus give remarkable savings on memory usage, are generally preferred. Even though current fixed-point networks employ relative low bits (e.g. 8-bits), the memory saving is far from enough for the embedded devices. On the other hand, quantization deep networks, for example XNOR-Net and HWGQ-Net, quantize the data into 1 or 2 bits resulting in more significant memory savings but still contain lots of floating-point data. In this paper, we propose a fixed-point network for embedded vision tasks through converting the floating-point data in a quantization network into fixed-point. Furthermore, to overcome the data loss caused by the conversion, we propose to compose floating-point data operations across multiple layers (e.g. convolution, batch normalization and quantization layers) and convert them into fixed-point. We name the fixed-point network obtained through such integrated conversion as Integrated Fixed-point Quantization Networks (IFQ-Net). We demonstrate that our IFQ-Net gives 2.16\u00d7 and 18\u00d7 more savings on model size and runtime feature map memory respectively with similar accuracy on ImageNet. Furthermore, based on YOLOv2, we design IFQ-Tinier-YOLO face detector which is a fixed-point network with 256\u00d7 reduction in model size (246k Bytes) than Tiny-YOLO. We illustrate the promising performance of our face detector in terms of detection rate on Face Detection Data Set and Bencmark (FDDB) and qualitative results of detecting small faces of Wider Face dataset."
+            },
+            "slug": "IFQ-Net:-Integrated-Fixed-Point-Quantization-for-Gao-Tao",
+            "title": {
+                "fragments": [],
+                "text": "IFQ-Net: Integrated Fixed-Point Quantization Networks for Embedded Vision"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A fixed-point network for embedded vision tasks is proposed through converting the floating-point data in a quantization network intoFixed-point through an integrated conversion of convolution, batch normalization and quantization layers to overcome the data loss caused by the conversion."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2065915235"
+                        ],
+                        "name": "Raghuraman Krishnamoorthi",
+                        "slug": "Raghuraman-Krishnamoorthi",
+                        "structuredName": {
+                            "firstName": "Raghuraman",
+                            "lastName": "Krishnamoorthi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Raghuraman Krishnamoorthi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 263,
+                                "start": 260
+                            }
+                        ],
+                        "text": "To turn a typical subgraph including a convolutional layer followed by a batch normalization layer (Figure 1a) into an integer-only representation, the parameters of batch normalization can be folded into the convolutional weights before the quantization step [8], [13]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 96
+                            }
+                        ],
+                        "text": "Per-Channel quantization are justified by a higher precision of the quantized inference network [8], [14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 49356451,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3d8b62c060f8444907e7c975c6ae590373b51ed4",
+            "isKey": false,
+            "numCitedBy": 450,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present an overview of techniques for quantizing convolutional neural networks for inference with integer weights and activations. Per-channel quantization of weights and per-layer quantization of activations to 8-bits of precision post-training produces classification accuracies within 2% of floating point networks for a wide variety of CNN architectures. Model sizes can be reduced by a factor of 4 by quantizing weights to 8-bits, even when 8-bit arithmetic is not supported. This can be achieved with simple, post training quantization of weights.We benchmark latencies of quantized networks on CPUs and DSPs and observe a speedup of 2x-3x for quantized implementations compared to floating point on CPUs. Speedups of up to 10x are observed on specialized processors with fixed point SIMD capabilities, like the Qualcomm QDSPs with HVX. \nQuantization-aware training can provide further improvements, reducing the gap to floating point to 1% at 8-bit precision. Quantization-aware training also allows for reducing the precision of weights to four bits with accuracy losses ranging from 2% to 10%, with higher accuracy drop for smaller networks.We introduce tools in TensorFlow and TensorFlowLite for quantizing convolutional networks and review best practices for quantization-aware training to obtain high accuracy with quantized weights and activations. We recommend that per-channel quantization of weights and per-layer quantization of activations be the preferred quantization scheme for hardware acceleration and kernel optimization. We also propose that future processors and hardware accelerators for optimized inference support precisions of 4, 8 and 16 bits."
+            },
+            "slug": "Quantizing-deep-convolutional-networks-for-A-Krishnamoorthi",
+            "title": {
+                "fragments": [],
+                "text": "Quantizing deep convolutional networks for efficient inference: A whitepaper"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 72,
+                "text": "An overview of techniques for quantizing convolutional neural networks for inference with integer weights and activations is presented and it is recommended that per-channel quantization of weights and per-layer quantized of activations be the preferred quantization scheme for hardware acceleration and kernel optimization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2067445"
+                        ],
+                        "name": "Yaman Umuroglu",
+                        "slug": "Yaman-Umuroglu",
+                        "structuredName": {
+                            "firstName": "Yaman",
+                            "lastName": "Umuroglu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yaman Umuroglu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2054413"
+                        ],
+                        "name": "Magnus Jahre",
+                        "slug": "Magnus-Jahre",
+                        "structuredName": {
+                            "firstName": "Magnus",
+                            "lastName": "Jahre",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Magnus Jahre"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 143,
+                                "start": 139
+                            }
+                        ],
+                        "text": "less threshold-based compressor, to convert the output of the integer convolution into the quantized input of the next convolutional layer [10]\u2013[12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 98,
+                                "start": 94
+                            }
+                        ],
+                        "text": "To deploy these networks on ARM Cortex-A cores, some works rely on bit-serial implementations [10], [23], [24]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 26223295,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1a42b9a97d0458dda4bbc0863eca0143d7505c3c",
+            "isKey": false,
+            "numCitedBy": 23,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Running Deep Neural Network (DNN) models on devices with limited computational capability is a challenge due to large compute and memory requirements. Quantized Neural Networks (QNNs) have emerged as a potential solution to this problem, promising to offer most of the DNN accuracy benefits with much lower computational cost. However, harvesting these benefits on existing mobile CPUs is a challenge since operations on highly quantized datatypes are not natively supported in most instruction set architectures (ISAs). In this work, we first describe a streamlining flow to convert all QNN inference operations to integer ones. Afterwards, we provide techniques based on processing one bit position at a time (bit-serial) to show how QNNs can be efficiently deployed using common bitwise operations. We demonstrate the potential of QNNs on mobile CPUs with microbenchmarks and on a quantized AlexNet, which is 3.5x faster than an optimized 8-bit baseline."
+            },
+            "slug": "Streamlined-Deployment-for-Quantized-Neural-Umuroglu-Jahre",
+            "title": {
+                "fragments": [],
+                "text": "Streamlined Deployment for Quantized Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "This work describes a streamlining flow to convert all QNN inference operations to integer ones and provides techniques based on processing one bit position at a time (bit-serial) to show how QNNs can be efficiently deployed using common bitwise operations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1490932604"
+                        ],
+                        "name": "Angelo Garofalo",
+                        "slug": "Angelo-Garofalo",
+                        "structuredName": {
+                            "firstName": "Angelo",
+                            "lastName": "Garofalo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Angelo Garofalo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3493948"
+                        ],
+                        "name": "Manuele Rusci",
+                        "slug": "Manuele-Rusci",
+                        "structuredName": {
+                            "firstName": "Manuele",
+                            "lastName": "Rusci",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Manuele Rusci"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1721381"
+                        ],
+                        "name": "Francesco Conti",
+                        "slug": "Francesco-Conti",
+                        "structuredName": {
+                            "firstName": "Francesco",
+                            "lastName": "Conti",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Francesco Conti"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48307511"
+                        ],
+                        "name": "D. Rossi",
+                        "slug": "D.-Rossi",
+                        "structuredName": {
+                            "firstName": "Davide",
+                            "lastName": "Rossi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Rossi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1710649"
+                        ],
+                        "name": "L. Benini",
+                        "slug": "L.-Benini",
+                        "structuredName": {
+                            "firstName": "Luca",
+                            "lastName": "Benini",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Benini"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 82
+                            }
+                        ],
+                        "text": "To speed up the inference phase on parallel RISC-V architectures, PULP-NN kernels [29] exploit 4x8 bits SIMD MAC instructions and bit-wise extension to gain benefits in case of bit-precision lower than 8 bits."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 201670022,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d5fd916ffad9da5669912c15907d0771d49c9c2c",
+            "isKey": false,
+            "numCitedBy": 61,
+            "numCiting": 61,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present PULP-NN, an optimized computing library for a parallel ultra-low-power tightly coupled cluster of RISC-V processors. The key innovation in PULP-NN is a set of kernels for quantized neural network inference, targeting byte and sub-byte data types, down to INT-1, tuned for the recent trend toward aggressive quantization in deep neural network inference. The proposed library exploits both the digital signal processing extensions available in the PULP RISC-V processors and the cluster\u2019s parallelism, achieving up to 15.5\u2009MACs/cycle on INT-8 and improving performance by up to 63\u2009\u00d7 with respect to a sequential implementation on a single RISC-V core implementing the baseline RV32IMC ISA. Using PULP-NN, a CIFAR-10 network on an octa-core cluster runs in 30\u2009\u00d7 and 19.6\u2009\u00d7 less clock cycles than the current state-of-the-art ARM CMSIS-NN library, running on STM32L4 and STM32H7 MCUs, respectively. The proposed library, when running on a GAP-8 processor, outperforms by 36.8\u2009\u00d7 and by 7.45\u2009\u00d7 the execution on energy efficient MCUs such as STM32L4 and high-end MCUs such as STM32H7 respectively, when operating at the maximum frequency. The energy efficiency on GAP-8 is 14.1\u2009\u00d7 higher than STM32L4 and 39.5\u2009\u00d7 higher than STM32H7, at the maximum efficiency operating point. This article is part of the theme issue \u2018Harmonizing energy-autonomous computing and intelligence\u2019."
+            },
+            "slug": "PULP-NN:-accelerating-quantized-neural-networks-on-Garofalo-Rusci",
+            "title": {
+                "fragments": [],
+                "text": "PULP-NN: accelerating quantized neural networks on parallel ultra-low-power RISC-V processors"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "The key innovation in PULP-NN is a set of kernels for quantized neural network inference, targeting byte and sub-byte data types, down to INT-1, tuned for the recent trend toward aggressive quantization in deep Neural network inference."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Philosophical Transactions of the Royal Society A"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3609856"
+                        ],
+                        "name": "Andrew Tulloch",
+                        "slug": "Andrew-Tulloch",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Tulloch",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Tulloch"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39978391"
+                        ],
+                        "name": "Yangqing Jia",
+                        "slug": "Yangqing-Jia",
+                        "structuredName": {
+                            "firstName": "Yangqing",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yangqing Jia"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 110,
+                                "start": 106
+                            }
+                        ],
+                        "text": "To deploy these networks on ARM Cortex-A cores, some works rely on bit-serial implementations [10], [23], [24]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 39524270,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a04ac2f7c0f4da3a00a22a9a10266c89fc1d4cb4",
+            "isKey": false,
+            "numCitedBy": 21,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many applications of mobile deep learning, especially real-time computer vision workloads, are constrained by computation power. This is particularly true for workloads running on older consumer phones, where a typical device might be powered by a single- or dual-core ARMv7 CPU. We provide an open-source implementation and a comprehensive analysis of (to our knowledge) the state of the art ultra-low-precision (<4 bit precision) implementation of the core primitives required for modern deep learning workloads on ARMv7 devices, and demonstrate speedups of 4x-20x over our additional state-of-the-art float32 and int8 baselines."
+            },
+            "slug": "High-performance-ultra-low-precision-convolutions-Tulloch-Jia",
+            "title": {
+                "fragments": [],
+                "text": "High performance ultra-low-precision convolutions on mobile devices"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work provides an open-source implementation and a comprehensive analysis of the state of the art ultra-low-precision (<4 bit precision) implementation of the core primitives required for modern deep learning workloads on ARMv7 devices, and demonstrates speedups of 4x-20x over the authors' additional state-of-the-art float32 and int8 baselines."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3468810"
+                        ],
+                        "name": "Yoni Choukroun",
+                        "slug": "Yoni-Choukroun",
+                        "structuredName": {
+                            "firstName": "Yoni",
+                            "lastName": "Choukroun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoni Choukroun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "71729077"
+                        ],
+                        "name": "Eli Kravchik",
+                        "slug": "Eli-Kravchik",
+                        "structuredName": {
+                            "firstName": "Eli",
+                            "lastName": "Kravchik",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eli Kravchik"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1771779"
+                        ],
+                        "name": "P. Kisilev",
+                        "slug": "P.-Kisilev",
+                        "structuredName": {
+                            "firstName": "Pavel",
+                            "lastName": "Kisilev",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Kisilev"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 62,
+                                "start": 59
+                            }
+                        ],
+                        "text": ", less than 8 bits, quantization based on retraining flows [5]\u2013[9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 67750088,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "47a1edfb88f5b4a7ba1e9f6aed327f67f942f6d6",
+            "isKey": false,
+            "numCitedBy": 126,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent machine learning methods use increasingly large deep neural networks to achieve state of the art results in various tasks. The gains in performance come at the cost of a substantial increase in computation and storage requirements. This makes real-time implementations on limited resources hardware a challenging task. One popular approach to address this challenge is to perform low-bit precision computations via neural network quantization. However, aggressive quantization generally entails a severe penalty in terms of accuracy, and often requires retraining of the network, or resorting to higher bit precision quantization. In this paper, we formalize the linear quantization task as a Minimum Mean Squared Error (MMSE) problem for both weights and activations, allowing low-bit precision inference without the need for full network retraining. We propose the analysis and the optimization of constrained MSE problems for performant hardware aware quantization. The proposed approach allows 4 bits integer (INT4) quantization for deployment of pretrained models on limited hardware resources. Multiple experiments on various network architectures show that the suggested method yields state of the art results with minimal loss of tasks accuracy."
+            },
+            "slug": "Low-bit-Quantization-of-Neural-Networks-for-Choukroun-Kravchik",
+            "title": {
+                "fragments": [],
+                "text": "Low-bit Quantization of Neural Networks for Efficient Inference"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper formalizes the linear quantization task as a Minimum Mean Squared Error (MMSE) problem for both weights and activations, allowing low-bit precision inference without the need for full network retraining."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37270394"
+                        ],
+                        "name": "M. Cowan",
+                        "slug": "M.-Cowan",
+                        "structuredName": {
+                            "firstName": "Meghan",
+                            "lastName": "Cowan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Cowan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47108160"
+                        ],
+                        "name": "T. Moreau",
+                        "slug": "T.-Moreau",
+                        "structuredName": {
+                            "firstName": "Thierry",
+                            "lastName": "Moreau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Moreau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1913774"
+                        ],
+                        "name": "Tianqi Chen",
+                        "slug": "Tianqi-Chen",
+                        "structuredName": {
+                            "firstName": "Tianqi",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tianqi Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1717411"
+                        ],
+                        "name": "L. Ceze",
+                        "slug": "L.-Ceze",
+                        "structuredName": {
+                            "firstName": "Luis",
+                            "lastName": "Ceze",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Ceze"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 104,
+                                "start": 100
+                            }
+                        ],
+                        "text": "To deploy these networks on ARM Cortex-A cores, some works rely on bit-serial implementations [10], [23], [24]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 53083211,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7bb8bfe1c80b6739a6a5dd3db0b8f9f93fbb6e98",
+            "isKey": false,
+            "numCitedBy": 11,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "State of the art deep learning models have made steady progress in the fields of computer vision and natural language processing, at the expense of growing model sizes and computational complexity. Deploying these models on low power and mobile devices poses a challenge due to their limited compute capabilities and strict energy budgets. One solution that has generated significant research interest is deploying highly quantized models that operate on low precision inputs and weights less than eight bits, trading off accuracy for performance. These models have a significantly reduced memory footprint (up to 32x reduction) and can replace multiply-accumulates with bitwise operations during compute intensive convolution and fully connected layers. \nMost deep learning frameworks rely on highly engineered linear algebra libraries such as ATLAS or Intel's MKL to implement efficient deep learning operators. To date, none of the popular deep learning directly support low precision operators, partly due to a lack of optimized low precision libraries. In this paper we introduce a work flow to quickly generate high performance low precision deep learning operators for arbitrary precision that target multiple CPU architectures and include optimizations such as memory tiling and vectorization. We present an extensive case study on low power ARM Cortex-A53 CPU, and show how we can generate 1-bit, 2-bit convolutions with speedups up to 16x over an optimized 16-bit integer baseline and 2.3x better than handwritten implementations."
+            },
+            "slug": "Automating-Generation-of-Low-Precision-Deep-Cowan-Moreau",
+            "title": {
+                "fragments": [],
+                "text": "Automating Generation of Low Precision Deep Learning Operators"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 37,
+                "text": "This paper presents an extensive case study on low power ARM Cortex-A53 CPU, and shows how it can generate 1-bit, 2-bit convolutions with speedups up to 16x over an optimized 16-bit integer baseline and 2.3x better than handwritten implementations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "120703805"
+                        ],
+                        "name": "Jaeheum Lee",
+                        "slug": "Jaeheum-Lee",
+                        "structuredName": {
+                            "firstName": "Jaeheum",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jaeheum Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3444950"
+                        ],
+                        "name": "J. Eshraghian",
+                        "slug": "J.-Eshraghian",
+                        "structuredName": {
+                            "firstName": "Jason",
+                            "lastName": "Eshraghian",
+                            "middleNames": [
+                                "Kamran"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Eshraghian"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153882173"
+                        ],
+                        "name": "Kyoungrok Cho",
+                        "slug": "Kyoungrok-Cho",
+                        "structuredName": {
+                            "firstName": "Kyoungrok",
+                            "lastName": "Cho",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kyoungrok Cho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49638139"
+                        ],
+                        "name": "K. Eshraghian",
+                        "slug": "K.-Eshraghian",
+                        "structuredName": {
+                            "firstName": "Kamran",
+                            "lastName": "Eshraghian",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Eshraghian"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 198,
+                                "start": 194
+                            }
+                        ],
+                        "text": "Concerning the deployment of deep inference networks, several works introduced frameworks, software stacks, and hardware solutions optimized in terms of latency and energy consumption [2], [15]\u2013[19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 195345065,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d34b8e0946789b99bc23b49b8a0bd5f0fc12f7ef",
+            "isKey": false,
+            "numCitedBy": 13,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Neural processor development is reducing our reliance on remote server access to process deep learning operations in an increasingly edge-driven world. By employing in-memory processing, parallelization techniques, and algorithm-hardware co-design, memristor crossbar arrays are known to efficiently compute large scale matrix-vector multiplications. However, state-of-the-art implementations of negative weights require duplicative column wires, and high precision weights using single-bit memristors further distributes computations. These constraints dramatically increase chip area and resistive losses, which lead to increased power consumption and reduced accuracy. In this paper, we develop an adaptive precision method by varying the number of memristors at each crosspoint. We also present a weight mapping algorithm designed for implementation on our crossbar array. This novel algorithm-hardware solution is described as the radix-X Convolutional Neural Network Crossbar Array, and demonstrate how to efficiently represent negative weights using a single column line, rather than double the number of additional columns. Using both simulation and experimental results, we verify that our radix-5 CNN array achieves a validation accuracy of 90.5% on the CIFAR-10 dataset, a 4.5% improvement over binarized neural networks whilst simultaneously reducing crossbar area by 46% over conventional arrays by removing the need for duplicate columns to represent signed weights."
+            },
+            "slug": "Adaptive-Precision-CNN-Accelerator-Using-Radix-X-Lee-Eshraghian",
+            "title": {
+                "fragments": [],
+                "text": "Adaptive Precision CNN Accelerator Using Radix-X Parallel Connected Memristor Crossbars"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper develops an adaptive precision method by varying the number of memristors at each crosspoint, and presents a weight mapping algorithm designed for implementation on the authors' crossbar array, described as the radix-X Convolutional Neural Network Crossbar Array."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064178333"
+                        ],
+                        "name": "Ahmet Erdem",
+                        "slug": "Ahmet-Erdem",
+                        "structuredName": {
+                            "firstName": "Ahmet",
+                            "lastName": "Erdem",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ahmet Erdem"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784619"
+                        ],
+                        "name": "C. Silvano",
+                        "slug": "C.-Silvano",
+                        "structuredName": {
+                            "firstName": "Cristina",
+                            "lastName": "Silvano",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Silvano"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3392798"
+                        ],
+                        "name": "T. Boesch",
+                        "slug": "T.-Boesch",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Boesch",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Boesch"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39997201"
+                        ],
+                        "name": "Andrea C. Ornstein",
+                        "slug": "Andrea-C.-Ornstein",
+                        "structuredName": {
+                            "firstName": "Andrea",
+                            "lastName": "Ornstein",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrea C. Ornstein"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3490222"
+                        ],
+                        "name": "Surinder-pal Singh",
+                        "slug": "Surinder-pal-Singh",
+                        "structuredName": {
+                            "firstName": "Surinder-pal",
+                            "lastName": "Singh",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Surinder-pal Singh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1924974"
+                        ],
+                        "name": "G. Desoli",
+                        "slug": "G.-Desoli",
+                        "structuredName": {
+                            "firstName": "Giuseppe",
+                            "lastName": "Desoli",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Desoli"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 218518079,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ac8e0abb38b2a8bc31b74aef70808af3f653c9d4",
+            "isKey": false,
+            "numCitedBy": 2,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent trends in deep convolutional neural networks (DCNNs) impose hardware accelerators as a viable solution for computer vision and speech recognition. The Orlando SoC architecture from STMicroelectronics targets exactly this class of problems by integrating hardware-accelerated convolutional blocks together with DSPs and on-chip memory resources to enable energy-efficient designs of DCNNs. The main advantage of the Orlando platform is to have runtime configurable convolutional accelerators that can adapt to different DCNN workloads. This opens new challenges for mapping the computation to the accelerators and for managing the on-chip resources efficiently. In this work, we propose a runtime design space exploration and mapping methodology for runtime resource management in terms of on-chip memory, convolutional accelerators, and external bandwidth. Experimental results are reported in terms of power/performance scalability, Pareto analysis, mapping adaptivity, and accelerator utilization for the Orlando architecture mapping the VGG-16, Tiny-Yolo(v2), and MobileNet topologies."
+            },
+            "slug": "Runtime-Design-Space-Exploration-and-Mapping-of-for-Erdem-Silvano",
+            "title": {
+                "fragments": [],
+                "text": "Runtime Design Space Exploration and Mapping of DCNNs for the Ultra-Low-Power Orlando SoC"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This work proposes a runtime design space exploration and mapping methodology for runtime resource management in terms of on-chip memory, convolutional accelerators, and external bandwidth."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Archit. Code Optim."
+            },
+            "year": 2020
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2119045079"
+                        ],
+                        "name": "Kuan Wang",
+                        "slug": "Kuan-Wang",
+                        "structuredName": {
+                            "firstName": "Kuan",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kuan Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47781592"
+                        ],
+                        "name": "Zhijian Liu",
+                        "slug": "Zhijian-Liu",
+                        "structuredName": {
+                            "firstName": "Zhijian",
+                            "lastName": "Liu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhijian Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49417466"
+                        ],
+                        "name": "Yujun Lin",
+                        "slug": "Yujun-Lin",
+                        "structuredName": {
+                            "firstName": "Yujun",
+                            "lastName": "Lin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yujun Lin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46698300"
+                        ],
+                        "name": "Ji Lin",
+                        "slug": "Ji-Lin",
+                        "structuredName": {
+                            "firstName": "Ji",
+                            "lastName": "Lin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ji Lin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143840275"
+                        ],
+                        "name": "Song Han",
+                        "slug": "Song-Han",
+                        "structuredName": {
+                            "firstName": "Song",
+                            "lastName": "Han",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Song Han"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 185,
+                                "start": 181
+                            }
+                        ],
+                        "text": "Meanwhile, this is not the main contribution of this brief, we can conclude that the selection of the best topologies for edge devices is very critical when quantization is applied [30]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 53746082,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "df71a17df5350b0dbf8e5e084ae56a65cee9aaf8",
+            "isKey": false,
+            "numCitedBy": 73,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Model quantization is a widely used technique to compress and accelerate deep neural network (DNN) inference. Emergent DNN hardware accelerators begin to support flexible bitwidth (1-8 bits) to further improve the computation efficiency, which raises a great challenge to find the optimal bitwidth for each layer: it requires domain experts to explore the vast design space trading off among accuracy, latency, energy, and model size, which is both time-consuming and sub-optimal. Conventional quantization algorithm ignores the different hardware architectures and quantizes all the layers in a uniform way. In this paper, we introduce the Hardware-Aware Automated Quantization (HAQ) framework which leverages the reinforcement learning to automatically determine the quantization policy, and we take the hardware accelerator's feedback in the design loop. Rather than relying on proxy signals such as FLOPs and model size, we employ a hardware simulator to generate direct feedback signals to the RL agent. Compared with conventional methods, our framework is fully automated and can specialize the quantization policy for different neural network architectures and hardware architectures. Our framework effectively reduced the latency by 1.4-1.95x and the energy consumption by 1.9x with negligible loss of accuracy compared with the fixed bitwidth (8 bits) quantization. Our framework reveals that the optimal policies on different hardware architectures (i.e., edge and cloud architectures) under different resource constraints (i.e., latency, energy and model size) are drastically different. We interpreted the implication of different quantization policies, which offer insights for both neural network architecture design and hardware architecture design."
+            },
+            "slug": "HAQ:-Hardware-Aware-Automated-Quantization-Wang-Liu",
+            "title": {
+                "fragments": [],
+                "text": "HAQ: Hardware-Aware Automated Quantization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper introduces the Hardware-Aware Automated Quantization (HAQ) framework, which leverages the reinforcement learning to automatically determine the quantization policy, and takes the hardware accelerator's feedback in the design loop to reduce the latency and energy consumption."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1891108"
+                        ],
+                        "name": "Liangzhen Lai",
+                        "slug": "Liangzhen-Lai",
+                        "structuredName": {
+                            "firstName": "Liangzhen",
+                            "lastName": "Lai",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Liangzhen Lai"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40622167"
+                        ],
+                        "name": "Naveen Suda",
+                        "slug": "Naveen-Suda",
+                        "structuredName": {
+                            "firstName": "Naveen",
+                            "lastName": "Suda",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Naveen Suda"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144137038"
+                        ],
+                        "name": "V. Chandra",
+                        "slug": "V.-Chandra",
+                        "structuredName": {
+                            "firstName": "Vikas",
+                            "lastName": "Chandra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Chandra"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 13,
+                                "start": 9
+                            }
+                        ],
+                        "text": "CMSIS-NN [26], which is the current state-of-the-art software stack for inference on ARM"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 15
+                            }
+                        ],
+                        "text": "In contrast to CMSIS-NN, CMix-NN targets asymmetric quantization for convolutional kernels."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 46
+                            }
+                        ],
+                        "text": "A mixed-precision QCL workload, like CMSIS-NN [26], splits the convolution between a im2col phase and a MatMul loop, which returns two features of two consecutive output pixels for any loop iteration."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 155,
+                                "start": 147
+                            }
+                        ],
+                        "text": "These scores surpass by 23% the score achieved by X-CUBE-AI in FP32, and by 8% the score obtainable by the 8-bit uniform quantization supported by CMSIS-NN or X-CUBE-AI."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 8,
+                                "start": 0
+                            }
+                        ],
+                        "text": "CMSIS-NN [26], which is the current state-of-the-art software stack for inference on ARM Cortex-M devices, operates convolution operators on 8, 16 bits data."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 92,
+                                "start": 84
+                            }
+                        ],
+                        "text": "Also, the 160_0.5 PC+ICN model features nearly the same latency as the 192_0.5 with CMSIS-NN and X-CUBE-AI, but we measure a +1.75% higher accuracy."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 159,
+                                "start": 151
+                            }
+                        ],
+                        "text": "CMix-NN enables the deployment of a much bigger models (224_\u03b1) compared to homogeneous state-of-the-art inference libraries (192_0.5 X-CUBE-AI, 192_0.5 CMSIS-NN) achieving up to up to 68% (PC+ICN), and 67% (PL+ICN) Top-1 accuracy on the Imagenet problem."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 691340,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ca24492a46856221086e77ffe29e8a69e1be0595",
+            "isKey": true,
+            "numCitedBy": 183,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep Neural Networks are becoming increasingly popular in always-on IoT edge devices performing data analytics right at the source, reducing latency as well as energy consumption for data communication. This paper presents CMSIS-NN, efficient kernels developed to maximize the performance and minimize the memory footprint of neural network (NN) applications on Arm Cortex-M processors targeted for intelligent IoT edge devices. Neural network inference based on CMSIS-NN kernels achieves 4.6X improvement in runtime/throughput and 4.9X improvement in energy efficiency."
+            },
+            "slug": "CMSIS-NN:-Efficient-Neural-Network-Kernels-for-Arm-Lai-Suda",
+            "title": {
+                "fragments": [],
+                "text": "CMSIS-NN: Efficient Neural Network Kernels for Arm Cortex-M CPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "CMSIS-NN, efficient kernels developed to maximize the performance and minimize the memory footprint of neural network (NN) applications on Arm Cortex-M processors targeted for intelligent IoT edge devices are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "11543879"
+                        ],
+                        "name": "Benoit Jacob",
+                        "slug": "Benoit-Jacob",
+                        "structuredName": {
+                            "firstName": "Benoit",
+                            "lastName": "Jacob",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benoit Jacob"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "68988581"
+                        ],
+                        "name": "S. Kligys",
+                        "slug": "S.-Kligys",
+                        "structuredName": {
+                            "firstName": "Skirmantas",
+                            "lastName": "Kligys",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Kligys"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [],
+                        "name": "Bo Chen",
+                        "slug": "Bo-Chen",
+                        "structuredName": {
+                            "firstName": "Bo",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bo Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2717876"
+                        ],
+                        "name": "Menglong Zhu",
+                        "slug": "Menglong-Zhu",
+                        "structuredName": {
+                            "firstName": "Menglong",
+                            "lastName": "Zhu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Menglong Zhu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2113728429"
+                        ],
+                        "name": "Matthew Tang",
+                        "slug": "Matthew-Tang",
+                        "structuredName": {
+                            "firstName": "Matthew",
+                            "lastName": "Tang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matthew Tang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144727050"
+                        ],
+                        "name": "Andrew G. Howard",
+                        "slug": "Andrew-G.-Howard",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Howard",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew G. Howard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2595180"
+                        ],
+                        "name": "Hartwig Adam",
+                        "slug": "Hartwig-Adam",
+                        "structuredName": {
+                            "firstName": "Hartwig",
+                            "lastName": "Adam",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hartwig Adam"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2741985"
+                        ],
+                        "name": "Dmitry Kalenichenko",
+                        "slug": "Dmitry-Kalenichenko",
+                        "structuredName": {
+                            "firstName": "Dmitry",
+                            "lastName": "Kalenichenko",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dmitry Kalenichenko"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 269,
+                                "start": 265
+                            }
+                        ],
+                        "text": "To turn a typical subgraph including a convolutional layer followed by a batch normalization layer (Figure 1a) into an integer-only representation, the parameters of batch normalization can be folded into the convolutional weights before the quantization step [8], [13]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 17,
+                                "start": 13
+                            }
+                        ],
+                        "text": "In contrast, [13] proposed a compact integer-only 8-bit quantization methodology, requiring less memory footprint than threshold-based approaches by performing the folding of batch normalization parameters into convolutional weights before applying Per-Layer quantiza-"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 57,
+                                "start": 53
+                            }
+                        ],
+                        "text": "numeric range [TL, TH] with a given number of bits Q [13], such as:"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 39867659,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "59d0d7ccec2db66cad20cac5721ce54a8a058294",
+            "isKey": false,
+            "numCitedBy": 1284,
+            "numCiting": 37,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The rising popularity of intelligent mobile devices and the daunting computational cost of deep learning-based models call for efficient and accurate on-device inference schemes. We propose a quantization scheme that allows inference to be carried out using integer-only arithmetic, which can be implemented more efficiently than floating point inference on commonly available integer-only hardware. We also co-design a training procedure to preserve end-to-end model accuracy post quantization. As a result, the proposed quantization scheme improves the tradeoff between accuracy and on-device latency. The improvements are significant even on MobileNets, a model family known for run-time efficiency, and are demonstrated in ImageNet classification and COCO detection on popular CPUs."
+            },
+            "slug": "Quantization-and-Training-of-Neural-Networks-for-Jacob-Kligys",
+            "title": {
+                "fragments": [],
+                "text": "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A quantization scheme is proposed that allows inference to be carried out using integer- only arithmetic, which can be implemented more efficiently than floating point inference on commonly available integer-only hardware."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2506452"
+                        ],
+                        "name": "Jungwook Choi",
+                        "slug": "Jungwook-Choi",
+                        "structuredName": {
+                            "firstName": "Jungwook",
+                            "lastName": "Choi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jungwook Choi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108370425"
+                        ],
+                        "name": "Zhuo Wang",
+                        "slug": "Zhuo-Wang",
+                        "structuredName": {
+                            "firstName": "Zhuo",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhuo Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1778215"
+                        ],
+                        "name": "Swagath Venkataramani",
+                        "slug": "Swagath-Venkataramani",
+                        "structuredName": {
+                            "firstName": "Swagath",
+                            "lastName": "Venkataramani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Swagath Venkataramani"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40060585"
+                        ],
+                        "name": "P. Chuang",
+                        "slug": "P.-Chuang",
+                        "structuredName": {
+                            "firstName": "Pierce",
+                            "lastName": "Chuang",
+                            "middleNames": [
+                                "I-Jen"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Chuang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145941003"
+                        ],
+                        "name": "V. Srinivasan",
+                        "slug": "V.-Srinivasan",
+                        "structuredName": {
+                            "firstName": "Vijayalakshmi",
+                            "lastName": "Srinivasan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Srinivasan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33678523"
+                        ],
+                        "name": "K. Gopalakrishnan",
+                        "slug": "K.-Gopalakrishnan",
+                        "structuredName": {
+                            "firstName": "K.",
+                            "lastName": "Gopalakrishnan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Gopalakrishnan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 42
+                            }
+                        ],
+                        "text": "dation, even without a retraining process [3], [4]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 21721698,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "49e60f82d6ae835c56473464f67ca5c11d3e95ec",
+            "isKey": false,
+            "numCitedBy": 435,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep learning algorithms achieve high classification accuracy at the expense of significant computation cost. To address this cost, a number of quantization schemeshave been proposed - but most of these techniques focused on quantizing weights, which are relatively smaller in size compared to activations. This paper proposes a novel quantization scheme for activations during training - that enables neural networks to work well with ultra low precision weights and activations without any significant accuracy degradation. This technique, PArameterized Clipping acTi-vation (PACT), uses an activation clipping parameter \u03b1 that is optimized duringtraining to find the right quantization scale. PACT allows quantizing activations toarbitrary bit precisions, while achieving much better accuracy relative to publishedstate-of-the-art quantization schemes. We show, for the first time, that both weights and activations can be quantized to 4-bits of precision while still achieving accuracy comparable to full precision networks across a range of popular models and datasets. We also show that exploiting these reduced-precision computational units in hardware can enable a super-linear improvement in inferencing performance dueto a significant reduction in the area of accelerator compute engines coupled with the ability to retain the quantized model and activation data in on-chip memories."
+            },
+            "slug": "PACT:-Parameterized-Clipping-Activation-for-Neural-Choi-Wang",
+            "title": {
+                "fragments": [],
+                "text": "PACT: Parameterized Clipping Activation for Quantized Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "It is shown, for the first time, that both weights and activations can be quantized to 4-bits of precision while still achieving accuracy comparable to full precision networks across a range of popular models and datasets."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "6647160"
+                        ],
+                        "name": "Vinayak Gokhale",
+                        "slug": "Vinayak-Gokhale",
+                        "structuredName": {
+                            "firstName": "Vinayak",
+                            "lastName": "Gokhale",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vinayak Gokhale"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "21521828"
+                        ],
+                        "name": "Aliasger Zaidy",
+                        "slug": "Aliasger-Zaidy",
+                        "structuredName": {
+                            "firstName": "Aliasger",
+                            "lastName": "Zaidy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aliasger Zaidy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2164516"
+                        ],
+                        "name": "Andre Xian Ming Chang",
+                        "slug": "Andre-Xian-Ming-Chang",
+                        "structuredName": {
+                            "firstName": "Andre",
+                            "lastName": "Chang",
+                            "middleNames": [
+                                "Xian",
+                                "Ming"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andre Xian Ming Chang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2889774"
+                        ],
+                        "name": "E. Culurciello",
+                        "slug": "E.-Culurciello",
+                        "structuredName": {
+                            "firstName": "Eugenio",
+                            "lastName": "Culurciello",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Culurciello"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 20249920,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2b2c528db9e08f9ac8bc67f63f9b320f31c0a64a",
+            "isKey": false,
+            "numCitedBy": 65,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep learning is becoming increasingly popular for a wide variety of applications including object detection, classification, semantic segmentation and natural language processing. Convolutional neural networks (CNNs) are a type of deep neural network that achieve high accuracy for these tasks. CNNs are hierarchical mathematical models comprising billions of operations to produce an output. The high computational complexity combined with the inherent parallelism in these models makes them an excellent target for custom accelerators. In this work we present Snowflake, a scalable, efficient low-power accelerator that is agnostic to CNN architectures. Our design is able to achieve an average computational efficiency of 91% which is significantly higher than comparable architectures. We implemented Snowflake on a Xilinx Zynq XC7Z045 APSoC. On this platform, Snowflake is capable of achieving 128 G-ops/s while consuming 9.48 W of power. Snowflake achieves a throughput and energy efficiency of 98 frames per second and 10.3 frames per joule, respectively, on AlexNet and 34 frames per second and 3.6 frames per joule on GoogLeNet."
+            },
+            "slug": "Snowflake:-An-efficient-hardware-accelerator-for-Gokhale-Zaidy",
+            "title": {
+                "fragments": [],
+                "text": "Snowflake: An efficient hardware accelerator for convolutional neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Snowflake is presented, a scalable, efficient low-power accelerator that is agnostic to CNN architectures that is able to achieve an average computational efficiency of 91% which is significantly higher than comparable architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2017 IEEE International Symposium on Circuits and Systems (ISCAS)"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2357931"
+                        ],
+                        "name": "Steven K. Esser",
+                        "slug": "Steven-K.-Esser",
+                        "structuredName": {
+                            "firstName": "Steven",
+                            "lastName": "Esser",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steven K. Esser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46571359"
+                        ],
+                        "name": "J. McKinstry",
+                        "slug": "J.-McKinstry",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "McKinstry",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. McKinstry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064431971"
+                        ],
+                        "name": "D. Bablani",
+                        "slug": "D.-Bablani",
+                        "structuredName": {
+                            "firstName": "Deepika",
+                            "lastName": "Bablani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Bablani"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2730753"
+                        ],
+                        "name": "R. Appuswamy",
+                        "slug": "R.-Appuswamy",
+                        "structuredName": {
+                            "firstName": "Rathinakumar",
+                            "lastName": "Appuswamy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Appuswamy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1944330"
+                        ],
+                        "name": "D. Modha",
+                        "slug": "D.-Modha",
+                        "structuredName": {
+                            "firstName": "Dharmendra",
+                            "lastName": "Modha",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Modha"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 67788003,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "dc160709bbe528b506a37ead334f60d258413357",
+            "isKey": false,
+            "numCitedBy": 203,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep networks run with low precision operations at inference time offer power and space advantages over high precision alternatives, but need to overcome the challenge of maintaining high accuracy as precision decreases. Here, we present a method for training such networks, Learned Step Size Quantization, that achieves the highest accuracy to date on the ImageNet dataset when using models, from a variety of architectures, with weights and activations quantized to 2-, 3- or 4-bits of precision, and that can train 3-bit models that reach full precision baseline accuracy. Our approach builds upon existing methods for learning weights in quantized networks by improving how the quantizer itself is configured. Specifically, we introduce a novel means to estimate and scale the task loss gradient at each weight and activation layer's quantizer step size, such that it can be learned in conjunction with other network parameters. This approach works using different levels of precision as needed for a given system and requires only a simple modification of existing training code."
+            },
+            "slug": "Learned-Step-Size-Quantization-Esser-McKinstry",
+            "title": {
+                "fragments": [],
+                "text": "Learned Step Size Quantization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work introduces a novel means to estimate and scale the task loss gradient at each weight and activation layer's quantizer step size, such that it can be learned in conjunction with other network parameters."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2020
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2075397638"
+                        ],
+                        "name": "Lin Bai",
+                        "slug": "Lin-Bai",
+                        "structuredName": {
+                            "firstName": "Lin",
+                            "lastName": "Bai",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lin Bai"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145199456"
+                        ],
+                        "name": "Yiming Zhao",
+                        "slug": "Yiming-Zhao",
+                        "structuredName": {
+                            "firstName": "Yiming",
+                            "lastName": "Zhao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yiming Zhao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "71269276"
+                        ],
+                        "name": "Xinming Huang",
+                        "slug": "Xinming-Huang",
+                        "structuredName": {
+                            "firstName": "Xinming",
+                            "lastName": "Huang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xinming Huang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 52164186,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cbfda12bf40f08f61ac03b3e756bf00bd5765a26",
+            "isKey": false,
+            "numCitedBy": 73,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Convolutional neural networks (CNNs) have been widely deployed in the fields of computer vision and pattern recognition because of their high accuracy. However, large convolution operations are computing intensive and often require a powerful computing platform such as a graphics processing unit. This makes it difficult to apply CNNs to portable devices. The state-of-the-art CNNs, such as MobileNetV2 and Xception, adopt depthwise separable convolution to replace the standard convolution for embedded platforms, which significantly reduces operations and parameters with only limited loss in accuracy. This highly structured model is very suitable for field-programmable gate array (FPGA) implementation. In this brief, a scalable high performance depthwise separable convolution optimized CNN accelerator is proposed. The accelerator can be fit into an FPGA of different sizes, provided the balancing between hardware resources and processing speed. As an example, MobileNetV2 is implemented on Arria 10 SoC FPGA, and the results show this accelerator can classify each picture from ImageNet in 3.75 ms, which is about 266.6 frames per second. The FPGA design achieves 20x speedup if compared to CPU."
+            },
+            "slug": "A-CNN-Accelerator-on-FPGA-Using-Depthwise-Separable-Bai-Zhao",
+            "title": {
+                "fragments": [],
+                "text": "A CNN Accelerator on FPGA Using Depthwise Separable Convolution"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A scalable high performance depthwise separable convolution optimized CNN accelerator that can be fit into an FPGA of different sizes and achieves 20x speedup if compared to CPU."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Transactions on Circuits and Systems II: Express Briefs"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1791399"
+                        ],
+                        "name": "Michaela Blott",
+                        "slug": "Michaela-Blott",
+                        "structuredName": {
+                            "firstName": "Michaela",
+                            "lastName": "Blott",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michaela Blott"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2125768"
+                        ],
+                        "name": "Thomas B. Preu\u00dfer",
+                        "slug": "Thomas-B.-Preu\u00dfer",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Preu\u00dfer",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Thomas B. Preu\u00dfer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1809409"
+                        ],
+                        "name": "Nicholas J. Fraser",
+                        "slug": "Nicholas-J.-Fraser",
+                        "structuredName": {
+                            "firstName": "Nicholas",
+                            "lastName": "Fraser",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicholas J. Fraser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1779727"
+                        ],
+                        "name": "G. Gambardella",
+                        "slug": "G.-Gambardella",
+                        "structuredName": {
+                            "firstName": "Giulio",
+                            "lastName": "Gambardella",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Gambardella"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1409617957"
+                        ],
+                        "name": "Kenneth O'Brien",
+                        "slug": "Kenneth-O'Brien",
+                        "structuredName": {
+                            "firstName": "Kenneth",
+                            "lastName": "O'Brien",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kenneth O'Brien"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2067445"
+                        ],
+                        "name": "Yaman Umuroglu",
+                        "slug": "Yaman-Umuroglu",
+                        "structuredName": {
+                            "firstName": "Yaman",
+                            "lastName": "Umuroglu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yaman Umuroglu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1710866"
+                        ],
+                        "name": "M. Leeser",
+                        "slug": "M.-Leeser",
+                        "structuredName": {
+                            "firstName": "Miriam",
+                            "lastName": "Leeser",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Leeser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145732571"
+                        ],
+                        "name": "K. Vissers",
+                        "slug": "K.-Vissers",
+                        "structuredName": {
+                            "firstName": "Kees",
+                            "lastName": "Vissers",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Vissers"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 52196502,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "18495282a9a69efb08c13007288c932cb19a7172",
+            "isKey": false,
+            "numCitedBy": 66,
+            "numCiting": 109,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Convolutional Neural Networks have rapidly become the most successful machine-learning algorithm, enabling ubiquitous machine vision and intelligent decisions on even embedded computing systems. While the underlying arithmetic is structurally simple, compute and memory requirements are challenging. One of the promising opportunities is leveraging reduced-precision representations for inputs, activations, and model parameters. The resulting scalability in performance, power efficiency, and storage footprint provides interesting design compromises in exchange for a small reduction in accuracy. FPGAs are ideal for exploiting low-precision inference engines leveraging custom precisions to achieve the required numerical accuracy for a given application. In this article, we describe the second generation of the FINN framework, an end-to-end tool that enables design-space exploration and automates the creation of fully customized inference engines on FPGAs. Given a neural network description, the tool optimizes for given platforms, design targets, and a specific precision. We introduce formalizations of resource cost functions and performance predictions and elaborate on the optimization algorithms. Finally, we evaluate a selection of reduced precision neural networks ranging from CIFAR-10 classifiers to YOLO-based object detection on a range of platforms including PYNQ and AWS F1, demonstrating new unprecedented measured throughput at 50 TOp/s on AWS F1 and 5 TOp/s on embedded devices."
+            },
+            "slug": "FINN-R-Blott-Preu\u00dfer",
+            "title": {
+                "fragments": [],
+                "text": "FINN-R"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The second generation of the FINN framework is described, an end-to-end tool that enables design-space exploration and automates the creation of fully customized inference engines on FPGAs that optimizes for given platforms, design targets, and a specific precision."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Reconfigurable Technol. Syst."
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2841893"
+                        ],
+                        "name": "Aakanksha Chowdhery",
+                        "slug": "Aakanksha-Chowdhery",
+                        "structuredName": {
+                            "firstName": "Aakanksha",
+                            "lastName": "Chowdhery",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aakanksha Chowdhery"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47941411"
+                        ],
+                        "name": "P. Warden",
+                        "slug": "P.-Warden",
+                        "structuredName": {
+                            "firstName": "Pete",
+                            "lastName": "Warden",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Warden"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1789737"
+                        ],
+                        "name": "Jonathon Shlens",
+                        "slug": "Jonathon-Shlens",
+                        "structuredName": {
+                            "firstName": "Jonathon",
+                            "lastName": "Shlens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathon Shlens"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144727050"
+                        ],
+                        "name": "Andrew G. Howard",
+                        "slug": "Andrew-G.-Howard",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Howard",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew G. Howard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "147961415"
+                        ],
+                        "name": "Rocky Rhodes",
+                        "slug": "Rocky-Rhodes",
+                        "structuredName": {
+                            "firstName": "Rocky",
+                            "lastName": "Rhodes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rocky Rhodes"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 199,
+                                "start": 195
+                            }
+                        ],
+                        "text": "Unfortunately, the usage of the library has been demonstrated only for tiny models, limited to less than ten classes classification, hence not requiring aggressive quantization fine-tuning [27], [28]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 189762389,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "98658bf480db76a44c50a027379a6f526cf728e8",
+            "isKey": false,
+            "numCitedBy": 47,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The emergence of Internet of Things (IoT) applications requires intelligence on the edge. Microcontrollers provide a low-cost compute platform to deploy intelligent IoT applications using machine learning at scale, but have extremely limited on-chip memory and compute capability. To deploy computer vision on such devices, we need tiny vision models that fit within a few hundred kilobytes of memory footprint in terms of peak usage and model size on device storage. To facilitate the development of microcontroller friendly models, we present a new dataset, Visual Wake Words, that represents a common microcontroller vision use-case of identifying whether a person is present in the image or not, and provides a realistic benchmark for tiny vision models. Within a limited memory footprint of 250 KB, several state-of-the-art mobile models achieve accuracy of 85-90% on the Visual Wake Words dataset. We anticipate the proposed dataset will advance the research on tiny vision models that can push the pareto-optimal boundary in terms of accuracy versus memory usage for microcontroller applications."
+            },
+            "slug": "Visual-Wake-Words-Dataset-Chowdhery-Warden",
+            "title": {
+                "fragments": [],
+                "text": "Visual Wake Words Dataset"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A new dataset, Visual Wake Words, is presented that represents a common microcontroller vision use-case of identifying whether a person is present in the image or not, and provides a realistic benchmark for tiny vision models."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49890233"
+                        ],
+                        "name": "Yundong Zhang",
+                        "slug": "Yundong-Zhang",
+                        "structuredName": {
+                            "firstName": "Yundong",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yundong Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40622167"
+                        ],
+                        "name": "Naveen Suda",
+                        "slug": "Naveen-Suda",
+                        "structuredName": {
+                            "firstName": "Naveen",
+                            "lastName": "Suda",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Naveen Suda"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1891108"
+                        ],
+                        "name": "Liangzhen Lai",
+                        "slug": "Liangzhen-Lai",
+                        "structuredName": {
+                            "firstName": "Liangzhen",
+                            "lastName": "Lai",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Liangzhen Lai"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144137038"
+                        ],
+                        "name": "V. Chandra",
+                        "slug": "V.-Chandra",
+                        "structuredName": {
+                            "firstName": "Vikas",
+                            "lastName": "Chandra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Chandra"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 193,
+                                "start": 189
+                            }
+                        ],
+                        "text": "Unfortunately, the usage of the library has been demonstrated only for tiny models, limited to less than ten classes classification, hence not requiring aggressive quantization fine-tuning [27], [28]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 1125974,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a3d4dbd03355d6b4972d7cb9257ccccdd6d33923",
+            "isKey": false,
+            "numCitedBy": 227,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Keyword spotting (KWS) is a critical component for enabling speech based user interactions on smart devices. It requires real-time response and high accuracy for good user experience. Recently, neural networks have become an attractive choice for KWS architecture because of their superior accuracy compared to traditional speech processing algorithms. Due to its always-on nature, KWS application has highly constrained power budget and typically runs on tiny microcontrollers with limited memory and compute capability. The design of neural network architecture for KWS must consider these constraints. In this work, we perform neural network architecture evaluation and exploration for running KWS on resource-constrained microcontrollers. We train various neural network architectures for keyword spotting published in literature to compare their accuracy and memory/compute requirements. We show that it is possible to optimize these neural network architectures to fit within the memory and compute constraints of microcontrollers without sacrificing accuracy. We further explore the depthwise separable convolutional neural network (DS-CNN) and compare it against other neural network architectures. DS-CNN achieves an accuracy of 95.4%, which is ~10% higher than the DNN model with similar number of parameters."
+            },
+            "slug": "Hello-Edge:-Keyword-Spotting-on-Microcontrollers-Zhang-Suda",
+            "title": {
+                "fragments": [],
+                "text": "Hello Edge: Keyword Spotting on Microcontrollers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is shown that it is possible to optimize these neural network architectures to fit within the memory and compute constraints of microcontrollers without sacrificing accuracy, and the depthwise separable convolutional neural network (DS-CNN) is explored and compared against other neural network architecture."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46271064"
+                        ],
+                        "name": "Z. G. Liu",
+                        "slug": "Z.-G.-Liu",
+                        "structuredName": {
+                            "firstName": "Z.",
+                            "lastName": "Liu",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Z. G. Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39045061"
+                        ],
+                        "name": "Matthew Mattina",
+                        "slug": "Matthew-Mattina",
+                        "structuredName": {
+                            "firstName": "Matthew",
+                            "lastName": "Mattina",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matthew Mattina"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 66,
+                                "start": 63
+                            }
+                        ],
+                        "text": ", less than 8 bits, quantization based on retraining flows [5]\u2013[9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 67855262,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b7aab2fc151b114290b8447f945c36cf3f4b1ef6",
+            "isKey": false,
+            "numCitedBy": 18,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The Straight-Through Estimator (STE) is widely used for back-propagating gradients through the quantization function, but the STE technique lacks a complete theoretical understanding. We propose an alternative methodology called alpha-blending (AB), which quantizes neural networks to low precision using stochastic gradient descent (SGD). Our AB method avoids STE approximation by replacing the quantized weight in the loss function by an affine combination of the quantized weight w_q and the corresponding full-precision weight w with non-trainable scalar coefficient alpha and (1- alpha). During training, alpha is gradually increased from 0 to 1; the gradient updates to the weights are through the full precision term, (1-alpha) * w, of the affine combination; the model is converted from full-precision to low precision progressively. To evaluate the AB method, a 1-bit BinaryNet on CIFAR10 dataset and 8-bits, 4-bits MobileNet v1, ResNet_50 v1/2 on ImageNet are trained using the alpha-blending approach, and the evaluation indicates that AB improves top-1 accuracy by 0.9\\%, 0.82\\% and 2.93\\% respectively compared to the results of STE based quantization."
+            },
+            "slug": "Learning-low-precision-neural-networks-without-Liu-Mattina",
+            "title": {
+                "fragments": [],
+                "text": "Learning low-precision neural networks without Straight-Through Estimator(STE)"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work proposes an alternative methodology called alpha-blending (AB), which quantizes neural networks to low-precision using stochastic gradient descent (SGD) and improves top-1 accuracy by 0.9%, 0.82% and 2.93% respectively compared to the results of STE based quantization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IJCAI"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2067767"
+                        ],
+                        "name": "A. Canziani",
+                        "slug": "A.-Canziani",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Canziani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Canziani"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2889774"
+                        ],
+                        "name": "E. Culurciello",
+                        "slug": "E.-Culurciello",
+                        "structuredName": {
+                            "firstName": "Eugenio",
+                            "lastName": "Culurciello",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Culurciello"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3407277"
+                        ],
+                        "name": "Adam Paszke",
+                        "slug": "Adam-Paszke",
+                        "structuredName": {
+                            "firstName": "Adam",
+                            "lastName": "Paszke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Adam Paszke"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 98,
+                                "start": 95
+                            }
+                        ],
+                        "text": "Hence, the deployment of high computational and memory requirements of deep learning workloads [2] on edge devices results exceptionally challenging."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 187,
+                                "start": 184
+                            }
+                        ],
+                        "text": "Concerning the deployment of deep inference networks, several works introduced frameworks, software stacks, and hardware solutions optimized in terms of latency and energy consumption [2], [15]\u2013[19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6448493,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "690ebe31326fec38da40e838509bd9a3482f6c11",
+            "isKey": false,
+            "numCitedBy": 26,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Since the emergence of Deep Neural Networks (DNNs) as a prominent technique in the field of computer vision, the ImageNet classification challenge has played a major role in advancing the state-of-the-art. While accuracy figures have steadily increased, the resource utilization of winning models has not been properly taken into account. In this work, we present a comprehensive analysis of important metrics in practical applications: accuracy, memory footprint, parameters, operations count, inference time and power consumption. Key findings are: (1) power consumption is independent of batch size and architecture; (2) accuracy and inference time are in a hyperbolic relationship; (3) energy constraint is an upper bound on the maximum achievable accuracy and model complexity; (4) the number of operations is a reliable estimate of the inference time. We believe our analysis provides a compelling set of information that helps design and engineer efficient DNNs."
+            },
+            "slug": "Evaluation-of-neural-network-architectures-for-Canziani-Culurciello",
+            "title": {
+                "fragments": [],
+                "text": "Evaluation of neural network architectures for embedded systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work presents a comprehensive analysis of important metrics in practical applications: accuracy, memory footprint, parameters, operations count, inference time and power consumption, and believes it provides a compelling set of information that helps design and engineer efficient DNNs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2017 IEEE International Symposium on Circuits and Systems (ISCAS)"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "41229153"
+                        ],
+                        "name": "Markus Nagel",
+                        "slug": "Markus-Nagel",
+                        "structuredName": {
+                            "firstName": "Markus",
+                            "lastName": "Nagel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Markus Nagel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "147409784"
+                        ],
+                        "name": "Mart van Baalen",
+                        "slug": "Mart-van-Baalen",
+                        "structuredName": {
+                            "firstName": "Mart",
+                            "lastName": "Baalen",
+                            "middleNames": [
+                                "van"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mart van Baalen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "83133279"
+                        ],
+                        "name": "Tijmen Blankevoort",
+                        "slug": "Tijmen-Blankevoort",
+                        "structuredName": {
+                            "firstName": "Tijmen",
+                            "lastName": "Blankevoort",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tijmen Blankevoort"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1678311"
+                        ],
+                        "name": "M. Welling",
+                        "slug": "M.-Welling",
+                        "structuredName": {
+                            "firstName": "Max",
+                            "lastName": "Welling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Welling"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 47
+                            }
+                        ],
+                        "text": "dation, even without a retraining process [3], [4]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 184487878,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d77123b54dcc8014949584ab624e97298617bcad",
+            "isKey": false,
+            "numCitedBy": 192,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We introduce a data-free quantization method for deep neural networks that does not require fine-tuning or hyperparameter selection. It achieves near-original model performance on common computer vision architectures and tasks. 8-bit fixed-point quantization is essential for efficient inference on modern deep learning hardware. However, quantizing models to run in 8-bit is a non-trivial task, frequently leading to either significant performance reduction or engineering time spent on training a network to be amenable to quantization. Our approach relies on equalizing the weight ranges in the network by making use of a scale-equivariance property of activation functions. In addition the method corrects biases in the error that are introduced during quantization. This improves quantization accuracy performance, and can be applied to many common computer vision architectures with a straight forward API call. For common architectures, such as the MobileNet family, we achieve state-of-the-art quantized model performance. We further show that the method also extends to other computer vision architectures and tasks such as semantic segmentation and object detection."
+            },
+            "slug": "Data-Free-Quantization-Through-Weight-Equalization-Nagel-Baalen",
+            "title": {
+                "fragments": [],
+                "text": "Data-Free Quantization Through Weight Equalization and Bias Correction"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 95,
+                "text": "This work introduces a data-free quantization method for deep neural networks that does not require fine-tuning or hyperparameter selection, and achieves near-original model performance on common computer vision architectures and tasks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2797270"
+                        ],
+                        "name": "Carole-Jean Wu",
+                        "slug": "Carole-Jean-Wu",
+                        "structuredName": {
+                            "firstName": "Carole-Jean",
+                            "lastName": "Wu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Carole-Jean Wu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1896817"
+                        ],
+                        "name": "D. Brooks",
+                        "slug": "D.-Brooks",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Brooks",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Brooks"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2152955923"
+                        ],
+                        "name": "Kevin Chen",
+                        "slug": "Kevin-Chen",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2158194412"
+                        ],
+                        "name": "Douglas Chen",
+                        "slug": "Douglas-Chen",
+                        "structuredName": {
+                            "firstName": "Douglas",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Douglas Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "89754631"
+                        ],
+                        "name": "Sy Choudhury",
+                        "slug": "Sy-Choudhury",
+                        "structuredName": {
+                            "firstName": "Sy",
+                            "lastName": "Choudhury",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sy Choudhury"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3193064"
+                        ],
+                        "name": "Marat Dukhan",
+                        "slug": "Marat-Dukhan",
+                        "structuredName": {
+                            "firstName": "Marat",
+                            "lastName": "Dukhan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marat Dukhan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1775500"
+                        ],
+                        "name": "Kim M. Hazelwood",
+                        "slug": "Kim-M.-Hazelwood",
+                        "structuredName": {
+                            "firstName": "Kim",
+                            "lastName": "Hazelwood",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kim M. Hazelwood"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "89274305"
+                        ],
+                        "name": "Eldad Isaac",
+                        "slug": "Eldad-Isaac",
+                        "structuredName": {
+                            "firstName": "Eldad",
+                            "lastName": "Isaac",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eldad Isaac"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39978391"
+                        ],
+                        "name": "Yangqing Jia",
+                        "slug": "Yangqing-Jia",
+                        "structuredName": {
+                            "firstName": "Yangqing",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yangqing Jia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33920592"
+                        ],
+                        "name": "Bill Jia",
+                        "slug": "Bill-Jia",
+                        "structuredName": {
+                            "firstName": "Bill",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bill Jia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3316156"
+                        ],
+                        "name": "Tommer Leyvand",
+                        "slug": "Tommer-Leyvand",
+                        "structuredName": {
+                            "firstName": "Tommer",
+                            "lastName": "Leyvand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tommer Leyvand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2115608531"
+                        ],
+                        "name": "Hao Lu",
+                        "slug": "Hao-Lu",
+                        "structuredName": {
+                            "firstName": "Hao",
+                            "lastName": "Lu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hao Lu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2146557923"
+                        ],
+                        "name": "Yang Lu",
+                        "slug": "Yang-Lu",
+                        "structuredName": {
+                            "firstName": "Yang",
+                            "lastName": "Lu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yang Lu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2065508882"
+                        ],
+                        "name": "Lin Qiao",
+                        "slug": "Lin-Qiao",
+                        "structuredName": {
+                            "firstName": "Lin",
+                            "lastName": "Qiao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lin Qiao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2732658"
+                        ],
+                        "name": "Brandon Reagen",
+                        "slug": "Brandon-Reagen",
+                        "structuredName": {
+                            "firstName": "Brandon",
+                            "lastName": "Reagen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Brandon Reagen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "90591458"
+                        ],
+                        "name": "Joe Spisak",
+                        "slug": "Joe-Spisak",
+                        "structuredName": {
+                            "firstName": "Joe",
+                            "lastName": "Spisak",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Joe Spisak"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2075373634"
+                        ],
+                        "name": "Fei Sun",
+                        "slug": "Fei-Sun",
+                        "structuredName": {
+                            "firstName": "Fei",
+                            "lastName": "Sun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fei Sun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3609856"
+                        ],
+                        "name": "Andrew Tulloch",
+                        "slug": "Andrew-Tulloch",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Tulloch",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Tulloch"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48682997"
+                        ],
+                        "name": "P\u00e9ter Vajda",
+                        "slug": "P\u00e9ter-Vajda",
+                        "structuredName": {
+                            "firstName": "P\u00e9ter",
+                            "lastName": "Vajda",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P\u00e9ter Vajda"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108429236"
+                        ],
+                        "name": "Xiaodong Wang",
+                        "slug": "Xiaodong-Wang",
+                        "structuredName": {
+                            "firstName": "Xiaodong",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiaodong Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2146020227"
+                        ],
+                        "name": "Yanghan Wang",
+                        "slug": "Yanghan-Wang",
+                        "structuredName": {
+                            "firstName": "Yanghan",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yanghan Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46240090"
+                        ],
+                        "name": "Bram Wasti",
+                        "slug": "Bram-Wasti",
+                        "structuredName": {
+                            "firstName": "Bram",
+                            "lastName": "Wasti",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bram Wasti"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2115877352"
+                        ],
+                        "name": "Yiming Wu",
+                        "slug": "Yiming-Wu",
+                        "structuredName": {
+                            "firstName": "Yiming",
+                            "lastName": "Wu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yiming Wu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066571092"
+                        ],
+                        "name": "Ran Xian",
+                        "slug": "Ran-Xian",
+                        "structuredName": {
+                            "firstName": "Ran",
+                            "lastName": "Xian",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ran Xian"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1808405"
+                        ],
+                        "name": "S. Yoo",
+                        "slug": "S.-Yoo",
+                        "structuredName": {
+                            "firstName": "Sungjoo",
+                            "lastName": "Yoo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Yoo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2918780"
+                        ],
+                        "name": "Peizhao Zhang",
+                        "slug": "Peizhao-Zhang",
+                        "structuredName": {
+                            "firstName": "Peizhao",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Peizhao Zhang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 139,
+                                "start": 136
+                            }
+                        ],
+                        "text": "RUNNING inference tasks at the edge of the sensing infrastructure minimizes the user\u2019s network bandwidth and improves the response time [1]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 89617717,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "67df7bf02fe2d618c7c18448c2668a526dc4d423",
+            "isKey": false,
+            "numCitedBy": 242,
+            "numCiting": 76,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "At Facebook, machine learning provides a wide range of capabilities that drive many aspects of user experience including ranking posts, content understanding, object detection and tracking for augmented and virtual reality, speech and text translations. While machine learning models are currently trained on customized datacenter infrastructure, Facebook is working to bring machine learning inference to the edge. By doing so, user experience is improved with reduced latency (inference time) and becomes less dependent on network connectivity. Furthermore, this also enables many more applications of deep learning with important features only made available at the edge. This paper takes a datadriven approach to present the opportunities and design challenges faced by Facebook in order to enable machine learning inference locally on smartphones and other edge platforms."
+            },
+            "slug": "Machine-Learning-at-Facebook:-Understanding-at-the-Wu-Brooks",
+            "title": {
+                "fragments": [],
+                "text": "Machine Learning at Facebook: Understanding Inference at the Edge"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This paper takes a datadriven approach to present the opportunities and design challenges faced by Facebook in order to enable machine learning inference locally on smartphones and other edge platforms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2019 IEEE International Symposium on High Performance Computer Architecture (HPCA)"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2645384"
+                        ],
+                        "name": "K. Kavukcuoglu",
+                        "slug": "K.-Kavukcuoglu",
+                        "structuredName": {
+                            "firstName": "Koray",
+                            "lastName": "Kavukcuoglu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kavukcuoglu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2256269"
+                        ],
+                        "name": "C. Farabet",
+                        "slug": "C.-Farabet",
+                        "structuredName": {
+                            "firstName": "Cl\u00e9ment",
+                            "lastName": "Farabet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Farabet"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 193,
+                                "start": 189
+                            }
+                        ],
+                        "text": "Concerning the deployment of deep inference networks, several works introduced frameworks, software stacks, and hardware solutions optimized in terms of latency and energy consumption [2], [15]\u2013[19]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7625356,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c43025c429b1fbf6f1379f61801a1b40834d62e7",
+            "isKey": false,
+            "numCitedBy": 1590,
+            "numCiting": 54,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Intelligent tasks, such as visual perception, auditory perception, and language understanding require the construction of good internal representations of the world (or \"features\")? which must be invariant to irrelevant variations of the input while, preserving relevant information. A major question for Machine Learning is how to learn such good features automatically. Convolutional Networks (ConvNets) are a biologically-inspired trainable architecture that can learn invariant features. Each stage in a ConvNets is composed of a filter bank, some nonlinearities, and feature pooling layers. With multiple stages, a ConvNet can learn multi-level hierarchies of features. While ConvNets have been successfully deployed in many commercial applications from OCR to video surveillance, they require large amounts of labeled training samples. We describe new unsupervised learning algorithms, and new non-linear stages that allow ConvNets to be trained with very few labeled samples. Applications to visual object recognition and vision navigation for off-road mobile robots are described."
+            },
+            "slug": "Convolutional-networks-and-applications-in-vision-LeCun-Kavukcuoglu",
+            "title": {
+                "fragments": [],
+                "text": "Convolutional networks and applications in vision"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "New unsupervised learning algorithms, and new non-linear stages that allow ConvNets to be trained with very few labeled samples are described, including one for visual object recognition and vision navigation for off-road mobile robots."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of 2010 IEEE International Symposium on Circuits and Systems"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "6466048"
+                        ],
+                        "name": "Endong Wang",
+                        "slug": "Endong-Wang",
+                        "structuredName": {
+                            "firstName": "Endong",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Endong Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143904664"
+                        ],
+                        "name": "Qing Zhang",
+                        "slug": "Qing-Zhang",
+                        "structuredName": {
+                            "firstName": "Qing",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qing Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2057609515"
+                        ],
+                        "name": "Shen Bo",
+                        "slug": "Shen-Bo",
+                        "structuredName": {
+                            "firstName": "Shen",
+                            "lastName": "Bo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shen Bo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46266136"
+                        ],
+                        "name": "Guangyong Zhang",
+                        "slug": "Guangyong-Zhang",
+                        "structuredName": {
+                            "firstName": "Guangyong",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Guangyong Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47062728"
+                        ],
+                        "name": "X. Lu",
+                        "slug": "X.-Lu",
+                        "structuredName": {
+                            "firstName": "Xiaowei",
+                            "lastName": "Lu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Lu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50528396"
+                        ],
+                        "name": "Qing Wu",
+                        "slug": "Qing-Wu",
+                        "structuredName": {
+                            "firstName": "Qing",
+                            "lastName": "Wu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qing Wu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50852421"
+                        ],
+                        "name": "Yajuan Wang",
+                        "slug": "Yajuan-Wang",
+                        "structuredName": {
+                            "firstName": "Yajuan",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yajuan Wang"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 118195276,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "83cee2606be3ceda59ef28fe1a9f179cd4e1144d",
+            "isKey": false,
+            "numCitedBy": 414,
+            "numCiting": 37,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In order to achieve optimal performance on multi-core and multi-processor systems, we need to fully use the features of parallelism and manage the memory hierarchical characters efficiently. The performance of sequential codes relies on the instruction-level and register-level SIMD parallelism, and also on high-speed cache-blocking functions. Threading applications need advanced planning to achieve satisfactory load balancing."
+            },
+            "slug": "Intel-Math-Kernel-Library-Wang-Zhang",
+            "title": {
+                "fragments": [],
+                "text": "Intel Math Kernel Library"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 90,
+                "text": "In order to achieve optimal performance on multi-core and multi-processor systems, the features of parallelism and manage the memory hierarchical characters efficiently need to be used."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116997936"
+                        ],
+                        "name": "Sambhav R. Jain",
+                        "slug": "Sambhav-R.-Jain",
+                        "structuredName": {
+                            "firstName": "Sambhav",
+                            "lastName": "Jain",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sambhav R. Jain"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "31056113"
+                        ],
+                        "name": "Albert Gural",
+                        "slug": "Albert-Gural",
+                        "structuredName": {
+                            "firstName": "Albert",
+                            "lastName": "Gural",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Albert Gural"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110542026"
+                        ],
+                        "name": "Michael Wu",
+                        "slug": "Michael-Wu",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Wu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael Wu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145990102"
+                        ],
+                        "name": "C. Dick",
+                        "slug": "C.-Dick",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Dick",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Dick"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 83458578,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5e0f7dcefc67294c81d1f3cecea976a289572828",
+            "isKey": false,
+            "numCitedBy": 39,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a method of training quantization clipping thresholds for uniform symmetric quantizers using standard backpropagation and gradient descent. Our quantizers are constrained to use power-of-2 scale-factors and per-tensor scaling for weights and activations. These constraints make our methods better suited for hardware implementations. Training with these difficult constraints is enabled by a combination of three techniques: using accurate threshold gradients to achieve range-precision trade-off, training thresholds in log-domain, and training with an adaptive gradient optimizer. We refer to this collection of techniques as Adaptive-Gradient Log-domain Threshold Training (ALT). We present analytical support for the general robustness of our methods and empirically validate them on various CNNs for ImageNet classification. We are able to achieve floating-point or near-floating-point accuracy on traditionally difficult networks such as MobileNets in less than 5 epochs of quantized (8-bit) retraining. Finally, we present Graffitist, a framework that enables immediate quantization of TensorFlow graphs using our methods. Code available at this https URL ."
+            },
+            "slug": "Trained-Uniform-Quantization-for-Accurate-and-on-Jain-Gural",
+            "title": {
+                "fragments": [],
+                "text": "Trained Uniform Quantization for Accurate and Efficient Neural Network Inference on Fixed-Point Hardware"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 66,
+                "text": "A method of training quantization clipping thresholds for uniform symmetric quantizers using standard backpropagation and gradient descent that is able to achieve floating-point or near-floating-point accuracy on traditionally difficult networks such as MobileNets in less than 5 epochs of quantized (8-bit) retraining."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 212,
+                                "start": 208
+                            }
+                        ],
+                        "text": "cessors, such as ARM Cortex-A cores, optimized software backends rely on a DSP-oriented implementation to accelerate the basic computational kernel for deep learning workloads: the matrix multiplication [20]\u2013[22]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Gemmlowp: A small self-contained low-precision GEMM library, Google Inc"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Accessed: Mar. 31, 2020. [Online]. Available: https://github.com/google/gemmlowp."
+            },
+            "year": 2020
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Available"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 207,
+                                "start": 203
+                            }
+                        ],
+                        "text": "cessors, such as ARM Cortex-A cores, optimized software backends rely on a DSP-oriented implementation to accelerate the basic computational kernel for deep learning workloads: the matrix multiplication [20]\u2013[22]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Qnnpack: Open Source Library for Optimized Mobile Deep Learning"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Accessed: Dec"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Gemmlowp: A small self-contained low-precision GEMM library"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 14,
+            "methodology": 10
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 32,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/CMix-NN:-Mixed-Low-Precision-CNN-Library-for-Edge-Capotondi-Rusci/85e8c77131df0b5135925f0ad2e05b2a98f711ac?sort=total-citations"
+}

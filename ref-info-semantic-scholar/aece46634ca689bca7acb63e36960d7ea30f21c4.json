@@ -1,0 +1,3704 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2072782550"
+                        ],
+                        "name": "Zhihao Jia",
+                        "slug": "Zhihao-Jia",
+                        "structuredName": {
+                            "firstName": "Zhihao",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhihao Jia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143834867"
+                        ],
+                        "name": "M. Zaharia",
+                        "slug": "M.-Zaharia",
+                        "structuredName": {
+                            "firstName": "Matei",
+                            "lastName": "Zaharia",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Zaharia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 49868726,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f971658ab845d7573c4bbb760d5e7e5332025254",
+            "isKey": false,
+            "numCitedBy": 233,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The computational requirements for training deep neural networks (DNNs) have grown to the point that it is now standard practice to parallelize training. Existing deep learning systems commonly use data or model parallelism, but unfortunately, these strategies often result in suboptimal parallelization performance. \nIn this paper, we define a more comprehensive search space of parallelization strategies for DNNs called SOAP, which includes strategies to parallelize a DNN in the Sample, Operation, Attribute, and Parameter dimensions. We also propose FlexFlow, a deep learning framework that uses guided randomized search of the SOAP space to find a fast parallelization strategy for a specific parallel machine. To accelerate this search, FlexFlow introduces a novel execution simulator that can accurately predict a parallelization strategy's performance and is three orders of magnitude faster than prior approaches that have to execute each strategy. We evaluate FlexFlow with six real-world DNN benchmarks on two GPU clusters and show that FlexFlow can increase training throughput by up to 3.8x over state-of-the-art approaches, even when including its search time, and also improves scalability."
+            },
+            "slug": "Beyond-Data-and-Model-Parallelism-for-Deep-Neural-Jia-Zaharia",
+            "title": {
+                "fragments": [],
+                "text": "Beyond Data and Model Parallelism for Deep Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "A more comprehensive search space of parallelization strategies for DNNs called SOAP, which includes strategies to parallelize a DNN in the Sample, Operation, Attribute, and Parameter dimensions is defined and FlexFlow, a deep learning framework that uses guided randomized search of the SOAP space to find a fast parallelization strategy for a specific parallel machine is proposed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "MLSys"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2418537"
+                        ],
+                        "name": "E. Georganas",
+                        "slug": "E.-Georganas",
+                        "structuredName": {
+                            "firstName": "Evangelos",
+                            "lastName": "Georganas",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Georganas"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777558"
+                        ],
+                        "name": "Sasikanth Avancha",
+                        "slug": "Sasikanth-Avancha",
+                        "structuredName": {
+                            "firstName": "Sasikanth",
+                            "lastName": "Avancha",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sasikanth Avancha"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2053653599"
+                        ],
+                        "name": "K. Banerjee",
+                        "slug": "K.-Banerjee",
+                        "structuredName": {
+                            "firstName": "Kunal",
+                            "lastName": "Banerjee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Banerjee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1886279"
+                        ],
+                        "name": "Dhiraj D. Kalamkar",
+                        "slug": "Dhiraj-D.-Kalamkar",
+                        "structuredName": {
+                            "firstName": "Dhiraj",
+                            "lastName": "Kalamkar",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dhiraj D. Kalamkar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145131827"
+                        ],
+                        "name": "G. Henry",
+                        "slug": "G.-Henry",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Henry",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Henry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1820941511"
+                        ],
+                        "name": "Hans Pabst",
+                        "slug": "Hans-Pabst",
+                        "structuredName": {
+                            "firstName": "Hans",
+                            "lastName": "Pabst",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hans Pabst"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1722735"
+                        ],
+                        "name": "A. Heinecke",
+                        "slug": "A.-Heinecke",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Heinecke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Heinecke"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 68
+                            }
+                        ],
+                        "text": "parallelization and caching are extremely important for performance [5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 52018796,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "96b45f52832aec44326a0b944df411f7b2d67926",
+            "isKey": false,
+            "numCitedBy": 58,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Convolution layers are prevalent in many classes of deep neural networks, including Convolutional Neural Networks (CNNs) which provide state-of-the-art results for tasks like image recognition, neural machine translation and speech recognition. The computationally expensive nature of a convolution operation has led to the proliferation of implementations including matrix-matrix multiplication formulation, and direct convolution primarily targeting GPUs. In this paper, we introduce direct convolution kernels for x86 architectures, in particular for Xeon and Xeon Phi systems, which are implemented via a dynamic compilation approach. Our JIT-based implementation shows close to theoretical peak performance, depending on the setting and the CPU architecture at hand. We additionally demonstrate how these JIT-optimized kernels can be integrated into a light-weight multi-node graph execution model. This illustrates that single- and multi-node runs yield high efficiencies and high image-throughputs when executing state-of-the-art image recognition tasks on CPUs."
+            },
+            "slug": "Anatomy-of-High-Performance-Deep-Learning-on-SIMD-Georganas-Avancha",
+            "title": {
+                "fragments": [],
+                "text": "Anatomy of High-Performance Deep Learning Convolutions on SIMD Architectures"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This paper introduces direct convolution kernels for x86 architectures, in particular for Xeon and Xeon Phi systems, which are implemented via a dynamic compilation approach, and demonstrates how these JIT-optimized kernels can be integrated into a light-weight multi-node graph execution model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SC18: International Conference for High Performance Computing, Networking, Storage and Analysis"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401885963"
+                        ],
+                        "name": "Jonathan Ragan-Kelley",
+                        "slug": "Jonathan-Ragan-Kelley",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Ragan-Kelley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Ragan-Kelley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2496412"
+                        ],
+                        "name": "Connelly Barnes",
+                        "slug": "Connelly-Barnes",
+                        "structuredName": {
+                            "firstName": "Connelly",
+                            "lastName": "Barnes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Connelly Barnes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 5885207,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d032f74b16457584f8a60ae07cfef9b617033638",
+            "isKey": false,
+            "numCitedBy": 878,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Image processing pipelines combine the challenges of stencil computations and stream programs. They are composed of large graphs of different stencil stages, as well as complex reductions, and stages with global or data-dependent access patterns. Because of their complex structure, the performance difference between a naive implementation of a pipeline and an optimized one is often an order of magnitude. Efficient implementations require optimization of both parallelism and locality, but due to the nature of stencils, there is a fundamental tension between parallelism, locality, and introducing redundant recomputation of shared values. We present a systematic model of the tradeoff space fundamental to stencil pipelines, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule. Combining this compiler with stochastic search over the space of schedules enables terse, composable programs to achieve state-of-the-art performance on a wide range of real image processing pipelines, and across different hardware architectures, including multicores with SIMD, and heterogeneous CPU+GPU execution. From simple Halide programs written in a few hours, we demonstrate performance up to 5x faster than hand-tuned C, intrinsics, and CUDA implementations optimized by experts over weeks or months, for image processing applications beyond the reach of past automatic compilers."
+            },
+            "slug": "Halide:-a-language-and-compiler-for-optimizing-and-Ragan-Kelley-Barnes",
+            "title": {
+                "fragments": [],
+                "text": "Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A systematic model of the tradeoff space fundamental to stencil pipelines is presented, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI 2013"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1913774"
+                        ],
+                        "name": "Tianqi Chen",
+                        "slug": "Tianqi-Chen",
+                        "structuredName": {
+                            "firstName": "Tianqi",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tianqi Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2113742783"
+                        ],
+                        "name": "Bing Xu",
+                        "slug": "Bing-Xu",
+                        "structuredName": {
+                            "firstName": "Bing",
+                            "lastName": "Xu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bing Xu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "151505981"
+                        ],
+                        "name": "Chiyuan Zhang",
+                        "slug": "Chiyuan-Zhang",
+                        "structuredName": {
+                            "firstName": "Chiyuan",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chiyuan Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1730156"
+                        ],
+                        "name": "Carlos Guestrin",
+                        "slug": "Carlos-Guestrin",
+                        "structuredName": {
+                            "firstName": "Carlos",
+                            "lastName": "Guestrin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Carlos Guestrin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 90,
+                                "start": 82
+                            }
+                        ],
+                        "text": "Heuristics have been proposed to choose between materialization and recomputation [14, 16], but we are not aware of a system that tries to automatically make globally optimal choices about which values to materialize."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15865278,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "942deb7d865b7782c03176d95e3a0d56cb71009e",
+            "isKey": false,
+            "numCitedBy": 464,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a systematic approach to reduce the memory consumption of deep neural network training. Specifically, we design an algorithm that costs O( \u221a n) memory to train a n layer network, with only the computational cost of an extra forward pass per mini-batch. As many of the state-of-the-art models hit the upper bound of the GPU memory, our algorithm allows deeper and more complex models to be explored, and helps advance the innovations in deep learning research. We focus on reducing the memory cost to store the intermediate feature maps and gradients during training. Computation graph analysis is used for automatic in-place operation and memory sharing optimizations. We show that it is possible to trade computation for memory giving a more memory efficient training algorithm with a little extra computation cost. In the extreme case, our analysis also shows that the memory consumption can be reduced to O(logn) with as little as O(n logn) extra cost for forward computation. Our experiments show that we can reduce the memory cost of a 1,000-layer deep residual network from 48G to 7G on ImageNet problems. Similarly, significant memory cost reduction is observed in training complex recurrent neural networks on very long sequences."
+            },
+            "slug": "Training-Deep-Nets-with-Sublinear-Memory-Cost-Chen-Xu",
+            "title": {
+                "fragments": [],
+                "text": "Training Deep Nets with Sublinear Memory Cost"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 59,
+                "text": "This work designs an algorithm that costs O( \u221a n) memory to train a n layer network, with only the computational cost of an extra forward pass per mini-batch, and shows that it is possible to trade computation for memory giving a more memory efficient training algorithm with a little extra computation cost."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2057642721"
+                        ],
+                        "name": "Mart\u00edn Abadi",
+                        "slug": "Mart\u00edn-Abadi",
+                        "structuredName": {
+                            "firstName": "Mart\u00edn",
+                            "lastName": "Abadi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mart\u00edn Abadi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144758007"
+                        ],
+                        "name": "P. Barham",
+                        "slug": "P.-Barham",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Barham",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Barham"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108406634"
+                        ],
+                        "name": "Jianmin Chen",
+                        "slug": "Jianmin-Chen",
+                        "structuredName": {
+                            "firstName": "Jianmin",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jianmin Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2545358"
+                        ],
+                        "name": "Z. Chen",
+                        "slug": "Z.-Chen",
+                        "structuredName": {
+                            "firstName": "Z.",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Z. Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36347083"
+                        ],
+                        "name": "Andy Davis",
+                        "slug": "Andy-Davis",
+                        "structuredName": {
+                            "firstName": "Andy",
+                            "lastName": "Davis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andy Davis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49959210"
+                        ],
+                        "name": "J. Dean",
+                        "slug": "J.-Dean",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Dean",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dean"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145139947"
+                        ],
+                        "name": "Matthieu Devin",
+                        "slug": "Matthieu-Devin",
+                        "structuredName": {
+                            "firstName": "Matthieu",
+                            "lastName": "Devin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matthieu Devin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1780892"
+                        ],
+                        "name": "S. Ghemawat",
+                        "slug": "S.-Ghemawat",
+                        "structuredName": {
+                            "firstName": "Sanjay",
+                            "lastName": "Ghemawat",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Ghemawat"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2060655766"
+                        ],
+                        "name": "Geoffrey Irving",
+                        "slug": "Geoffrey-Irving",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Irving",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey Irving"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2090818"
+                        ],
+                        "name": "M. Isard",
+                        "slug": "M.-Isard",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Isard",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Isard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1942300"
+                        ],
+                        "name": "M. Kudlur",
+                        "slug": "M.-Kudlur",
+                        "structuredName": {
+                            "firstName": "Manjunath",
+                            "lastName": "Kudlur",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Kudlur"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3369421"
+                        ],
+                        "name": "J. Levenberg",
+                        "slug": "J.-Levenberg",
+                        "structuredName": {
+                            "firstName": "Josh",
+                            "lastName": "Levenberg",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Levenberg"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3089272"
+                        ],
+                        "name": "R. Monga",
+                        "slug": "R.-Monga",
+                        "structuredName": {
+                            "firstName": "Rajat",
+                            "lastName": "Monga",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Monga"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144375552"
+                        ],
+                        "name": "Sherry Moore",
+                        "slug": "Sherry-Moore",
+                        "structuredName": {
+                            "firstName": "Sherry",
+                            "lastName": "Moore",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sherry Moore"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "20154699"
+                        ],
+                        "name": "D. Murray",
+                        "slug": "D.-Murray",
+                        "structuredName": {
+                            "firstName": "Derek",
+                            "lastName": "Murray",
+                            "middleNames": [
+                                "Gordon"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Murray"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32163737"
+                        ],
+                        "name": "Benoit Steiner",
+                        "slug": "Benoit-Steiner",
+                        "structuredName": {
+                            "firstName": "Benoit",
+                            "lastName": "Steiner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benoit Steiner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2080690"
+                        ],
+                        "name": "P. Tucker",
+                        "slug": "P.-Tucker",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Tucker",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Tucker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2053781980"
+                        ],
+                        "name": "Vijay Vasudevan",
+                        "slug": "Vijay-Vasudevan",
+                        "structuredName": {
+                            "firstName": "Vijay",
+                            "lastName": "Vasudevan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vijay Vasudevan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47941411"
+                        ],
+                        "name": "P. Warden",
+                        "slug": "P.-Warden",
+                        "structuredName": {
+                            "firstName": "Pete",
+                            "lastName": "Warden",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Warden"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35078078"
+                        ],
+                        "name": "M. Wicke",
+                        "slug": "M.-Wicke",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Wicke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wicke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2117163698"
+                        ],
+                        "name": "Yuan Yu",
+                        "slug": "Yuan-Yu",
+                        "structuredName": {
+                            "firstName": "Yuan",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yuan Yu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2144533795"
+                        ],
+                        "name": "Xiaoqiang Zhang",
+                        "slug": "Xiaoqiang-Zhang",
+                        "structuredName": {
+                            "firstName": "Xiaoqiang",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiaoqiang Zhang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 217,
+                                "start": 207
+                            }
+                        ],
+                        "text": "ACM ISBN 978-1-4503-6727-1/19/05. https://doi.org/10.1145/3317550.3321441\nwith 16 times fewer training parameters than the convolutional neural network (CNN) we were comparing it to, implementations in both TensorFlow[2] and PyTorch[3] were much slower and ran out of memory with much smaller models."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 37,
+                                "start": 27
+                            }
+                        ],
+                        "text": "In popular frameworks like TensorFlow [23] and PyTorch [3], user programs are written in Python and call into operators10 that are written in terms of back end-specific languages and libraries such as C++, MKL [24], CUDA [25], and cuDNN [10], or sometimes lower-level but portable domain-specific languages such as Tile [9] and Tensor Comprehensions [8]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 146,
+                                "start": 143
+                            }
+                        ],
+                        "text": "with 16 times fewer training parameters than the convolutional neural network (CNN) we were comparing it to, implementations in both TensorFlow[2] and PyTorch[3] were much slower and ran out of memory with much smaller models."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 138,
+                                "start": 128
+                            }
+                        ],
+                        "text": "As we will discuss in more detail in later sections, it is not straightforward to use custom computations in ML frameworks like TensorFlow and PyTorch."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 108,
+                                "start": 98
+                            }
+                        ],
+                        "text": "As a consequence, the easiest and best performing way to implement convolutional Capsules in both TensorFlow and Pytorch is to target high-level operations that are already supported by those frameworks."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 151,
+                                "start": 141
+                            }
+                        ],
+                        "text": "The use of pre-optimized kernels makes good layout assignment harder by constraining every operator to use one of a small number of layouts\n9TensorFlow\u2019s XLA compiler can fuse most operators, including reductions, but its GPU backend must still call cuBLAS kernels for matrix multiplication operations to be performance competitive.\nthat have been chosen to be optimal in isolation."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 6287870,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "46200b99c40e8586c8a0f588488ab6414119fb28",
+            "isKey": false,
+            "numCitedBy": 12805,
+            "numCiting": 111,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments. Tensor-Flow uses dataflow graphs to represent computation, shared state, and the operations that mutate that state. It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom-designed ASICs known as Tensor Processing Units (TPUs). This architecture gives flexibility to the application developer: whereas in previous \"parameter server\" designs the management of shared state is built into the system, TensorFlow enables developers to experiment with novel optimizations and training algorithms. TensorFlow supports a variety of applications, with a focus on training and inference on deep neural networks. Several Google services use TensorFlow in production, we have released it as an open-source project, and it has become widely used for machine learning research. In this paper, we describe the TensorFlow dataflow model and demonstrate the compelling performance that TensorFlow achieves for several real-world applications."
+            },
+            "slug": "TensorFlow:-A-system-for-large-scale-machine-Abadi-Barham",
+            "title": {
+                "fragments": [],
+                "text": "TensorFlow: A system for large-scale machine learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "The TensorFlow dataflow model is described and the compelling performance that Tensor Flow achieves for several real-world applications is demonstrated."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "OSDI"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "151076950"
+                        ],
+                        "name": "Karima Ma",
+                        "slug": "Karima-Ma",
+                        "structuredName": {
+                            "firstName": "Karima",
+                            "lastName": "Ma",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Karima Ma"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144413718"
+                        ],
+                        "name": "Luke Anderson",
+                        "slug": "Luke-Anderson",
+                        "structuredName": {
+                            "firstName": "Luke",
+                            "lastName": "Anderson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Luke Anderson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1758245"
+                        ],
+                        "name": "Riyadh Baghdadi",
+                        "slug": "Riyadh-Baghdadi",
+                        "structuredName": {
+                            "firstName": "Riyadh",
+                            "lastName": "Baghdadi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Riyadh Baghdadi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1775024"
+                        ],
+                        "name": "Tzu-Mao Li",
+                        "slug": "Tzu-Mao-Li",
+                        "structuredName": {
+                            "firstName": "Tzu-Mao",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tzu-Mao Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3282136"
+                        ],
+                        "name": "Micha\u00ebl Gharbi",
+                        "slug": "Micha\u00ebl-Gharbi",
+                        "structuredName": {
+                            "firstName": "Micha\u00ebl",
+                            "lastName": "Gharbi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Micha\u00ebl Gharbi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32163737"
+                        ],
+                        "name": "Benoit Steiner",
+                        "slug": "Benoit-Steiner",
+                        "structuredName": {
+                            "firstName": "Benoit",
+                            "lastName": "Steiner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benoit Steiner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2111936975"
+                        ],
+                        "name": "Steven Johnson",
+                        "slug": "Steven-Johnson",
+                        "structuredName": {
+                            "firstName": "Steven",
+                            "lastName": "Johnson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steven Johnson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2789576"
+                        ],
+                        "name": "Kayvon Fatahalian",
+                        "slug": "Kayvon-Fatahalian",
+                        "structuredName": {
+                            "firstName": "Kayvon",
+                            "lastName": "Fatahalian",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kayvon Fatahalian"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401885963"
+                        ],
+                        "name": "Jonathan Ragan-Kelley",
+                        "slug": "Jonathan-Ragan-Kelley",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Ragan-Kelley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Ragan-Kelley"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 196834556,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f90a7bc396e205b204d5d6066a10162f84b128f9",
+            "isKey": false,
+            "numCitedBy": 122,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a new algorithm to automatically schedule Halide programs for high-performance image processing and deep learning. We significantly improve upon the performance of previous methods, which considered a limited subset of schedules. We define a parameterization of possible schedules much larger than prior methods and use a variant of beam search to search over it. The search optimizes runtime predicted by a cost model based on a combination of new derived features and machine learning. We train the cost model by generating and featurizing hundreds of thousands of random programs and schedules. We show that this approach operates effectively with or without autotuning. It produces schedules which are on average almost twice as fast as the existing Halide autoscheduler without autotuning, or more than twice as fast with, and is the first automatic scheduling algorithm to significantly outperform human experts on average."
+            },
+            "slug": "Learning-to-optimize-halide-with-tree-search-and-Adams-Ma",
+            "title": {
+                "fragments": [],
+                "text": "Learning to optimize halide with tree search and random programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 60,
+                "text": "This work presents a new algorithm to automatically schedule Halide programs for high-performance image processing and deep learning that produces schedules which are on average almost twice as fast as the existing Halide autoscheduler without autotuning, or more than two as fast with, and is the first automatic scheduling algorithm to significantly outperform human experts on average."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Graph."
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1861312"
+                        ],
+                        "name": "Azalia Mirhoseini",
+                        "slug": "Azalia-Mirhoseini",
+                        "structuredName": {
+                            "firstName": "Azalia",
+                            "lastName": "Mirhoseini",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Azalia Mirhoseini"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143950636"
+                        ],
+                        "name": "Hieu Pham",
+                        "slug": "Hieu-Pham",
+                        "structuredName": {
+                            "firstName": "Hieu",
+                            "lastName": "Pham",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hieu Pham"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2827616"
+                        ],
+                        "name": "Quoc V. Le",
+                        "slug": "Quoc-V.-Le",
+                        "structuredName": {
+                            "firstName": "Quoc",
+                            "lastName": "Le",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Quoc V. Le"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32163737"
+                        ],
+                        "name": "Benoit Steiner",
+                        "slug": "Benoit-Steiner",
+                        "structuredName": {
+                            "firstName": "Benoit",
+                            "lastName": "Steiner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benoit Steiner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47223513"
+                        ],
+                        "name": "Rasmus Larsen",
+                        "slug": "Rasmus-Larsen",
+                        "structuredName": {
+                            "firstName": "Rasmus",
+                            "lastName": "Larsen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rasmus Larsen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116451595"
+                        ],
+                        "name": "Yuefeng Zhou",
+                        "slug": "Yuefeng-Zhou",
+                        "structuredName": {
+                            "firstName": "Yuefeng",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yuefeng Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116960562"
+                        ],
+                        "name": "Naveen Kumar",
+                        "slug": "Naveen-Kumar",
+                        "structuredName": {
+                            "firstName": "Naveen",
+                            "lastName": "Kumar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Naveen Kumar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144739074"
+                        ],
+                        "name": "Mohammad Norouzi",
+                        "slug": "Mohammad-Norouzi",
+                        "structuredName": {
+                            "firstName": "Mohammad",
+                            "lastName": "Norouzi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mohammad Norouzi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751569"
+                        ],
+                        "name": "Samy Bengio",
+                        "slug": "Samy-Bengio",
+                        "structuredName": {
+                            "firstName": "Samy",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Samy Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48448318"
+                        ],
+                        "name": "J. Dean",
+                        "slug": "J.-Dean",
+                        "structuredName": {
+                            "firstName": "Jeff",
+                            "lastName": "Dean",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dean"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 42,
+                                "start": 38
+                            }
+                        ],
+                        "text": "Despite initial research in this area [17], to our knowledge no framework tries to jointly optimize the choice of which fragments of a computation should run on which device with the choice of how to structure the subcomputations within a device."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3635282,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bfbd10ebffc9494423770a5bd30ebd0f9cbce66d",
+            "isKey": false,
+            "numCitedBy": 312,
+            "numCiting": 53,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The past few years have witnessed a growth in size and computational requirements for training and inference with neural networks. Currently, a common approach to address these requirements is to use a heterogeneous distributed environment with a mixture of hardware devices such as CPUs and GPUs. Importantly, the decision of placing parts of the neural models on devices is often made by human experts based on simple heuristics and intuitions. In this paper, we propose a method which learns to optimize device placement for TensorFlow computational graphs. Key to our method is the use of a sequence-to-sequence model to predict which subsets of operations in a TensorFlow graph should run on which of the available devices. The execution time of the predicted placements is then used as the reward signal to optimize the parameters of the sequence-to-sequence model. Our main result is that on Inception-V3 for ImageNet classification, and on RNN LSTM, for language modeling and neural machine translation, our model finds non-trivial device placements that outperform hand-crafted heuristics and traditional algorithmic methods."
+            },
+            "slug": "Device-Placement-Optimization-with-Reinforcement-Mirhoseini-Pham",
+            "title": {
+                "fragments": [],
+                "text": "Device Placement Optimization with Reinforcement Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "A method which learns to optimize device placement for TensorFlow computational graphs using a sequence-to-sequence model, which finds non-trivial device placements that outperform hand-crafted heuristics and traditional algorithmic methods."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1800919"
+                        ],
+                        "name": "Nicolas Vasilache",
+                        "slug": "Nicolas-Vasilache",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Vasilache",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicolas Vasilache"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2054833547"
+                        ],
+                        "name": "O. Zinenko",
+                        "slug": "O.-Zinenko",
+                        "structuredName": {
+                            "firstName": "Oleksandr",
+                            "lastName": "Zinenko",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Zinenko"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2097631216"
+                        ],
+                        "name": "Theodoros Theodoridis",
+                        "slug": "Theodoros-Theodoridis",
+                        "structuredName": {
+                            "firstName": "Theodoros",
+                            "lastName": "Theodoridis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Theodoros Theodoridis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47316088"
+                        ],
+                        "name": "Priya Goyal",
+                        "slug": "Priya-Goyal",
+                        "structuredName": {
+                            "firstName": "Priya",
+                            "lastName": "Goyal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Priya Goyal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2375710"
+                        ],
+                        "name": "Zach DeVito",
+                        "slug": "Zach-DeVito",
+                        "structuredName": {
+                            "firstName": "Zach",
+                            "lastName": "DeVito",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zach DeVito"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "16521420"
+                        ],
+                        "name": "William S. Moses",
+                        "slug": "William-S.-Moses",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Moses",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "William S. Moses"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1772079"
+                        ],
+                        "name": "Sven Verdoolaege",
+                        "slug": "Sven-Verdoolaege",
+                        "structuredName": {
+                            "firstName": "Sven",
+                            "lastName": "Verdoolaege",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sven Verdoolaege"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145509576"
+                        ],
+                        "name": "Albert Cohen",
+                        "slug": "Albert-Cohen",
+                        "structuredName": {
+                            "firstName": "Albert",
+                            "lastName": "Cohen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Albert Cohen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 353,
+                                "start": 350
+                            }
+                        ],
+                        "text": "In popular frameworks like TensorFlow [23] and PyTorch [3], user programs are written in Python and call into operators10 that are written in terms of back end-specific languages and libraries such as C++, MKL [24], CUDA [25], and cuDNN [10], or sometimes lower-level but portable domain-specific languages such as Tile [9] and Tensor Comprehensions [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 42
+                            }
+                        ],
+                        "text": "Compilers like Tensor Comprehensions (TC) [8] and PlaidML [9] have been developed to allow end-users to write such custom kernels, and both provide DSLs with concise syntax that resembles the math5, e."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 15
+                            }
+                        ],
+                        "text": "Compilers like Tensor Comprehensions (TC) [8] and PlaidML [9] have been developed to allow end-users to write such custom kernels, and both provide DSLs with concise syntax that resembles the math5, e.g., compare the TC implementation of a capsule primitive in Figure 2 with Equation 2."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Tensor Comprehensions 6The autotvm template for conv2d does not support batching."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 44014988,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cae9d90524cccac5081666985d5d055b71697cee",
+            "isKey": true,
+            "numCitedBy": 284,
+            "numCiting": 102,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep learning models with convolutional and recurrent networks are now ubiquitous and analyze massive amounts of audio, image, video, text and graph data, with applications in automatic translation, speech-to-text, scene understanding, ranking user preferences, ad placement, etc. Competing frameworks for building these networks such as TensorFlow, Chainer, CNTK, Torch/PyTorch, Caffe1/2, MXNet and Theano, explore different tradeoffs between usability and expressiveness, research or production orientation and supported hardware. They operate on a DAG of computational operators, wrapping high-performance libraries such as CUDNN (for NVIDIA GPUs) or NNPACK (for various CPUs), and automate memory allocation, synchronization, distribution. Custom operators are needed where the computation does not fit existing high-performance library calls, usually at a high engineering cost. This is frequently required when new operators are invented by researchers: such operators suffer a severe performance penalty, which limits the pace of innovation. Furthermore, even if there is an existing runtime call these frameworks can use, it often doesn't offer optimal performance for a user's particular network architecture and dataset, missing optimizations between operators as well as optimizations that can be done knowing the size and shape of data. Our contributions include (1) a language close to the mathematics of deep learning called Tensor Comprehensions offering both imperative and declarative styles, (2) a polyhedral Just-In-Time compiler to convert a mathematical description of a deep learning DAG into a CUDA kernel with delegated memory management and synchronization, also providing optimizations such as operator fusion and specialization for specific sizes, (3) a compilation cache populated by an autotuner. [Abstract cutoff]"
+            },
+            "slug": "Tensor-Comprehensions:-Framework-Agnostic-Machine-Vasilache-Zinenko",
+            "title": {
+                "fragments": [],
+                "text": "Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A language close to the mathematics of deep learning called Tensor Comprehensions offering both imperative and declarative styles, a polyhedral Just-In-Time compiler to convert a mathematical description of a deep learning DAG into a CUDA kernel with delegated memory management and synchronization, and a compilation cache populated by an autotuner are contributed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1846258"
+                        ],
+                        "name": "Noam M. Shazeer",
+                        "slug": "Noam-M.-Shazeer",
+                        "structuredName": {
+                            "firstName": "Noam",
+                            "lastName": "Shazeer",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Noam M. Shazeer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "73416451"
+                        ],
+                        "name": "Youlong Cheng",
+                        "slug": "Youlong-Cheng",
+                        "structuredName": {
+                            "firstName": "Youlong",
+                            "lastName": "Cheng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Youlong Cheng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3877127"
+                        ],
+                        "name": "Niki Parmar",
+                        "slug": "Niki-Parmar",
+                        "structuredName": {
+                            "firstName": "Niki",
+                            "lastName": "Parmar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Niki Parmar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47497262"
+                        ],
+                        "name": "Dustin Tran",
+                        "slug": "Dustin-Tran",
+                        "structuredName": {
+                            "firstName": "Dustin",
+                            "lastName": "Tran",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dustin Tran"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40348417"
+                        ],
+                        "name": "Ashish Vaswani",
+                        "slug": "Ashish-Vaswani",
+                        "structuredName": {
+                            "firstName": "Ashish",
+                            "lastName": "Vaswani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ashish Vaswani"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3344182"
+                        ],
+                        "name": "Penporn Koanantakool",
+                        "slug": "Penporn-Koanantakool",
+                        "structuredName": {
+                            "firstName": "Penporn",
+                            "lastName": "Koanantakool",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Penporn Koanantakool"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2052793706"
+                        ],
+                        "name": "Peter Hawkins",
+                        "slug": "Peter-Hawkins",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Hawkins",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Peter Hawkins"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34946720"
+                        ],
+                        "name": "HyoukJoong Lee",
+                        "slug": "HyoukJoong-Lee",
+                        "structuredName": {
+                            "firstName": "HyoukJoong",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "HyoukJoong Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2069751443"
+                        ],
+                        "name": "Mingsheng Hong",
+                        "slug": "Mingsheng-Hong",
+                        "structuredName": {
+                            "firstName": "Mingsheng",
+                            "lastName": "Hong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mingsheng Hong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39660914"
+                        ],
+                        "name": "C. Young",
+                        "slug": "C.-Young",
+                        "structuredName": {
+                            "firstName": "Cliff",
+                            "lastName": "Young",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Young"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35474601"
+                        ],
+                        "name": "Ryan Sepassi",
+                        "slug": "Ryan-Sepassi",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "Sepassi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan Sepassi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3135881"
+                        ],
+                        "name": "Blake A. Hechtman",
+                        "slug": "Blake-A.-Hechtman",
+                        "structuredName": {
+                            "firstName": "Blake",
+                            "lastName": "Hechtman",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Blake A. Hechtman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 53236433,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2270b8628fd8ca67ae39d277f45bc3c38ac63d5f",
+            "isKey": false,
+            "numCitedBy": 214,
+            "numCiting": 53,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Batch-splitting (data-parallelism) is the dominant distributed Deep Neural Network (DNN) training strategy, due to its universal applicability and its amenability to Single-Program-Multiple-Data (SPMD) programming. However, batch-splitting suffers from problems including the inability to train very large models (due to memory constraints), high latency, and inefficiency at small batch sizes. All of these can be solved by more general distribution strategies (model-parallelism). Unfortunately, efficient model-parallel algorithms tend to be complicated to discover, describe, and to implement, particularly on large clusters. We introduce Mesh-TensorFlow, a language for specifying a general class of distributed tensor computations. Where data-parallelism can be viewed as splitting tensors and operations along the \"batch\" dimension, in Mesh-TensorFlow, the user can specify any tensor-dimensions to be split across any dimensions of a multi-dimensional mesh of processors. A Mesh-TensorFlow graph compiles into a SPMD program consisting of parallel operations coupled with collective communication primitives such as Allreduce. We use Mesh-TensorFlow to implement an efficient data-parallel, model-parallel version of the Transformer sequence-to-sequence model. Using TPU meshes of up to 512 cores, we train Transformer models with up to 5 billion parameters, surpassing state of the art results on WMT'14 English-to-French translation task and the one-billion-word language modeling benchmark. Mesh-Tensorflow is available at this https URL ."
+            },
+            "slug": "Mesh-TensorFlow:-Deep-Learning-for-Supercomputers-Shazeer-Cheng",
+            "title": {
+                "fragments": [],
+                "text": "Mesh-TensorFlow: Deep Learning for Supercomputers"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Mesh-TensorFlow is introduced, a language for specifying a general class of distributed tensor computations and used to implement an efficient data-parallel, model-Parallel version of the Transformer sequence-to-sequence model, surpassing state of the art results on WMT'14 English- to-French translation task and the one-billion-word language modeling benchmark."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NeurIPS"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3025577"
+                        ],
+                        "name": "Jeff Bezanson",
+                        "slug": "Jeff-Bezanson",
+                        "structuredName": {
+                            "firstName": "Jeff",
+                            "lastName": "Bezanson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jeff Bezanson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144397527"
+                        ],
+                        "name": "A. Edelman",
+                        "slug": "A.-Edelman",
+                        "structuredName": {
+                            "firstName": "Alan",
+                            "lastName": "Edelman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Edelman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1380892320"
+                        ],
+                        "name": "S. Karpinski",
+                        "slug": "S.-Karpinski",
+                        "structuredName": {
+                            "firstName": "Stefan",
+                            "lastName": "Karpinski",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Karpinski"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2543935"
+                        ],
+                        "name": "Viral B. Shah",
+                        "slug": "Viral-B.-Shah",
+                        "structuredName": {
+                            "firstName": "Viral",
+                            "lastName": "Shah",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Viral B. Shah"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 8,
+                                "start": 3
+                            }
+                        ],
+                        "text": "In Julia, while 2D convolution is provided as a native Julia library, there is an overloaded conv2d function for GPU inputs which calls NVidia\u2019s cuDNN kernel."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 36
+                            }
+                        ],
+                        "text": "There are frameworks, such as Julia [26], which nominally use the same language to represent both the graph of operators and their implementations, but back-end designs can diminish the effectiveness of such a front end."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13026838,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0eac20ee2ebaede1381f20a276a0d8b6cdf73165",
+            "isKey": false,
+            "numCitedBy": 2906,
+            "numCiting": 56,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Bridging cultures that have often been distant, Julia combines expertise from the diverse fields of computer science and computational science to create a new approach to numerical computing. Julia is designed to be easy and fast and questions notions generally held to be \u201claws of nature\" by practitioners of numerical computing: \\beginlist \\item High-level dynamic programs have to be slow. \\item One must prototype in one language and then rewrite in another language for speed or deployment. \\item There are parts of a system appropriate for the programmer, and other parts that are best left untouched as they have been built by the experts. \\endlist We introduce the Julia programming language and its design---a dance between specialization and abstraction. Specialization allows for custom treatment. Multiple dispatch, a technique from computer science, picks the right algorithm for the right circumstance. Abstraction, which is what good computation is really about, recognizes what remains the same after dif..."
+            },
+            "slug": "Julia:-A-Fresh-Approach-to-Numerical-Computing-Bezanson-Edelman",
+            "title": {
+                "fragments": [],
+                "text": "Julia: A Fresh Approach to Numerical Computing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The Julia programming language and its design is introduced---a dance between specialization and abstraction, which recognizes what remains the same after computation, and which is best left untouched as they have been built by the experts."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIAM Rev."
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2074326009"
+                        ],
+                        "name": "K. R. Gold",
+                        "slug": "K.-R.-Gold",
+                        "structuredName": {
+                            "firstName": "K.",
+                            "lastName": "Gold",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. R. Gold"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 3215750,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3625404dc63eafe292a839a7c185e798d704ca42",
+            "isKey": false,
+            "numCitedBy": 10,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Influenced J,[1] K,[2] Mathematica, MATLAB,[3] Nial,[4] PPL, Q APL (named after the book A Programming Language)[5] is an interactive array-oriented language and integrated development environment which is available from a number of commercial and non-commercial vendors[6] and for most computer platforms.[7] It is based on a mathematical notation developed by Kenneth E. Iverson. APL has a combination of unique and relatively uncommon features that appeal to programmers and make it a productive programming language:[8] \u2022 It is concise, using symbols rather than words and applying functions to entire arrays without using explicit loops. \u2022 It is solution focused, emphasizing the expression of algorithms independently of machine architecture or operating system. \u2022 It has just one simple, consistent, and recursive precedence rule: the right argument of a function is the result of the entire expression to its right. \u2022 It facilitates problem solving at a high level of abstraction. APL is used in scientific,[9] actuarial,[8] statistical,[10] and financial applications where it is used by practitioners for their own work and by programmers to develop commercial applications. It was an important influence on the development of spreadsheets, functional programming,[11] and computer math packages.[3] It has also inspired several other programming languages.[1] [2] [4] It is also associated with rapid and lightweight development projects in volatile business environments.[12]"
+            },
+            "slug": "APL:-A-Programming-Language.-Gold",
+            "title": {
+                "fragments": [],
+                "text": "APL: A Programming Language."
+            },
+            "tldr": {
+                "abstractSimilarityScore": 52,
+                "text": "APL is an interactive array-oriented language and integrated development environment which is available from a number of commercial and non-commercial vendors and for most computer platforms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1970
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143840275"
+                        ],
+                        "name": "Song Han",
+                        "slug": "Song-Han",
+                        "structuredName": {
+                            "firstName": "Song",
+                            "lastName": "Han",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Song Han"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3123774"
+                        ],
+                        "name": "Huizi Mao",
+                        "slug": "Huizi-Mao",
+                        "structuredName": {
+                            "firstName": "Huizi",
+                            "lastName": "Mao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Huizi Mao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "80724002"
+                        ],
+                        "name": "W. Dally",
+                        "slug": "W.-Dally",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Dally",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Dally"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 229,
+                                "start": 225
+                            }
+                        ],
+                        "text": "A target metric such as test set prediction accuracy may be attainable in more or less time, using more or less energy, by varying the choice of precision and/or non-uniform quantization used to represent intermediate values [15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2134321,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "642d0f49b7826adcf986616f4af77e736229990f",
+            "isKey": false,
+            "numCitedBy": 5732,
+            "numCiting": 41,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Neural networks are both computationally intensive and memory intensive, making them difficult to deploy on embedded systems with limited hardware resources. To address this limitation, we introduce \"deep compression\", a three stage pipeline: pruning, trained quantization and Huffman coding, that work together to reduce the storage requirement of neural networks by 35x to 49x without affecting their accuracy. Our method first prunes the network by learning only the important connections. Next, we quantize the weights to enforce weight sharing, finally, we apply Huffman coding. After the first two steps we retrain the network to fine tune the remaining connections and the quantized centroids. Pruning, reduces the number of connections by 9x to 13x; Quantization then reduces the number of bits that represent each connection from 32 to 5. On the ImageNet dataset, our method reduced the storage required by AlexNet by 35x, from 240MB to 6.9MB, without loss of accuracy. Our method reduced the size of VGG-16 by 49x from 552MB to 11.3MB, again with no loss of accuracy. This allows fitting the model into on-chip SRAM cache rather than off-chip DRAM memory. Our compression method also facilitates the use of complex neural networks in mobile applications where application size and download bandwidth are constrained. Benchmarked on CPU, GPU and mobile GPU, compressed network has 3x to 4x layerwise speedup and 3x to 7x better energy efficiency."
+            },
+            "slug": "Deep-Compression:-Compressing-Deep-Neural-Network-Han-Mao",
+            "title": {
+                "fragments": [],
+                "text": "Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work introduces \"deep compression\", a three stage pipeline: pruning, trained quantization and Huffman coding, that work together to reduce the storage requirement of neural networks by 35x to 49x without affecting their accuracy."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2072782550"
+                        ],
+                        "name": "Zhihao Jia",
+                        "slug": "Zhihao-Jia",
+                        "structuredName": {
+                            "firstName": "Zhihao",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zhihao Jia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110226192"
+                        ],
+                        "name": "James J. Thomas",
+                        "slug": "James-J.-Thomas",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Thomas",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James J. Thomas"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2155642"
+                        ],
+                        "name": "Todd Warszawski",
+                        "slug": "Todd-Warszawski",
+                        "structuredName": {
+                            "firstName": "Todd",
+                            "lastName": "Warszawski",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Todd Warszawski"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2092402029"
+                        ],
+                        "name": "Mingyu Gao",
+                        "slug": "Mingyu-Gao",
+                        "structuredName": {
+                            "firstName": "Mingyu",
+                            "lastName": "Gao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mingyu Gao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143834867"
+                        ],
+                        "name": "M. Zaharia",
+                        "slug": "M.-Zaharia",
+                        "structuredName": {
+                            "firstName": "Matei",
+                            "lastName": "Zaharia",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Zaharia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 102345141,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a226e7dc70c9902fa57b987f8fee78b04052c954",
+            "isKey": false,
+            "numCitedBy": 39,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Existing deep learning frameworks optimize the computation graph of a DNN model by performing greedy rule-based graph transformations, which generally only consider transformations that strictly improve runtime performance. We propose relaxed graph substitutions that enable the exploration of complex graph optimizations by relaxing the strict performance improvement constraint, which greatly increases the space of semantically equivalent computation graphs that can be discovered by repeated application of a suitable set of graph transformations. We introduce a backtracking search algorithm over a set of relaxed graph substitutions to find optimized networks and use a flow-based graph split algorithm to recursively split a computation graph into smaller subgraphs to allow efficient search. We implement relaxed graph substitutions in a system called MetaFlow and show that MetaFlow improves the inference and training performance by 1.1-1.6\u00d7 and 1.1-1.2\u00d7 respectively over existing deep learning frameworks."
+            },
+            "slug": "Optimizing-DNN-Computation-with-Relaxed-Graph-Jia-Thomas",
+            "title": {
+                "fragments": [],
+                "text": "Optimizing DNN Computation with Relaxed Graph Substitutions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A backtracking search algorithm is introduced over a set of relaxed graph substitutions to find optimized networks and a flow-based graph split algorithm is used to recursively split a computation graph into smaller subgraphs to allow efficient search."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "MLSys"
+            },
+            "year": 2019
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145824029"
+                        ],
+                        "name": "David Silver",
+                        "slug": "David-Silver",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Silver",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Silver"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1885349"
+                        ],
+                        "name": "Aja Huang",
+                        "slug": "Aja-Huang",
+                        "structuredName": {
+                            "firstName": "Aja",
+                            "lastName": "Huang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aja Huang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2772217"
+                        ],
+                        "name": "Chris J. Maddison",
+                        "slug": "Chris-J.-Maddison",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Maddison",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chris J. Maddison"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35099444"
+                        ],
+                        "name": "A. Guez",
+                        "slug": "A.-Guez",
+                        "structuredName": {
+                            "firstName": "Arthur",
+                            "lastName": "Guez",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Guez"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2175946"
+                        ],
+                        "name": "L. Sifre",
+                        "slug": "L.-Sifre",
+                        "structuredName": {
+                            "firstName": "L.",
+                            "lastName": "Sifre",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Sifre"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47568983"
+                        ],
+                        "name": "George van den Driessche",
+                        "slug": "George-van-den-Driessche",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Driessche",
+                            "middleNames": [
+                                "van",
+                                "den"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "George van den Driessche"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "4337102"
+                        ],
+                        "name": "Julian Schrittwieser",
+                        "slug": "Julian-Schrittwieser",
+                        "structuredName": {
+                            "firstName": "Julian",
+                            "lastName": "Schrittwieser",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Julian Schrittwieser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2460849"
+                        ],
+                        "name": "Ioannis Antonoglou",
+                        "slug": "Ioannis-Antonoglou",
+                        "structuredName": {
+                            "firstName": "Ioannis",
+                            "lastName": "Antonoglou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ioannis Antonoglou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2749418"
+                        ],
+                        "name": "Vedavyas Panneershelvam",
+                        "slug": "Vedavyas-Panneershelvam",
+                        "structuredName": {
+                            "firstName": "Vedavyas",
+                            "lastName": "Panneershelvam",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vedavyas Panneershelvam"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1975889"
+                        ],
+                        "name": "Marc Lanctot",
+                        "slug": "Marc-Lanctot",
+                        "structuredName": {
+                            "firstName": "Marc",
+                            "lastName": "Lanctot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc Lanctot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48373216"
+                        ],
+                        "name": "S. Dieleman",
+                        "slug": "S.-Dieleman",
+                        "structuredName": {
+                            "firstName": "Sander",
+                            "lastName": "Dieleman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Dieleman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2401609"
+                        ],
+                        "name": "Dominik Grewe",
+                        "slug": "Dominik-Grewe",
+                        "structuredName": {
+                            "firstName": "Dominik",
+                            "lastName": "Grewe",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dominik Grewe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "4111313"
+                        ],
+                        "name": "John Nham",
+                        "slug": "John-Nham",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Nham",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John Nham"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2583391"
+                        ],
+                        "name": "Nal Kalchbrenner",
+                        "slug": "Nal-Kalchbrenner",
+                        "structuredName": {
+                            "firstName": "Nal",
+                            "lastName": "Kalchbrenner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nal Kalchbrenner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2542999"
+                        ],
+                        "name": "T. Lillicrap",
+                        "slug": "T.-Lillicrap",
+                        "structuredName": {
+                            "firstName": "Timothy",
+                            "lastName": "Lillicrap",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Lillicrap"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40662181"
+                        ],
+                        "name": "M. Leach",
+                        "slug": "M.-Leach",
+                        "structuredName": {
+                            "firstName": "Madeleine",
+                            "lastName": "Leach",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Leach"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2645384"
+                        ],
+                        "name": "K. Kavukcuoglu",
+                        "slug": "K.-Kavukcuoglu",
+                        "structuredName": {
+                            "firstName": "Koray",
+                            "lastName": "Kavukcuoglu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kavukcuoglu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1686971"
+                        ],
+                        "name": "T. Graepel",
+                        "slug": "T.-Graepel",
+                        "structuredName": {
+                            "firstName": "Thore",
+                            "lastName": "Graepel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Graepel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48987704"
+                        ],
+                        "name": "D. Hassabis",
+                        "slug": "D.-Hassabis",
+                        "structuredName": {
+                            "firstName": "Demis",
+                            "lastName": "Hassabis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Hassabis"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 199,
+                                "start": 195
+                            }
+                        ],
+                        "text": "There is no doubt that multi-dimensional whole program optimization is a hard task, but we can perhaps take some hope from the recent success of hybrid search/learning approaches such as AlphaGo [21] that show promise in finding good solutions within huge combinatorial search spaces."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 515925,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "846aedd869a00c09b40f1f1f35673cb22bc87490",
+            "isKey": false,
+            "numCitedBy": 11516,
+            "numCiting": 81,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The game of Go has long been viewed as the most challenging of classic games for artificial intelligence owing to its enormous search space and the difficulty of evaluating board positions and moves. Here we introduce a new approach to computer Go that uses \u2018value networks\u2019 to evaluate board positions and \u2018policy networks\u2019 to select moves. These deep neural networks are trained by a novel combination of supervised learning from human expert games, and reinforcement learning from games of self-play. Without any lookahead search, the neural networks play Go at the level of state-of-the-art Monte Carlo tree search programs that simulate thousands of random games of self-play. We also introduce a new search algorithm that combines Monte Carlo simulation with value and policy networks. Using this search algorithm, our program AlphaGo achieved a 99.8% winning rate against other Go programs, and defeated the human European Go champion by 5 games to 0. This is the first time that a computer program has defeated a human professional player in the full-sized game of Go, a feat previously thought to be at least a decade away."
+            },
+            "slug": "Mastering-the-game-of-Go-with-deep-neural-networks-Silver-Huang",
+            "title": {
+                "fragments": [],
+                "text": "Mastering the game of Go with deep neural networks and tree search"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Using this search algorithm, the program AlphaGo achieved a 99.8% winning rate against other Go programs, and defeated the human European Go champion by 5 games to 0.5, the first time that a computer program has defeated a human professional player in the full-sized game of Go."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Nature"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39353098"
+                        ],
+                        "name": "Kaiming He",
+                        "slug": "Kaiming-He",
+                        "structuredName": {
+                            "firstName": "Kaiming",
+                            "lastName": "He",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kaiming He"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1771551"
+                        ],
+                        "name": "X. Zhang",
+                        "slug": "X.-Zhang",
+                        "structuredName": {
+                            "firstName": "X.",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3080683"
+                        ],
+                        "name": "Shaoqing Ren",
+                        "slug": "Shaoqing-Ren",
+                        "structuredName": {
+                            "firstName": "Shaoqing",
+                            "lastName": "Ren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shaoqing Ren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [],
+                        "name": "Jian Sun",
+                        "slug": "Jian-Sun",
+                        "structuredName": {
+                            "firstName": "Jian",
+                            "lastName": "Sun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jian Sun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 39
+                            }
+                        ],
+                        "text": "Even for ML models as simple as ResNet [13], a sequential chain of 2D convolutions that has been extensively benchmarked, operands have different shapes so different convolution invocations may have different optimal parameters."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206594692,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+            "isKey": false,
+            "numCitedBy": 97653,
+            "numCiting": 61,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers - 8\u00d7 deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions1, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation."
+            },
+            "slug": "Deep-Residual-Learning-for-Image-Recognition-He-Zhang",
+            "title": {
+                "fragments": [],
+                "text": "Deep Residual Learning for Image Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 63,
+                "text": "This work presents a residual learning framework to ease the training of networks that are substantially deeper than those used previously, and provides comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "65794932"
+                        ],
+                        "name": "\uae40\uc885\uc601",
+                        "slug": "\uae40\uc885\uc601",
+                        "structuredName": {
+                            "firstName": "",
+                            "lastName": "\uae40\uc885\uc601",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "\uae40\uc885\uc601"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 57444433,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1cef66e9f54dd3a855b8bcc53dbbfa6b7d642b93",
+            "isKey": false,
+            "numCitedBy": 289,
+            "numCiting": 1,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "TensorFlow 2.0 in ActionTensorFlow 1.x Deep Learning CookbookMachine Learning with TensorFlow 1.xMachine Learning with TensorFlow, Second EditionTensorFlow 2 Pocket PrimerProgramming with TensorFlowTensorFlow Machine Learning ProjectsHands-On Neural Networks with TensorFlow 2.0TensorFlow for Deep LearningTensor Flow Pocket PrimerNatural Language Processing with TensorFlowTensorFlow: Powerful Predictive Analytics with TensorFlowHands-On Convolutional Neural Networks with TensorFlowTensorFlow 2.0 Computer Vision CookbookIntelligent Mobile Projects with TensorFlowLearning TensorFlow.jsDeep Learning with TensorFlow 2 and KerasLearning TensorFlowTensorFlow 2 Pocket ReferenceMachine Learning Using TensorFlow CookbookTensorFlow 2.0 Quick Start GuideTensorFlow Machine Learning CookbookLearn TensorFlow 2.0Learn TensorFlow in 24 HoursHands-On Computer Vision with TensorFlow 2Mastering Computer Vision with TensorFlow 2.xPro Deep Learning with TensorFlowHands-On Machine Learning with TensorFlow.jsTensorFlow for Deep LearningTinyMLLearning TensorFlow.jsDeep Learning with TensorFlow 2 and Keras Second EditionDeep Learning with TensorFlowMastering TensorFlow 1.xAdopting TensorFlow for Real-World AITensorFlow For DummiesArtificial Intelligence with PythonHands-On Machine Learning with Scikit-Learn, Keras, and TensorFlowLearn TensorFlow EnterpriseThe TensorFlow Workshop"
+            },
+            "slug": "\uad6c\uae00-TensorFlow-\uc18c\uac1c-\uae40\uc885\uc601",
+            "title": {
+                "fragments": [],
+                "text": "\uad6c\uae00 TensorFlow \uc18c\uac1c"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 81,
+                "text": "TensorFlow 2.0 in ActionTensor Flow 1.x Deep Learning Cookbook machine Learning with TensorFlow, Second EditionTensor flow 2 Pocket PrimerProgramming with Tensing, Tensor Flow Machine Learning Projects, and Hands-On Neural Networks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143752292"
+                        ],
+                        "name": "S. Sabour",
+                        "slug": "S.-Sabour",
+                        "structuredName": {
+                            "firstName": "Sara",
+                            "lastName": "Sabour",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Sabour"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "27737461"
+                        ],
+                        "name": "Nicholas Frosst",
+                        "slug": "Nicholas-Frosst",
+                        "structuredName": {
+                            "firstName": "Nicholas",
+                            "lastName": "Frosst",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicholas Frosst"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 109,
+                                "start": 106
+                            }
+                        ],
+                        "text": "We became interested in this paper\u2019s subject when trying to improve an implementation of Capsule networks [1] to scale up to larger datasets."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 65203110,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "603caed9430283db6c7f43169555c8d18e97a281",
+            "isKey": false,
+            "numCitedBy": 687,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Matrix-capsules-with-EM-routing-Hinton-Sabour",
+            "title": {
+                "fragments": [],
+                "text": "Matrix capsules with EM routing"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35043531"
+                        ],
+                        "name": "A. Dempster",
+                        "slug": "A.-Dempster",
+                        "structuredName": {
+                            "firstName": "Arthur",
+                            "lastName": "Dempster",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Dempster"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7890796"
+                        ],
+                        "name": "N. Laird",
+                        "slug": "N.-Laird",
+                        "structuredName": {
+                            "firstName": "Nan",
+                            "lastName": "Laird",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Laird"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2235217"
+                        ],
+                        "name": "D. Rubin",
+                        "slug": "D.-Rubin",
+                        "structuredName": {
+                            "firstName": "Donald",
+                            "lastName": "Rubin",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Rubin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 4193919,
+            "fieldsOfStudy": [
+                "Engineering"
+            ],
+            "id": "d36efb9ad91e00faa334b549ce989bfae7e2907a",
+            "isKey": false,
+            "numCitedBy": 48567,
+            "numCiting": 134,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Vibratory power unit for vibrating conveyers and screens comprising an asynchronous polyphase motor, at least one pair of associated unbalanced masses disposed on the shaft of said motor, with the first mass of a pair of said unbalanced masses being rigidly fastened to said shaft and with said second mass of said pair being movably arranged relative to said first mass, means for controlling and regulating the conveying rate during conveyer operation by varying the rotational speed of said motor between predetermined minimum and maximum values, said second mass being movably outwardly by centrifugal force against the pressure of spring means, said spring means being prestressed in such a manner that said second mass is, at rotational motor speeds lower than said minimum speed, held in its initial position, and at motor speeds between said lower and upper values in positions which are radially offset with respect to the axis of said motor to an extent depending on the value of said rotational motor speed."
+            },
+            "slug": "Maximum-likelihood-from-incomplete-data-via-the-EM-Dempster-Laird",
+            "title": {
+                "fragments": [],
+                "text": "Maximum likelihood from incomplete data via the EM - algorithm plus discussions on the paper"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1977
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52280259"
+                        ],
+                        "name": "S. Sagar Imambi",
+                        "slug": "S.-Sagar-Imambi",
+                        "structuredName": {
+                            "firstName": "S.",
+                            "lastName": "Imambi",
+                            "middleNames": [
+                                "Sagar"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Sagar Imambi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3067843"
+                        ],
+                        "name": "K. Prakash",
+                        "slug": "K.-Prakash",
+                        "structuredName": {
+                            "firstName": "Kolla",
+                            "lastName": "Prakash",
+                            "middleNames": [
+                                "Bhanu"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Prakash"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2779867"
+                        ],
+                        "name": "G. Kanagachidambaresan",
+                        "slug": "G.-Kanagachidambaresan",
+                        "structuredName": {
+                            "firstName": "G.",
+                            "lastName": "Kanagachidambaresan",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Kanagachidambaresan"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 242485501,
+            "fieldsOfStudy": [],
+            "id": "d668f12be54174141e6197fad737006b7b0c0571",
+            "isKey": false,
+            "numCitedBy": 205,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "PyTorch-Imambi-Prakash",
+            "title": {
+                "fragments": [],
+                "text": "PyTorch"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Programming with TensorFlow"
+            },
+            "year": 2021
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "End to end deep learning compiler stack"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Tensor considered harmful"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Labels for TensorFlow"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Auto-vectorization with vmap"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "PlaidML"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "XLA: Accelerated linear algebra"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Matrix-Capsules-with-EM-routing-Capsule-Network"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Multi-level intermediate representation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 7,
+            "methodology": 4
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 27,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Machine-Learning-Systems-are-Stuck-in-a-Rut-Barham-Isard/aece46634ca689bca7acb63e36960d7ea30f21c4?sort=total-citations"
+}

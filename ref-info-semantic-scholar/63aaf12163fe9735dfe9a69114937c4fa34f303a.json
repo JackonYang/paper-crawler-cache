@@ -1,0 +1,2549 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1703537"
+                        ],
+                        "name": "Y. Freund",
+                        "slug": "Y.-Freund",
+                        "structuredName": {
+                            "firstName": "Yoav",
+                            "lastName": "Freund",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Freund"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2068005320"
+                        ],
+                        "name": "Raj D. Iyer",
+                        "slug": "Raj-D.-Iyer",
+                        "structuredName": {
+                            "firstName": "Raj",
+                            "lastName": "Iyer",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Raj D. Iyer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1716301"
+                        ],
+                        "name": "R. Schapire",
+                        "slug": "R.-Schapire",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Schapire",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Schapire"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1740765"
+                        ],
+                        "name": "Y. Singer",
+                        "slug": "Y.-Singer",
+                        "structuredName": {
+                            "firstName": "Yoram",
+                            "lastName": "Singer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Singer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 122,
+                                "start": 103
+                            }
+                        ],
+                        "text": "PRank learns using one example at a time, which is held as an advantage over pair-based methods (e.g. (Freund et al., 2003)), since the latter must learn using O(m2) pairs rather than m examples."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 4
+                            }
+                        ],
+                        "text": "In (Freund et al., 2003), results are given using decision stumps as the weak learners."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 11
+                            }
+                        ],
+                        "text": "RankBoost (Freund et al., 2003) is another ranking algorithm that is trained on pairs, and which is closer in spirit to our work since it attempts to solve the preference learning problem directly, rather than solving an ordinal regression problem."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 0
+                            }
+                        ],
+                        "text": "(Freund et al., 2003)), since the latter must learn using O(m(2)) pairs rather than m examples."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16692650,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "75e85c2e90b0abb17ae6445516a49ac05c1dbf0f",
+            "isKey": true,
+            "numCitedBy": 2192,
+            "numCiting": 83,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We study the problem of learning to accurately rank a set of objects by combining a given collection of ranking or preference functions. This problem of combining preferences arises in several applications, such as that of combining the results of different search engines, or the \"collaborative-filtering\" problem of ranking movies for a user based on the movie rankings provided by other users. In this work, we begin by presenting a formal framework for this general problem. We then describe and analyze an efficient algorithm called RankBoost for combining preferences based on the boosting approach to machine learning. We give theoretical results describing the algorithm's behavior both on the training data, and on new test data not seen during training. We also describe an efficient implementation of the algorithm for a particular restricted but common case. We next discuss two experiments we carried out to assess the performance of RankBoost. In the first experiment, we used the algorithm to combine different web search strategies, each of which is a query expansion for a given domain. The second experiment is a collaborative-filtering task for making movie recommendations."
+            },
+            "slug": "An-Efficient-Boosting-Algorithm-for-Combining-Freund-Iyer",
+            "title": {
+                "fragments": [],
+                "text": "An Efficient Boosting Algorithm for Combining Preferences"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This work describes and analyze an efficient algorithm called RankBoost for combining preferences based on the boosting approach to machine learning, and gives theoretical results describing the algorithm's behavior both on the training data, and on new test data not seen during training."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1693407"
+                        ],
+                        "name": "K. Crammer",
+                        "slug": "K.-Crammer",
+                        "structuredName": {
+                            "firstName": "Koby",
+                            "lastName": "Crammer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Crammer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1740765"
+                        ],
+                        "name": "Y. Singer",
+                        "slug": "Y.-Singer",
+                        "structuredName": {
+                            "firstName": "Yoram",
+                            "lastName": "Singer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Singer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "We trained six systems: for PRank, a linear and quadratic kernel ( Crammer & Singer, 2002 ) and the Online Aggregate PRank - Bayes Point Machine (OAP-BPM), or large margin (Harrington, 2003) versions; a single layer net trained with RankProp; and for RankNet, a linear net and a two layer net with 10 hidden units."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "However (Herbrich et al., 2000) cast the ranking problem as an ordinal regression problem; rank boundaries play a critical role during training, as they do for several other algorithms ( Crammer & Singer, 2002;  Harrington, 2003)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "( Crammer & Singer, 2002 ) cast the problem in similar form and propose a ranker based on the perceptron (\u2019PRank\u2019), which maps a feature vector x 2 Rd to the reals with a learned w 2 Rd such that the output of the mapping function is just w x. PRank also learns the values of N increasing thresholds1 br = 1; ; N and declares the rank of x"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11125057,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f4658b7c2c2436312b6d9cbf22c2f1625f7b76b1",
+            "isKey": true,
+            "numCitedBy": 662,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We discuss the problem of ranking instances. In our framework each instance is associated with a rank or a rating, which is an integer from 1 to k. Our goal is to find a rank-predict ion rule that assigns each instance a rank which is as close as possible to the instance's true rank. We describe a simple and efficient online algorithm, analyze its performance in the mistake bound model, and prove its correctness. We describe two sets of experiments, with synthetic data and with the EachMovie dataset for collaborative filtering. In the experiments we performed, our algorithm outperforms online algorithms for regression and classification applied to ranking."
+            },
+            "slug": "Pranking-with-Ranking-Crammer-Singer",
+            "title": {
+                "fragments": [],
+                "text": "Pranking with Ranking"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A simple and efficient online algorithm is described, its performance in the mistake bound model is analyzed, its correctness is proved, and it outperforms online algorithms for regression and classification applied to ranking."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2403454"
+                        ],
+                        "name": "E. Baum",
+                        "slug": "E.-Baum",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Baum",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Baum"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144158372"
+                        ],
+                        "name": "F. Wilczek",
+                        "slug": "F.-Wilczek",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Wilczek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Wilczek"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 176,
+                                "start": 155
+                            }
+                        ],
+                        "text": "\u2026outputs to probabilities are modeled using a logistic function (Baum & Wilczek, 1988)\nPij \u2261 eoij\n1 + eoij (2)\nCij then becomes\nCij = \u2212P\u0304ijoij + log(1 + e oij ) (3)\nNote that Cij asymptotes to a linear function; for problems with noisy labels this is likely to be more robust than a quadratic cost."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 167,
+                                "start": 147
+                            }
+                        ],
+                        "text": "\u2026cost function\nCij \u2261 C(oij) = \u2212P\u0304ij log Pij \u2212 (1 \u2212 P\u0304ij) log (1 \u2212 Pij) (1) where the map from outputs to probabilities are modeled using a logistic function (Baum & Wilczek, 1988)\nPij \u2261 eoij\n1 + eoij (2)\nCij then becomes\nCij = \u2212P\u0304ijoij + log(1 + e oij ) (3)\nNote that Cij asymptotes to a linear\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10578219,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7d9ed799fcc2ba2f929532a4f403091198bcfd83",
+            "isKey": false,
+            "numCitedBy": 187,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose that the back propagation algorithm for supervised learning can be generalized, put on a satisfactory conceptual footing, and very likely made more efficient by defining the values of the output and input neurons as probabilities and varying the synaptic weights in the gradient direction of the log likelihood, rather than the 'error'."
+            },
+            "slug": "Supervised-Learning-of-Probability-Distributions-by-Baum-Wilczek",
+            "title": {
+                "fragments": [],
+                "text": "Supervised Learning of Probability Distributions by Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 95,
+                "text": "The back propagation algorithm for supervised learning can be generalized, put on a satisfactory conceptual footing, and very likely made more efficient by defining the values of the output and input neurons as probabilities and varying the synaptic weights in the gradient direction of the log likelihood, rather than the 'error'."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2586148"
+                        ],
+                        "name": "L. Mason",
+                        "slug": "L.-Mason",
+                        "structuredName": {
+                            "firstName": "Llew",
+                            "lastName": "Mason",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Mason"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47392513"
+                        ],
+                        "name": "Jonathan Baxter",
+                        "slug": "Jonathan-Baxter",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Baxter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Baxter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745169"
+                        ],
+                        "name": "P. Bartlett",
+                        "slug": "P.-Bartlett",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Bartlett",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Bartlett"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40073871"
+                        ],
+                        "name": "Marcus Frean",
+                        "slug": "Marcus-Frean",
+                        "structuredName": {
+                            "firstName": "Marcus",
+                            "lastName": "Frean",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marcus Frean"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 68,
+                                "start": 50
+                            }
+                        ],
+                        "text": "Since boosting can be viewed as gradient descent (Mason et al., 2000), the question naturally arises as to how combining RankBoost with our pair-wise differentiable cost function would compare."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6101385,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "24c499f250196252626c19a56174436b08ff4f78",
+            "isKey": false,
+            "numCitedBy": 713,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We provide an abstract characterization of boosting algorithms as gradient decsent on cost-functionals in an inner-product function space. We prove convergence of these functional-gradient-descent algorithms under quite weak conditions. Following previous theoretical results bounding the generalization performance of convex combinations of classifiers in terms of general cost functions of the margin, we present a new algorithm (DOOM II) for performing a gradient descent optimization of such cost functions. Experiments on several data sets from the UC Irvine repository demonstrate that DOOM II generally outperforms AdaBoost, especially in high noise situations, and that the overfitting behaviour of AdaBoost is predicted by our cost functions."
+            },
+            "slug": "Boosting-Algorithms-as-Gradient-Descent-Mason-Baxter",
+            "title": {
+                "fragments": [],
+                "text": "Boosting Algorithms as Gradient Descent"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "Following previous theoretical results bounding the generalization performance of convex combinations of classifiers in terms of general cost functions of the margin, a new algorithm (DOOM II) is presented for performing a gradient descent optimization of such cost functions."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1716876"
+                        ],
+                        "name": "O. Dekel",
+                        "slug": "O.-Dekel",
+                        "structuredName": {
+                            "firstName": "Ofer",
+                            "lastName": "Dekel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Dekel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144783904"
+                        ],
+                        "name": "Christopher D. Manning",
+                        "slug": "Christopher-D.-Manning",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Manning",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher D. Manning"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1740765"
+                        ],
+                        "name": "Y. Singer",
+                        "slug": "Y.-Singer",
+                        "structuredName": {
+                            "firstName": "Yoram",
+                            "lastName": "Singer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Singer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "( Dekel et al., 2004 ) provide a very general framework for ranking using directed graphs, where an arc from A to B means that A is to be ranked higher than B (which here and below we write as A B B). This approach can represent arbitrary ranking functions, in particular, ones that are inconsistent - for example A B B, B B C, C B A. We adopt this more general view, and note that for ranking algorithms that train on pairs, all such sets of ..."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 124060,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ff0c2ec329cc36e4c78b147a3921099175633e5b",
+            "isKey": false,
+            "numCitedBy": 207,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Label ranking is the task of inferring a total order over a predefined set of labels for each given instance. We present a general framework for batch learning of label ranking functions from supervised data. We assume that each instance in the training data is associated with a list of preferences over the label-set, however we do not assume that this list is either complete or consistent. This enables us to accommodate a variety of ranking problems. In contrast to the general form of the supervision, our goal is to learn a ranking function that induces a total order over the entire set of labels. Special cases of our setting are multilabel categorization and hierarchical classification. We present a general boosting-based learning algorithm for the label ranking problem and prove a lower bound on the progress of each boosting iteration. The applicability of our approach is demonstrated with a set of experiments on a large-scale text corpus."
+            },
+            "slug": "Log-Linear-Models-for-Label-Ranking-Dekel-Manning",
+            "title": {
+                "fragments": [],
+                "text": "Log-Linear Models for Label Ranking"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work presents a general boosting-based learning algorithm for the label ranking problem and proves a lower bound on the progress of each boosting iteration."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1869969"
+                        ],
+                        "name": "E. Harrington",
+                        "slug": "E.-Harrington",
+                        "structuredName": {
+                            "firstName": "Edward",
+                            "lastName": "Harrington",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Harrington"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 146,
+                                "start": 130
+                            }
+                        ],
+                        "text": "For large margin PRank, the validation set was also used to choose between three values of the Bernoulli mean, \u03c4 = {0.3, 0.5, 0.7} (Harrington, 2003), and to choose the number of perceptrons averaged over; the best validation results were found for \u03c4 = 0.3 and 100 perceptrons."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 203,
+                                "start": 161
+                            }
+                        ],
+                        "text": ", 2000) cast the ranking problem as an ordinal regression problem; rank boundaries play a critical role during training, as they do for several other algorithms (Crammer & Singer, 2002; Harrington, 2003)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 173,
+                                "start": 157
+                            }
+                        ],
+                        "text": "\u2026systems: for PRank, a linear and quadratic kernel (Crammer & Singer, 2002) and the Online Aggregate PRank - Bayes Point Machine (OAP-BPM), or large margin (Harrington, 2003) versions; a single layer net trained with RankProp; and for RankNet, a linear net and a two layer net with 10 hidden units."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 17,
+                                "start": 1
+                            }
+                        ],
+                        "text": "(Harrington, 2003) has proposed a simple but very effective extension of PRank, which approximates finding the Bayes point by averaging over PRank models."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 188,
+                                "start": 170
+                            }
+                        ],
+                        "text": "We trained six systems: for PRank, a linear and quadratic kernel (Crammer & Singer, 2002) and the Online Aggregate PRank - Bayes Point Machine (OAP-BPM), or large margin (Harrington, 2003) versions; a single layer net trained with RankProp; and for RankNet, a linear net and a two layer net with 10 hidden units."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 3
+                            }
+                        ],
+                        "text": "7} (Harrington, 2003), and to choose the number of perceptrons averaged over; the best validation results were found for \u03c4 = 0."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 226,
+                                "start": 210
+                            }
+                        ],
+                        "text": "However (Herbrich et al., 2000) cast the ranking problem as an ordinal regression problem; rank boundaries play a critical role during training, as they do for several other algorithms (Crammer & Singer, 2002; Harrington, 2003)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14658975,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9c8bacf5f0a5341d2a20b5441d7f2c22d9023216",
+            "isKey": true,
+            "numCitedBy": 103,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper we present a simple to implement truly online large margin version of the Perceptron ranking (PRank) algorithm, called the OAP-BPM (Online Aggregate Prank-Bayes Point Machine) algorithm, which finds a rule that correctly ranks a given training sequence of instance and target rank pairs. PRank maintains a weight vector and a set of thresholds to define a ranking rule that maps each instance to its respective rank. The OAP-BPM algorithm is an extension of this algorithm by approximating the Bayes point, thus giving a good generalization performance. The Bayes point is approximated by averaging the weights and thresholds associated with several PRank algorithms run in parallel. In order to ensure diversity amongst the solutions of the PRank algorithms we randomly subsample the stream of incoming training examples. We also introduce two new online versions of Bagging and the voted Perceptron using the same randomization trick as OAP-BPM, hence are referred to as OAP with extension -Bagg and -VP respectively. A rank learning experiment was conducted on a synthetic data set and collaborative filtering experiments on a number of real world data sets were conducted, showing that OAP-BPM has a better performance compared to PRank and a pure online regression algorithm, albeit with a higher computational cost, though is not too prohibitive."
+            },
+            "slug": "Online-Ranking/Collaborative-Filtering-Using-the-Harrington",
+            "title": {
+                "fragments": [],
+                "text": "Online Ranking/Collaborative Filtering Using the Perceptron Algorithm"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 87,
+                "text": "A simple to implement truly online large margin version of the Perceptron ranking (PRank) algorithm, called the OAP-BPM (Online Aggregate Prank-Bayes Point Machine), which finds a rule that correctly ranks a given training sequence of instance and target rank pairs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1784682"
+                        ],
+                        "name": "T. Hastie",
+                        "slug": "T.-Hastie",
+                        "structuredName": {
+                            "firstName": "Trevor",
+                            "lastName": "Hastie",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Hastie"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1761784"
+                        ],
+                        "name": "R. Tibshirani",
+                        "slug": "R.-Tibshirani",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Tibshirani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Tibshirani"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 29,
+                                "start": 4
+                            }
+                        ],
+                        "text": "In (Hastie & Tibshirani, 1998) and (Bradley & Terry, 1952), the authors consider models of the following form: for some fixed set of events A1, . . . , Ak, pairwise probabilities P (Ai|Ai or Aj) are given, and it is assumed that there is a set of probabilities P\u0302i such that P (Ai|Ai or Aj) =\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "In ( Hastie & Tibshirani, 1998 ) and (Bradley & Terry, 1952), the authors consider models of the following form: for some xed set of events A1; : : : ; Ak, pairwise probabilities P (AijAi or Aj) are given, and it is assumed that there is a set of probabilities ^"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10097148,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "f642a692da944604a7df590e9f9fa06089b7991a",
+            "isKey": false,
+            "numCitedBy": 1577,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We discuss a strategy for polychotomous classification that involves estimating class probabilities for each pair of classes, and then coupling the estimates together. The coupling model is similar to the Bradley-Terry method for paired comparisons. We study the nature of the class probability estimates that arise, and examine the performance of the procedure in simulated datasets. The classifiers used include linear discriminants and nearest neighbors: application to support vector machines is also briefly described."
+            },
+            "slug": "Classification-by-Pairwise-Coupling-Hastie-Tibshirani",
+            "title": {
+                "fragments": [],
+                "text": "Classification by Pairwise Coupling"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 88,
+                "text": "A strategy for polychotomous classification that involves estimating class probabilities for each pair of classes, and then coupling the estimates together is discussed, similar to the Bradley-Terry method for paired comparisons."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1747181"
+                        ],
+                        "name": "J. Hartmanis",
+                        "slug": "J.-Hartmanis",
+                        "structuredName": {
+                            "firstName": "Juris",
+                            "lastName": "Hartmanis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Hartmanis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143817739"
+                        ],
+                        "name": "J. V. Leeuwen",
+                        "slug": "J.-V.-Leeuwen",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Leeuwen",
+                            "middleNames": [
+                                "van"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. V. Leeuwen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 73,
+                                "start": 55
+                            }
+                        ],
+                        "text": "For the neural net case, we show that backpropagation (LeCun et al., 1998) is easily extended to handle ordered pairs; we call the resulting algorithm, together with the probabilistic cost function we describe below, RankNet."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 126,
+                                "start": 108
+                            }
+                        ],
+                        "text": "It is useful first to remind the reader of the back-prop equations for a two layer net with q output nodes (LeCun et al., 1998)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 53,
+                                "start": 35
+                            }
+                        ],
+                        "text": "No algorithmic speedup techniques (LeCun et al., 1998) were implemented for the neural net training; the optimal net was found at epoch 20 for the linear net and epoch 22 for the two-layer net."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 26661612,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b1a5961609c623fc816aaa77565ba38b25531a8e",
+            "isKey": false,
+            "numCitedBy": 1314,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many algorithms are available to learn deep hierarchies of features from unlabeled data, especially images. In many cases, these algorithms involve multi-layered networks of features (eg, neural networks) that are sometimes tricky to train and tune and are difficult. Abstract A commonly encountered problem in MLP (multi-layer perceptron) classification problems is related to the prior probabilities of the individual classes-if the number of training examples that correspond to each class varies significantly between the classes, then. Abstract Validation can be used to detect when overfitting starts during supervised training of a neural network; training is then stopped before convergence to avoid the overfitting (\u00e2 \u0153early stopping\u00e2 ). The exact criterion used for validation-based early stopping, however, is usually. Abstract Reservoir computing has emerged in the last decade as an alternative to gradient descent methods for training recurrent neural networks. Echo State Network (ESN) is one of the key reservoir computing \u00e2 \u0153flavors\u00e2 . While being practical, conceptually simple, and easy. Preface In many cases, the amount of labeled data is limited and does not allow for fully identifying the function that needs to be learned. When labeled data is scarce, the learning algorithm is exposed to simultaneous underfitting and overfitting. The learning algorithm. Abstract Restricted Boltzmann machines (RBMs) have been used as generative models of many different types of data. RBMs are usually trained using the contrastive divergence learning procedure. This requires a certain amount of practical experience to decide.A commonly encountered problem in MLP (multi-layer perceptron) classification problems is related to the prior probabilities of the individual classes-if the number of training examples that correspond to each class varies significantly between the classes, then. Abstract Validation can be used to detect when overfitting starts during supervised training of a neural network; training is then stopped before convergence to avoid the overfitting (\u00e2 \u0153early stopping\u00e2 ). The exact criterion used for validation-based early stopping, however, is usually. Abstract Reservoir computing has emerged in the last decade as an alternative to gradient descent methods for training recurrent neural networks. Echo State Network (ESN) is one of the key reservoir computing \u00e2 \u0153flavors\u00e2 . While being practical, conceptually simple, and easy. Preface In many cases, the amount of labeled data is limited and does not allow for fully identifying the function that needs to be learned. When labeled data is scarce, the learning algorithm is exposed to simultaneous underfitting and overfitting. The learning algorithm. Abstract Restricted Boltzmann machines (RBMs) have been used as generative models of many different types of data. RBMs are usually trained using the contrastive divergence learning procedure. This requires a certain amount of practical experience to decide. It is our belief that researchers and practitioners acquire, through experience and word-ofmouth, techniques and heuristics that help them successfully apply neural networks to di cult real world problems. Often these\\ tricks\" are theo-tically well motivated. Sometimes they. Abstract The convergence of back-propagation learning is analyzed so as to explain common phenomenon observed by practitioners. Many undesirable behaviors of backprop can be avoided with tricks that are rarely exposed in serious technical publications. This. Abstract Chapter 1 strongly advocates the stochastic back-propagation method to train neural networks. This is in fact an instance of a more general technique called stochastic gradient descent (SGD). This chapter provides background material, explains why SGD is a. Abstract WeChapter 1 strongly advocates the stochastic back-propagation method to train neural networks. This is in fact an instance of a more general technique called stochastic gradient descent (SGD). This chapter provides background material, explains why SGD is a. Abstract We show how nonlinear semi-supervised embedding algorithms popular for use with \u00e2 \u0153shallow\u00e2 learning techniques such as kernel methods can be easily applied to deep multi-layer architectures, either as a regularizer at the output layer, or on each layer."
+            },
+            "slug": "Neural-Networks:-Tricks-of-the-Trade-Hartmanis-Leeuwen",
+            "title": {
+                "fragments": [],
+                "text": "Neural Networks: Tricks of the Trade"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "It is shown how nonlinear semi-supervised embedding algorithms popular for use with \u00e2 \u0153shallow\u00e2 learning techniques such as kernel methods can be easily applied to deep multi-layer architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Lecture Notes in Computer Science"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46234526"
+                        ],
+                        "name": "Alex Smola",
+                        "slug": "Alex-Smola",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Smola",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alex Smola"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 104,
+                                "start": 81
+                            }
+                        ],
+                        "text": "The starting point is the choice of a suitable cost function and function space (Scho\u0308lkopf & Smola, 2002)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 60
+                            }
+                        ],
+                        "text": "Note that the representer theorem (Kimeldorf & Wahba, 1971; Scho\u0308lkopf & Smola, 2002) applies to this case also: any solution f\u2217 that minimizes (17)\ncan be written in the form\nf\u2217(x) =\nm \u2211\ni=1\n\u03b1ik(x,xi) (18)\nsince in the first term on the right of Eq."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 82
+                            }
+                        ],
+                        "text": "The data for a given query is constructed from that query and from a precomputed index."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 75,
+                                "start": 52
+                            }
+                        ],
+                        "text": "The data comprises 17,004 queries for the\nEnglish / US market, each with up to 1000 returned documents."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 29871328,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d5051890e501117097eeffbd8ded87694f0d8063",
+            "isKey": true,
+            "numCitedBy": 6596,
+            "numCiting": 66,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "All rights reserved. No part of this book may be reproduced in any form by any electronic or mechanical means (including photocopying, recording, or information storage and retrieval) without permission in writing from the publisher."
+            },
+            "slug": "Learning-with-kernels-Smola",
+            "title": {
+                "fragments": [],
+                "text": "Learning with kernels"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 36,
+                "text": "This book is intended to be a guide to the art of self-consistency and should not be used as a substitute for a comprehensive guide to self-confidence."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145727186"
+                        ],
+                        "name": "R. Caruana",
+                        "slug": "R.-Caruana",
+                        "structuredName": {
+                            "firstName": "Rich",
+                            "lastName": "Caruana",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Caruana"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1767244"
+                        ],
+                        "name": "S. Baluja",
+                        "slug": "S.-Baluja",
+                        "structuredName": {
+                            "firstName": "Shumeet",
+                            "lastName": "Baluja",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Baluja"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40975594"
+                        ],
+                        "name": "Tom Michael Mitchell",
+                        "slug": "Tom-Michael-Mitchell",
+                        "structuredName": {
+                            "firstName": "Tom",
+                            "lastName": "Mitchell",
+                            "middleNames": [
+                                "Michael"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tom Michael Mitchell"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 10
+                            }
+                        ],
+                        "text": "RankProp (Caruana et al., 1996) is also a neural net ranking model."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 84618,
+            "fieldsOfStudy": [
+                "Medicine"
+            ],
+            "id": "37bad2daf9b5d26a2d4c0e99c412751e95d76c38",
+            "isKey": false,
+            "numCitedBy": 175,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A patient visits the doctor; the doctor reviews the patient's history, asks questions, makes basic measurements (blood pressure, ...), and prescribes tests or treatment. The prescribed course of action is based on an assessment of patient risk--patients at higher risk are given more and faster attention. It is also sequential--it is too expensive to immediately order all tests which might later be of value. This paper presents two methods that together improve the accuracy of backprop nets on a pneumonia risk assessment problem by 10-50%. Rankprop improves on backpropagation with sum of squares error in ranking patients by risk. Multitask learning takes advantage of future lab tests available in the training set, but not available in practice when predictions must be made. Both methods are broadly applicable."
+            },
+            "slug": "Using-the-Future-to-Sort-Out-the-Present:-Rankprop-Caruana-Baluja",
+            "title": {
+                "fragments": [],
+                "text": "Using the Future to Sort Out the Present: Rankprop and Multitask Learning for Medical Risk Evaluation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "Two methods that together improve the accuracy of backprop nets on a pneumonia risk assessment problem by 10-50%."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2768186"
+                        ],
+                        "name": "K. J\u00e4rvelin",
+                        "slug": "K.-J\u00e4rvelin",
+                        "structuredName": {
+                            "firstName": "Kalervo",
+                            "lastName": "J\u00e4rvelin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. J\u00e4rvelin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2732839"
+                        ],
+                        "name": "Jaana Kek\u00e4l\u00e4inen",
+                        "slug": "Jaana-Kek\u00e4l\u00e4inen",
+                        "structuredName": {
+                            "firstName": "Jaana",
+                            "lastName": "Kek\u00e4l\u00e4inen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jaana Kek\u00e4l\u00e4inen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 101,
+                                "start": 97
+                            }
+                        ],
+                        "text": "Note that unlabeled documents does not contribute to the sum directly, but will still reduce the NDCG by displacing labeled documents; also note that Ni = 1 is an unlikely event, even for a perfect ranker, since some unlabeled documents may in fact be highly relevant."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 54,
+                                "start": 50
+                            }
+                        ],
+                        "text": "Table 3 collects statistics on the data used; the NDCG results at rank 15 are shown, with 95% confidence intervals5, in Table 4."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 119,
+                                "start": 92
+                            }
+                        ],
+                        "text": "Ranking accuracy was computed using a normalized discounted cumulative gain measure (NDCG) (Jarvelin & Kekalainen, 2000)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 24
+                            }
+                        ],
+                        "text": "We chose to compute the NDCG at rank 15, a little beyond the set of documents initially viewed by most users."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 98
+                            }
+                        ],
+                        "text": "For a given query qi, the results are sorted by decreasing score output by the algorithm, and the NDCG is then computed as\nNi \u2261 Ni\n15 \u2211\nj=1\n(2r(j) \u2212 1)/ log(1 + j) (16)\nwhere r(j) is the rating of the j\u2019th document, and where the normalization constant Ni is chosen so that a perfect ordering gets NDCG score 1."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 102
+                            }
+                        ],
+                        "text": "Note also that the fraction of labeled documents in the test set is only approximately 1%, so the low NDCG scores are likely to be due in part to relevant but unlabeled documents being given high rank."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 61
+                            }
+                        ],
+                        "text": "For those queries with fewer than 15 returned documents, the NDCG was computed for all the returned documents."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 27
+                            }
+                        ],
+                        "text": "Although the difference in NDCG for the linear and two layer nets is not statistically significant at the 5% standard error level, a Wilcoxon rank test shows that the null hypothesis (that the medians are the same) can be rejected at the 16% level."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "We conclude that for this kind of data at least, training on ties makes little difference."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7644747,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3464374899e799cbd516d00f75e425efd495150e",
+            "isKey": true,
+            "numCitedBy": 1133,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper proposes evaluation methods based on the use of non-dichotomous relevance judgements in IR experiments. It is argued that evaluation methods should credit IR methods for their ability to retrieve highly relevant documents. This is desirable from the user point of view in modern large IR environments. The proposed methods are (1) a novel application of P-R curves and average precision computations based on separate recall bases for documents of different degrees of relevance, and (2) two novel measures computing the cumulative gain the user obtains by examining the retrieval result up to a given ranked position. We then demonstrate the use of these evaluation methods in a case study on the effectiveness of query types, based on combinations of query structures and expansion, in retrieving documents of various degrees of relevance. The test was run with a best match retrieval system (In-Query1) in a text database consisting of newspaper articles. The results indicate that the tested strong query structures are most effective in retrieving highly relevant documents. The differences between the query types are practically essential and statistically significant. More generally, the novel evaluation methods and the case demonstrate that non-dichotomous relevance assessments are applicable in IR experiments, may reveal interesting phenomena, and allow harder testing of IR methods."
+            },
+            "slug": "IR-evaluation-methods-for-retrieving-highly-J\u00e4rvelin-Kek\u00e4l\u00e4inen",
+            "title": {
+                "fragments": [],
+                "text": "IR evaluation methods for retrieving highly relevant documents"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 58,
+                "text": "The novel evaluation methods and the case demonstrate that non-dichotomous relevance assessments are applicable in IR experiments, may reveal interesting phenomena, and allow harder testing of IR methods."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGIR '00"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2676309"
+                        ],
+                        "name": "C. Burges",
+                        "slug": "C.-Burges",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Burges",
+                            "middleNames": [
+                                "J.",
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Burges"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 100,
+                                "start": 86
+                            }
+                        ],
+                        "text": "Rather than learning with the quadratic kernel and then applying a reduced set method (Burges, 1996), we simply added a further step of preprocessing, taking the features, and"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 87
+                            }
+                        ],
+                        "text": "Rather than learning with the quadratic kernel and then applying a reduced set method (Burges, 1996), we simply added a further step of preprocessing, taking the features, and\nevery quadratic combination, as a new feature set."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 52810328,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1061ff8a216a8d00f5f189d7ea593c6f0703b771",
+            "isKey": false,
+            "numCitedBy": 511,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A Support Vector Machine SVM is a uni versal learning machine whose decision sur face is parameterized by a set of support vec tors and by a set of corresponding weights An SVM is also characterized by a kernel function Choice of the kernel determines whether the resulting SVM is a polynomial classi er a two layer neural network a ra dial basis function machine or some other learning machine SVMs are currently considerably slower in test phase than other approaches with sim ilar generalization performance To address this we present a general method to signif icantly decrease the complexity of the deci sion rule obtained using an SVM The pro posed method computes an approximation to the decision rule in terms of a reduced set of vectors These reduced set vectors are not support vectors and can in some cases be computed analytically We give ex perimental results for three pattern recogni tion problems The results show that the method can decrease the computational com plexity of the decision rule by a factor of ten with no loss in generalization perfor mance making the SVM test speed com petitive with that of other methods Fur ther the method allows the generalization performance complexity trade o to be di rectly controlled The proposed method is not speci c to pattern recognition and can be applied to any problem where the Sup port Vector algorithm is used for example regression INTRODUCTION SUPPORT VECTOR MACHINES Consider a two class classi er for which the decision rule takes the form"
+            },
+            "slug": "Simplified-Support-Vector-Decision-Rules-Burges",
+            "title": {
+                "fragments": [],
+                "text": "Simplified Support Vector Decision Rules"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "The results show that the method can decrease the computational complexity of the decision rule by a factor of ten with no loss in generalization perfor mance making the SVM test speed com petitive with that of other methods."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144299726"
+                        ],
+                        "name": "Thomas G. Dietterich",
+                        "slug": "Thomas-G.-Dietterich",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Dietterich",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Thomas G. Dietterich"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 70
+                            }
+                        ],
+                        "text": "two layer neural nets can approximate any bounded continuous function (Mitchell, 1997)), and since they are often faster in test phase than competing kernel methods (and test speed is critical for this application); however our cost function could equally well be applied to a variety of machine learning algorithms."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 162,
+                                "start": 148
+                            }
+                        ],
+                        "text": "\u2026to explore these ideas using neural networks, since they are flexible (e.g. two layer neural nets can approximate any bounded continuous function (Mitchell, 1997)), and since they are often faster in test phase than competing kernel methods (and test speed is critical for this application);\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6134427,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "aab43c9c33af00b718cf2ae374b861d49862a563",
+            "isKey": false,
+            "numCitedBy": 15782,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Machine Learning is the study of methods for programming computers to learn. Computers are applied to a wide range of tasks, and for most of these it is relatively easy for programmers to design and implement the necessary software. However, there are many tasks for which this is difficult or impossible. These can be divided into four general categories. First, there are problems for which there exist no human experts. For example, in modern automated manufacturing facilities, there is a need to predict machine failures before they occur by analyzing sensor readings. Because the machines are new, there are no human experts who can be interviewed by a programmer to provide the knowledge necessary to build a computer system. A machine learning system can study recorded data and subsequent machine failures and learn prediction rules. Second, there are problems where human experts exist, but where they are unable to explain their expertise. This is the case in many perceptual tasks, such as speech recognition, hand-writing recognition, and natural language understanding. Virtually all humans exhibit expert-level abilities on these tasks, but none of them can describe the detailed steps that they follow as they perform them. Fortunately, humans can provide machines with examples of the inputs and correct outputs for these tasks, so machine learning algorithms can learn to map the inputs to the outputs. Third, there are problems where phenomena are changing rapidly. In finance, for example, people would like to predict the future behavior of the stock market, of consumer purchases, or of exchange rates. These behaviors change frequently, so that even if a programmer could construct a good predictive computer program, it would need to be rewritten frequently. A learning program can relieve the programmer of this burden by constantly modifying and tuning a set of learned prediction rules. Fourth, there are applications that need to be customized for each computer user separately. Consider, for example, a program to filter unwanted electronic mail messages. Different users will need different filters. It is unreasonable to expect each user to program his or her own rules, and it is infeasible to provide every user with a software engineer to keep the rules up-to-date. A machine learning system can learn which mail messages the user rejects and maintain the filtering rules automatically. Machine learning addresses many of the same research questions as the fields of statistics, data mining, and psychology, but with differences of emphasis. Statistics focuses on understanding the phenomena that have generated the data, often with the goal of testing different hypotheses about those phenomena. Data mining seeks to find patterns in the data that are understandable by people. Psychological studies of human learning aspire to understand the mechanisms underlying the various learning behaviors exhibited by people (concept learning, skill acquisition, strategy change, etc.)."
+            },
+            "slug": "Machine-learning-Dietterich",
+            "title": {
+                "fragments": [],
+                "text": "Machine learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "Machine learning addresses many of the same research questions as the fields of statistics, data mining, and psychology, but with differences of emphasis."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CSUR"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1719030"
+                        ],
+                        "name": "P. R\u00e9fr\u00e9gier",
+                        "slug": "P.-R\u00e9fr\u00e9gier",
+                        "structuredName": {
+                            "firstName": "Philippe",
+                            "lastName": "R\u00e9fr\u00e9gier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. R\u00e9fr\u00e9gier"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144188711"
+                        ],
+                        "name": "F. Vallet",
+                        "slug": "F.-Vallet",
+                        "structuredName": {
+                            "firstName": "F.",
+                            "lastName": "Vallet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Vallet"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 61,
+                                "start": 37
+                            }
+                        ],
+                        "text": "3A similar argument can be found in (Refregier & Vallet, 1991); however there the intent was to uncover underlying class conditional probabilities from pairwise probabilities; here, we have no analog of the class conditional probabilities."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 123279243,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8bb5acf8b6c1599c3c4a9bad6fbcd909593dd647",
+            "isKey": false,
+            "numCitedBy": 31,
+            "numCiting": 5,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "PROBABILISTIC-APPROACH-FOR-MULTICLASS-WITH-NEURAL-R\u00e9fr\u00e9gier-Vallet",
+            "title": {
+                "fragments": [],
+                "text": "PROBABILISTIC APPROACH FOR MULTICLASS CLASSIFICATION WITH NEURAL NETWORKS"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "101750654"
+                        ],
+                        "name": "G. Kimeldorf",
+                        "slug": "G.-Kimeldorf",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Kimeldorf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Kimeldorf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145733439"
+                        ],
+                        "name": "G. Wahba",
+                        "slug": "G.-Wahba",
+                        "structuredName": {
+                            "firstName": "Grace",
+                            "lastName": "Wahba",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Wahba"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 58,
+                                "start": 35
+                            }
+                        ],
+                        "text": "Note that the representer theorem (Kimeldorf & Wahba, 1971; Scho\u0308lkopf & Smola, 2002) applies to this case also: any solution f\u2217 that minimizes (17)\ncan be written in the form\nf\u2217(x) =\nm \u2211\ni=1\n\u03b1ik(x,xi) (18)\nsince in the first term on the right of Eq."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 121062339,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "3065c5e37a0c1f1be365e88ddf2d5cd02faa5db1",
+            "isKey": false,
+            "numCitedBy": 1334,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Some-results-on-Tchebycheffian-spline-functions-Kimeldorf-Wahba",
+            "title": {
+                "fragments": [],
+                "text": "Some results on Tchebycheffian spline functions"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1971
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "120242409"
+                        ],
+                        "name": "J. Bromley",
+                        "slug": "J.-Bromley",
+                        "structuredName": {
+                            "firstName": "Jane",
+                            "lastName": "Bromley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bromley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2058232056"
+                        ],
+                        "name": "James W. Bentz",
+                        "slug": "James-W.-Bentz",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bentz",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James W. Bentz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52184096"
+                        ],
+                        "name": "L. Bottou",
+                        "slug": "L.-Bottou",
+                        "structuredName": {
+                            "firstName": "L\u00e9on",
+                            "lastName": "Bottou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Bottou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1743797"
+                        ],
+                        "name": "I. Guyon",
+                        "slug": "I.-Guyon",
+                        "structuredName": {
+                            "firstName": "Isabelle",
+                            "lastName": "Guyon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. Guyon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49015421"
+                        ],
+                        "name": "C. Moore",
+                        "slug": "C.-Moore",
+                        "structuredName": {
+                            "firstName": "Cliff",
+                            "lastName": "Moore",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Moore"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1776424"
+                        ],
+                        "name": "Eduard S\u00e4ckinger",
+                        "slug": "Eduard-S\u00e4ckinger",
+                        "structuredName": {
+                            "firstName": "Eduard",
+                            "lastName": "S\u00e4ckinger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eduard S\u00e4ckinger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2105573840"
+                        ],
+                        "name": "Roopak Shah",
+                        "slug": "Roopak-Shah",
+                        "structuredName": {
+                            "firstName": "Roopak",
+                            "lastName": "Shah",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Roopak Shah"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 74
+                            }
+                        ],
+                        "text": "4One can also view this as a weight sharing update for a Siamese-like net(Bromley et al., 1993)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 93,
+                                "start": 73
+                            }
+                        ],
+                        "text": "Table 2 compares results, for the polynomial ranking function, of training on ties, assigning P = 1 for nonties and P = 0.5 for ties, using a two layer net with 10 hidden units."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16394033,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "997dc5d9a058753f034422afe7bd0cc0b8ad808b",
+            "isKey": true,
+            "numCitedBy": 2652,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes an algorithm for verification of signatures written on a pen-input tablet. The algorithm is based on a novel, artificial neural network, called a \"Siamese\" neural network. This network consists of two identical sub-networks joined at their outputs. During training the two sub-networks extract features from two signatures, while the joining neuron measures the distance between the two feature vectors. Verification consists of comparing an extracted feature vector with a stored feature vector for the signer. Signatures closer to this stored representation than a chosen threshold are accepted, all other signatures are rejected as forgeries."
+            },
+            "slug": "Signature-Verification-Using-A-\"Siamese\"-Time-Delay-Bromley-Bentz",
+            "title": {
+                "fragments": [],
+                "text": "Signature Verification Using A \"Siamese\" Time Delay Neural Network"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 78,
+                "text": "An algorithm for verification of signatures written on a pen-input tablet based on a novel, artificial neural network called a \"Siamese\" neural network, which consists of two identical sub-networks joined at their outputs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Int. J. Pattern Recognit. Artif. Intell."
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "69566971"
+                        ],
+                        "name": "R. A. Bradley",
+                        "slug": "R.-A.-Bradley",
+                        "structuredName": {
+                            "firstName": "Ralph",
+                            "lastName": "Bradley",
+                            "middleNames": [
+                                "Allan"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. A. Bradley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49491973"
+                        ],
+                        "name": "M. E. Terry",
+                        "slug": "M.-E.-Terry",
+                        "structuredName": {
+                            "firstName": "Milton",
+                            "lastName": "Terry",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. E. Terry"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 57,
+                                "start": 36
+                            }
+                        ],
+                        "text": "In (Hastie & Tibshirani, 1998) and (Bradley & Terry, 1952), the authors consider models of the following form: for some fixed set of events A1, . . . , Ak, pairwise probabilities P (Ai|Ai or Aj) are given, and it is assumed that there is a set of probabilities P\u0302i such that P (Ai|Ai or Aj) =\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "In (Hastie & Tibshirani, 1998) and ( Bradley & Terry, 1952 ), the authors consider models of the following form: for some xed set of events A1; : : : ; Ak, pairwise probabilities P (AijAi or Aj) are given, and it is assumed that there is a set of probabilities ^"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 125209808,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "d0da6b23e08524d9ff8550c84dcbafb24a37f829",
+            "isKey": false,
+            "numCitedBy": 1372,
+            "numCiting": 2,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Rank-Analysis-of-Incomplete-Block-Designs:-I.-The-Bradley-Terry",
+            "title": {
+                "fragments": [],
+                "text": "Rank Analysis of Incomplete Block Designs: I. The Method of Paired Comparisons"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1952
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3234984"
+                        ],
+                        "name": "R. Herbrich",
+                        "slug": "R.-Herbrich",
+                        "structuredName": {
+                            "firstName": "Ralf",
+                            "lastName": "Herbrich",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Herbrich"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 21
+                            }
+                        ],
+                        "text": "Our approach follows (Herbrich et al., 2000) in that we train on pairs of examples to learn a ranking function"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 216,
+                                "start": 195
+                            }
+                        ],
+                        "text": "Although the linear version is an online algorithm2, PRank has been compared to batch ranking algorithms, and a quadratic kernel version was found to outperform all such algorithms described in (Herbrich et al., 2000)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 219,
+                                "start": 196
+                            }
+                        ],
+                        "text": "Although the linear version is an online algorithm(2), PRank has been compared to batch ranking algorithms, and a quadratic kernel version was found to outperform all such algorithms described in (Herbrich et al., 2000)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 22,
+                                "start": 1
+                            }
+                        ],
+                        "text": "(Herbrich et al., 2000) cast the problem of learning to rank as ordinal regression, that is, learning the mapping of an input vector to a member of an ordered set of numerical ranks."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 9
+                            }
+                        ],
+                        "text": "However (Herbrich et al., 2000) cast the ranking problem as an ordinal regression problem; rank boundaries play a critical role during training, as they do for several other algorithms (Crammer & Singer, 2002; Harrington, 2003)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 22
+                            }
+                        ],
+                        "text": "Our approach follows (Herbrich et al., 2000) in that we train on pairs of examples to learn a ranking function\nAppearing in Proceedings of the 22 nd International Conference on Machine Learning, Bonn, Germany, 2005."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 209928701,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "81b8bb14524665e3dbaa772f297cd5e5e79ba0d6",
+            "isKey": true,
+            "numCitedBy": 423,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Large-margin-rank-boundaries-for-ordinal-regression-Herbrich",
+            "title": {
+                "fragments": [],
+                "text": "Large margin rank boundaries for ordinal regression"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39962304"
+                        ],
+                        "name": "Darren Gehring",
+                        "slug": "Darren-Gehring",
+                        "structuredName": {
+                            "firstName": "Darren",
+                            "lastName": "Gehring",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Darren Gehring"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1686971"
+                        ],
+                        "name": "T. Graepel",
+                        "slug": "T.-Graepel",
+                        "structuredName": {
+                            "firstName": "Thore",
+                            "lastName": "Graepel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Graepel"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 22,
+                                "start": 1
+                            }
+                        ],
+                        "text": "(Herbrich et al., 2000) cast the problem of learning to rank as ordinal regression, that is, learning the mapping of an input vector to a member of an ordered set of numerical ranks."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 22
+                            }
+                        ],
+                        "text": "Our approach follows (Herbrich et al., 2000) in that we train on pairs of examples to learn a ranking function\nAppearing in Proceedings of the 22 nd International Conference on Machine Learning, Bonn, Germany, 2005."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 216,
+                                "start": 195
+                            }
+                        ],
+                        "text": "Although the linear version is an online algorithm2, PRank has been compared to batch ranking algorithms, and a quadratic kernel version was found to outperform all such algorithms described in (Herbrich et al., 2000)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 9
+                            }
+                        ],
+                        "text": "However (Herbrich et al., 2000) cast the ranking problem as an ordinal regression problem; rank boundaries play a critical role during training, as they do for several other algorithms (Crammer & Singer, 2002; Harrington, 2003)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 60533697,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "958f001b6f348f7c353260b289bed185fffac847",
+            "isKey": true,
+            "numCitedBy": 980,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Large-Margin-Rank-Boundaries-for-Ordinal-Regression-Gehring-Graepel",
+            "title": {
+                "fragments": [],
+                "text": "Large Margin Rank Boundaries for Ordinal Regression"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2000
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 74
+                            }
+                        ],
+                        "text": "4One can also view this as a weight sharing update for a Siamese-like net(Bromley et al., 1993)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 72
+                            }
+                        ],
+                        "text": "One can also view this as a weight sharing update for a Siamese-like net(Bromley et al., 1993)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Signature Verification Using a \u201dSiamese"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Time Delay Neural Network. Advances in Pattern Recognition Systems using Neural Network Tech-"
+            },
+            "year": 1993
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 74
+                            }
+                        ],
+                        "text": "4One can also view this as a weight sharing update for a Siamese-like net(Bromley et al., 1993)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Signature Verification Using a \u201d"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Siamese \u201d Time Delay Neural Network . Advances in Pattern Recognition Systems using Neural Network Technologies , World Scientific"
+            },
+            "year": 1993
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 29,
+                                "start": 4
+                            }
+                        ],
+                        "text": "In (Hastie & Tibshirani, 1998) and (Bradley & Terry, 1952), the authors consider models of the following form: for some fixed set of events A1, . . . , Ak, pairwise probabilities P (Ai|Ai or Aj) are given, and it is assumed that there is a set of probabilities P\u0302i such that P (Ai|Ai or Aj) =\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Classification by pairwise coupling. NIPS 10"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Classification by pairwise coupling. NIPS 10"
+            },
+            "year": 1998
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 19,
+            "methodology": 12
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 22,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Learning-to-rank-using-gradient-descent-Burges-Shaked/63aaf12163fe9735dfe9a69114937c4fa34f303a?sort=total-citations"
+}

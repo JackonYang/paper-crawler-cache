@@ -1,0 +1,2398 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144638694"
+                        ],
+                        "name": "Adam Coates",
+                        "slug": "Adam-Coates",
+                        "structuredName": {
+                            "firstName": "Adam",
+                            "lastName": "Coates",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Adam Coates"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34699434"
+                        ],
+                        "name": "A. Ng",
+                        "slug": "A.-Ng",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Ng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Ng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1697141"
+                        ],
+                        "name": "Honglak Lee",
+                        "slug": "Honglak-Lee",
+                        "structuredName": {
+                            "firstName": "Honglak",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Honglak Lee"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 28
+                            }
+                        ],
+                        "text": "Recent results such as [5], [6], and [7] demonstrate that the challenge of hyper-parameter optimization in large and multilayer models is a direct impediment to scientific progress."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 308212,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "be9a17321537d9289875fe475b71f4821457b435",
+            "isKey": false,
+            "numCitedBy": 2628,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A great deal of research has focused on algorithms for learning features from unlabeled data. Indeed, much progress has been made on benchmark datasets like NORB and CIFAR by employing increasingly complex unsupervised learning algorithms and deep models. In this paper, however, we show that several simple factors, such as the number of hidden nodes in the model, may be more important to achieving high performance than the learning algorithm or the depth of the model. Specifically, we will apply several othe-shelf feature learning algorithms (sparse auto-encoders, sparse RBMs, K-means clustering, and Gaussian mixtures) to CIFAR, NORB, and STL datasets using only singlelayer networks. We then present a detailed analysis of the eect of changes in the model setup: the receptive field size, number of hidden nodes (features), the step-size (\u201cstride\u201d) between extracted features, and the eect of whitening. Our results show that large numbers of hidden nodes and dense feature extraction are critical to achieving high performance\u2014so critical, in fact, that when these parameters are pushed to their limits, we achieve state-of-the-art performance on both CIFAR-10 and NORB using only a single layer of features. More surprisingly, our best performance is based on K-means clustering, which is extremely fast, has no hyperparameters to tune beyond the model structure itself, and is very easy to implement. Despite the simplicity of our system, we achieve accuracy beyond all previously published results on the CIFAR-10 and NORB datasets (79.6% and 97.2% respectively)."
+            },
+            "slug": "An-Analysis-of-Single-Layer-Networks-in-Feature-Coates-Ng",
+            "title": {
+                "fragments": [],
+                "text": "An Analysis of Single-Layer Networks in Unsupervised Feature Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "The results show that large numbers of hidden nodes and dense feature extraction are critical to achieving high performance\u2014so critical, in fact, that when these parameters are pushed to their limits, they achieve state-of-the-art performance on both CIFAR-10 and NORB using only a single layer of features."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AISTATS"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2103302"
+                        ],
+                        "name": "R. Bardenet",
+                        "slug": "R.-Bardenet",
+                        "structuredName": {
+                            "firstName": "R\u00e9mi",
+                            "lastName": "Bardenet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Bardenet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143674326"
+                        ],
+                        "name": "B. K\u00e9gl",
+                        "slug": "B.-K\u00e9gl",
+                        "structuredName": {
+                            "firstName": "Bal\u00e1zs",
+                            "lastName": "K\u00e9gl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. K\u00e9gl"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 7130568,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "560ac582a82dc0ce9765fc942f07f94908eaeeb3",
+            "isKey": false,
+            "numCitedBy": 42,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In global optimization, when the evaluation of the target function is costly, the usual strategy is to learn a surrogate model for the target function and replace the initial optimization by the optimization of the model. Gaussian processes have been widely used since they provide an elegant way to model the fitness and to deal with the exploration-exploitation trade-off in a principled way. Several empirical criteria have been proposed to drive the model optimization, among which is the well-known Expected Improvement criterion. The major computational bottleneck of these algorithms is the exhaustive grid search used to optimize the highly multimodal merit function. In this paper, we propose a competitive \"adaptive grid\" approach, based on a properly derived cross-entropy optimization algorithm with mixture proposals. Experiments suggest that 1) we outperform the classical single-Gaussian cross-entropy method when the fitness function is highly multimodal, and 2) we improve on standard exhaustive search in GP-based surrogate optimization."
+            },
+            "slug": "Surrogating-the-surrogate:-accelerating-global-with-Bardenet-K\u00e9gl",
+            "title": {
+                "fragments": [],
+                "text": "Surrogating the surrogate: accelerating Gaussian-process-based global optimization with a mixture cross-entropy algorithm"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Experiments suggest that 1) the competitive \"adaptive grid\" approach outperforms the classical single-Gaussian cross-entropy method when the fitness function is highly multimodal, and 2) it improves on standard exhaustive search in GP-based surrogate optimization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144638694"
+                        ],
+                        "name": "Adam Coates",
+                        "slug": "Adam-Coates",
+                        "structuredName": {
+                            "firstName": "Adam",
+                            "lastName": "Coates",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Adam Coates"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34699434"
+                        ],
+                        "name": "A. Ng",
+                        "slug": "A.-Ng",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Ng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Ng"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The results of [5] and [7] suggest that with current generation hardware such as large computer clusters and GPUs, the optimal alloca-"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Recent results such as [5], [6], and [7] demonstrate that the challenge of hyper-parameter optimization in large and multilayer models is a direct impediment to scientific progress."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12132619,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6f568d757d2c1ab42f2006faa25690b74c3d2d44",
+            "isKey": false,
+            "numCitedBy": 603,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "While vector quantization (VQ) has been applied widely to generate features for visual recognition problems, much recent work has focused on more powerful methods. In particular, sparse coding has emerged as a strong alternative to traditional VQ approaches and has been shown to achieve consistently higher performance on benchmark datasets. Both approaches can be split into a training phase, where the system learns a dictionary of basis functions, and an encoding phase, where the dictionary is used to extract features from new inputs. In this work, we investigate the reasons for the success of sparse coding over VQ by decoupling these phases, allowing us to separate out the contributions of training and encoding in a controlled way. Through extensive experiments on CIFAR, NORB and Caltech 101 datasets, we compare several training and encoding schemes, including sparse coding and a form of VQ with a soft threshold activation function. Our results show not only that we can use fast VQ algorithms for training, but that we can just as well use randomly chosen exemplars from the training set. Rather than spend resources on training, we find it is more important to choose a good encoder\u2014which can often be a simple feed forward non-linearity. Our results include state-of-the-art performance on both CIFAR and NORB."
+            },
+            "slug": "The-Importance-of-Encoding-Versus-Training-with-and-Coates-Ng",
+            "title": {
+                "fragments": [],
+                "text": "The Importance of Encoding Versus Training with Sparse Coding and Vector Quantization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work investigates the reasons for the success of sparse coding over VQ by decoupling these phases, allowing us to separate out the contributions of training and encoding in a controlled way and shows not only that it can use fast VQ algorithms for training, but that they can just as well use randomly chosen exemplars from the training set."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2217144"
+                        ],
+                        "name": "Simon Osindero",
+                        "slug": "Simon-Osindero",
+                        "structuredName": {
+                            "firstName": "Simon",
+                            "lastName": "Osindero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Simon Osindero"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1725303"
+                        ],
+                        "name": "Y. Teh",
+                        "slug": "Y.-Teh",
+                        "structuredName": {
+                            "firstName": "Yee",
+                            "lastName": "Teh",
+                            "middleNames": [
+                                "Whye"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Teh"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Models such as Deep Belief Networks (DBNs) [2], stacked denoising autoencoders [3], convolutional networks [4], as well as classifiers based on sophisticated feature extraction techniques have from ten to perhaps fifty hyper-parameters, depending on how the experimenter chooses to parametrize the model, and how many hyper-parameters the experimenter chooses to fix at a reasonable default."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2309950,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8978cf7574ceb35f4c3096be768c7547b28a35d0",
+            "isKey": false,
+            "numCitedBy": 13502,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We show how to use complementary priors to eliminate the explaining-away effects that make inference difficult in densely connected belief nets that have many hidden layers. Using complementary priors, we derive a fast, greedy algorithm that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory. The fast, greedy algorithm is used to initialize a slower learning procedure that fine-tunes the weights using a contrastive version of the wake-sleep algorithm. After fine-tuning, a network with three hidden layers forms a very good generative model of the joint distribution of handwritten digit images and their labels. This generative model gives better digit classification than the best discriminative learning algorithms. The low-dimensional manifolds on which the digits lie are modeled by long ravines in the free-energy landscape of the top-level associative memory, and it is easy to explore these ravines by using the directed connections to display what the associative memory has in mind."
+            },
+            "slug": "A-Fast-Learning-Algorithm-for-Deep-Belief-Nets-Hinton-Osindero",
+            "title": {
+                "fragments": [],
+                "text": "A Fast Learning Algorithm for Deep Belief Nets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "A fast, greedy algorithm is derived that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777528"
+                        ],
+                        "name": "H. Larochelle",
+                        "slug": "H.-Larochelle",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "Larochelle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Larochelle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1761978"
+                        ],
+                        "name": "D. Erhan",
+                        "slug": "D.-Erhan",
+                        "structuredName": {
+                            "firstName": "D.",
+                            "lastName": "Erhan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Erhan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1760871"
+                        ],
+                        "name": "Aaron C. Courville",
+                        "slug": "Aaron-C.-Courville",
+                        "structuredName": {
+                            "firstName": "Aaron",
+                            "lastName": "Courville",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aaron C. Courville"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32837403"
+                        ],
+                        "name": "J. Bergstra",
+                        "slug": "J.-Bergstra",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bergstra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bergstra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "But the objection that random search is somehow cheating by searching a larger space is backward \u2013 the search space outlined in Table 1 is a natural description of the hyper-parameter optimization problem, and the restrictions to that space by [1] were presumably made to simplify the search problem and make it tractable for grid-search assisted manual search."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "In this section, we evaluate random search for DBN optimization, compared with the sequential grid-assisted manual search carried out in [1]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The details of the datasets, the DBN model, and the greedy layer-wise training procedure based on CD are provided in [1]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The solid black line is the test set accuracy obtained by domain experts using a combination of grid search and manual search [1]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "This paper makes two contributions: 1) Random search is competitive with the manual optimization of DBNs in [1], and 2) Automatic sequential optimization outperforms both manual and random search."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The trajectories (H) constructed by each algorithm up to 200 steps are illustrated in Figure 4, and compared with random search and the manual search carried out in [1]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The sequential algorithms are applied to the most difficult DBN learning problems from [1] and find significantly better results than the best previously reported."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The GP and TPE algorithms were slightly less efficient than manual search: GP and EI identified performance on par with manual search within 80 trials, the manual search of [1] used 82 trials for convex and 27 trials for MRBI."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14805281,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b8012351bc5ebce4a4b3039bbbba3ce393bc3315",
+            "isKey": false,
+            "numCitedBy": 983,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recently, several learning algorithms relying on models with deep architectures have been proposed. Though they have demonstrated impressive performance, to date, they have only been evaluated on relatively simple problems such as digit recognition in a controlled environment, for which many machine learning algorithms already report reasonable results. Here, we present a series of experiments which indicate that these models show promise in solving harder learning problems that exhibit many factors of variation. These models are compared with well-established algorithms such as Support Vector Machines and single hidden-layer feed-forward neural networks."
+            },
+            "slug": "An-empirical-evaluation-of-deep-architectures-on-of-Larochelle-Erhan",
+            "title": {
+                "fragments": [],
+                "text": "An empirical evaluation of deep architectures on problems with many factors of variation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "A series of experiments indicate that these models with deep architectures show promise in solving harder learning problems that exhibit many factors of variation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML '07"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32837403"
+                        ],
+                        "name": "J. Bergstra",
+                        "slug": "J.-Bergstra",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bergstra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bergstra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15700257,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "188e247506ad992b8bc62d6c74789e89891a984f",
+            "isKey": false,
+            "numCitedBy": 5726,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Grid search and manual search are the most widely used strategies for hyper-parameter optimization. This paper shows empirically and theoretically that randomly chosen trials are more efficient for hyper-parameter optimization than trials on a grid. Empirical evidence comes from a comparison with a large previous study that used grid search and manual search to configure neural networks and deep belief networks. Compared with neural networks configured by a pure grid search, we find that random search over the same domain is able to find models that are as good or better within a small fraction of the computation time. Granting random search the same computational budget, random search finds better models by effectively searching a larger, less promising configuration space. Compared with deep belief networks configured by a thoughtful combination of manual search and grid search, purely random search over the same 32-dimensional configuration space found statistically equal performance on four of seven data sets, and superior performance on one of seven. A Gaussian process analysis of the function from hyper-parameters to validation set performance reveals that for most data sets only a few of the hyper-parameters really matter, but that different hyper-parameters are important on different data sets. This phenomenon makes grid search a poor choice for configuring algorithms for new data sets. Our analysis casts some light on why recent \"High Throughput\" methods achieve surprising success--they appear to search through a large number of hyper-parameters because most hyper-parameters do not matter much. We anticipate that growing interest in large hierarchical models will place an increasing burden on techniques for hyper-parameter optimization; this work shows that random search is a natural baseline against which to judge progress in the development of adaptive (sequential) hyper-parameter optimization algorithms."
+            },
+            "slug": "Random-Search-for-Hyper-Parameter-Optimization-Bergstra-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "Random Search for Hyper-Parameter Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 59,
+                "text": "This paper shows empirically and theoretically that randomly chosen trials are more efficient for hyper-parameter optimization than trials on a grid, and shows that random search is a natural baseline against which to judge progress in the development of adaptive (sequential) hyper- parameter optimization algorithms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144661829"
+                        ],
+                        "name": "F. Hutter",
+                        "slug": "F.-Hutter",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Hutter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Hutter"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Sequential Model-Based Global Optimization (SMBO) algorithms have been used in many applications where evaluation of the fitness function is expensive [8, 9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 64427497,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "08c4fdd974d874c87ea87faa6b404a7b8eb72c73",
+            "isKey": false,
+            "numCitedBy": 104,
+            "numCiting": 182,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The best-performing algorithms for many hard problems are highly parameterized. Selecting the best heuristics and tuning their parameters for optimal overall performance is often a difficult, tedious, and unsatisfying task. This thesis studies the automation of this important part of algorithm design: the configuration of discrete algorithm components and their continuous parameters to construct an algorithm with desirable empirical performance characteristics. Automated configuration procedures can facilitate algorithm development and be applied on the end user side to optimize performance for new instance types and optimization objectives. The use of such procedures separates high-level cognitive tasks carried out by humans from tedious low-level tasks that can be left to machines. We introduce two alternative algorithm configuration frameworks: iterated local search in parameter configuration space and sequential optimization based on response surface models. To the best of our knowledge, our local search approach is the first that goes beyond local optima. Our model-based search techniques significantly outperform existing techniques and extend them in ways crucial for general algorithm configuration: they can handle categorical parameters, optimization objectives defined across multiple instances, and tens of thousands of data points. We study how many runs to perform for evaluating a parameter configuration and how to set the cutoff time, after which algorithm runs are terminated unsuccessfully. We introduce data-driven approaches for making these choices adaptively, most notably the first general method for adaptively setting the cutoff time. Using our procedures\u2014to the best of our knowledge still the only ones applicable to these complex configuration tasks\u2014we configured state-of-the-art tree search and local search algorithms for SAT, as well as CPLEX, the most widely-used commercial optimization tool for solving mixed integer programs (MIP). In many cases, we achieved improvements of orders of magnitude over the algorithm default, thereby substantially improving the state of the art in solving a broad range of problems, including industrially relevant instances of SAT and MIP. Based on these results, we believe that automated algorithm configuration procedures, such as ours, will play an increasingly crucial role in the design of high-performance algorithms and will be widely used in academia and industry."
+            },
+            "slug": "Automated-configuration-of-algorithms-for-solving-Hutter",
+            "title": {
+                "fragments": [],
+                "text": "Automated configuration of algorithms for solving hard computational problems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This thesis studies the automation of this important part of algorithm design: the configuration of discrete algorithm components and their continuous parameters to construct an algorithm with desirable empirical performance characteristics and introduces data-driven approaches for making these choices adaptively."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144661829"
+                        ],
+                        "name": "F. Hutter",
+                        "slug": "F.-Hutter",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Hutter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Hutter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2470869"
+                        ],
+                        "name": "H. Hoos",
+                        "slug": "H.-Hoos",
+                        "structuredName": {
+                            "firstName": "Holger",
+                            "lastName": "Hoos",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Hoos"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388404060"
+                        ],
+                        "name": "Kevin Leyton-Brown",
+                        "slug": "Kevin-Leyton-Brown",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Leyton-Brown",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin Leyton-Brown"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Sequential Model-Based Global Optimization (SMBO) algorithms have been used in many applications where evaluation of the fitness function is expensive [8, 9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6944647,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "728744423ff0fb7e327664ed4e6352a95bb6c893",
+            "isKey": false,
+            "numCitedBy": 2055,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "State-of-the-art algorithms for hard computational problems often expose many parameters that can be modified to improve empirical performance. However, manually exploring the resulting combinatorial space of parameter settings is tedious and tends to lead to unsatisfactory outcomes. Recently, automated approaches for solving this algorithm configuration problem have led to substantial improvements in the state of the art for solving various problems. One promising approach constructs explicit regression models to describe the dependence of target algorithm performance on parameter settings; however, this approach has so far been limited to the optimization of few numerical algorithm parameters on single instances. In this paper, we extend this paradigm for the first time to general algorithm configuration problems, allowing many categorical parameters and optimization for sets of instances. We experimentally validate our new algorithm configuration procedure by optimizing a local search and a tree search solver for the propositional satisfiability problem (SAT), as well as the commercial mixed integer programming (MIP) solver CPLEX. In these experiments, our procedure yielded state-of-the-art performance, and in many cases outperformed the previous best configuration approach."
+            },
+            "slug": "Sequential-Model-Based-Optimization-for-General-Hutter-Hoos",
+            "title": {
+                "fragments": [],
+                "text": "Sequential Model-Based Optimization for General Algorithm Configuration"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper extends the explicit regression models paradigm for the first time to general algorithm configuration problems, allowing many categorical parameters and optimization for sets of instances, and yields state-of-the-art performance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LION"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "30017846"
+                        ],
+                        "name": "N. Pinto",
+                        "slug": "N.-Pinto",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Pinto",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Pinto"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3250342"
+                        ],
+                        "name": "D. Doukhan",
+                        "slug": "D.-Doukhan",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Doukhan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Doukhan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1865831"
+                        ],
+                        "name": "J. DiCarlo",
+                        "slug": "J.-DiCarlo",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "DiCarlo",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. DiCarlo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2042941"
+                        ],
+                        "name": "D. Cox",
+                        "slug": "D.-Cox",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Cox",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Cox"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The results of [5] and [7] suggest that with current generation hardware such as large computer clusters and GPUs, the optimal alloca-"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "One simple, but recent step toward formalizing hyper-parameter optimization is the use of random search [5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "It would be wrong to conclude from a result such as [5] that feature learning is useless."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Recent results such as [5], [6], and [7] demonstrate that the challenge of hyper-parameter optimization in large and multilayer models is a direct impediment to scientific progress."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 215779860,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Biology"
+            ],
+            "id": "d46fd54609e09bcd135fd28750003185a5ee4125",
+            "isKey": true,
+            "numCitedBy": 254,
+            "numCiting": 48,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "While many models of biological object recognition share a common set of \u201cbroad-stroke\u201d properties, the performance of any one model depends strongly on the choice of parameters in a particular instantiation of that model\u2014e.g., the number of units per layer, the size of pooling kernels, exponents in normalization operations, etc. Since the number of such parameters (explicit or implicit) is typically large and the computational cost of evaluating one particular parameter set is high, the space of possible model instantiations goes largely unexplored. Thus, when a model fails to approach the abilities of biological visual systems, we are left uncertain whether this failure is because we are missing a fundamental idea or because the correct \u201cparts\u201d have not been tuned correctly, assembled at sufficient scale, or provided with enough training. Here, we present a high-throughput approach to the exploration of such parameter sets, leveraging recent advances in stream processing hardware (high-end NVIDIA graphic cards and the PlayStation 3's IBM Cell Processor). In analogy to high-throughput screening approaches in molecular biology and genetics, we explored thousands of potential network architectures and parameter instantiations, screening those that show promising object recognition performance for further analysis. We show that this approach can yield significant, reproducible gains in performance across an array of basic object recognition tasks, consistently outperforming a variety of state-of-the-art purpose-built vision systems from the literature. As the scale of available computational power continues to expand, we argue that this approach has the potential to greatly accelerate progress in both artificial vision and our understanding of the computational underpinning of biological vision."
+            },
+            "slug": "A-High-Throughput-Screening-Approach-to-Discovering-Pinto-Doukhan",
+            "title": {
+                "fragments": [],
+                "text": "A High-Throughput Screening Approach to Discovering Good Forms of Biologically Inspired Visual Representation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This approach can yield significant, reproducible gains in performance across an array of basic object recognition tasks, consistently outperforming a variety of state-of-the-art purpose-built vision systems from the literature."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLoS Comput. Biol."
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145467703"
+                        ],
+                        "name": "Pascal Vincent",
+                        "slug": "Pascal-Vincent",
+                        "structuredName": {
+                            "firstName": "Pascal",
+                            "lastName": "Vincent",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pascal Vincent"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777528"
+                        ],
+                        "name": "H. Larochelle",
+                        "slug": "H.-Larochelle",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "Larochelle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Larochelle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2453026"
+                        ],
+                        "name": "Isabelle Lajoie",
+                        "slug": "Isabelle-Lajoie",
+                        "structuredName": {
+                            "firstName": "Isabelle",
+                            "lastName": "Lajoie",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Isabelle Lajoie"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1798462"
+                        ],
+                        "name": "Pierre-Antoine Manzagol",
+                        "slug": "Pierre-Antoine-Manzagol",
+                        "structuredName": {
+                            "firstName": "Pierre-Antoine",
+                            "lastName": "Manzagol",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pierre-Antoine Manzagol"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 79
+                            }
+                        ],
+                        "text": "Models such as Deep Belief Networks (DBNs) [2], stacked denoising autoencoders [3], convolutional networks [4], as well as classifiers based on sophisticated feature extraction techniques have from ten to perhaps fifty hyper-parameters, depending on how the experimenter chooses to parametrize the model, and how many hyper-parameters the experimenter chooses to fix at a reasonable default."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 17804904,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e2b7f37cd97a7907b1b8a41138721ed06a0b76cd",
+            "isKey": false,
+            "numCitedBy": 5655,
+            "numCiting": 62,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We explore an original strategy for building deep networks, based on stacking layers of denoising autoencoders which are trained locally to denoise corrupted versions of their inputs. The resulting algorithm is a straightforward variation on the stacking of ordinary autoencoders. It is however shown on a benchmark of classification problems to yield significantly lower classification error, thus bridging the performance gap with deep belief networks (DBN), and in several cases surpassing it. Higher level representations learnt in this purely unsupervised fashion also help boost the performance of subsequent SVM classifiers. Qualitative experiments show that, contrary to ordinary autoencoders, denoising autoencoders are able to learn Gabor-like edge detectors from natural image patches and larger stroke detectors from digit images. This work clearly establishes the value of using a denoising criterion as a tractable unsupervised objective to guide the learning of useful higher level representations."
+            },
+            "slug": "Stacked-Denoising-Autoencoders:-Learning-Useful-in-Vincent-Larochelle",
+            "title": {
+                "fragments": [],
+                "text": "Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work clearly establishes the value of using a denoising criterion as a tractable unsupervised objective to guide the learning of useful higher level representations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2157110"
+                        ],
+                        "name": "Niranjan Srinivas",
+                        "slug": "Niranjan-Srinivas",
+                        "structuredName": {
+                            "firstName": "Niranjan",
+                            "lastName": "Srinivas",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Niranjan Srinivas"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145343838"
+                        ],
+                        "name": "Andreas Krause",
+                        "slug": "Andreas-Krause",
+                        "structuredName": {
+                            "firstName": "Andreas",
+                            "lastName": "Krause",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andreas Krause"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144695232"
+                        ],
+                        "name": "S. Kakade",
+                        "slug": "S.-Kakade",
+                        "structuredName": {
+                            "firstName": "Sham",
+                            "lastName": "Kakade",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Kakade"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1680574"
+                        ],
+                        "name": "M. Seeger",
+                        "slug": "M.-Seeger",
+                        "structuredName": {
+                            "firstName": "Matthias",
+                            "lastName": "Seeger",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Seeger"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Other criteria have been suggested, such as Probability of Improvement and Expected Improvement [10], minimizing the Conditional Entropy of the Minimizer [11], and the bandit-based criterion described in [12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 59031327,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0c8413ab8de0c1b8f2e86402b8d737d94371610f",
+            "isKey": false,
+            "numCitedBy": 1656,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many applications require optimizing an unknown, noisy function that is expensive to evaluate. We formalize this task as a multi-armed bandit problem, where the payoff function is either sampled from a Gaussian process (GP) or has low RKHS norm. We resolve the important open problem of deriving regret bounds for this setting, which imply novel convergence rates for GP optimization. We analyze GP-UCB, an intuitive upper-confidence based algorithm, and bound its cumulative regret in terms of maximal information gain, establishing a novel connection between GP optimization and experimental design. Moreover, by bounding the latter in terms of operator spectra, we obtain explicit sublinear regret bounds for many commonly used covariance functions. In some important cases, our bounds have surprisingly weak dependence on the dimensionality. In our experiments on real sensor data, GP-UCB compares favorably with other heuristical GP optimization approaches."
+            },
+            "slug": "Gaussian-Process-Optimization-in-the-Bandit-No-and-Srinivas-Krause",
+            "title": {
+                "fragments": [],
+                "text": "Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work analyzes GP-UCB, an intuitive upper-confidence based algorithm, and bound its cumulative regret in terms of maximal information gain, establishing a novel connection between GP optimization and experimental design and obtaining explicit sublinear regret bounds for many commonly used covariance functions."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3472959"
+                        ],
+                        "name": "C. Rasmussen",
+                        "slug": "C.-Rasmussen",
+                        "structuredName": {
+                            "firstName": "Carl",
+                            "lastName": "Rasmussen",
+                            "middleNames": [
+                                "Edward"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Rasmussen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145715698"
+                        ],
+                        "name": "Christopher K. I. Williams",
+                        "slug": "Christopher-K.-I.-Williams",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Williams",
+                            "middleNames": [
+                                "K.",
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher K. I. Williams"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 199,
+                                "start": 195
+                            }
+                        ],
+                        "text": "Anticipating that our hyper-parameter optimization tasks will mean high dimensions and small fitness evaluation budgets, we now turn to another modeling strategy and EI optimization scheme for the SMBO algorithm."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1430472,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "82266f6103bade9005ec555ed06ba20b5210ff22",
+            "isKey": false,
+            "numCitedBy": 18076,
+            "numCiting": 231,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Gaussian processes (GPs) provide a principled, practical, probabilistic approach to learning in kernel machines. GPs have received growing attention in the machine learning community over the past decade. The book provides a long-needed, systematic and unified treatment of theoretical and practical aspects of GPs in machine learning. The treatment is comprehensive and self-contained, targeted at researchers and students in machine learning and applied statistics. The book deals with the supervised learning problem for both regression and classification, and includes detailed algorithms. A wide variety of covariance (kernel) functions are presented and their properties discussed. Model selection is discussed both from a Bayesian and classical perspective. Many connections to other well-known techniques from machine learning and statistics are discussed, including support vector machines, neural networks, splines, regularization networks, relevance vector machines and others. Theoretical issues including learning curves and the PAC-Bayesian framework are treated, and several approximation methods for learning with large datasets are discussed. The book contains illustrative examples and exercises. Code and datasets can be obtained on the web. Appendices provide mathematical background and a discussion of Gaussian Markov processes."
+            },
+            "slug": "Gaussian-Processes-for-Machine-Learning-Rasmussen-Williams",
+            "title": {
+                "fragments": [],
+                "text": "Gaussian Processes for Machine Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The treatment is comprehensive and self-contained, targeted at researchers and students in machine learning and applied statistics, and deals with the supervised learning problem for both regression and classification."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Adaptive computation and machine learning"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52184096"
+                        ],
+                        "name": "L. Bottou",
+                        "slug": "L.-Bottou",
+                        "structuredName": {
+                            "firstName": "L\u00e9on",
+                            "lastName": "Bottou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Bottou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1721248"
+                        ],
+                        "name": "P. Haffner",
+                        "slug": "P.-Haffner",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Haffner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Haffner"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 110,
+                                "start": 107
+                            }
+                        ],
+                        "text": "Models such as Deep Belief Networks (DBNs) [2], stacked denoising autoencoders [3], convolutional networks [4], as well as classifiers based on sophisticated feature extraction techniques have from ten to perhaps fifty hyper-parameters, depending on how the experimenter chooses to parametrize the model, and how many hyper-parameters the experimenter chooses to fix at a reasonable default."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14542261,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "162d958ff885f1462aeda91cd72582323fd6a1f4",
+            "isKey": false,
+            "numCitedBy": 35623,
+            "numCiting": 246,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns, such as handwritten characters, with minimal preprocessing. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task. Convolutional neural networks, which are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques. Real-life document recognition systems are composed of multiple modules including field extraction, segmentation recognition, and language modeling. A new learning paradigm, called graph transformer networks (GTN), allows such multimodule systems to be trained globally using gradient-based methods so as to minimize an overall performance measure. Two systems for online handwriting recognition are described. Experiments demonstrate the advantage of global training, and the flexibility of graph transformer networks. A graph transformer network for reading a bank cheque is also described. It uses convolutional neural network character recognizers combined with global training techniques to provide record accuracy on business and personal cheques. It is deployed commercially and reads several million cheques per day."
+            },
+            "slug": "Gradient-based-learning-applied-to-document-LeCun-Bottou",
+            "title": {
+                "fragments": [],
+                "text": "Gradient-based learning applied to document recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task, and Convolutional neural networks are shown to outperform all other techniques."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc. IEEE"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2944518"
+                        ],
+                        "name": "Julien Villemonteix",
+                        "slug": "Julien-Villemonteix",
+                        "structuredName": {
+                            "firstName": "Julien",
+                            "lastName": "Villemonteix",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Julien Villemonteix"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144272396"
+                        ],
+                        "name": "E. V\u00e1zquez",
+                        "slug": "E.-V\u00e1zquez",
+                        "structuredName": {
+                            "firstName": "Emmanuel",
+                            "lastName": "V\u00e1zquez",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. V\u00e1zquez"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144970108"
+                        ],
+                        "name": "E. Walter",
+                        "slug": "E.-Walter",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Walter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Walter"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 158,
+                                "start": 154
+                            }
+                        ],
+                        "text": "Other criteria have been suggested, such as Probability of Improvement and Expected Improvement [10], minimizing the Conditional Entropy of the Minimizer [11], and the bandit-based criterion described in [12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3264979,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "55290c9496fdf0df54dfdbb57117aa58386f98bc",
+            "isKey": false,
+            "numCitedBy": 304,
+            "numCiting": 45,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In many global optimization problems motivated by engineering applications, the number of function evaluations is severely limited by time or cost. To ensure that each evaluation contributes to the localization of good candidates for the role of global minimizer, a sequential choice of evaluation points is usually carried out. In particular, when Kriging is used to interpolate past evaluations, the uncertainty associated with the lack of information on the function can be expressed and used to compute a number of criteria accounting for the interest of an additional evaluation at any given point. This paper introduces minimizers entropy as a new Kriging-based criterion for the sequential choice of points at which the function should be evaluated. Based on stepwise uncertainty reduction, it accounts for the informational gain on the minimizer expected from a new evaluation. The criterion is approximated using conditional simulations of the Gaussian process model behind Kriging, and then inserted into an algorithm similar in spirit to the Efficient Global Optimization (EGO) algorithm. An empirical comparison is carried out between our criterion and expected improvement, one of the reference criteria in the literature. Experimental results indicate major evaluation savings over EGO. Finally, the method, which we call IAGO (for Informational Approach to Global Optimization), is extended to robust optimization problems, where both the factors to be tuned and the function evaluations are corrupted by noise."
+            },
+            "slug": "An-informational-approach-to-the-global-of-Villemonteix-V\u00e1zquez",
+            "title": {
+                "fragments": [],
+                "text": "An informational approach to the global optimization of expensive-to-evaluate functions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This paper introduces minimizers entropy as a new Kriging-based criterion for the sequential choice of points at which the function should be evaluated, based on stepwise uncertainty reduction and is extended to robust optimization problems, where both the factors to be tuned and the function evaluations are corrupted by noise."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Glob. Optim."
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1791548"
+                        ],
+                        "name": "A. Hyv\u00e4rinen",
+                        "slug": "A.-Hyv\u00e4rinen",
+                        "structuredName": {
+                            "firstName": "Aapo",
+                            "lastName": "Hyv\u00e4rinen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Hyv\u00e4rinen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1726997"
+                        ],
+                        "name": "E. Oja",
+                        "slug": "E.-Oja",
+                        "structuredName": {
+                            "firstName": "Erkki",
+                            "lastName": "Oja",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Oja"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 130,
+                                "start": 126
+                            }
+                        ],
+                        "text": "This prior corresponds to the search space of [1] except for the following differences: (a) we allowed for ZCA pre-processing [20], (b) we allowed for each layer to have a different size, (c) we allowed for each layer to have its own training parameters for CD, (d) we allowed for the possibility of treating the continuous-valued data as either as Bernoulli means (more theoretically correct) or Bernoulli samples (more typical) in the CD algorithm, and (e) we did not discretize the possible values of real-valued hyper-parameters."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11959218,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "577d19a115f9ef6f002483fcf88adbb3b5479556",
+            "isKey": false,
+            "numCitedBy": 7657,
+            "numCiting": 77,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Independent-component-analysis:-algorithms-and-Hyv\u00e4rinen-Oja",
+            "title": {
+                "fragments": [],
+                "text": "Independent component analysis: algorithms and applications"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Networks"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "102349725"
+                        ],
+                        "name": "Pedro Larraanaga",
+                        "slug": "Pedro-Larraanaga",
+                        "structuredName": {
+                            "firstName": "Pedro",
+                            "lastName": "Larraanaga",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pedro Larraanaga"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144762651"
+                        ],
+                        "name": "J. A. Lozano",
+                        "slug": "J.-A.-Lozano",
+                        "structuredName": {
+                            "firstName": "Jos\u00e9",
+                            "lastName": "Lozano",
+                            "middleNames": [
+                                "Antonio"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. A. Lozano"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 45
+                            }
+                        ],
+                        "text": "We keep the Estimation of Distribution (EDA, [17]) approach on the discrete part of our input space (categorical and discrete hyper-parameters), where we sample candidate points according to binomial distributions, while we use the Covariance Matrix Adaptation - Evolution Strategy (CMA-ES, [18]) for the remaining part of our input space (continuous hyper-parameters)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 117776882,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4b6fb8bbff6cc0cd84f8cc36625c8b6f47874135",
+            "isKey": false,
+            "numCitedBy": 2116,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "List of Figures. List of Tables. Preface. Contributing Authors. Series Foreword. Part I: Foundations. 1. An Introduction to Evolutionary Algorithms J.A. Lozano. 2. An Introduction to Probabilistic Graphical Models P. Larranaga. 3. A Review on Estimation of Distribution Algorithms P. Larranaga. 4. Benefits of Data Clustering in Multimodal Function Optimization via EDAs J.M. Pena, et al. 5. Parallel Estimation of Distribution Algorithms J.A. Lozano, et al. 6. Mathematical Modeling of Discrete Estimation of Distribution Algorithms C. Gonzalez, et al. Part II: Optimization. 7. An Empiricial Comparison of Discrete Estimation of Distribution Algorithms R. Blanco., J.A. Lozano. 8. Results in Function Optimization with EDAs in Continuous Domain E. Bengoetxea, et al. 9. Solving the 0-1 Knapsack Problem with EDAs R. Sagarna, P. Larranaga. 10. Solving the Traveling Salesman Problem with EDAs V. Robles, et al. 11. EDAs Applied to the Job Shop Scheduling Problem J.A. Lozano, A. Mendiburu. 12. Solving Graph Matching with EDAs Using a Permutation-Based Representation E. Bengoetxea, et al. Part III: Machine Learning. 13. Feature Subset Selection by Estimation of Distribution Algorithms I. Inza, et al. 14. Feature Weighting for Nearest Neighbor by EDAs I. Inza, et al. 15. Rule Induction by Estimation of Distribution Algorithms B. Sierra, et al. 16. Partial Abductive Inference in Bayesian Networks: An Empirical Comparison Between GAs and EDAs L.M. de Campos, et al.17. Comparing K-Means, GAs and EDAs in Partitional Clustering J. Roure, et al. 18. Adjusting Weights in Artificial Neural Networks using Evolutionary Algorithms C. Cotta, et al. Index."
+            },
+            "slug": "Estimation-of-Distribution-Algorithms:-A-New-Tool-Larraanaga-Lozano",
+            "title": {
+                "fragments": [],
+                "text": "Estimation of Distribution Algorithms: A New Tool for Evolutionary Computation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This book presents an introduction to Evolutionary Algorithms, a meta-language for programming with real-time implications, and some examples of how different types of algorithms can be tuned for different levels of integration."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3343244"
+                        ],
+                        "name": "D. Ginsbourger",
+                        "slug": "D.-Ginsbourger",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Ginsbourger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Ginsbourger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1918350"
+                        ],
+                        "name": "D. Dupuy",
+                        "slug": "D.-Dupuy",
+                        "structuredName": {
+                            "firstName": "Delphine",
+                            "lastName": "Dupuy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Dupuy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48810136"
+                        ],
+                        "name": "A. Badea",
+                        "slug": "A.-Badea",
+                        "structuredName": {
+                            "firstName": "Anca",
+                            "lastName": "Badea",
+                            "middleNames": [
+                                "Costescu"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Badea"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "153321911"
+                        ],
+                        "name": "L. Carraro",
+                        "slug": "L.-Carraro",
+                        "structuredName": {
+                            "firstName": "Laurent",
+                            "lastName": "Carraro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Carraro"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2311519"
+                        ],
+                        "name": "O. Roustant",
+                        "slug": "O.-Roustant",
+                        "structuredName": {
+                            "firstName": "Olivier",
+                            "lastName": "Roustant",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Roustant"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "linear trends in the GP mean leads to undesirable extrapolation in unexplored regions during SMBO [15]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3539688,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "bddbb2ebf801a28defe10ebb067351a04c9db309",
+            "isKey": false,
+            "numCitedBy": 25,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Our goal in the present article to give an insight on some important questions to be asked when choosing a Kriging model for the analysis of numerical experiments. We are especially concerned about the cases where the size of the design of experiments is relatively small to the algebraic dimension of the inputs. We first fix the notations and recall some basic properties of Kriging. Then we expose two experimental studies on subjects that are often skipped in the field of computer simulation analysis: the lack of reliability of likelihood maximization with few data and the consequences of a trend misspecification. We finally propose an example from a porous media application, with the introduction of an original Kriging method in which a non-linear additive model is used as an external trend. Copyright \u00a9 2009 John Wiley & Sons, Ltd."
+            },
+            "slug": "A-note-on-the-choice-and-the-estimation-of-Kriging-Ginsbourger-Dupuy",
+            "title": {
+                "fragments": [],
+                "text": "A note on the choice and the estimation of Kriging models for the analysis of deterministic computer experiments"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 93,
+                "text": "The goal in the present article is to give an insight on some important questions to be asked when choosing a Kriging model for the analysis of numerical experiments, especially about the cases where the size of the design of experiments is relatively small to the algebraic dimension of the inputs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2113861474"
+                        ],
+                        "name": "C. Bishop",
+                        "slug": "C.-Bishop",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Bishop",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Bishop"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "We trained a Multi-Layer Perceptron (MLP) with 10 hyper-parameters, including learning rate, 1 and 2 penalties, size of hidden layer, number of iterations, whether a PCA preprocessing was to be applied, whose energy was the only conditional hyper-parameter [22]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 60563397,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b9b1b1654ce0eea729c4160bfedcbb3246460b1d",
+            "isKey": false,
+            "numCitedBy": 8586,
+            "numCiting": 251,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "From the Publisher: \nThis is the first comprehensive treatment of feed-forward neural networks from the perspective of statistical pattern recognition. After introducing the basic concepts, the book examines techniques for modelling probability density functions and the properties and merits of the multi-layer perceptron and radial basis function network models. Also covered are various forms of error functions, principal algorithms for error function minimalization, learning and generalization in neural networks, and Bayesian techniques and their applications. Designed as a text, with over 100 exercises, this fully up-to-date work will benefit anyone involved in the fields of neural computation and pattern recognition."
+            },
+            "slug": "Neural-networks-for-pattern-recognition-Bishop",
+            "title": {
+                "fragments": [],
+                "text": "Neural networks for pattern recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 68,
+                "text": "This is the first comprehensive treatment of feed-forward neural networks from the perspective of statistical pattern recognition, and is designed as a text, with over 100 exercises, to benefit anyone involved in the fields of neural computation and pattern recognition."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144539890"
+                        ],
+                        "name": "N. Hansen",
+                        "slug": "N.-Hansen",
+                        "structuredName": {
+                            "firstName": "Nikolaus",
+                            "lastName": "Hansen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Hansen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "We keep the Estimation of Distribution (EDA, [17]) approach on the discrete part of our input space (categorical and discrete hyper-parameters), where we sample candidate points according to binomial distributions, while we use the Covariance Matrix Adaptation - Evolution Strategy (CMA-ES, [18]) for the remaining part of our input space (continuous hyper-parameters)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13968591,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "95a1f9e009d16e141448fbfea33353b02e1e9335",
+            "isKey": false,
+            "numCitedBy": 1737,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Derived from the concept of self-adaptation in evolution strategies, the CMA (Covariance Matrix Adaptation) adapts the covariance matrix of a multi-variate normal search distribution. The CMA was originally designed to perform well with small populations. In this review, the argument starts out with large population sizes, reflecting recent extensions of the CMA algorithm. Commonalities and differences to continuous Estimation of Distribution Algorithms are analyzed. The aspects of reliability of the estimation, overall step size control, and independence from the coordinate system (invariance) become particularly important in small populations sizes. Consequently, performing the adaptation task with small populations is more intricate."
+            },
+            "slug": "The-CMA-Evolution-Strategy:-A-Comparing-Review-Hansen",
+            "title": {
+                "fragments": [],
+                "text": "The CMA Evolution Strategy: A Comparing Review"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "In this review, the argument starts out with large population sizes, reflecting recent extensions of the CMA algorithm, and similarities and differences to continuous Estimation of Distribution Algorithms are analyzed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Towards a New Evolutionary Computation"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118096690"
+                        ],
+                        "name": "Donald R. Jones",
+                        "slug": "Donald-R.-Jones",
+                        "structuredName": {
+                            "firstName": "Donald",
+                            "lastName": "Jones",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Donald R. Jones"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "The algorithms in this work optimize the criterion of Expected Improvement (EI) [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Other criteria have been suggested, such as Probability of Improvement and Expected Improvement [10], minimizing the Conditional Entropy of the Minimizer [11], and the bandit-based criterion described in [12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8723392,
+            "fieldsOfStudy": [
+                "Engineering"
+            ],
+            "id": "a3db48fdc9aaf6921f269817ba4ed16b9b198394",
+            "isKey": false,
+            "numCitedBy": 1873,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a taxonomy of existing approaches for using response surfaces for global optimization. Each method is illustrated with a simple numerical example that brings out its advantages and disadvantages. The central theme is that methods that seem quite reasonable often have non-obvious failure modes. Understanding these failure modes is essential for the development of practical algorithms that fulfill the intuitive promise of the response surface approach."
+            },
+            "slug": "A-Taxonomy-of-Global-Optimization-Methods-Based-on-Jones",
+            "title": {
+                "fragments": [],
+                "text": "A Taxonomy of Global Optimization Methods Based on Response Surfaces"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 93,
+                "text": "This paper presents a taxonomy of existing approaches for using response surfaces for global optimization, illustrating each method with a simple numerical example that brings out its advantages and disadvantages."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Glob. Optim."
+            },
+            "year": 2001
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 37
+                            }
+                        ],
+                        "text": "The use of tesselations suggested by [16] is prohibitive here, as our task often means working in more than 10 dimensions, thus we start each local search at the center of mass of a simplex with vertices randomly picked among the training points."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 41
+                            }
+                        ],
+                        "text": "We do not take on the use of mixtures in [16], but rather restart the local searches several times, starting from promising places."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 15
+                            }
+                        ],
+                        "text": "The authors of [16] used the preceding remarks on the landscape of EI to design an evolutionary algorithm with mixture search, specifically aimed at optimizing EI, that is shown to outperform exhaustive search for a given budget in EI evaluations."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 103
+                            }
+                        ],
+                        "text": "However, some information on the landscape of the EI criterion can be derived from simple computations [16]: 1) it is always non-negative and zero at training points from D, 2) it inherits the smoothness of the kernel k, which is in practice often at least once differentiable, and noticeably, 3) the EI criterion is likely to be highly multi-modal, especially as the number of training points increases."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Surrogating the surrogate: accelerating Gaussian Process optimization with mixtures"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "In ICML,"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 61
+                            }
+                        ],
+                        "text": "GPU implementations of the DBN model were provided by Theano [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Theano: a CPU and GPU math expression compiler"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "In Proceedings of the Python for Scientific Computing Conference (SciPy),"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Theano : a CPU and GPU math expression compiler"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the Python for Scientific Computing Conference ( SciPy )"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The application of Bayesian methods for seeking the extremum"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 133,
+                                "start": 129
+                            }
+                        ],
+                        "text": "Gaussian Processes have long been recognized as a good method for modeling loss functions in model-based optimization literature [13]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The application of Bayesian methods for seeking the extremum"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Towards Global Optimization,"
+            },
+            "year": 1978
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 9,
+            "methodology": 13,
+            "result": 1
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 25,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Algorithms-for-Hyper-Parameter-Optimization-Bergstra-Bardenet/03911c85305d42aa2eeb02be82ef6fb7da644dd0?sort=total-citations"
+}

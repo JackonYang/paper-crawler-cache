@@ -1,0 +1,3240 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1795890"
+                        ],
+                        "name": "Michel Steuwer",
+                        "slug": "Michel-Steuwer",
+                        "structuredName": {
+                            "firstName": "Michel",
+                            "lastName": "Steuwer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michel Steuwer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1704372"
+                        ],
+                        "name": "Christian Fensch",
+                        "slug": "Christian-Fensch",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Fensch",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christian Fensch"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3731467"
+                        ],
+                        "name": "S. Lindley",
+                        "slug": "S.-Lindley",
+                        "structuredName": {
+                            "firstName": "Sam",
+                            "lastName": "Lindley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Lindley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3224333"
+                        ],
+                        "name": "Christophe Dubach",
+                        "slug": "Christophe-Dubach",
+                        "structuredName": {
+                            "firstName": "Christophe",
+                            "lastName": "Dubach",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christophe Dubach"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 37
+                            }
+                        ],
+                        "text": "It is similar in style to prior work [4, 14, 18] and is OpenCL specific."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 215,
+                                "start": 211
+                            }
+                        ],
+                        "text": "For Lift we distinguish between the low-level Lift IL which is the input for the Lift compiler discussed in this paper and the high-level Lift IL which is a portable representation introduced in our prior paper [18] which presents an automated process based on rewrite-rules to automatically map the high-level to the low-level Lift IL."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 38,
+                                "start": 34
+                            }
+                        ],
+                        "text": "High-level languages such as Lift [18], Accelerate [15], Delite [19], StreamIt [20] or Halide [16] have been proposed to ease programming of GPUs."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 139,
+                                "start": 133
+                            }
+                        ],
+                        "text": "map parallelism + optimization + code generation [3,5,6,9,10,17,22] code generation [this paper] fixed implementations + auto-tuning [2,18] OpenCL Lift IL/IR mapGlobal toLocal ."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 131,
+                                "start": 127
+                            }
+                        ],
+                        "text": "It is similar in spirit to prior published work on data-parallel representation [4, 10, 11, 14] and complements our prior work [18]."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 198,
+                                "start": 194
+                            }
+                        ],
+                        "text": "This complements prior work which studied the problem of deciding how to find optimal mapping using analysis-driven heuristics [12] or semantic preserving rewrite-rules as in our own prior work [18]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 178,
+                                "start": 174
+                            }
+                        ],
+                        "text": "One of the key advantages of the Lift approach is that it is possible to decouple the problem of mapping and exploiting parallelism, which has been covered in our prior work [18], from the code generation process, which is what this paper is about."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8030067,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8095a0dc01a3f75f85b0baa7890e2fa3463170c4",
+            "isKey": false,
+            "numCitedBy": 116,
+            "numCiting": 53,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Computers have become increasingly complex with the emergence of heterogeneous hardware combining multicore CPUs and GPUs. These parallel systems exhibit tremendous computational power at the cost of increased programming effort resulting in a tension between performance and code portability. Typically, code is either tuned in a low-level imperative language using hardware-specific optimizations to achieve maximum performance or is written in a high-level, possibly functional, language to achieve portability at the expense of performance. We propose a novel approach aiming to combine high-level programming, code portability, and high-performance. Starting from a high-level functional expression we apply a simple set of rewrite rules to transform it into a low-level functional representation, close to the OpenCL programming model, from which OpenCL code is generated. Our rewrite rules define a space of possible implementations which we automatically explore to generate hardware-specific OpenCL implementations. We formalize our system with a core dependently-typed lambda-calculus along with a denotational semantics which we use to prove the correctness of the rewrite rules. We test our design in practice by implementing a compiler which generates high performance imperative OpenCL code. Our experiments show that we can automatically derive hardware-specific implementations from simple functional high-level algorithmic expressions offering performance on a par with highly tuned code for multicore CPUs and GPUs written by experts."
+            },
+            "slug": "Generating-performance-portable-code-using-rewrite-Steuwer-Fensch",
+            "title": {
+                "fragments": [],
+                "text": "Generating performance portable code using rewrite rules: from high-level functional expressions to high-performance OpenCL code"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This work proposes a novel approach aiming to combine high-level programming, code portability, and high-performance by applying a simple set of rewrite rules to transform it into a low-level functional representation close to the OpenCL programming model, from which OpenCL code is generated."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICFP"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34946720"
+                        ],
+                        "name": "HyoukJoong Lee",
+                        "slug": "HyoukJoong-Lee",
+                        "structuredName": {
+                            "firstName": "HyoukJoong",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "HyoukJoong Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144806284"
+                        ],
+                        "name": "Kevin J. Brown",
+                        "slug": "Kevin-J.-Brown",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Brown",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin J. Brown"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706327"
+                        ],
+                        "name": "Arvind K. Sujeeth",
+                        "slug": "Arvind-K.-Sujeeth",
+                        "structuredName": {
+                            "firstName": "Arvind",
+                            "lastName": "Sujeeth",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Arvind K. Sujeeth"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1712987"
+                        ],
+                        "name": "Tiark Rompf",
+                        "slug": "Tiark-Rompf",
+                        "structuredName": {
+                            "firstName": "Tiark",
+                            "lastName": "Rompf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tiark Rompf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746638"
+                        ],
+                        "name": "K. Olukotun",
+                        "slug": "K.-Olukotun",
+                        "structuredName": {
+                            "firstName": "Kunle",
+                            "lastName": "Olukotun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Olukotun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10491232,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5f99c0d653040778f64c0850f9e413be124ace60",
+            "isKey": false,
+            "numCitedBy": 48,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent work has explored using higher level languages to improve programmer productivity on GPUs. These languages often utilize high level computation patterns (e.g., Map and Reduce) that encode parallel semantics to enable automatic compilation to GPU kernels. However, the problem of efficiently mapping patterns to GPU hardware becomes significantly more difficult when the patterns are nested, which is common in non-trivial applications. To address this issue, we present a general analysis framework for automatically and efficiently mapping nested patterns onto GPUs. The analysis maps nested patterns onto a logical multidimensional domain and parameterizes the block size and degree of parallelism in each dimension. We then add GPU-specific hard and soft constraints to prune the space of possible mappings and select the best mapping. We also perform multiple compiler optimizations that are guided by the mapping to avoid dynamic memory allocations and automatically utilize shared memory within GPU kernels. We compare the performance of our automatically selected mappings to hand-optimized implementations on multiple benchmarks and show that the average performance gap on 7 out of 8 benchmarks is 24%. Furthermore, our mapping strategy outperforms simple 1D mappings and existing 2D mappings by up to 28.6x and 9.6x respectively."
+            },
+            "slug": "Locality-Aware-Mapping-of-Nested-Parallel-Patterns-Lee-Brown",
+            "title": {
+                "fragments": [],
+                "text": "Locality-Aware Mapping of Nested Parallel Patterns on GPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work presents a general analysis framework for automatically and efficiently mapping nested patterns onto GPUs and compares the performance of the automatically selected mappings to hand-optimized implementations on multiple benchmarks and shows that the average performance gap on 7 out of 8 benchmarks is 24%."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2014 47th Annual IEEE/ACM International Symposium on Microarchitecture"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1758245"
+                        ],
+                        "name": "Riyadh Baghdadi",
+                        "slug": "Riyadh-Baghdadi",
+                        "structuredName": {
+                            "firstName": "Riyadh",
+                            "lastName": "Baghdadi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Riyadh Baghdadi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2978162"
+                        ],
+                        "name": "Ulysse Beaugnon",
+                        "slug": "Ulysse-Beaugnon",
+                        "structuredName": {
+                            "firstName": "Ulysse",
+                            "lastName": "Beaugnon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ulysse Beaugnon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145509576"
+                        ],
+                        "name": "Albert Cohen",
+                        "slug": "Albert-Cohen",
+                        "structuredName": {
+                            "firstName": "Albert",
+                            "lastName": "Cohen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Albert Cohen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1756389"
+                        ],
+                        "name": "T. Grosser",
+                        "slug": "T.-Grosser",
+                        "structuredName": {
+                            "firstName": "Tobias",
+                            "lastName": "Grosser",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Grosser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152835390"
+                        ],
+                        "name": "Michael Kruse",
+                        "slug": "Michael-Kruse",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Kruse",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael Kruse"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144122184"
+                        ],
+                        "name": "Chandan Reddy",
+                        "slug": "Chandan-Reddy",
+                        "structuredName": {
+                            "firstName": "Chandan",
+                            "lastName": "Reddy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chandan Reddy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1772079"
+                        ],
+                        "name": "Sven Verdoolaege",
+                        "slug": "Sven-Verdoolaege",
+                        "structuredName": {
+                            "firstName": "Sven",
+                            "lastName": "Verdoolaege",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sven Verdoolaege"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34781062"
+                        ],
+                        "name": "A. Betts",
+                        "slug": "A.-Betts",
+                        "structuredName": {
+                            "firstName": "Adam",
+                            "lastName": "Betts",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Betts"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1734519"
+                        ],
+                        "name": "A. Donaldson",
+                        "slug": "A.-Donaldson",
+                        "structuredName": {
+                            "firstName": "Alastair",
+                            "lastName": "Donaldson",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Donaldson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2303821"
+                        ],
+                        "name": "J. Ketema",
+                        "slug": "J.-Ketema",
+                        "structuredName": {
+                            "firstName": "Jeroen",
+                            "lastName": "Ketema",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Ketema"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1796386"
+                        ],
+                        "name": "J. Absar",
+                        "slug": "J.-Absar",
+                        "structuredName": {
+                            "firstName": "Javed",
+                            "lastName": "Absar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Absar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1807282"
+                        ],
+                        "name": "S. V. Haastregt",
+                        "slug": "S.-V.-Haastregt",
+                        "structuredName": {
+                            "firstName": "Sven",
+                            "lastName": "Haastregt",
+                            "middleNames": [
+                                "van"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. V. Haastregt"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145510407"
+                        ],
+                        "name": "Alexey Kravets",
+                        "slug": "Alexey-Kravets",
+                        "structuredName": {
+                            "firstName": "Alexey",
+                            "lastName": "Kravets",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alexey Kravets"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777324"
+                        ],
+                        "name": "Anton Lokhmotov",
+                        "slug": "Anton-Lokhmotov",
+                        "structuredName": {
+                            "firstName": "Anton",
+                            "lastName": "Lokhmotov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Anton Lokhmotov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2061545111"
+                        ],
+                        "name": "R. David",
+                        "slug": "R.-David",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "David",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. David"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1988507"
+                        ],
+                        "name": "Elnar Hajiyev",
+                        "slug": "Elnar-Hajiyev",
+                        "structuredName": {
+                            "firstName": "Elnar",
+                            "lastName": "Hajiyev",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Elnar Hajiyev"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16354348,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e61e896ee96c8d6ae13c34c9d66e8ee879489f75",
+            "isKey": false,
+            "numCitedBy": 90,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Programming accelerators such as GPUs with low-level APIs and languages such as OpenCL and CUDA is difficult, error-prone, and not performance-portable. Automatic parallelization and domain specific languages (DSLs) have been proposed to hide complexity and regain performance portability. We present PENCIL, a rigorously-defined subset of GNU C99-enriched with additional language constructs-that enables compilers to exploit parallelism and produce highly optimized code when targeting accelerators. PENCIL aims to serve both as a portable implementation language for libraries, and as a target language for DSL compilers. We implemented a PENCIL-to-OpenCL backend using a state-of-the-art polyhedral compiler. The polyhedral compiler, extended to handle data-dependent control flow and non-affine array accesses, generates optimized OpenCL code. To demonstrate the potential and performance portability of PENCIL and the PENCIL-to-OpenCL compiler, we consider a number of image processing kernels, a set of benchmarks from the Rodinia and SHOC suites, and DSL embedding scenarios for linear algebra (BLAS) and signal processing radar applications (SpearDE), and present experimental results for four GPU platforms: AMD Radeon HD 5670 and R9 285, NVIDIA GTX 470, and ARM Mali-T604."
+            },
+            "slug": "PENCIL:-A-Platform-Neutral-Compute-Intermediate-for-Baghdadi-Beaugnon",
+            "title": {
+                "fragments": [],
+                "text": "PENCIL: A Platform-Neutral Compute Intermediate Language for Accelerator Programming"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "PENCIL, a rigorously-defined subset of GNU C99-enriched with additional language constructs-that enables compilers to exploit parallelism and produce highly optimized code when targeting accelerators, is presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2015 International Conference on Parallel Architecture and Compilation (PACT)"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144913523"
+                        ],
+                        "name": "Alexander Collins",
+                        "slug": "Alexander-Collins",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Collins",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alexander Collins"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2401609"
+                        ],
+                        "name": "Dominik Grewe",
+                        "slug": "Dominik-Grewe",
+                        "structuredName": {
+                            "firstName": "Dominik",
+                            "lastName": "Grewe",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dominik Grewe"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50654241"
+                        ],
+                        "name": "Vinod Grover",
+                        "slug": "Vinod-Grover",
+                        "structuredName": {
+                            "firstName": "Vinod",
+                            "lastName": "Grover",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vinod Grover"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108109511"
+                        ],
+                        "name": "Sean Lee",
+                        "slug": "Sean-Lee",
+                        "structuredName": {
+                            "firstName": "Sean",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sean Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2925096"
+                        ],
+                        "name": "Adriana Susnea",
+                        "slug": "Adriana-Susnea",
+                        "structuredName": {
+                            "firstName": "Adriana",
+                            "lastName": "Susnea",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Adriana Susnea"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 145
+                            }
+                        ],
+                        "text": "This approach is used by a many systems such as Copperhead [5], Delite [3], Accelerate [6, 15], LiquidMetal [9], HiDP [21], Halide [16] and NOVA [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6748967,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "93158db5c7d31159395e59b36e8a7b36816d4923",
+            "isKey": false,
+            "numCitedBy": 51,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Functional languages provide a solid foundation on which complex optimization passes can be designed to exploit parallelism available in the underlying system. Their mathematical foundations enable high-level optimizations that would be impossible in traditional imperative languages. This makes them uniquely suited for generation of efficient target code for parallel systems, such as multiple Central Processing Units (CPUs) or highly data-parallel Graphics Processing Units (GPUs). Such systems are becoming the mainstream for scientific and commodity desktop computing. Writing performance portable code for such systems using low-level languages requires significant effort from a human expert. This paper presents NOVA, a functional language and compiler for multi-core CPUs and GPUs. The NOVA language is a polymorphic, statically-typed functional language with a suite of higher-order functions which are used to express parallelism. These include map, reduce and scan. The NOVA compiler is a light-weight, yet powerful, optimizing compiler. It generates code for a variety of target platforms that achieve performance comparable to competing languages and tools, including hand-optimized code. The NOVA compiler is stand-alone and can be easily used as a target for higher-level or domain specific languages or embedded in other applications. We evaluate NOVA against two competing approaches: the Thrust library and hand-written CUDA C. NOVA achieves comparable performance to these approaches across a range of benchmarks. NOVA-generated code also scales linearly with the number of processor cores across all compute-bound benchmarks."
+            },
+            "slug": "NOVA:-A-Functional-Language-for-Data-Parallelism-Collins-Grewe",
+            "title": {
+                "fragments": [],
+                "text": "NOVA: A Functional Language for Data Parallelism"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "The NOVA language is a polymorphic, statically-typed functional language with a suite of higher-order functions which are used to express parallelism, and the NOVA compiler is a light-weight, yet powerful, optimizing compiler."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ARRAY@PLDI"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3224333"
+                        ],
+                        "name": "Christophe Dubach",
+                        "slug": "Christophe-Dubach",
+                        "structuredName": {
+                            "firstName": "Christophe",
+                            "lastName": "Dubach",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christophe Dubach"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35977213"
+                        ],
+                        "name": "P. Cheng",
+                        "slug": "P.-Cheng",
+                        "structuredName": {
+                            "firstName": "Perry",
+                            "lastName": "Cheng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Cheng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1714477"
+                        ],
+                        "name": "R. Rabbah",
+                        "slug": "R.-Rabbah",
+                        "structuredName": {
+                            "firstName": "Rodric",
+                            "lastName": "Rabbah",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Rabbah"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1678228"
+                        ],
+                        "name": "D. Bacon",
+                        "slug": "D.-Bacon",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Bacon",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Bacon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33802916"
+                        ],
+                        "name": "Stephen J. Fink",
+                        "slug": "Stephen-J.-Fink",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "Fink",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Stephen J. Fink"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 111,
+                                "start": 108
+                            }
+                        ],
+                        "text": "This approach is used by a many systems such as Copperhead [5], Delite [3], Accelerate [6, 15], LiquidMetal [9], HiDP [21], Halide [16] and NOVA [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 49
+                            }
+                        ],
+                        "text": "map parallelism + optimization + code generation [3,5,6,9,10,17,22] code generation [this paper] fixed implementations + auto-tuning [2,18] OpenCL Lift IL/IR mapGlobal toLocal ."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 207195360,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ff5e781484f16ca947ca347ce2633eadbe68e934",
+            "isKey": false,
+            "numCitedBy": 120,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Languages such as OpenCL and CUDA offer a standard interface for general-purpose programming of GPUs. However, with these languages, programmers must explicitly manage numerous low-level details involving communication and synchronization. This burden makes programming GPUs difficult and error-prone, rendering these powerful devices inaccessible to most programmers. We desire a higher-level programming model that makes GPUs more accessible while also effectively exploiting their computational power. This paper presents features of Lime, a new Java-compatible language targeting heterogeneous systems, that allow an optimizing compiler to generate high quality GPU code. The key insight is that the language type system enforces isolation and immutability invariants that allow the compiler to optimize for a GPU without heroic compiler analysis. Our compiler attains GPU speedups between 75% and 140% of the performance of native OpenCL code."
+            },
+            "slug": "Compiling-a-high-level-language-for-GPUs:-(via-for-Dubach-Cheng",
+            "title": {
+                "fragments": [],
+                "text": "Compiling a high-level language for GPUs: (via language support for architectures and compilers)"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2301680"
+                        ],
+                        "name": "Bryan Catanzaro",
+                        "slug": "Bryan-Catanzaro",
+                        "structuredName": {
+                            "firstName": "Bryan",
+                            "lastName": "Catanzaro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bryan Catanzaro"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144764367"
+                        ],
+                        "name": "M. Garland",
+                        "slug": "M.-Garland",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Garland",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Garland"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1732330"
+                        ],
+                        "name": "K. Keutzer",
+                        "slug": "K.-Keutzer",
+                        "structuredName": {
+                            "firstName": "Kurt",
+                            "lastName": "Keutzer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Keutzer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1867309,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "92028dd1d95d7447708899ae3b9506a356e4434d",
+            "isKey": false,
+            "numCitedBy": 216,
+            "numCiting": 37,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Modern parallel microprocessors deliver high performance on applications that expose substantial fine-grained data parallelism. Although data parallelism is widely available in many computations, implementing data parallel algorithms in low-level languages is often an unnecessarily difficult task. The characteristics of parallel microprocessors and the limitations of current programming methodologies motivate our design of Copperhead, a high-level data parallel language embedded in Python. The Copperhead programmer describes parallel computations via composition of familiar data parallel primitives supporting both flat and nested data parallel computation on arrays of data. Copperhead programs are expressed in a subset of the widely used Python programming language and interoperate with standard Python modules, including libraries for numeric computation, data visualization, and analysis. In this paper, we discuss the language, compiler, and runtime features that enable Copperhead to efficiently execute data parallel code. We define the restricted subset of Python which Copperhead supports and introduce the program analysis techniques necessary for compiling Copperhead code into efficient low-level implementations. We also outline the runtime support by which Copperhead programs interoperate with standard Python modules. We demonstrate the effectiveness of our techniques with several examples targeting the CUDA platform for parallel programming on GPUs. Copperhead code is concise, on average requiring 3.6 times fewer lines of code than CUDA, and the compiler generates efficient code, yielding 45-100% of the performance of hand-crafted, well optimized CUDA code."
+            },
+            "slug": "Copperhead:-compiling-an-embedded-data-parallel-Catanzaro-Garland",
+            "title": {
+                "fragments": [],
+                "text": "Copperhead: compiling an embedded data parallel language"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "The language, compiler, and runtime features that enable Copperhead to efficiently execute data parallel code are discussed and the program analysis techniques necessary for compiling Copperhead code into efficient low-level implementations are introduced."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PPoPP '11"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33910386"
+                        ],
+                        "name": "M. Chakravarty",
+                        "slug": "M.-Chakravarty",
+                        "structuredName": {
+                            "firstName": "Manuel",
+                            "lastName": "Chakravarty",
+                            "middleNames": [
+                                "M.",
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Chakravarty"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144289189"
+                        ],
+                        "name": "G. Keller",
+                        "slug": "G.-Keller",
+                        "structuredName": {
+                            "firstName": "Gabriele",
+                            "lastName": "Keller",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Keller"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108109511"
+                        ],
+                        "name": "Sean Lee",
+                        "slug": "Sean-Lee",
+                        "structuredName": {
+                            "firstName": "Sean",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sean Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2508058"
+                        ],
+                        "name": "T. L. McDonell",
+                        "slug": "T.-L.-McDonell",
+                        "structuredName": {
+                            "firstName": "Trevor",
+                            "lastName": "McDonell",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. L. McDonell"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50654241"
+                        ],
+                        "name": "Vinod Grover",
+                        "slug": "Vinod-Grover",
+                        "structuredName": {
+                            "firstName": "Vinod",
+                            "lastName": "Grover",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vinod Grover"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 87
+                            }
+                        ],
+                        "text": "This approach is used by a many systems such as Copperhead [5], Delite [3], Accelerate [6, 15], LiquidMetal [9], HiDP [21], Halide [16] and NOVA [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 49
+                            }
+                        ],
+                        "text": "map parallelism + optimization + code generation [3,5,6,9,10,17,22] code generation [this paper] fixed implementations + auto-tuning [2,18] OpenCL Lift IL/IR mapGlobal toLocal ."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 40
+                            }
+                        ],
+                        "text": "High-level languages such as Lift [18], Accelerate [15], Delite [19], StreamIt [20] or Halide [16] have been proposed to ease programming of GPUs."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 992519,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4726ec683a7db8e97ebd845b98e294ead537888a",
+            "isKey": false,
+            "numCitedBy": 253,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Current GPUs are massively parallel multicore processors optimised for workloads with a large degree of SIMD parallelism. Good performance requires highly idiomatic programs, whose development is work intensive and requires expert knowledge.\n To raise the level of abstraction, we propose a domain-specific high-level language of array computations that captures appropriate idioms in the form of collective array operations. We embed this purely functional array language in Haskell with an online code generator for NVIDIA's CUDA GPGPU programming environment. We regard the embedded language's collective array operations as algorithmic skeletons; our code generator instantiates CUDA implementations of those skeletons to execute embedded array programs.\n This paper outlines our embedding in Haskell, details the design and implementation of the dynamic code generator, and reports on initial benchmark results. These results suggest that we can compete with moderately optimised native CUDA code, while enabling much simpler source programs."
+            },
+            "slug": "Accelerating-Haskell-array-codes-with-multicore-Chakravarty-Keller",
+            "title": {
+                "fragments": [],
+                "text": "Accelerating Haskell array codes with multicore GPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This paper proposes a domain-specific high-level language of array computations that captures appropriate idioms in the form of collective array operations in Haskell and embeds this purely functional array language in Haskell with an online code generator for NVIDIA's CUDA GPGPU programming environment."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "DAMP '11"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108317523"
+                        ],
+                        "name": "Yongpeng Zhang",
+                        "slug": "Yongpeng-Zhang",
+                        "structuredName": {
+                            "firstName": "Yongpeng",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yongpeng Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145637373"
+                        ],
+                        "name": "F. Mueller",
+                        "slug": "F.-Mueller",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Mueller",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Mueller"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8808105,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "582b619f9407e32c1825339192459d6b13959388",
+            "isKey": false,
+            "numCitedBy": 22,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Problem domains are commonly decomposed hierarchically to fully utilize parallel resources in modern microprocessors. Such decompositions can be provided as library routines, written by experienced experts, for general algorithmic patterns. But such APIs tend to be constrained to certain architectures or data sizes. Integrating them with application code is often an unnecessarily daunting task, especially when these routines need to be closely coupled with user code to achieve better performance. This paper contributes HiDP, a high-level hierarchical data parallel language. The purpose of HiDP is to improve the coding productivity of integrating hierarchical data parallelism without significant loss of performance. HiDP is a source-to-source compiler that converts a very concise data parallel language into CUDA C++ source code. Internally, it performs necessary analysis to compose user code with efficient and architecture-aware code snippets. This paper discusses various aspects of HiDP systematically: the language, the compiler and the run-time system with built-in tuning capabilities. They enable HiDP users to express algorithms in less code than low-level SDKs require for native platforms. HiDP also exposes abundant computing resources of modern parallel architectures. Improved coding productivity tends to come with a sacrifice in performance. Yet, experimental results show that the generated code delivers performance very close to handcrafted native GPU code."
+            },
+            "slug": "Hidp:-A-hierarchical-data-parallel-language-Zhang-Mueller",
+            "title": {
+                "fragments": [],
+                "text": "Hidp: A hierarchical data parallel language"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "HiDP is a source-to-source compiler that converts a very concise data parallel language into CUDA C++ source code and performs necessary analysis to compose user code with efficient and architecture-aware code snippets, and experimental results show that the generated code delivers performance very close to handcrafted native GPU code."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 2013 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144806284"
+                        ],
+                        "name": "Kevin J. Brown",
+                        "slug": "Kevin-J.-Brown",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Brown",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin J. Brown"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706327"
+                        ],
+                        "name": "Arvind K. Sujeeth",
+                        "slug": "Arvind-K.-Sujeeth",
+                        "structuredName": {
+                            "firstName": "Arvind",
+                            "lastName": "Sujeeth",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Arvind K. Sujeeth"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34946720"
+                        ],
+                        "name": "HyoukJoong Lee",
+                        "slug": "HyoukJoong-Lee",
+                        "structuredName": {
+                            "firstName": "HyoukJoong",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "HyoukJoong Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1712987"
+                        ],
+                        "name": "Tiark Rompf",
+                        "slug": "Tiark-Rompf",
+                        "structuredName": {
+                            "firstName": "Tiark",
+                            "lastName": "Rompf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tiark Rompf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694512"
+                        ],
+                        "name": "H. Chafi",
+                        "slug": "H.-Chafi",
+                        "structuredName": {
+                            "firstName": "Hassan",
+                            "lastName": "Chafi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Chafi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1795826"
+                        ],
+                        "name": "Martin Odersky",
+                        "slug": "Martin-Odersky",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Odersky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Martin Odersky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746638"
+                        ],
+                        "name": "K. Olukotun",
+                        "slug": "K.-Olukotun",
+                        "structuredName": {
+                            "firstName": "Kunle",
+                            "lastName": "Olukotun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Olukotun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 74,
+                                "start": 71
+                            }
+                        ],
+                        "text": "This approach is used by a many systems such as Copperhead [5], Delite [3], Accelerate [6, 15], LiquidMetal [9], HiDP [21], Halide [16] and NOVA [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 49
+                            }
+                        ],
+                        "text": "map parallelism + optimization + code generation [3,5,6,9,10,17,22] code generation [this paper] fixed implementations + auto-tuning [2,18] OpenCL Lift IL/IR mapGlobal toLocal ."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 63,
+                                "start": 57
+                            }
+                        ],
+                        "text": "High-level languages such as Lift [18], Accelerate [15], Delite [19], StreamIt [20] or Halide [16] have been proposed to ease programming of GPUs."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 10171990,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a5dde6669fe65fc1a0364f120fa10e4833e461b9",
+            "isKey": false,
+            "numCitedBy": 192,
+            "numCiting": 70,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Computing systems are becoming increasingly parallel and heterogeneous, and therefore new applications must be capable of exploiting parallelism in order to continue achieving high performance. However, targeting these emerging devices often requires using multiple disparate programming models and making decisions that can limit forward scalability. In previous work we proposed the use of domain-specific languages (DSLs) to provide high-level abstractions that enable transformations to high performance parallel code without degrading programmer productivity. In this paper we present a new end-to-end system for building, compiling, and executing DSL applications on parallel heterogeneous hardware, the Delite Compiler Framework and Runtime. The framework lifts embedded DSL applications to an intermediate representation (IR), performs generic, parallel, and domain-specific optimizations, and generates an execution graph that targets multiple heterogeneous hardware devices. Finally we present results comparing the performance of several machine learning applications written in OptiML, a DSL for machine learning that utilizes Delite, to C++ and MATLAB implementations. We find that the implicitly parallel OptiML applications achieve single-threaded performance comparable to C++ and outperform explicitly parallel MATLAB in nearly all cases."
+            },
+            "slug": "A-Heterogeneous-Parallel-Framework-for-Languages-Brown-Sujeeth",
+            "title": {
+                "fragments": [],
+                "text": "A Heterogeneous Parallel Framework for Domain-Specific Languages"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "A new end-to-end system for building, compiling, and executing DSL applications on parallel heterogeneous hardware, the Delite Compiler Framework and Runtime is presented and results comparing the performance of several machine learning applications written in OptiML are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2011 International Conference on Parallel Architectures and Compilation Techniques"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2508058"
+                        ],
+                        "name": "T. L. McDonell",
+                        "slug": "T.-L.-McDonell",
+                        "structuredName": {
+                            "firstName": "Trevor",
+                            "lastName": "McDonell",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. L. McDonell"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 87
+                            }
+                        ],
+                        "text": "This approach is used by a many systems such as Copperhead [5], Delite [3], Accelerate [6, 15], LiquidMetal [9], HiDP [21], Halide [16] and NOVA [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 55,
+                                "start": 51
+                            }
+                        ],
+                        "text": "High-level languages such as Lift [18], Accelerate [15], Delite [19], StreamIt [20] or Halide [16] have been proposed to ease programming of GPUs."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5843848,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "75a6257773d941488019b6c4ef5f210bbd652958",
+            "isKey": false,
+            "numCitedBy": 87,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Purely functional, embedded array programs are a good match for SIMD hardware, such as GPUs. However, the naive compilation of such programs quickly leads to both code explosion and an excessive use of intermediate data structures. The resulting slow-down is not acceptable on target hardware that is usually chosen to achieve high performance. In this paper, we discuss two optimisation techniques, sharing recovery and array fusion, that tackle code explosion and eliminate superfluous intermediate structures. Both techniques are well known from other contexts, but they present unique challenges for an embedded language compiled for execution on a GPU. We present novel methods for implementing sharing recovery and array fusion, and demonstrate their effectiveness on a set of benchmarks."
+            },
+            "slug": "Optimising-purely-functional-GPU-programs-McDonell",
+            "title": {
+                "fragments": [],
+                "text": "Optimising purely functional GPU programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Two optimisation techniques are discussed, sharing recovery and array fusion, that tackle code explosion and eliminate superfluous intermediate structures for embedded language compiled for execution on a GPU."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICFP 2013"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144806284"
+                        ],
+                        "name": "Kevin J. Brown",
+                        "slug": "Kevin-J.-Brown",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Brown",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin J. Brown"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34946720"
+                        ],
+                        "name": "HyoukJoong Lee",
+                        "slug": "HyoukJoong-Lee",
+                        "structuredName": {
+                            "firstName": "HyoukJoong",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "HyoukJoong Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1712987"
+                        ],
+                        "name": "Tiark Rompf",
+                        "slug": "Tiark-Rompf",
+                        "structuredName": {
+                            "firstName": "Tiark",
+                            "lastName": "Rompf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tiark Rompf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706327"
+                        ],
+                        "name": "Arvind K. Sujeeth",
+                        "slug": "Arvind-K.-Sujeeth",
+                        "structuredName": {
+                            "firstName": "Arvind",
+                            "lastName": "Sujeeth",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Arvind K. Sujeeth"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1801197"
+                        ],
+                        "name": "Christopher De Sa",
+                        "slug": "Christopher-De-Sa",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Sa",
+                            "middleNames": [
+                                "De"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher De Sa"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145284500"
+                        ],
+                        "name": "Christopher R. Aberger",
+                        "slug": "Christopher-R.-Aberger",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Aberger",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher R. Aberger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746638"
+                        ],
+                        "name": "K. Olukotun",
+                        "slug": "K.-Olukotun",
+                        "structuredName": {
+                            "firstName": "Kunle",
+                            "lastName": "Olukotun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Olukotun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 37
+                            }
+                        ],
+                        "text": "It is similar in style to prior work [4, 14, 18] and is OpenCL specific."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 95,
+                                "start": 80
+                            }
+                        ],
+                        "text": "It is similar in spirit to prior published work on data-parallel representation [4, 10, 11, 14] and complements our prior work [18]."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15209294,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b0159354873d31c8772b83ac6dce1c583fcd16b1",
+            "isKey": false,
+            "numCitedBy": 50,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "High performance in modern computing platforms requires programs to be parallel, distributed, and run on heterogeneous hardware. However programming such architectures is extremely difficult due to the need to implement the application using multiple programming models and combine them together in ad-hoc ways. To optimize distributed applications both for modern hardware and for modern programmers we need a programming model that is sufficiently expressive to support a variety of parallel applications, sufficiently performant to surpass hand-optimized sequential implementations, and sufficiently portable to support a variety of heterogeneous hardware. Unfortunately existing systems tend to fall short of these requirements. In this paper we introduce the Distributed Multiloop Language (DMLL), a new intermediate language based on common parallel patterns that captures the necessary semantic knowledge to efficiently target distributed heterogeneous architectures. We show straightforward analyses that determine what data to distribute based on its usage as well as powerful transformations of nested patterns that restructure computation to enable distribution and optimize for heterogeneous devices. We present experimental results for a range of applications spanning multiple domains and demonstrate highly efficient execution compared to manually-optimized counterparts in multiple distributed programming models."
+            },
+            "slug": "Have-abstraction-and-eat-performance,-too:-with-Brown-Lee",
+            "title": {
+                "fragments": [],
+                "text": "Have abstraction and eat performance, too: Optimized heterogeneous computing with parallel patterns"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This paper introduces the Distributed Multiloop Language (DMLL), a new intermediate language based on common parallel patterns that captures the necessary semantic knowledge to efficiently target distributed heterogeneous architectures and shows straightforward analyses that determine what data to distribute based on its usage."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2016 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145326994"
+                        ],
+                        "name": "Nathan Bell",
+                        "slug": "Nathan-Bell",
+                        "structuredName": {
+                            "firstName": "Nathan",
+                            "lastName": "Bell",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nathan Bell"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2657469"
+                        ],
+                        "name": "Jared Hoberock",
+                        "slug": "Jared-Hoberock",
+                        "structuredName": {
+                            "firstName": "Jared",
+                            "lastName": "Hoberock",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jared Hoberock"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 139,
+                                "start": 133
+                            }
+                        ],
+                        "text": "map parallelism + optimization + code generation [3,5,6,9,10,17,22] code generation [this paper] fixed implementations + auto-tuning [2,18] OpenCL Lift IL/IR mapGlobal toLocal ."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 99
+                            }
+                        ],
+                        "text": "The simplest approaches are based on parametric library implementation of skeletons such as Thrust [2] and SkelCL [17]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 60775233,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "215ba41bcfb1b53084ab25bdfeb68bdea1df57c2",
+            "isKey": false,
+            "numCitedBy": 420,
+            "numCiting": 1,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Thrust:-A-Productivity-Oriented-Library-for-CUDA-Bell-Hoberock",
+            "title": {
+                "fragments": [],
+                "text": "Thrust: A Productivity-Oriented Library for CUDA"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401885963"
+                        ],
+                        "name": "Jonathan Ragan-Kelley",
+                        "slug": "Jonathan-Ragan-Kelley",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Ragan-Kelley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Ragan-Kelley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2496412"
+                        ],
+                        "name": "Connelly Barnes",
+                        "slug": "Connelly-Barnes",
+                        "structuredName": {
+                            "firstName": "Connelly",
+                            "lastName": "Barnes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Connelly Barnes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 135,
+                                "start": 131
+                            }
+                        ],
+                        "text": "This approach is used by a many systems such as Copperhead [5], Delite [3], Accelerate [6, 15], LiquidMetal [9], HiDP [21], Halide [16] and NOVA [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 98,
+                                "start": 94
+                            }
+                        ],
+                        "text": "High-level languages such as Lift [18], Accelerate [15], Delite [19], StreamIt [20] or Halide [16] have been proposed to ease programming of GPUs."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5885207,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d032f74b16457584f8a60ae07cfef9b617033638",
+            "isKey": false,
+            "numCitedBy": 878,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Image processing pipelines combine the challenges of stencil computations and stream programs. They are composed of large graphs of different stencil stages, as well as complex reductions, and stages with global or data-dependent access patterns. Because of their complex structure, the performance difference between a naive implementation of a pipeline and an optimized one is often an order of magnitude. Efficient implementations require optimization of both parallelism and locality, but due to the nature of stencils, there is a fundamental tension between parallelism, locality, and introducing redundant recomputation of shared values. We present a systematic model of the tradeoff space fundamental to stencil pipelines, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule. Combining this compiler with stochastic search over the space of schedules enables terse, composable programs to achieve state-of-the-art performance on a wide range of real image processing pipelines, and across different hardware architectures, including multicores with SIMD, and heterogeneous CPU+GPU execution. From simple Halide programs written in a few hours, we demonstrate performance up to 5x faster than hand-tuned C, intrinsics, and CUDA implementations optimized by experts over weeks or months, for image processing applications beyond the reach of past automatic compilers."
+            },
+            "slug": "Halide:-a-language-and-compiler-for-optimizing-and-Ragan-Kelley-Barnes",
+            "title": {
+                "fragments": [],
+                "text": "Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A systematic model of the tradeoff space fundamental to stencil pipelines is presented, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI 2013"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145116350"
+                        ],
+                        "name": "A. Udupa",
+                        "slug": "A.-Udupa",
+                        "structuredName": {
+                            "firstName": "Abhishek",
+                            "lastName": "Udupa",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Udupa"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144209344"
+                        ],
+                        "name": "R. Govindarajan",
+                        "slug": "R.-Govindarajan",
+                        "structuredName": {
+                            "firstName": "Ram",
+                            "lastName": "Govindarajan",
+                            "middleNames": [
+                                "Prasath"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Govindarajan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3208711"
+                        ],
+                        "name": "M. J. Thazhuthaveetil",
+                        "slug": "M.-J.-Thazhuthaveetil",
+                        "structuredName": {
+                            "firstName": "Matthew",
+                            "lastName": "Thazhuthaveetil",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. J. Thazhuthaveetil"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 79
+                            }
+                        ],
+                        "text": "High-level languages such as Lift [18], Accelerate [15], Delite [19], StreamIt [20] or Halide [16] have been proposed to ease programming of GPUs."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14673949,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6ef5453d68325ba700e103cfba400b01387c438e",
+            "isKey": false,
+            "numCitedBy": 106,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The StreamIt programming model has been proposed to exploit parallelism in streaming applications on general purpose multi-core architectures. This model allows programmers to specify the structure of a program as a set of filters that act upon data, and a set of communication channels between them. The StreamIt graphs describe task, data and pipeline parallelism which can be exploited on modern Graphics Processing Units (GPUs), as they support abundant parallelism in hardware. In this paper, we describe the challenges in mapping StreamIt to GPUs and propose an efficient technique to software pipeline the execution of stream programs on GPUs. We formulate this problem --- both scheduling and assignment of filters to processors --- as an efficient Integer Linear Program (ILP), which is then solved using ILP solvers. We also describe a novel buffer layout technique for GPUs which facilitates exploiting the high memory bandwidth available in GPUs. The proposed scheduling utilizes both the scalar units in GPU, to exploit data parallelism, and multiprocessors, to exploit task and pipeline parallelism.\u00a0\u00a0Further it takes into consideration the synchronization and bandwidth limitations of GPUs, and yields speedups between 1.87X and 36.83X over a single threaded CPU."
+            },
+            "slug": "Software-Pipelined-Execution-of-Stream-Programs-on-Udupa-Govindarajan",
+            "title": {
+                "fragments": [],
+                "text": "Software Pipelined Execution of Stream Programs on GPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The challenges in mapping StreamIt to GPUs are described and an efficient technique to software pipeline the execution of stream programs on GPUs is proposed, which is formulated as an efficient Integer Linear Program (ILP), which is then solved using ILP solvers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2009 International Symposium on Code Generation and Optimization"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1795890"
+                        ],
+                        "name": "Michel Steuwer",
+                        "slug": "Michel-Steuwer",
+                        "structuredName": {
+                            "firstName": "Michel",
+                            "lastName": "Steuwer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michel Steuwer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3302194"
+                        ],
+                        "name": "Philipp Kegel",
+                        "slug": "Philipp-Kegel",
+                        "structuredName": {
+                            "firstName": "Philipp",
+                            "lastName": "Kegel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Philipp Kegel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1707325"
+                        ],
+                        "name": "S. Gorlatch",
+                        "slug": "S.-Gorlatch",
+                        "structuredName": {
+                            "firstName": "Sergei",
+                            "lastName": "Gorlatch",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Gorlatch"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 49
+                            }
+                        ],
+                        "text": "map parallelism + optimization + code generation [3,5,6,9,10,17,22] code generation [this paper] fixed implementations + auto-tuning [2,18] OpenCL Lift IL/IR mapGlobal toLocal ."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 118,
+                                "start": 114
+                            }
+                        ],
+                        "text": "The simplest approaches are based on parametric library implementation of skeletons such as Thrust [2] and SkelCL [17]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2704842,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9c8ad1f1c6f6d0c8bc0e3cf4f36cdc18a359e312",
+            "isKey": false,
+            "numCitedBy": 136,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "While CUDA and OpenCL made general-purpose programming for Graphics Processing Units (GPU) popular, using these programming approaches remains complex and error-prone because they lack high-level abstractions. The especially challenging systems with multiple GPU are not addressed at all by these low-level programming models. We propose SkelCL -- a library providing so-called algorithmic skeletons that capture recurring patterns of parallel computation and communication, together with an abstract vector data type and constructs for specifying data distribution. We demonstrate that SkelCL greatly simplifies programming GPU systems. We report the competitive performance results of SkelCL using both a simple Mandelbrot set computation and an industrial-strength medical imaging application. Because the library is implemented using OpenCL, it is portable across GPU hardware of different vendors."
+            },
+            "slug": "SkelCL-A-Portable-Skeleton-Library-for-High-Level-Steuwer-Kegel",
+            "title": {
+                "fragments": [],
+                "text": "SkelCL - A Portable Skeleton Library for High-Level GPU Programming"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work proposes SkelCL -- a library providing so-called algorithmic skeletons that capture recurring patterns of parallel computation and communication, together with an abstract vector data type and constructs for specifying data distribution that greatly simplifies programming GPU systems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2011 IEEE International Symposium on Parallel and Distributed Processing Workshops and Phd Forum"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32809463"
+                        ],
+                        "name": "Herbert Jordan",
+                        "slug": "Herbert-Jordan",
+                        "structuredName": {
+                            "firstName": "Herbert",
+                            "lastName": "Jordan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Herbert Jordan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2728915"
+                        ],
+                        "name": "Simone Pellegrini",
+                        "slug": "Simone-Pellegrini",
+                        "structuredName": {
+                            "firstName": "Simone",
+                            "lastName": "Pellegrini",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Simone Pellegrini"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1788159"
+                        ],
+                        "name": "Peter Thoman",
+                        "slug": "Peter-Thoman",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Thoman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Peter Thoman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2094229001"
+                        ],
+                        "name": "Klaus Kofler",
+                        "slug": "Klaus-Kofler",
+                        "structuredName": {
+                            "firstName": "Klaus",
+                            "lastName": "Kofler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Klaus Kofler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1719226"
+                        ],
+                        "name": "T. Fahringer",
+                        "slug": "T.-Fahringer",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Fahringer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Fahringer"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 95,
+                                "start": 80
+                            }
+                        ],
+                        "text": "It is similar in spirit to prior published work on data-parallel representation [4, 10, 11, 14] and complements our prior work [18]."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14452272,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6005fdb7813e0f07d90d6ed8e7beecd733ef4d04",
+            "isKey": false,
+            "numCitedBy": 37,
+            "numCiting": 37,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Programming standards like OpenMP, OpenCL and MPI are frequently considered programming languages for developing parallel applications for their respective kind of architecture. Nevertheless, compilers treat them like ordinary APIs utilized by an otherwise sequential host language. Their parallel control flow remains hidden within opaque runtime library calls which are embedded within a sequential intermediate representation lacking the concepts of parallelism. Consequently, the tuning and coordination of parallelism is clearly beyond the scope of conventional optimizing compilers and hence left to the programmer or the runtime system. The main objective of the Insieme compiler is to overcome this limitation by utilizing INSPIRE, a unified, parallel, highlevel intermediate representation. Instead of mapping parallel constructs and APIs to external routines, their behavior is modeled explicitly using a unified and fixed set of parallel language constructs. Making the parallel control flow accessible to the compiler lays the foundation for the development of reusable, static and dynamic analyses and transformations bridging the gap between a variety of parallel paradigms. Within this paper we describe the structure of INSPIRE and elaborate the considerations which influenced its design. Furthermore, we demonstrate its expressiveness by illustrating the encoding of a variety of parallel language constructs and we evaluate its ability to preserve performance relevant aspects of input codes."
+            },
+            "slug": "INSPIRE:-The-insieme-parallel-intermediate-Jordan-Pellegrini",
+            "title": {
+                "fragments": [],
+                "text": "INSPIRE: The insieme parallel intermediate representation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "The structure of INSPIRE is described and the considerations which influenced its design are elaborate and its expressiveness is demonstrated by illustrating the encoding of a variety of parallel language constructs and its ability to preserve performance relevant aspects of input codes is evaluated."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 22nd International Conference on Parallel Architectures and Compilation Techniques"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "10717647"
+                        ],
+                        "name": "Patrick Maier",
+                        "slug": "Patrick-Maier",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Maier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Patrick Maier"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2068669690"
+                        ],
+                        "name": "J. Morton",
+                        "slug": "J.-Morton",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Morton",
+                            "middleNames": [
+                                "Magnus"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Morton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2933321"
+                        ],
+                        "name": "P. Trinder",
+                        "slug": "P.-Trinder",
+                        "structuredName": {
+                            "firstName": "Philip",
+                            "lastName": "Trinder",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Trinder"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 37
+                            }
+                        ],
+                        "text": "It is similar in style to prior work [4, 14, 18] and is OpenCL specific."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 95,
+                                "start": 80
+                            }
+                        ],
+                        "text": "It is similar in spirit to prior published work on data-parallel representation [4, 10, 11, 14] and complements our prior work [18]."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12767772,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "799f4ba654377f8ebe25ebd603a7f7d22ca39ddc",
+            "isKey": false,
+            "numCitedBy": 5,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The proliferation of widely available, but very different, parallel architectures \nmakes the ability to deliver good parallel performance \non a range of architectures, or performance portability, highly desirable. \nIrregularly-parallel problems, where the number and size \nof tasks is unpredictable, are particularly challenging and require \ndynamic coordination. \nThe paper outlines a novel approach to delivering portable parallel \nperformance for irregularly parallel programs. The approach \ncombines declarative parallelism with JIT technology, dynamic \nscheduling, and dynamic transformation. \nWe present the design of an adaptive skeleton library, with a task \ngraph implementation, JIT trace costing, and adaptive transformations. \nWe outline the architecture of the protoype adaptive skeleton \nexecution framework in Pycket, describing tasks, serialisation, \nand the current scheduler.We report a preliminary evaluation of the \nprototype framework using 4 micro-benchmarks and a small case \nstudy on two NUMA servers (24 and 96 cores) and a small cluster \n(17 hosts, 272 cores). Key results include Pycket delivering good \nsequential performance e.g. almost as fast as C for some benchmarks; \ngood absolute speedups on all architectures (up to 120 on \n128 cores for sumEuler); and that the adaptive transformations do \nimprove performance."
+            },
+            "slug": "Towards-an-Adaptive-Skeleton-Framework-for-Maier-Morton",
+            "title": {
+                "fragments": [],
+                "text": "Towards an Adaptive Skeleton Framework for Performance Portability"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "A novel approach to delivering portable parallel performance for irregularly parallel programs that combines declarative parallelism with JIT technology, dynamic scheduling, and dynamic transformation is outlined."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2965025"
+                        ],
+                        "name": "Troels Henriksen",
+                        "slug": "Troels-Henriksen",
+                        "structuredName": {
+                            "firstName": "Troels",
+                            "lastName": "Henriksen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Troels Henriksen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1911509"
+                        ],
+                        "name": "M. Elsman",
+                        "slug": "M.-Elsman",
+                        "structuredName": {
+                            "firstName": "M.",
+                            "lastName": "Elsman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Elsman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1943909"
+                        ],
+                        "name": "C. Oancea",
+                        "slug": "C.-Oancea",
+                        "structuredName": {
+                            "firstName": "Cosmin",
+                            "lastName": "Oancea",
+                            "middleNames": [
+                                "Eugen"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Oancea"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 49
+                            }
+                        ],
+                        "text": "map parallelism + optimization + code generation [3,5,6,9,10,17,22] code generation [this paper] fixed implementations + auto-tuning [2,18] OpenCL Lift IL/IR mapGlobal toLocal ."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 95,
+                                "start": 80
+                            }
+                        ],
+                        "text": "It is similar in spirit to prior published work on data-parallel representation [4, 10, 11, 14] and complements our prior work [18]."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1478847,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "604c30b7ae5afa90236f28fbd5b657c10fe62a8a",
+            "isKey": false,
+            "numCitedBy": 29,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a shape inference analysis for a purely-functional language, named Futhark, that supports nested parallelism via array combinators such as map, reduce, filter}, and scan}. Our approach is to infer code for computing precise shape information at run-time, which in the most common cases can be effectively optimized by standard compiler optimizations. Instead of restricting the language or sacrificing ease of use, the language allows the occasional shape-dynamic, and even shape-misbehaving, constructs. Inherently shape-dynamic code is treated with a fall-back technique that preserves, asymptotically, the number of operations of the program and that computes and returns the array's shape alongside with its value. This approach leads to a shape-dependent system with existentially-quantified types, where static shape inference corresponds to eliminating existential quantifications from the types of program expressions.\n We optimize the common case to negligible overhead via size slicing: a technique that separates the computation of the array's shape from its values. This allows the shape to be calculated in advance and to be used to instantiate the previously existentially-quantified shapes of the value slice. We report negligible overhead, on several mini-benchmarks and three real-world applications."
+            },
+            "slug": "Size-slicing:-a-hybrid-approach-to-size-inference-Henriksen-Elsman",
+            "title": {
+                "fragments": [],
+                "text": "Size slicing: a hybrid approach to size inference in futhark"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 93,
+                "text": "A shape inference analysis for a purely-functional language, named Futhark, that supports nested parallelism via array combinators such as map, reduce, filter}, and scan is presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "FHPC '14"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2481596"
+                        ],
+                        "name": "Roland Lei\u00dfa",
+                        "slug": "Roland-Lei\u00dfa",
+                        "structuredName": {
+                            "firstName": "Roland",
+                            "lastName": "Lei\u00dfa",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Roland Lei\u00dfa"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "28925750"
+                        ],
+                        "name": "Marcel K\u00f6ster",
+                        "slug": "Marcel-K\u00f6ster",
+                        "structuredName": {
+                            "firstName": "Marcel",
+                            "lastName": "K\u00f6ster",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marcel K\u00f6ster"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699642"
+                        ],
+                        "name": "Sebastian Hack",
+                        "slug": "Sebastian-Hack",
+                        "structuredName": {
+                            "firstName": "Sebastian",
+                            "lastName": "Hack",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sebastian Hack"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 134,
+                                "start": 130
+                            }
+                        ],
+                        "text": "The use of a graph-based representation avoids the problem of performing extensive renaming when transforming functional programs [13]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 12679069,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c3f09f82209b1fe736899cfb6581b28eee51cc55",
+            "isKey": false,
+            "numCitedBy": 28,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many modern programming languages support both imperative and functional idioms. However, state-of-the-art imperative intermediate representations (IRs) cannot natively represent crucial functional concepts (like higher-order functions). On the other hand, functional IRs employ an explicit scope nesting, which is cumbersome to maintain across certain transformations. In this paper we present Thorin: a higher-order, functional IR based on continuation-passing style that abandons explicit scope nesting in favor of a dependency graph. This makes Thorin an attractive IR for both imperative as well as functional languages. Furthermore, we present a novel program transformation to eliminate the overhead caused by higher-order functions. The main component of this transformation is lambda mangling: an important transformation primitive in Thorin. We demonstrate that lambda mangling subsumes many classic program transformations like tail-recursion elimination, loop unrolling or (partial) inlining. In our experiments we show that higher-order programs translated with Thorin are consistently as fast as C programs."
+            },
+            "slug": "A-graph-based-higher-order-intermediate-Lei\u00dfa-K\u00f6ster",
+            "title": {
+                "fragments": [],
+                "text": "A graph-based higher-order intermediate representation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "Thorin is presented: a higher-order, functional IR based on continuation-passing style that abandons explicit scope nesting in favor of a dependency graph that makes Thorin an attractive IR for both imperative as well as functional languages."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2015 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706318"
+                        ],
+                        "name": "M. Cole",
+                        "slug": "M.-Cole",
+                        "structuredName": {
+                            "firstName": "Murray",
+                            "lastName": "Cole",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Cole"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 77,
+                                "start": 74
+                            }
+                        ],
+                        "text": "In the last decade, there have been a shift towards algorithmic skeletons [7] and DSLs (Domain Specific Languages)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 93,
+                                "start": 90
+                            }
+                        ],
+                        "text": "These approaches are all based on parallel patterns, a concept developed in the late 80\u2019s [7]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13901043,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f43e7c6a40b96743f2217472a49cd616622bdc26",
+            "isKey": false,
+            "numCitedBy": 1146,
+            "numCiting": 58,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This book introduces a new approach to the design and implementation of software systems which will help users of large scale parallel systems coordinate many concurrent activities toward a single goal. It assesses the strengths an weaknesses of this approach with existing alternatives.Cole's system proposes a selection of independent algorithmic skeletons, each of which describes the structure of a particular style of algorithm. The user must describe a solution to a problem as an instance of the appropriate skeleton. The implementation task is simplified by the fact that each skeleton may be considered independently, in contrast to the monolithic programming interfaces of existing systems at a similar level of abstraction.The book describes four skeletons based on the notions of fixed degree divide and conquer, task queues, iterative combination, and clustering. Each is introduced in terms of the abstraction it presents to the user. Implementation on a square grid of autonomous processor memory pairs is considered and examples of problems which could be solved in terms of the skeleton are presented.Murray I. Cole is a Lecturer in the Computing Science Department of the University of Glasgow. \"Algorithmic Skeletons\" is included in the series Research Monographs in Parallel and Distributed Computing, Copublished with Pitman Publishing,"
+            },
+            "slug": "Algorithmic-Skeletons:-Structured-Management-of-Cole",
+            "title": {
+                "fragments": [],
+                "text": "Algorithmic Skeletons: Structured Management of Parallel Computation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 76,
+                "text": "This book introduces a new approach to the design and implementation of software systems which will help users of large scale parallel systems coordinate many concurrent activities toward a single goal and proposes a selection of independent algorithmic skeletons which describes the structure of a particular style of algorithm."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706327"
+                        ],
+                        "name": "Arvind K. Sujeeth",
+                        "slug": "Arvind-K.-Sujeeth",
+                        "structuredName": {
+                            "firstName": "Arvind",
+                            "lastName": "Sujeeth",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Arvind K. Sujeeth"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144806284"
+                        ],
+                        "name": "Kevin J. Brown",
+                        "slug": "Kevin-J.-Brown",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Brown",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin J. Brown"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34946720"
+                        ],
+                        "name": "HyoukJoong Lee",
+                        "slug": "HyoukJoong-Lee",
+                        "structuredName": {
+                            "firstName": "HyoukJoong",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "HyoukJoong Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1712987"
+                        ],
+                        "name": "Tiark Rompf",
+                        "slug": "Tiark-Rompf",
+                        "structuredName": {
+                            "firstName": "Tiark",
+                            "lastName": "Rompf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tiark Rompf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694512"
+                        ],
+                        "name": "H. Chafi",
+                        "slug": "H.-Chafi",
+                        "structuredName": {
+                            "firstName": "Hassan",
+                            "lastName": "Chafi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Chafi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1795826"
+                        ],
+                        "name": "Martin Odersky",
+                        "slug": "Martin-Odersky",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Odersky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Martin Odersky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746638"
+                        ],
+                        "name": "K. Olukotun",
+                        "slug": "K.-Olukotun",
+                        "structuredName": {
+                            "firstName": "Kunle",
+                            "lastName": "Olukotun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Olukotun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 70,
+                                "start": 64
+                            }
+                        ],
+                        "text": "This approach is used by a many systems such as Copperhead [5], Delite [3], Accelerate [6, 15], LiquidMetal [9], HiDP [21], Halide [16] and NOVA [8]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 40
+                            }
+                        ],
+                        "text": "GPU code map parallelism + optimization [19] auto parallelization [1] C Code for loops"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 68,
+                                "start": 64
+                            }
+                        ],
+                        "text": "High-level languages such as Lift [18], Accelerate [15], Delite [19], StreamIt [20] or Halide [16] have been proposed to ease programming of GPUs."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8944267,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "25635a854dc2055a0339235bba7b863c7c6df31a",
+            "isKey": false,
+            "numCitedBy": 169,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Developing high-performance software is a difficult task that requires the use of low-level, architecture-specific programming models (e.g., OpenMP for CMPs, CUDA for GPUs, MPI for clusters). It is typically not possible to write a single application that can run efficiently in different environments, leading to multiple versions and increased complexity. Domain-Specific Languages (DSLs) are a promising avenue to enable programmers to use high-level abstractions and still achieve good performance on a variety of hardware. This is possible because DSLs have higher-level semantics and restrictions than general-purpose languages, so DSL compilers can perform higher-level optimization and translation. However, the cost of developing performance-oriented DSLs is a substantial roadblock to their development and adoption. In this article, we present an overview of the Delite compiler framework and the DSLs that have been developed with it. Delite simplifies the process of DSL development by providing common components, like parallel patterns, optimizations, and code generators, that can be reused in DSL implementations. Delite DSLs are embedded in Scala, a general-purpose programming language, but use metaprogramming to construct an Intermediate Representation (IR) of user programs and compile to multiple languages (including Cpp, CUDA, and OpenCL). DSL programs are automatically parallelized and different parts of the application can run simultaneously on CPUs and GPUs. We present Delite DSLs for machine learning, data querying, graph analysis, and scientific computing and show that they all achieve performance competitive to or exceeding Cpp code."
+            },
+            "slug": "Delite:-A-Compiler-Architecture-for-Embedded-Sujeeth-Brown",
+            "title": {
+                "fragments": [],
+                "text": "Delite: A Compiler Architecture for Performance-Oriented Embedded Domain-Specific Languages"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "An overview of the Delite compiler framework and DSLs that have been developed with it is presented and it is shown that they all achieve performance competitive to or exceeding Cpp code."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Trans. Embed. Comput. Syst."
+            },
+            "year": 2014
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 12,
+            "methodology": 9,
+            "result": 5
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 21,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/LIFT:-A-functional-data-parallel-IR-for-GPU-code-Steuwer-Remmelg/aa3553beb4bfa0793a4bed05704e35412342800e?sort=total-citations"
+}

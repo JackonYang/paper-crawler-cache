@@ -1,0 +1,3444 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40566417"
+                        ],
+                        "name": "Kevin G. Jamieson",
+                        "slug": "Kevin-G.-Jamieson",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Jamieson",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin G. Jamieson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145532827"
+                        ],
+                        "name": "Ameet S. Talwalkar",
+                        "slug": "Ameet-S.-Talwalkar",
+                        "structuredName": {
+                            "firstName": "Ameet",
+                            "lastName": "Talwalkar",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ameet S. Talwalkar"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 68,
+                                "start": 42
+                            }
+                        ],
+                        "text": "By a simple modification of the proof of (Jamieson & Talwalkar, 2015) we have the following theorem Theorem 3."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 100,
+                                "start": 73
+                            }
+                        ],
+                        "text": "A potentially more feasible approach is the general algorithm studied in Jamieson & Talwalkar (2015), which was only evaluated on iterative settings in that work."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 134,
+                                "start": 107
+                            }
+                        ],
+                        "text": "We propose a novel algorithm called HYPERBAND that builds upon the SUCCESSIVEHALVING algorithm analyzed in Jamieson & Talwalkar (2015), extending it in two ways."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 219,
+                                "start": 192
+                            }
+                        ],
+                        "text": "\u2026HYPERBAND generalizes to the finite horizon setting in which the total amount of resources that can be allocated to an arm is bounded; in contrast, the SUCCESSIVEHALVING algorithm studied in Jamieson & Talwalkar (2015) focuses on the infinite horizon setting in which this quantity is unbounded."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 9
+                            }
+                        ],
+                        "text": "However, Jamieson & Talwalkar (2015) analyzed it in the non-stochastic setting and also found it to work well in practice."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 171,
+                                "start": 144
+                            }
+                        ],
+                        "text": "To overcome these difficulties, Sparks et al. (2015) proposed a halving style algorithm that did not require explicit convergence behavior, and Jamieson & Talwalkar (2015) analyzed a similar algorithm, providing theoretical guarantees as well as encouraging empirical results."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 73
+                            }
+                        ],
+                        "text": "Iteration downsampling may be more effective for these smaller datasets (Jamieson & Talwalkar, 2015).\nare often loose and hard to verify, and empirical performance can drastically suffer when they are violated."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 207,
+                                "start": 181
+                            }
+                        ],
+                        "text": "\u2026also yield favorable empirical results, albeit in a restricted setting, as they typically only apply when working with a fixed, predetermined set of hyperparameter configurations (Jamieson & Talwalkar, 2015; Gyo\u0308rgy & Kocsis, 2011; Sparks et al., 2015; Agarwal et al., 2011; Krueger et al., 2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 255,
+                                "start": 228
+                            }
+                        ],
+                        "text": "Additionally, while many of these methods provide theoretical guarantees, these results only hold under strong assumptions about the statistical properties and convergence rates of the learning methods under consideration, with Jamieson & Talwalkar (2015) being the one notable exception."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 151,
+                                "start": 124
+                            }
+                        ],
+                        "text": "We propose a version of SUCCESSIVEHALVING, as detailed in Figure 1, that generalizes the infinite horizon algorithm used in Jamieson & Talwalkar (2015) in two ways."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5795023,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c6c745d7fae9aad4294549d829f7e7415ffb1709",
+            "isKey": false,
+            "numCitedBy": 346,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Motivated by the task of hyperparameter optimization, we introduce the non-stochastic best-arm identification problem. Within the multi-armed bandit literature, the cumulative regret objective enjoys algorithms and analyses for both the non-stochastic and stochastic settings while to the best of our knowledge, the best-arm identification framework has only been considered in the stochastic setting. We introduce the non-stochastic setting under this framework, identify a known algorithm that is well-suited for this setting, and analyze its behavior. Next, by leveraging the iterative nature of standard machine learning algorithms, we cast hyperparameter optimization as an instance of non-stochastic best-arm identification, and empirically evaluate our proposed algorithm on this task. Our empirical results show that, by allocating more resources to promising hyperparameter settings, we typically achieve comparable test accuracies an order of magnitude faster than baseline methods."
+            },
+            "slug": "Non-stochastic-Best-Arm-Identification-and-Jamieson-Talwalkar",
+            "title": {
+                "fragments": [],
+                "text": "Non-stochastic Best Arm Identification and Hyperparameter Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 57,
+                "text": "This work casts hyperparameter optimization as an instance of non-stochastic best-arm identification, identifies a known algorithm that is well-suited for this setting, and empirically evaluates its behavior."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AISTATS"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1754860"
+                        ],
+                        "name": "Kevin Swersky",
+                        "slug": "Kevin-Swersky",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Swersky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin Swersky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144108062"
+                        ],
+                        "name": "Jasper Snoek",
+                        "slug": "Jasper-Snoek",
+                        "structuredName": {
+                            "firstName": "Jasper",
+                            "lastName": "Snoek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jasper Snoek"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1722180"
+                        ],
+                        "name": "Ryan P. Adams",
+                        "slug": "Ryan-P.-Adams",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "Adams",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan P. Adams"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1311677,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d08d5f5aa142d6c44336cbed286d6c40ca6f5bf0",
+            "isKey": false,
+            "numCitedBy": 526,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Bayesian optimization has recently been proposed as a framework for automatically tuning the hyperparameters of machine learning models and has been shown to yield state-of-the-art performance with impressive ease and efficiency. In this paper, we explore whether it is possible to transfer the knowledge gained from previous optimizations to new tasks in order to find optimal hyperparameter settings more efficiently. Our approach is based on extending multi-task Gaussian processes to the framework of Bayesian optimization. We show that this method significantly speeds up the optimization process when compared to the standard single-task approach. We further propose a straightforward extension of our algorithm in order to jointly minimize the average error across multiple tasks and demonstrate how this can be used to greatly speed up k-fold cross-validation. Lastly, we propose an adaptation of a recently developed acquisition function, entropy search, to the cost-sensitive, multi-task setting. We demonstrate the utility of this new acquisition function by leveraging a small dataset to explore hyper-parameter settings for a large dataset. Our algorithm dynamically chooses which dataset to query in order to yield the most information per unit cost."
+            },
+            "slug": "Multi-Task-Bayesian-Optimization-Swersky-Snoek",
+            "title": {
+                "fragments": [],
+                "text": "Multi-Task Bayesian Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper proposes an adaptation of a recently developed acquisition function, entropy search, to the cost-sensitive, multi-task setting and demonstrates the utility of this new acquisition function by leveraging a small dataset to explore hyper-parameter settings for a large dataset."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144108062"
+                        ],
+                        "name": "Jasper Snoek",
+                        "slug": "Jasper-Snoek",
+                        "structuredName": {
+                            "firstName": "Jasper",
+                            "lastName": "Snoek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jasper Snoek"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777528"
+                        ],
+                        "name": "H. Larochelle",
+                        "slug": "H.-Larochelle",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "Larochelle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Larochelle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1722180"
+                        ],
+                        "name": "Ryan P. Adams",
+                        "slug": "Ryan-P.-Adams",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "Adams",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan P. Adams"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 53,
+                                "start": 32
+                            }
+                        ],
+                        "text": "To overcome these difficulties, Sparks et al. (2015) proposed a halving style algorithm that did not require explicit convergence behavior, and Jamieson & Talwalkar (2015) analyzed a similar algorithm, providing theoretical guarantees as well as encouraging empirical results."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 123,
+                                "start": 104
+                            }
+                        ],
+                        "text": "The majority of recent work in this growing area focuses on Bayesian hyperparameter optimization, e.g., Snoek et al. (2012); Hutter et al. (2011); Bergstra et al. (2011), with the goal of optimizing hyperparameter configuration selection in an iterative fashion."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 632197,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2e2089ae76fe914706e6fa90081a79c8fe01611e",
+            "isKey": false,
+            "numCitedBy": 5088,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The use of machine learning algorithms frequently involves careful tuning of learning parameters and model hyperparameters. Unfortunately, this tuning is often a \"black art\" requiring expert experience, rules of thumb, or sometimes brute-force search. There is therefore great appeal for automatic approaches that can optimize the performance of any given learning algorithm to the problem at hand. In this work, we consider this problem through the framework of Bayesian optimization, in which a learning algorithm's generalization performance is modeled as a sample from a Gaussian process (GP). We show that certain choices for the nature of the GP, such as the type of kernel and the treatment of its hyperparameters, can play a crucial role in obtaining a good optimizer that can achieve expertlevel performance. We describe new algorithms that take into account the variable cost (duration) of learning algorithm experiments and that can leverage the presence of multiple cores for parallel experimentation. We show that these proposed algorithms improve on previous automatic procedures and can reach or surpass human expert-level optimization for many algorithms including latent Dirichlet allocation, structured SVMs and convolutional neural networks."
+            },
+            "slug": "Practical-Bayesian-Optimization-of-Machine-Learning-Snoek-Larochelle",
+            "title": {
+                "fragments": [],
+                "text": "Practical Bayesian Optimization of Machine Learning Algorithms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This work describes new algorithms that take into account the variable cost of learning algorithm experiments and that can leverage the presence of multiple cores for parallel experimentation and shows that these proposed algorithms improve on previous automatic procedures and can reach or surpass human expert-level optimization for many algorithms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3386660"
+                        ],
+                        "name": "Zohar S. Karnin",
+                        "slug": "Zohar-S.-Karnin",
+                        "structuredName": {
+                            "firstName": "Zohar",
+                            "lastName": "Karnin",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zohar S. Karnin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1711492"
+                        ],
+                        "name": "Tomer Koren",
+                        "slug": "Tomer-Koren",
+                        "structuredName": {
+                            "firstName": "Tomer",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomer Koren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1765862"
+                        ],
+                        "name": "O. Somekh",
+                        "slug": "O.-Somekh",
+                        "structuredName": {
+                            "firstName": "Oren",
+                            "lastName": "Somekh",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "O. Somekh"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 138,
+                                "start": 119
+                            }
+                        ],
+                        "text": "SUCCESSIVEHALVING algorithm for a fixed set of arms\nWe note that the algorithm of Figure 5 was originally proposed by (Karnin et al., 2013) for the stochastic setting."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 95,
+                                "start": 74
+                            }
+                        ],
+                        "text": "Note this algorithm was originally proposed for the stochastic setting in (Karnin et al., 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 139,
+                                "start": 118
+                            }
+                        ],
+                        "text": "SUCCESSIVEHALVING algorithm for a fixed set of arms We note that the algorithm of Figure 5 was originally proposed by (Karnin et al., 2013) for the stochastic setting."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 205,
+                                "start": 119
+                            }
+                        ],
+                        "text": "SUCCESSIVEHALVING algorithm for a fixed set of arms We note that the algorithm of Figure 5 was originally proposed by (Karnin et al., 2013) for the stochastic setting. However, Jamieson & Talwalkar (2015) analyzed it in the non-stochastic setting and also found it to work well in practice."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14309288,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "43e0414b3cb52369c0ffece6eb043d0717776e92",
+            "isKey": true,
+            "numCitedBy": 301,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We study the problem of exploration in stochastic Multi-Armed Bandits. Even in the simplest setting of identifying the best arm, there remains a logarithmic multiplicative gap between the known lower and upper bounds for the number of arm pulls required for the task. This extra logarithmic factor is quite meaningful in nowadays large-scale applications. We present two novel, parameter-free algorithms for identifying the best arm, in two different settings: given a target confidence and given a target budget of arm pulls, for which we prove upper bounds whose gap from the lower bound is only doubly-logarithmic in the problem parameters. We corroborate our theoretical results with experiments demonstrating that our algorithm outperforms the state-of-the-art and scales better as the size of the problem increases."
+            },
+            "slug": "Almost-Optimal-Exploration-in-Multi-Armed-Bandits-Karnin-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Almost Optimal Exploration in Multi-Armed Bandits"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "Two novel, parameter-free algorithms for identifying the best arm, in two different settings: given a target confidence and given atarget budget of arm pulls, are presented, for which upper bounds whose gap from the lower bound is only doubly-logarithmic in the problem parameters are proved."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32837403"
+                        ],
+                        "name": "J. Bergstra",
+                        "slug": "J.-Bergstra",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bergstra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bergstra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2103302"
+                        ],
+                        "name": "R. Bardenet",
+                        "slug": "R.-Bardenet",
+                        "structuredName": {
+                            "firstName": "R\u00e9mi",
+                            "lastName": "Bardenet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Bardenet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143674326"
+                        ],
+                        "name": "B. K\u00e9gl",
+                        "slug": "B.-K\u00e9gl",
+                        "structuredName": {
+                            "firstName": "Bal\u00e1zs",
+                            "lastName": "K\u00e9gl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. K\u00e9gl"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 887,
+                                "start": 14
+                            }
+                        ],
+                        "text": ", 2011), TPE (Bergstra et al., 2011), and HYPERBAND. Additionally, the default settings for SMAC packaged with AUTOSKLEARN initializes each run with a fixed hyperparameter configuration corresponding to a particular random forest model. We report results for all search methods using standard random initialization in the main text (Section 5.3), as well as qualitatively similiar results using this random forest configuration as a warm-start in the appendix (Section E). In all experiments, we report the results of this particular random forest configuration as a naive baseline. We also evaluate random search as an additional baseline. We report results on standard random search, along with a variant called random-2x where we run random on two machines for one hour each so it has double the time to explore the search space for each dataset. Datasets: While Feurer et al. (2015) used 140 binary and multiclass classification datasets from OpenML, 23 of these datasets are incompatible with the latest version of AUTOSKLEARN (Feurer, 2015), and we worked with the remaining 117 datasets."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 188,
+                                "start": 167
+                            }
+                        ],
+                        "text": "Search Methods: Whereas Feurer et al. (2015) compared variants of the SMAC method,10 we considered a wider range of methods including SMAC (Hutter et al., 2011), TPE (Bergstra et al., 2011), and HYPERBAND."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "TPE and SMAC adaptively choose arms after training this initial configuration and HYPERBAND and random only update the incumbent if a trained configuration has lower validation error."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 169,
+                                "start": 147
+                            }
+                        ],
+                        "text": "The majority of recent work in this growing area focuses on Bayesian hyperparameter optimization, e.g., Snoek et al. (2012); Hutter et al. (2011); Bergstra et al. (2011), with the goal of optimizing hyperparameter configuration selection in an iterative fashion."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 197,
+                                "start": 194
+                            }
+                        ],
+                        "text": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43\nDatasets\n0.0\n0.1\n0.2\n0.3\n0.4\n0.5\nA v e ra\ng e T\ne st\nE rr\no r\nrandom SMAC TPE hyperband random_2x\nFigure 4."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 8
+                            }
+                        ],
+                        "text": "(2011); Bergstra et al. (2011), with the goal of optimizing hyperparameter configuration selection in an iterative fashion."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 1120,
+                                "start": 14
+                            }
+                        ],
+                        "text": ", 2011), TPE (Bergstra et al., 2011), and HYPERBAND. Additionally, the default settings for SMAC packaged with AUTOSKLEARN initializes each run with a fixed hyperparameter configuration corresponding to a particular random forest model. We report results for all search methods using standard random initialization in the main text (Section 5.3), as well as qualitatively similiar results using this random forest configuration as a warm-start in the appendix (Section E). In all experiments, we report the results of this particular random forest configuration as a naive baseline. We also evaluate random search as an additional baseline. We report results on standard random search, along with a variant called random-2x where we run random on two machines for one hour each so it has double the time to explore the search space for each dataset. Datasets: While Feurer et al. (2015) used 140 binary and multiclass classification datasets from OpenML, 23 of these datasets are incompatible with the latest version of AUTOSKLEARN (Feurer, 2015), and we worked with the remaining 117 datasets. (10)Feurer et al. (2015) compared SMAC with variants that relied on meta-learning and ensemble methods that could potentially deployed in conjunction with any search method."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 1197,
+                                "start": 8
+                            }
+                        ],
+                        "text": "(2011); Bergstra et al. (2011), with the goal of optimizing hyperparameter configuration selection in an iterative fashion. Intuitively, by selecting hyperparameter configurations in a sequential and adaptive manner, these methods focus on identifying good configurations more quickly than standard baselines that select configurations randomly or nonadaptively. These methods have been shown to empirically outperform standard baselines (Thornton et al., 2013; Eggensperger et al., 2013; Snoek et al., 2015), e.g., grid or random search, and provide general-purpose functionality by treating the learning methods under consideration as black-box procedures. However, these methods are heuristic in nature as they aim to simultaneously fit and optimize a high-dimensional, nonconvex function with unknown smoothness. They can also be computationally inefficient for several reasons: they typically allocate a fixed amount of resources to each hyperparameter configuration under consideration;1 their function approximation step can be resource intensive; and, they are fundamentally iterative by design, and thus do not fit naturally into a parallel computing frameworks. (1)Swersky et al. (2013) explored one application of their configuration selection algorithm that used transfer learning from subsamples to the full dataset but this was within a limited context."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 1760,
+                                "start": 14
+                            }
+                        ],
+                        "text": ", 2011), TPE (Bergstra et al., 2011), and HYPERBAND. Additionally, the default settings for SMAC packaged with AUTOSKLEARN initializes each run with a fixed hyperparameter configuration corresponding to a particular random forest model. We report results for all search methods using standard random initialization in the main text (Section 5.3), as well as qualitatively similiar results using this random forest configuration as a warm-start in the appendix (Section E). In all experiments, we report the results of this particular random forest configuration as a naive baseline. We also evaluate random search as an additional baseline. We report results on standard random search, along with a variant called random-2x where we run random on two machines for one hour each so it has double the time to explore the search space for each dataset. Datasets: While Feurer et al. (2015) used 140 binary and multiclass classification datasets from OpenML, 23 of these datasets are incompatible with the latest version of AUTOSKLEARN (Feurer, 2015), and we worked with the remaining 117 datasets. (10)Feurer et al. (2015) compared SMAC with variants that relied on meta-learning and ensemble methods that could potentially deployed in conjunction with any search method. We thus view them as orthogonal to our evaluation. Data Splits: Feurer et al. (2015) split each dataset into 2/3 training and 1/3 test set, whereas we introduce a validation set to avoid overfitting to the test data. We also used 2/3 of the data for training, but split the rest of the data into two equally sized validation and test sets. We report results on both the validation and test data. Moreover, we perform 20 trials of each (dataset-searcher) pair, and as in Feurer et al. (2015) we keep the same data splits across trials while using a different random seed for each searcher in each trial."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 344,
+                                "start": 341
+                            }
+                        ],
+                        "text": "0 500 1000 1500 2000 2500 3000 3500\nTime (s)\n1\n2\n3\n4\n5 6 A v e ra g e R a n k\n(a)\n0 500 1000 1500 2000 2500 3000 3500\nTime (s)\n1\n2\n3\n4\n5\n6\nA v e ra\ng e R\na n k\n(b)\n0 500 1000 1500 2000 2500 3000 3500\nTime (s)\n1\n2\n3\n4\n5\n6\nA v e ra\ng e R\na n k\n(c)\n0 500 1000 1500 2000 2500 3000 3500\nTime (s)\n1\n2\n3\n4\n5\n6\nA v e ra\ng e R\na n k\nrf_baseline SMAC TPE random hyperband random_2x\n(d)\nFigure 3."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 1354,
+                                "start": 14
+                            }
+                        ],
+                        "text": ", 2011), TPE (Bergstra et al., 2011), and HYPERBAND. Additionally, the default settings for SMAC packaged with AUTOSKLEARN initializes each run with a fixed hyperparameter configuration corresponding to a particular random forest model. We report results for all search methods using standard random initialization in the main text (Section 5.3), as well as qualitatively similiar results using this random forest configuration as a warm-start in the appendix (Section E). In all experiments, we report the results of this particular random forest configuration as a naive baseline. We also evaluate random search as an additional baseline. We report results on standard random search, along with a variant called random-2x where we run random on two machines for one hour each so it has double the time to explore the search space for each dataset. Datasets: While Feurer et al. (2015) used 140 binary and multiclass classification datasets from OpenML, 23 of these datasets are incompatible with the latest version of AUTOSKLEARN (Feurer, 2015), and we worked with the remaining 117 datasets. (10)Feurer et al. (2015) compared SMAC with variants that relied on meta-learning and ensemble methods that could potentially deployed in conjunction with any search method. We thus view them as orthogonal to our evaluation. Data Splits: Feurer et al. (2015) split each dataset into 2/3 training and 1/3 test set, whereas we introduce a validation set to avoid overfitting to the test data."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 11688126,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "03911c85305d42aa2eeb02be82ef6fb7da644dd0",
+            "isKey": true,
+            "numCitedBy": 2516,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Several recent advances to the state of the art in image classification benchmarks have come from better configurations of existing techniques rather than novel approaches to feature learning. Traditionally, hyper-parameter optimization has been the job of humans because they can be very efficient in regimes where only a few trials are possible. Presently, computer clusters and GPU processors make it possible to run more trials and we show that algorithmic approaches can find better results. We present hyper-parameter optimization results on tasks of training neural networks and deep belief networks (DBNs). We optimize hyper-parameters using random search and two new greedy sequential methods based on the expected improvement criterion. Random search has been shown to be sufficiently efficient for learning neural networks for several datasets, but we show it is unreliable for training DBNs. The sequential algorithms are applied to the most difficult DBN learning problems from [1] and find significantly better results than the best previously reported. This work contributes novel techniques for making response surface models P(y|x) in which many elements of hyper-parameter assignment (x) are known to be irrelevant given particular values of other elements."
+            },
+            "slug": "Algorithms-for-Hyper-Parameter-Optimization-Bergstra-Bardenet",
+            "title": {
+                "fragments": [],
+                "text": "Algorithms for Hyper-Parameter Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work contributes novel techniques for making response surface models P(y|x) in which many elements of hyper-parameter assignment (x) are known to be irrelevant given particular values of other elements."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144108062"
+                        ],
+                        "name": "Jasper Snoek",
+                        "slug": "Jasper-Snoek",
+                        "structuredName": {
+                            "firstName": "Jasper",
+                            "lastName": "Snoek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jasper Snoek"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1757324"
+                        ],
+                        "name": "Oren Rippel",
+                        "slug": "Oren-Rippel",
+                        "structuredName": {
+                            "firstName": "Oren",
+                            "lastName": "Rippel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Oren Rippel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1754860"
+                        ],
+                        "name": "Kevin Swersky",
+                        "slug": "Kevin-Swersky",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Swersky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin Swersky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3450996"
+                        ],
+                        "name": "Ryan Kiros",
+                        "slug": "Ryan-Kiros",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "Kiros",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan Kiros"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143758120"
+                        ],
+                        "name": "N. Satish",
+                        "slug": "N.-Satish",
+                        "structuredName": {
+                            "firstName": "Nadathur",
+                            "lastName": "Satish",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Satish"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1789372"
+                        ],
+                        "name": "N. Sundaram",
+                        "slug": "N.-Sundaram",
+                        "structuredName": {
+                            "firstName": "Narayanan",
+                            "lastName": "Sundaram",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Sundaram"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8176660"
+                        ],
+                        "name": "Md. Mostofa Ali Patwary",
+                        "slug": "Md.-Mostofa-Ali-Patwary",
+                        "structuredName": {
+                            "firstName": "Md.",
+                            "lastName": "Patwary",
+                            "middleNames": [
+                                "Mostofa",
+                                "Ali"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Md. Mostofa Ali Patwary"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1764912"
+                        ],
+                        "name": "Prabhat",
+                        "slug": "Prabhat",
+                        "structuredName": {
+                            "firstName": "",
+                            "lastName": "Prabhat",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Prabhat"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1722180"
+                        ],
+                        "name": "Ryan P. Adams",
+                        "slug": "Ryan-P.-Adams",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "Adams",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan P. Adams"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 144,
+                                "start": 126
+                            }
+                        ],
+                        "text": "These methods have been shown to empirically outperform standard baselines (Thornton et al., 2013; Eggensperger et al., 2013; Snoek et al., 2015), e.g., grid or random search, and provide general-purpose functionality by treating the learning methods under consideration as black-box procedures."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 145,
+                                "start": 75
+                            }
+                        ],
+                        "text": "These methods have been shown to empirically outperform standard baselines (Thornton et al., 2013; Eggensperger et al., 2013; Snoek et al., 2015), e."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12604141,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "93bc65d2842b8cc5f3cf72ebc5b8f75daeacea35",
+            "isKey": false,
+            "numCitedBy": 711,
+            "numCiting": 73,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Bayesian optimization is an effective methodology for the global optimization of functions with expensive evaluations. It relies on querying a distribution over functions defined by a relatively cheap surrogate model. An accurate model for this distribution over functions is critical to the effectiveness of the approach, and is typically fit using Gaussian processes (GPs). However, since GPs scale cubically with the number of observations, it has been challenging to handle objectives whose optimization requires many evaluations, and as such, massively parallelizing the optimization. \n \nIn this work, we explore the use of neural networks as an alternative to GPs to model distributions over functions. We show that performing adaptive basis function regression with a neural network as the parametric form performs competitively with state-of-the-art GP-based approaches, but scales linearly with the number of data rather than cubically. This allows us to achieve a previously intractable degree of parallelism, which we apply to large scale hyperparameter optimization, rapidly finding competitive models on benchmark object recognition tasks using convolutional networks, and image caption generation using neural language models."
+            },
+            "slug": "Scalable-Bayesian-Optimization-Using-Deep-Neural-Snoek-Rippel",
+            "title": {
+                "fragments": [],
+                "text": "Scalable Bayesian Optimization Using Deep Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work shows that performing adaptive basis function regression with a neural network as the parametric form performs competitively with state-of-the-art GP-based approaches, but scales linearly with the number of data rather than cubically, which allows for a previously intractable degree of parallelism."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37178915"
+                        ],
+                        "name": "A. Carpentier",
+                        "slug": "A.-Carpentier",
+                        "structuredName": {
+                            "firstName": "Alexandra",
+                            "lastName": "Carpentier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Carpentier"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1806291"
+                        ],
+                        "name": "Michal Valko",
+                        "slug": "Michal-Valko",
+                        "structuredName": {
+                            "firstName": "Michal",
+                            "lastName": "Valko",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michal Valko"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1296488,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "617ea1c4778bc6bc6286509eba4521cada701394",
+            "isKey": false,
+            "numCitedBy": 58,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider a stochastic bandit problem with infinitely many arms. In this setting, the learner has no chance of trying all the arms even once and has to dedicate its limited number of samples only to a certain number of arms. All previous algorithms for this setting were designed for minimizing the cumulative regret of the learner. In this paper, we propose an algorithm aiming at minimizing the simple regret. As in the cumulative regret setting of infinitely many armed bandits, the rate of the simple regret will depend on a parameter \u03b2 characterizing the distribution of the near-optimal arms. We prove that depending on \u03b2, our algorithm is minimax optimal either up to a multiplicative constant or up to a log(n) factor. We also provide extensions to several important cases: when \u03b2 is unknown, in a natural setting where the near-optimal arms have a small variance, and in the case of unknown time horizon."
+            },
+            "slug": "Simple-regret-for-infinitely-many-armed-bandits-Carpentier-Valko",
+            "title": {
+                "fragments": [],
+                "text": "Simple regret for infinitely many armed bandits"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper proposes an algorithm aiming at minimizing the simple regret, and proves that depending on \u03b2, the algorithm is minimax optimal either up to a multiplicative constant orup to a log(n) factor."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40333747"
+                        ],
+                        "name": "Alekh Agarwal",
+                        "slug": "Alekh-Agarwal",
+                        "structuredName": {
+                            "firstName": "Alekh",
+                            "lastName": "Agarwal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alekh Agarwal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1734693"
+                        ],
+                        "name": "John C. Duchi",
+                        "slug": "John-C.-Duchi",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Duchi",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John C. Duchi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745169"
+                        ],
+                        "name": "P. Bartlett",
+                        "slug": "P.-Bartlett",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Bartlett",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Bartlett"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "89109004"
+                        ],
+                        "name": "Cl\u00e9ment Levrard",
+                        "slug": "Cl\u00e9ment-Levrard",
+                        "structuredName": {
+                            "firstName": "Cl\u00e9ment",
+                            "lastName": "Levrard",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Cl\u00e9ment Levrard"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 97,
+                                "start": 8
+                            }
+                        ],
+                        "text": ", 2015; Agarwal et al., 2011; Krueger et al., 2015). With the exception of Krueger et al. (2015), these methods also assume that the underlying learning methods are iterative in nature, and require access to intermediate results."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 309,
+                                "start": 193
+                            }
+                        ],
+                        "text": "These methods also yield favorable empirical results, albeit in a restricted setting, as they typically only apply when working with a fixed, predetermined set of hyperparameter configurations (Jamieson & Talwalkar, 2015; Gy\u00f6rgy & Kocsis, 2011; Sparks et al., 2015; Agarwal et al., 2011; Krueger et al., 2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 2076,
+                                "start": 8
+                            }
+                        ],
+                        "text": ", 2015; Agarwal et al., 2011; Krueger et al., 2015). With the exception of Krueger et al. (2015), these methods also assume that the underlying learning methods are iterative in nature, and require access to intermediate results. Additionally, while many of these methods provide theoretical guarantees, these results only hold under strong assumptions about the statistical properties and convergence rates of the learning methods under consideration, with Jamieson & Talwalkar (2015) being the one notable exception. In this work, we explore the idea of adaptive computation in a more general and realistic setting, without restricting the number of configurations in advance or relying on intermediate results from potentially black-box learning methods. To this end, we frame the problem of hyperparameter optimization as a pure-exploration non-stochastic infinitely many armed bandit problem, and we present a novel and general purpose algorithm in this setting called HYPERBAND. We show how HYPERBAND can be applied in the context of hyperparameter optimization by downsampling the training data to adaptively allocate resources.2 The algorithm discards less promising configurations trained on a small subsample of the data, while training favorable hyperparameter configurations on successively larger subsamples. Our contributions in this work include: \u2022 We introduce a novel pure exploration infinitely many armed bandit problem in the non-stochastic setting, and demonstrate that the formulation in Carpentier & Valko (2015) is a special case of our problem setting. \u2022 We present HYPERBAND for this novel problem, focusing on the finite horizon setting. This setting, where there is an upper bound on the number of times an arm can be pulled, is the natural setting for our hyperparameter optimization application when relying on dataset downsampling. \u2022 We provide upper bounds for HYPERBAND in our general setting and show that they are nearly tight for the stochastic case. That is, our bounds nearly match the upper and lower bounds of Carpentier & Valko (2015) when applied to their setting."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 1536,
+                                "start": 8
+                            }
+                        ],
+                        "text": ", 2015; Agarwal et al., 2011; Krueger et al., 2015). With the exception of Krueger et al. (2015), these methods also assume that the underlying learning methods are iterative in nature, and require access to intermediate results. Additionally, while many of these methods provide theoretical guarantees, these results only hold under strong assumptions about the statistical properties and convergence rates of the learning methods under consideration, with Jamieson & Talwalkar (2015) being the one notable exception. In this work, we explore the idea of adaptive computation in a more general and realistic setting, without restricting the number of configurations in advance or relying on intermediate results from potentially black-box learning methods. To this end, we frame the problem of hyperparameter optimization as a pure-exploration non-stochastic infinitely many armed bandit problem, and we present a novel and general purpose algorithm in this setting called HYPERBAND. We show how HYPERBAND can be applied in the context of hyperparameter optimization by downsampling the training data to adaptively allocate resources.2 The algorithm discards less promising configurations trained on a small subsample of the data, while training favorable hyperparameter configurations on successively larger subsamples. Our contributions in this work include: \u2022 We introduce a novel pure exploration infinitely many armed bandit problem in the non-stochastic setting, and demonstrate that the formulation in Carpentier & Valko (2015) is a special case of our problem setting."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 54,
+                                "start": 32
+                            }
+                        ],
+                        "text": "(2014); Gy\u00f6rgy & Kocsis (2011); Agarwal et al. (2011) propose methods that make parametric assumptions on the convergence behavior of training methods, providing theoretical performance guarantees under these assumptions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 273,
+                                "start": 253
+                            }
+                        ],
+                        "text": "\u2026also yield favorable empirical results, albeit in a restricted setting, as they typically only apply when working with a fixed, predetermined set of hyperparameter configurations (Jamieson & Talwalkar, 2015; Gyo\u0308rgy & Kocsis, 2011; Sparks et al., 2015; Agarwal et al., 2011; Krueger et al., 2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 68,
+                                "start": 47
+                            }
+                        ],
+                        "text": "Swersky et al. (2014); Gyo\u0308rgy & Kocsis (2011); Agarwal et al. (2011) propose methods that make parametric assumptions on the convergence behavior of training methods, providing theoretical performance guarantees under these assumptions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 486,
+                                "start": 8
+                            }
+                        ],
+                        "text": ", 2015; Agarwal et al., 2011; Krueger et al., 2015). With the exception of Krueger et al. (2015), these methods also assume that the underlying learning methods are iterative in nature, and require access to intermediate results. Additionally, while many of these methods provide theoretical guarantees, these results only hold under strong assumptions about the statistical properties and convergence rates of the learning methods under consideration, with Jamieson & Talwalkar (2015) being the one notable exception."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 2736,
+                                "start": 8
+                            }
+                        ],
+                        "text": ", 2015; Agarwal et al., 2011; Krueger et al., 2015). With the exception of Krueger et al. (2015), these methods also assume that the underlying learning methods are iterative in nature, and require access to intermediate results. Additionally, while many of these methods provide theoretical guarantees, these results only hold under strong assumptions about the statistical properties and convergence rates of the learning methods under consideration, with Jamieson & Talwalkar (2015) being the one notable exception. In this work, we explore the idea of adaptive computation in a more general and realistic setting, without restricting the number of configurations in advance or relying on intermediate results from potentially black-box learning methods. To this end, we frame the problem of hyperparameter optimization as a pure-exploration non-stochastic infinitely many armed bandit problem, and we present a novel and general purpose algorithm in this setting called HYPERBAND. We show how HYPERBAND can be applied in the context of hyperparameter optimization by downsampling the training data to adaptively allocate resources.2 The algorithm discards less promising configurations trained on a small subsample of the data, while training favorable hyperparameter configurations on successively larger subsamples. Our contributions in this work include: \u2022 We introduce a novel pure exploration infinitely many armed bandit problem in the non-stochastic setting, and demonstrate that the formulation in Carpentier & Valko (2015) is a special case of our problem setting. \u2022 We present HYPERBAND for this novel problem, focusing on the finite horizon setting. This setting, where there is an upper bound on the number of times an arm can be pulled, is the natural setting for our hyperparameter optimization application when relying on dataset downsampling. \u2022 We provide upper bounds for HYPERBAND in our general setting and show that they are nearly tight for the stochastic case. That is, our bounds nearly match the upper and lower bounds of Carpentier & Valko (2015) when applied to their setting. Notably, our method does not assume an explicit distribution or even parameterization of a distribution over arms, but rather automati(2)In fact, HYPERBAND applies to both black-box training algorithms as well as iterative algorithms, though we focus on the former in this work. cally adapts to this unknown distribution, making HYPERBAND the first practical pure exploration algorithm for the infinitely armed bandit setting. \u2022 We present a detailed empirical evaluation of HYPERBAND in the context of hyperparameter optimization, using an experimental framework including 117 datasets recently proposed by Feurer et al. (2015) to evaluate Bayesian optimization methods."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 1574663,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f6bc323c11edc19be948df19cffff6e6251f8073",
+            "isKey": true,
+            "numCitedBy": 31,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "erieure Abstract We analyze general model selection procedures using penalized empirical loss minimiza- tion under computational constraints. While classical model selection approaches do not consider computational aspects of performing model selection, we argue that any practical model selection procedure must not only trade o estimation and approximation error, but also the eects of the computational eort required to compute empirical minimizers for dierent function classes. We provide a framework for analyzing such problems, and we give algorithms for model selection under a computational budget. These algorithms satisfy oracle inequalities that show that the risk of the selected model is not much worse than if we had devoted all of our computational budget to the best function class."
+            },
+            "slug": "Oracle-inequalities-for-computationally-budgeted-Agarwal-Duchi",
+            "title": {
+                "fragments": [],
+                "text": "Oracle inequalities for computationally budgeted model selection"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "This work gives algorithms for model selection under a computational budget that satisfy oracle inequalities that show that the risk of the selected model is not much worse than if the authors had devoted all of their computational budget to the best function class."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "COLT"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1754860"
+                        ],
+                        "name": "Kevin Swersky",
+                        "slug": "Kevin-Swersky",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Swersky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin Swersky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144108062"
+                        ],
+                        "name": "Jasper Snoek",
+                        "slug": "Jasper-Snoek",
+                        "structuredName": {
+                            "firstName": "Jasper",
+                            "lastName": "Snoek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jasper Snoek"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1722180"
+                        ],
+                        "name": "Ryan P. Adams",
+                        "slug": "Ryan-P.-Adams",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "Adams",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan P. Adams"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Swersky et al. (2014); Gyo\u0308rgy & Kocsis (2011); Agarwal et al. (2011) propose methods that make parametric assumptions on the convergence behavior of training methods, providing theoretical performance guarantees under these assumptions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2425787,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "52d97890dbc290108136739ec2afe0f2b6c4f570",
+            "isKey": false,
+            "numCitedBy": 205,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper we develop a dynamic form of Bayesian optimization for machine learning models with the goal of rapidly finding good hyperparameter settings. Our method uses the partial information gained during the training of a machine learning model in order to decide whether to pause training and start a new model, or resume the training of a previously-considered model. We specifically tailor our method to machine learning problems by developing a novel positive-definite covariance kernel to capture a variety of training curves. Furthermore, we develop a Gaussian process prior that scales gracefully with additional temporal observations. Finally, we provide an information-theoretic framework to automate the decision process. Experiments on several common machine learning models show that our approach is extremely effective in practice."
+            },
+            "slug": "Freeze-Thaw-Bayesian-Optimization-Swersky-Snoek",
+            "title": {
+                "fragments": [],
+                "text": "Freeze-Thaw Bayesian Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 80,
+                "text": "This paper develops a dynamic form of Bayesian optimization for machine learning models with the goal of rapidly finding good hyperparameter settings and provides an information-theoretic framework to automate the decision process."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145350541"
+                        ],
+                        "name": "A. Gy\u00f6rgy",
+                        "slug": "A.-Gy\u00f6rgy",
+                        "structuredName": {
+                            "firstName": "Andr\u00e1s",
+                            "lastName": "Gy\u00f6rgy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Gy\u00f6rgy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34908205"
+                        ],
+                        "name": "Levente Kocsis",
+                        "slug": "Levente-Kocsis",
+                        "structuredName": {
+                            "firstName": "Levente",
+                            "lastName": "Kocsis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Levente Kocsis"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 11736039,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "847371ea5c3eedc756bc6a78df4ad6c224c7f30b",
+            "isKey": false,
+            "numCitedBy": 64,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Local search algorithms for global optimization often suffer from getting trapped in a local optimum. The common solution for this problem is to restart the algorithm when no progress is observed. Alternatively, one can start multiple instances of a local search algorithm, and allocate computational resources (in particular, processing time) to the instances depending on their behavior. Hence, a multi-start strategy has to decide (dynamically) when to allocate additional resources to a particular instance and when to start new instances. In this paper we propose a consistent multi-start strategy that assumes a convergence rate of the local search algorithm up to an unknown constant, and in every phase gives preference to those instances that could converge to the best value for a particular range of the constant. Combined with the local search algorithm SPSA (Simultaneous Perturbation Stochastic Approximation), the strategy performs remarkably well in practice, both on synthetic tasks and on tuning the parameters of learning algorithms."
+            },
+            "slug": "Efficient-Multi-Start-Strategies-for-Local-Search-Gy\u00f6rgy-Kocsis",
+            "title": {
+                "fragments": [],
+                "text": "Efficient Multi-Start Strategies for Local Search Algorithms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This paper proposes a consistent multi-start strategy that assumes a convergence rate of the local search algorithm up to an unknown constant, and in every phase gives preference to those instances that could converge to the best value for a particular range of the constant."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Artif. Intell. Res."
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2607675"
+                        ],
+                        "name": "Katharina Eggensperger",
+                        "slug": "Katharina-Eggensperger",
+                        "structuredName": {
+                            "firstName": "Katharina",
+                            "lastName": "Eggensperger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Katharina Eggensperger"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 124,
+                                "start": 99
+                            }
+                        ],
+                        "text": "These methods have been shown to empirically outperform standard baselines (Thornton et al., 2013; Eggensperger et al., 2013; Snoek et al., 2015), e.g., grid or random search, and provide general-purpose functionality by treating the learning methods under consideration as black-box procedures."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 145,
+                                "start": 75
+                            }
+                        ],
+                        "text": "These methods have been shown to empirically outperform standard baselines (Thornton et al., 2013; Eggensperger et al., 2013; Snoek et al., 2015), e."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11699887,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "312f8804100cc836ad6fcc780f95b9f23a12f257",
+            "isKey": false,
+            "numCitedBy": 259,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Progress in practical Bayesian optimization (BO) is hampered by the fact that the only available standard benchmarks are artificial test functions that are not representative of practical applications. To alleviate this problem, we introduce a library of benchmarks from the prominent application of hyperparameter optimization and use it to compare Spearmint, TPE, and SMAC, three recent BO methods for hyperparameter optimization."
+            },
+            "slug": "Towards-an-Empirical-Foundation-for-Assessing-of-Eggensperger",
+            "title": {
+                "fragments": [],
+                "text": "Towards an Empirical Foundation for Assessing Bayesian Optimization of Hyperparameters"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A library of benchmarks from the prominent application of hyperparameter optimization is introduced and used to compare Spearmint, TPE, and SMAC, three recent BO methods for hyperparameters optimization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144752747"
+                        ],
+                        "name": "Evan R. Sparks",
+                        "slug": "Evan-R.-Sparks",
+                        "structuredName": {
+                            "firstName": "Evan",
+                            "lastName": "Sparks",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Evan R. Sparks"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145532827"
+                        ],
+                        "name": "Ameet S. Talwalkar",
+                        "slug": "Ameet-S.-Talwalkar",
+                        "structuredName": {
+                            "firstName": "Ameet",
+                            "lastName": "Talwalkar",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ameet S. Talwalkar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "30462672"
+                        ],
+                        "name": "D. Haas",
+                        "slug": "D.-Haas",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Haas",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Haas"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143666627"
+                        ],
+                        "name": "M. Franklin",
+                        "slug": "M.-Franklin",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Franklin",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Franklin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694621"
+                        ],
+                        "name": "Michael I. Jordan",
+                        "slug": "Michael-I.-Jordan",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Jordan",
+                            "middleNames": [
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael I. Jordan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746961"
+                        ],
+                        "name": "Tim Kraska",
+                        "slug": "Tim-Kraska",
+                        "structuredName": {
+                            "firstName": "Tim",
+                            "lastName": "Kraska",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tim Kraska"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 251,
+                                "start": 232
+                            }
+                        ],
+                        "text": "\u2026also yield favorable empirical results, albeit in a restricted setting, as they typically only apply when working with a fixed, predetermined set of hyperparameter configurations (Jamieson & Talwalkar, 2015; Gyo\u0308rgy & Kocsis, 2011; Sparks et al., 2015; Agarwal et al., 2011; Krueger et al., 2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 52,
+                                "start": 32
+                            }
+                        ],
+                        "text": "To overcome these difficulties, Sparks et al. (2015) proposed a halving style algorithm that did not require explicit convergence behavior, and Jamieson & Talwalkar (2015) analyzed a similar algorithm, providing theoretical guarantees as well as encouraging empirical results."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 309,
+                                "start": 193
+                            }
+                        ],
+                        "text": "These methods also yield favorable empirical results, albeit in a restricted setting, as they typically only apply when working with a fixed, predetermined set of hyperparameter configurations (Jamieson & Talwalkar, 2015; Gy\u00f6rgy & Kocsis, 2011; Sparks et al., 2015; Agarwal et al., 2011; Krueger et al., 2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 4414918,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "83ec245d470a3b75c0861acd5e67db5216e8e049",
+            "isKey": false,
+            "numCitedBy": 134,
+            "numCiting": 58,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The proliferation of massive datasets combined with the development of sophisticated analytical techniques has enabled a wide variety of novel applications such as improved product recommendations, automatic image tagging, and improved speech-driven interfaces. A major obstacle to supporting these predictive applications is the challenging and expensive process of identifying and training an appropriate predictive model. Recent efforts aiming to automate this process have focused on single node implementations and have assumed that model training itself is a black box, limiting their usefulness for applications driven by large-scale datasets. In this work, we build upon these recent efforts and propose an architecture for automatic machine learning at scale comprised of a cost-based cluster resource allocation estimator, advanced hyper-parameter tuning techniques, bandit resource allocation via runtime algorithm introspection, and physical optimization via batching and optimal resource allocation. The result is TuPAQ, a component of the MLbase system that automatically finds and trains models for a user's predictive application with comparable quality to those found using exhaustive strategies, but an order of magnitude more efficiently than the standard baseline approach. TuPAQ scales to models trained on Terabytes of data across hundreds of machines."
+            },
+            "slug": "Automating-model-search-for-large-scale-machine-Sparks-Talwalkar",
+            "title": {
+                "fragments": [],
+                "text": "Automating model search for large scale machine learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "An architecture for automatic machine learning at scale comprised of a cost-based cluster resource allocation estimator, advanced hyper-parameter tuning techniques, bandit resource allocation via runtime algorithm introspection, and physical optimization via batching and optimal resource allocation is proposed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SoCC"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144661829"
+                        ],
+                        "name": "F. Hutter",
+                        "slug": "F.-Hutter",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Hutter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Hutter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2470869"
+                        ],
+                        "name": "H. Hoos",
+                        "slug": "H.-Hoos",
+                        "structuredName": {
+                            "firstName": "Holger",
+                            "lastName": "Hoos",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Hoos"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388404060"
+                        ],
+                        "name": "Kevin Leyton-Brown",
+                        "slug": "Kevin-Leyton-Brown",
+                        "structuredName": {
+                            "firstName": "Kevin",
+                            "lastName": "Leyton-Brown",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kevin Leyton-Brown"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 39
+                            }
+                        ],
+                        "text": "Additionally, the default settings for SMAC packaged with AUTOSKLEARN initializes each run with a fixed hyperparameter configuration corresponding to a particular random forest model."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 159,
+                                "start": 140
+                            }
+                        ],
+                        "text": "Search Methods: Whereas Feurer et al. (2015) compared variants of the SMAC method,10 we considered a wider range of methods including SMAC (Hutter et al., 2011), TPE (Bergstra et al., 2011), and HYPERBAND."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 32
+                            }
+                        ],
+                        "text": "10Feurer et al. (2015) compared SMAC with variants that relied on meta-learning and ensemble methods that could potentially deployed in conjunction with any search method."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 12,
+                                "start": 8
+                            }
+                        ],
+                        "text": "TPE and SMAC adaptively choose arms after training this initial configuration and HYPERBAND and random only update the incumbent if a trained configuration has lower validation error."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 145,
+                                "start": 125
+                            }
+                        ],
+                        "text": "The majority of recent work in this growing area focuses on Bayesian hyperparameter optimization, e.g., Snoek et al. (2012); Hutter et al. (2011); Bergstra et al. (2011), with the goal of optimizing hyperparameter configuration selection in an iterative fashion."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 144,
+                                "start": 140
+                            }
+                        ],
+                        "text": "Results for Warmstarted Searchers\nWe run a version of each searcher where the first configuration trained is the default random forest that SMAC used as its initial configuration in Feurer et al. (2015)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 193,
+                                "start": 189
+                            }
+                        ],
+                        "text": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43\nDatasets\n0.0\n0.1\n0.2\n0.3\n0.4\n0.5\nA v e ra\ng e T\ne st\nE rr\no r\nrandom SMAC TPE hyperband random_2x\nFigure 4."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 122,
+                                "start": 101
+                            }
+                        ],
+                        "text": "(2015) compared variants of the SMAC method,10 we considered a wider range of methods including SMAC (Hutter et al., 2011), TPE (Bergstra et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 340,
+                                "start": 336
+                            }
+                        ],
+                        "text": "0 500 1000 1500 2000 2500 3000 3500\nTime (s)\n1\n2\n3\n4\n5 6 A v e ra g e R a n k\n(a)\n0 500 1000 1500 2000 2500 3000 3500\nTime (s)\n1\n2\n3\n4\n5\n6\nA v e ra\ng e R\na n k\n(b)\n0 500 1000 1500 2000 2500 3000 3500\nTime (s)\n1\n2\n3\n4\n5\n6\nA v e ra\ng e R\na n k\n(c)\n0 500 1000 1500 2000 2500 3000 3500\nTime (s)\n1\n2\n3\n4\n5\n6\nA v e ra\ng e R\na n k\nrf_baseline SMAC TPE random hyperband random_2x\n(d)\nFigure 3."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 6944647,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "728744423ff0fb7e327664ed4e6352a95bb6c893",
+            "isKey": true,
+            "numCitedBy": 2055,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "State-of-the-art algorithms for hard computational problems often expose many parameters that can be modified to improve empirical performance. However, manually exploring the resulting combinatorial space of parameter settings is tedious and tends to lead to unsatisfactory outcomes. Recently, automated approaches for solving this algorithm configuration problem have led to substantial improvements in the state of the art for solving various problems. One promising approach constructs explicit regression models to describe the dependence of target algorithm performance on parameter settings; however, this approach has so far been limited to the optimization of few numerical algorithm parameters on single instances. In this paper, we extend this paradigm for the first time to general algorithm configuration problems, allowing many categorical parameters and optimization for sets of instances. We experimentally validate our new algorithm configuration procedure by optimizing a local search and a tree search solver for the propositional satisfiability problem (SAT), as well as the commercial mixed integer programming (MIP) solver CPLEX. In these experiments, our procedure yielded state-of-the-art performance, and in many cases outperformed the previous best configuration approach."
+            },
+            "slug": "Sequential-Model-Based-Optimization-for-General-Hutter-Hoos",
+            "title": {
+                "fragments": [],
+                "text": "Sequential Model-Based Optimization for General Algorithm Configuration"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper extends the explicit regression models paradigm for the first time to general algorithm configuration problems, allowing many categorical parameters and optimization for sets of instances, and yields state-of-the-art performance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "LION"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1815542"
+                        ],
+                        "name": "S\u00e9bastien Bubeck",
+                        "slug": "S\u00e9bastien-Bubeck",
+                        "structuredName": {
+                            "firstName": "S\u00e9bastien",
+                            "lastName": "Bubeck",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S\u00e9bastien Bubeck"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388387856"
+                        ],
+                        "name": "N. Cesa-Bianchi",
+                        "slug": "N.-Cesa-Bianchi",
+                        "structuredName": {
+                            "firstName": "Nicol\u00f2",
+                            "lastName": "Cesa-Bianchi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Cesa-Bianchi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 207179066,
+            "fieldsOfStudy": [
+                "Economics",
+                "Computer Science"
+            ],
+            "id": "9ae45d013a90c4a562b1e380fe032b20d0779577",
+            "isKey": false,
+            "numCitedBy": 2154,
+            "numCiting": 198,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A multi-armed bandit problem - or, simply, a bandit problem - is a sequential allocation problem defined by a set of actions. At each time step, a unit resource is allocated to an action and some observable payoff is obtained. The goal is to maximize the total payoff obtained in a sequence of allocations. The name bandit refers to the colloquial term for a slot machine (a \"one-armed bandit\" in American slang). In a casino, a sequential allocation problem is obtained when the player is facing many slot machines at once (a \"multi-armed bandit\"), and must repeatedly choose where to insert the next coin. Multi-armed bandit problems are the most basic examples of sequential decision problems with an exploration-exploitation trade-off. This is the balance between staying with the option that gave highest payoffs in the past and exploring new options that might give higher payoffs in the future. Although the study of bandit problems dates back to the 1930s, exploration-exploitation trade-offs arise in several modern applications, such as ad placement, website optimization, and packet routing. Mathematically, a multi-armed bandit is defined by the payoff process associated with each option. In this book, the focus is on two extreme cases in which the analysis of regret is particularly simple and elegant: independent and identically distributed payoffs and adversarial payoffs. Besides the basic setting of finitely many actions, it also analyzes some of the most important variants and extensions, such as the contextual bandit model. This monograph is an ideal reference for students and researchers with an interest in bandit problems."
+            },
+            "slug": "Regret-Analysis-of-Stochastic-and-Nonstochastic-Bubeck-Cesa-Bianchi",
+            "title": {
+                "fragments": [],
+                "text": "Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 37,
+                "text": "The focus is on two extreme cases in which the analysis of regret is particularly simple and elegant: independent and identically distributed payoffs and adversarial payoffs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Found. Trends Mach. Learn."
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2868444"
+                        ],
+                        "name": "Matthias Feurer",
+                        "slug": "Matthias-Feurer",
+                        "structuredName": {
+                            "firstName": "Matthias",
+                            "lastName": "Feurer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matthias Feurer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145227684"
+                        ],
+                        "name": "Aaron Klein",
+                        "slug": "Aaron-Klein",
+                        "structuredName": {
+                            "firstName": "Aaron",
+                            "lastName": "Klein",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aaron Klein"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2607675"
+                        ],
+                        "name": "Katharina Eggensperger",
+                        "slug": "Katharina-Eggensperger",
+                        "structuredName": {
+                            "firstName": "Katharina",
+                            "lastName": "Eggensperger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Katharina Eggensperger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2060551"
+                        ],
+                        "name": "Jost Tobias Springenberg",
+                        "slug": "Jost-Tobias-Springenberg",
+                        "structuredName": {
+                            "firstName": "Jost",
+                            "lastName": "Springenberg",
+                            "middleNames": [
+                                "Tobias"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jost Tobias Springenberg"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2058090778"
+                        ],
+                        "name": "Manuel Blum",
+                        "slug": "Manuel-Blum",
+                        "structuredName": {
+                            "firstName": "Manuel",
+                            "lastName": "Blum",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Manuel Blum"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144661829"
+                        ],
+                        "name": "F. Hutter",
+                        "slug": "F.-Hutter",
+                        "structuredName": {
+                            "firstName": "Frank",
+                            "lastName": "Hutter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Hutter"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 33,
+                                "start": 13
+                            }
+                        ],
+                        "text": "Data Splits: Feurer et al. (2015) split each dataset into 2/3 training and 1/3 test set, whereas we introduce a validation set to avoid overfitting to the test data."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 36,
+                                "start": 16
+                            }
+                        ],
+                        "text": "Datasets: While Feurer et al. (2015) used 140 binary and multiclass classification datasets from OpenML, 23 of these datasets are incompatible with the latest version of AUTOSKLEARN (Feurer, 2015), and we worked with the remaining 117 datasets."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 24
+                            }
+                        ],
+                        "text": "Search Methods: Whereas Feurer et al. (2015) compared variants of the SMAC method,10 we considered a wider range of methods including SMAC (Hutter et al., 2011), TPE (Bergstra et al., 2011), and HYPERBAND."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 74
+                            }
+                        ],
+                        "text": "Moreover, we perform 20 trials of each (dataset-searcher) pair, and as in Feurer et al. (2015) we keep the same data splits across trials while using a different random seed for each searcher in each trial."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 74,
+                                "start": 54
+                            }
+                        ],
+                        "text": "We implement the experimental framework introduced by Feurer et al. (2015), which represents the most recent and most extensive empirical evaluation framework for hyperparameter optimization."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 203,
+                                "start": 182
+                            }
+                        ],
+                        "text": "Results for Warmstarted Searchers We run a version of each searcher where the first configuration trained is the default random forest that SMAC used as its initial configuration in Feurer et al. (2015). TPE and SMAC adaptively choose arms after training this initial configuration and HYPERBAND and random only update the incumbent if a trained configuration has lower validation error."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 107
+                            }
+                        ],
+                        "text": "Aside from the modifications described in the paragraphs below, we followed the same experimental setup as Feurer et al. (2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 202,
+                                "start": 182
+                            }
+                        ],
+                        "text": "Results for Warmstarted Searchers\nWe run a version of each searcher where the first configuration trained is the default random forest that SMAC used as its initial configuration in Feurer et al. (2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 53,
+                                "start": 33
+                            }
+                        ],
+                        "text": "While the framework developed in Feurer et al. (2015) provides a good starting point for the evaluation of hyperparameter optimization methods, it has shortcomings that limit the evaluation of HYPERBAND."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 200,
+                                "start": 180
+                            }
+                        ],
+                        "text": "\u2022 We present a detailed empirical evaluation of HYPERBAND in the context of hyperparameter optimization, using an experimental framework including 117 datasets recently proposed by Feurer et al. (2015) to evaluate Bayesian optimization methods."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 5,
+                                "start": 0
+                            }
+                        ],
+                        "text": "While precise and fully general to any F and \u03b3, Eq."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 127,
+                                "start": 106
+                            }
+                        ],
+                        "text": "All searchers are warmstarted with the initial random forest hyperparameter configuration used by SMAC in Feurer et al. (2015). Average rank of test error (a) on all 117 datasets, (b) on subset with 43 datasets, and (c) on subset with 21 datasets."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 34
+                            }
+                        ],
+                        "text": "Unfortunately, these assumptions\n3While this is most comprehensive benchmark constructed to date, it has some shortcomings, namely that the size of the datasets limit the effectiveness of dataset subsampling (see Section 5 for details)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 195,
+                                "start": 190
+                            }
+                        ],
+                        "text": "Results on 21 Almost-Linear-Compute Datasets: Figure 3(d) shows that HYPERBAND outperforms all other searchers on test error rank, including random 2x.\nRelative versus Absolute Performance: While average 14We observe similar overfitting behavior in our experimental results for the 43 datasets and the 21 datasets, and thus focus on test error rank for these experiments.\nranking plots like those of Figure 3 are an effective way to aggregate information across many searchers and datasets, they provide no indication about the magnitude of the differences of the methods."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 856717,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "775a4e375cc79b53b94e37fa3eedff481823e4a6",
+            "isKey": true,
+            "numCitedBy": 1156,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The success of machine learning in a broad range of applications has led to an ever-growing demand for machine learning systems that can be used off the shelf by non-experts. To be effective in practice, such systems need to automatically choose a good algorithm and feature preprocessing steps for a new dataset at hand, and also set their respective hyperparameters. Recent work has started to tackle this automated machine learning (AutoML) problem with the help of efficient Bayesian optimization methods. Building on this, we introduce a robust new AutoML system based on scikit-learn (using 15 classifiers, 14 feature preprocessing methods, and 4 data preprocessing methods, giving rise to a structured hypothesis space with 110 hyperparameters). This system, which we dub AUTO-SKLEARN, improves on existing AutoML methods by automatically taking into account past performance on similar datasets, and by constructing ensembles from the models evaluated during the optimization. Our system won the first phase of the ongoing ChaLearn AutoML challenge, and our comprehensive analysis on over 100 diverse datasets shows that it substantially outperforms the previous state of the art in AutoML. We also demonstrate the performance gains due to each of our contributions and derive insights into the effectiveness of the individual components of AUTO-SKLEARN."
+            },
+            "slug": "Efficient-and-Robust-Automated-Machine-Learning-Feurer-Klein",
+            "title": {
+                "fragments": [],
+                "text": "Efficient and Robust Automated Machine Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work introduces a robust new AutoML system based on scikit-learn, which improves on existing AutoML methods by automatically taking into account past performance on similar datasets, and by constructing ensembles from the models evaluated during the optimization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38846833"
+                        ],
+                        "name": "T. Krueger",
+                        "slug": "T.-Krueger",
+                        "structuredName": {
+                            "firstName": "Tammo",
+                            "lastName": "Krueger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Krueger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2929894"
+                        ],
+                        "name": "Danny Panknin",
+                        "slug": "Danny-Panknin",
+                        "structuredName": {
+                            "firstName": "Danny",
+                            "lastName": "Panknin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Danny Panknin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2522031"
+                        ],
+                        "name": "M. Braun",
+                        "slug": "M.-Braun",
+                        "structuredName": {
+                            "firstName": "Mikio",
+                            "lastName": "Braun",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Braun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Krueger et al. (2015) instead proposes a heuristic based on sequential analysis to determine stopping times for training configurations on increasing subsets of the data."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 309,
+                                "start": 193
+                            }
+                        ],
+                        "text": "These methods also yield favorable empirical results, albeit in a restricted setting, as they typically only apply when working with a fixed, predetermined set of hyperparameter configurations (Jamieson & Talwalkar, 2015; Gy\u00f6rgy & Kocsis, 2011; Sparks et al., 2015; Agarwal et al., 2011; Krueger et al., 2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 22
+                            }
+                        ],
+                        "text": "With the exception of Krueger et al. (2015), these methods also assume that the underlying learning methods are iterative in nature, and require access to intermediate results."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 295,
+                                "start": 275
+                            }
+                        ],
+                        "text": "\u2026also yield favorable empirical results, albeit in a restricted setting, as they typically only apply when working with a fixed, predetermined set of hyperparameter configurations (Jamieson & Talwalkar, 2015; Gyo\u0308rgy & Kocsis, 2011; Sparks et al., 2015; Agarwal et al., 2011; Krueger et al., 2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 192,
+                                "start": 171
+                            }
+                        ],
+                        "text": "\u2026the performance of configurations trained on a subsample to that on the whole dataset (Smale & Zhou, 2003; Steinwart & Scovel, 2007; Cortes et al., 2010; Bach, 2013), as Krueger et al. (2015) notes, \u201cexisting theoretical results are not able to bound the error sufficiently tightly\u201d in practice."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14374177,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5e8e6083e430ab6bd00108b3b94ee62eea32c6f8",
+            "isKey": true,
+            "numCitedBy": 42,
+            "numCiting": 61,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "With the increasing size of today's data sets, nding the right parameter configuration in model selection via cross-validation can be an extremely time-consuming task. In this paper we propose an improved cross-validation procedure which uses nonparametric testing coupled with sequential analysis to determine the best parameter set on linearly increasing subsets of the data. By eliminating underperforming candidates quickly and keeping promising candidates as long as possible, the method speeds up the computation while preserving the power of the full cross-validation. Theoretical considerations underline the statistical power of our procedure. The experimental evaluation shows that our method reduces the computation time by a factor of up to 120 compared to a full cross-validation with a negligible impact on the accuracy."
+            },
+            "slug": "Fast-cross-validation-via-sequential-testing-Krueger-Panknin",
+            "title": {
+                "fragments": [],
+                "text": "Fast cross-validation via sequential testing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "An improved cross-validation procedure which uses nonparametric testing coupled with sequential analysis to determine the best parameter set on linearly increasing subsets of the data is proposed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144570279"
+                        ],
+                        "name": "F. Bach",
+                        "slug": "F.-Bach",
+                        "structuredName": {
+                            "firstName": "Francis",
+                            "lastName": "Bach",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Bach"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 3814261,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9b7f46e4165e9d6186773b6d00d969a9a956b7f3",
+            "isKey": false,
+            "numCitedBy": 242,
+            "numCiting": 70,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider supervised learning problems within the positive-definite kernel framework, such as kernel ridge regression, kernel logistic regression or the support vector machine. With kernels leading to infinite-dimensional feature spaces, a common practical limiting difficulty is the necessity of computing the kernel matrix, which most frequently leads to algorithms with running time at least quadratic in the number of observations n, i.e., O(n^2). Low-rank approximations of the kernel matrix are often considered as they allow the reduction of running time complexities to O(p^2 n), where p is the rank of the approximation. The practicality of such methods thus depends on the required rank p. In this paper, we show that in the context of kernel ridge regression, for approximations based on a random subset of columns of the original kernel matrix, the rank p may be chosen to be linear in the degrees of freedom associated with the problem, a quantity which is classically used in the statistical analysis of such methods, and is often seen as the implicit number of parameters of non-parametric estimators. This result enables simple algorithms that have sub-quadratic running time complexity, but provably exhibit the same predictive performance than existing algorithms, for any given problem instance, and not only for worst-case situations."
+            },
+            "slug": "Sharp-analysis-of-low-rank-kernel-matrix-Bach",
+            "title": {
+                "fragments": [],
+                "text": "Sharp analysis of low-rank kernel matrix approximations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper shows that in the context of kernel ridge regression, for approximations based on a random subset of columns of the original kernel matrix, the rank p may be chosen to be linear in the degrees of freedom associated with the problem, a quantity which is classically used in the statistical analysis of such methods."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "COLT"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145115014"
+                        ],
+                        "name": "Corinna Cortes",
+                        "slug": "Corinna-Cortes",
+                        "structuredName": {
+                            "firstName": "Corinna",
+                            "lastName": "Cortes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Corinna Cortes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "81080659"
+                        ],
+                        "name": "M. Mohri",
+                        "slug": "M.-Mohri",
+                        "structuredName": {
+                            "firstName": "Mehryar",
+                            "lastName": "Mohri",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Mohri"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145532827"
+                        ],
+                        "name": "Ameet S. Talwalkar",
+                        "slug": "Ameet-S.-Talwalkar",
+                        "structuredName": {
+                            "firstName": "Ameet",
+                            "lastName": "Talwalkar",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ameet S. Talwalkar"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 244,
+                                "start": 185
+                            }
+                        ],
+                        "text": "Although there exist theoretical bounds that relate the performance of configurations trained on a subsample to that on the whole dataset (Smale & Zhou, 2003; Steinwart & Scovel, 2007; Cortes et al., 2010; Bach, 2013), as Krueger et al. (2015) notes, \u201cexisting theoretical results are not able to bound the error sufficiently tightly\u201d in practice."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 370,
+                                "start": 185
+                            }
+                        ],
+                        "text": "Although there exist theoretical bounds that relate the performance of configurations trained on a subsample to that on the whole dataset (Smale & Zhou, 2003; Steinwart & Scovel, 2007; Cortes et al., 2010; Bach, 2013), as Krueger et al. (2015) notes, \u201cexisting theoretical results are not able to bound the error sufficiently tightly\u201d in practice. Krueger et al. (2015) instead proposes a heuristic based on sequential analysis to determine stopping times for training configurations on increasing subsets of the data."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 217,
+                                "start": 138
+                            }
+                        ],
+                        "text": "Although there exist theoretical bounds that relate the performance of configurations trained on a subsample to that on the whole dataset (Smale & Zhou, 2003; Steinwart & Scovel, 2007; Cortes et al., 2010; Bach, 2013), as Krueger et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 760,
+                                "start": 185
+                            }
+                        ],
+                        "text": "Although there exist theoretical bounds that relate the performance of configurations trained on a subsample to that on the whole dataset (Smale & Zhou, 2003; Steinwart & Scovel, 2007; Cortes et al., 2010; Bach, 2013), as Krueger et al. (2015) notes, \u201cexisting theoretical results are not able to bound the error sufficiently tightly\u201d in practice. Krueger et al. (2015) instead proposes a heuristic based on sequential analysis to determine stopping times for training configurations on increasing subsets of the data. Unfortunately, the theoretical correctness and empirical performance of this method are highly dependent on the user-defined \u201csafety zone.\u201d A potentially more feasible approach is the general algorithm studied in Jamieson & Talwalkar (2015), which was only evaluated on iterative settings in that work."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 165,
+                                "start": 146
+                            }
+                        ],
+                        "text": "\u2026that relate the performance of configurations trained on a subsample to that on the whole dataset (Smale & Zhou, 2003; Steinwart & Scovel, 2007; Cortes et al., 2010; Bach, 2013), as Krueger et al. (2015) notes, \u201cexisting theoretical results are not able to bound the error sufficiently tightly\u201d\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1053910,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a035cccf0f57b505229f0e5db1a1dfedde062d43",
+            "isKey": false,
+            "numCitedBy": 147,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Kernel approximation is commonly used to scale kernel-based algorithms to applications containing as many as several million instances. This paper analyzes the effect of such approximations in the kernel matrix on the hypothesis generated by several widely used learning algorithms. We give stability bounds based on the norm of the kernel approximation for these algorithms, including SVMs, KRR, and graph Laplacian-based regularization algorithms. These bounds help determine the degree of approximation that can be tolerated in the estimation of the kernel matrix. Our analysis is general and applies to arbitrary approximations of the kernel matrix. However, we also give a specific analysis of the Nystr \u00a8 om low-rank approximation in this context and report the results of experiments evaluating the \u2032 \u2212 \ufffd| ="
+            },
+            "slug": "On-the-Impact-of-Kernel-Approximation-on-Learning-Cortes-Mohri",
+            "title": {
+                "fragments": [],
+                "text": "On the Impact of Kernel Approximation on Learning Accuracy"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "Stability bounds based on the norm of the kernel approximation for these algorithms, including SVMs, KRR, and graph Laplacian-based regularization algorithms, are given to determine the degree of approximation that can be tolerated in the estimation of thekernel matrix."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AISTATS"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388396612"
+                        ],
+                        "name": "Eyal Even-Dar",
+                        "slug": "Eyal-Even-Dar",
+                        "structuredName": {
+                            "firstName": "Eyal",
+                            "lastName": "Even-Dar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eyal Even-Dar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1712535"
+                        ],
+                        "name": "Shie Mannor",
+                        "slug": "Shie-Mannor",
+                        "structuredName": {
+                            "firstName": "Shie",
+                            "lastName": "Mannor",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shie Mannor"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144830983"
+                        ],
+                        "name": "Y. Mansour",
+                        "slug": "Y.-Mansour",
+                        "structuredName": {
+                            "firstName": "Y.",
+                            "lastName": "Mansour",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Mansour"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 73
+                            }
+                        ],
+                        "text": "Experimental Setup We implement the experimental framework introduced by Feurer et al. (2015), which represents the most recent and most extensive empirical evaluation framework for hyperparameter optimization."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 548,
+                                "start": 73
+                            }
+                        ],
+                        "text": "Experimental Setup We implement the experimental framework introduced by Feurer et al. (2015), which represents the most recent and most extensive empirical evaluation framework for hyperparameter optimization. This framework includes 15 classifiers, 14 feature preprocessing methods, and 4 data preprocessing methods which collectively form a structured hyperparameter search space with a total of 110 hyperparameters. Aside from the modifications described in the paragraphs below, we followed the same experimental setup as Feurer et al. (2015). In particular, we impose a 3GB memory limit, a 6-minute timeout for each hyperparameter configuration and a one-hour time window to evaluate each searcher on each dataset."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 1047,
+                                "start": 73
+                            }
+                        ],
+                        "text": "Experimental Setup We implement the experimental framework introduced by Feurer et al. (2015), which represents the most recent and most extensive empirical evaluation framework for hyperparameter optimization. This framework includes 15 classifiers, 14 feature preprocessing methods, and 4 data preprocessing methods which collectively form a structured hyperparameter search space with a total of 110 hyperparameters. Aside from the modifications described in the paragraphs below, we followed the same experimental setup as Feurer et al. (2015). In particular, we impose a 3GB memory limit, a 6-minute timeout for each hyperparameter configuration and a one-hour time window to evaluate each searcher on each dataset. Moreover, we evaluate the performance of each searcher by aggregating results across all datasets and reporting the average rank of each method. All experiments were performed on Google Cloud Compute n1-standard-1 instances in us-central1-f region with 1 CPU and 3.75GB of memory. Search Methods: Whereas Feurer et al. (2015) compared variants of the SMAC method,10 we considered a wider range of methods including SMAC (Hutter et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 108
+                            }
+                        ],
+                        "text": "The pure-exploration MAB problem has a long history in the stochastic setting (Bubeck & Cesa-Bianchi, 2012; Even-Dar et al., 2006), and was recently extended to the non-stochastic setting by Jamieson\n4Note that in the iterative case arm pulls accumulate while in the data sampling setting they do\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 592,
+                                "start": 108
+                            }
+                        ],
+                        "text": "The pure-exploration MAB problem has a long history in the stochastic setting (Bubeck & Cesa-Bianchi, 2012; Even-Dar et al., 2006), and was recently extended to the non-stochastic setting by Jamieson (4)Note that in the iterative case arm pulls accumulate while in the data sampling setting they do not. This is easily resolved by considering algorithms that pull arms in geometrically increasing intervals and observe losses only at the end of each interval. By employing this doubling trick, we end up with only a factor of two more of work in the data sampling setting. & Talwalkar (2015). As previously mentioned, this algorithm is generally applicable to the iterative setting in the context of the hyperparameter optimization problem."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 130,
+                                "start": 78
+                            }
+                        ],
+                        "text": "The pure-exploration MAB problem has a long history in the stochastic setting (Bubeck & Cesa-Bianchi, 2012; Even-Dar et al., 2006), and was recently extended to the non-stochastic setting by Jamieson (4)Note that in the iterative case arm pulls accumulate while in the data sampling setting they do not."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6253834,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "96c1211bf54b277c225a3e50329058c2abcfdaca",
+            "isKey": true,
+            "numCitedBy": 46,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider incorporating action elimination procedures in reinforcement learning algorithms. We suggest a framework that is based on learning an upper and a lower estimates of the value function or the Q-function and eliminating actions that are not optimal. We provide a model-based and a model-free variants of the elimination method. We further derive stopping conditions that guarantee that the learned policy is approximately optimal with high probability. Simulations demonstrate a considerable speedup and added robustness."
+            },
+            "slug": "Action-Elimination-and-Stopping-Conditions-for-Even-Dar-Mannor",
+            "title": {
+                "fragments": [],
+                "text": "Action Elimination and Stopping Conditions for Reinforcement Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A model-based and a model-free variants of the elimination method that derive stopping conditions that guarantee that the learned policy is approximately optimal with high probability and demonstrates a considerable speedup and added robustness."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1782193"
+                        ],
+                        "name": "Ingo Steinwart",
+                        "slug": "Ingo-Steinwart",
+                        "structuredName": {
+                            "firstName": "Ingo",
+                            "lastName": "Steinwart",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ingo Steinwart"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143790221"
+                        ],
+                        "name": "C. Scovel",
+                        "slug": "C.-Scovel",
+                        "structuredName": {
+                            "firstName": "Clint",
+                            "lastName": "Scovel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Scovel"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 22,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Swersky et al. (2014); Gy\u00f6rgy & Kocsis (2011); Agarwal et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8724475,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "887a80f2b85c1737f8f882986d078017654f23e4",
+            "isKey": false,
+            "numCitedBy": 253,
+            "numCiting": 60,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "For binary classification we establish learning rates up to the order of n \u22121 for support vector machines (SVMs) with hinge loss and Gaussian RBF kernels. These rates are in terms of two assumptions on the considered distributions: Tsybakov\u2019s noise assumption to establish a small estimation error, and a new geometric noise condition which is used to bound the approximation error. Unlike previously proposed concepts for bounding the approximation error, the geometric noise assumption does not employ any smoothness assumption. 1. Introduction. In recent years support vector machines (SVMs) have been the subject of many theoretical considerations. Despite this effort, their learning performance on restricted classes of distributions is still widely unknown. In particular, it is unknown under which nontrivial circumstances SVMs can guarantee fast learning rates. The aim of this work is to use concepts like Tsybakov\u2019s noise assumption and local Rademacher averages to establish learning rates up to the order of n \u22121 for nontrivial distributions. In addition to these concepts that are used to deal with the stochastic part of the analysis we also introduce a geometric assumption for distributions that allows us to estimate the approximation properties of Gaussian RBF kernels. Unlike many other concepts introduced for bounding the approximation error, our geometric assumption is not in terms of smoothness but describes the concentration and the noisiness of the data-generating distribution near the decision boundary. Let us formally introduce the statistical classification problem. To this end let us fix a subset X \u2282 R d . We write Y := {\u22121,1}. Given a finite training set"
+            },
+            "slug": "Fast-rates-for-support-vector-machines-using-Steinwart-Scovel",
+            "title": {
+                "fragments": [],
+                "text": "Fast rates for support vector machines using Gaussian kernels"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 52,
+                "text": "This work uses concepts like Tsybakov\u2019s noise assumption and local Rademacher averages to establish learning rates up to the order of n \u22121 for nontrivial distributions and introduces a geometric assumption for distributions that allows us to estimate the approximation properties of Gaussian RBF kernels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34911188"
+                        ],
+                        "name": "S. Smale",
+                        "slug": "S.-Smale",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "Smale",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Smale"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1758237"
+                        ],
+                        "name": "Ding-Xuan Zhou",
+                        "slug": "Ding-Xuan-Zhou",
+                        "structuredName": {
+                            "firstName": "Ding-Xuan",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ding-Xuan Zhou"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 157,
+                                "start": 139
+                            }
+                        ],
+                        "text": "Although there exist theoretical bounds that relate the performance of configurations trained on a subsample to that on the whole dataset (Smale & Zhou, 2003; Steinwart & Scovel, 2007; Cortes et al., 2010; Bach, 2013), as Krueger et al. (2015) notes, \u201cexisting theoretical results are not able to\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14849711,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "13f48e541756c34afa798eacd502c8bb4689be4d",
+            "isKey": false,
+            "numCitedBy": 249,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Let B be a Banach space and (\u210b,\u2016\u00b7\u2016\u210b) be a dense, imbedded subspace. For a \u2208 B, its distance to the ball of \u210b with radius R (denoted as I(a, R)) tends to zero when R tends to infinity. We are interested in the rate of this convergence. This approximation problem arose from the study of learning theory, where B is the L2 space and \u210b is a reproducing kernel Hilbert space. The class of elements having I(a, R) = O(R-r) with r > 0 is an interpolation space of the couple (B, \u210b). The rate of convergence can often be realized by linear operators. In particular, this is the case when \u210b is the range of a compact, symmetric, and strictly positive definite linear operator on a separable Hilbert space B. For the kernel approximation studied in Learning Theory, the rate depends on the regularity of the kernel function. This yields error estimates for the approximation by reproducing kernel Hilbert spaces. When the kernel is smooth, the convergence is slow and a logarithmic convergence rate is presented for analytic kern..."
+            },
+            "slug": "ESTIMATING-THE-APPROXIMATION-ERROR-IN-LEARNING-Smale-Zhou",
+            "title": {
+                "fragments": [],
+                "text": "ESTIMATING THE APPROXIMATION ERROR IN LEARNING THEORY"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2003
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 166,
+                                "start": 152
+                            }
+                        ],
+                        "text": "(2015) used 140 binary and multiclass classification datasets from OpenML, 23 of these datasets are incompatible with the latest version of AUTOSKLEARN (Feurer, 2015), and we worked with the remaining 117 datasets."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 69,
+                                "start": 58
+                            }
+                        ],
+                        "text": "Additionally, the default settings for SMAC packaged with AUTOSKLEARN initializes each run with a fixed hyperparameter configuration corresponding to a particular random forest model."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 195,
+                                "start": 183
+                            }
+                        ],
+                        "text": "Datasets: While Feurer et al. (2015) used 140 binary and multiclass classification datasets from OpenML, 23 of these datasets are incompatible with the latest version of AUTOSKLEARN (Feurer, 2015), and we worked with the remaining 117 datasets."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "TPE and SMAC adaptively choose arms after training this initial configuration and HYPERBAND and random only update the incumbent if a trained configuration has lower validation error"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The results presented in Figure 7 are very similar to those presented in the main paper."
+            },
+            "year": 2015
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 13,
+            "methodology": 10,
+            "result": 1
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 22,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Efficient-Hyperparameter-Optimization-and-Many-Li-Jamieson/b6670222f0cae0ce4a886405e8c8f5d273feeded?sort=total-citations"
+}

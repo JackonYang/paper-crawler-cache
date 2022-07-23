@@ -1,0 +1,4369 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143840275"
+                        ],
+                        "name": "Song Han",
+                        "slug": "Song-Han",
+                        "structuredName": {
+                            "firstName": "Song",
+                            "lastName": "Han",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Song Han"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47325862"
+                        ],
+                        "name": "Jeff Pool",
+                        "slug": "Jeff-Pool",
+                        "structuredName": {
+                            "firstName": "Jeff",
+                            "lastName": "Pool",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jeff Pool"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066786849"
+                        ],
+                        "name": "J. Tran",
+                        "slug": "J.-Tran",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Tran",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Tran"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "80724002"
+                        ],
+                        "name": "W. Dally",
+                        "slug": "W.-Dally",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Dally",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Dally"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 80,
+                                "start": 64
+                            }
+                        ],
+                        "text": "Larger weights play a more important role than smaller weights (Han et al., 2015), but there are fewer of these large weights."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 126,
+                                "start": 109
+                            }
+                        ],
+                        "text": "Though these neural networks are very powerful, the large number of weights consumes considerable storage and memory bandwidth."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 164,
+                                "start": 147
+                            }
+                        ],
+                        "text": "That helps to maintain the large weights as the large weights play a more important role than smaller ones, which is also shown in network pruning Han et al. (2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 26,
+                                "start": 9
+                            }
+                        ],
+                        "text": "Recently Han et al. (2015) pruned stateof-the-art CNN models with no loss of accuracy."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 15
+                            }
+                        ],
+                        "text": "A recent work (Han et al., 2015) successfully pruned several state of the art large scale networks and showed that the number of parameters could be reduce by an order of magnitude."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2238772,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1ff9a37d766e3a4f39757f5e1b235a42dacf18ff",
+            "isKey": false,
+            "numCitedBy": 4076,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Neural networks are both computationally intensive and memory intensive, making them difficult to deploy on embedded systems. Also, conventional networks fix the architecture before training starts; as a result, training cannot improve the architecture. To address these limitations, we describe a method to reduce the storage and computation required by neural networks by an order of magnitude without affecting their accuracy by learning only the important connections. Our method prunes redundant connections using a three-step method. First, we train the network to learn which connections are important. Next, we prune the unimportant connections. Finally, we retrain the network to fine tune the weights of the remaining connections. On the ImageNet dataset, our method reduced the number of parameters of AlexNet by a factor of 9x, from 61 million to 6.7 million, without incurring accuracy loss. Similar experiments with VGG-16 found that the number of parameters can be reduced by 13x, from 138 million to 10.3 million, again with no loss of accuracy."
+            },
+            "slug": "Learning-both-Weights-and-Connections-for-Efficient-Han-Pool",
+            "title": {
+                "fragments": [],
+                "text": "Learning both Weights and Connections for Efficient Neural Network"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "A method to reduce the storage and computation required by neural networks by an order of magnitude without affecting their accuracy by learning only the important connections, and prunes redundant connections using a three-step method."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "5115386"
+                        ],
+                        "name": "Yunchao Gong",
+                        "slug": "Yunchao-Gong",
+                        "structuredName": {
+                            "firstName": "Yunchao",
+                            "lastName": "Gong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yunchao Gong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144117143"
+                        ],
+                        "name": "L. Liu",
+                        "slug": "L.-Liu",
+                        "structuredName": {
+                            "firstName": "L.",
+                            "lastName": "Liu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "41216159"
+                        ],
+                        "name": "Ming Yang",
+                        "slug": "Ming-Yang",
+                        "structuredName": {
+                            "firstName": "Ming",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ming Yang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1769383"
+                        ],
+                        "name": "Lubomir D. Bourdev",
+                        "slug": "Lubomir-D.-Bourdev",
+                        "structuredName": {
+                            "firstName": "Lubomir",
+                            "lastName": "Bourdev",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lubomir D. Bourdev"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 18,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Gong et al. (2014) compressed deep convnets using vector quantization, which resulted in 1% accuracy loss."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 0
+                            }
+                        ],
+                        "text": "(Gong et al., 2014) experimented with vector quantization and compressed the network by 16\u00d7 to 24\u00d7, incurring 1% accuracy loss."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 6251653,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e7bf9803705f2eb608db1e59e5c7636a3f171916",
+            "isKey": false,
+            "numCitedBy": 878,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep convolutional neural networks (CNN) has become the most promising method for object recognition, repeatedly demonstrating record breaking results for image classification and object detection in recent years. However, a very deep CNN generally involves many layers with millions of parameters, making the storage of the network model to be extremely large. This prohibits the usage of deep CNNs on resource limited hardware, especially cell phones or other embedded devices. In this paper, we tackle this model storage issue by investigating information theoretical vector quantization methods for compressing the parameters of CNNs. In particular, we have found in terms of compressing the most storage demanding dense connected layers, vector quantization methods have a clear gain over existing matrix factorization methods. Simply applying k-means clustering to the weights or conducting product quantization can lead to a very good balance between model size and recognition accuracy. For the 1000-category classification task in the ImageNet challenge, we are able to achieve 16-24 times compression of the network with only 1% loss of classification accuracy using the state-of-the-art CNN."
+            },
+            "slug": "Compressing-Deep-Convolutional-Networks-using-Gong-Liu",
+            "title": {
+                "fragments": [],
+                "text": "Compressing Deep Convolutional Networks using Vector Quantization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This paper is able to achieve 16-24 times compression of the network with only 1% loss of classification accuracy using the state-of-the-art CNN, and finds in terms of compressing the most storage demanding dense connected layers, vector quantization methods have a clear gain over existing matrix factorization methods."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143840275"
+                        ],
+                        "name": "Song Han",
+                        "slug": "Song-Han",
+                        "structuredName": {
+                            "firstName": "Song",
+                            "lastName": "Han",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Song Han"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49543200"
+                        ],
+                        "name": "Xingyu Liu",
+                        "slug": "Xingyu-Liu",
+                        "structuredName": {
+                            "firstName": "Xingyu",
+                            "lastName": "Liu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xingyu Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3123774"
+                        ],
+                        "name": "Huizi Mao",
+                        "slug": "Huizi-Mao",
+                        "structuredName": {
+                            "firstName": "Huizi",
+                            "lastName": "Mao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Huizi Mao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1560397753"
+                        ],
+                        "name": "Jing Pu",
+                        "slug": "Jing-Pu",
+                        "structuredName": {
+                            "firstName": "Jing",
+                            "lastName": "Pu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jing Pu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "9182159"
+                        ],
+                        "name": "A. Pedram",
+                        "slug": "A.-Pedram",
+                        "structuredName": {
+                            "firstName": "Ardavan",
+                            "lastName": "Pedram",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Pedram"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144764327"
+                        ],
+                        "name": "M. Horowitz",
+                        "slug": "M.-Horowitz",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Horowitz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Horowitz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "80724002"
+                        ],
+                        "name": "W. Dally",
+                        "slug": "W.-Dally",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Dally",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Dally"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 73,
+                                "start": 56
+                            }
+                        ],
+                        "text": "Based on \u201cdeep compression\u201d, the EIE hardware accelerator Han et al. (2016) was later proposed that works on the compressed model, achieving significant speedup and energy efficiency improvement."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1663491,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2e2b189f668cf2c06ebc44dc9b166648256cf457",
+            "isKey": false,
+            "numCitedBy": 1816,
+            "numCiting": 52,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "State-of-the-art deep neural networks (DNNs) have hundreds of millions of connections and are both computationally and memory intensive, making them difficult to deploy on embedded systems with limited hardware resources and power budgets. While custom hardware helps the computation, fetching weights from DRAM is two orders of magnitude more expensive than ALU operations, and dominates the required power. Previously proposed 'Deep Compression' makes it possible to fit large DNNs (AlexNet and VGGNet) fully in on-chip SRAM. This compression is achieved by pruning the redundant connections and having multiple connections share the same weight. We propose an energy efficient inference engine (EIE) that performs inference on this compressed network model and accelerates the resulting sparse matrix-vector multiplication with weight sharing. Going from DRAM to SRAM gives EIE 120x energy saving, Exploiting sparsity saves 10x, Weight sharing gives 8x, Skipping zero activations from ReLU saves another 3x. Evaluated on nine DNN benchmarks, EIE is 189x and 13x faster when compared to CPU and GPU implementations of the same DNN without compression. EIE has a processing power of 102 GOPS working directly on a compressed network, corresponding to 3 TOPS on an uncompressed network, and processes FC layers of AlexNet at 1.88x104 frames/sec with a power dissipation of only 600mW. It is 24,000x and 3,400x more energy efficient than a CPU and GPU respectively. Compared with DaDianNao, EIE has 2.9x, 19x and 3x better throughput, energy efficiency and area efficiency."
+            },
+            "slug": "EIE:-Efficient-Inference-Engine-on-Compressed-Deep-Han-Liu",
+            "title": {
+                "fragments": [],
+                "text": "EIE: Efficient Inference Engine on Compressed Deep Neural Network"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "An energy efficient inference engine (EIE) that performs inference on this compressed network model and accelerates the resulting sparse matrix-vector multiplication with weight sharing and is 189x and 13x faster when compared to CPU and GPU implementations of the same DNN without compression."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2016 ACM/IEEE 43rd Annual International Symposium on Computer Architecture (ISCA)"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3346186"
+                        ],
+                        "name": "Forrest N. Iandola",
+                        "slug": "Forrest-N.-Iandola",
+                        "structuredName": {
+                            "firstName": "Forrest",
+                            "lastName": "Iandola",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Forrest N. Iandola"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2318023"
+                        ],
+                        "name": "M. Moskewicz",
+                        "slug": "M.-Moskewicz",
+                        "structuredName": {
+                            "firstName": "Matthew",
+                            "lastName": "Moskewicz",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Moskewicz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2059241"
+                        ],
+                        "name": "Khalid Ashraf",
+                        "slug": "Khalid-Ashraf",
+                        "structuredName": {
+                            "firstName": "Khalid",
+                            "lastName": "Ashraf",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Khalid Ashraf"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143840275"
+                        ],
+                        "name": "Song Han",
+                        "slug": "Song-Han",
+                        "structuredName": {
+                            "firstName": "Song",
+                            "lastName": "Han",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Song Han"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "80724002"
+                        ],
+                        "name": "W. Dally",
+                        "slug": "W.-Dally",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Dally",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Dally"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1732330"
+                        ],
+                        "name": "K. Keutzer",
+                        "slug": "K.-Keutzer",
+                        "structuredName": {
+                            "firstName": "Kurt",
+                            "lastName": "Keutzer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Keutzer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14136028,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "969fbdcd0717bec06228053788c2ff78bbb4daac",
+            "isKey": false,
+            "numCitedBy": 4092,
+            "numCiting": 62,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent research on deep neural networks has focused primarily on improving accuracy. For a given accuracy level, it is typically possible to identify multiple DNN architectures that achieve that accuracy level. With equivalent accuracy, smaller DNN architectures offer at least three advantages: (1) Smaller DNNs require less communication across servers during distributed training. (2) Smaller DNNs require less bandwidth to export a new model from the cloud to an autonomous car. (3) Smaller DNNs are more feasible to deploy on FPGAs and other hardware with limited memory. To provide all of these advantages, we propose a small DNN architecture called SqueezeNet. SqueezeNet achieves AlexNet-level accuracy on ImageNet with 50x fewer parameters. Additionally, with model compression techniques we are able to compress SqueezeNet to less than 0.5MB (510x smaller than AlexNet). \nThe SqueezeNet architecture is available for download here: this https URL"
+            },
+            "slug": "SqueezeNet:-AlexNet-level-accuracy-with-50x-fewer-Iandola-Moskewicz",
+            "title": {
+                "fragments": [],
+                "text": "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <1MB model size"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work proposes a small DNN architecture called SqueezeNet, which achieves AlexNet-level accuracy on ImageNet with 50x fewer parameters and is able to compress to less than 0.5MB (510x smaller than AlexNet)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144366108"
+                        ],
+                        "name": "S. Anwar",
+                        "slug": "S.-Anwar",
+                        "structuredName": {
+                            "firstName": "Sajid",
+                            "lastName": "Anwar",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Anwar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2549369"
+                        ],
+                        "name": "Kyuyeon Hwang",
+                        "slug": "Kyuyeon-Hwang",
+                        "structuredName": {
+                            "firstName": "Kyuyeon",
+                            "lastName": "Hwang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kyuyeon Hwang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145057126"
+                        ],
+                        "name": "Wonyong Sung",
+                        "slug": "Wonyong-Sung",
+                        "structuredName": {
+                            "firstName": "Wonyong",
+                            "lastName": "Sung",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wonyong Sung"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Anwar et al. (2015) quantized the neural network using L2 error minimization and achieved better accuracy on MNIST and CIFAR-10 datasets.Denton et al. (2014) exploited the linear structure of the neural network by finding an appropriate low-rank approximation of the parameters and keeping the\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "implementation with 8-bit integer (vs 32-bit \ufb02oating point) activations. Hwang &amp; Sung (2014) proposed an optimization method for the \ufb01xed-point network with ternary weights and 3-bit activations. Anwar et al. (2015) quantized the neural network using L2 error minimization and achieved better accuracy on MNIST and CIFAR-10 datasets.Denton et al. (2014) exploited the linear structure of the neural network by \ufb01ndin"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15178138,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a6373454105df0c5511ca5f6cae4d20c48214272",
+            "isKey": false,
+            "numCitedBy": 181,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep convolutional neural networks have shown promising results in image and speech recognition applications. The learning capability of the network improves with increasing depth and size of each layer. However this capability comes at the cost of increased computational complexity. Thus reduction in hardware complexity and faster classification are highly desired. This work proposes an optimization method for fixed point deep convolutional neural networks. The parameters of a pre-trained high precision network are first directly quantized using L2 error minimization. We quantize each layer one by one, while other layers keep computation with high precision, to know the layer-wise sensitivity on word-length reduction. Then the network is retrained with quantized weights. Two examples on object recognition, MNIST and CIFAR-10, are presented. Our results indicate that quantization induces sparsity in the network which reduces the effective number of network parameters and improves generalization. This work reduces the required memory storage by a factor of 1/10 and achieves better classification results than the high precision networks."
+            },
+            "slug": "Fixed-point-optimization-of-deep-convolutional-for-Anwar-Hwang",
+            "title": {
+                "fragments": [],
+                "text": "Fixed point optimization of deep convolutional neural networks for object recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The results indicate that quantization induces sparsity in the network which reduces the effective number of network parameters and improves generalization, and reduces the required memory storage by a factor of 1/10 and achieves better classification results than the high precision networks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "31604982"
+                        ],
+                        "name": "Maxwell D. Collins",
+                        "slug": "Maxwell-D.-Collins",
+                        "structuredName": {
+                            "firstName": "Maxwell",
+                            "lastName": "Collins",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Maxwell D. Collins"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143967473"
+                        ],
+                        "name": "Pushmeet Kohli",
+                        "slug": "Pushmeet-Kohli",
+                        "structuredName": {
+                            "firstName": "Pushmeet",
+                            "lastName": "Kohli",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pushmeet Kohli"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16153118,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2a4117849c88d4728c33b1becaa9fb6ed7030725",
+            "isKey": false,
+            "numCitedBy": 143,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this work, we investigate the use of sparsity-inducing regularizers during training of Convolution Neural Networks (CNNs). These regularizers encourage that fewer connections in the convolution and fully connected layers take non-zero values and in effect result in sparse connectivity between hidden units in the deep network. This in turn reduces the memory and runtime cost involved in deploying the learned CNNs. We show that training with such regularization can still be performed using stochastic gradient descent implying that it can be used easily in existing codebases. Experimental evaluation of our approach on MNIST, CIFAR, and ImageNet datasets shows that our regularizers can result in dramatic reductions in memory requirements. For instance, when applied on AlexNet, our method can reduce the memory consumption by a factor of four with minimal loss in accuracy."
+            },
+            "slug": "Memory-Bounded-Deep-Convolutional-Networks-Collins-Kohli",
+            "title": {
+                "fragments": [],
+                "text": "Memory Bounded Deep Convolutional Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 64,
+                "text": "This work investigates the use of sparsity-inducing regularizers during training of Convolution Neural Networks and shows that training with such regularization can still be performed using stochastic gradient descent implying that it can be used easily in existing codebases."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [],
+                        "name": "Wenlin Chen",
+                        "slug": "Wenlin-Chen",
+                        "structuredName": {
+                            "firstName": "Wenlin",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wenlin Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152983984"
+                        ],
+                        "name": "James T. Wilson",
+                        "slug": "James-T.-Wilson",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Wilson",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James T. Wilson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2342481"
+                        ],
+                        "name": "Stephen Tyree",
+                        "slug": "Stephen-Tyree",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "Tyree",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Stephen Tyree"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7446832"
+                        ],
+                        "name": "Kilian Q. Weinberger",
+                        "slug": "Kilian-Q.-Weinberger",
+                        "structuredName": {
+                            "firstName": "Kilian",
+                            "lastName": "Weinberger",
+                            "middleNames": [
+                                "Q."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kilian Q. Weinberger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116664181"
+                        ],
+                        "name": "Yixin Chen",
+                        "slug": "Yixin-Chen",
+                        "structuredName": {
+                            "firstName": "Yixin",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yixin Chen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 72,
+                                "start": 69
+                            }
+                        ],
+                        "text": "Optimal Brain Damage (LeCun et al., 1989) and Optimal Brain Surgeon (Hassibi et al., 1993) prune networks to reduce the number of connections based on the Hessian of the loss function and suggest that such pruning is more accurate than magnitude-based pruning such as weight decay."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 11
+                            }
+                        ],
+                        "text": "HashedNets(Chen et al., 2015) reduce model sizes by using a hash function to randomly group connection weights, so that all connections within the same hash bucket share a single parameter value."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 161,
+                                "start": 144
+                            }
+                        ],
+                        "text": "\u2026C = {c1, c2, ..., ck}, n k, so as to minimize the within-cluster sum of squares (WCSS):\nargmin C k\u2211 i=1 \u2211 w\u2208ci |w \u2212 ci|2 (2)\nDifferent from HashNet (Chen et al., 2015) where weight sharing is determined by a hash function before the networks sees any training data, our method determines\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 152,
+                                "start": 149
+                            }
+                        ],
+                        "text": "In early work, network pruning proved to be a valid way to reduce the network complexity and over-fitting (LeCun et al., 1989; Hanson & Pratt, 1989; Hassibi et al., 1993; Stro\u0308m, 1997)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 42,
+                                "start": 23
+                            }
+                        ],
+                        "text": "Different from HashNet (Chen et al., 2015) where weight sharing is determined by a hash function before the networks sees any training data, our method determines weight sharing after a network is fully trained, so that the shared weights approximate the original network."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 207,
+                                "start": 204
+                            }
+                        ],
+                        "text": "We partition n original weights W = {w1, w2, ..., wn} into k clusters C = {c1, c2, ..., ck}, n k, so as to minimize the within-cluster sum of squares (WCSS):\nargmin C k\u2211 i=1 \u2211 w\u2208ci |w \u2212 ci|2 (2)\nDifferent from HashNet (Chen et al., 2015) where weight sharing is determined by a hash function before the networks sees any training data, our method determines weight sharing after a network is fully trained, so that the shared weights approximate the original network."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 64
+                            }
+                        ],
+                        "text": "On CPU, the benchmark is running on single socket with a single Haswell-E class Core i7-5930K processor."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 543597,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "efb5032e6199c80f83309fd866b25be9545831fd",
+            "isKey": true,
+            "numCitedBy": 948,
+            "numCiting": 61,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "As deep nets are increasingly used in applications suited for mobile devices, a fundamental dilemma becomes apparent: the trend in deep learning is to grow models to absorb ever-increasing data set sizes; however mobile devices are designed with very little memory and cannot store such large models. We present a novel network architecture, HashedNets, that exploits inherent redundancy in neural networks to achieve drastic reductions in model sizes. HashedNets uses a low-cost hash function to randomly group connection weights into hash buckets, and all connections within the same hash bucket share a single parameter value. These parameters are tuned to adjust to the HashedNets weight sharing architecture with standard backprop during training. Our hashing procedure introduces no additional memory overhead, and we demonstrate on several benchmark data sets that HashedNets shrink the storage requirements of neural networks substantially while mostly preserving generalization performance."
+            },
+            "slug": "Compressing-Neural-Networks-with-the-Hashing-Trick-Chen-Wilson",
+            "title": {
+                "fragments": [],
+                "text": "Compressing Neural Networks with the Hashing Trick"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work presents a novel network architecture, HashedNets, that exploits inherent redundancy in neural networks to achieve drastic reductions in model sizes, and demonstrates on several benchmark data sets that HashingNets shrink the storage requirements of neural networks substantially while mostly preserving generalization performance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2657155"
+                        ],
+                        "name": "Vincent Vanhoucke",
+                        "slug": "Vincent-Vanhoucke",
+                        "structuredName": {
+                            "firstName": "Vincent",
+                            "lastName": "Vanhoucke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vincent Vanhoucke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33666044"
+                        ],
+                        "name": "A. Senior",
+                        "slug": "A.-Senior",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Senior",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Senior"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1715548"
+                        ],
+                        "name": "Mark Z. Mao",
+                        "slug": "Mark-Z.-Mao",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Mao",
+                            "middleNames": [
+                                "Z."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mark Z. Mao"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "here is signi\ufb01cant redundancy for deep learning models [15]. This results in a waste of both computation and memory usage. There have been various proposals to remove the redundancy: Vanhoucke et al. [16] explored a \ufb01xed-point implementation with 8-bit integer (vs 32-bit \ufb02oating point) activations. Denton et al. [17] exploited the linear structure of the neural network by \ufb01nding an appropriate low-ran"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 60
+                            }
+                        ],
+                        "text": "There have been various proposals to remove the redundancy: Vanhoucke et al. (2011) explored a fixedpoint implementation with 8-bit integer (vs 32-bit floating point) activations."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15196840,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fbeaa499e10e98515f7e1c4ad89165e8c0677427",
+            "isKey": false,
+            "numCitedBy": 692,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recent advances in deep learning have made the use of large, deep neural networks with tens of millions of parameters suitable for a number of applications that require real-time processing. The sheer size of these networks can represent a challenging computational burden, even for modern CPUs. For this reason, GPUs are routinely used instead to train and run such networks. This paper is a tutorial for students and researchers on some of the techniques that can be used to reduce this computational cost considerably on modern x86 CPUs. We emphasize data layout, batching of the computation, the use of SSE2 instructions, and particularly leverage SSSE3 and SSE4 fixed-point instructions which provide a 3\u00d7 improvement over an optimized floating-point baseline. We use speech recognition as an example task, and show that a real-time hybrid hidden Markov model / neural network (HMM/NN) large vocabulary system can be built with a 10\u00d7 speedup over an unoptimized baseline and a 4\u00d7 speedup over an aggressively optimized floating-point baseline at no cost in accuracy. The techniques described extend readily to neural network training and provide an effective alternative to the use of specialized hardware."
+            },
+            "slug": "Improving-the-speed-of-neural-networks-on-CPUs-Vanhoucke-Senior",
+            "title": {
+                "fragments": [],
+                "text": "Improving the speed of neural networks on CPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper uses speech recognition as an example task, and shows that a real-time hybrid hidden Markov model / neural network (HMM/NN) large vocabulary system can be built with a 10\u00d7 speedup over an unoptimized baseline and a 4\u00d7 speed up over an aggressively optimized floating-point baseline at no cost in accuracy."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8387085"
+                        ],
+                        "name": "Zichao Yang",
+                        "slug": "Zichao-Yang",
+                        "structuredName": {
+                            "firstName": "Zichao",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zichao Yang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3009779"
+                        ],
+                        "name": "Marcin Moczulski",
+                        "slug": "Marcin-Moczulski",
+                        "structuredName": {
+                            "firstName": "Marcin",
+                            "lastName": "Moczulski",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marcin Moczulski"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1715051"
+                        ],
+                        "name": "Misha Denil",
+                        "slug": "Misha-Denil",
+                        "structuredName": {
+                            "firstName": "Misha",
+                            "lastName": "Denil",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Misha Denil"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1737568"
+                        ],
+                        "name": "N. D. Freitas",
+                        "slug": "N.-D.-Freitas",
+                        "structuredName": {
+                            "firstName": "Nando",
+                            "lastName": "Freitas",
+                            "middleNames": [
+                                "de"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. D. Freitas"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46234526"
+                        ],
+                        "name": "Alex Smola",
+                        "slug": "Alex-Smola",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Smola",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alex Smola"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1779453"
+                        ],
+                        "name": "Le Song",
+                        "slug": "Le-Song",
+                        "structuredName": {
+                            "firstName": "Le",
+                            "lastName": "Song",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Le Song"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2124864085"
+                        ],
+                        "name": "Ziyu Wang",
+                        "slug": "Ziyu-Wang",
+                        "structuredName": {
+                            "firstName": "Ziyu",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ziyu Wang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 38,
+                                "start": 19
+                            }
+                        ],
+                        "text": "Deep Fried Convnets(Yang et al., 2014) worked on fully connected layers and reduced the parameters by less than 4\u00d7."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8132136,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "27a99c21a1324f087b2f144adc119f04137dfd87",
+            "isKey": false,
+            "numCitedBy": 232,
+            "numCiting": 53,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The fully-connected layers of deep convolutional neural networks typically contain over 90% of the network parameters. Reducing the number of parameters while preserving predictive performance is critically important for training big models in distributed systems and for deployment in embedded devices. In this paper, we introduce a novel Adaptive Fastfood transform to reparameterize the matrix-vector multiplication of fully connected layers. Reparameterizing a fully connected layer with d inputs and n outputs with the Adaptive Fastfood transform reduces the storage and computational costs costs from O(nd) to O(n) and O(n log d) respectively. Using the Adaptive Fastfood transform in convolutional networks results in what we call a deep fried convnet. These convnets are end-to-end trainable, and enable us to attain substantial reductions in the number of parameters without affecting prediction accuracy on the MNIST and ImageNet datasets."
+            },
+            "slug": "Deep-Fried-Convnets-Yang-Moczulski",
+            "title": {
+                "fragments": [],
+                "text": "Deep Fried Convnets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A novel Adaptive Fastfood transform is introduced to reparameterize the matrix-vector multiplication of fully connected layers of deep convolutional neural networks, resulting in what is called a deep fried convnet."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2015 IEEE International Conference on Computer Vision (ICCV)"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 118,
+                                "start": 95
+                            }
+                        ],
+                        "text": "Deep neural networks have evolved to the state-of-the-art technique for computer vision tasks (Krizhevsky et al., 2012)(Simonyan & Zisserman, 2014)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 195908774,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+            "isKey": false,
+            "numCitedBy": 82046,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
+            },
+            "slug": "ImageNet-classification-with-deep-convolutional-Krizhevsky-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet classification with deep convolutional neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "A large, deep convolutional neural network was trained to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes and employed a recently developed regularization method called \"dropout\" that proved to be very effective."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Commun. ACM"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2115913164"
+                        ],
+                        "name": "Min Lin",
+                        "slug": "Min-Lin",
+                        "structuredName": {
+                            "firstName": "Min",
+                            "lastName": "Lin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Min Lin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35370244"
+                        ],
+                        "name": "Qiang Chen",
+                        "slug": "Qiang-Chen",
+                        "structuredName": {
+                            "firstName": "Qiang",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qiang Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143653681"
+                        ],
+                        "name": "Shuicheng Yan",
+                        "slug": "Shuicheng-Yan",
+                        "structuredName": {
+                            "firstName": "Shuicheng",
+                            "lastName": "Yan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shuicheng Yan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16636683,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5e83ab70d0cbc003471e87ec306d27d9c80ecb16",
+            "isKey": false,
+            "numCitedBy": 4255,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a novel deep network structure called \"Network In Network\" (NIN) to enhance model discriminability for local patches within the receptive field. The conventional convolutional layer uses linear filters followed by a nonlinear activation function to scan the input. Instead, we build micro neural networks with more complex structures to abstract the data within the receptive field. We instantiate the micro neural network with a multilayer perceptron, which is a potent function approximator. The feature maps are obtained by sliding the micro networks over the input in a similar manner as CNN; they are then fed into the next layer. Deep NIN can be implemented by stacking mutiple of the above described structure. With enhanced local modeling via the micro network, we are able to utilize global average pooling over feature maps in the classification layer, which is easier to interpret and less prone to overfitting than traditional fully connected layers. We demonstrated the state-of-the-art classification performances with NIN on CIFAR-10 and CIFAR-100, and reasonable performances on SVHN and MNIST datasets."
+            },
+            "slug": "Network-In-Network-Lin-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Network In Network"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "With enhanced local modeling via the micro network, the proposed deep network structure NIN is able to utilize global average pooling over feature maps in the classification layer, which is easier to interpret and less prone to overfitting than traditional fully connected layers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39978391"
+                        ],
+                        "name": "Yangqing Jia",
+                        "slug": "Yangqing-Jia",
+                        "structuredName": {
+                            "firstName": "Yangqing",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yangqing Jia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1782282"
+                        ],
+                        "name": "Evan Shelhamer",
+                        "slug": "Evan-Shelhamer",
+                        "structuredName": {
+                            "firstName": "Evan",
+                            "lastName": "Shelhamer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Evan Shelhamer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7408951"
+                        ],
+                        "name": "Jeff Donahue",
+                        "slug": "Jeff-Donahue",
+                        "structuredName": {
+                            "firstName": "Jeff",
+                            "lastName": "Donahue",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jeff Donahue"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3049736"
+                        ],
+                        "name": "Sergey Karayev",
+                        "slug": "Sergey-Karayev",
+                        "structuredName": {
+                            "firstName": "Sergey",
+                            "lastName": "Karayev",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sergey Karayev"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2117314646"
+                        ],
+                        "name": "Jonathan Long",
+                        "slug": "Jonathan-Long",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Long",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Long"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2983898"
+                        ],
+                        "name": "Ross B. Girshick",
+                        "slug": "Ross-B.-Girshick",
+                        "structuredName": {
+                            "firstName": "Ross",
+                            "lastName": "Girshick",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ross B. Girshick"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1687120"
+                        ],
+                        "name": "S. Guadarrama",
+                        "slug": "S.-Guadarrama",
+                        "structuredName": {
+                            "firstName": "Sergio",
+                            "lastName": "Guadarrama",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Guadarrama"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1753210"
+                        ],
+                        "name": "Trevor Darrell",
+                        "slug": "Trevor-Darrell",
+                        "structuredName": {
+                            "firstName": "Trevor",
+                            "lastName": "Darrell",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Trevor Darrell"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 64,
+                                "start": 48
+                            }
+                        ],
+                        "text": "Training is performed with the Caffe framework (Jia et al., 2014)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1799558,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6bdb186ec4726e00a8051119636d4df3b94043b5",
+            "isKey": false,
+            "numCitedBy": 13814,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Caffe provides multimedia scientists and practitioners with a clean and modifiable framework for state-of-the-art deep learning algorithms and a collection of reference models. The framework is a BSD-licensed C++ library with Python and MATLAB bindings for training and deploying general-purpose convolutional neural networks and other deep models efficiently on commodity architectures. Caffe fits industry and internet-scale media needs by CUDA GPU computation, processing over 40 million images a day on a single K40 or Titan GPU (approx 2 ms per image). By separating model representation from actual implementation, Caffe allows experimentation and seamless switching among platforms for ease of development and deployment from prototyping machines to cloud environments. Caffe is maintained and developed by the Berkeley Vision and Learning Center (BVLC) with the help of an active community of contributors on GitHub. It powers ongoing research projects, large-scale industrial applications, and startup prototypes in vision, speech, and multimedia."
+            },
+            "slug": "Caffe:-Convolutional-Architecture-for-Fast-Feature-Jia-Shelhamer",
+            "title": {
+                "fragments": [],
+                "text": "Caffe: Convolutional Architecture for Fast Feature Embedding"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 77,
+                "text": "Caffe provides multimedia scientists and practitioners with a clean and modifiable framework for state-of-the-art deep learning algorithms and a collection of reference models for training and deploying general-purpose convolutional neural networks and other deep models efficiently on commodity architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Multimedia"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2574060"
+                        ],
+                        "name": "Christian Szegedy",
+                        "slug": "Christian-Szegedy",
+                        "structuredName": {
+                            "firstName": "Christian",
+                            "lastName": "Szegedy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christian Szegedy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2157222093"
+                        ],
+                        "name": "Wei Liu",
+                        "slug": "Wei-Liu",
+                        "structuredName": {
+                            "firstName": "Wei",
+                            "lastName": "Liu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wei Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39978391"
+                        ],
+                        "name": "Yangqing Jia",
+                        "slug": "Yangqing-Jia",
+                        "structuredName": {
+                            "firstName": "Yangqing",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yangqing Jia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3142556"
+                        ],
+                        "name": "Pierre Sermanet",
+                        "slug": "Pierre-Sermanet",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Sermanet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pierre Sermanet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144828948"
+                        ],
+                        "name": "Scott E. Reed",
+                        "slug": "Scott-E.-Reed",
+                        "structuredName": {
+                            "firstName": "Scott",
+                            "lastName": "Reed",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Scott E. Reed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1838674"
+                        ],
+                        "name": "Dragomir Anguelov",
+                        "slug": "Dragomir-Anguelov",
+                        "structuredName": {
+                            "firstName": "Dragomir",
+                            "lastName": "Anguelov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dragomir Anguelov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1761978"
+                        ],
+                        "name": "D. Erhan",
+                        "slug": "D.-Erhan",
+                        "structuredName": {
+                            "firstName": "D.",
+                            "lastName": "Erhan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Erhan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2657155"
+                        ],
+                        "name": "Vincent Vanhoucke",
+                        "slug": "Vincent-Vanhoucke",
+                        "structuredName": {
+                            "firstName": "Vincent",
+                            "lastName": "Vanhoucke",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vincent Vanhoucke"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39863668"
+                        ],
+                        "name": "Andrew Rabinovich",
+                        "slug": "Andrew-Rabinovich",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Rabinovich",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Rabinovich"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 46,
+                                "start": 25
+                            }
+                        ],
+                        "text": "This problem is noted by Szegedy et al. (2014) and motivates them to add a linear layer on the top of their networks to enable transfer learning."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 68
+                            }
+                        ],
+                        "text": "The Network in Network architecture(Lin et al., 2013) and GoogLenet(Szegedy et al., 2014) achieves state-of-the-art results on several benchmarks by adopting this idea."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 21
+                            }
+                        ],
+                        "text": ", 2013) and GoogLenet(Szegedy et al., 2014) achieves state-of-the-art results on several benchmarks by adopting this idea."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206592484,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e15cf50aa89fee8535703b9f9512fca5bfc43327",
+            "isKey": false,
+            "numCitedBy": 29917,
+            "numCiting": 278,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a deep convolutional neural network architecture codenamed Inception that achieves the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC14). The main hallmark of this architecture is the improved utilization of the computing resources inside the network. By a carefully crafted design, we increased the depth and width of the network while keeping the computational budget constant. To optimize quality, the architectural decisions were based on the Hebbian principle and the intuition of multi-scale processing. One particular incarnation used in our submission for ILSVRC14 is called GoogLeNet, a 22 layers deep network, the quality of which is assessed in the context of classification and detection."
+            },
+            "slug": "Going-deeper-with-convolutions-Szegedy-Liu",
+            "title": {
+                "fragments": [],
+                "text": "Going deeper with convolutions"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 95,
+                "text": "A deep convolutional neural network architecture codenamed Inception is proposed that achieves the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC14)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34838386"
+                        ],
+                        "name": "K. Simonyan",
+                        "slug": "K.-Simonyan",
+                        "structuredName": {
+                            "firstName": "Karen",
+                            "lastName": "Simonyan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Simonyan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688869"
+                        ],
+                        "name": "Andrew Zisserman",
+                        "slug": "Andrew-Zisserman",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Zisserman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Zisserman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14124313,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "eb42cf88027de515750f230b23b1a057dc782108",
+            "isKey": false,
+            "numCitedBy": 63195,
+            "numCiting": 57,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting. Our main contribution is a thorough evaluation of networks of increasing depth using an architecture with very small (3x3) convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers. These findings were the basis of our ImageNet Challenge 2014 submission, where our team secured the first and the second places in the localisation and classification tracks respectively. We also show that our representations generalise well to other datasets, where they achieve state-of-the-art results. We have made our two best-performing ConvNet models publicly available to facilitate further research on the use of deep visual representations in computer vision."
+            },
+            "slug": "Very-Deep-Convolutional-Networks-for-Large-Scale-Simonyan-Zisserman",
+            "title": {
+                "fragments": [],
+                "text": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 73,
+                "text": "This work investigates the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting using an architecture with very small convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2549369"
+                        ],
+                        "name": "Kyuyeon Hwang",
+                        "slug": "Kyuyeon-Hwang",
+                        "structuredName": {
+                            "firstName": "Kyuyeon",
+                            "lastName": "Hwang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kyuyeon Hwang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "66936521"
+                        ],
+                        "name": "W. Sung",
+                        "slug": "W.-Sung",
+                        "structuredName": {
+                            "firstName": "Wonyong",
+                            "lastName": "Sung",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Sung"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16104422,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a4db2d26b5d169de6b64de361dc7d4fd5b1f61a3",
+            "isKey": false,
+            "numCitedBy": 221,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Feedforward deep neural networks that employ multiple hidden layers show high performance in many applications, but they demand complex hardware for implementation. The hardware complexity can be much lowered by minimizing the word-length of weights and signals, but direct quantization for fixed-point network design does not yield good results. We optimize the fixed-point design by employing backpropagation based retraining. The designed fixed-point networks with ternary weights (+1, 0, and -1) and 3-bit signal show only negligible performance loss when compared to the floating-point coun-terparts. The backpropagation for retraining uses quantized weights and fixed-point signal to compute the output, but utilizes high precision values for adapting the networks. A character recognition and a phoneme recognition examples are presented."
+            },
+            "slug": "Fixed-point-feedforward-deep-neural-network-design-Hwang-Sung",
+            "title": {
+                "fragments": [],
+                "text": "Fixed-point feedforward deep neural network design using weights +1, 0, and \u22121"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "The designed fixed-point networks with ternary weights (+1, 0, and -1) and 3-bit signal show only negligible performance loss when compared to the floating-point coun-terparts."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2014 IEEE Workshop on Signal Processing Systems (SiPS)"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40081727"
+                        ],
+                        "name": "Emily L. Denton",
+                        "slug": "Emily-L.-Denton",
+                        "structuredName": {
+                            "firstName": "Emily",
+                            "lastName": "Denton",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Emily L. Denton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2563432"
+                        ],
+                        "name": "Wojciech Zaremba",
+                        "slug": "Wojciech-Zaremba",
+                        "structuredName": {
+                            "firstName": "Wojciech",
+                            "lastName": "Zaremba",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wojciech Zaremba"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143627859"
+                        ],
+                        "name": "Joan Bruna",
+                        "slug": "Joan-Bruna",
+                        "structuredName": {
+                            "firstName": "Joan",
+                            "lastName": "Bruna",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Joan Bruna"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2276554"
+                        ],
+                        "name": "R. Fergus",
+                        "slug": "R.-Fergus",
+                        "structuredName": {
+                            "firstName": "Rob",
+                            "lastName": "Fergus",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Fergus"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 157,
+                                "start": 137
+                            }
+                        ],
+                        "text": "Anwar et al. (2015) quantized the neural network using L2 error minimization and achieved better accuracy on MNIST and CIFAR-10 datasets.Denton et al. (2014) exploited the linear structure of the neural network by finding an appropriate low-rank approximation of the parameters and keeping the\u2026"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 59,
+                                "start": 38
+                            }
+                        ],
+                        "text": "On other networks similar to AlexNet, (Denton et al., 2014) exploited linear structure of convnets and compressed the network by 2."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 11
+                            }
+                        ],
+                        "text": "For pruned AlexNet, we are able to quantize to 8-bits (256 shared weights) for each CONV layers, and 5-bits (32 shared weights) for each FC layer without any loss of accuracy."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 34,
+                                "start": 26
+                            }
+                        ],
+                        "text": "With promising results on AlexNet, we also looked at a larger, more recent network, VGG-16 (Simonyan & Zisserman, 2014), on the same ILSVRC-2012 dataset."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 7340116,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e5ae8ab688051931b4814f6d32b18391f8d1fa8d",
+            "isKey": true,
+            "numCitedBy": 1281,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present techniques for speeding up the test-time evaluation of large convolutional networks, designed for object recognition tasks. These models deliver impressive accuracy, but each image evaluation requires millions of floating point operations, making their deployment on smartphones and Internet-scale clusters problematic. The computation is dominated by the convolution operations in the lower layers of the model. We exploit the redundancy present within the convolutional filters to derive approximations that significantly reduce the required computation. Using large state-of-the-art models, we demonstrate speedups of convolutional layers on both CPU and GPU by a factor of 2 x, while keeping the accuracy within 1% of the original model."
+            },
+            "slug": "Exploiting-Linear-Structure-Within-Convolutional-Denton-Zaremba",
+            "title": {
+                "fragments": [],
+                "text": "Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Using large state-of-the-art models, this work demonstrates speedups of convolutional layers on both CPU and GPU by a factor of 2 x, while keeping the accuracy within 1% of the original model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145563465"
+                        ],
+                        "name": "Sanjeev Arora",
+                        "slug": "Sanjeev-Arora",
+                        "structuredName": {
+                            "firstName": "Sanjeev",
+                            "lastName": "Arora",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sanjeev Arora"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1736564"
+                        ],
+                        "name": "Aditya Bhaskara",
+                        "slug": "Aditya-Bhaskara",
+                        "structuredName": {
+                            "firstName": "Aditya",
+                            "lastName": "Bhaskara",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Aditya Bhaskara"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144804200"
+                        ],
+                        "name": "Rong Ge",
+                        "slug": "Rong-Ge",
+                        "structuredName": {
+                            "firstName": "Rong",
+                            "lastName": "Ge",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rong Ge"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1901958"
+                        ],
+                        "name": "Tengyu Ma",
+                        "slug": "Tengyu-Ma",
+                        "structuredName": {
+                            "firstName": "Tengyu",
+                            "lastName": "Ma",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tengyu Ma"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 130
+                            }
+                        ],
+                        "text": "The empirical success in this paper is consistent with the theoretical study of random-like sparse networks with +1/0/-1 weights (Arora et al., 2014), which have been proved to enjoy nice properties (e.g. reversibility), and to allow a provably polynomial time algorithm for training."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 149,
+                                "start": 129
+                            }
+                        ],
+                        "text": "The empirical success in this paper is consistent with the theoretical study of random-like sparse networks with +1/0/-1 weights (Arora et al., 2014), which have been proved to enjoy nice properties (e."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8049057,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1d6e6adc7a841393fc10b78dc0018e550aff589d",
+            "isKey": false,
+            "numCitedBy": 289,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We give algorithms with provable guarantees that learn a class of deep nets in the generative model view popularized by Hinton and others. Our generative model is an n node multilayer network that has degree at most n\u03b3 for some \u03b3 < 1 and each edge has a random edge weight in [-1, 1]. Our algorithm learns almost all networks in this class with polynomial running time. The sample complexity is quadratic or cubic depending upon the details of the model. \n \nThe algorithm uses layerwise learning. It is based upon a novel idea of observing correlations among features and using these to infer the underlying edge structure via a global graph recovery procedure. The analysis of the algorithm reveals interesting structure of neural nets with random edge weights."
+            },
+            "slug": "Provable-Bounds-for-Learning-Some-Deep-Arora-Bhaskara",
+            "title": {
+                "fragments": [],
+                "text": "Provable Bounds for Learning Some Deep Representations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 65,
+                "text": "This work gives algorithms with provable guarantees that learn a class of deep nets in the generative model view popularized by Hinton and others, based upon a novel idea of observing correlations among features and using these to infer the underlying edge structure via a global graph recovery procedure."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2067824417"
+                        ],
+                        "name": "Song Yao",
+                        "slug": "Song-Yao",
+                        "structuredName": {
+                            "firstName": "Song",
+                            "lastName": "Yao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Song Yao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143840275"
+                        ],
+                        "name": "Song Han",
+                        "slug": "Song-Han",
+                        "structuredName": {
+                            "firstName": "Song",
+                            "lastName": "Han",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Song Han"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35493564"
+                        ],
+                        "name": "Kaiyuan Guo",
+                        "slug": "Kaiyuan-Guo",
+                        "structuredName": {
+                            "firstName": "Kaiyuan",
+                            "lastName": "Guo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kaiyuan Guo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3383269"
+                        ],
+                        "name": "Jianqiao Wangni",
+                        "slug": "Jianqiao-Wangni",
+                        "structuredName": {
+                            "firstName": "Jianqiao",
+                            "lastName": "Wangni",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jianqiao Wangni"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40457242"
+                        ],
+                        "name": "Yu Wang",
+                        "slug": "Yu-Wang",
+                        "structuredName": {
+                            "firstName": "Yu",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yu Wang"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 51811606,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "10b992e86ee96cd4c5d73f3d667059beb4749ce3",
+            "isKey": false,
+            "numCitedBy": 6,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Convolutional Neural Network (CNN) has led to great advances in computer vision. Various customized CNN accelerators on embedded FPGA or ASIC platforms have been designed to accelerate CNN and improve energy efficiency. However, the odd-number filter size in existing CNN models prevents hardware accelerators from having optimal efficiency. In this paper, we analyze the influences of filter size on CNN accelerator performance and show that even-number filter size is much more hardware-friendly that can ensure high bandwidth and resource utilization. Experimental results on MNIST and CIFAR-10 demonstrate that hardware-friendly even kernel CNNs can reduce the FLOPs by 1.4\u00d7 to 2\u00d7 with comparable accuracy; With same FLOPs, even kernel can have even higher accuracy than odd size kernel."
+            },
+            "slug": "HARDWARE-FRIENDLY-CONVOLUTIONAL-NEURAL-NETWORK-WITH-Yao-Han",
+            "title": {
+                "fragments": [],
+                "text": "HARDWARE-FRIENDLY CONVOLUTIONAL NEURAL NETWORK WITH EVEN-NUMBER FILTER SIZE"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "It is shown that even-number filter size is much more hardware-friendly that can ensure high bandwidth and resource utilization and even kernel can have even higher accuracy than odd size kernel."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1736279"
+                        ],
+                        "name": "B. Hassibi",
+                        "slug": "B.-Hassibi",
+                        "structuredName": {
+                            "firstName": "Babak",
+                            "lastName": "Hassibi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Hassibi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2586918"
+                        ],
+                        "name": "D. Stork",
+                        "slug": "D.-Stork",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Stork",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Stork"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 56,
+                                "start": 34
+                            }
+                        ],
+                        "text": ", 1989) and Optimal Brain Surgeon (Hassibi et al., 1993) prune networks to reduce the number of connections based on the Hessian of the loss function and suggest that such pruning is more accurate than magnitude-based pruning such as weight decay."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 170,
+                                "start": 106
+                            }
+                        ],
+                        "text": "In early work, network pruning proved to be a valid way to reduce the network complexity and over-fitting (LeCun et al., 1989; Hanson & Pratt, 1989; Hassibi et al., 1993)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 169,
+                                "start": 149
+                            }
+                        ],
+                        "text": "In early work, network pruning proved to be a valid way to reduce the network complexity and over-fitting (LeCun et al., 1989; Hanson & Pratt, 1989; Hassibi et al., 1993; Stro\u0308m, 1997)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 89,
+                                "start": 69
+                            }
+                        ],
+                        "text": "Optimal Brain Damage (LeCun et al., 1989) and Optimal Brain Surgeon (Hassibi et al., 1993) prune networks to reduce the number of connections based on the Hessian of the loss function and suggest that such pruning is more accurate than magnitude-based pruning such as weight decay."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7057040,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a42954d4b9d0ccdf1036e0af46d87a01b94c3516",
+            "isKey": true,
+            "numCitedBy": 1594,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We investigate the use of information from all second order derivatives of the error function to perform network pruning (i.e., removing unimportant weights from a trained network) in order to improve generalization, simplify networks, reduce hardware or storage requirements, increase the speed of further training, and in some cases enable rule extraction. Our method, Optimal Brain Surgeon (OBS), is Significantly better than magnitude-based methods and Optimal Brain Damage [Le Cun, Denker and Solla, 1990], which often remove the wrong weights. OBS permits the pruning of more weights than other methods (for the same error on the training set), and thus yields better generalization on test data. Crucial to OBS is a recursion relation for calculating the inverse Hessian matrix H-1 from training data and structural information of the net. OBS permits a 90%, a 76%, and a 62% reduction in weights over backpropagation with weight decay on three benchmark MONK's problems [Thrun et al., 1991]. Of OBS, Optimal Brain Damage, and magnitude-based methods, only OBS deletes the correct weights from a trained XOR network in every case. Finally, whereas Sejnowski and Rosenberg [1987] used 18,000 weights in their NETtalk network, we used OBS to prune a network to just 1560 weights, yielding better generalization."
+            },
+            "slug": "Second-Order-Derivatives-for-Network-Pruning:-Brain-Hassibi-Stork",
+            "title": {
+                "fragments": [],
+                "text": "Second Order Derivatives for Network Pruning: Optimal Brain Surgeon"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Of OBS, Optimal Brain Damage, and magnitude-based methods, only OBS deletes the correct weights from a trained XOR network in every case, and thus yields better generalization on test data."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1715051"
+                        ],
+                        "name": "Misha Denil",
+                        "slug": "Misha-Denil",
+                        "structuredName": {
+                            "firstName": "Misha",
+                            "lastName": "Denil",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Misha Denil"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3355894"
+                        ],
+                        "name": "B. Shakibi",
+                        "slug": "B.-Shakibi",
+                        "structuredName": {
+                            "firstName": "Babak",
+                            "lastName": "Shakibi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Shakibi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46573521"
+                        ],
+                        "name": "Laurent Dinh",
+                        "slug": "Laurent-Dinh",
+                        "structuredName": {
+                            "firstName": "Laurent",
+                            "lastName": "Dinh",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Laurent Dinh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706809"
+                        ],
+                        "name": "Marc'Aurelio Ranzato",
+                        "slug": "Marc'Aurelio-Ranzato",
+                        "structuredName": {
+                            "firstName": "Marc'Aurelio",
+                            "lastName": "Ranzato",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marc'Aurelio Ranzato"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1737568"
+                        ],
+                        "name": "N. D. Freitas",
+                        "slug": "N.-D.-Freitas",
+                        "structuredName": {
+                            "firstName": "Nando",
+                            "lastName": "Freitas",
+                            "middleNames": [
+                                "de"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. D. Freitas"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 128,
+                                "start": 110
+                            }
+                        ],
+                        "text": "Neural networks are typically over-parametrized, and there is significant redundancy for deep learning models(Denil et al., 2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1639981,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e8650503ab80ad7299f0845b1843abf3a97f313a",
+            "isKey": false,
+            "numCitedBy": 1009,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We demonstrate that there is significant redundancy in the parameterization of several deep learning models. Given only a few weight values for each feature it is possible to accurately predict the remaining values. Moreover, we show that not only can the parameter values be predicted, but many of them need not be learned at all. We train several different architectures by learning only a small number of weights and predicting the rest. In the best case we are able to predict more than 95% of the weights of a network without any drop in accuracy."
+            },
+            "slug": "Predicting-Parameters-in-Deep-Learning-Denil-Shakibi",
+            "title": {
+                "fragments": [],
+                "text": "Predicting Parameters in Deep Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 72,
+                "text": "It is demonstrated that there is significant redundancy in the parameterization of several deep learning models and not only can the parameter values be predicted, but many of them need not be learned at all."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1805735"
+                        ],
+                        "name": "N. Strom",
+                        "slug": "N.-Strom",
+                        "structuredName": {
+                            "firstName": "Nikko",
+                            "lastName": "Strom",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Strom"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 182,
+                                "start": 171
+                            }
+                        ],
+                        "text": "In early work, network pruning proved to be a valid way to reduce the network complexity and over-fitting (LeCun et al., 1989; Hanson & Pratt, 1989; Hassibi et al., 1993; Stro\u0308m, 1997)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 97,
+                                "start": 86
+                            }
+                        ],
+                        "text": "Though these neural networks are very powerful, the large number of weights consumes considerable storage and memory bandwidth."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 18647867,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a9392b9299972452ea6fbc3c605f76bb1e21ae42",
+            "isKey": false,
+            "numCitedBy": 60,
+            "numCiting": 64,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents new methods for training large neural networks for phoneme probabilit y estimation. An architecture combining time-delay windows and recurrent connections is used to capture the important dynamic information of the speech signal. Because the number of connections in a fully connected recurrent network grows super-linear with the number of hidden units, schemes for sparse connection and connection pruning are explored. It is found that sparsely connected networks outperform their fully connected counterparts with an equal number of connections. The implementation of the combined architecture and training scheme is described in detail . The networks are evaluated in a hybrid HMM/ANN system for phoneme recognition on the TIMIT database, and for word recognition on the WAXHOLM database. The achieved phone error-rate, 27.8%, for the standard 39 phoneme set on the core test-set of the TIMIT database is in the range of the lowest reported. All training and simulation software used is made freely available by the author, and detailed information about the software and the training process is given in an Appendix. Nikko Str\u00f6m, Phoneme Probability Estimation with Dynamic Sparsely Connected Artificial Neural Networks 2 Table of contents Abstract...........................................................................................................................1"
+            },
+            "slug": "Phoneme-probability-estimation-with-dynamic-neural-Strom",
+            "title": {
+                "fragments": [],
+                "text": "Phoneme probability estimation with dynamic sparsely connected artificial neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is found that sparsely connected networks outperform their fully connected counterparts with an equal number of connections, and schemes for sparse connection and connection pruning are explored."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52184096"
+                        ],
+                        "name": "L. Bottou",
+                        "slug": "L.-Bottou",
+                        "structuredName": {
+                            "firstName": "L\u00e9on",
+                            "lastName": "Bottou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Bottou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1721248"
+                        ],
+                        "name": "P. Haffner",
+                        "slug": "P.-Haffner",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Haffner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Haffner"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 97,
+                                "start": 79
+                            }
+                        ],
+                        "text": "We first experimented on MNIST dataset with LeNet-300-100 and LeNet-5 network (LeCun et al., 1998)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 135,
+                                "start": 115
+                            }
+                        ],
+                        "text": "1 LENET-300-100 AND LENET-5 ON MNIST We first experimented on MNIST dataset with LeNet-300-100 and LeNet-5 network (LeCun et al., 1998)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14542261,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "162d958ff885f1462aeda91cd72582323fd6a1f4",
+            "isKey": false,
+            "numCitedBy": 35623,
+            "numCiting": 246,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns, such as handwritten characters, with minimal preprocessing. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task. Convolutional neural networks, which are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques. Real-life document recognition systems are composed of multiple modules including field extraction, segmentation recognition, and language modeling. A new learning paradigm, called graph transformer networks (GTN), allows such multimodule systems to be trained globally using gradient-based methods so as to minimize an overall performance measure. Two systems for online handwriting recognition are described. Experiments demonstrate the advantage of global training, and the flexibility of graph transformer networks. A graph transformer network for reading a bank cheque is also described. It uses convolutional neural network character recognizers combined with global training techniques to provide record accuracy on business and personal cheques. It is deployed commercially and reads several million cheques per day."
+            },
+            "slug": "Gradient-based-learning-applied-to-document-LeCun-Bottou",
+            "title": {
+                "fragments": [],
+                "text": "Gradient-based learning applied to document recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task, and Convolutional neural networks are shown to outperform all other techniques."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc. IEEE"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2983898"
+                        ],
+                        "name": "Ross B. Girshick",
+                        "slug": "Ross-B.-Girshick",
+                        "structuredName": {
+                            "firstName": "Ross",
+                            "lastName": "Girshick",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ross B. Girshick"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 68
+                            }
+                        ],
+                        "text": "In state-of-the-art object detection algorithms such as fast R-CNN (Girshick, 2015), upto 38% computation time is consumed on FC layers on uncompressed model."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206770307,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Environmental Science"
+            ],
+            "id": "7ffdbc358b63378f07311e883dddacc9faeeaf4b",
+            "isKey": false,
+            "numCitedBy": 14349,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN) for object detection. Fast R-CNN builds on previous work to efficiently classify object proposals using deep convolutional networks. Compared to previous work, Fast R-CNN employs several innovations to improve training and testing speed while also increasing detection accuracy. Fast R-CNN trains the very deep VGG16 network 9x faster than R-CNN, is 213x faster at test-time, and achieves a higher mAP on PASCAL VOC 2012. Compared to SPPnet, Fast R-CNN trains VGG16 3x faster, tests 10x faster, and is more accurate. Fast R-CNN is implemented in Python and C++ (using Caffe) and is available under the open-source MIT License at https://github.com/rbgirshick/fast-rcnn."
+            },
+            "slug": "Fast-R-CNN-Girshick",
+            "title": {
+                "fragments": [],
+                "text": "Fast R-CNN"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 97,
+                "text": "This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN) for object detection that builds on previous work to efficiently classify object proposals using deep convolutional networks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2015 IEEE International Conference on Computer Vision (ICCV)"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "21226067"
+                        ],
+                        "name": "H. Nguyen",
+                        "slug": "H.-Nguyen",
+                        "structuredName": {
+                            "firstName": "Hien",
+                            "lastName": "Nguyen",
+                            "middleNames": [
+                                "Van"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Nguyen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145668226"
+                        ],
+                        "name": "S. Zhou",
+                        "slug": "S.-Zhou",
+                        "structuredName": {
+                            "firstName": "Shaohua",
+                            "lastName": "Zhou",
+                            "middleNames": [
+                                "Kevin"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39963722"
+                        ],
+                        "name": "Raviteja Vemulapalli",
+                        "slug": "Raviteja-Vemulapalli",
+                        "structuredName": {
+                            "firstName": "Raviteja",
+                            "lastName": "Vemulapalli",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Raviteja Vemulapalli"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 85
+                            }
+                        ],
+                        "text": "A Huffman code is an optimal prefix code commonly used for lossless data compression(Van Leeuwen, 1976)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 122,
+                                "start": 102
+                            }
+                        ],
+                        "text": "There are also attempts to reduce the number of activations for both compression and acceleration Van Nguyen et al. (2015)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 63,
+                                "start": 60
+                            }
+                        ],
+                        "text": "There have been various proposals to remove the redundancy: Vanhoucke et al. (2011) explored a fixedpoint implementation with 8-bit integer (vs 32-bit floating point) activations."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 2767949,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "524cef2efdbed2af694ffb0c8f83e6890e178f16",
+            "isKey": false,
+            "numCitedBy": 107,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Cross-modality image synthesis has recently gained significant interest in the medical imaging community. In this paper, we propose a novel architecture called location-sensitive deep network LSDN for synthesizing images across domains. Our network integrates intensity feature from image voxels and spatial information in a principled manner. Specifically, LSDN models hidden nodes as products of features and spatial responses. We then propose a novel method, called ShrinkConnect, for reducing the computations of LSDN without sacrificing synthesis accuracy. ShrinkConnect enforces simultaneous sparsity to find a compact set of functions that accurately approximates the responses of all hidden nodes. Experimental results demonstrate that LSDN+ShrinkConnect outperforms the state of the art in cross-domain synthesis of MRI brain scans by a significant margin. Our approach is also computationally efficient, e.g. 26\u00d7 faster than other sparse representation based methods."
+            },
+            "slug": "Cross-Domain-Synthesis-of-Medical-Images-Using-Deep-Nguyen-Zhou",
+            "title": {
+                "fragments": [],
+                "text": "Cross-Domain Synthesis of Medical Images Using Efficient Location-Sensitive Deep Network"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 55,
+                "text": "A novel architecture called location-sensitive deep network LSDN is proposed for synthesizing images across domains that integrates intensity feature from image voxels and spatial information in a principled manner and is computationally efficient, e.g. 26\u00d7 faster than other sparse representation based methods."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "MICCAI"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1727849"
+                        ],
+                        "name": "S. Hanson",
+                        "slug": "S.-Hanson",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "Hanson",
+                            "middleNames": [
+                                "Jose"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hanson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144442133"
+                        ],
+                        "name": "L. Pratt",
+                        "slug": "L.-Pratt",
+                        "structuredName": {
+                            "firstName": "Lorien",
+                            "lastName": "Pratt",
+                            "middleNames": [
+                                "Y."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Pratt"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 62,
+                                "start": 42
+                            }
+                        ],
+                        "text": "Though these neural networks are very powerful, the large number of weights consumes considerable storage and memory bandwidth."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9344018,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f4ea5a6ff3ffcd11ec2e6ed7828a7d41279fb3ad",
+            "isKey": false,
+            "numCitedBy": 518,
+            "numCiting": 5,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Rumelhart (1987), has proposed a method for choosing minimal or \"simple\" representations during learning in Back-propagation networks. This approach can be used to (a) dynamically select the number of hidden units, (b) construct a representation that is appropriate for the problem and (c) thus improve the generalization ability of Back-propagation networks. The method Rumelhart suggests involves adding penalty terms to the usual error function. In this paper we introduce Rumelhart's minimal networks idea and compare two possible biases on the weight search space. These biases are compared in both simple counting problems and a speech recognition problem. In general, the constrained search does seem to minimize the number of hidden units required with an expected increase in local minima."
+            },
+            "slug": "Comparing-Biases-for-Minimal-Network-Construction-Hanson-Pratt",
+            "title": {
+                "fragments": [],
+                "text": "Comparing Biases for Minimal Network Construction with Back-Propagation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This paper introduces Rumelhart's minimal networks idea and compares two possible biases on the weight search space that are compared in both simple counting problems and a speech recognition problem."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1425082935"
+                        ],
+                        "name": "Xinyun Chen",
+                        "slug": "Xinyun-Chen",
+                        "structuredName": {
+                            "firstName": "Xinyun",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xinyun Chen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 17735339,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "94e3e7bc3d23276f0ee2d1cb8f9d14aa19668d5f",
+            "isKey": false,
+            "numCitedBy": 488,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "An intriguing property of deep neural networks is the existence of adversarial examples, which can transfer among different architectures. These transferable adversarial examples may severely hinder deep neural network-based applications. Previous works mostly study the transferability using small scale datasets. In this work, we are the first to conduct an extensive study of the transferability over large models and a large scale dataset, and we are also the first to study the transferability of targeted adversarial examples with their target labels. We study both non-targeted and targeted adversarial examples, and show that while transferable non-targeted adversarial examples are easy to find, targeted adversarial examples generated using existing approaches almost never transfer with their target labels. Therefore, we propose novel ensemble-based approaches to generating transferable adversarial examples. Using such approaches, we observe a large proportion of targeted adversarial examples that are able to transfer with their target labels for the first time. We also present some geometric studies to help understanding the transferable adversarial examples. Finally, we show that the adversarial examples generated using ensemble-based approaches can successfully attack Clarifai.com, which is a black-box image classification system."
+            },
+            "slug": "Under-Review-as-a-Conference-Paper-at-Iclr-2017-Ex-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "This work is the first to conduct an extensive study of the transferability over large models and a large scale dataset, and it is also theFirst to study the transferabilities of targeted adversarial examples with their target labels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1747317"
+                        ],
+                        "name": "J. Denker",
+                        "slug": "J.-Denker",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Denker",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Denker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1759839"
+                        ],
+                        "name": "S. Solla",
+                        "slug": "S.-Solla",
+                        "structuredName": {
+                            "firstName": "Sara",
+                            "lastName": "Solla",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Solla"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 125,
+                                "start": 107
+                            }
+                        ],
+                        "text": "In early work, network pruning proved to be a valid way to reduce the network complexity and over-fitting (LeCun et al., 1989; Hanson & Pratt, 1989; Hassibi et al., 1993; Stro\u0308m, 1997)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 22
+                            }
+                        ],
+                        "text": "Optimal Brain Damage (LeCun et al., 1989) and Optimal Brain Surgeon (Hassibi et al., 1993) prune networks to reduce the number of connections based on the Hessian of the loss function and suggest that such pruning is more accurate than magnitude-based pruning such as weight decay."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 22
+                            }
+                        ],
+                        "text": "Though these neural networks are very powerful, the large number of weights consumes considerable storage and memory bandwidth."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7785881,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e7297db245c3feb1897720b173a59fe7e36babb7",
+            "isKey": false,
+            "numCitedBy": 3518,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We have used information-theoretic ideas to derive a class of practical and nearly optimal schemes for adapting the size of a neural network. By removing unimportant weights from a network, several improvements can be expected: better generalization, fewer training examples required, and improved speed of learning and/or classification. The basic idea is to use second-derivative information to make a tradeoff between network complexity and training set error. Experiments confirm the usefulness of the methods on a real-world application."
+            },
+            "slug": "Optimal-Brain-Damage-LeCun-Denker",
+            "title": {
+                "fragments": [],
+                "text": "Optimal Brain Damage"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 60,
+                "text": "A class of practical and nearly optimal schemes for adapting the size of a neural network by using second-derivative information to make a tradeoff between network complexity and training set error is derived."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8536286"
+                        ],
+                        "name": "A. Bosselut",
+                        "slug": "A.-Bosselut",
+                        "structuredName": {
+                            "firstName": "Antoine",
+                            "lastName": "Bosselut",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Bosselut"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39455775"
+                        ],
+                        "name": "Omer Levy",
+                        "slug": "Omer-Levy",
+                        "structuredName": {
+                            "firstName": "Omer",
+                            "lastName": "Levy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Omer Levy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "14487640"
+                        ],
+                        "name": "Ari Holtzman",
+                        "slug": "Ari-Holtzman",
+                        "structuredName": {
+                            "firstName": "Ari",
+                            "lastName": "Holtzman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ari Holtzman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40479850"
+                        ],
+                        "name": "C. Ennis",
+                        "slug": "C.-Ennis",
+                        "structuredName": {
+                            "firstName": "Corin",
+                            "lastName": "Ennis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Ennis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145197953"
+                        ],
+                        "name": "D. Fox",
+                        "slug": "D.-Fox",
+                        "structuredName": {
+                            "firstName": "Dieter",
+                            "lastName": "Fox",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Fox"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699545"
+                        ],
+                        "name": "Yejin Choi",
+                        "slug": "Yejin-Choi",
+                        "structuredName": {
+                            "firstName": "Yejin",
+                            "lastName": "Choi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yejin Choi"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 51540074,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bcd857d75841aa3e92cd4284a8818aba9f6c0c3f",
+            "isKey": false,
+            "numCitedBy": 156,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Understanding procedural language requires anticipating the causal effects of actions, even when they are not explicitly stated. In this work, we introduce Neural Process Networks to understand procedural text through (neural) simulation of action dynamics. Our model complements existing memory architectures with dynamic entity tracking by explicitly modeling actions as state transformers. The model updates the states of the entities by executing learned action operators. Empirical results demonstrate that our proposed model can reason about the unstated causal effects of actions, allowing it to provide more accurate contextual information for understanding and generating procedural text, all while offering more interpretable internal representations than existing alternatives."
+            },
+            "slug": "Published-as-a-conference-paper-at-ICLR-2018-S-A-D-Bosselut-Levy",
+            "title": {
+                "fragments": [],
+                "text": "Published as a conference paper at ICLR 2018 S IMULATING A CTION D YNAMICS WITH N EURAL P ROCESS N ETWORKS"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "This work introduces Neural Process Networks to understand procedural text through (neural) simulation of action dynamics, and complements existing memory architectures with dynamic entity tracking by explicitly modeling actions as state transformers."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2151542242"
+                        ],
+                        "name": "Vince Urbina",
+                        "slug": "Vince-Urbina",
+                        "structuredName": {
+                            "firstName": "Vince",
+                            "lastName": "Urbina",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Vince Urbina"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 246376936,
+            "fieldsOfStudy": [],
+            "id": "f74672ff2cafd0e16469c9192b3261af129ffe46",
+            "isKey": false,
+            "numCitedBy": 67,
+            "numCiting": 1,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Cuidado con la t\u00e9cnica de poda que usted utiliza en el Condado de Collier, podas en forma de colgadero o las que cortan muchas ramas internas dejando una apariencia de cola de leon estan consideradas practicas no deseadas y pueden ocasionar multas. El Condado de Collier esta armado hasta los dientes; en su codigo de desarrollo de tierras bajo el articulo No. 91-102 se encuentra informacion detallada al respecto y desarrollada por expertos certificados de la industria e universidades."
+            },
+            "slug": "Pruning-Urbina",
+            "title": {
+                "fragments": [],
+                "text": "Pruning"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Western Fruit Gardening"
+            },
+            "year": 1953
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144516165"
+                        ],
+                        "name": "J. V. Leeuwen",
+                        "slug": "J.-V.-Leeuwen",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "Leeuwen",
+                            "middleNames": [
+                                "van"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. V. Leeuwen"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "mber of bits, there could potentially have more storage saving. Huffman encoding can be ef\ufb01ciently implemented, \ufb01nding a code in linear time to the number of input weights if these weights are sorted [11]. Besides, Huffman code is a loss-less compression method, so the accuracy of the network won\u2019t be affected. Experiments shown Huffman encoding could save the last 20% 50% storage of the network weigh"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 37417891,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "237292e08fe45320e954377ebe2b7e08d08f1979",
+            "isKey": false,
+            "numCitedBy": 133,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "On-the-Construction-of-Huffman-Trees-Leeuwen",
+            "title": {
+                "fragments": [],
+                "text": "On the Construction of Huffman Trees"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICALP"
+            },
+            "year": 1976
+        },
+        {
+            "authors": [],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14471419,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "eabf117aae614d6b65cc33a3a4bbb22b9a5014d9",
+            "isKey": false,
+            "numCitedBy": 59,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "GPU-Based-Deep-Learning-Inference:-A-Performance",
+            "title": {
+                "fragments": [],
+                "text": "GPU-Based Deep Learning Inference: A Performance and Power Analysis"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2015
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 32,
+                                "start": 29
+                            }
+                        ],
+                        "text": "Optimal Brain Damage NIPS\u201990 [2] Hassibi, et al."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 41
+                            }
+                        ],
+                        "text": "We use the Nesterov Accelerated Gradient [2] variant of SGD, which is described in [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Deep Learning Symposium 2015,"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Technical brief: NVIDIA jetson TK1 development kit bringing GPU-accelerated computing to embedded systems"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Technical brief: NVIDIA jetson TK1 development kit bringing GPU-accelerated computing to embedded systems"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 83
+                            }
+                        ],
+                        "text": "We use the Nesterov Accelerated Gradient [2] variant of SGD, which is described in [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "EIE: Efficient Inference"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Engine on Compressed Deep Neural Network\u201d,"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 46,
+                                "start": 25
+                            }
+                        ],
+                        "text": "This problem is noted by Szegedy et al. (2014) and motivates them to add a linear layer on the top of their networks to enable transfer learning."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 68
+                            }
+                        ],
+                        "text": "The Network in Network architecture(Lin et al., 2013) and GoogLenet(Szegedy et al., 2014) achieves state-of-the-art results on several benchmarks by adopting this idea."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Going deeper with convolutions. arXiv preprint arXiv:1409"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Going deeper with convolutions. arXiv preprint arXiv:1409"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Compress - ing neural networks with the hashing trick Memory bounded deep convolutional networks Predicting parameters in deep learning"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Advances in Neural Information Processing Systems"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 68
+                            }
+                        ],
+                        "text": "In state-of-the-art object detection algorithms such as fast R-CNN (Girshick, 2015), upto 38% computation time is consumed on FC layers on uncompressed model."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Fast r-cnn. arXiv preprint arXiv:1504"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Fast r-cnn. arXiv preprint arXiv:1504"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Caffe model zoo"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Caffe model zoo"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "BVLC . Caffe model zoo"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Optimal Brain Damage NIPS'90"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Optimal Brain Damage NIPS'90"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Compress - ing neural networks with the hashing trick Predicting parameters in deep learning"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Advances in Neural Information Processing Systems"
+            },
+            "year": 2013
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 15,
+            "methodology": 10,
+            "result": 1
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 41,
+        "totalPages": 5
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Deep-Compression:-Compressing-Deep-Neural-Network-Han-Mao/642d0f49b7826adcf986616f4af77e736229990f?sort=total-citations"
+}

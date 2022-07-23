@@ -1,0 +1,3033 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143949035"
+                        ],
+                        "name": "Micha\u00ebl Mathieu",
+                        "slug": "Micha\u00ebl-Mathieu",
+                        "structuredName": {
+                            "firstName": "Micha\u00ebl",
+                            "lastName": "Mathieu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Micha\u00ebl Mathieu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39713408"
+                        ],
+                        "name": "Mikael Henaff",
+                        "slug": "Mikael-Henaff",
+                        "structuredName": {
+                            "firstName": "Mikael",
+                            "lastName": "Henaff",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mikael Henaff"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 103,
+                                "start": 82
+                            }
+                        ],
+                        "text": "We quickly summarize these and their implementation, with a formulation mirroring Mathieu et al. (2013)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 18233038,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a7621b4ec18719b08f3a2a444b6d37a2e20227b7",
+            "isKey": false,
+            "numCitedBy": 460,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Convolutional networks are one of the most widely employed architectures in computer vision and machine learning. In order to leverage their ability to learn complex functions, large amounts of data are required for training. Training a large convolutional network to produce state-of-the-art results can take weeks, even when using modern GPUs. Producing labels using a trained network can also be costly when dealing with web-scale datasets. In this work, we present a simple algorithm which accelerates training and inference by a significant factor, and can yield improvements of over an order of magnitude compared to existing state-of-the-art implementations. This is done by computing convolutions as pointwise products in the Fourier domain while reusing the same transformed feature map many times. The algorithm is implemented on a GPU architecture and addresses a number of related challenges."
+            },
+            "slug": "Fast-Training-of-Convolutional-Networks-through-Mathieu-Henaff",
+            "title": {
+                "fragments": [],
+                "text": "Fast Training of Convolutional Networks through FFTs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This work presents a simple algorithm which accelerates training and inference by a significant factor, and can yield improvements of over an order of magnitude compared to existing state-of-the-art implementations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "73175007"
+                        ],
+                        "name": "Andrew Lavin",
+                        "slug": "Andrew-Lavin",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Lavin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Lavin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 47,
+                                "start": 35
+                            }
+                        ],
+                        "text": "For this problem,a tool like MaxAS Lavin (2015) could be valuable.\nfbfft provides the most gains over cuFFT at sizes8-64."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14595069,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4fe1c707a48869cbbdf3eb0384e526d1d294f7e2",
+            "isKey": false,
+            "numCitedBy": 46,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes maxDNN, a computationally efficient convolution kernel for deep learning with the NVIDIA Maxwell GPU. maxDNN reaches 96.3% computational efficiency on typical deep learning network architectures. The design combines ideas from cuda-convnet2 with the Maxas SGEMM assembly code. We only address forward propagation (FPROP) operation of the network, but we believe that the same techniques used here will be effective for backward propagation (BPROP) as well."
+            },
+            "slug": "maxDNN:-An-Efficient-Convolution-Kernel-for-Deep-Lavin",
+            "title": {
+                "fragments": [],
+                "text": "maxDNN: An Efficient Convolution Kernel for Deep Learning with Maxwell GPUs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 97,
+                "text": "This paper describes maxDNN, a computationally efficient convolution kernel for deep learning with the NVIDIA Maxwell GPU, which reaches 96.3% computational efficiency on typical deep learning network architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1809791"
+                        ],
+                        "name": "K. Chellapilla",
+                        "slug": "K.-Chellapilla",
+                        "structuredName": {
+                            "firstName": "Kumar",
+                            "lastName": "Chellapilla",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Chellapilla"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2568084"
+                        ],
+                        "name": "Sidd Puri",
+                        "slug": "Sidd-Puri",
+                        "structuredName": {
+                            "firstName": "Sidd",
+                            "lastName": "Puri",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sidd Puri"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2812486"
+                        ],
+                        "name": "P. Simard",
+                        "slug": "P.-Simard",
+                        "structuredName": {
+                            "firstName": "Patrice",
+                            "lastName": "Simard",
+                            "middleNames": [
+                                "Y."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Simard"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 14936779,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2cc157afda51873c30b195fff56e917b9c06b853",
+            "isKey": false,
+            "numCitedBy": 418,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Convolutional neural networks (CNNs) are well known for producing state-of-the-art recognizers for document processing [1]. However, they can be difficult to implement and are usually slower than traditional multi-layer perceptrons (MLPs). We present three novel approaches to speeding up CNNs: a) unrolling convolution, b) using BLAS (basic linear algebra subroutines), and c) using GPUs (graphic processing units). Unrolled convolution converts the processing in each convolutional layer (both forward-propagation and back-propagation) into a matrix-matrix product. The matrix-matrix product representation of CNNs makes their implementation as easy as MLPs. BLAS is used to efficiently compute matrix products on the CPU. We also present a pixel shader based GPU implementation of CNNs. Results on character recognition problems indicate that unrolled convolution with BLAS produces a dramatic 2.4X\u22123.0X speedup. The GPU implementation is even faster and produces a 3.1X\u22124.1X speedup."
+            },
+            "slug": "High-Performance-Convolutional-Neural-Networks-for-Chellapilla-Puri",
+            "title": {
+                "fragments": [],
+                "text": "High Performance Convolutional Neural Networks for Document Processing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "Three novel approaches to speeding up CNNs are presented: a) unrolling convolution, b) using BLAS (basic linear algebra subroutines), and c) using GPUs (graphic processing units)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39978391"
+                        ],
+                        "name": "Yangqing Jia",
+                        "slug": "Yangqing-Jia",
+                        "structuredName": {
+                            "firstName": "Yangqing",
+                            "lastName": "Jia",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yangqing Jia"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1782282"
+                        ],
+                        "name": "Evan Shelhamer",
+                        "slug": "Evan-Shelhamer",
+                        "structuredName": {
+                            "firstName": "Evan",
+                            "lastName": "Shelhamer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Evan Shelhamer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7408951"
+                        ],
+                        "name": "Jeff Donahue",
+                        "slug": "Jeff-Donahue",
+                        "structuredName": {
+                            "firstName": "Jeff",
+                            "lastName": "Donahue",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jeff Donahue"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3049736"
+                        ],
+                        "name": "Sergey Karayev",
+                        "slug": "Sergey-Karayev",
+                        "structuredName": {
+                            "firstName": "Sergey",
+                            "lastName": "Karayev",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sergey Karayev"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2117314646"
+                        ],
+                        "name": "Jonathan Long",
+                        "slug": "Jonathan-Long",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Long",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Long"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2983898"
+                        ],
+                        "name": "Ross B. Girshick",
+                        "slug": "Ross-B.-Girshick",
+                        "structuredName": {
+                            "firstName": "Ross",
+                            "lastName": "Girshick",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ross B. Girshick"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1687120"
+                        ],
+                        "name": "S. Guadarrama",
+                        "slug": "S.-Guadarrama",
+                        "structuredName": {
+                            "firstName": "Sergio",
+                            "lastName": "Guadarrama",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Guadarrama"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1753210"
+                        ],
+                        "name": "Trevor Darrell",
+                        "slug": "Trevor-Darrell",
+                        "structuredName": {
+                            "firstName": "Trevor",
+                            "lastName": "Darrell",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Trevor Darrell"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 245,
+                                "start": 228
+                            }
+                        ],
+                        "text": "Since then, renewed interest in CNNs insufflated a fresh breath in various frameworks and implementations, including Torch (Collobert et al. (2011a)), Theano (Bergstra et al. (2010)), cuda-convnet (Krizhevsky (2014)) and Caffe (Jia et al. (2014))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1799558,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6bdb186ec4726e00a8051119636d4df3b94043b5",
+            "isKey": false,
+            "numCitedBy": 13814,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Caffe provides multimedia scientists and practitioners with a clean and modifiable framework for state-of-the-art deep learning algorithms and a collection of reference models. The framework is a BSD-licensed C++ library with Python and MATLAB bindings for training and deploying general-purpose convolutional neural networks and other deep models efficiently on commodity architectures. Caffe fits industry and internet-scale media needs by CUDA GPU computation, processing over 40 million images a day on a single K40 or Titan GPU (approx 2 ms per image). By separating model representation from actual implementation, Caffe allows experimentation and seamless switching among platforms for ease of development and deployment from prototyping machines to cloud environments. Caffe is maintained and developed by the Berkeley Vision and Learning Center (BVLC) with the help of an active community of contributors on GitHub. It powers ongoing research projects, large-scale industrial applications, and startup prototypes in vision, speech, and multimedia."
+            },
+            "slug": "Caffe:-Convolutional-Architecture-for-Fast-Feature-Jia-Shelhamer",
+            "title": {
+                "fragments": [],
+                "text": "Caffe: Convolutional Architecture for Fast Feature Embedding"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 77,
+                "text": "Caffe provides multimedia scientists and practitioners with a clean and modifiable framework for state-of-the-art deep learning algorithms and a collection of reference models for training and deploying general-purpose convolutional neural networks and other deep models efficiently on commodity architectures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Multimedia"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3003738"
+                        ],
+                        "name": "Sharan Chetlur",
+                        "slug": "Sharan-Chetlur",
+                        "structuredName": {
+                            "firstName": "Sharan",
+                            "lastName": "Chetlur",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sharan Chetlur"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2266717"
+                        ],
+                        "name": "Cliff Woolley",
+                        "slug": "Cliff-Woolley",
+                        "structuredName": {
+                            "firstName": "Cliff",
+                            "lastName": "Woolley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Cliff Woolley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2101730"
+                        ],
+                        "name": "Philippe Vandermersch",
+                        "slug": "Philippe-Vandermersch",
+                        "structuredName": {
+                            "firstName": "Philippe",
+                            "lastName": "Vandermersch",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Philippe Vandermersch"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145611200"
+                        ],
+                        "name": "Jonathan M. Cohen",
+                        "slug": "Jonathan-M.-Cohen",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Cohen",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan M. Cohen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066786849"
+                        ],
+                        "name": "J. Tran",
+                        "slug": "J.-Tran",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Tran",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Tran"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2301680"
+                        ],
+                        "name": "Bryan Catanzaro",
+                        "slug": "Bryan-Catanzaro",
+                        "structuredName": {
+                            "firstName": "Bryan",
+                            "lastName": "Catanzaro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bryan Catanzaro"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1782282"
+                        ],
+                        "name": "Evan Shelhamer",
+                        "slug": "Evan-Shelhamer",
+                        "structuredName": {
+                            "firstName": "Evan",
+                            "lastName": "Shelhamer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Evan Shelhamer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 97,
+                                "start": 76
+                            }
+                        ],
+                        "text": "We compare our cuFFT convolution results against NVIDIA\u2019s cuDNN 1.0 library (Chetlur et al. (2014)), which contains one of the fastest, general purposec nvolution methods for the GPU, using matrix unrolling."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 84,
+                                "start": 63
+                            }
+                        ],
+                        "text": "We evaluate our relative performance to NVIDIA\u2019s cuDNN library (Chetlur et al. (2014)) on over8, 000 different configurations (Section 4)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12330432,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "31c36d445367ba204244bb74893c5654e31c3869",
+            "isKey": true,
+            "numCitedBy": 1419,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a library that provides optimized implementations for deep learning primitives. Deep learning workloads are computationally intensive, and optimizing the kernels of deep learning workloads is difficult and time-consuming. As parallel architectures evolve, kernels must be reoptimized for new processors, which makes maintaining codebases difficult over time. Similar issues have long been addressed in the HPC community by libraries such as the Basic Linear Algebra Subroutines (BLAS) [2]. However, there is no analogous library for deep learning. Without such a library, researchers implementing deep learning workloads on parallel processors must create and optimize their own implementations of the main computational kernels, and this work must be repeated as new parallel processors emerge. To address this problem, we have created a library similar in intent to BLAS, with optimized routines for deep learning workloads. Our implementation contains routines for GPUs, and similarly to the BLAS library, could be implemented for other platforms. The library is easy to integrate into existing frameworks, and provides optimized performance and memory usage. For example, integrating cuDNN into Caffe, a popular framework for convolutional networks, improves performance by 36% on a standard model while also reducing memory consumption."
+            },
+            "slug": "cuDNN:-Efficient-Primitives-for-Deep-Learning-Chetlur-Woolley",
+            "title": {
+                "fragments": [],
+                "text": "cuDNN: Efficient Primitives for Deep Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "A library similar in intent to BLAS, with optimized routines for deep learning workloads, that contains routines for GPUs, and similarly to the BLAS library, could be implemented for other platforms."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ArXiv"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "12710958"
+                        ],
+                        "name": "T. Brosch",
+                        "slug": "T.-Brosch",
+                        "structuredName": {
+                            "firstName": "T.",
+                            "lastName": "Brosch",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Brosch"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37709604"
+                        ],
+                        "name": "R. Tam",
+                        "slug": "R.-Tam",
+                        "structuredName": {
+                            "firstName": "Roger",
+                            "lastName": "Tam",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Tam"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 28120095,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2e8f20b519ea59272e8950c01cbf1690fca731f9",
+            "isKey": false,
+            "numCitedBy": 52,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deep learning has traditionally been computationally expensive, and advances in training methods have been the prerequisite for improving its efficiency in order to expand its application to a variety of image classification problems. In this letter, we address the problem of efficient training of convolutional deep belief networks by learning the weights in the frequency domain, which eliminates the time-consuming calculation of convolutions. An essential consideration in the design of the algorithm is to minimize the number of transformations to and from frequency space. We have evaluated the running time improvements using two standard benchmark data sets, showing a speed-up of up to 8\u00a0times on 2D images and up to 200\u00a0times on 3D volumes. Our training algorithm makes training of convolutional deep belief networks on 3D medical images with a resolution of up to 128 \u00d7 128 \u00d7 128 voxels practical, which opens new directions for using deep learning for medical image analysis."
+            },
+            "slug": "Efficient-Training-of-Convolutional-Deep-Belief-in-Brosch-Tam",
+            "title": {
+                "fragments": [],
+                "text": "Efficient Training of Convolutional Deep Belief Networks in the Frequency Domain for Application to High-Resolution 2D and 3D Images"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The training algorithm makes training of convolutional deep belief networks on 3D medical images with a resolution of up to128 \u00d7 128 \u00d7 128 voxels practical, which opens new directions for using deep learning for medical image analysis."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2064160"
+                        ],
+                        "name": "A. Krizhevsky",
+                        "slug": "A.-Krizhevsky",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Krizhevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krizhevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 80,
+                                "start": 56
+                            }
+                        ],
+                        "text": "In table 3, we show performance for real CNNs, AlexNet (Krizhevsky et al. (2012)) and OverFeat fast(Sermanet et al. (2014)), comparing against cuDNN and cuda-onvnet2 (ccn2) kernels in Torch."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 24,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Krizhevsky et al. (2012) demonstrated that training of large CNNs with millions of weights and massive data sets is tractable when graphics processing units (GPUs) are properly put to use."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 195908774,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+            "isKey": false,
+            "numCitedBy": 82046,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
+            },
+            "slug": "ImageNet-classification-with-deep-convolutional-Krizhevsky-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "ImageNet classification with deep convolutional neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "A large, deep convolutional neural network was trained to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes and employed a recently developed regularization method called \"dropout\" that proved to be very effective."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Commun. ACM"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3142556"
+                        ],
+                        "name": "Pierre Sermanet",
+                        "slug": "Pierre-Sermanet",
+                        "structuredName": {
+                            "firstName": "Pierre",
+                            "lastName": "Sermanet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Pierre Sermanet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2060028"
+                        ],
+                        "name": "D. Eigen",
+                        "slug": "D.-Eigen",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Eigen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Eigen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46447747"
+                        ],
+                        "name": "X. Zhang",
+                        "slug": "X.-Zhang",
+                        "structuredName": {
+                            "firstName": "Xiang",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143949035"
+                        ],
+                        "name": "Micha\u00ebl Mathieu",
+                        "slug": "Micha\u00ebl-Mathieu",
+                        "structuredName": {
+                            "firstName": "Micha\u00ebl",
+                            "lastName": "Mathieu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Micha\u00ebl Mathieu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2276554"
+                        ],
+                        "name": "R. Fergus",
+                        "slug": "R.-Fergus",
+                        "structuredName": {
+                            "firstName": "Rob",
+                            "lastName": "Fergus",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Fergus"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 4071727,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5507caf1210b6bfbd04fe02b2669bc14292e23a1",
+            "isKey": false,
+            "numCitedBy": 4388,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present an integrated framework for using Convolutional Networks for classification, localization and detection. We show how a multiscale and sliding window approach can be efficiently implemented within a ConvNet. We also introduce a novel deep learning approach to localization by learning to predict object boundaries. Bounding boxes are then accumulated rather than suppressed in order to increase detection confidence. We show that different tasks can be learned simultaneously using a single shared network. This integrated framework is the winner of the localization task of the ImageNet Large Scale Visual Recognition Challenge 2013 (ILSVRC2013) and obtained very competitive results for the detection and classifications tasks. In post-competition work, we establish a new state of the art for the detection task. Finally, we release a feature extractor from our best model called OverFeat."
+            },
+            "slug": "OverFeat:-Integrated-Recognition,-Localization-and-Sermanet-Eigen",
+            "title": {
+                "fragments": [],
+                "text": "OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 60,
+                "text": "This integrated framework for using Convolutional Networks for classification, localization and detection is the winner of the localization task of the ImageNet Large Scale Visual Recognition Challenge 2013 and obtained very competitive results for the detection and classifications tasks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICLR"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1875652"
+                        ],
+                        "name": "John A. Gunnels",
+                        "slug": "John-A.-Gunnels",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Gunnels",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John A. Gunnels"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145131827"
+                        ],
+                        "name": "G. Henry",
+                        "slug": "G.-Henry",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Henry",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Henry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1390043587"
+                        ],
+                        "name": "R. Geijn",
+                        "slug": "R.-Geijn",
+                        "structuredName": {
+                            "firstName": "Robert A.",
+                            "lastName": "Geijn",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Geijn"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 256,
+                                "start": 235
+                            }
+                        ],
+                        "text": "A key principle is to design aset of leaf kernels with well-tuned in-register performance and reduce the larger problem to a combination of these kernels by data and loop tiling (Irigoin & Triolet (1988)) and recursive decompositions (Gunnels et al. (2001))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 442764,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7e5ba1b0ee6af855ba215f2ede00de371ea97af3",
+            "isKey": false,
+            "numCitedBy": 77,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "During the last half-decade, a number of research efforts have centered around developing software for generating automatically tuned matrix multiplication kernels. These include the PHiPAC project and the ATLAS project. The software end-products of both projects employ brute force to search a parameter space for blockings that accommodate multiple levels of memory hierarchy. We take a different approach: using a simple model of hierarchical memories we employ mathematics to determine a locally-optimal strategy for blocking matrices. The theoretical results show that, depending on the shape of the matrices involved, different strategies are locally-optimal. Rather than determining a blocking strategy at library generation time, the theoretical results show that, ideally, one should pursue a heuristic that allows the blocking strategy to be determined dynamically at run-time as a function of the shapes of the operands. When the resulting family of algorithms is combined with a highly optimized inner-kernel for a small matrix multiplication, the approach yields performance that is superior to that of methods that automatically tune such kernels. Preliminary results, for the Intel Pentium (R) III processor, support the theoretical insights."
+            },
+            "slug": "A-Family-of-High-Performance-Matrix-Multiplication-Gunnels-Henry",
+            "title": {
+                "fragments": [],
+                "text": "A Family of High-Performance Matrix Multiplication Algorithms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "Using a simple model of hierarchical memories, mathematics is employed to determine a locally-optimal strategy for blocking matrices and the resulting family of algorithms yields performance that is superior to that of methods that automatically tune such kernels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Conference on Computational Science"
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401885963"
+                        ],
+                        "name": "Jonathan Ragan-Kelley",
+                        "slug": "Jonathan-Ragan-Kelley",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Ragan-Kelley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Ragan-Kelley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2496412"
+                        ],
+                        "name": "Connelly Barnes",
+                        "slug": "Connelly-Barnes",
+                        "structuredName": {
+                            "firstName": "Connelly",
+                            "lastName": "Barnes",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Connelly Barnes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144187067"
+                        ],
+                        "name": "Andrew Adams",
+                        "slug": "Andrew-Adams",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Adams",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew Adams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145799132"
+                        ],
+                        "name": "Sylvain Paris",
+                        "slug": "Sylvain-Paris",
+                        "structuredName": {
+                            "firstName": "Sylvain",
+                            "lastName": "Paris",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sylvain Paris"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145403226"
+                        ],
+                        "name": "F. Durand",
+                        "slug": "F.-Durand",
+                        "structuredName": {
+                            "firstName": "Fr\u00e9do",
+                            "lastName": "Durand",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Durand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1709150"
+                        ],
+                        "name": "Saman P. Amarasinghe",
+                        "slug": "Saman-P.-Amarasinghe",
+                        "structuredName": {
+                            "firstName": "Saman",
+                            "lastName": "Amarasinghe",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Saman P. Amarasinghe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 76
+                            }
+                        ],
+                        "text": "This is an approach used in automatic code generation tools such as Halide (Ragan-Kelley et al. (2013)) and relies on aggressive if-conversion properties of the CUDA compiler."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5885207,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d032f74b16457584f8a60ae07cfef9b617033638",
+            "isKey": false,
+            "numCitedBy": 878,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Image processing pipelines combine the challenges of stencil computations and stream programs. They are composed of large graphs of different stencil stages, as well as complex reductions, and stages with global or data-dependent access patterns. Because of their complex structure, the performance difference between a naive implementation of a pipeline and an optimized one is often an order of magnitude. Efficient implementations require optimization of both parallelism and locality, but due to the nature of stencils, there is a fundamental tension between parallelism, locality, and introducing redundant recomputation of shared values. We present a systematic model of the tradeoff space fundamental to stencil pipelines, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule. Combining this compiler with stochastic search over the space of schedules enables terse, composable programs to achieve state-of-the-art performance on a wide range of real image processing pipelines, and across different hardware architectures, including multicores with SIMD, and heterogeneous CPU+GPU execution. From simple Halide programs written in a few hours, we demonstrate performance up to 5x faster than hand-tuned C, intrinsics, and CUDA implementations optimized by experts over weeks or months, for image processing applications beyond the reach of past automatic compilers."
+            },
+            "slug": "Halide:-a-language-and-compiler-for-optimizing-and-Ragan-Kelley-Barnes",
+            "title": {
+                "fragments": [],
+                "text": "Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A systematic model of the tradeoff space fundamental to stencil pipelines is presented, a schedule representation which describes concrete points in this space for each stage in an image processing pipeline, and an optimizing compiler for the Halide image processing language that synthesizes high performance implementations from a Halide algorithm and a schedule are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI 2013"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2111108147"
+                        ],
+                        "name": "Jaewook Shin",
+                        "slug": "Jaewook-Shin",
+                        "structuredName": {
+                            "firstName": "Jaewook",
+                            "lastName": "Shin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jaewook Shin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143896454"
+                        ],
+                        "name": "Mary W. Hall",
+                        "slug": "Mary-W.-Hall",
+                        "structuredName": {
+                            "firstName": "Mary",
+                            "lastName": "Hall",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mary W. Hall"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1772362"
+                        ],
+                        "name": "Jacqueline Chame",
+                        "slug": "Jacqueline-Chame",
+                        "structuredName": {
+                            "firstName": "Jacqueline",
+                            "lastName": "Chame",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jacqueline Chame"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109525543"
+                        ],
+                        "name": "Chun Chen",
+                        "slug": "Chun-Chen",
+                        "structuredName": {
+                            "firstName": "Chun",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chun Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2072760827"
+                        ],
+                        "name": "P. F. Fischer",
+                        "slug": "P.-F.-Fischer",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Fischer",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. F. Fischer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49950609"
+                        ],
+                        "name": "P. Hovland",
+                        "slug": "P.-Hovland",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Hovland",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Hovland"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 229,
+                                "start": 211
+                            }
+                        ],
+                        "text": "Since vendors have to sustain high performance for a large class ofapplication domains, there exist parameter configurations for which a carefully tuned approachsignificantly outperforms vendor-tuned libraries (Shin et al. (2010))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6174171,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "865ca19d1df89eb2da3036ff409ca0b1a98b47d2",
+            "isKey": false,
+            "numCitedBy": 53,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Autotuning technology has emerged recently as a systematic process for evaluating alternative implementations of a computation, in order to select the best-performing solution for a particular architecture. Specialization optimizes code customized to a particular class of input data set. In this paper, we demonstrate how compiler-based autotuning that incorporates specialization for expected data set sizes of key computations can be used to speed up Nek5000, a spectral-element code. Nek5000 makes heavy use of what are effectively Basic Linear Algebra Subroutine (BLAS) calls, but for very small matrices. Through autotuning and specialization, we can achieve significant performance gains over hand-tuned libraries (e.g., Goto, ATLAS, and ACML BLAS). Additional performance gains are obtained from using higher-level compiler optimizations that aggregate multiple BLAS calls. We demonstrate more than 2.2X performance gains on an Opteron over the original manually tuned implementation, and speedups of up to 1.26X on the entire application running on 256 nodes of the Cray XT5 Jaguar system at Oak Ridge."
+            },
+            "slug": "Speeding-up-Nek5000-with-autotuning-and-Shin-Hall",
+            "title": {
+                "fragments": [],
+                "text": "Speeding up Nek5000 with autotuning and specialization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This paper demonstrates how compiler-based autotuning that incorporates specialization for expected data set sizes of key computations can be used to speed up Nek5000, a spectral-element code."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICS '10"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144764367"
+                        ],
+                        "name": "M. Garland",
+                        "slug": "M.-Garland",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Garland",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Garland"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2870121"
+                        ],
+                        "name": "Scott M. Le Grand",
+                        "slug": "Scott-M.-Le-Grand",
+                        "structuredName": {
+                            "firstName": "Scott",
+                            "lastName": "Grand",
+                            "middleNames": [
+                                "M.",
+                                "Le"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Scott M. Le Grand"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2782714"
+                        ],
+                        "name": "J. Nickolls",
+                        "slug": "J.-Nickolls",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Nickolls",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Nickolls"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110846474"
+                        ],
+                        "name": "Joshua Anderson",
+                        "slug": "Joshua-Anderson",
+                        "structuredName": {
+                            "firstName": "Joshua",
+                            "lastName": "Anderson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Joshua Anderson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34370464"
+                        ],
+                        "name": "Jim Hardwick",
+                        "slug": "Jim-Hardwick",
+                        "structuredName": {
+                            "firstName": "Jim",
+                            "lastName": "Hardwick",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jim Hardwick"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143673425"
+                        ],
+                        "name": "S. Morton",
+                        "slug": "S.-Morton",
+                        "structuredName": {
+                            "firstName": "Scott",
+                            "lastName": "Morton",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Morton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2485157"
+                        ],
+                        "name": "Everett H. Phillips",
+                        "slug": "Everett-H.-Phillips",
+                        "structuredName": {
+                            "firstName": "Everett",
+                            "lastName": "Phillips",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Everett H. Phillips"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118389666"
+                        ],
+                        "name": "Yao Zhang",
+                        "slug": "Yao-Zhang",
+                        "structuredName": {
+                            "firstName": "Yao",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yao Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145687683"
+                        ],
+                        "name": "V. Volkov",
+                        "slug": "V.-Volkov",
+                        "structuredName": {
+                            "firstName": "Vasily",
+                            "lastName": "Volkov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Volkov"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 20881015,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4d8bebe9f9ceeddb261185c43d4c04180c90e448",
+            "isKey": false,
+            "numCitedBy": 497,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The CUDA programming model provides a straightforward means of describing inherently parallel computations, and NVIDIA's Tesla GPU architecture delivers high computational throughput on massively parallel problems. This article surveys experiences gained in applying CUDA to a diverse set of problems and the parallel speedups over sequential codes running on traditional CPU architectures attained by executing key computations on the GPU."
+            },
+            "slug": "Parallel-Computing-Experiences-with-CUDA-Garland-Grand",
+            "title": {
+                "fragments": [],
+                "text": "Parallel Computing Experiences with CUDA"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "Experiences gained in applying CUDA to a diverse set of problems are surveyed and the parallel speedups over sequential codes running on traditional CPU architectures attained by executing key computations on the GPU are surveyed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Micro"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2939803"
+                        ],
+                        "name": "Ronan Collobert",
+                        "slug": "Ronan-Collobert",
+                        "structuredName": {
+                            "firstName": "Ronan",
+                            "lastName": "Collobert",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ronan Collobert"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2645384"
+                        ],
+                        "name": "K. Kavukcuoglu",
+                        "slug": "K.-Kavukcuoglu",
+                        "structuredName": {
+                            "firstName": "Koray",
+                            "lastName": "Kavukcuoglu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kavukcuoglu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2256269"
+                        ],
+                        "name": "C. Farabet",
+                        "slug": "C.-Farabet",
+                        "structuredName": {
+                            "firstName": "Cl\u00e9ment",
+                            "lastName": "Farabet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Farabet"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 25,
+                                "start": 20
+                            }
+                        ],
+                        "text": "Here, we borrow the Torch naming convention:i put for x(s,i); weightforw(j,i); outputfor y(s,j); gradOutput for \u2202L/\u2202y(s,j); gradInputfor \u2202L/\u2202x(s,i); andgradWeightfor \u2202L/\u2202w(j,i)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 6,
+                                "start": 1
+                            }
+                        ],
+                        "text": "1Torch practice is that the forward pass is cross-correlation, hence the\u22c6."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 124
+                            }
+                        ],
+                        "text": "Since then, renewed interest in CNNs insufflated a fresh breath in various frameworks and implementations, including Torch (Collobert et al. (2011a)), Theano (Bergstra et al. (2010)), cuda-convnet (Krizhevsky (2014)) and Caffe (Jia et al. (2014))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 179,
+                                "start": 155
+                            }
+                        ],
+                        "text": "Image CNNs to date have for the most part used square input images nd filters, though rectangular filters are valid for other problems (notably text CNNs, Collobert et al. (2011b))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 144,
+                                "start": 139
+                            }
+                        ],
+                        "text": "We discuss our contributions to convolution performance onthese GPUs, namely using Fast Fourier Transform (FFT) implementations within the Torch framework."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 32,
+                                "start": 27
+                            }
+                        ],
+                        "text": "For deeper layers in image CNNs, output size will decrease whilef, f \u2032 will increase, so depth corresponds to moving from the upper right to the lower left of the graph."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 46,
+                                "start": 41
+                            }
+                        ],
+                        "text": "In table 3, we show performance for real CNNs, AlexNet (Krizhevsky et al. (2012)) and OverFeat fast(Sermanet et al. (2014)), comparing against cuDNN and cuda-onvnet2 (ccn2) kernels in Torch."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 14365368,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3449b65008b27f6e60a73d80c1fd990f0481126b",
+            "isKey": true,
+            "numCitedBy": 1494,
+            "numCiting": 3,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Torch7 is a versatile numeric computing framework and machine learning library that extends Lua. Its goal is to provide a flexible environment to design and train learning machines. Flexibility is obtained via Lua, an extremely lightweight scripting language. High performance is obtained via efficient OpenMP/SSE and CUDA implementations of low-level numeric routines. Torch7 can easily be interfaced to third-party software thanks to Lua\u2019s light interface."
+            },
+            "slug": "Torch7:-A-Matlab-like-Environment-for-Machine-Collobert-Kavukcuoglu",
+            "title": {
+                "fragments": [],
+                "text": "Torch7: A Matlab-like Environment for Machine Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "Torch7 is a versatile numeric computing framework and machine learning library that extends Lua that can easily be interfaced to third-party software thanks to Lua\u2019s light interface."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS 2011"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "17045130"
+                        ],
+                        "name": "L. Bluestein",
+                        "slug": "L.-Bluestein",
+                        "structuredName": {
+                            "firstName": "Leo",
+                            "lastName": "Bluestein",
+                            "middleNames": [
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Bluestein"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 7808803,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2d85353c0c3439664e8ae54c8e37c97110eee39c",
+            "isKey": false,
+            "numCitedBy": 389,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "It is shown in this paper that the discrete equivalent of a chirp filter is needed to implement the computation of the discrete Fourier transform (DFT) as a linear filtering process. We show further that the chirp filter should not be realized as a transversal filter in a wide range of cases; use instead of the conventional FFT permits the computation of the DFT in a time proportional to N \\log_{2} N for any N, N being the number of points in the array that is transformed. Another proposed implementation of the chirp filter requires N to be a perfect square. The number of operations required for this algorithm is proportional to N^{3/2} ."
+            },
+            "slug": "A-linear-filtering-approach-to-the-computation-of-Bluestein",
+            "title": {
+                "fragments": [],
+                "text": "A linear filtering approach to the computation of discrete Fourier transform"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 75,
+                "text": "It is shown that the discrete equivalent of a chirp filter is needed to implement the computation of the discrete Fourier transform (DFT) as a linear filtering process, and that use of the conventional FFT permits the computations in a time proportional to N \\log_{2} N for any N."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1970
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2372800"
+                        ],
+                        "name": "J. Cooley",
+                        "slug": "J.-Cooley",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Cooley",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Cooley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2016914"
+                        ],
+                        "name": "J. Tukey",
+                        "slug": "J.-Tukey",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Tukey",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Tukey"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 167,
+                                "start": 146
+                            }
+                        ],
+                        "text": "If n has undesirable properties, efficiency can drop by an order of magnitude.7\ncuFFT implements FFTs with the ubiquitous Cooley-Tukey algorithm (Cooley & Tukey (1965)) which takes advantage of trigonometric equalities to recursively decompose and reuse computations."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 121744946,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0e6beb95b5150ce99b108acdefabf70ccd3fee30",
+            "isKey": false,
+            "numCitedBy": 11273,
+            "numCiting": 6,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "An efficient method for the calculation of the interactions of a 2' factorial ex- periment was introduced by Yates and is widely known by his name. The generaliza- tion to 3' was given by Box et al. (1). Good (2) generalized these methods and gave elegant algorithms for which one class of applications is the calculation of Fourier series. In their full generality, Good's methods are applicable to certain problems in which one must multiply an N-vector by an N X N matrix which can be factored into m sparse matrices, where m is proportional to log N. This results inma procedure requiring a number of operations proportional to N log N rather than N2. These methods are applied here to the calculation of complex Fourier series. They are useful in situations where the number of data points is, or can be chosen to be, a highly composite number. The algorithm is here derived and presented in a rather different form. Attention is given to the choice of N. It is also shown how special advantage can be obtained in the use of a binary computer with N = 2' and how the entire calculation can be performed within the array of N data storage locations used for the given Fourier coefficients. Consider the problem of calculating the complex Fourier series N-1 (1) X(j) = EA(k)-Wjk, j = 0 1, * ,N- 1, k=0"
+            },
+            "slug": "An-algorithm-for-the-machine-calculation-of-complex-Cooley-Tukey",
+            "title": {
+                "fragments": [],
+                "text": "An algorithm for the machine calculation of complex Fourier series"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "Good generalized these methods and gave elegant algorithms for which one class of applications is the calculation of Fourier series, applicable to certain problems in which one must multiply an N-vector by an N X N matrix which can be factored into m sparse matrices."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1965
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110484870"
+                        ],
+                        "name": "James S. Walker",
+                        "slug": "James-S.-Walker",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Walker",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James S. Walker"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 119758632,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "33ab59b72f1b05fe16d9a723ff313e55d7667c70",
+            "isKey": false,
+            "numCitedBy": 214,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Basic aspects of fourier series definition of fourier series examples of fourier series fourier series of real functions pointwise convergence of fourier series further aspects of convergence of fourier series fourier sine series and cosine series convergence of fourier sine and cosine series the discrete fourier transform (DFT) the fast fourier transform (FFT) some applications of fourier series fourier transforms properties of fourier transforms inversion of fourier transforms convolution - an introduction the convolution theorem an application of convolution in quantum mechanics filtering, frequency detection, and removal of noise summation kernals arising from poisson summation fourier optics fresnel diffraction fraunhofer diffraction circular apertures the phase transformation induced by a thin lens imaging with a single lens user's manual for fourier analysis software some computer programmes the schwarz inequality."
+            },
+            "slug": "Fast-Fourier-Transforms-Walker",
+            "title": {
+                "fragments": [],
+                "text": "Fast Fourier Transforms"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1425082935"
+                        ],
+                        "name": "Xinyun Chen",
+                        "slug": "Xinyun-Chen",
+                        "structuredName": {
+                            "firstName": "Xinyun",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xinyun Chen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 17735339,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "94e3e7bc3d23276f0ee2d1cb8f9d14aa19668d5f",
+            "isKey": false,
+            "numCitedBy": 488,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "An intriguing property of deep neural networks is the existence of adversarial examples, which can transfer among different architectures. These transferable adversarial examples may severely hinder deep neural network-based applications. Previous works mostly study the transferability using small scale datasets. In this work, we are the first to conduct an extensive study of the transferability over large models and a large scale dataset, and we are also the first to study the transferability of targeted adversarial examples with their target labels. We study both non-targeted and targeted adversarial examples, and show that while transferable non-targeted adversarial examples are easy to find, targeted adversarial examples generated using existing approaches almost never transfer with their target labels. Therefore, we propose novel ensemble-based approaches to generating transferable adversarial examples. Using such approaches, we observe a large proportion of targeted adversarial examples that are able to transfer with their target labels for the first time. We also present some geometric studies to help understanding the transferable adversarial examples. Finally, we show that the adversarial examples generated using ensemble-based approaches can successfully attack Clarifai.com, which is a black-box image classification system."
+            },
+            "slug": "Under-Review-as-a-Conference-Paper-at-Iclr-2017-Ex-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "This work is the first to conduct an extensive study of the transferability over large models and a large scale dataset, and it is also theFirst to study the transferabilities of targeted adversarial examples with their target labels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1875652"
+                        ],
+                        "name": "John A. Gunnels",
+                        "slug": "John-A.-Gunnels",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Gunnels",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John A. Gunnels"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1739800"
+                        ],
+                        "name": "F. Gustavson",
+                        "slug": "F.-Gustavson",
+                        "structuredName": {
+                            "firstName": "Fred",
+                            "lastName": "Gustavson",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Gustavson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145131827"
+                        ],
+                        "name": "G. Henry",
+                        "slug": "G.-Henry",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Henry",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Henry"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1390043587"
+                        ],
+                        "name": "R. Geijn",
+                        "slug": "R.-Geijn",
+                        "structuredName": {
+                            "firstName": "Robert A.",
+                            "lastName": "Geijn",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Geijn"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "A key principle is to design a set of leaf kernels with well-tuned in-register performance and reduce the larger problem to a combination of these kernels by data and loop tiling (Irigoin & Triolet (1988)) and recursive decompositions (Gunnels et al. (2001))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 256,
+                                "start": 235
+                            }
+                        ],
+                        "text": "A key principle is to design aset of leaf kernels with well-tuned in-register performance and reduce the larger problem to a combination of these kernels by data and loop tiling (Irigoin & Triolet (1988)) and recursive decompositions (Gunnels et al. (2001))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10742311,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c1d28d2ec0416de3ffb019c5066fb81090c25827",
+            "isKey": false,
+            "numCitedBy": 299,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Since the advent of high-performance distributed-memory parallel computing, the need for intelligible code has become ever greater. The development and maintenance of libraries for these architectures is simply too complex to be amenable to conventional approaches to implementation. Attempts to employ traditional methodology have led, in our opinion, to the production of an abundance of anfractuous code that is difficult to maintain and almost impossible to upgrade.Having struggled with these issues for more than a decade, we have concluded that a solution is to apply a technique from theoretical computer science, formal derivation, to the development of high-performance linear algebra libraries. We think the resulting approach results in aesthetically pleasing, coherent code that greatly facilitates intelligent modularity and high performance while enhancing confidence in its correctness. Since the technique is language-independent, it lends itself equally well to a wide spectrum of programming languages (and paradigms) ranging from C and Fortran to C++ and Java. In this paper, we illustrate our observations by looking at the Formal Linear Algebra Methods Environment (FLAME), a framework that facilitates the derivation and implementation of linear algebra algorithms on sequential architectures. This environment demonstrates that lessons learned in the distributed-memory world can guide us toward better approaches even in the sequential world.We present performance experiments on the Intel (R) Pentium (R) III processor that demonstrate that high performance can be attained by coding at a high level of abstraction."
+            },
+            "slug": "FLAME:-Formal-Linear-Algebra-Methods-Environment-Gunnels-Gustavson",
+            "title": {
+                "fragments": [],
+                "text": "FLAME: Formal Linear Algebra Methods Environment"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper illustrates the observations by looking at the Formal Linear Algebra Methods Environment (FLAME), a framework that facilitates the derivation and implementation of linear algebra algorithms on sequential architectures, and demonstrates that lessons learned in the distributed-memory world can guide us toward better approaches even in the sequential world."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TOMS"
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2939803"
+                        ],
+                        "name": "Ronan Collobert",
+                        "slug": "Ronan-Collobert",
+                        "structuredName": {
+                            "firstName": "Ronan",
+                            "lastName": "Collobert",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ronan Collobert"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145183709"
+                        ],
+                        "name": "J. Weston",
+                        "slug": "J.-Weston",
+                        "structuredName": {
+                            "firstName": "Jason",
+                            "lastName": "Weston",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Weston"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52184096"
+                        ],
+                        "name": "L. Bottou",
+                        "slug": "L.-Bottou",
+                        "structuredName": {
+                            "firstName": "L\u00e9on",
+                            "lastName": "Bottou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Bottou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "21432929"
+                        ],
+                        "name": "Michael Karlen",
+                        "slug": "Michael-Karlen",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Karlen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael Karlen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2645384"
+                        ],
+                        "name": "K. Kavukcuoglu",
+                        "slug": "K.-Kavukcuoglu",
+                        "structuredName": {
+                            "firstName": "Koray",
+                            "lastName": "Kavukcuoglu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Kavukcuoglu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46283650"
+                        ],
+                        "name": "P. Kuksa",
+                        "slug": "P.-Kuksa",
+                        "structuredName": {
+                            "firstName": "Pavel",
+                            "lastName": "Kuksa",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Kuksa"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 351666,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bc1022b031dc6c7019696492e8116598097a8c12",
+            "isKey": false,
+            "numCitedBy": 6698,
+            "numCiting": 111,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a unified neural network architecture and learning algorithm that can be applied to various natural language processing tasks including part-of-speech tagging, chunking, named entity recognition, and semantic role labeling. This versatility is achieved by trying to avoid task-specific engineering and therefore disregarding a lot of prior knowledge. Instead of exploiting man-made input features carefully optimized for each task, our system learns internal representations on the basis of vast amounts of mostly unlabeled training data. This work is then used as a basis for building a freely available tagging system with good performance and minimal computational requirements."
+            },
+            "slug": "Natural-Language-Processing-(Almost)-from-Scratch-Collobert-Weston",
+            "title": {
+                "fragments": [],
+                "text": "Natural Language Processing (Almost) from Scratch"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 95,
+                "text": "A unified neural network architecture and learning algorithm that can be applied to various natural language processing tasks including part-of-speech tagging, chunking, named entity recognition, and semantic role labeling is proposed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1741124"
+                        ],
+                        "name": "L. Valiant",
+                        "slug": "L.-Valiant",
+                        "structuredName": {
+                            "firstName": "Leslie",
+                            "lastName": "Valiant",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Valiant"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15655597,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8665c9b459e4161825baf1f25b5141f41a5085ff",
+            "isKey": false,
+            "numCitedBy": 3975,
+            "numCiting": 34,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The success of the von Neumann model of sequential computation is attributable to the fact that it is an efficient bridge between software and hardware: high-level languages can be efficiently compiled on to this model; yet it can be effeciently implemented in hardware. The author argues that an analogous bridge between software and hardware in required for parallel computation if that is to become as widely used. This article introduces the bulk-synchronous parallel (BSP) model as a candidate for this role, and gives results quantifying its efficiency both in implementing high-level language features and algorithms, as well as in being implemented in hardware."
+            },
+            "slug": "A-bridging-model-for-parallel-computation-Valiant",
+            "title": {
+                "fragments": [],
+                "text": "A bridging model for parallel computation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "The bulk-synchronous parallel (BSP) model is introduced as a candidate for this role, and results quantifying its efficiency both in implementing high-level language features and algorithms, as well as in being implemented in hardware."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "117776808"
+                        ],
+                        "name": "W. Kester",
+                        "slug": "W.-Kester",
+                        "structuredName": {
+                            "firstName": "Walt",
+                            "lastName": "Kester",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Kester"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15281365,
+            "fieldsOfStudy": [
+                "Engineering",
+                "Geology"
+            ],
+            "id": "aa6f991b7d0a53ebdc8afa5437ce53adb3a5651f",
+            "isKey": false,
+            "numCitedBy": 142,
+            "numCiting": 153,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Fast-Fourier-Transforms-Kester",
+            "title": {
+                "fragments": [],
+                "text": "Fast Fourier Transforms"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "65871712"
+                        ],
+                        "name": "R. Lyons",
+                        "slug": "R.-Lyons",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Lyons",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Lyons"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 60403819,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8ae7f10045d43dd9ce8097e4a6a963d790c7df0b",
+            "isKey": false,
+            "numCitedBy": 1468,
+            "numCiting": 56,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "From the Publisher: \nThis is undoubtedly the most accessible book on digital signal processing (DSP) available to the beginner. Using intuitive explanations and well-chosen examples, this book gives you the tools to develop a fundamental understanding of DSP theory. The author covers the essential mathematics by explaining the meaning and significance of the key DSP equations. Comprehensive in scope, and gentle in approach, the book will help you achieve a thorough grasp of the basics and move gradually to more sophisticated DSP concepts and applications."
+            },
+            "slug": "\u6570\u5b57\u4fe1\u53f7\u5904\u7406-=-Understanding-digital-signal-processing-Lyons",
+            "title": {
+                "fragments": [],
+                "text": "\u6570\u5b57\u4fe1\u53f7\u5904\u7406 = Understanding digital signal processing"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "Comprehensive in scope, and gentle in approach, this book will help you achieve a thorough grasp of the basics and move gradually to more sophisticated DSP concepts and applications."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2912411"
+                        ],
+                        "name": "F. Irigoin",
+                        "slug": "F.-Irigoin",
+                        "structuredName": {
+                            "firstName": "Fran\u00e7ois",
+                            "lastName": "Irigoin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Irigoin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3317184"
+                        ],
+                        "name": "R. Triolet",
+                        "slug": "R.-Triolet",
+                        "structuredName": {
+                            "firstName": "R\u00e9mi",
+                            "lastName": "Triolet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Triolet"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 203,
+                                "start": 179
+                            }
+                        ],
+                        "text": "A key principle is to design aset of leaf kernels with well-tuned in-register performance and reduce the larger problem to a combination of these kernels by data and loop tiling (Irigoin & Triolet (1988)) and recursive decompositions (Gunnels et al. (2001))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2980454,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "38747b103e631e1a3800a0f4aed496d1bf8fb82f",
+            "isKey": false,
+            "numCitedBy": 584,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Supercompilers must reschedule computations defined by nested DO-loops in order to make an efficient use of supercomputer features (vector units, multiple elementary processors, cache memory, etc\u2026). Many rescheduling techniques like loop interchange, loop strip-mining or rectangular partitioning have been described to speedup program execution. We present here a class of partitionings that encompasses previous techniques and provides enough flexibility to adapt code to multiprocessors with two levels of parallelism and two levels of memory."
+            },
+            "slug": "Supernode-partitioning-Irigoin-Triolet",
+            "title": {
+                "fragments": [],
+                "text": "Supernode partitioning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A class of partitionings is presented that encompasses previous techniques and provides enough flexibility to adapt code to multiprocessors with two levels of parallelism and two level of memory."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '88"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "ISSN 1532-4435"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "URL"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 138,
+                                "start": 121
+                            }
+                        ],
+                        "text": "While it is possible to provide instances of direct calculation that are faster than matrix unrolling (e.g., for largeS, Krizhevsky (2014)), it is challenging to provide an implemntation that is faster for more than just a small subset of possible convolution problems."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 215,
+                                "start": 198
+                            }
+                        ],
+                        "text": "Since then, renewed interest in CNNs insufflated a fresh breath in various frameworks and implementations, including Torch (Collobert et al. (2011a)), Theano (Bergstra et al. (2010)), cuda-convnet (Krizhevsky (2014)) and Caffe (Jia et al. (2014))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 31
+                            }
+                        ],
+                        "text": "Details on algorithmic applicationsf NVIDIA GPU hardware specifics in the implementation offb ft are also provided."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "URL https://code.google.com/p/cuda- convnet2"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "URL https://code.google.com/p/cuda- convnet2"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Fast fourier transforms URL http://cnx.org/contents/ 16e8e5e8-4f22-4b53-9cd6-a15b14f01ce4@5"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Fast fourier transforms URL http://cnx.org/contents/ 16e8e5e8-4f22-4b53-9cd6-a15b14f01ce4@5"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "ISSN 0001-0782"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "doi: 10.1145/79173.79181. UR"
+            },
+            "year": 1990
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 80,
+                                "start": 67
+                            }
+                        ],
+                        "text": "Reduced occupancy does not necessarily result in performance loss (Volkov (2010))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Better performance at lower occupancy"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "GPU Technology Conference"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 103
+                            }
+                        ],
+                        "text": "Divergent code paths are hard to avoid, but the NVIDIA instruction set has means to reduce their cost (Giles (2014))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Course on cuda programming on nvidia gpus, lecture 3"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Course on cuda programming on nvidia gpus, lecture 3"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Optimizing matrix transpose in cuda"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NVIDIA Corp"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 103
+                            }
+                        ],
+                        "text": "Divergent code paths are hard to avoid, but the NVIDIA instruction set has means to reduce their cost (Giles (2014))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Course on cuda programming on nvidia gpus"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2014
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Theano: a CPU and GPU math expression compiler"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the Python for Scientific Computing Conference (SciPy)"
+            }
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 11,
+            "methodology": 6
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 32,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Fast-Convolutional-Nets-With-fbfft:-A-GPU-Vasilache-Johnson/326d65827307862ddc3d39b84ebc662e83ff95b3?sort=total-citations"
+}

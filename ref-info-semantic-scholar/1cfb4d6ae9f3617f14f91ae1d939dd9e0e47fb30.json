@@ -1,0 +1,1861 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1685779"
+                        ],
+                        "name": "B. Alpern",
+                        "slug": "B.-Alpern",
+                        "structuredName": {
+                            "firstName": "Bowen",
+                            "lastName": "Alpern",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Alpern"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36114502"
+                        ],
+                        "name": "M. Wegman",
+                        "slug": "M.-Wegman",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Wegman",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wegman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2386609"
+                        ],
+                        "name": "F. K. Zadeck",
+                        "slug": "F.-K.-Zadeck",
+                        "structuredName": {
+                            "firstName": "F.",
+                            "lastName": "Zadeck",
+                            "middleNames": [
+                                "Kenneth"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. K. Zadeck"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 57,
+                                "start": 48
+                            }
+                        ],
+                        "text": "There are numerous algorithms in the literature [2, 5, 9] that can verify or discover affine relationships."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 18384941,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "237e9b0add47fc7660c0e6443d7918a904439f7f",
+            "isKey": false,
+            "numCitedBy": 488,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "paper presents an algorithm for detecting when two computations produce equivalent values. The equivalence of programs, and hence the equivalence of values, is in general undecidable. Thus, the best one can hope to do is to give an efficient algorithm that detects a large subclass of all the possible equivalences in a program. Two variables are said to be equivalent at a point p if those variables contain the same values whenever control reaches p during any possible execution of the program. We will not examine all possible executions of the program. Instead, we will develop a static property called congruence. Congruence implies, but is not implied by, equivalence. Our approach is conservative in that any variables detected to be e:quivalent will in fact be equivalent, but not all equivalences are detected. Previous work has shown how to apply a technique c.alled value numbering in basic blocks [CS70]. Value numbering is essentially symbolic execution on straight-line programs (basic blocks). Symbolic execution implies that two expressions are assumed to be equal only when they consist of the same functions and the corresponding arguments of these functions are equal. An expression DAG is associated with each assignment statement. A hashing algorithm assigns a unique integer, the value number, to each different expression tree. Two variables that are assigned the same integer are guaranteed to be equivalent. After the code"
+            },
+            "slug": "Detecting-equality-of-variables-in-programs-Alpern-Wegman",
+            "title": {
+                "fragments": [],
+                "text": "Detecting equality of variables in programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 57,
+                "text": "An algorithm for detecting when two computations produce equivalent values by developing a static property called congruence, which is conservative in that any variables detected to be e:quivalent will in fact be equivalent, but not all equivalences are detected."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '88"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1685689"
+                        ],
+                        "name": "B. Rosen",
+                        "slug": "B.-Rosen",
+                        "structuredName": {
+                            "firstName": "Barry",
+                            "lastName": "Rosen",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Rosen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36114502"
+                        ],
+                        "name": "M. Wegman",
+                        "slug": "M.-Wegman",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Wegman",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wegman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2386609"
+                        ],
+                        "name": "F. K. Zadeck",
+                        "slug": "F.-K.-Zadeck",
+                        "structuredName": {
+                            "firstName": "F.",
+                            "lastName": "Zadeck",
+                            "middleNames": [
+                                "Kenneth"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. K. Zadeck"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 95,
+                                "start": 91
+                            }
+                        ],
+                        "text": "assigned to expressions and variables with equivalent hash values are declared to be equal [12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9876007,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "715469ee7626ae11a6ac5c0a302ff2d535c9718f",
+            "isKey": false,
+            "numCitedBy": 480,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Most previous redundancy elilmination algorithms have been of two kinds. The lexical algorithms deal with the entire program, but they can only detect redundancy among computations of lexicatlly identical expressions, where expressions are lexically identical if they apply exactly the same operator to exactly the same operands. The value numbering algorithms,, on the other hand, can recognize redundancy among ex:pressions that are lexically different but that are certain to compute the same value. This is accomplished by assigning special symbolic names called value numbers to expr,essions. If the value numbers of the operands of two expressions are identical, and if the operators applied by the expressions are identical, then the expressions receive the: same value number and are certain to have the same values. Sameness of value numbers permits more extensive optimization than lexical identity, but value numbering algor:ithms have usually been restricted in the past to basic blocks (sequences of computations with no branching) or extended basic blocks (sequences of computations with no joins). We propose a redundancy elimination algorithm that is global (in that it deals with the entire program), yet able to recognize redundancy among expressions that are lexitally different. The al,gorithm also takes advantage of second order effects: transformations based on the discovery that two computations compute the same value may create opportunities to discover that other computations are equivalent. The algorithm applies to programs expressed as reducible [l] [9] control flow gratphs. As the examples in section 7 illustrate, our algorithm optimizes reducible programs much more extensively than previous algorithms. In the special case of a program without loops, the code generated by our algorithm is provably \u201coptimal\u201d in the technical sense explained in section 8. Thiis degree of optimization is"
+            },
+            "slug": "Global-value-numbers-and-redundant-computations-Rosen-Wegman",
+            "title": {
+                "fragments": [],
+                "text": "Global value numbers and redundant computations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 61,
+                "text": "This work proposes a redundancy elimination algorithm that is global (in that it deals with the entire program), yet able to recognize redundancy among expressions that are lexitally different, and takes advantage of second order effects."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL '88"
+            },
+            "year": 1988
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1743057"
+                        ],
+                        "name": "P. Cousot",
+                        "slug": "P.-Cousot",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Cousot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Cousot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1758667"
+                        ],
+                        "name": "R. Cousot",
+                        "slug": "R.-Cousot",
+                        "structuredName": {
+                            "firstName": "Radhia",
+                            "lastName": "Cousot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Cousot"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 117,
+                                "start": 114
+                            }
+                        ],
+                        "text": "It is interesting to compare the random interpreter approach described in this paper with abstract interpretation [4]"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 207614632,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c77cd64f26228442ffff9219bfd870c83c8747c0",
+            "isKey": false,
+            "numCitedBy": 6573,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A program denotes computations in some universe of objects. Abstract interpretation of programs consists in using that denotation to describe computations in another universe of abstract objects, so that the results of abstract execution give some information on the actual computations. An intuitive example (which we borrow from Sintzoff [72]) is the rule of signs. The text -1515 * 17 may be understood to denote computations on the abstract universe {(+), (-), (\u00b1)} where the semantics of arithmetic operators is defined by the rule of signs. The abstract execution -1515 * 17 \u2192 -(+) * (+) \u2192 (-) * (+) \u2192 (-), proves that -1515 * 17 is a negative number. Abstract interpretation is concerned by a particular underlying structure of the usual universe of computations (the sign, in our example). It gives a summary of some facets of the actual executions of a program. In general this summary is simple to obtain but inaccurate (e.g. -1515 + 17 \u2192 -(+) + (+) \u2192 (-) + (+) \u2192 (\u00b1)). Despite its fundamentally incomplete results abstract interpretation allows the programmer or the compiler to answer questions which do not need full knowledge of program executions or which tolerate an imprecise answer, (e.g. partial correctness proofs of programs ignoring the termination problems, type checking, program optimizations which are not carried in the absence of certainty about their feasibility, \u2026)."
+            },
+            "slug": "Abstract-interpretation:-a-unified-lattice-model-of-Cousot-Cousot",
+            "title": {
+                "fragments": [],
+                "text": "Abstract interpretation: a unified lattice model for static analysis of programs by construction or approximation of fixpoints"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1772793"
+                        ],
+                        "name": "T. Margaria",
+                        "slug": "T.-Margaria",
+                        "structuredName": {
+                            "firstName": "Tiziana",
+                            "lastName": "Margaria",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Margaria"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144146451"
+                        ],
+                        "name": "W. Yi",
+                        "slug": "W.-Yi",
+                        "structuredName": {
+                            "firstName": "Wang",
+                            "lastName": "Yi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Yi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 300603,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d8ada028aa36d89b6ecb35e06712b0d779d506c0",
+            "isKey": false,
+            "numCitedBy": 507,
+            "numCiting": 37,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Invited Contributions.- Branching vs. Linear Time: Final Showdown.- Propositional Reasoning.- Symbolic Verification.- Language Containment Checking with Nondeterministic BDDs.- Satisfiability Checking Using Boolean Expression Diagrams.- A Library for Composite Symbolic Representations.- Infinite State Systems: Deduction and Abstraction.- Synthesis of Linear Ranking Functions.- Automatic Deductive Verification with Invisible Invariants.- Incremental Verification by Abstraction.- A Technique for Invariant Generation.- Application of Model Checking Techniques.- Model Checking Syllabi and Student Careers.- Verification of Vortex Workflows.- Parameterized Verification of Multithreaded Software Libraries.- Timed and Probabilistic Systems.- Efficient Guiding Towards Cost-Optimality in UPPAAL.- Linear Parametric Model Checking of Timed Automata.- Abstraction in Probabilistic Process Algebra.- First Passage Time Analysis of Stochastic Process Algebra Using Partial Orders.- Hardware: Design and Verification.- Hardware/Software Co-design Using Functional Languages.- Automatic Abstraction of Memories in the Formal Verification of Superscalar Microprocessors.- Software Verification.- Boolean and Cartesian Abstraction for Model Checking C Programs.- Finding Feasible Counter-examples when Model Checking Abstracted Java Programs.- The loop Compiler for Java and JML.- Symbolic Verification.- Searching Powerset Automata by Combining Explicit-State and Symbolic Model Checking.- Saturation: An Efficient Iteration Strategy for Symbolic State-Space Generation.- Testing: Techniques and Tools.- Automated Test Generation from Timed Automata.- Testing an Intentional Naming Scheme Using Genetic Algorithms.- Building a Tool for the Analysis and Testing of Web Applications: Problems and Solutions.- TATOO: Testing and Analysis Tool for Object-Oriented Software.- Implementation Techniques.- Implementing a Multi-valued Symbolic Model Checker.- Is There a Best Symbolic Cycle-Detection Algorithm?.- Combining Structural and Enumerative Techniques for the Validation of Bounded Petri Nets.- A Sweep-Line Method for State Space Exploration.- Semantics and Compositional Verification.- Assume-Guarantee Based Compositional Reasoning for Synchronous Timing Diagrams.- Simulation Revisited.- Compositional Message Sequence Charts.- An Automata Based Interpretation of Live Sequence Charts.- Logics and Model-Checking.- Coverage Metrics for Temporal Logic Model Checking.- Parallel Model Checking for the Alternation Free ?-Calculus.- Model Checking CTL*[DC].- ETAPS Tool Demonstration.- CPN/Tools: A Tool for Editing and Simulating Coloured Petri Nets ETAPS Tool Demonstration Related to TACAS.- The ASM Workbench: A Tool Environment for Computer-Aided Analysis and Validation of Abstract State Machine Models.- The Erlang Verification Tool."
+            },
+            "slug": "Tools-and-Algorithms-for-the-Construction-and-of-Margaria-Yi",
+            "title": {
+                "fragments": [],
+                "text": "Tools and Algorithms for the Construction and Analysis of Systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This dissertation would like to discuss in detail the development of and use of the Erlang Verification Tool, a tool for Computer-Aided Analysis and Validation of Abstract State Machine Models, and its applications."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Lecture Notes in Computer Science"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144035149"
+                        ],
+                        "name": "J. Schwartz",
+                        "slug": "J.-Schwartz",
+                        "structuredName": {
+                            "firstName": "Jacob",
+                            "lastName": "Schwartz",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schwartz"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8314102,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b913cf330852035f49b4ec5fe2db86c47d8a98fd",
+            "isKey": false,
+            "numCitedBy": 1641,
+            "numCiting": 43,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The s tar thng success o f the Rabm-S t ra s sen -So lovay p n m a h t y algori thm, together wi th the intr iguing foundat tonal posstbthty that axtoms of randomness may constttute a useful fundamenta l source o f m a t h e m a u c a l truth independent of the standard axmmaUc structure of mathemaUcs, suggests a wgorous search for probabdisuc algonthms In dlustratmn of this observaUon, vanous fast probabdlsttc algonthms, with probability of correctness guaranteed a prion, are presented for testing polynomial ldentmes and propemes of systems of polynomials. Ancdlary fast algorithms for calculating resultants and Sturm sequences are given. Probabilistlc calculatton in real anthmetlc, prewously considered by Davis, is justified ngorously, but only in a special case. Theorems of elementary geometry can be proved much more efficiently by the techmques presented than by any known arttficml-mtelhgence approach"
+            },
+            "slug": "Fast-Probabilistic-Algorithms-for-Verification-of-Schwartz",
+            "title": {
+                "fragments": [],
+                "text": "Fast Probabilistic Algorithms for Verification of Polynomial Identities"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "Vanous fast probabdlsttc algonthms, with probability of correctness guaranteed a prion, are presented for testing polynomial ldentmes and propemes of systems of polynomials and ancdlary fast algorithms for calculating resultants and Sturm sequences are given."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. ACM"
+            },
+            "year": 1980
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1790411"
+                        ],
+                        "name": "G. Necula",
+                        "slug": "G.-Necula",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Necula",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Necula"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 23
+                            }
+                        ],
+                        "text": "Translation validation [11, 10] also requires checking the equivalence of variables in two versions of a program before and after optimization."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2448939,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "011f7da0095ac8c0d4477eeda2728e5f80a35767",
+            "isKey": false,
+            "numCitedBy": 486,
+            "numCiting": 36,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe a translation validation infrastructure for the GNU C compiler. During the compilation the infrastructure compares the intermediate form of the program before and after each compiler pass and verifies the preservation of semantics. We discuss a general framework that the optimizer can use to communicate to the validator what transformations were performed. Our implementation however does not rely on help from the optimizer and it is quite successful by using instead a few heuristics to detect the transformations that take place.\nThe main message of this paper is that a practical translation validation infrastructure, able to check the correctness of many of the transformations performed by a realistic compiler, can be implemented with about the effort typically required to implement one compiler pass. We demonstrate this in the context of the GNU C compiler for a number of its optimizations while compiling realistic programs such as the compiler itself or the Linux kernel. We believe that the price of such an infrastructure is small considering the qualitative increase in the ability to isolate compilation errors during compiler testing and maintenance."
+            },
+            "slug": "Translation-validation-for-an-optimizing-compiler-Necula",
+            "title": {
+                "fragments": [],
+                "text": "Translation validation for an optimizing compiler"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 52,
+                "text": "A practical translation validation infrastructure, able to check the correctness of many of the transformations performed by a realistic compiler, can be implemented with about the effort typically required to implement one compiler pass."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI '00"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145010587"
+                        ],
+                        "name": "M. Karr",
+                        "slug": "M.-Karr",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Karr",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Karr"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 33,
+                                "start": 30
+                            }
+                        ],
+                        "text": "For example, Karr\u2019s algorithm [9] uses the union of affine spaces, while Cousot\u2019s algorithm [5] uses convex hulls to implement the stronger operation that also handles affine inequalities."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 134,
+                                "start": 131
+                            }
+                        ],
+                        "text": "previous work, the union operation is quite involved, requiring complex algorithms for computing the affine union of affine spaces [9] or convex hulls when affine inequalities are also handled [5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 17,
+                                "start": 13
+                            }
+                        ],
+                        "text": "For \nexample, Karr [9] describes an abstract interpretation on a lattice of a.ne relationships between variables."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 17,
+                                "start": 13
+                            }
+                        ],
+                        "text": "For example, Karr s algorithm [9] uses the union of \na.ne spaces, while Cousot s algorithm [5] uses convexhulls to implement the stronger operation that also \nhandles a.ne inequalities."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 18
+                            }
+                        ],
+                        "text": "For example, Karr [9] describes an abstract interpretation on a lattice of affine relationships between variables."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 57,
+                                "start": 48
+                            }
+                        ],
+                        "text": "There are numerous algorithms in the literature [2, 5, 9] that can verify or discover affine relationships."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 19
+                            }
+                        ],
+                        "text": "On the other hand, Karr s deterministic algo\u00adrithm [9] incurs a cost of O(n 3) for each union \noperation and O(n 2) for each intersection operations."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 53,
+                                "start": 50
+                            }
+                        ],
+                        "text": "On the other hand, Karr\u2019s deterministic algorithm [9] incurs a cost of O(n(3)) for each union operation and O(n(2)) for each intersection operations."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 35,
+                                "start": 31
+                            }
+                        ],
+                        "text": "The real complexity \nhowever in Karr s algorithm is in the implementation."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 7
+                            }
+                        ],
+                        "text": "[9] M. Karr."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Karr s algorithm works on a lattice of .nite depth \nwhose union and intersection operations require O(n 3)and O(n 2) arithmetic operations respectively while \nour algorithm re\u00adquires O(nr) arithmetic operations for both joins and inter\u00adsection."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 66,
+                                "start": 63
+                            }
+                        ],
+                        "text": "(This operation is sometimes called the union of affine spaces [9])."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 376574,
+            "fieldsOfStudy": [
+                "Business"
+            ],
+            "id": "4fb49f5742b11c00d4a853b36a368b52ae7cbb7b",
+            "isKey": true,
+            "numCitedBy": 365,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "SummarySeveral optimizations of programs can be performed when in certain regions of a program equality relationships hold between a linear combination of the variables of the program and a constant. This paper presents a practical approach to detecting these relationships by considering the problem from the viewpoint of linear algebra. Key to the practicality of this approach is an algorithm for the calculation of the \u201csum\u201d of linear subspaces."
+            },
+            "slug": "Affine-relationships-among-variables-of-a-program-Karr",
+            "title": {
+                "fragments": [],
+                "text": "Affine relationships among variables of a program"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 56,
+                "text": "A practical approach to detecting relationships between a linear combination of the variables of the program and a constant by considering the problem from the viewpoint of linear algebra is presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Acta Informatica"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1741655"
+                        ],
+                        "name": "Manuel F\u00e4hndrich",
+                        "slug": "Manuel-F\u00e4hndrich",
+                        "structuredName": {
+                            "firstName": "Manuel",
+                            "lastName": "F\u00e4hndrich",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Manuel F\u00e4hndrich"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38319925"
+                        ],
+                        "name": "Z. Su",
+                        "slug": "Z.-Su",
+                        "structuredName": {
+                            "firstName": "Zhendong",
+                            "lastName": "Su",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Z. Su"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 27,
+                                "start": 24
+                            }
+                        ],
+                        "text": "Aiken, F\u00e4hndrich and Su [1] have used random sampling for race detection in Relay Ladder Logic programs with"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7317855,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c3b3c8edf9aedd95508eda64f19e8038f4db1fe6",
+            "isKey": false,
+            "numCitedBy": 26,
+            "numCiting": 37,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Abstract.Relay Ladder Logic (RLL) [5] is a programming language widely used for complex embedded control applications such as manufacturing and amusement park rides. The cost of bugs in RLL programs is extremely high, often measured in millions of dollars (for shutting down a factory) or human safety (for rides). In this paper, we describe our experience in applying constraint-based program analysis techniques to analyze production RLL programs. Our approach is an interesting combination of probabilistic testing and program analysis, and we show that our system is able to detect bugs with high probability, up to the approximations made by the conservative program analysis. We demonstrate that our analysis is useful in detecting some flaws in production RLL programs that are difficult to find by other techniques."
+            },
+            "slug": "Detecting-races-in-Relay-Ladder-Logic-programs-Aiken-F\u00e4hndrich",
+            "title": {
+                "fragments": [],
+                "text": "Detecting races in Relay Ladder Logic programs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This approach is an interesting combination of probabilistic testing and program analysis, and it is shown that the system is able to detect bugs with high probability, up to the approximations made by the conservative program analysis."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "International Journal on Software Tools for Technology Transfer"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1698938"
+                        ],
+                        "name": "A. Pnueli",
+                        "slug": "A.-Pnueli",
+                        "structuredName": {
+                            "firstName": "Amir",
+                            "lastName": "Pnueli",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Pnueli"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "119614910"
+                        ],
+                        "name": "M. Siegel",
+                        "slug": "M.-Siegel",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Siegel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Siegel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1774977"
+                        ],
+                        "name": "Eli Singerman",
+                        "slug": "Eli-Singerman",
+                        "structuredName": {
+                            "firstName": "Eli",
+                            "lastName": "Singerman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eli Singerman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 23
+                            }
+                        ],
+                        "text": "Translation validation [11, 10] also requires checking the equivalence of variables in two versions of a program before and after optimization."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14822655,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d8b4164fef65ffc7082a3c95b0a706e5c3aa38f9",
+            "isKey": false,
+            "numCitedBy": 515,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present the notion of translation validation as a new approach to the veriication of translators (compilers, code generators). Rather than proving in advance that the compiler always produces a target code which correctly implements the source code (compiler verii-cation), each individual translation (i.e. a run of the compiler) is followed by a validation phase which veriies that the target code produced on this run correctly implements the submitted source program. Several ingredients are necessary to set up the { fully automatic { translation validation process, among which are: 1. A common semantic framework for the representation of the source code and the generated target code. 2. A formalization of the notion of \"correct implementation\" as a re-nement relation. 3. A syntactic simulation-based proof method which allows to automatically verify that one model of the semantic framework, representing the produced target code, correctly implements another model which represents the source. These, and other ingredients are elaborated in this paper, in which we illustrate the new approach in a most challenging case. We consider a translation (compilation) from the synchronous multi-clock data-ow language Signal to asynchronous (sequential) C-code."
+            },
+            "slug": "Translation-Validation-Pnueli-Siegel",
+            "title": {
+                "fragments": [],
+                "text": "Translation Validation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "This paper considers a translation (compilation) from the synchronous multi-clock data-ow language Signal to asynchronous (sequential) C-code and presents the notion of translation validation as a new approach to the veriication of translators (compilers, code generators)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TACAS"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "6698059"
+                        ],
+                        "name": "Michael D. Ernst",
+                        "slug": "Michael-D.-Ernst",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Ernst",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael D. Ernst"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143694177"
+                        ],
+                        "name": "J. Cockrell",
+                        "slug": "J.-Cockrell",
+                        "structuredName": {
+                            "firstName": "Jake",
+                            "lastName": "Cockrell",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Cockrell"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1733025"
+                        ],
+                        "name": "W. Griswold",
+                        "slug": "W.-Griswold",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Griswold",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Griswold"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145937871"
+                        ],
+                        "name": "D. Notkin",
+                        "slug": "D.-Notkin",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Notkin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Notkin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 171,
+                                "start": 168
+                            }
+                        ],
+                        "text": "Random testing [8] is most commonly used to verify assertions in a program, and this technique has recently been used to discover useful invariants from program traces [6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2061682,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "204b2f4bef0aaa36bb9252e31f7bfc07172d04c6",
+            "isKey": false,
+            "numCitedBy": 1327,
+            "numCiting": 228,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Explicitly stated program invariants can help programmers by identifying program properties that must be preserved when modifying code. In practice, however, these invariants are usually implicit. An alternative to expecting programmers to fully annotate code with invariants is to automatically infer invariants from the program itself. This research focuses on dynamic techniques for discovering invariants from execution traces. This paper reports two results. First, it describes techniques for dynamically discovering invariants, along with an instrumenter and an inference engine that embody these techniques. Second, it reports on the application of the engine to two sets of target programs. In programs from Cries's work on program derivation, we rediscovered predefined invariants. In a C program lacking explicit invariants, we discovered invariants that assisted a software evolution task."
+            },
+            "slug": "Dynamically-discovering-likely-program-invariants-Ernst-Cockrell",
+            "title": {
+                "fragments": [],
+                "text": "Dynamically discovering likely program invariants to support program evolution"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This paper describes techniques for dynamically discovering invariants, along with an instrumenter and an inference engine that embody these techniques, and reports on the application of the engine to two sets of target programs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 1999 International Conference on Software Engineering (IEEE Cat. No.99CB37002)"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1741655"
+                        ],
+                        "name": "Manuel F\u00e4hndrich",
+                        "slug": "Manuel-F\u00e4hndrich",
+                        "structuredName": {
+                            "firstName": "Manuel",
+                            "lastName": "F\u00e4hndrich",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Manuel F\u00e4hndrich"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1775508"
+                        ],
+                        "name": "J. Foster",
+                        "slug": "J.-Foster",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Foster",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Foster"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38319925"
+                        ],
+                        "name": "Z. Su",
+                        "slug": "Z.-Su",
+                        "structuredName": {
+                            "firstName": "Zhendong",
+                            "lastName": "Su",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Z. Su"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144653825"
+                        ],
+                        "name": "A. Aiken",
+                        "slug": "A.-Aiken",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Aiken",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Aiken"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 26
+                            }
+                        ],
+                        "text": "F\u00a8ahndrich, Foster, Su and Aiken [7] have \nused randomization for e.ciently solving general in\u00adclusion constraints in the context of pointer analysis \nfor C programs."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 5,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Aiken, F\u00a8ahndrich and Su [1] have used random sampling for race detection \nin Relay Ladder Logic programs with probabilistic guarantees."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 35,
+                                "start": 32
+                            }
+                        ],
+                        "text": "F\u00e4hndrich, Foster, Su and Aiken [7] have used randomization for efficiently solving general inclusion constraints in the context of pointer analysis for C programs."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 18
+                            }
+                        ],
+                        "text": "REFERENCES [1] A. Aiken, M."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 36
+                            }
+                        ],
+                        "text": "F\u00a8ahndrich, J. Foster, Z. \nSu, and A. Aiken."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 6954454,
+            "fieldsOfStudy": [
+                "Economics"
+            ],
+            "id": "f18463dd75f5e16f93cb3c4304887e6d3058e136",
+            "isKey": true,
+            "numCitedBy": 232,
+            "numCiting": 40,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many program analyses are naturally formulated and implemented using inclusion constraints. We present new results on the scalable implementation of such analyses based on two insights: first, that online elimination of cyclic constraints yields orders-of-magnitude improvements in analysis time for large problems; second, that the choice of constraint representation affects the quality and efficiency of online cycle elimination. We present an analytical model that explains our design choices and show that the model's predictions match well with results from a substantial experiment."
+            },
+            "slug": "Partial-online-cycle-elimination-in-inclusion-F\u00e4hndrich-Foster",
+            "title": {
+                "fragments": [],
+                "text": "Partial online cycle elimination in inclusion constraint graphs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "An analytical model is presented that explains the design choices of the online elimination of cyclic constraints and shows that the model's predictions match well with results from a substantial experiment."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PLDI"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1759938"
+                        ],
+                        "name": "R. Hamlet",
+                        "slug": "R.-Hamlet",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Hamlet",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Hamlet"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 18,
+                                "start": 15
+                            }
+                        ],
+                        "text": "Random testing [8] is most commonly used to verify assertions in a program, and this technique has recently been used to discover useful invariants from program traces [6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6665543,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2543945323184995dc2ee6e8216cc30ab41e7972",
+            "isKey": false,
+            "numCitedBy": 312,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Random Testing, also known as monkey testing, is a form of functional black box testing that is performed when there is not enough time to write and execute the tests. Random testing is performed where the defects are NOT identified in regular intervals. Random input is used to test the system's reliability and performance. Saves time and effort than actual test efforts. Other Testing methods Cannot be used to. Random Inputs are identified to be evaluated against the system. Test Inputs are selected independently from test domain. Tests are Executed using those random inputs. Record the results and compare against the expected outcomes. Reproduce/Replicate the issue and raise defects, fix and retest."
+            },
+            "slug": "RANDOM-TESTING-Hamlet",
+            "title": {
+                "fragments": [],
+                "text": "RANDOM TESTING"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "Random testing is performed where the defects are NOT identified in regular intervals and random input is used to test the system's reliability and performance to save time and effort."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143624243"
+                        ],
+                        "name": "M. Blum",
+                        "slug": "M.-Blum",
+                        "structuredName": {
+                            "firstName": "Manuel",
+                            "lastName": "Blum",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Blum"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1757332"
+                        ],
+                        "name": "A. K. Chandra",
+                        "slug": "A.-K.-Chandra",
+                        "structuredName": {
+                            "firstName": "Ashok",
+                            "lastName": "Chandra",
+                            "middleNames": [
+                                "K."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. K. Chandra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36114502"
+                        ],
+                        "name": "M. Wegman",
+                        "slug": "M.-Wegman",
+                        "structuredName": {
+                            "firstName": "Mark",
+                            "lastName": "Wegman",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wegman"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 24,
+                                "start": 18
+                            }
+                        ],
+                        "text": "[2] B. Alpern, M. \nWegman, and F. Zadeck."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 25
+                            }
+                        ],
+                        "text": "Blum, Chandra and Wegman [3] showed how to compute"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 6,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Wegman, Sreedhar and Bodik [14] have inde\u00adpendently extended value \nnumbering to be less sensitive to the syntaxof the expressions."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 44
+                            }
+                        ],
+                        "text": "ACKNOWLEDGMENTS We would like to thank Mark \nWegman for providing useful directions and helpful discussions."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 24
+                            }
+                        ],
+                        "text": "[12] B. K. Rosen, \nM. N. Wegman, and F. K. Zadeck."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 53,
+                                "start": 29
+                            }
+                        ],
+                        "text": "COMPARISON WITH RELATED WORK Blum, Chandra and Wegman [3] showed how to compute \n.ngerprints of read-once branching programs in order to de\u00adcide their equivalence in probabilistically \npolynomial time."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 38,
+                                "start": 32
+                            }
+                        ],
+                        "text": "[3] M. Blum, A. Chandra, and M. Wegman."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 14,
+                                "start": 8
+                            }
+                        ],
+                        "text": "[14] M. Wegman, V. C. Sreedhar, and R. Bodik."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 27614024,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "836c7d4ae6cd81dc8260f1db33060dbc37faf154",
+            "isKey": true,
+            "numCitedBy": 141,
+            "numCiting": 5,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Equivalence-of-Free-Boolean-Graphs-can-be-Decided-Blum-Chandra",
+            "title": {
+                "fragments": [],
+                "text": "Equivalence of Free Boolean Graphs can be Decided Probabilistically in Polynomial Time"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Inf. Process. Lett."
+            },
+            "year": 1980
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1743057"
+                        ],
+                        "name": "P. Cousot",
+                        "slug": "P.-Cousot",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Cousot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Cousot"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2578040"
+                        ],
+                        "name": "N. Halbwachs",
+                        "slug": "N.-Halbwachs",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Halbwachs",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Halbwachs"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 95,
+                                "start": 92
+                            }
+                        ],
+                        "text": "For example, Karr\u2019s algorithm [9] uses the union of affine spaces, while Cousot\u2019s algorithm [5] uses convex hulls to implement the stronger operation that also handles affine inequalities."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 196,
+                                "start": 193
+                            }
+                        ],
+                        "text": "previous work, the union operation is quite involved, requiring complex algorithms for computing the affine union of affine spaces [9] or convex hulls when affine inequalities are also handled [5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 123,
+                                "start": 120
+                            }
+                        ],
+                        "text": "It is simpler to implement since it resembles an interpreter, and does not involve complex computations of convex hulls [5]"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 66,
+                                "start": 46
+                            }
+                        ],
+                        "text": "The abstract interpretation \nalgorithm used by Cousot and Halbwachs [5] goes a step further and dis\u00adcovers also linear inequality \nrelationships among variables."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 57,
+                                "start": 48
+                            }
+                        ],
+                        "text": "There are numerous algorithms in the literature [2, 5, 9] that can verify or discover affine relationships."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 27,
+                                "start": 24
+                            }
+                        ],
+                        "text": "by Cousot and Halbwachs [5] goes a step further and discovers also linear inequality relationships among variables."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 21
+                            }
+                        ],
+                        "text": "[5] P. Cousot and N. Halbwachs."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 16411662,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9682764c975072f7c5da3a148654881282e45f98",
+            "isKey": true,
+            "numCitedBy": 1710,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Automatic-discovery-of-linear-restraints-among-of-a-Cousot-Halbwachs",
+            "title": {
+                "fragments": [],
+                "text": "Automatic discovery of linear restraints among variables of a program"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "POPL"
+            },
+            "year": 1978
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Probabilistic value numbering. Unpublished manuscript"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Probabilistic value numbering. Unpublished manuscript"
+            },
+            "year": 2001
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 24,
+                                "start": 20
+                            }
+                        ],
+                        "text": "Permission \nto make digital or hard copies of all or part of this work for personal or classroom use is granted without \nfee provided that copies are not made or distributed for pro.t or commercial advantage and that copies \nbear this notice and the full citation on the .rst page."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Translation validation Tools and Algorithms for Construction and Analysis of Systems"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "4th International Conference, TACAS '98, volume LNCS 1384"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 26,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Wegman, Sreedhar and Bodik [14] have inde\u00adpendently extended value \nnumbering to be less sensitive to the syntaxof the expressions."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 39
+                            }
+                        ],
+                        "text": "[14] M. Wegman, V. C. Sreedhar, and R. Bodik."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 27
+                            }
+                        ],
+                        "text": "Wegman, Sreedhar and Bodik [14] have independently extended value numbering to be less sensitive to the syntax of the expressions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Probabilistic value numbering"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Unpublished manuscript,"
+            },
+            "year": 2001
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 7,
+            "methodology": 8
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 17,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Discovering-affine-equalities-using-random-Gulwani-Necula/1cfb4d6ae9f3617f14f91ae1d939dd9e0e47fb30?sort=total-citations"
+}

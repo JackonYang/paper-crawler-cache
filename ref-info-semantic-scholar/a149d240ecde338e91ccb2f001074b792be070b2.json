@@ -1,0 +1,2673 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145341374"
+                        ],
+                        "name": "J. Schmidhuber",
+                        "slug": "J.-Schmidhuber",
+                        "structuredName": {
+                            "firstName": "J\u00fcrgen",
+                            "lastName": "Schmidhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schmidhuber"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688276"
+                        ],
+                        "name": "Daan Wierstra",
+                        "slug": "Daan-Wierstra",
+                        "structuredName": {
+                            "firstName": "Daan",
+                            "lastName": "Wierstra",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daan Wierstra"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145842938"
+                        ],
+                        "name": "Faustino J. Gomez",
+                        "slug": "Faustino-J.-Gomez",
+                        "structuredName": {
+                            "firstName": "Faustino",
+                            "lastName": "Gomez",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Faustino J. Gomez"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 111,
+                                "start": 107
+                            }
+                        ],
+                        "text": "In this paper, we demonstrate a method called EVOlution of recurrent systems with LINear Outputs (Evolino; [19]), for automatically designing general sequence predictors."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6183435,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "309d5e05fb12df556237d58c8e844605f4d02073",
+            "isKey": false,
+            "numCitedBy": 73,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Current Neural Network learning algorithms are limited in their ability to model non-linear dynamical systems. Most supervised gradient-based recurrent neural networks (RNNs) suffer from a vanishing error signal that prevents learning from inputs far in the past. Those that do not, still have problems when there are numerous local minima. We introduce a general framework for sequence learning, EVOlution of recurrent systems with LINear outputs (Evolino). Evolino uses evolution to discover good RNN hidden node weights, while using methods such as linear regression or quadratic programming to compute optimal linear mappings from hidden state to output. Using the Long Short-Term Memory RNN Architecture, the method is tested in three very different problem domains: 1) context-sensitive languages, 2) multiple superimposed sine waves, and 3) the Mackey-Glass system. Evolino performs exceptionally well across all tasks, where other methods show notable deficiencies in some."
+            },
+            "slug": "Evolino:-Hybrid-Neuroevolution/Optimal-Linear-for-Schmidhuber-Wierstra",
+            "title": {
+                "fragments": [],
+                "text": "Evolino: Hybrid Neuroevolution/Optimal Linear Search for Sequence Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "A general framework for sequence learning, EVOlution of recurrent systems with LINear outputs (Evolino), which uses evolution to discover good RNN hidden node weights, while using methods such as linear regression or quadratic programming to compute optimal linear mappings from hidden state to output."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IJCAI"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2812486"
+                        ],
+                        "name": "P. Simard",
+                        "slug": "P.-Simard",
+                        "structuredName": {
+                            "firstName": "Patrice",
+                            "lastName": "Simard",
+                            "middleNames": [
+                                "Y."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Simard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688235"
+                        ],
+                        "name": "P. Frasconi",
+                        "slug": "P.-Frasconi",
+                        "structuredName": {
+                            "firstName": "Paolo",
+                            "lastName": "Frasconi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Frasconi"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 205,
+                                "start": 199
+                            }
+                        ],
+                        "text": "For longer temporal dependencies, the gradient vanishes as the error signal is propagated back through time so that network weights are never adjusted correctly to account for events far in the past [2, 9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206457500,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d0be39ee052d246ae99c082a565aba25b811be2d",
+            "isKey": false,
+            "numCitedBy": 6204,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recurrent neural networks can be used to map input sequences to output sequences, such as for recognition, production or prediction problems. However, practical difficulties have been reported in training recurrent neural networks to perform tasks in which the temporal contingencies present in the input/output sequences span long intervals. We show why gradient based learning algorithms face an increasingly difficult problem as the duration of the dependencies to be captured increases. These results expose a trade-off between efficient learning by gradient descent and latching on information for long periods. Based on an understanding of this problem, alternatives to standard gradient descent are considered."
+            },
+            "slug": "Learning-long-term-dependencies-with-gradient-is-Bengio-Simard",
+            "title": {
+                "fragments": [],
+                "text": "Learning long-term dependencies with gradient descent is difficult"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work shows why gradient based learning algorithms face an increasingly difficult problem as the duration of the dependencies to be captured increases, and exposes a trade-off between efficient learning by gradient descent and latching on information for long periods."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Neural Networks"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116648700"
+                        ],
+                        "name": "Ronald J. Williams",
+                        "slug": "Ronald-J.-Williams",
+                        "structuredName": {
+                            "firstName": "Ronald",
+                            "lastName": "Williams",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ronald J. Williams"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1895771"
+                        ],
+                        "name": "D. Zipser",
+                        "slug": "D.-Zipser",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Zipser",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Zipser"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Recurrent Neural Networks (RNNs; [20, 18,  23 ]) can potentially implement general predictors by using feedback connections to maintain internal state."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14711886,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+            "isKey": false,
+            "numCitedBy": 3857,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The exact form of a gradient-following learning algorithm for completely recurrent networks running in continually sampled time is derived and used as the basis for practical algorithms for temporal supervised learning tasks. These algorithms have (1) the advantage that they do not require a precisely defined training interval, operating while the network runs; and (2) the disadvantage that they require nonlocal communication in the network being trained and are computationally expensive. These algorithms allow networks having recurrent connections to learn complex tasks that require the retention of information over time periods having either fixed or indefinite length."
+            },
+            "slug": "A-Learning-Algorithm-for-Continually-Running-Fully-Williams-Zipser",
+            "title": {
+                "fragments": [],
+                "text": "A Learning Algorithm for Continually Running Fully Recurrent Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "The exact form of a gradient-following learning algorithm for completely recurrent networks running in continually sampled time is derived and used as the basis for practical algorithms for temporal supervised learning tasks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2088368"
+                        ],
+                        "name": "F. Gers",
+                        "slug": "F.-Gers",
+                        "structuredName": {
+                            "firstName": "Felix",
+                            "lastName": "Gers",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Gers"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145341374"
+                        ],
+                        "name": "J. Schmidhuber",
+                        "slug": "J.-Schmidhuber",
+                        "structuredName": {
+                            "firstName": "J\u00fcrgen",
+                            "lastName": "Schmidhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schmidhuber"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1780235"
+                        ],
+                        "name": "Fred Cummins",
+                        "slug": "Fred-Cummins",
+                        "structuredName": {
+                            "firstName": "Fred",
+                            "lastName": "Cummins",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fred Cummins"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 149,
+                                "start": 143
+                            }
+                        ],
+                        "text": "One method that adapts all weights and succeeds in using gradient information to learn long-term dependencies is Long Short-Term Memory (LSTM; [9, 7])."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11598600,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "11540131eae85b2e11d53df7f1360eeb6476e7f4",
+            "isKey": false,
+            "numCitedBy": 3338,
+            "numCiting": 62,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Long short-term memory (LSTM; Hochreiter & Schmidhuber, 1997) can solve numerous tasks not solvable by previous learning algorithms for recurrent neural networks (RNNs). We identify a weakness of LSTM networks processing continual input streams that are not a priori segmented into subsequences with explicitly marked ends at which the network's internal state could be reset. Without resets, the state may grow indefinitely and eventually cause the network to break down. Our remedy is a novel, adaptive forget gate that enables an LSTM cell to learn to reset itself at appropriate times, thus releasing internal resources. We review illustrative benchmark problems on which standard LSTM outperforms other RNN algorithms. All algorithms (including LSTM) fail to solve continual versions of these problems. LSTM with forget gates, however, easily solves them, and in an elegant way."
+            },
+            "slug": "Learning-to-Forget:-Continual-Prediction-with-LSTM-Gers-Schmidhuber",
+            "title": {
+                "fragments": [],
+                "text": "Learning to Forget: Continual Prediction with LSTM"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 56,
+                "text": "This work identifies a weakness of LSTM networks processing continual input streams that are not a priori segmented into subsequences with explicitly marked ends at which the network's internal state could be reset, and proposes a novel, adaptive forget gate that enables an LSTm cell to learn to reset itself at appropriate times, thus releasing internal resources."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33855877"
+                        ],
+                        "name": "H. A. Mayer",
+                        "slug": "H.-A.-Mayer",
+                        "structuredName": {
+                            "firstName": "Helmut",
+                            "lastName": "Mayer",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. A. Mayer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2533112"
+                        ],
+                        "name": "R. Schwaiger",
+                        "slug": "R.-Schwaiger",
+                        "structuredName": {
+                            "firstName": "Roland",
+                            "lastName": "Schwaiger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Schwaiger"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 28
+                            }
+                        ],
+                        "text": "for Multi-Layer perceptrons [25, 5, 13], and Radial Basis Function Networks (RBF) [21]), or to bypass learning altogether by evolving weight values as well [26]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 69
+                            }
+                        ],
+                        "text": "The MackeyGlass time-series that is often used to test these methods [21, 25, 3, 5, 13], for instance, can be predicted very accurately using a feedforward network with a relatively short time-delay window on the input."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1995339,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "74c35ccc78125a0db5825cbedd9cb98bf3699c70",
+            "isKey": false,
+            "numCitedBy": 36,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The prediction of future values of a time series generated by a chaotic dynamical system is an extremely challenging task. Amongst several nonlinear models employed for the prediction of chaotic time series, artificial neural networks (ANNs) have gained major attention in the past decade. One widely recognized aspect of ANN design in order to achieve sufficient prediction performance is the structure of the network. We automatize this procedure by evolving ANN topologies of low complexity, guiding the evolutionary process towards ANNs of increased generalization ability. Specifically, a genetic algorithm (GA) is utilized to construct the architecture of generalized multi-layer perceptrons (GMPs) trained by error backpropagation. Another less investigated but important factor of ANN prediction quality is the size and composition of the training data set (TDS). Henceforth, we subject the selection of training data to artificial evolution in the environment of an ANN with fixed structure. A natural way to exploit the mutual dependencies of ANN structures and TDSs is symbiotic (cooperative) coevolution, where the fitness of an ANN is equally credited to the TDS it has been trained with. We compare these methods (ANN evolution, TDS evolution, and coevolution) with a standard ANN architecture given in the literature by predicting the Mackey-Glass time series."
+            },
+            "slug": "Evolutionary-and-coevolutionary-approaches-to-time-Mayer-Schwaiger",
+            "title": {
+                "fragments": [],
+                "text": "Evolutionary and coevolutionary approaches to time series prediction using generalized multi-layer perceptrons"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "This work automatizes this procedure by evolving ANN topologies of low complexity, guiding the evolutionary process towards ANNs of increased generalization ability by comparing these methods with a standard ANN architecture given in the literature by predicting the Mackey-Glass time series."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 1999 Congress on Evolutionary Computation-CEC99 (Cat. No. 99TH8406)"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "5631525"
+                        ],
+                        "name": "H. Jaeger",
+                        "slug": "H.-Jaeger",
+                        "structuredName": {
+                            "firstName": "Herbert",
+                            "lastName": "Jaeger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Jaeger"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144547639"
+                        ],
+                        "name": "H. Haas",
+                        "slug": "H.-Haas",
+                        "structuredName": {
+                            "firstName": "Harald",
+                            "lastName": "Haas",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Haas"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 185,
+                                "start": 181
+                            }
+                        ],
+                        "text": "This simple approach is currently the title holder in the Mackey-Glass time-series benchmark, improving on the accuracy of all other methods by as much as three orders of magnitude [10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 27
+                            }
+                        ],
+                        "text": "Echo State Networks (ESNs; [10]) deal with temporal dependencies by simply ignoring the gradients associated with hidden neurons."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2184251,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0d073966e48ffb6dccde1e4eb3f0380c10c6a766",
+            "isKey": false,
+            "numCitedBy": 2523,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a method for learning nonlinear systems, echo state networks (ESNs). ESNs employ artificial recurrent neural networks in a way that has recently been proposed independently as a learning mechanism in biological brains. The learning method is computationally efficient and easy to use. On a benchmark task of predicting a chaotic time series, accuracy is improved by a factor of 2400 over previous techniques. The potential for engineering applications is illustrated by equalizing a communication channel, where the signal error rate is improved by two orders of magnitude."
+            },
+            "slug": "Harnessing-Nonlinearity:-Predicting-Chaotic-Systems-Jaeger-Haas",
+            "title": {
+                "fragments": [],
+                "text": "Harnessing Nonlinearity: Predicting Chaotic Systems and Saving Energy in Wireless Communication"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 93,
+                "text": "A method for learning nonlinear systems, echo state networks (ESNs), which employ artificial recurrent neural networks in a way that has recently been proposed independently as a learning mechanism in biological brains is presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Science"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2088368"
+                        ],
+                        "name": "F. Gers",
+                        "slug": "F.-Gers",
+                        "structuredName": {
+                            "firstName": "Felix",
+                            "lastName": "Gers",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Gers"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145341374"
+                        ],
+                        "name": "J. Schmidhuber",
+                        "slug": "J.-Schmidhuber",
+                        "structuredName": {
+                            "firstName": "J\u00fcrgen",
+                            "lastName": "Schmidhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schmidhuber"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 79,
+                                "start": 76
+                            }
+                        ],
+                        "text": "To compare Evolino-based LSTM with published results for Gradientbased LSTM [6], we chose the language abc."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 45
+                            }
+                        ],
+                        "text": "sults with those of Gradient-based LSTM from [6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 75,
+                                "start": 57
+                            }
+                        ],
+                        "text": "To compare Evolino-based LSTM with published results for Gradient\u00adbased \nLSTM [6], we chose the language a nbn c n ."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 101,
+                                "start": 98
+                            }
+                        ],
+                        "text": "According to our experience, it is also not able to solve a simple context-sensitive grammar task [6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 47
+                            }
+                        ],
+                        "text": "The Gradient-based LSTM results are taken from [6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 61,
+                                "start": 43
+                            }
+                        ],
+                        "text": "Evolino-based LSTM generalizes better than Gradient\u00adbased LSTM, most \nnotably when trained on only two ex\u00adamples of correct behavior."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 10192330,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f828b401c86e0f8fddd8e77774e332dfd226cb05",
+            "isKey": false,
+            "numCitedBy": 587,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Previous work on learning regular languages from exemplary training sequences showed that long short-term memory (LSTM) outperforms traditional recurrent neural networks (RNNs). We demonstrate LSTMs superior performance on context-free language benchmarks for RNNs, and show that it works even better than previous hardwired or highly specialized architectures. To the best of our knowledge, LSTM variants are also the first RNNs to learn a simple context-sensitive language, namely a(n)b(n)c(n)."
+            },
+            "slug": "LSTM-recurrent-networks-learn-simple-context-free-Gers-Schmidhuber",
+            "title": {
+                "fragments": [],
+                "text": "LSTM recurrent networks learn simple context-free and context-sensitive languages"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 37,
+                "text": "Long short-term memory (LSTM) variants are also the first RNNs to learn a simple context-sensitive language, namely a(n)b( n)c(n)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Neural Networks"
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144108776"
+                        ],
+                        "name": "I. D. Falco",
+                        "slug": "I.-D.-Falco",
+                        "structuredName": {
+                            "firstName": "Ivanoe",
+                            "lastName": "Falco",
+                            "middleNames": [
+                                "De"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. D. Falco"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2829130"
+                        ],
+                        "name": "A. Iazzetta",
+                        "slug": "A.-Iazzetta",
+                        "structuredName": {
+                            "firstName": "Aniello",
+                            "lastName": "Iazzetta",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Iazzetta"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2059407582"
+                        ],
+                        "name": "P. Natale",
+                        "slug": "P.-Natale",
+                        "structuredName": {
+                            "firstName": "P.",
+                            "lastName": "Natale",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Natale"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1740592"
+                        ],
+                        "name": "E. Tarantino",
+                        "slug": "E.-Tarantino",
+                        "structuredName": {
+                            "firstName": "Ernesto",
+                            "lastName": "Tarantino",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Tarantino"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 28
+                            }
+                        ],
+                        "text": "for Multi-Layer perceptrons [25, 5, 13], and Radial Basis Function Networks (RBF) [21]), or to bypass learning altogether by evolving weight values as well [26]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 69
+                            }
+                        ],
+                        "text": "The MackeyGlass time-series that is often used to test these methods [21, 25, 3, 5, 13], for instance, can be predicted very accurately using a feedforward network with a relatively short time-delay window on the input."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13369742,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "909157b5d5a78c995403f9a9c59ca74929c380a8",
+            "isKey": false,
+            "numCitedBy": 35,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper the evolutionary design of a neural network model for predicting nonlinear systems behavior is discussed. In particular, the Breeder Genetic Algorithms are considered to provide the optimal set of synaptic weights of the network. The feasibility of the neural model proposed is demonstrated by predicting the Mackey-Glass time series. A comparison with Genetic Algorithms and Back Propagation learning technique is performed."
+            },
+            "slug": "Evolutionary-Neural-Networks-for-Nonlinear-Dynamics-Falco-Iazzetta",
+            "title": {
+                "fragments": [],
+                "text": "Evolutionary Neural Networks for Nonlinear Dynamics Modeling"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 88,
+                "text": "The evolutionary design of a neural network model for predicting nonlinear systems behavior is discussed and the Breeder Genetic Algorithms are considered to provide the optimal set of synaptic weights of the network."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "PPSN"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1859405"
+                        ],
+                        "name": "David E. Moriarty",
+                        "slug": "David-E.-Moriarty",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Moriarty",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David E. Moriarty"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1686788"
+                        ],
+                        "name": "R. Miikkulainen",
+                        "slug": "R.-Miikkulainen",
+                        "structuredName": {
+                            "firstName": "Risto",
+                            "lastName": "Miikkulainen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Miikkulainen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 106,
+                                "start": 102
+                            }
+                        ],
+                        "text": "This cooperative coevolutionary approach is an extension to Symbiotic, Adaptive Neuroevolution (SANE; [15]) which also evolves neurons, but in a single population."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 60
+                            }
+                        ],
+                        "text": "Q-learning, SARSA) on several difficult learning benchmarks [15, 8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 608769,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cb01aa49fdd9b59127b8651b36fa187095097799",
+            "isKey": false,
+            "numCitedBy": 197,
+            "numCiting": 68,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This article presents a new reinforcement learning method called SANE (Symbiotic, Adaptive Neuro-Evolution), which evolves a population of neurons through genetic algorithms to form a neural network capable of performing a task. Symbiotic evolution promotes both cooperation and specialization, which results in a fast, efficient genetic search and discourages convergence to suboptimal solutions. In the inverted pendulum problem, SANE formed effective networks 9 to 16 times faster than the Adaptive Heuristic Critic and 2 times faster thanQ-learning and the GENITOR neuro-evolution approach without loss of generalization. Such efficient learning, combined with few domain assumptions, make SANE a promising approach to a broad range of reinforcement learning problems, including many real-world applications."
+            },
+            "slug": "Efficient-reinforcement-learning-through-symbiotic-Moriarty-Miikkulainen",
+            "title": {
+                "fragments": [],
+                "text": "Efficient reinforcement learning through symbiotic evolution"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 90,
+                "text": "A new reinforcement learning method called SANE (Symbiotic, Adaptive Neuro-Evolution), which evolves a population of neurons through genetic algorithms to form a neural network capable of performing a task, is presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Machine Learning"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3308557"
+                        ],
+                        "name": "S. Hochreiter",
+                        "slug": "S.-Hochreiter",
+                        "structuredName": {
+                            "firstName": "Sepp",
+                            "lastName": "Hochreiter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Hochreiter"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145341374"
+                        ],
+                        "name": "J. Schmidhuber",
+                        "slug": "J.-Schmidhuber",
+                        "structuredName": {
+                            "firstName": "J\u00fcrgen",
+                            "lastName": "Schmidhuber",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schmidhuber"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 205,
+                                "start": 199
+                            }
+                        ],
+                        "text": "For longer temporal dependencies, the gradient vanishes as the error signal is propagated back through time so that network weights are never adjusted correctly to account for events far in the past [2, 9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 149,
+                                "start": 143
+                            }
+                        ],
+                        "text": "One method that adapts all weights and succeeds in using gradient information to learn long-term dependencies is Long Short-Term Memory (LSTM; [9, 7])."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1915014,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "44d2abe2175df8153f465f6c39b68b76a0d40ab9",
+            "isKey": false,
+            "numCitedBy": 52390,
+            "numCiting": 68,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O. 1. Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms."
+            },
+            "slug": "Long-Short-Term-Memory-Hochreiter-Schmidhuber",
+            "title": {
+                "fragments": [],
+                "text": "Long Short-Term Memory"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "A novel, efficient, gradient based method called long short-term memory (LSTM) is introduced, which can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1692756"
+                        ],
+                        "name": "Byoung-Tak Zhang",
+                        "slug": "Byoung-Tak-Zhang",
+                        "structuredName": {
+                            "firstName": "Byoung-Tak",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Byoung-Tak Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49711852"
+                        ],
+                        "name": "P. Ohm",
+                        "slug": "P.-Ohm",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Ohm",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Ohm"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1680145"
+                        ],
+                        "name": "H. M\u00fchlenbein",
+                        "slug": "H.-M\u00fchlenbein",
+                        "structuredName": {
+                            "firstName": "Heinz",
+                            "lastName": "M\u00fchlenbein",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. M\u00fchlenbein"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 160,
+                                "start": 156
+                            }
+                        ],
+                        "text": "for Multi-Layer perceptrons [25, 5, 13], and Radial Basis Function Networks (RBF) [21]), or to bypass learning altogether by evolving weight values as well [26]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2500417,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "eceefbed8c6b6609823d494f516e591517a7a7f6",
+            "isKey": false,
+            "numCitedBy": 114,
+            "numCiting": 46,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper is concerned with the automatic induction of parsimonious neural networks. In contrast to other program induction situations, network induction entails parametric learning as well as structural adaptation. We present a novel representation scheme called neural trees that allows efficient learning of both network architectures and parameters by genetic search. A hybrid evolutionary method is developed for neural tree induction that combines genetic programming and the breeder genetic algorithm under the unified framework of the minimum description length principle. The method is successfully applied to the induction of higher order neural trees while still keeping the resulting structures sparse to ensure good generalization performance. Empirical results are provided on two chaotic time series prediction problems of practical interest."
+            },
+            "slug": "Evolutionary-Induction-of-Sparse-Neural-Trees-Zhang-Ohm",
+            "title": {
+                "fragments": [],
+                "text": "Evolutionary Induction of Sparse Neural Trees"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "A hybrid evolutionary method is developed for neural tree induction that combines genetic programming and the breeder genetic algorithm under the unified framework of the minimum description length principle and is successfully applied to the induction of higher order neural trees."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Evolutionary Computation"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143901532"
+                        ],
+                        "name": "X. Yao",
+                        "slug": "X.-Yao",
+                        "structuredName": {
+                            "firstName": "Xin",
+                            "lastName": "Yao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Yao"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 63,
+                                "start": 59
+                            }
+                        ],
+                        "text": "An alternative approach to training RNNs is neuroevolution [24]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13958007,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5ac303258fd7f522fd3e4f172b97bb17eb888598",
+            "isKey": false,
+            "numCitedBy": 1175,
+            "numCiting": 363,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Learning and evolution are two fundamental forms of adaptation. There has been a great interest in combining learning and evolution with artificial neural networks (ANN\u2019s) in recent years. This paper: 1) reviews different combinations between ANN\u2019s and evolutionary algorithms (EA\u2019s), including using EA\u2019s to evolve ANN connection weights, architectures, learning rules, and input features; 2) discusses different search operators which have been used in various EA\u2019s; and 3) points out possible future research directions. It is shown, through a considerably large literature review, that combinations between ANN\u2019s and EA\u2019s can lead to significantly better intelligent systems than relying on ANN\u2019s or EA\u2019s alone."
+            },
+            "slug": "Evolving-Artificial-Neural-Networks-Yao",
+            "title": {
+                "fragments": [],
+                "text": "Evolving Artificial Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "It is shown, through a considerably large literature review, that combinations between ANN\u2019s and EA\u2019\u2019 can lead to significantly better intelligent systems than relying on ANNs or EA\u201ds alone."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3015062"
+                        ],
+                        "name": "S. Nolfi",
+                        "slug": "S.-Nolfi",
+                        "structuredName": {
+                            "firstName": "Stefano",
+                            "lastName": "Nolfi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Nolfi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1762202"
+                        ],
+                        "name": "D. Parisi",
+                        "slug": "D.-Parisi",
+                        "structuredName": {
+                            "firstName": "Domenico",
+                            "lastName": "Parisi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Parisi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2884373"
+                        ],
+                        "name": "J. Elman",
+                        "slug": "J.-Elman",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Elman",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Elman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 221,
+                                "start": 209
+                            }
+                        ],
+                        "text": "Although Evolino does not use learning in the traditional gradient-descent sense, it is related to other hybrid evolutionary methods that adapt weight values during interaction with the evaluation environment [16, 25, 14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 69379,
+            "fieldsOfStudy": [
+                "Biology",
+                "Psychology"
+            ],
+            "id": "ec08113ca02b7b1532a462b02e30c0b5f7ff3f4f",
+            "isKey": false,
+            "numCitedBy": 421,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This article describes simulations on populations of neural networks that both evolve at the population level and learn at the individual level. Unlike other simulations, the evolutionary task (finding food in the environment) and the learning task (predicting the next position of food on the basis of present position and planned network's movement) are different tasks. In these conditions, learning influences evolution (without Lamarckian inheritance of learned weight changes) and evolution influences learning. Average but not peak fitness has a better evolutionary growth with learning than without learning. After the initial generations, individuals that learn to predict during life also improve their food-finding ability during life. Furthermore, individuals that inherit an innate capacity to find food also inherit an innate predisposition to learn to predict the sensory consequences of their movements. They do not predict better at birth, but they do learn to predict better than individuals of the initial generation given the same learning experience. The results are interpreted in terms of a notion of dynamic correlation between the fitness surface and the learning surface. Evolution succeeds in finding both individuals that have high fitness and individuals that, although they do not have high fitness at birth, end up with high fitness because they learn to predict."
+            },
+            "slug": "Learning-and-Evolution-in-Neural-Networks-Nolfi-Parisi",
+            "title": {
+                "fragments": [],
+                "text": "Learning and Evolution in Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 62,
+                "text": "Simulation on populations of neural networks that both evolve at the population level and learn at the individual level finds both individuals that have high fitness and individuals that, although they do not have high Fitness at birth, end up with high fitness because they learn to predict."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Adapt. Behav."
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143901532"
+                        ],
+                        "name": "X. Yao",
+                        "slug": "X.-Yao",
+                        "structuredName": {
+                            "firstName": "Xin",
+                            "lastName": "Yao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Yao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152891866"
+                        ],
+                        "name": "Yong Liu",
+                        "slug": "Yong-Liu",
+                        "structuredName": {
+                            "firstName": "Yong",
+                            "lastName": "Liu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yong Liu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 221,
+                                "start": 209
+                            }
+                        ],
+                        "text": "Although Evolino does not use learning in the traditional gradient-descent sense, it is related to other hybrid evolutionary methods that adapt weight values during interaction with the evaluation environment [16, 25, 14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 28
+                            }
+                        ],
+                        "text": "for Multi-Layer perceptrons [25, 5, 13], and Radial Basis Function Networks (RBF) [21]), or to bypass learning altogether by evolving weight values as well [26]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 69
+                            }
+                        ],
+                        "text": "The MackeyGlass time-series that is often used to test these methods [21, 25, 3, 5, 13], for instance, can be predicted very accurately using a feedforward network with a relatively short time-delay window on the input."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12430187,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9d7c04de906823a60d3ccb5f510fd0029af5c8b0",
+            "isKey": false,
+            "numCitedBy": 927,
+            "numCiting": 112,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a new evolutionary system, i.e., EPNet, for evolving artificial neural networks (ANNs). The evolutionary algorithm used in EPNet is based on Fogel's evolutionary programming (EP). Unlike most previous studies on evolving ANN's, this paper puts its emphasis on evolving ANN's behaviors. Five mutation operators proposed in EPNet reflect such an emphasis on evolving behaviors. Close behavioral links between parents and their offspring are maintained by various mutations, such as partial training and node splitting. EPNet evolves ANN's architectures and connection weights (including biases) simultaneously in order to reduce the noise in fitness evaluation. The parsimony of evolved ANN's is encouraged by preferring node/connection deletion to addition. EPNet has been tested on a number of benchmark problems in machine learning and ANNs, such as the parity problem, the medical diagnosis problems, the Australian credit card assessment problem, and the Mackey-Glass time series prediction problem. The experimental results show that EPNet can produce very compact ANNs with good generalization ability in comparison with other algorithms."
+            },
+            "slug": "A-new-evolutionary-system-for-evolving-artificial-Yao-Liu",
+            "title": {
+                "fragments": [],
+                "text": "A new evolutionary system for evolving artificial neural networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "The experimental results show that EPNet can produce very compact ANNs with good generalization ability in comparison with other algorithms, and has been tested on a number of benchmark problems in machine learning and ANNs."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Neural Networks"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145842938"
+                        ],
+                        "name": "Faustino J. Gomez",
+                        "slug": "Faustino-J.-Gomez",
+                        "structuredName": {
+                            "firstName": "Faustino",
+                            "lastName": "Gomez",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Faustino J. Gomez"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1686788"
+                        ],
+                        "name": "R. Miikkulainen",
+                        "slug": "R.-Miikkulainen",
+                        "structuredName": {
+                            "firstName": "Risto",
+                            "lastName": "Miikkulainen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Miikkulainen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 60
+                            }
+                        ],
+                        "text": "Q-learning, SARSA) on several difficult learning benchmarks [15, 8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1554231,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e1d8c5d31ba295dcac4ec93ffdee31682c00c4b8",
+            "isKey": false,
+            "numCitedBy": 278,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The success of evolutionary methods on standard control learning tasks has created a need for new benchmarks. The classic pole balancing problem is no longer difficult enough to serve as a viable yardstick for measuring the learning efficiency of these systems. The double pole case, where two poles connected to the cart must be balanced simultaneously is much more difficult, especially when velocity information is not available. In this article, we demonstrate a neuroevolution system, Enforced Sub-populations (ESP), that is used to evolve a controller for the standard double pole task and a much harder, non-Markovian version. In both cases, our results show that ESP is faster than other neuroevolution methods. In addition, we introduce an incremental method that evolves on a sequence of tasks, and utilizes a local search technique (Delta-Coding) to sustain diversity. This method enables the system to solve even more difficult versions of the task where direct evolution cannot."
+            },
+            "slug": "Solving-Non-Markovian-Control-Tasks-with-Gomez-Miikkulainen",
+            "title": {
+                "fragments": [],
+                "text": "Solving Non-Markovian Control Tasks with Neuro-Evolution"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This article demonstrates a neuroevolution system, Enforced Sub-populations (ESP), that is used to evolve a controller for the standard double pole task and a much harder, non-Markovian version, and introduces an incremental method that evolves on a sequence of tasks, and utilizes a local search technique (Delta-Coding) to sustain diversity."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IJCAI"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2416462"
+                        ],
+                        "name": "G. Cybenko",
+                        "slug": "G.-Cybenko",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Cybenko",
+                            "middleNames": [
+                                "V."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Cybenko"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 204,
+                                "start": 201
+                            }
+                        ],
+                        "text": "Artificial neural networks are a popular class of models for making predictions from time-series because they are theoretically capable of approximating any continuous mapping with arbitrary precision [4]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3958369,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8da1dda34ecc96263102181448c94ec7d645d085",
+            "isKey": false,
+            "numCitedBy": 6455,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper we demonstrate that finite linear combinations of compositions of a fixed, univariate function and a set of affine functionals can uniformly approximate any continuous function ofn real variables with support in the unit hypercube; only mild conditions are imposed on the univariate function. Our results settle an open question about representability in the class of single hidden layer neural networks. In particular, we show that arbitrary decision regions can be arbitrarily well approximated by continuous feedforward neural networks with only a single internal, hidden layer and any continuous sigmoidal nonlinearity. The paper discusses approximation properties of other possible types of nonlinearities that might be implemented by artificial neural networks."
+            },
+            "slug": "Approximation-by-superpositions-of-a-sigmoidal-Cybenko",
+            "title": {
+                "fragments": [],
+                "text": "Approximation by superpositions of a sigmoidal function"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 95,
+                "text": "It is demonstrated that finite linear combinations of compositions of a fixed, univariate function and a set of affine functionals can uniformly approximate any continuous function ofn real variables with support in the unit hypercube."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Math. Control. Signals Syst."
+            },
+            "year": 1989
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144815061"
+                        ],
+                        "name": "E. Maillard",
+                        "slug": "E.-Maillard",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Maillard",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Maillard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2643840"
+                        ],
+                        "name": "D. Gu\u00e9riot",
+                        "slug": "D.-Gu\u00e9riot",
+                        "structuredName": {
+                            "firstName": "Didier",
+                            "lastName": "Gu\u00e9riot",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Gu\u00e9riot"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "This procedure generalizes ideas from Maillard [ 12 ], in which a similar hybrid approach was used train feedforward networks of radial basis functions."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14047522,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "41a651956cf2605a729e83aef5d13a831b4a832c",
+            "isKey": false,
+            "numCitedBy": 39,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The radial basis function (RBF) network is an efficient function approximator. Theoretical researches focus on the capabilities of the network to reach an optimal solution. Unfortunately, few results concerning the design, and training of the network are available. When dealing with a specific application, the performances of the network dramatically depend on the number of neurons and on the distribution of the hidden neurons in the input space. Generally, the network resulting from learning applied to a predetermined architecture, is either insufficient or over-complicated. In this study, we focus on genetic learning for the RBF network applied to prediction of chaotic time series. The centers and widths of the hidden layer neurons basis function-defined as the barycenter and distance between two input patterns-are coded into a chromosome. It is shown that the basis functions which are also coded as a parameter of the neurons provide an additional degree of freedom resulting in a smaller optimal network. A direct matrix inversion provides the weights between the hidden layer and the output layer and avoids the risk of getting stuck into a local minimum. The performances of a network with Gaussian basis functions is compared with those of a network with genetic determination of the basis functions on the Mackey-Glass delay differential equation."
+            },
+            "slug": "RBF-neural-network,-basis-functions-and-genetic-Maillard-Gu\u00e9riot",
+            "title": {
+                "fragments": [],
+                "text": "RBF neural network, basis functions and genetic algorithm"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This study focuses on genetic learning for the RBF network applied to prediction of chaotic time series and it is shown that the basis functions which are also coded as a parameter of the neurons provide an additional degree of freedom resulting in a smaller optimal network."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of International Conference on Neural Networks (ICNN'97)"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47055692"
+                        ],
+                        "name": "P. Werbos",
+                        "slug": "P.-Werbos",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Werbos",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Werbos"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 18470994,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "1a3d22599028a05669e884f3eaf19a342e190a87",
+            "isKey": false,
+            "numCitedBy": 4051,
+            "numCiting": 27,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Backpropagation is now the most widely used tool in the field of artificial neural networks. At the core of backpropagation is a method for calculating derivatives exactly and efficiently in any large system made up of elementary subsystems or calculations which are represented by known, differentiable functions; thus, backpropagation has many applications which do not involve neural networks as such. This paper first reviews basic backpropagation, a simple method which is now being widely used in areas like pattern recognition and fault diagnosis. Next, it presents the basic equations for backpropagation through time, and discusses applications to areas like pattern recognition involving dynamic systems, systems identification, and control. Finally, i t describes further extensions of this method, to deal with systems other than neural networks, systems involving simultaneous equations or true recurrent networks, and other practical issues which arise with this method. Pseudocode is provided to clarify the algorithms. The chain rule for ordered derivatives-the theorem which underlies backpropagation-is briefly discussed."
+            },
+            "slug": "Backpropagation-Through-Time:-What-It-Does-and-How-Werbos",
+            "title": {
+                "fragments": [],
+                "text": "Backpropagation Through Time: What It Does and How to Do It"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This paper first reviews basic backpropagation, a simple method which is now being widely used in areas like pattern recognition and fault diagnosis, and describes further extensions of this method, to deal with systems other than neural networks, systems involving simultaneous equations or true recurrent networks, and other practical issues which arise with this method."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1990
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2239972"
+                        ],
+                        "name": "P. McQuesten",
+                        "slug": "P.-McQuesten",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "McQuesten",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. McQuesten"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1686788"
+                        ],
+                        "name": "R. Miikkulainen",
+                        "slug": "R.-Miikkulainen",
+                        "structuredName": {
+                            "firstName": "Risto",
+                            "lastName": "Miikkulainen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Miikkulainen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 221,
+                                "start": 209
+                            }
+                        ],
+                        "text": "Although Evolino does not use learning in the traditional gradient-descent sense, it is related to other hybrid evolutionary methods that adapt weight values during interaction with the evaluation environment [16, 25, 14]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11077297,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2a0b8097a53965f956dcfb3a56c8f251fb3eed03",
+            "isKey": false,
+            "numCitedBy": 25,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The evolving population of neural nets contains information not only in terms of genes, but also in the collection of behaviors of the population members. Such information can be thought of as a kind of \u201cculture\u201d of the population. Two ways of exploiting that culture are explored in this paper: (1) Culling overlarge litters: Generate a large number of offspring with different crossovers, quickly evaluate them by comparing their performance to the population, and throw away those that appear poor. (2) Teaching: Use backpropagation to train offspring toward the performance of the population. Both techniques result in faster, more effective neuro-evolution, and they can be effectively combined, as is demonstrated on the inverted pendulum problem. Additional methods of cultural exploitation are possible and will be studied in future work. These results suggest that cultural exploitation is a powerful idea that allows leveraging several aspects of the genetic algorithm."
+            },
+            "slug": "Culling-and-Teaching-in-Neuro-Evolution-McQuesten-Miikkulainen",
+            "title": {
+                "fragments": [],
+                "text": "Culling and Teaching in Neuro-Evolution"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The results suggest that cultural exploitation is a powerful idea that allows leveraging several aspects of the genetic algorithm, as is demonstrated on the inverted pendulum problem."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICGA"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "10375621"
+                        ],
+                        "name": "B. Whitehead",
+                        "slug": "B.-Whitehead",
+                        "structuredName": {
+                            "firstName": "Bruce",
+                            "lastName": "Whitehead",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Whitehead"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3135886"
+                        ],
+                        "name": "Timothy D. Choate",
+                        "slug": "Timothy-D.-Choate",
+                        "structuredName": {
+                            "firstName": "Timothy",
+                            "lastName": "Choate",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Timothy D. Choate"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 82
+                            }
+                        ],
+                        "text": "for Multi-Layer perceptrons [25, 5, 13], and Radial Basis Function Networks (RBF) [21]), or to bypass learning altogether by evolving weight values as well [26]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "RBF neural network, basis functions and genetic algorithms."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 69
+                            }
+                        ],
+                        "text": "The MackeyGlass time-series that is often used to test these methods [21, 25, 3, 5, 13], for instance, can be predicted very accurately using a feedforward network with a relatively short time-delay window on the input."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 280,
+                                "start": 277
+                            }
+                        ],
+                        "text": "Normally, networks are trained using gradient descent, but recently evolutionary computa\u00adtion has been \nused to either evolve the network structure and then learn the weights via gradient descent (e.g. for \nMulti-Layer perceptrons [25, 5, 13], and Radial Basis Func\u00adtion Networks (RBF) [21]), or to bypass learning \naltogether by evolving weight values as well [26]."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 17037588,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0fdec442a9c911d916d1a89c342e18b0c090dbf5",
+            "isKey": true,
+            "numCitedBy": 275,
+            "numCiting": 132,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In a radial basis function (RBF) network, the RBF centers and widths can be evolved by a cooperative-competitive genetic algorithm. The set of genetic strings in one generation of the algorithm represents one REP network, not a population of competing networks. This leads to moderate computation times for the algorithm as a whole. Selection operates on individual RBFs rather than on whole networks. Selection therefore requires a genetic fitness function that promotes competition among RBFs which are doing nearly the same job while at the same time promoting cooperation among RBFs which cover different parts of the domain of the function to be approximated. Niche creation resulting from a fitness function of the form |w(i)|(beta)/E(|w(i')|(beta)), 1<beta<2 can facilitate the desired cooperative-competitive behavior. The feasibility of the resulting algorithm to evolve networks of Gaussian, inverse multiquadric, and thin-plate spline RBFs is demonstrated by predicting the Mackey-Glass time series. For each type of RBF, and for networks of 25, 50, 75, 100, 125, and 150 RBF units, prediction errors for the evolved Gaussian RBF networks are 50-70% lower than RBF networks obtained by k-means clustering."
+            },
+            "slug": "Cooperative-competitive-genetic-evolution-of-radial-Whitehead-Choate",
+            "title": {
+                "fragments": [],
+                "text": "Cooperative-competitive genetic evolution of radial basis function centers and widths for time series prediction"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 67,
+                "text": "In a radial basis function (RBF) network, the RBF centers and widths can be evolved by a cooperative-competitive genetic algorithm, and the feasibility of the resulting algorithm to evolve networks of Gaussian, inverse multiquadric, and thin-plate spline RBFs is demonstrated by predicting the Mackey-Glass time series."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Neural Networks"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "103043132"
+                        ],
+                        "name": "Sheng Chen",
+                        "slug": "Sheng-Chen",
+                        "structuredName": {
+                            "firstName": "Sheng",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sheng Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2145897989"
+                        ],
+                        "name": "Y. Wu",
+                        "slug": "Y.-Wu",
+                        "structuredName": {
+                            "firstName": "Y.",
+                            "lastName": "Wu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Wu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1853001"
+                        ],
+                        "name": "B. Luk",
+                        "slug": "B.-Luk",
+                        "structuredName": {
+                            "firstName": "Bing",
+                            "lastName": "Luk",
+                            "middleNames": [
+                                "Lam"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Luk"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 69
+                            }
+                        ],
+                        "text": "The MackeyGlass time-series that is often used to test these methods [21, 25, 3, 5, 13], for instance, can be predicted very accurately using a feedforward network with a relatively short time-delay window on the input."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 18428818,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d564f10a437c514f936e49ca60da2e7fea2fb8ec",
+            "isKey": false,
+            "numCitedBy": 229,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The paper presents a two-level learning method for radial basis function (RBF) networks. A regularized orthogonal least squares (ROLS) algorithm is employed at the lower level to construct RBF networks while the two key learning parameters, the regularization parameter and the RBF width, are optimized using a genetic algorithm (GA) at the upper level. Nonlinear time series modeling and prediction is used as an example to demonstrate the effectiveness of this hierarchical learning approach."
+            },
+            "slug": "Combined-genetic-algorithm-optimization-and-least-Chen-Wu",
+            "title": {
+                "fragments": [],
+                "text": "Combined genetic algorithm optimization and regularized orthogonal least squares learning for radial basis function networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 67,
+                "text": "A regularized orthogonal least squares (ROLS) algorithm is employed at the lower level to construct RBF networks while the two key learning parameters, the regularization parameter and the RBF width, are optimized using a genetic algorithm at the upper level."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Trans. Neural Networks"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145285040"
+                        ],
+                        "name": "L. D. Whitley",
+                        "slug": "L.-D.-Whitley",
+                        "structuredName": {
+                            "firstName": "L.",
+                            "lastName": "Whitley",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. D. Whitley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "33300074"
+                        ],
+                        "name": "Keith E. Mathias",
+                        "slug": "Keith-E.-Mathias",
+                        "structuredName": {
+                            "firstName": "Keith",
+                            "lastName": "Mathias",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Keith E. Mathias"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2124391"
+                        ],
+                        "name": "P. Fitzhorn",
+                        "slug": "P.-Fitzhorn",
+                        "structuredName": {
+                            "firstName": "Patrick",
+                            "lastName": "Fitzhorn",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Fitzhorn"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 15,
+                                "start": 8
+                            }
+                        ],
+                        "text": "[22] D. Whitley, K. Mathias, and P. Fitzhorn."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 67
+                            }
+                        ],
+                        "text": "Burst mutation is similar to the Delta-Coding technique of Whitley [22] which was developed to improve the precision of genetic algorithms for numerical optimization problems."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 66,
+                                "start": 59
+                            }
+                        ],
+                        "text": "Burst mutation \nis similar to the Delta-Coding technique of Whitley [22] which was developed to improve the precision \nof genetic algorithms for numerical optimization problems."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 14356139,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1bbec1f048b7f0a074d2fe069b153caf5ca5a3a5",
+            "isKey": true,
+            "numCitedBy": 144,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A new search strategy for genetic algorithms is introduced which allows iterative searches with complete reinitialization of the population preserving the progress already made toward solving an optimization task. Delta coding is a simple search strategy based on the idea that the encoding used by a genetic algorithm can express a distance away from some previous partial solution. Delta values are added to a partial solution before evaluating the tness; the delta encoding forms a new hypercube of equal or smaller size that is constructed around the most recent partial solution. Results are presented on two optimization problems involving geometric transformations; solving these problems with precision is diicult for conventional genetic algorithms as well as traditional mathematical optimization techniques. Tests using single population and distributed genetic algorithms are compared to delta coding. Delta coding is shown to produce more precise solutions while reducing the amount of work necessary to reach the solution."
+            },
+            "slug": "Delta-Coding:-An-Iterative-Search-Strategy-for-Whitley-Mathias",
+            "title": {
+                "fragments": [],
+                "text": "Delta Coding: An Iterative Search Strategy for Genetic Algorithms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "A new search strategy for genetic algorithms is introduced which allows iterative searches with complete reinitialization of the population preserving the progress already made toward solving an optimization task."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICGA"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "108275637"
+                        ],
+                        "name": "J. Baldwin",
+                        "slug": "J.-Baldwin",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Baldwin",
+                            "middleNames": [
+                                "Mark"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Baldwin"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 177,
+                                "start": 174
+                            }
+                        ],
+                        "text": "The \u201con the fly\u201d computation of the output layer can be viewed as a kind of learning, and, like learning, it effectively distorts the fitness landscape in a Baldwinian sense [1]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7059820,
+            "fieldsOfStudy": [
+                "Geology"
+            ],
+            "id": "0c1386d88cb54eb17c6a2745cd4bf15dbb3f2b09",
+            "isKey": false,
+            "numCitedBy": 1624,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In several recent publications I have developed, from different points of view, some considerations which tend to bring out a certain influence at work in organic evolutionwhich I venture to call \u201ca new factor.\u201d I give below a list of references1 to these publications and shall refer to them by number as this paper proceeds. The object of the present paper is to gather into one sketch an outline of the view of the process of development which these different publications have hinged upon. The problems involved in a theory of organic development may be gathered up under three great heads: Ontogeny, Phylogeny, Heredity. The general consideration, the \u201cfactor\u201d which I propose to bring out, is operative in the first instance, in the field of Ontogeny; I shall consequently speak first of the problem of Ontogeny, then of that of Phylogeny, in so far as the topic dealt with makes it necessary, then of that of Heredity, under the same limitation, and finally, give some definitions and conclusions."
+            },
+            "slug": "A-New-Factor-in-Evolution-Baldwin",
+            "title": {
+                "fragments": [],
+                "text": "A New Factor in Evolution"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The object of the present paper is to gather into one sketch an outline of the view of the process of development which these different publications have hinged upon."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "The American Naturalist"
+            },
+            "year": 1896
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47378595"
+                        ],
+                        "name": "G. Miller",
+                        "slug": "G.-Miller",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Miller",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Miller"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 142281124,
+            "fieldsOfStudy": [
+                "Psychology"
+            ],
+            "id": "fd68c2e9e69822f2f4b12acaab6f9269a1a61d74",
+            "isKey": false,
+            "numCitedBy": 141,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "FORGETTING AND REMEMBERINGWhen remembering runs amok, past pain can disrupt someone's present. New drugs, psychotherapeutic approaches, and other strategies might temper traumatic memories."
+            },
+            "slug": "Learning-to-Forget-Miller",
+            "title": {
+                "fragments": [],
+                "text": "Learning to Forget"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Science"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 11
+                            }
+                        ],
+                        "text": "[12] E. P. Maillard and D. Gueriot."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 51,
+                                "start": 47
+                            }
+                        ],
+                        "text": "This procedure generalizes ideas from Maillard [12], in which a similar hybrid approach was used train feedforward networks of radial basis functions."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 91
+                            }
+                        ],
+                        "text": "This procedure generalizes ideas An alternative approach to training \nRNNs is neuroevo\u00ad from Maillard [12], in which a similar hybrid approach was lution [24]."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "RBF neural network, basis functions and genetic algorithms"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE International Conference on Neural Networks, pages 2187\u20132190, Piscataway, NJ,"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 33
+                            }
+                        ],
+                        "text": "Recurrent Neural Networks (RNNs; [20, 18, 23]) can potentially implement general predictors by using feedback connections to maintain internal state."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Backpropagation through time: what does it do and how to do it"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of IEEE, volume 78, pages 1550\u20131560,"
+            },
+            "year": 1990
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 33
+                            }
+                        ],
+                        "text": "Recurrent Neural Networks (RNNs; [20, 18, 23]) can potentially implement general predictors by using feedback connections to maintain internal state."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "The utility driven dynamic error propagation network"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Technical Report CUED/F-INFENG/TR.1, Cambridge University Engineering Department,"
+            },
+            "year": 1987
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 33
+                            }
+                        ],
+                        "text": "Recurrent Neural Networks (RNNs; [20, 18, 23]) can potentially implement general predictors by using feedback connections to maintain internal state."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "A learning algorithm for continually running fully recurrent networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation, 1(2):270\u2013280,"
+            },
+            "year": 1989
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 20,
+            "methodology": 14,
+            "result": 1
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 28,
+        "totalPages": 3
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Modeling-systems-with-internal-state-using-evolino-Wierstra-Gomez/a149d240ecde338e91ccb2f001074b792be070b2?sort=total-citations"
+}

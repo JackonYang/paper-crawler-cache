@@ -1,0 +1,2017 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1738798"
+                        ],
+                        "name": "H. Hermansky",
+                        "slug": "H.-Hermansky",
+                        "structuredName": {
+                            "firstName": "Hynek",
+                            "lastName": "Hermansky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Hermansky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745455"
+                        ],
+                        "name": "D. Ellis",
+                        "slug": "D.-Ellis",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Ellis",
+                            "middleNames": [
+                                "P.",
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Ellis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109947002"
+                        ],
+                        "name": "Sangita Sharma",
+                        "slug": "Sangita-Sharma",
+                        "structuredName": {
+                            "firstName": "Sangita",
+                            "lastName": "Sharma",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Sangita Sharma"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 207,
+                                "start": 203
+                            }
+                        ],
+                        "text": "Directions for future work include evaluation of other sequence classification criteria [11] for neural network training, comparison of frame-based training and sequence-based training in tandem systems [17], and development of methods for neural network training that scale to larger networks and data sets."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5807992,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5e9082caea65c76bfd23b8763872804473ee7872",
+            "isKey": false,
+            "numCitedBy": 805,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Hidden Markov model speech recognition systems typically use Gaussian mixture models to estimate the distributions of decorrelated acoustic feature vectors that correspond to individual subword units. By contrast, hybrid connectionist-HMM systems use discriminatively-trained neural networks to estimate the probability distribution among subword units given the acoustic observations. In this work we show a large improvement in word recognition performance by combining neural-net discriminative feature processing with Gaussian-mixture distribution modeling. By training the network to generate the subword probability posteriors, then using transformations of these estimates as the base features for a conventionally-trained Gaussian-mixture based system, we achieve relative error rate reductions of 35% or more on the multicondition Aurora noisy continuous digits task."
+            },
+            "slug": "Tandem-connectionist-feature-extraction-for-HMM-Hermansky-Ellis",
+            "title": {
+                "fragments": [],
+                "text": "Tandem connectionist feature extraction for conventional HMM systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "A large improvement in word recognition performance is shown by combining neural-net discriminative feature processing with Gaussian-mixture distribution modeling."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2000 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings (Cat. No.00CH37100)"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144798098"
+                        ],
+                        "name": "N. Morgan",
+                        "slug": "N.-Morgan",
+                        "structuredName": {
+                            "firstName": "Nelson",
+                            "lastName": "Morgan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Morgan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1733733"
+                        ],
+                        "name": "H. Bourlard",
+                        "slug": "H.-Bourlard",
+                        "structuredName": {
+                            "firstName": "Herv\u00e9",
+                            "lastName": "Bourlard",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Bourlard"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 62754891,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d531dc3d20d35b69b9962c2bedeb60fda89e8a72",
+            "isKey": false,
+            "numCitedBy": 150,
+            "numCiting": 71,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In recent years there has been a significant body of work, both theoretical and experimental, that has established the viability of artificial neural networks (ANN's) as a useful technology for speech recognition. It has been shown that neural networks can be used to augment speech recognizers whose underlying structure is essentially that of hidden Markov models (HMM's). In particular, we have demonstrated that fairly simple layered structures, which we lately have termed big dumb neural networks (BDNN's), can be discriminatively trained to estimate emission probabilities for an HMM. Recently simple speech recognition systems (using context-independent phone models) based on this approach have been proved on controlled tests, to be both effective in terms of accuracy (i.e., comparable or better than equivalent state-of-the-art systems) and efficient in terms of CPU and memory run-time requirements. Research is continuing on extending these results to somewhat more complex systems. In this paper, we first give a brief overview of automatic speech recognition (ASR) and statistical pattern recognition in general. We also include a very brief review of HMM's, and then describe the use of ANN's as statistical estimators. We then review the basic principles of our hybrid HMM/ANN approach and describe some experiments. We discuss some current research topics, including new theoretical developments in training ANN's to maximize the posterior probabilities of the correct models for speech utterances. We also discuss some issues of system resources required for training and recognition. Finally, we conclude with some perspectives about fundamental limitations in the current technology and some speculations about where we can go from here. >"
+            },
+            "slug": "Neural-networks-for-statistical-recognition-of-Morgan-Bourlard",
+            "title": {
+                "fragments": [],
+                "text": "Neural networks for statistical recognition of continuous speech"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "It is demonstrated that fairly simple layered structures, which the authors lately have termed big dumb neural networks (BDNN's), can be discriminatively trained to estimate emission probabilities for an HMM."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc. IEEE"
+            },
+            "year": 1995
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144197258"
+                        ],
+                        "name": "A. Krogh",
+                        "slug": "A.-Krogh",
+                        "structuredName": {
+                            "firstName": "Anders",
+                            "lastName": "Krogh",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Krogh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3190179"
+                        ],
+                        "name": "S. Riis",
+                        "slug": "S.-Riis",
+                        "structuredName": {
+                            "firstName": "S\u00f8ren",
+                            "lastName": "Riis",
+                            "middleNames": [
+                                "Kamaric"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Riis"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Section 5 summarizes the findings of this study and discusses future work."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Index Terms\u2014 speech recognition, neural networks, discriminative training"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11172320,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2a753eddc1533077e5bcfaf05b79f5fe245c51d8",
+            "isKey": false,
+            "numCitedBy": 62,
+            "numCiting": 71,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A general framework for hybrids of hidden Markov models (HMMs) and neural networks (NNs) called hidden neural networks (HNNs) is described. The article begins by reviewing standard HMMs and estimation by conditional maximum likelihood, which is used by the HNN. In the HNN, the usual HMM probability parameters are replaced by the outputs of state-specific neural networks. As opposed to many other hybrids, the HNN is normalized globally and therefore has a valid probabilistic interpretation. All parameters in the HNN are estimated simultaneously according to the discriminative conditional maximum likelihood criterion. The HNN can be viewed as an undirected probabilistic independence network (a graphical model), where the neural networks provide a compact representation of the clique functions. An evaluation of the HNN on the task of recognizing broad phoneme classes in the TIMIT database shows clear performance gains compared to standard HMMs tested on the same task."
+            },
+            "slug": "Hidden-Neural-Networks-Krogh-Riis",
+            "title": {
+                "fragments": [],
+                "text": "Hidden Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 68,
+                "text": "A general framework for hybrids of hidden Markov models and neural networks called hidden neural networks (HNNs) is described, which has a valid probabilistic interpretation and shows clear performance gains compared to standard HMMs tested on the same task."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745455"
+                        ],
+                        "name": "D. Ellis",
+                        "slug": "D.-Ellis",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Ellis",
+                            "middleNames": [
+                                "P.",
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Ellis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144798098"
+                        ],
+                        "name": "N. Morgan",
+                        "slug": "N.-Morgan",
+                        "structuredName": {
+                            "firstName": "Nelson",
+                            "lastName": "Morgan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Morgan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "(3)"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "What is new is the adoption of lattices to represent the reference and competing hypotheses, and the use of sequence classification criteria other than MMI and CML for neural-network training."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1196476,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "acf4e90062ca28e12f9e3a8c8b117030469d3e4b",
+            "isKey": false,
+            "numCitedBy": 70,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We have trained and tested a number of large neural networks for the purpose of emission probability estimation in large vocabulary continuous speech recognition. In particular, the problem under test is the DARPA Broadcast News task. Our goal here was to determine the relationship between training time, word error rate, size of the training set, and size of the neural network. In all cases, the network architecture was quite simple, comprising a single large hidden layer with an input window consisting of feature vectors from 9 frames around the current time, with a single output for each of 54 phonetic categories. Thus far, simultaneous increases to the size of the training set and the neural network improve performance; in other words, more data helps, as does the training of more parameters. We continue to be surprised that such a simple system works as well as it does for complex tasks. Given a limitation in training time, however, there appears to be an optimal ratio of training patterns to parameters of around 25:1 in these circumstances. Additionally, doubling the training data and system size appears to provide diminishing returns of error rate reduction for the largest systems."
+            },
+            "slug": "Size-matters:-an-empirical-study-of-neural-network-Ellis-Morgan",
+            "title": {
+                "fragments": [],
+                "text": "Size matters: an empirical study of neural network training for large vocabulary continuous speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "There appears to be an optimal ratio of training patterns to parameters of around 25:1 in these circumstances, and doubling the training data and system size appears to provide diminishing returns of error rate reduction for the largest systems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "1999 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings. ICASSP99 (Cat. No.99CH36258)"
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792214"
+                        ],
+                        "name": "Daniel Povey",
+                        "slug": "Daniel-Povey",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Povey",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel Povey"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1716393"
+                        ],
+                        "name": "P. Woodland",
+                        "slug": "P.-Woodland",
+                        "structuredName": {
+                            "firstName": "Philip",
+                            "lastName": "Woodland",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Woodland"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 42,
+                                "start": 39
+                            }
+                        ],
+                        "text": "Other studies [6, 7] demonstrate the effectiveness of global normalization and conditional maximum likelihood (CML) training (equivalent to MMI for a fixed language model) on TIMIT phone recognition and broad class recognition."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 160,
+                                "start": 157
+                            }
+                        ],
+                        "text": "Section 3 shows how sequence classification criteria may be optimized using the lattice-based framework developed for discriminatively training GMM acoustic models."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Index Terms\u2014 speech recognition, neural networks, discriminative training"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16095655,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0509bf552a0d1fe895c019e4e8f1b1599c7112e4",
+            "isKey": false,
+            "numCitedBy": 797,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper we introduce the Minimum Phone Error (MPE) and Minimum Word Error (MWE) criteria for the discriminative training of HMM systems. The MPE/MWE criteria are smoothed approximations to the phone or word error rate respectively. We also discuss I-smoothing which is a novel technique for smoothing discriminative training criteria using statistics for maximum likelihood estimation (MLE). Experiments have been performed on the Switchboard/Call Home corpora of telephone conversations with up to 265 hours of training data. It is shown that for the maximum mutual information estimation (MMIE) criterion, I-smoothing reduces the word error rate (WER) by 0.4% absolute over the MMIE baseline. The combination of MPE and I-smoothing gives an improvement of 1 % over MMIE and a total reduction in WER of 4.8% absolute over the original MLE system."
+            },
+            "slug": "Minimum-Phone-Error-and-I-smoothing-for-improved-Povey-Woodland",
+            "title": {
+                "fragments": [],
+                "text": "Minimum Phone Error and I-smoothing for improved discriminative training"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 62,
+                "text": "The Minimum Phone Error (MPE) and Minimum Word Error (MWE) criteria are smoothed approximations to the phone or word error rate respectively and I-smoothing which is a novel technique for smoothing discriminative training criteria using statistics for maximum likelihood estimation (MLE)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2002 IEEE International Conference on Acoustics, Speech, and Signal Processing"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145751478"
+                        ],
+                        "name": "F. Johansen",
+                        "slug": "F.-Johansen",
+                        "structuredName": {
+                            "firstName": "Finn",
+                            "lastName": "Johansen",
+                            "middleNames": [
+                                "Tore"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Johansen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Other studies [6, 7] demonstrate the effectiveness of global normalization and conditional maximum likelihood (CML) training (equivalent to MMI for a fixed language model) on TIMIT phone recognition and broad class recognition."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2088609,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ce30f4e9c5be7be945f22e1d0ed7cd625331fe0f",
+            "isKey": false,
+            "numCitedBy": 13,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a comparison if different model architectures for TIMIT phoneme recognition. The baseline is a conventional diagonal covariance Gaussian mixture HMM. This system is compared to two different hybrid MLP/HMMs, both adhering to the same restrictions regarding input context and output states as the Gaussian mixtures. All free parameters in the three systems are jointly optimised using the same global discriminative criterion. A forward decoder, with total likelihood scoring, is used for recognition. While the global discriminative training method is found to improve the baseline HMM significantly, the differences between Gaussian and MLP-based architecture are small. The Gaussian mixture system however performs slightly better at the lowest complexity levels."
+            },
+            "slug": "A-comparison-of-hybrid-HMM-architecture-using-Johansen",
+            "title": {
+                "fragments": [],
+                "text": "A comparison of hybrid HMM architecture using global discriminating training"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "While the global discriminative training method is found to improve the baseline HMM significantly, the differences between Gaussian and MLP-based architecture are small and the Gaussian mixture system performs slightly better at the lowest complexity levels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceeding of Fourth International Conference on Spoken Language Processing. ICSLP '96"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "30180773"
+                        ],
+                        "name": "Janez Kaiser",
+                        "slug": "Janez-Kaiser",
+                        "structuredName": {
+                            "firstName": "Janez",
+                            "lastName": "Kaiser",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Janez Kaiser"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35190714"
+                        ],
+                        "name": "B. Horvat",
+                        "slug": "B.-Horvat",
+                        "structuredName": {
+                            "firstName": "Bogomir",
+                            "lastName": "Horvat",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Horvat"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2075136"
+                        ],
+                        "name": "Z. Kacic",
+                        "slug": "Z.-Kacic",
+                        "structuredName": {
+                            "firstName": "Zdravko",
+                            "lastName": "Kacic",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Z. Kacic"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 1
+                            }
+                        ],
+                        "text": "Typically, the labels are \u201chard,\u201d y\u0302rt(i) \u2208 {0, 1}, i = 1, \u00b7 \u00b7 \u00b7 , N , and are defined either by manual labeling (e.g., TIMIT) or through forced alignment."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 72,
+                                "start": 69
+                            }
+                        ],
+                        "text": "Other studies [6, 7] demonstrate the effectiveness of global normalization and conditional maximum likelihood (CML) training (equivalent to MMI for a fixed language model) on TIMIT phone recognition and broad class recognition."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 18982031,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "de8ceb72bf54293959813c101c4f7ce54fbd3a20",
+            "isKey": false,
+            "numCitedBy": 92,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, 1 we propose a novel loss function for the overall risk criterion estimation of hidden Markov models. For continuous speech recognition, the overall risk criterion estimation with the proposed loss function aims to directly maximise word recognition accuracy on the training database. We propose reestimation equations for the HMM parameters, which are derived using the Extended Baum-Welch algorithm. Using HMM, trained with the proposed method, a decrease of word recognition error rate of up to 17.3% has been achieved for the phoneme recognition task on the TIMIT database."
+            },
+            "slug": "A-novel-loss-function-for-the-overall-risk-based-of-Kaiser-Horvat",
+            "title": {
+                "fragments": [],
+                "text": "A novel loss function for the overall risk criterion based discriminative training of HMM models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "Using HMM, trained with the proposed method, a decrease of word recognition error rate of up to 17.3% has been achieved for the phoneme recognition task on the TIMIT database."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110094"
+                        ],
+                        "name": "J. Bridle",
+                        "slug": "J.-Bridle",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Bridle",
+                            "middleNames": [
+                                "Scott"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bridle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47944231"
+                        ],
+                        "name": "L. Dodd",
+                        "slug": "L.-Dodd",
+                        "structuredName": {
+                            "firstName": "L",
+                            "lastName": "Dodd",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Dodd"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Section 5 summarizes the findings of this study and discusses future work."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Index Terms\u2014 speech recognition, neural networks, discriminative training"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 62649110,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b6c94cc324f585bd6c004f2b99b5589568643e45",
+            "isKey": false,
+            "numCitedBy": 42,
+            "numCiting": 2,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The authors extend to continuous speech recognition (CSR) the Alphanet approach to integrating backprop networks and HMM (hidden Markov model)-based isolated word recognition. They present the theory of a method for discriminative training of components of a CSR system, using training data in the form of complete sentences. The derivatives of the discriminative score with respect to the parameters are expressed in terms of the posterior probabilities of state occupancies (gammas) under two conditions called 'clamped' and 'free' because they correspond to the two conditions in Boltzmann machine training. The authors compute these clamped and free gammas using the forward-backward algorithm twice, and use the differences to drive the adaptation of a preprocessing data transformation, which can be thought of as replacing the linear transformation which yields MFCCs, or which normalizes a grand covariance matrix.<<ETX>>"
+            },
+            "slug": "An-Alphanet-approach-to-optimising-input-for-speech-Bridle-Dodd",
+            "title": {
+                "fragments": [],
+                "text": "An Alphanet approach to optimising input transformations for continuous speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 99,
+                "text": "The authors extend to continuous speech recognition (CSR) the Alphanet approach to integrating backprop networks and HMM (hidden Markov model)-based isolated word recognition and present the theory of a method for discriminative training of components of a CSR system, using training data in the form of complete sentences."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "[Proceedings] ICASSP 91: 1991 International Conference on Acoustics, Speech, and Signal Processing"
+            },
+            "year": 1991
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2056994778"
+                        ],
+                        "name": "M. Gibson",
+                        "slug": "M.-Gibson",
+                        "structuredName": {
+                            "firstName": "Matthew",
+                            "lastName": "Gibson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Gibson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2171861"
+                        ],
+                        "name": "Thomas Hain",
+                        "slug": "Thomas-Hain",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Hain",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Thomas Hain"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 9,
+                                "start": 5
+                            }
+                        ],
+                        "text": "Typically, the labels are \u201chard,\u201d y\u0302rt(i) \u2208 {0, 1}, i = 1, \u00b7 \u00b7 \u00b7 , N , and are defined either by manual labeling (e.g., TIMIT) or through forced alignment."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 77,
+                                "start": 73
+                            }
+                        ],
+                        "text": "Other studies [6, 7] demonstrate the effectiveness of global normalization and conditional maximum likelihood (CML) training (equivalent to MMI for a fixed language model) on TIMIT phone recognition and broad class recognition."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 144
+                            }
+                        ],
+                        "text": "In some cases the labels may be \u201csoft,\u201d y\u0302rt(i) \u2208 [0, 1], i = 1, \u00b7 \u00b7 \u00b7 , N , having been derived from a forward-backward pass over a reference transcript or lattice."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13891280,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0687573a482d84385ddd55e708e240f3e303fab9",
+            "isKey": false,
+            "numCitedBy": 126,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The Minimum Bayes Risk (MBR) framework has been a successful strategy for the training of hidden Markov models for large vocabulary speech recognition. Practical implementations of MBR must select an appropriate hypothesis space and loss function. The set of word sequences and a word-based Levenshtein distance may be assumed to be the optimal choice but use of phoneme-based criteria appears to be more successful. This paper compares the use of different hypothesis spaces and loss functions defined using the system constituents of word, phone, physical triphone, physical state and physical mixture component. For practical reasons the competing hypotheses are constrained by sampling. The impact of the sampling technique on the performance of MBR training is also examined."
+            },
+            "slug": "Hypothesis-spaces-for-minimum-Bayes-risk-training-Gibson-Hain",
+            "title": {
+                "fragments": [],
+                "text": "Hypothesis spaces for minimum Bayes risk training in large vocabulary speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 80,
+                "text": "The Minimum Bayes Risk framework has been a successful strategy for the training of hidden Markov models for large vocabulary speech recognition but use of phoneme-based criteria appears to be more successful."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "INTERSPEECH"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792214"
+                        ],
+                        "name": "Daniel Povey",
+                        "slug": "Daniel-Povey",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Povey",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel Povey"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1716393"
+                        ],
+                        "name": "P. Woodland",
+                        "slug": "P.-Woodland",
+                        "structuredName": {
+                            "firstName": "Philip",
+                            "lastName": "Woodland",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Woodland"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "(3)"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Index Terms\u2014 speech recognition, neural networks, discriminative training"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 98603,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "067120574d64e37be5fa66591a6d0115d9a6d561",
+            "isKey": false,
+            "numCitedBy": 39,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Investigates the use of discriminative training techniques for large vocabulary speech recognition with training datasets up to 265 hours. Techniques for improving lattice-based maximum mutual information estimation (MMIE) training are described and compared to frame discrimination (FD). An objective function which is an interpolation of MMIE and standard maximum likelihood estimation (MLE) is also discussed. Experimental results on both the Switchboard and North American Business News tasks show that MMIE training can yield significant performance improvements over standard MLE even for the most complex speech recognition problems with very large training sets."
+            },
+            "slug": "Improved-discriminative-training-techniques-for-Povey-Woodland",
+            "title": {
+                "fragments": [],
+                "text": "Improved discriminative training techniques for large vocabulary continuous speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Experimental results on both the Switchboard and North American Business News tasks show that MMIE training can yield significant performance improvements over standard MLE even for the most complex speech recognition problems with very large training sets."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2001 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings (Cat. No.01CH37221)"
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792214"
+                        ],
+                        "name": "Daniel Povey",
+                        "slug": "Daniel-Povey",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Povey",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel Povey"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1749064"
+                        ],
+                        "name": "D. Kanevsky",
+                        "slug": "D.-Kanevsky",
+                        "structuredName": {
+                            "firstName": "Dimitri",
+                            "lastName": "Kanevsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Kanevsky"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144707379"
+                        ],
+                        "name": "Brian Kingsbury",
+                        "slug": "Brian-Kingsbury",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Kingsbury",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Brian Kingsbury"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1720857"
+                        ],
+                        "name": "B. Ramabhadran",
+                        "slug": "B.-Ramabhadran",
+                        "structuredName": {
+                            "firstName": "Bhuvana",
+                            "lastName": "Ramabhadran",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Ramabhadran"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1698208"
+                        ],
+                        "name": "G. Saon",
+                        "slug": "G.-Saon",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Saon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Saon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2484153"
+                        ],
+                        "name": "K. Visweswariah",
+                        "slug": "K.-Visweswariah",
+                        "structuredName": {
+                            "firstName": "Karthik",
+                            "lastName": "Visweswariah",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Visweswariah"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "(3)"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 114,
+                                "start": 110
+                            }
+                        ],
+                        "text": "Other studies [6, 7] demonstrate the effectiveness of global normalization and conditional maximum likelihood (CML) training (equivalent to MMI for a fixed language model) on TIMIT phone recognition and broad class recognition."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 21,
+                                "start": 17
+                            }
+                        ],
+                        "text": "The cross-entropy criterion is\nLXENT (\u03b8) = R\u2211\nr=1\nTr\u2211\nt=1\nN\u2211\ni=1\ny\u0302rt(i) log y\u0302rt(i)\nyrt(i) , (1)\nwhere \u03b8 denotes the parameters of the neural network (weights and biases for all layers) and yrt(i) is the network output for physical state i at time t in sample r."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 175,
+                                "start": 171
+                            }
+                        ],
+                        "text": "What is new is the adoption of lattices to represent the reference and competing hypotheses, and the use of sequence classification criteria other than MMI and CML for neural-network training."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14254768,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8770b4a5ca7734c88e5755f9558f79e93229c023",
+            "isKey": false,
+            "numCitedBy": 430,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a modified form of the maximum mutual information (MMI) objective function which gives improved results for discriminative training. The modification consists of boosting the likelihoods of paths in the denominator lattice that have a higher phone error relative to the correct transcript, by using the same phone accuracy function that is used in Minimum Phone Error (MPE) training. We combine this with another improvement to our implementation of the Extended Baum-Welch update equations for MMI, namely the canceling of any shared part of the numerator and denominator statistics on each frame (a procedure that is already done in MPE). This change affects the Gaussian-specific learning rate. We also investigate another modification whereby we replace I-smoothing to the ML estimate with I-smoothing to the previous iteration's value. Boosted MMI gives better results than MPE in both model and feature-space discriminative training, although not consistently."
+            },
+            "slug": "Boosted-MMI-for-model-and-feature-space-training-Povey-Kanevsky",
+            "title": {
+                "fragments": [],
+                "text": "Boosted MMI for model and feature-space discriminative training"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 85,
+                "text": "A modified form of the maximum mutual information (MMI) objective function which gives improved results for discriminative training by boosting the likelihoods of paths in the denominator lattice that have a higher phone error relative to the correct transcript."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 IEEE International Conference on Acoustics, Speech and Signal Processing"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792214"
+                        ],
+                        "name": "Daniel Povey",
+                        "slug": "Daniel-Povey",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Povey",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel Povey"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144707379"
+                        ],
+                        "name": "Brian Kingsbury",
+                        "slug": "Brian-Kingsbury",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Kingsbury",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Brian Kingsbury"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 14,
+                                "start": 10
+                            }
+                        ],
+                        "text": "Typically, the labels are \u201chard,\u201d y\u0302rt(i) \u2208 {0, 1}, i = 1, \u00b7 \u00b7 \u00b7 , N , and are defined either by manual labeling (e.g., TIMIT) or through forced alignment."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 15
+                            }
+                        ],
+                        "text": "Tr denotes the length of the r-th sequence in the training set."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10264111,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f151b800104bc5945b33520845089b727c58a7d8",
+            "isKey": false,
+            "numCitedBy": 87,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Minimum phone error (MPE) is an objective function for discriminative training of acoustic models for speech recognition. Recently several different objective functions related to MPE have been proposed. In this paper we compare implementations of three of these to MPE on English and Arabic broadcast news. The techniques investigated are minimum phone frame error (MPFE), minimum divergence (MD), and a physical-state level version of minimum Bayes risk which we call s-MBR. In the case of MPFE we observe improvements over MPE. We propose that the smoothing constant used in MPE should be scaled according to the average value of the counts in the statistics obtained from these objective functions."
+            },
+            "slug": "Evaluation-of-Proposed-Modifications-to-MPE-for-Povey-Kingsbury",
+            "title": {
+                "fragments": [],
+                "text": "Evaluation of Proposed Modifications to MPE for Large Scale Discriminative Training"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper compares implementations of three objective functions related to MPE on English and Arabic broadcast news and proposes that the smoothing constant used in MPE should be scaled according to the average value of the counts in the statistics obtained from these objective functions."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2007 IEEE International Conference on Acoustics, Speech and Signal Processing - ICASSP '07"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2696176"
+                        ],
+                        "name": "L. Bahl",
+                        "slug": "L.-Bahl",
+                        "structuredName": {
+                            "firstName": "Lalit",
+                            "lastName": "Bahl",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Bahl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32538203"
+                        ],
+                        "name": "P. Brown",
+                        "slug": "P.-Brown",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Brown",
+                            "middleNames": [
+                                "F."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Brown"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144856857"
+                        ],
+                        "name": "P. D. Souza",
+                        "slug": "P.-D.-Souza",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Souza",
+                            "middleNames": [
+                                "V.",
+                                "de"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. D. Souza"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2474650"
+                        ],
+                        "name": "R. Mercer",
+                        "slug": "R.-Mercer",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Mercer",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Mercer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 134,
+                                "start": 131
+                            }
+                        ],
+                        "text": "The REMAP algorithm [5] maximizes the a-posteriori probability of the reference word sequence, and relies upon sum-to-one constraints to penalize competing, incorrect hypotheses."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 56128297,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b5f09ce0dd760857e0d0e4879f6e2543f04c5d33",
+            "isKey": false,
+            "numCitedBy": 929,
+            "numCiting": 4,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A method for estimating the parameters of hidden Markov models of speech is described. Parameter values are chosen to maximize the mutual information between an acoustic observation sequence and the corresponding word sequence. Recognition results are presented comparing this method with maximum likelihood estimation."
+            },
+            "slug": "Maximum-mutual-information-estimation-of-hidden-for-Bahl-Brown",
+            "title": {
+                "fragments": [],
+                "text": "Maximum mutual information estimation of hidden Markov model parameters for speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 70,
+                "text": "A method for estimating the parameters of hidden Markov models of speech is described and recognition results are presented comparing this method with maximum likelihood estimation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICASSP '86. IEEE International Conference on Acoustics, Speech, and Signal Processing"
+            },
+            "year": 1986
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38940652"
+                        ],
+                        "name": "H. Soltau",
+                        "slug": "H.-Soltau",
+                        "structuredName": {
+                            "firstName": "Hagen",
+                            "lastName": "Soltau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Soltau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1740721"
+                        ],
+                        "name": "Florian Metze",
+                        "slug": "Florian-Metze",
+                        "structuredName": {
+                            "firstName": "Florian",
+                            "lastName": "Metze",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Florian Metze"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "9394535"
+                        ],
+                        "name": "C. Fugen",
+                        "slug": "C.-Fugen",
+                        "structuredName": {
+                            "firstName": "Cao",
+                            "lastName": "Fugen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Fugen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1724972"
+                        ],
+                        "name": "A. Waibel",
+                        "slug": "A.-Waibel",
+                        "structuredName": {
+                            "firstName": "Alexander",
+                            "lastName": "Waibel",
+                            "middleNames": [
+                                "H."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Waibel"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "(3)"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 18972783,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f14ae3ccf0b77ef4fa13e06282cca67e13bce43f",
+            "isKey": false,
+            "numCitedBy": 240,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this study, we examine how fast decoding of conversational speech with large vocabularies profits from efficient use of linguistic information, i.e. language models and grammars. Based on a re-entrant single pronunciation prefix tree, we use the concept of linguistic context polymorphism to allow an early incorporation of language model information. This approach allows us to use all available language model information in a one-pass decoder, using the same engine to decode with statistical n-gram language models as well as context free grammars or re-scoring of lattices in an efficient way. We compare this approach to our previous decoder, which needed three passes to incorporate all available information. The results on a very large vocabulary task show that the search can be speeded up by almost a factor of three, without introducing additional search errors."
+            },
+            "slug": "A-one-pass-decoder-based-on-polymorphic-linguistic-Soltau-Metze",
+            "title": {
+                "fragments": [],
+                "text": "A one-pass decoder based on polymorphic linguistic context assignment"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 85,
+                "text": "This study examines how fast decoding of conversational speech with large vocabularies profits from efficient use of linguistic information, i.e. language models and grammars, using a re-entrant single pronunciation prefix tree to allow an early incorporation of language model information."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IEEE Workshop on Automatic Speech Recognition and Understanding, 2001. ASRU '01."
+            },
+            "year": 2001
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38940652"
+                        ],
+                        "name": "H. Soltau",
+                        "slug": "H.-Soltau",
+                        "structuredName": {
+                            "firstName": "Hagen",
+                            "lastName": "Soltau",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Soltau"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1698208"
+                        ],
+                        "name": "G. Saon",
+                        "slug": "G.-Saon",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Saon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Saon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144707379"
+                        ],
+                        "name": "Brian Kingsbury",
+                        "slug": "Brian-Kingsbury",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Kingsbury",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Brian Kingsbury"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145395455"
+                        ],
+                        "name": "H. Kuo",
+                        "slug": "H.-Kuo",
+                        "structuredName": {
+                            "firstName": "Hong-Kwang",
+                            "lastName": "Kuo",
+                            "middleNames": [
+                                "Jeff"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Kuo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1718611"
+                        ],
+                        "name": "L. Mangu",
+                        "slug": "L.-Mangu",
+                        "structuredName": {
+                            "firstName": "Lidia",
+                            "lastName": "Mangu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Mangu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792214"
+                        ],
+                        "name": "Daniel Povey",
+                        "slug": "Daniel-Povey",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Povey",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel Povey"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1681543"
+                        ],
+                        "name": "G. Zweig",
+                        "slug": "G.-Zweig",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Zweig",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Zweig"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "(3)"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 13925761,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "eade33a08823bbc4dca40c445305897d715ab507",
+            "isKey": false,
+            "numCitedBy": 58,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper describes the advances made in IBM's Arabic broadcast news transcription system which was fielded in the 2006 GALE ASR and machine translation evaluation. These advances were instrumental in lowering the word error rate by 42% relative over the course of one year and include: training on additional LDC data, large-scale discriminative training on 1800 hours of unsupervised data, automatic vowelization using a flat-start approach, use of a large vocabulary with 617K words and 2 million pronunciations and lastly, a system architecture based on cross-adaptation between unvowelized and vowelized acoustic models."
+            },
+            "slug": "The-IBM-2006-Gale-Arabic-ASR-System-Soltau-Saon",
+            "title": {
+                "fragments": [],
+                "text": "The IBM 2006 Gale Arabic ASR System"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 84,
+                "text": "The advances made in IBM's Arabic broadcast news transcription system which was fielded in the 2006 GALE ASR and machine translation evaluation were instrumental in lowering the word error rate by 42% relative over the course of one year."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2007 IEEE International Conference on Acoustics, Speech and Signal Processing - ICASSP '07"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1801692"
+                        ],
+                        "name": "Y. Normandin",
+                        "slug": "Y.-Normandin",
+                        "structuredName": {
+                            "firstName": "Yves",
+                            "lastName": "Normandin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Normandin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1884410"
+                        ],
+                        "name": "R. Lacouture",
+                        "slug": "R.-Lacouture",
+                        "structuredName": {
+                            "firstName": "Roxane",
+                            "lastName": "Lacouture",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Lacouture"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39738052"
+                        ],
+                        "name": "R. Cardin",
+                        "slug": "R.-Cardin",
+                        "structuredName": {
+                            "firstName": "R\u00e9gis",
+                            "lastName": "Cardin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Cardin"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Index Terms\u2014 speech recognition, neural networks, discriminative training"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 169,
+                                "start": 166
+                            }
+                        ],
+                        "text": "The tasks to which Alphanets were applied were small enough that the contribution of the\ncompeting hypotheses to the gradient could be computed through a forward-backward pass using a phone-loop grammar."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 66,
+                                "start": 63
+                            }
+                        ],
+                        "text": "Third, neural network training criteria are discriminative, while the maximum likelihood criterion commonly used for GMM acoustic models is not."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 37577198,
+            "fieldsOfStudy": [
+                "Geology"
+            ],
+            "id": "3dc94113195515e1ef32bf02e3a738186d975c57",
+            "isKey": false,
+            "numCitedBy": 65,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A multi-dwelling structure is disclosed in which dwellings are arranged on terraces. The structure may be constructed on steep hill sides, or a hill may be built up from earth brought to the site. Preferably, one of the walls of the dwellings is formed of rigid upright panels with pliable reinforcing members secured to the panels and extending rearwardly into the earth to consolidate the earth particles. In the alternative, one of the walls of the dwellings may be formed of concrete cast in situ. The arrangement of the dwellings in the structure provides privacy and extensive areas for growing plants and trees."
+            },
+            "slug": "MMIE-training-for-large-vocabulary-continuous-Normandin-Lacouture",
+            "title": {
+                "fragments": [],
+                "text": "MMIE training for large vocabulary continuous speech recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 66,
+                "text": "A multi-dwelling structure is disclosed in which dwellings are arranged on terraces and the arrangement of the dwellings in the structure provides privacy and extensive areas for growing plants and trees."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICSLP"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745906"
+                        ],
+                        "name": "Y. Konig",
+                        "slug": "Y.-Konig",
+                        "structuredName": {
+                            "firstName": "Yochai",
+                            "lastName": "Konig",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Konig"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144798098"
+                        ],
+                        "name": "N. Morgan",
+                        "slug": "N.-Morgan",
+                        "structuredName": {
+                            "firstName": "Nelson",
+                            "lastName": "Morgan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Morgan"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "Index Terms\u2014 speech recognition, neural networks, discriminative training"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 203665123,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0bd1b295547a7cc39c41e68236b798cdcf5b9121",
+            "isKey": false,
+            "numCitedBy": 22,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Remap:-recursive-estimation-and-maximization-of-a-Konig-Morgan",
+            "title": {
+                "fragments": [],
+                "text": "Remap: recursive estimation and maximization of a posteriori probabilities in transition-based speech recognition"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1996
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "(3)"
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Neural networks for statistical recognition of speech"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proc. IEEE"
+            },
+            "year": 1995
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 13,
+            "methodology": 3
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 18,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Lattice-based-optimization-of-sequence-criteria-for-Kingsbury/2443dc59cf3d6cc1deba6d3220d61664b1a7eada?sort=total-citations"
+}
