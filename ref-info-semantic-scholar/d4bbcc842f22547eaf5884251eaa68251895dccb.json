@@ -1,0 +1,985 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "69968411"
+                        ],
+                        "name": "Arkadiusz Paterek",
+                        "slug": "Arkadiusz-Paterek",
+                        "structuredName": {
+                            "firstName": "Arkadiusz",
+                            "lastName": "Paterek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Arkadiusz Paterek"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 4181849,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f732d0f69fe4e84a95c32706b28b9e4ef1753c61",
+            "isKey": false,
+            "numCitedBy": 785,
+            "numCiting": 9,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A key part of a recommender system is a collaborative filtering algorithm predicting users\u2019 preferences for items. In this paper we describe different efficient collaborative filtering techniques and a framework for combining them to obtain a good prediction. The methods described in this paper are the most important parts of a solution predicting users\u2019 preferences for movies with error rate 7.04% better on the Netflix Prize dataset than the reference algorithm Netflix Cinematch. The set of predictors used includes algorithms suggested by Netflix Prize contestants: regularized singular value decomposition of data with missing values, K-means, postprocessing SVD with KNN. We propose extending the set of predictors with the following methods: addition of biases to the regularized SVD, postprocessing SVD with kernel ridge regression, using a separate linear model for each movie, and using methods similar to the regularized SVD, but with fewer parameters. All predictors and selected 2-way interactions between them are combined using linear regression on a holdout set."
+            },
+            "slug": "Improving-regularized-singular-value-decomposition-Paterek",
+            "title": {
+                "fragments": [],
+                "text": "Improving regularized singular value decomposition for collaborative filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "Different efficient collaborative filtering techniques and a framework for combining them to obtain a good prediction are described, predicting users\u2019 preferences for movies with error rate 7.04% better on the Netflix Prize dataset than the reference algorithm Netflix Cinematch."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2113543585"
+                        ],
+                        "name": "J. Bennett",
+                        "slug": "J.-Bennett",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Bennett",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Bennett"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47511653"
+                        ],
+                        "name": "S. Lanning",
+                        "slug": "S.-Lanning",
+                        "structuredName": {
+                            "firstName": "Stan",
+                            "lastName": "Lanning",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Lanning"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 9528522,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "31af4b8793e93fd35e89569ccd663ae8777f0072",
+            "isKey": false,
+            "numCitedBy": 2030,
+            "numCiting": 6,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Netflix released a dataset containing 100 million anonymous movie ratings and challenged the data mining, machine learning and computer science communities to develop systems that could beat the accuracy of its recommendation system, Cinematch. We briefly describe the challenge itself, review related work and efforts, and summarize visible progress to date. Other potential uses of the data are outlined, including its application to the KDD Cup 2007."
+            },
+            "slug": "The-Netflix-Prize-Bennett-Lanning",
+            "title": {
+                "fragments": [],
+                "text": "The Netflix Prize"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "Netflix released a dataset containing 100 million anonymous movie ratings and challenged the data mining, machine learning and computer science communities to develop systems that could beat the accuracy of its recommendation system, Cinematch."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 207168823,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cf6f83fcce274606bf0264c59d1c78a30c9c9d18",
+            "isKey": false,
+            "numCitedBy": 3612,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems provide users with personalized suggestions for products or services. These systems often rely on Collaborating Filtering (CF), where past transactions are analyzed in order to establish connections between users and products. The two more successful approaches to CF are latent factor models, which directly profile both users and products, and neighborhood models, which analyze similarities between products or users. In this work we introduce some innovations to both approaches. The factor and neighborhood models can now be smoothly merged, thereby building a more accurate combined model. Further accuracy improvements are achieved by extending the models to exploit both explicit and implicit feedback by the users. The methods are tested on the Netflix data. Results are better than those previously published on that dataset. In addition, we suggest a new evaluation metric, which highlights the differences among methods, based on their performance at a top-K recommendation task."
+            },
+            "slug": "Factorization-meets-the-neighborhood:-a-filtering-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Factorization meets the neighborhood: a multifaceted collaborative filtering model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 37,
+                "text": "The factor and neighborhood models can now be smoothly merged, thereby building a more accurate combined model and a new evaluation metric is suggested, which highlights the differences among methods, based on their performance at a top-K recommendation task."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50819900"
+                        ],
+                        "name": "Yifan Hu",
+                        "slug": "Yifan-Hu",
+                        "structuredName": {
+                            "firstName": "Yifan",
+                            "lastName": "Hu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yifan Hu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3146362"
+                        ],
+                        "name": "C. Volinsky",
+                        "slug": "C.-Volinsky",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Volinsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Volinsky"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10537313,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "184b7281a87ee16228b24716ca02b29519d52eb5",
+            "isKey": false,
+            "numCitedBy": 2749,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A common task of recommender systems is to improve customer experience through personalized recommendations based on prior implicit feedback. These systems passively track different sorts of user behavior, such as purchase history, watching habits and browsing activity, in order to model user preferences. Unlike the much more extensively researched explicit feedback, we do not have any direct input from the users regarding their preferences. In particular, we lack substantial evidence on which products consumer dislike. In this work we identify unique properties of implicit feedback datasets. We propose treating the data as indication of positive and negative preference associated with vastly varying confidence levels. This leads to a factor model which is especially tailored for implicit feedback recommenders. We also suggest a scalable optimization procedure, which scales linearly with the data size. The algorithm is used successfully within a recommender system for television shows. It compares favorably with well tuned implementations of other known methods. In addition, we offer a novel way to give explanations to recommendations given by this factor model."
+            },
+            "slug": "Collaborative-Filtering-for-Implicit-Feedback-Hu-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative Filtering for Implicit Feedback Datasets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work identifies unique properties of implicit feedback datasets and proposes treating the data as indication of positive and negative preference associated with vastly varying confidence levels, which leads to a factor model which is especially tailored for implicit feedback recommenders."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 Eighth IEEE International Conference on Data Mining"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145421648"
+                        ],
+                        "name": "G. Tak\u00e1cs",
+                        "slug": "G.-Tak\u00e1cs",
+                        "structuredName": {
+                            "firstName": "G\u00e1bor",
+                            "lastName": "Tak\u00e1cs",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Tak\u00e1cs"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2425143"
+                        ],
+                        "name": "I. Pil\u00e1szy",
+                        "slug": "I.-Pil\u00e1szy",
+                        "structuredName": {
+                            "firstName": "Istv\u00e1n",
+                            "lastName": "Pil\u00e1szy",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "I. Pil\u00e1szy"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2026153"
+                        ],
+                        "name": "B. N\u00e9meth",
+                        "slug": "B.-N\u00e9meth",
+                        "structuredName": {
+                            "firstName": "Botty\u00e1n",
+                            "lastName": "N\u00e9meth",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. N\u00e9meth"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1754164"
+                        ],
+                        "name": "D. Tikk",
+                        "slug": "D.-Tikk",
+                        "structuredName": {
+                            "firstName": "Domonkos",
+                            "lastName": "Tikk",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Tikk"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 4518283,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fe5e47686ea8f65567cd7faf867b07872444cf1e",
+            "isKey": false,
+            "numCitedBy": 154,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The Netflix Prize is a collaborative filtering problem. This subfield of machine learning became popular in the late 1990s with the spread of online services that used recommendation systems (e.g. Amazon, Yahoo! Music, and of course Netflix). The aim of such a system is to predict what items a user might like based on his/her and other users' previous ratings. The Netflix Prize dataset is much larger than former benchmark datasets, therefore the scalability of the algorithms is a must. This paper describes the major components of our blending based solution, called the Gravity Recommendation System (GRS). In the Netflix Prize contest, it attained RMSE 0.8743 as of November 2007. We now compare the effectiveness of some selected individual and combined approaches on a particular subset of the Prize dataset, and discuss their important features and drawbacks."
+            },
+            "slug": "Major-components-of-the-gravity-recommendation-Tak\u00e1cs-Pil\u00e1szy",
+            "title": {
+                "fragments": [],
+                "text": "Major components of the gravity recommendation system"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper describes the major components of the blending based solution, called the Gravity Recommendation System (GRS), and compares the effectiveness of some selected individual and combined approaches on a particular subset of the Prize dataset, and discusses their important features and drawbacks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SKDD"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2113591957"
+                        ],
+                        "name": "Robert M. Bell",
+                        "slug": "Robert-M.-Bell",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Bell",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Robert M. Bell"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 206784101,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0c953e630cccd64d2ad5fbb09f08425e7f82b7a3",
+            "isKey": false,
+            "numCitedBy": 559,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems based on collaborative filtering predict user preferences for products or services by learning past user-item relationships. A predominant approach to collaborative filtering is neighborhood based (\"k-nearest neighbors\"), where a user-item preference rating is interpolated from ratings of similar items and/or users. We enhance the neighborhood-based approach leading to substantial improvement of prediction accuracy, without a meaningful increase in running time. First, we remove certain so-called \"global effects\" from the data to make the ratings more comparable, thereby improving interpolation accuracy. Second, we show how to simultaneously derive interpolation weights for all nearest neighbors, unlike previous approaches where each weight is computed separately. By globally solving a suitable optimization problem, this simultaneous interpolation accounts for the many interactions between neighbors leading to improved accuracy. Our method is very fast in practice, generating a prediction in about 0.2 milliseconds. Importantly, it does not require training many parameters or a lengthy preprocessing, making it very practical for large scale applications. Finally, we show how to apply these methods to the perceivably much slower user-oriented approach. To this end, we suggest a novel scheme for low dimensional embedding of the users. We evaluate these methods on the netflix dataset, where they deliver significantly better results than the commercial netflix cinematch recommender system."
+            },
+            "slug": "Scalable-Collaborative-Filtering-with-Jointly-Bell-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Scalable Collaborative Filtering with Jointly Derived Neighborhood Interpolation Weights"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work enhances the neighborhood-based approach leading to substantial improvement of prediction accuracy, without a meaningful increase in running time, and suggests a novel scheme for low dimensional embedding of the users."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Seventh IEEE International Conference on Data Mining (ICDM 2007)"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118116274"
+                        ],
+                        "name": "Yunhong Zhou",
+                        "slug": "Yunhong-Zhou",
+                        "structuredName": {
+                            "firstName": "Yunhong",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yunhong Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39856623"
+                        ],
+                        "name": "D. Wilkinson",
+                        "slug": "D.-Wilkinson",
+                        "structuredName": {
+                            "firstName": "Dennis",
+                            "lastName": "Wilkinson",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Wilkinson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143986781"
+                        ],
+                        "name": "R. Schreiber",
+                        "slug": "R.-Schreiber",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Schreiber",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Schreiber"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066007146"
+                        ],
+                        "name": "Rong Pan",
+                        "slug": "Rong-Pan",
+                        "structuredName": {
+                            "firstName": "Rong",
+                            "lastName": "Pan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rong Pan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8574004,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4e8e3e40a25fba903f40246705c3beb3c122f523",
+            "isKey": false,
+            "numCitedBy": 780,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many recommendation systems suggest items to users by utilizing the techniques of collaborative filtering(CF) based on historical records of items that the users have viewed, purchased, or rated. Two major problems that most CF approaches have to contend with are scalability and sparseness of the user profiles. To tackle these issues, in this paper, we describe a CF algorithm alternating-least-squares with weighted-?-regularization(ALS-WR), which is implemented on a parallel Matlab platform. We show empirically that the performance of ALS-WR (in terms of root mean squared error(RMSE)) monotonically improves with both the number of features and the number of ALS iterations. We applied the ALS-WR algorithm on a large-scale CF problem, the Netflix Challenge, with 1000 hidden features and obtained a RMSE score of 0.8985, which is one of the best results based on a pure method. In addition, combining with the parallel version of other known methods, we achieved a performance improvement of 5.91% over Netflix's own CineMatch recommendation system. Our method is simple and scales well to very large datasets."
+            },
+            "slug": "Large-Scale-Parallel-Collaborative-Filtering-for-Zhou-Wilkinson",
+            "title": {
+                "fragments": [],
+                "text": "Large-Scale Parallel Collaborative Filtering for the Netflix Prize"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This paper describes a CF algorithm alternating-least-squares with weighted-?-regularization(ALS-WR), which is implemented on a parallel Matlab platform and shows empirically that the performance of ALS-WR monotonically improves with both the number of features and thenumber of ALS iterations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AAIM"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145124475"
+                        ],
+                        "name": "R. Salakhutdinov",
+                        "slug": "R.-Salakhutdinov",
+                        "structuredName": {
+                            "firstName": "Ruslan",
+                            "lastName": "Salakhutdinov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Salakhutdinov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1714004"
+                        ],
+                        "name": "A. Mnih",
+                        "slug": "A.-Mnih",
+                        "structuredName": {
+                            "firstName": "Andriy",
+                            "lastName": "Mnih",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Mnih"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 467086,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e19971e7d100386b9b4cf4ea1a0782b62fe036e5",
+            "isKey": false,
+            "numCitedBy": 3875,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many existing approaches to collaborative filtering can neither handle very large datasets nor easily deal with users who have very few ratings. In this paper we present the Probabilistic Matrix Factorization (PMF) model which scales linearly with the number of observations and, more importantly, performs well on the large, sparse, and very imbalanced Netflix dataset. We further extend the PMF model to include an adaptive prior on the model parameters and show how the model capacity can be controlled automatically. Finally, we introduce a constrained version of the PMF model that is based on the assumption that users who have rated similar sets of movies are likely to have similar preferences. The resulting model is able to generalize considerably better for users with very few ratings. When the predictions of multiple PMF models are linearly combined with the predictions of Restricted Boltzmann Machines models, we achieve an error rate of 0.8861, that is nearly 7% better than the score of Netflix's own system."
+            },
+            "slug": "Probabilistic-Matrix-Factorization-Salakhutdinov-Mnih",
+            "title": {
+                "fragments": [],
+                "text": "Probabilistic Matrix Factorization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The Probabilistic Matrix Factorization (PMF) model is presented, which scales linearly with the number of observations and performs well on the large, sparse, and very imbalanced Netflix dataset and is extended to include an adaptive prior on the model parameters."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32646084"
+                        ],
+                        "name": "B. Sarwar",
+                        "slug": "B.-Sarwar",
+                        "structuredName": {
+                            "firstName": "Badrul",
+                            "lastName": "Sarwar",
+                            "middleNames": [
+                                "Munir"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Sarwar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50877490"
+                        ],
+                        "name": "G. Karypis",
+                        "slug": "G.-Karypis",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Karypis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Karypis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2478310"
+                        ],
+                        "name": "J. Konstan",
+                        "slug": "J.-Konstan",
+                        "structuredName": {
+                            "firstName": "Joseph",
+                            "lastName": "Konstan",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Konstan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2579342"
+                        ],
+                        "name": "J. Riedl",
+                        "slug": "J.-Riedl",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Riedl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Riedl"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 17065558,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c3eddc356634d8c0d6db385567deffe1cf7cb3f6",
+            "isKey": false,
+            "numCitedBy": 1449,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Abstract : We investigate the use of dimensionality reduction to improve performance for a new class of data analysis software called \"recommender systems\" Recommender systems apply knowledge discovery techniques to the problem of making product recommendations during a live customer interaction. These systems are achieving widespread success in E-commerce nowadays, especially with the advent of the Internet. The tremendous growth of customers and products poses three key challenges for recommender systems in the E-commerce domain. These are: producing high quality recommendations, performing many recommendations per second for millions of customers and products, and achieving high coverage in the face of data sparsity. One successful recommender system technology is collaborative filtering, which works by matching customer preferences to other customers in making recommendations. Collaborative filtering has been shown to produce high quality recommendations, but the performance degrades with the number of customers and products. New recommender system technologies are needed that can quickly produce high quality recommendations, even for very largescale problems. This paper presents two different experiments where we have explored one technology called Singular Value Decomposition (SVD) to reduce the dimensionality of recommender system databases. Each experiment compares the quality of a recommender system using SVD with the quality of a recommender system using collaborative filtering. The first experiment compares the effectiveness of the two recommender systems at predicting consumer preferences based on a database of explicit ratings of products. The second experiment compares the effectiveness of the two recommender systems at producing Top-N lists based on a real-life customer purchase database from an E-Commerce site. Our experience suggests that SVD has the potential to meet many of the challenges of recommender systems, under certain conditions."
+            },
+            "slug": "Application-of-Dimensionality-Reduction-in-System-A-Sarwar-Karypis",
+            "title": {
+                "fragments": [],
+                "text": "Application of Dimensionality Reduction in Recommender System - A Case Study"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This paper presents two different experiments where one technology called Singular Value Decomposition (SVD) is explored to reduce the dimensionality of recommender system databases and suggests that SVD has the potential to meet many of the challenges ofRecommender systems, under certain conditions."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 3022077,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c1aa28159e768b75d0f4637a71d20da02efe1ef2",
+            "isKey": false,
+            "numCitedBy": 1668,
+            "numCiting": 45,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Customer preferences for products are drifting over time. Product perception and popularity are constantly changing as new selection emerges. Similarly, customer inclinations are evolving, leading them to ever redefine their taste. Thus, modeling temporal dynamics should be a key when designing recommender systems or general customer preference models. However, this raises unique challenges. Within the eco-system intersecting multiple products and customers, many different characteristics are shifting simultaneously, while many of them influence each other and often those shifts are delicate and associated with a few data instances. This distinguishes the problem from concept drift explorations, where mostly a single concept is tracked. Classical time-window or instance-decay approaches cannot work, as they lose too much signal when discarding data instances. A more sensitive approach is required, which can make better distinctions between transient effects and long term patterns. The paradigm we offer is creating a model tracking the time changing behavior throughout the life span of the data. This allows us to exploit the relevant components of all data instances, while discarding only what is modeled as being irrelevant. Accordingly, we revamp two leading collaborative filtering recommendation approaches. Evaluation is made on a large movie rating dataset by Netflix. Results are encouraging and better than those previously reported on this dataset."
+            },
+            "slug": "Collaborative-filtering-with-temporal-dynamics-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative filtering with temporal dynamics"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Two leading collaborative filtering recommendation approaches are revamp and a more sensitive approach is required, which can make better distinctions between transient effects and long term patterns."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38111918"
+                        ],
+                        "name": "David Goldberg",
+                        "slug": "David-Goldberg",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Goldberg",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David Goldberg"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152473861"
+                        ],
+                        "name": "D. Nichols",
+                        "slug": "D.-Nichols",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Nichols",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Nichols"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1724602"
+                        ],
+                        "name": "B. Oki",
+                        "slug": "B.-Oki",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Oki",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Oki"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1680763"
+                        ],
+                        "name": "D. Terry",
+                        "slug": "D.-Terry",
+                        "structuredName": {
+                            "firstName": "Douglas",
+                            "lastName": "Terry",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Terry"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1591394,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fe9cd9ab8bcc110847a8a4792134e4917fd7e933",
+            "isKey": false,
+            "numCitedBy": 4098,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The Tapestry experimental mail system developed at the Xerox Palo Alto Research Center is predicated on the belief that information filtering can be more effective when humans are involved in the filtering process. Tapestry was designed to support both content-based filtering and collaborative filtering, which entails people collaborating to help each other perform filtering by recording their reactions to documents they read. The reactions are called annotations; they can be accessed by other people\u2019s filters. Tapestry is intended to handle any incoming stream of electronic documents and serves both as a mail filter and repository; its components are the indexer, document store, annotation store, filterer, little box, remailer, appraiser and reader/browser. Tapestry\u2019s client/server architecture, its various components, and the Tapestry query language are described."
+            },
+            "slug": "Using-collaborative-filtering-to-weave-an-tapestry-Goldberg-Nichols",
+            "title": {
+                "fragments": [],
+                "text": "Using collaborative filtering to weave an information tapestry"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "Tapestry is intended to handle any incoming stream of electronic documents and serves both as a mail filter and repository; its components are the indexer, document store, annotation store, filterer, little box, remailer, appraiser and reader/browser."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Netflix Update: Try This at Home"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Dec"
+            },
+            "year": 2006
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {},
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 12,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Matrix-Factorization-Techniques-for-Recommender-Koren-Bell/d4bbcc842f22547eaf5884251eaa68251895dccb?sort=total-citations"
+}

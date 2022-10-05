@@ -1,0 +1,1593 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1401829700"
+                        ],
+                        "name": "Shai Ben-David",
+                        "slug": "Shai-Ben-David",
+                        "structuredName": {
+                            "firstName": "Shai",
+                            "lastName": "Ben-David",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shai Ben-David"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116927"
+                        ],
+                        "name": "John Blitzer",
+                        "slug": "John-Blitzer",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Blitzer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John Blitzer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1693407"
+                        ],
+                        "name": "K. Crammer",
+                        "slug": "K.-Crammer",
+                        "structuredName": {
+                            "firstName": "Koby",
+                            "lastName": "Crammer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "K. Crammer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145366908"
+                        ],
+                        "name": "Fernando C Pereira",
+                        "slug": "Fernando-C-Pereira",
+                        "structuredName": {
+                            "firstName": "Fernando",
+                            "lastName": "Pereira",
+                            "middleNames": [
+                                "C"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fernando C Pereira"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 58,
+                                "start": 36
+                            }
+                        ],
+                        "text": "Second, we evaluate the A-distance (Ben-David et al., 2006) between domains as measure of the loss due to adaptation from one to the other."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 33,
+                                "start": 10
+                            }
+                        ],
+                        "text": "We follow Ben-David et al. (2006) and use the Huber loss as a proxy for the A-distance."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Ben-David et al. (2006) show that computing the A-distance for a finite sample is exactly the problem of minimizing the empirical risk of a classifier that discriminates between instances drawn fromD and instances drawn from D\u2032."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10908021,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "96c6bc559b79d8fd518f431c707e8b44ce3bc4de",
+            "isKey": false,
+            "numCitedBy": 1495,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Discriminative learning methods for classification perform well when training and test data are drawn from the same distribution. In many situations, though, we have labeled training data for a source domain, and we wish to learn a classifier which performs well on a target domain with a different distribution. Under what conditions can we adapt a classifier trained on the source domain for use in the target domain? Intuitively, a good feature representation is a crucial factor in the success of domain adaptation. We formalize this intuition theoretically with a generalization bound for domain adaption. Our theory illustrates the tradeoffs inherent in designing a representation for domain adaptation and gives a new justification for a recently proposed model. It also points toward a promising new model for domain adaptation: one which explicitly minimizes the difference between the source and target domains, while at the same time maximizing the margin of the training set."
+            },
+            "slug": "Analysis-of-Representations-for-Domain-Adaptation-Ben-David-Blitzer",
+            "title": {
+                "fragments": [],
+                "text": "Analysis of Representations for Domain Adaptation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "The theory illustrates the tradeoffs inherent in designing a representation for domain adaptation and gives a new justification for a recently proposed model which explicitly minimizes the difference between the source and target domains, while at the same time maximizing the margin of the training set."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2116927"
+                        ],
+                        "name": "John Blitzer",
+                        "slug": "John-Blitzer",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Blitzer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John Blitzer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143957226"
+                        ],
+                        "name": "Ryan T. McDonald",
+                        "slug": "Ryan-T.-McDonald",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "McDonald",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan T. McDonald"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145366908"
+                        ],
+                        "name": "Fernando C Pereira",
+                        "slug": "Fernando-C-Pereira",
+                        "structuredName": {
+                            "firstName": "Fernando",
+                            "lastName": "Pereira",
+                            "middleNames": [
+                                "C"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Fernando C Pereira"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 47,
+                                "start": 26
+                            }
+                        ],
+                        "text": "Ando and Zhang (2005) and Blitzer et al. (2006) suggest \u03bb = 10\u22124, \u00b5 = 0, which we have used in our results so far."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 50
+                            }
+                        ],
+                        "text": "For the part of speech tagging problem studied by Blitzer et al. (2006), frequently-occurring words in both domains were good choices, since they often correspond to function words such as prepositions and determiners, which are good indicators of parts of speech."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 128,
+                                "start": 108
+                            }
+                        ],
+                        "text": "As we noted in Section 5, we are able to significantly outperform basic structural correspondence learning (Blitzer et al., 2006)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 142,
+                                "start": 122
+                            }
+                        ],
+                        "text": "We augment each labeled target instance xj with the label assigned by the source domain classifier (Florian et al., 2004; Blitzer et al., 2006)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 80,
+                                "start": 60
+                            }
+                        ],
+                        "text": "440\nrespondence learning (SCL) domain adaptation algorithm (Blitzer et al., 2006) for use in sentiment classification."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 71,
+                                "start": 50
+                            }
+                        ],
+                        "text": "We also note that while Florian et al. (2004) and Blitzer et al. (2006) observe that including the label of a source classifier as a feature on small amounts of target data tends to improve over using either the source alone or the target alone, we did not observe that for our data."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 27
+                            }
+                        ],
+                        "text": "Finally we note that while Blitzer et al. (2006) did combine SCL with labeled target domain data, they only compared using the label of SCL or non-SCL source classifiers as features, following the work of Florian et al. (2004)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 239,
+                                "start": 219
+                            }
+                        ],
+                        "text": "Then, it models the correlations between the pivot features and all other features by training linear pivot predictors to predict occurrences of each pivot in the unlabeled data from both domains (Ando and Zhang, 2005; Blitzer et al., 2006)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 187,
+                                "start": 166
+                            }
+                        ],
+                        "text": "First, we showed that for a given source and target domain, we can significantly improve for sentiment classification the structural correspondence learning model of Blitzer et al. (2006)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 15978939,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9fa8d73e572c3ca824a04a5f551b602a17831bc5",
+            "isKey": false,
+            "numCitedBy": 1554,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Discriminative learning methods are widely used in natural language processing. These methods work best when their training and test data are drawn from the same distribution. For many NLP tasks, however, we are confronted with new domains in which labeled data is scarce or non-existent. In such cases, we seek to adapt existing models from a resource-rich source domain to a resource-poor target domain. We introduce structural correspondence learning to automatically induce correspondences among features from different domains. We test our technique on part of speech tagging and show performance gains for varying amounts of source and target training data, as well as improvements in target domain parsing accuracy using our improved tagger."
+            },
+            "slug": "Domain-Adaptation-with-Structural-Correspondence-Blitzer-McDonald",
+            "title": {
+                "fragments": [],
+                "text": "Domain Adaptation with Structural Correspondence Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work introduces structural correspondence learning to automatically induce correspondences among features from different domains in order to adapt existing models from a resource-rich source domain to aresource-poor target domain."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EMNLP"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144865353"
+                        ],
+                        "name": "B. Pang",
+                        "slug": "B.-Pang",
+                        "structuredName": {
+                            "firstName": "Bo",
+                            "lastName": "Pang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Pang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145810617"
+                        ],
+                        "name": "Lillian Lee",
+                        "slug": "Lillian-Lee",
+                        "structuredName": {
+                            "firstName": "Lillian",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lillian Lee"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 140,
+                                "start": 69
+                            }
+                        ],
+                        "text": "Sentiment classification has advanced considerably since the work of Pang et al. (2002), which we use as our baseline. Thomas et al. (2006) use discourse structure present in congressional records to perform more accurate sentiment classification."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 20,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Pang and Lee (2005) treat sentiment analysis as an ordinal ranking problem."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 69
+                            }
+                        ],
+                        "text": "Sentiment classification has advanced considerably since the work of Pang et al. (2002), which we use as our baseline."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3264224,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6af58c061f2e4f130c3b795c21ff0c7e3903278f",
+            "isKey": false,
+            "numCitedBy": 2360,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We address the rating-inference problem, wherein rather than simply decide whether a review is \"thumbs up\" or \"thumbs down\", as in previous sentiment analysis work, one must determine an author's evaluation with respect to a multi-point scale (e.g., one to five \"stars\"). This task represents an interesting twist on standard multi-class text categorization because there are several different degrees of similarity between class labels; for example, \"three stars\" is intuitively closer to \"four stars\" than to \"one star\".We first evaluate human performance at the task. Then, we apply a meta-algorithm, based on a metric labeling formulation of the problem, that alters a given n-ary classifier's output in an explicit attempt to ensure that similar items receive similar labels. We show that the meta-algorithm can provide significant improvements over both multi-class and regression versions of SVMs when we employ a novel similarity measure appropriate to the problem."
+            },
+            "slug": "Seeing-Stars:-Exploiting-Class-Relationships-for-to-Pang-Lee",
+            "title": {
+                "fragments": [],
+                "text": "Seeing Stars: Exploiting Class Relationships for Sentiment Categorization with Respect to Rating Scales"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A meta-algorithm is applied, based on a metric labeling formulation of the rating-inference problem, that alters a given n-ary classifier's output in an explicit attempt to ensure that similar items receive similar labels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACL"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2417893"
+                        ],
+                        "name": "A. Goldberg",
+                        "slug": "A.-Goldberg",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Goldberg",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Goldberg"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1832364"
+                        ],
+                        "name": "Xiaojin Zhu",
+                        "slug": "Xiaojin-Zhu",
+                        "structuredName": {
+                            "firstName": "Xiaojin",
+                            "lastName": "Zhu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiaojin Zhu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 141,
+                                "start": 84
+                            }
+                        ],
+                        "text": "Sentiment detection and classification has received considerable attention recently (Pang et al., 2002; Turney, 2002; Goldberg and Zhu, 2004)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2795175,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6fec21a78eb9279c87cc89ef7efa0acf22ff4abd",
+            "isKey": false,
+            "numCitedBy": 368,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a graph-based semi-supervised learning algorithm to address the sentiment analysis task of rating inference. Given a set of documents (e.g., movie reviews) and accompanying ratings (e.g., \"4 stars\"), the task calls for inferring numerical ratings for unlabeled documents based on the perceived sentiment expressed by their text. In particular, we are interested in the situation where labeled data is scarce. We place this task in the semi-supervised setting and demonstrate that considering unlabeled reviews in the learning process can improve rating-inference performance. We do so by creating a graph on both labeled and unlabeled data to encode certain assumptions for this task. We then solve an optimization problem to obtain a smooth rating function over the whole graph. When only limited labeled data is available, this method achieves significantly better predictive accuracy over other methods that ignore the unlabeled examples during training."
+            },
+            "slug": "Seeing-stars-when-there-aren\u2019t-many-stars:-learning-Goldberg-Zhu",
+            "title": {
+                "fragments": [],
+                "text": "Seeing stars when there aren\u2019t many stars: Graph-based semi-supervised learning for sentiment categorization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 64,
+                "text": "A graph-based semi-supervised learning algorithm is presented to address the sentiment analysis task of rating inference and achieves significantly better predictive accuracy over other methods that ignore the unlabeled examples during training."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2006
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "38070424"
+                        ],
+                        "name": "R. Ando",
+                        "slug": "R.-Ando",
+                        "structuredName": {
+                            "firstName": "Rie",
+                            "lastName": "Ando",
+                            "middleNames": [
+                                "Kubota"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Ando"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2117881943"
+                        ],
+                        "name": "Tong Zhang",
+                        "slug": "Tong-Zhang",
+                        "structuredName": {
+                            "firstName": "Tong",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tong Zhang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 240,
+                                "start": 196
+                            }
+                        ],
+                        "text": "Then, it models the correlations between the pivot features and all other features by training linear pivot predictors to predict occurrences of each pivot in the unlabeled data from both domains (Ando and Zhang, 2005; Blitzer et al., 2006)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 22
+                            }
+                        ],
+                        "text": "Using the notation of Ando and Zhang (2005), we can write the supervised training objective of SCL on the source domain as"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Ando and Zhang (2005) and Blitzer et al. (2006) suggest \u03bb = 10\u22124, \u03bc = 0, which we have used in our results so far."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 13650160,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "944e1a7b2c5c62e952418d7684e3cade89c76f87",
+            "isKey": false,
+            "numCitedBy": 1442,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "One of the most important issues in machine learning is whether one can improve the performance of a supervised learning algorithm by including unlabeled data. Methods that use both labeled and unlabeled data are generally referred to as semi-supervised learning. Although a number of such methods are proposed, at the current stage, we still don't have a complete understanding of their effectiveness. This paper investigates a closely related problem, which leads to a novel approach to semi-supervised learning. Specifically we consider learning predictive structures on hypothesis spaces (that is, what kind of classifiers have good predictive power) from multiple learning tasks. We present a general framework in which the structural learning problem can be formulated and analyzed theoretically, and relate it to learning with unlabeled data. Under this framework, algorithms for structural learning will be proposed, and computational issues will be investigated. Experiments will be given to demonstrate the effectiveness of the proposed algorithms in the semi-supervised learning setting."
+            },
+            "slug": "A-Framework-for-Learning-Predictive-Structures-from-Ando-Zhang",
+            "title": {
+                "fragments": [],
+                "text": "A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper presents a general framework in which the structural learning problem can be formulated and analyzed theoretically, and relate it to learning with unlabeled data, and algorithms for structural learning will be proposed, and computational issues will be investigated."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144865353"
+                        ],
+                        "name": "B. Pang",
+                        "slug": "B.-Pang",
+                        "structuredName": {
+                            "firstName": "Bo",
+                            "lastName": "Pang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Pang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145810617"
+                        ],
+                        "name": "Lillian Lee",
+                        "slug": "Lillian-Lee",
+                        "structuredName": {
+                            "firstName": "Lillian",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lillian Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066721"
+                        ],
+                        "name": "Shivakumar Vaithyanathan",
+                        "slug": "Shivakumar-Vaithyanathan",
+                        "structuredName": {
+                            "firstName": "Shivakumar",
+                            "lastName": "Vaithyanathan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shivakumar Vaithyanathan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 68
+                            }
+                        ],
+                        "text": "On the polarity dataset, this model matches the results reported by Pang et al. (2002). When we report results with SCL and SCL-MI, we require that pivots occur in more than five documents in each domain."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 69
+                            }
+                        ],
+                        "text": "Sentiment classification has advanced considerably since the work of Pang et al. (2002), which we use as our baseline."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 160,
+                                "start": 143
+                            }
+                        ],
+                        "text": "After this conversion, we had 1000 positive and 1000 negative examples for each domain, the same balanced composition as the polarity dataset (Pang et al., 2002)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 85
+                            }
+                        ],
+                        "text": "Sentiment detection and classification has received considerable attention recently (Pang et al., 2002; Turney, 2002; Goldberg and Zhu, 2004)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 68
+                            }
+                        ],
+                        "text": "On the polarity dataset, this model matches the results reported by Pang et al. (2002)."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7105713,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "12d0353ce8b41b7e5409e5a4a611110aee33c7bc",
+            "isKey": true,
+            "numCitedBy": 8717,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We consider the problem of classifying documents not by topic, but by overall sentiment, e.g., determining whether a review is positive or negative. Using movie reviews as data, we find that standard machine learning techniques definitively outperform human-produced baselines. However, the three machine learning methods we employed (Naive Bayes, maximum entropy classification, and support vector machines) do not perform as well on sentiment classification as on traditional topic-based categorization. We conclude by examining factors that make the sentiment classification problem more challenging."
+            },
+            "slug": "Thumbs-up-Sentiment-Classification-using-Machine-Pang-Lee",
+            "title": {
+                "fragments": [],
+                "text": "Thumbs up? Sentiment Classification using Machine Learning Techniques"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 72,
+                "text": "This work considers the problem of classifying documents not by topic, but by overall sentiment, e.g., determining whether a review is positive or negative, and concludes by examining factors that make the sentiment classification problem more challenging."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EMNLP"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1802969"
+                        ],
+                        "name": "Ciprian Chelba",
+                        "slug": "Ciprian-Chelba",
+                        "structuredName": {
+                            "firstName": "Ciprian",
+                            "lastName": "Chelba",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ciprian Chelba"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1723644"
+                        ],
+                        "name": "A. Acero",
+                        "slug": "A.-Acero",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Acero",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Acero"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 15
+                            }
+                        ],
+                        "text": "In particular, Chelba and Acero (2004) showed how this technique can be effective for capitalization adaptation."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2925420,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "80e12e85fd990dc396099794a779d1423ef28e21",
+            "isKey": false,
+            "numCitedBy": 263,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Adaptation-of-Maximum-Entropy-Capitalizer:-Little-a-Chelba-Acero",
+            "title": {
+                "fragments": [],
+                "text": "Adaptation of Maximum Entropy Capitalizer: Little Data Can Help a Lo"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Comput. Speech Lang."
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1707117"
+                        ],
+                        "name": "Radu Florian",
+                        "slug": "Radu-Florian",
+                        "structuredName": {
+                            "firstName": "Radu",
+                            "lastName": "Florian",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Radu Florian"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143925074"
+                        ],
+                        "name": "Hany Hassan",
+                        "slug": "Hany-Hassan",
+                        "structuredName": {
+                            "firstName": "Hany",
+                            "lastName": "Hassan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hany Hassan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1683685"
+                        ],
+                        "name": "Abraham Ittycheriah",
+                        "slug": "Abraham-Ittycheriah",
+                        "structuredName": {
+                            "firstName": "Abraham",
+                            "lastName": "Ittycheriah",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Abraham Ittycheriah"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40544823"
+                        ],
+                        "name": "Hongyan Jing",
+                        "slug": "Hongyan-Jing",
+                        "structuredName": {
+                            "firstName": "Hongyan",
+                            "lastName": "Jing",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hongyan Jing"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2302447"
+                        ],
+                        "name": "N. Kambhatla",
+                        "slug": "N.-Kambhatla",
+                        "structuredName": {
+                            "firstName": "Nanda",
+                            "lastName": "Kambhatla",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Kambhatla"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34501578"
+                        ],
+                        "name": "Xiaoqiang Luo",
+                        "slug": "Xiaoqiang-Luo",
+                        "structuredName": {
+                            "firstName": "Xiaoqiang",
+                            "lastName": "Luo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiaoqiang Luo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144583752"
+                        ],
+                        "name": "Nicolas Nicolov",
+                        "slug": "Nicolas-Nicolov",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Nicolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicolas Nicolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1781292"
+                        ],
+                        "name": "S. Roukos",
+                        "slug": "S.-Roukos",
+                        "structuredName": {
+                            "firstName": "Salim",
+                            "lastName": "Roukos",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Roukos"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 120,
+                                "start": 100
+                            }
+                        ],
+                        "text": "We augment each labeled target instance xj with the label assigned by the source domain classifier (Florian et al., 2004; Blitzer et al., 2006)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 24
+                            }
+                        ],
+                        "text": "We also note that while Florian et al. (2004) and Blitzer et al. (2006) observe that including the label of a source classifier as a feature on small amounts of target data tends to improve over using either the source alone or the target alone, we did not observe that for our data."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 226,
+                                "start": 205
+                            }
+                        ],
+                        "text": "Finally we note that while Blitzer et al. (2006) did combine SCL with labeled target domain data, they only compared using the label of SCL or non-SCL source classifiers as features, following the work of Florian et al. (2004)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14831480,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "54c04d731368ad14ab3902c1abae46b8b62cb633",
+            "isKey": false,
+            "numCitedBy": 200,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Abstract : Entity detection and tracking is a relatively new addition to the repertoire of natural language tasks. In this paper, we present a statistical language-independent framework for identifying and tracking named, nominal and pronominal references to entities within unrestricted text documents, and chaining them into clusters corresponding to each logical entity present in the text. Both the mention detection model and the novel entity tracking model can use arbitrary feature types, being able to integrate a wide array of lexical, syntactic and semantic features. In addition, the mention detection model crucially uses feature streams derived from different named entity classifiers. The proposed framework is evaluated with several experiments run in Arabic, Chinese and English texts; a system based on the approach described here and submitted to the latest Automatic Content Extraction (ACE) evaluation achieved top-tier results in all three evaluation languages."
+            },
+            "slug": "A-Statistical-Model-for-Multilingual-Entity-and-Florian-Hassan",
+            "title": {
+                "fragments": [],
+                "text": "A Statistical Model for Multilingual Entity Detection and Tracking"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 58,
+                "text": "This paper presents a statistical language-independent framework for identifying and tracking named, nominal and pronominal references to entities within unrestricted text documents, and chaining them into clusters corresponding to each logical entity present in the text."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NAACL"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1689647"
+                        ],
+                        "name": "Peter D. Turney",
+                        "slug": "Peter-D.-Turney",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Turney",
+                            "middleNames": [
+                                "D."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Peter D. Turney"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 454,
+                                "start": 48
+                            }
+                        ],
+                        "text": "The work most similar in spirit to ours that of Turney (2002). He used the difference in mutual information with two human-selected features (the words \u201cexcellent\u201d and \u201cpoor\u201d) to score features in a completely unsupervised manner. Then he classified documents according to various functions of these mutual information scores. We stress that our method improves a supervised baseline. While we do not have a direct comparison, we note that Turney (2002) performs worse on movie reviews than on his other datasets, the same type of data as the polarity dataset."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 62,
+                                "start": 48
+                            }
+                        ],
+                        "text": "The work most similar in spirit to ours that of Turney (2002). He used the difference in mutual information with two human-selected features (the words \u201cexcellent\u201d and \u201cpoor\u201d) to score features in a completely unsupervised manner."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 141,
+                                "start": 84
+                            }
+                        ],
+                        "text": "Sentiment detection and classification has received considerable attention recently (Pang et al., 2002; Turney, 2002; Goldberg and Zhu, 2004)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 484335,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9e7c7853a16a378cc24a082153b282257a9675b7",
+            "isKey": false,
+            "numCitedBy": 5519,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents a simple unsupervised learning algorithm for classifying reviews as recommended (thumbs up) or not recommended (thumbs down). The classification of a review is predicted by the average semantic orientation of the phrases in the review that contain adjectives or adverbs. A phrase has a positive semantic orientation when it has good associations (e.g., \"subtle nuances\") and a negative semantic orientation when it has bad associations (e.g., \"very cavalier\"). In this paper, the semantic orientation of a phrase is calculated as the mutual information between the given phrase and the word \"excellent\" minus the mutual information between the given phrase and the word \"poor\". A review is classified as recommended if the average semantic orientation of its phrases is positive. The algorithm achieves an average accuracy of 74% when evaluated on 410 reviews from Epinions, sampled from four different domains (reviews of automobiles, banks, movies, and travel destinations). The accuracy ranges from 84% for automobile reviews to 66% for movie reviews."
+            },
+            "slug": "Thumbs-Up-or-Thumbs-Down-Semantic-Orientation-to-of-Turney",
+            "title": {
+                "fragments": [],
+                "text": "Thumbs Up or Thumbs Down? Semantic Orientation Applied to Unsupervised Classification of Reviews"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 80,
+                "text": "A simple unsupervised learning algorithm for classifying reviews as recommended (thumbs up) or not recommended (Thumbs down) if the average semantic orientation of its phrases is positive."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACL"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2117881943"
+                        ],
+                        "name": "Tong Zhang",
+                        "slug": "Tong-Zhang",
+                        "structuredName": {
+                            "firstName": "Tong",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tong Zhang"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 5306879,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0ef7d9e618cbb507d69f8ebcdc60b8a1f3135bff",
+            "isKey": false,
+            "numCitedBy": 1040,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Linear prediction methods, such as least squares for regression, logistic regression and support vector machines for classification, have been extensively used in statistics and machine learning. In this paper, we study stochastic gradient descent (SGD) algorithms on regularized forms of linear prediction methods. This class of methods, related to online algorithms such as perceptron, are both efficient and very simple to implement. We obtain numerical rate of convergence for such algorithms, and discuss its implications. Experiments on text data will be provided to demonstrate numerical and statistical consequences of our theoretical findings."
+            },
+            "slug": "Solving-large-scale-linear-prediction-problems-Zhang",
+            "title": {
+                "fragments": [],
+                "text": "Solving large scale linear prediction problems using stochastic gradient descent algorithms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "Stochastic gradient descent algorithms on regularized forms of linear prediction methods, related to online algorithms such as perceptron, are studied, and numerical rate of convergence for such algorithms is obtained."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2110128846"
+                        ],
+                        "name": "Matt Thomas",
+                        "slug": "Matt-Thomas",
+                        "structuredName": {
+                            "firstName": "Matt",
+                            "lastName": "Thomas",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matt Thomas"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144865353"
+                        ],
+                        "name": "B. Pang",
+                        "slug": "B.-Pang",
+                        "structuredName": {
+                            "firstName": "Bo",
+                            "lastName": "Pang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Pang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145810617"
+                        ],
+                        "name": "Lillian Lee",
+                        "slug": "Lillian-Lee",
+                        "structuredName": {
+                            "firstName": "Lillian",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lillian Lee"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 20,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Thomas et al. (2006) use discourse structure present in congressional records to perform more accurate sentiment classification."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 220,
+                                "start": 201
+                            }
+                        ],
+                        "text": "While movie reviews have been the most studied domain, sentiment analysis has extended to a number of new domains, ranging from stock message boards to congressional floor debates (Das and Chen, 2001; Thomas et al., 2006)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1587,
+            "fieldsOfStudy": [
+                "Economics"
+            ],
+            "id": "0c954bc14181c7b140e6727738ebb7a596754de9",
+            "isKey": false,
+            "numCitedBy": 595,
+            "numCiting": 86,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We investigate whether one can determine from the transcripts of U.S. Congressional floor debates whether the speeches represent support of or opposition to proposed legislation. To address this problem, we exploit the fact that these speeches occur as part of a discussion; this allows us to use sources of information regarding relationships between discourse segments, such as whether a given utterance indicates agreement with the opinion expressed by another. We find that the incorporation of such information yields substantial improvements over classifying speeches in isolation."
+            },
+            "slug": "Get-out-the-vote:-Determining-support-or-opposition-Thomas-Pang",
+            "title": {
+                "fragments": [],
+                "text": "Get out the vote: Determining support or opposition from Congressional floor-debate transcripts"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is found that the incorporation of sources of information regarding relationships between discourse segments, such as whether a given utterance indicates agreement with the opinion expressed by another, yields substantial improvements over classifying speeches in isolation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "EMNLP"
+            },
+            "year": 2006
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 221,
+                                "start": 180
+                            }
+                        ],
+                        "text": "While movie reviews have been the most studied domain, sentiment analysis has extended to a number of new domains, ranging from stock message boards to congressional floor debates (Das and Chen, 2001; Thomas et al., 2006)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Yahoo! for amazon: Extracting market sentiment from stock message boards"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of Athe Asia Pacific Finance Association Annual Conference."
+            },
+            "year": 2001
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 10,
+            "methodology": 7,
+            "result": 3
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 12,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Biographies,-Bollywood,-Boom-boxes-and-Blenders:-Blitzer-Dredze/d895647b4a80861703851ef55930a2627fe19492?sort=total-citations"
+}

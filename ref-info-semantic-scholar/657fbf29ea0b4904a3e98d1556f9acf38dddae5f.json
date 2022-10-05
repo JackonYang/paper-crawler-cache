@@ -1,0 +1,881 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49528584"
+                        ],
+                        "name": "Hao Wang",
+                        "slug": "Hao-Wang",
+                        "structuredName": {
+                            "firstName": "Hao",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Hao Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48246959"
+                        ],
+                        "name": "Naiyan Wang",
+                        "slug": "Naiyan-Wang",
+                        "structuredName": {
+                            "firstName": "Naiyan",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Naiyan Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1739816"
+                        ],
+                        "name": "D. Yeung",
+                        "slug": "D.-Yeung",
+                        "structuredName": {
+                            "firstName": "Dit-Yan",
+                            "lastName": "Yeung",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Yeung"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 194,
+                                "start": 191
+                            }
+                        ],
+                        "text": "In the recommender systems literature, collaborative deep learning has been explored by coupling deep learning for content information and collaborative filtering (CF) for the ratings matrix [7]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 4833213,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3eaf79589dbb9bce5a502e867a8f03917e52de26",
+            "isKey": false,
+            "numCitedBy": 1341,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Collaborative filtering (CF) is a successful approach commonly used by many recommender systems. Conventional CF-based methods use the ratings given to items by users as the sole source of information for learning to make recommendation. However, the ratings are often very sparse in many applications, causing CF-based methods to degrade significantly in their recommendation performance. To address this sparsity problem, auxiliary information such as item content information may be utilized. Collaborative topic regression (CTR) is an appealing recent method taking this approach which tightly couples the two components that learn from two different sources of information. Nevertheless, the latent representation learned by CTR may not be very effective when the auxiliary information is very sparse. To address this problem, we generalize recently advances in deep learning from i.i.d. input to non-i.i.d. (CF-based) input and propose in this paper a hierarchical Bayesian model called collaborative deep learning (CDL), which jointly performs deep representation learning for the content information and collaborative filtering for the ratings (feedback) matrix. Extensive experiments on three real-world datasets from different domains show that CDL can significantly advance the state of the art."
+            },
+            "slug": "Collaborative-Deep-Learning-for-Recommender-Systems-Wang-Wang",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative Deep Learning for Recommender Systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A hierarchical Bayesian model called collaborative deep learning (CDL), which jointly performs deep representation learning for the content information and collaborative filtering for the ratings (feedback) matrix is proposed, which can significantly advance the state of the art."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2843982"
+                        ],
+                        "name": "Steffen Rendle",
+                        "slug": "Steffen-Rendle",
+                        "structuredName": {
+                            "firstName": "Steffen",
+                            "lastName": "Rendle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steffen Rendle"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 194,
+                                "start": 191
+                            }
+                        ],
+                        "text": "The idea of combining wide linear models with crossproduct feature transformations and deep neural networks with dense embeddings is inspired by previous work, such as factorization machines [5] which add generalization to linear models by factorizing the interactions between two variables as a dot product between two low-dimensional embedding vectors."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 58,
+                                "start": 55
+                            }
+                        ],
+                        "text": "Embedding-based models, such as factorization machines [5] or deep neural networks, can generalize to previously unseen query-item feature pairs by learning a low-dimensional dense embedding vector for each query and item feature, with less burden of feature engineering."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5499886,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e50f4d3316d13841c287dcdf5479d7820d593571",
+            "isKey": false,
+            "numCitedBy": 1084,
+            "numCiting": 49,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Factorization approaches provide high accuracy in several important prediction problems, for example, recommender systems. However, applying factorization approaches to a new prediction problem is a nontrivial task and requires a lot of expert knowledge. Typically, a new model is developed, a learning algorithm is derived, and the approach has to be implemented.\n Factorization machines (FM) are a generic approach since they can mimic most factorization models just by feature engineering. This way, factorization machines combine the generality of feature engineering with the superiority of factorization models in estimating interactions between categorical variables of large domain. libFM is a software implementation for factorization machines that features stochastic gradient descent (SGD) and alternating least-squares (ALS) optimization, as well as Bayesian inference using Markov Chain Monto Carlo (MCMC). This article summarizes the recent research on factorization machines both in terms of modeling and learning, provides extensions for the ALS and MCMC algorithms, and describes the software tool libFM."
+            },
+            "slug": "Factorization-Machines-with-libFM-Rendle",
+            "title": {
+                "fragments": [],
+                "text": "Factorization Machines with libFM"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TIST"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39353098"
+                        ],
+                        "name": "Kaiming He",
+                        "slug": "Kaiming-He",
+                        "structuredName": {
+                            "firstName": "Kaiming",
+                            "lastName": "He",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kaiming He"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1771551"
+                        ],
+                        "name": "X. Zhang",
+                        "slug": "X.-Zhang",
+                        "structuredName": {
+                            "firstName": "X.",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3080683"
+                        ],
+                        "name": "Shaoqing Ren",
+                        "slug": "Shaoqing-Ren",
+                        "structuredName": {
+                            "firstName": "Shaoqing",
+                            "lastName": "Ren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shaoqing Ren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [],
+                        "name": "Jian Sun",
+                        "slug": "Jian-Sun",
+                        "structuredName": {
+                            "firstName": "Jian",
+                            "lastName": "Sun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jian Sun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 46,
+                                "start": 43
+                            }
+                        ],
+                        "text": "In computer vision, deep residual learning [2] has been used to reduce the difficulty of training deeper models and improve accuracy with shortcut connections which skip one or more layers."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206594692,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+            "isKey": false,
+            "numCitedBy": 106571,
+            "numCiting": 54,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers - 8\u00d7 deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions1, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation."
+            },
+            "slug": "Deep-Residual-Learning-for-Image-Recognition-He-Zhang",
+            "title": {
+                "fragments": [],
+                "text": "Deep Residual Learning for Image Recognition"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 63,
+                "text": "This work presents a residual learning framework to ease the training of networks that are substantially deeper than those used previously, and provides comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1734693"
+                        ],
+                        "name": "John C. Duchi",
+                        "slug": "John-C.-Duchi",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Duchi",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "John C. Duchi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34840427"
+                        ],
+                        "name": "Elad Hazan",
+                        "slug": "Elad-Hazan",
+                        "structuredName": {
+                            "firstName": "Elad",
+                            "lastName": "Hazan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Elad Hazan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1740765"
+                        ],
+                        "name": "Y. Singer",
+                        "slug": "Y.-Singer",
+                        "structuredName": {
+                            "firstName": "Yoram",
+                            "lastName": "Singer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Singer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 165,
+                                "start": 162
+                            }
+                        ],
+                        "text": "In the experiments, we used Followthe-regularized-leader (FTRL) algorithm [3] with L1 regularization as the optimizer for the wide part of the model, and AdaGrad [1] for the deep part."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 538820,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "413c1142de9d91804d6d11c67ff3fed59c9fc279",
+            "isKey": false,
+            "numCitedBy": 8368,
+            "numCiting": 56,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a new family of subgradient methods that dynamically incorporate knowledge of the geometry of the data observed in earlier iterations to perform more informative gradient-based learning. Metaphorically, the adaptation allows us to find needles in haystacks in the form of very predictive but rarely seen features. Our paradigm stems from recent advances in stochastic optimization and online learning which employ proximal functions to control the gradient steps of the algorithm. We describe and analyze an apparatus for adaptively modifying the proximal function, which significantly simplifies setting a learning rate and results in regret guarantees that are provably as good as the best proximal function that can be chosen in hindsight. We give several efficient algorithms for empirical risk minimization problems with common and important regularization functions and domain constraints. We experimentally study our theoretical analysis and show that adaptive subgradient methods outperform state-of-the-art, yet non-adaptive, subgradient algorithms."
+            },
+            "slug": "Adaptive-Subgradient-Methods-for-Online-Learning-Duchi-Hazan",
+            "title": {
+                "fragments": [],
+                "text": "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work describes and analyze an apparatus for adaptively modifying the proximal function, which significantly simplifies setting a learning rate and results in regret guarantees that are provably as good as the best proximal functions that can be chosen in hindsight."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2075430776"
+                        ],
+                        "name": "Bo Yan",
+                        "slug": "Bo-Yan",
+                        "structuredName": {
+                            "firstName": "Bo",
+                            "lastName": "Yan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bo Yan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3045450"
+                        ],
+                        "name": "Guanling Chen",
+                        "slug": "Guanling-Chen",
+                        "structuredName": {
+                            "firstName": "Guanling",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Guanling Chen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 126
+                            }
+                        ],
+                        "text": "There has also been previous work on mobile app recommender systems, such as AppJoy which used CF on users\u2019 app usage records [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 207188668,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3206d5ad969a671fd5ba76f45c6c3043e9314edc",
+            "isKey": false,
+            "numCitedBy": 204,
+            "numCiting": 14,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The explosive growth of the mobile application market has made it a significant challenge for the users to find interesting applications in crowded App Stores. To alleviate this problem, existing industry solutions often use the users' application download history and possibly their ratings to recommend applications that might interest them, much like Amazon's book recommendations. However, the user downloading an application is a weak indicator of whether the user likes that application, particularly if the application is free and the user just wants to try it out. Using application ratings, on the other hand, suffers from tedious manual input and potential data sparsity problems.\n In this paper, we present the AppJoy system that makes personalized application recommendations by analyzing how the user actually uses her installed applications. Based on all participants' application usage records, AppJoy employs an item-based collaborative filtering algorithm for individualized recommendations. We discuss AppJoy's design and implementation, and the evaluation shows that it consumes little resource on the off-the-shelf Google Android phones. AppJoy has been available in the Android Market and used by more than 4600 users. The AppJoy's prediction algorithm provided reasonably accurate usage estimate of the recommended applications after they were installed. We also found AppJoy to be effective as the users interacted with recommended applications longer than other applications."
+            },
+            "slug": "AppJoy:-personalized-mobile-application-discovery-Yan-Chen",
+            "title": {
+                "fragments": [],
+                "text": "AppJoy: personalized mobile application discovery"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "The AppJoy system that makes personalized application recommendations by analyzing how the user actually uses her installed applications is presented, and the evaluation shows that it consumes little resource on the off-the-shelf Google Android phones."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "MobiSys '11"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1713801"
+                        ],
+                        "name": "Anoop Deoras",
+                        "slug": "Anoop-Deoras",
+                        "structuredName": {
+                            "firstName": "Anoop",
+                            "lastName": "Deoras",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Anoop Deoras"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1792214"
+                        ],
+                        "name": "Daniel Povey",
+                        "slug": "Daniel-Povey",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Povey",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Daniel Povey"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1816892"
+                        ],
+                        "name": "L. Burget",
+                        "slug": "L.-Burget",
+                        "structuredName": {
+                            "firstName": "Luk\u00e1\u0161",
+                            "lastName": "Burget",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Burget"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1899242"
+                        ],
+                        "name": "J. \u010cernock\u00fd",
+                        "slug": "J.-\u010cernock\u00fd",
+                        "structuredName": {
+                            "firstName": "Jan",
+                            "lastName": "\u010cernock\u00fd",
+                            "middleNames": [
+                                "Honza"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. \u010cernock\u00fd"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 15076873,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cb45e9217fe323fbc199d820e7735488fca2a9b3",
+            "isKey": false,
+            "numCitedBy": 487,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe how to effectively train neural network based language models on large data sets. Fast convergence during training and better overall performance is observed when the training data are sorted by their relevance. We introduce hash-based implementation of a maximum entropy model, that can be trained as a part of the neural network model. This leads to significant reduction of computational complexity. We achieved around 10% relative reduction of word error rate on English Broadcast News speech recognition task, against large 4-gram model trained on 400M tokens."
+            },
+            "slug": "Strategies-for-training-large-scale-neural-network-Mikolov-Deoras",
+            "title": {
+                "fragments": [],
+                "text": "Strategies for training large scale neural network language models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 64,
+                "text": "This work describes how to effectively train neural network based language models on large data sets and introduces hash-based implementation of a maximum entropy model, that can be trained as a part of the neural network model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2011 IEEE Workshop on Automatic Speech Recognition & Understanding"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145057514"
+                        ],
+                        "name": "H. B. McMahan",
+                        "slug": "H.-B.-McMahan",
+                        "structuredName": {
+                            "firstName": "H.",
+                            "lastName": "McMahan",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. B. McMahan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 77,
+                                "start": 74
+                            }
+                        ],
+                        "text": "In the experiments, we used Followthe-regularized-leader (FTRL) algorithm [3] with L1 regularization as the optimizer for the wide part of the model, and AdaGrad [1] for the deep part."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7458412,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "7bdf20d18b5a9411d729a0736c6a3a9a4b52bf4f",
+            "isKey": false,
+            "numCitedBy": 191,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We prove that many mirror descent algorithms for online convex optimization (such as online gradient descent) have an equivalent interpretation as follow-the-regularizedleader (FTRL) algorithms. This observation makes the relationships between many commonly used algorithms explicit, and provides theoretical insight on previous experimental observations. In particular, even though the FOBOS composite mirror descent algorithm handles L1 regularization explicitly, it has been observed that the FTRL-style Regularized Dual Averaging (RDA) algorithm is even more effective at producing sparsity. Our results demonstrate that the key difference between these algorithms is how they handle the cumulative L1 penalty. While FOBOS handles the L1 term exactly on any given update, we show that it is effectively using subgradient approximations to the L1 penalty from previous rounds, leading to less sparsity than RDA, which handles the cumulative penalty in closed form. The FTRL-Proximal algorithm, which we introduce, can be seen as a hybrid of these two algorithms, and significantly outperforms both on a large, realworld dataset."
+            },
+            "slug": "Follow-the-Regularized-Leader-and-Mirror-Descent:-McMahan",
+            "title": {
+                "fragments": [],
+                "text": "Follow-the-Regularized-Leader and Mirror Descent: Equivalence Theorems and L1 Regularization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 74,
+                "text": "It is proved that many mirror descent algorithms for online convex optimization (such as online gradient descent) have an equivalent interpretation as follow-the-regularizedleader (FTRL) algorithms, and the FTRL-Proximal algorithm can be seen as a hybrid of these two algorithms, which significantly outperforms both on a large, realworld dataset."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AISTATS"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2704494"
+                        ],
+                        "name": "Jonathan Tompson",
+                        "slug": "Jonathan-Tompson",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Tompson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Tompson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49147969"
+                        ],
+                        "name": "Arjun Jain",
+                        "slug": "Arjun-Jain",
+                        "structuredName": {
+                            "firstName": "Arjun",
+                            "lastName": "Jain",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Arjun Jain"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1688882"
+                        ],
+                        "name": "Yann LeCun",
+                        "slug": "Yann-LeCun",
+                        "structuredName": {
+                            "firstName": "Yann",
+                            "lastName": "LeCun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yann LeCun"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2428034"
+                        ],
+                        "name": "C. Bregler",
+                        "slug": "C.-Bregler",
+                        "structuredName": {
+                            "firstName": "Christoph",
+                            "lastName": "Bregler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Bregler"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 118,
+                                "start": 115
+                            }
+                        ],
+                        "text": "Joint training of neural networks with graphical models has also been applied to human pose estimation from images [6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 392527,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "12ecc2d786080f638a01b9999518e9386baa157d",
+            "isKey": false,
+            "numCitedBy": 1250,
+            "numCiting": 47,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper proposes a new hybrid architecture that consists of a deep Convolu-tional Network and a Markov Random Field. We show how this architecture is successfully applied to the challenging problem of articulated human pose estimation in monocular images. The architecture can exploit structural domain constraints such as geometric relationships between body joint locations. We show that joint training of these two model paradigms improves performance and allows us to significantly outperform existing state-of-the-art techniques."
+            },
+            "slug": "Joint-Training-of-a-Convolutional-Network-and-a-for-Tompson-Jain",
+            "title": {
+                "fragments": [],
+                "text": "Joint Training of a Convolutional Network and a Graphical Model for Human Pose Estimation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 98,
+                "text": "This paper proposes a new hybrid architecture that consists of a deep Convolu-tional Network and a Markov Random Field and shows how this architecture is successfully applied to the challenging problem of articulated human pose estimation in monocular images."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2014
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 1,
+            "methodology": 6
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 8,
+        "totalPages": 1
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Wide-&-Deep-Learning-for-Recommender-Systems-Cheng-Koc/657fbf29ea0b4904a3e98d1556f9acf38dddae5f?sort=total-citations"
+}

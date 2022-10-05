@@ -1,0 +1,4083 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50819900"
+                        ],
+                        "name": "Yifan Hu",
+                        "slug": "Yifan-Hu",
+                        "structuredName": {
+                            "firstName": "Yifan",
+                            "lastName": "Hu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yifan Hu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3146362"
+                        ],
+                        "name": "C. Volinsky",
+                        "slug": "C.-Volinsky",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Volinsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Volinsky"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10537313,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "184b7281a87ee16228b24716ca02b29519d52eb5",
+            "isKey": false,
+            "numCitedBy": 2749,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A common task of recommender systems is to improve customer experience through personalized recommendations based on prior implicit feedback. These systems passively track different sorts of user behavior, such as purchase history, watching habits and browsing activity, in order to model user preferences. Unlike the much more extensively researched explicit feedback, we do not have any direct input from the users regarding their preferences. In particular, we lack substantial evidence on which products consumer dislike. In this work we identify unique properties of implicit feedback datasets. We propose treating the data as indication of positive and negative preference associated with vastly varying confidence levels. This leads to a factor model which is especially tailored for implicit feedback recommenders. We also suggest a scalable optimization procedure, which scales linearly with the data size. The algorithm is used successfully within a recommender system for television shows. It compares favorably with well tuned implementations of other known methods. In addition, we offer a novel way to give explanations to recommendations given by this factor model."
+            },
+            "slug": "Collaborative-Filtering-for-Implicit-Feedback-Hu-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative Filtering for Implicit Feedback Datasets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work identifies unique properties of implicit feedback datasets and proposes treating the data as indication of positive and negative preference associated with vastly varying confidence levels, which leads to a factor model which is especially tailored for implicit feedback recommenders."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 Eighth IEEE International Conference on Data Mining"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2843982"
+                        ],
+                        "name": "Steffen Rendle",
+                        "slug": "Steffen-Rendle",
+                        "structuredName": {
+                            "firstName": "Steffen",
+                            "lastName": "Rendle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steffen Rendle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1825333"
+                        ],
+                        "name": "C. Freudenthaler",
+                        "slug": "C.-Freudenthaler",
+                        "structuredName": {
+                            "firstName": "Christoph",
+                            "lastName": "Freudenthaler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Freudenthaler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2382247"
+                        ],
+                        "name": "Zeno Gantner",
+                        "slug": "Zeno-Gantner",
+                        "structuredName": {
+                            "firstName": "Zeno",
+                            "lastName": "Gantner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zeno Gantner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388781075"
+                        ],
+                        "name": "L. Schmidt-Thieme",
+                        "slug": "L.-Schmidt-Thieme",
+                        "structuredName": {
+                            "firstName": "Lars",
+                            "lastName": "Schmidt-Thieme",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Schmidt-Thieme"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 66,
+                                "start": 62
+                            }
+                        ],
+                        "text": "We also experimented with Bayesian personalized ranking (BPR) [25], a ranking model for implicit collaborative filtering."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[25], the unclicked items are artificially subsampled at a lower rate in order to reduce their influence on the estimation."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 36
+                            }
+                        ],
+                        "text": "Bayesian personalized ranking (BPR) [25, 24] instead treats the problem as a one of ranking consumed user-item pairs above unobserved pairs."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "BPR is trained using stochastic optimization which can be sensible to hyper-parameter values (especially hyper-parameters related to the optimization procedure)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 10795036,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "db16e908246f32b60a6e0a8e27093aa145fbb1ed",
+            "isKey": true,
+            "numCitedBy": 3865,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Item recommendation is the task of predicting a personalized ranking on a set of items (e.g. websites, movies, products). In this paper, we investigate the most common scenario with implicit feedback (e.g. clicks, purchases). There are many methods for item recommendation from implicit feedback like matrix factorization (MF) or adaptive k-nearest-neighbor (kNN). Even though these methods are designed for the item prediction task of personalized ranking, none of them is directly optimized for ranking. In this paper we present a generic optimization criterion BPR-Opt for personalized ranking that is the maximum posterior estimator derived from a Bayesian analysis of the problem. We also provide a generic learning algorithm for optimizing models with respect to BPR-Opt. The learning method is based on stochastic gradient descent with bootstrap sampling. We show how to apply our method to two state-of-the-art recommender models: matrix factorization and adaptive kNN. Our experiments indicate that for the task of personalized ranking our optimization method outperforms the standard learning techniques for MF and kNN. The results show the importance of optimizing models for the right criterion."
+            },
+            "slug": "BPR:-Bayesian-Personalized-Ranking-from-Implicit-Rendle-Freudenthaler",
+            "title": {
+                "fragments": [],
+                "text": "BPR: Bayesian Personalized Ranking from Implicit Feedback"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper presents a generic optimization criterion BPR-Opt for personalized ranking that is the maximum posterior estimator derived from a Bayesian analysis of the problem and provides a generic learning algorithm for optimizing models with respect to B PR-Opt."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "UAI"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47681372"
+                        ],
+                        "name": "Lihong Li",
+                        "slug": "Lihong-Li",
+                        "structuredName": {
+                            "firstName": "Lihong",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Lihong Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48980295"
+                        ],
+                        "name": "Wei Chu",
+                        "slug": "Wei-Chu",
+                        "structuredName": {
+                            "firstName": "Wei",
+                            "lastName": "Chu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Wei Chu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144162125"
+                        ],
+                        "name": "J. Langford",
+                        "slug": "J.-Langford",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Langford",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Langford"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1716301"
+                        ],
+                        "name": "R. Schapire",
+                        "slug": "R.-Schapire",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Schapire",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Schapire"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 207178795,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ec0072bc37f83f1a81459df43289613e04cc61e1",
+            "isKey": false,
+            "numCitedBy": 2180,
+            "numCiting": 96,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Personalized web services strive to adapt their services (advertisements, news articles, etc.) to individual users by making use of both content and user information. Despite a few recent advances, this problem remains challenging for at least two reasons. First, web service is featured with dynamically changing pools of content, rendering traditional collaborative filtering methods inapplicable. Second, the scale of most web services of practical interest calls for solutions that are both fast in learning and computation.\n In this work, we model personalized recommendation of news articles as a contextual bandit problem, a principled approach in which a learning algorithm sequentially selects articles to serve users based on contextual information about the users and articles, while simultaneously adapting its article-selection strategy based on user-click feedback to maximize total user clicks.\n The contributions of this work are three-fold. First, we propose a new, general contextual bandit algorithm that is computationally efficient and well motivated from learning theory. Second, we argue that any bandit algorithm can be reliably evaluated offline using previously recorded random traffic. Finally, using this offline evaluation method, we successfully applied our new algorithm to a Yahoo! Front Page Today Module dataset containing over 33 million events. Results showed a 12.5% click lift compared to a standard context-free bandit algorithm, and the advantage becomes even greater when data gets more scarce."
+            },
+            "slug": "A-contextual-bandit-approach-to-personalized-news-Li-Chu",
+            "title": {
+                "fragments": [],
+                "text": "A contextual-bandit approach to personalized news article recommendation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This work model personalized recommendation of news articles as a contextual bandit problem, a principled approach in which a learning algorithm sequentially selects articles to serve users based on contextual information about the users and articles, while simultaneously adapting its article-selection strategy based on user-click feedback to maximize total user clicks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WWW '10"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066007146"
+                        ],
+                        "name": "Rong Pan",
+                        "slug": "Rong-Pan",
+                        "structuredName": {
+                            "firstName": "Rong",
+                            "lastName": "Pan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rong Pan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118116274"
+                        ],
+                        "name": "Yunhong Zhou",
+                        "slug": "Yunhong-Zhou",
+                        "structuredName": {
+                            "firstName": "Yunhong",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yunhong Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144948990"
+                        ],
+                        "name": "Bin Cao",
+                        "slug": "Bin-Cao",
+                        "structuredName": {
+                            "firstName": "Bin",
+                            "lastName": "Cao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bin Cao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1768416"
+                        ],
+                        "name": "N. Liu",
+                        "slug": "N.-Liu",
+                        "structuredName": {
+                            "firstName": "Nathan",
+                            "lastName": "Liu",
+                            "middleNames": [
+                                "Nan"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777845"
+                        ],
+                        "name": "R. Lukose",
+                        "slug": "R.-Lukose",
+                        "structuredName": {
+                            "firstName": "Rajan",
+                            "lastName": "Lukose",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Lukose"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144362899"
+                        ],
+                        "name": "Martin Scholz",
+                        "slug": "Martin-Scholz",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Scholz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Martin Scholz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152290618"
+                        ],
+                        "name": "Qiang Yang",
+                        "slug": "Qiang-Yang",
+                        "structuredName": {
+                            "firstName": "Qiang",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qiang Yang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 141,
+                                "start": 137
+                            }
+                        ],
+                        "text": "Weighted matrix factorization (WMF), the standard factorization model for implicit data (also known as one-class collaborative filtering [20]), selectively downweights evidence from the click matrix [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7369746,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "109de4531e279681919f7330f01b532a7201e4b9",
+            "isKey": false,
+            "numCitedBy": 935,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many applications of collaborative filtering (CF), such as news item recommendation and bookmark recommendation, are most naturally thought of as one-class collaborative filtering (OCCF) problems. In these problems, the training data usually consist simply of binary data reflecting a user's action or inaction, such as page visitation in the case of news item recommendation or webpage bookmarking in the bookmarking scenario. Usually this kind of data are extremely sparse (a small fraction are positive examples), therefore ambiguity arises in the interpretation of the non-positive examples. Negative examples and unlabeled positive examples are mixed together and we are typically unable to distinguish them. For example, we cannot really attribute a user not bookmarking a page to a lack of interest or lack of awareness of the page. Previous research addressing this one-class problem only considered it as a classification task. In this paper, we consider the one-class problem under the CF setting. We propose two frameworks to tackle OCCF. One is based on weighted low rank approximation; the other is based on negative example sampling. The experimental results show that our approaches significantly outperform the baselines."
+            },
+            "slug": "One-Class-Collaborative-Filtering-Pan-Zhou",
+            "title": {
+                "fragments": [],
+                "text": "One-Class Collaborative Filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This paper considers the one-class problem under the CF setting, and proposes two frameworks to tackle OCCF, one based on weighted low rank approximation; the other based on negative example sampling."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 Eighth IEEE International Conference on Data Mining"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2065174415"
+                        ],
+                        "name": "Guang Ling",
+                        "slug": "Guang-Ling",
+                        "structuredName": {
+                            "firstName": "Guang",
+                            "lastName": "Ling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Guang Ling"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1702456"
+                        ],
+                        "name": "Haiqin Yang",
+                        "slug": "Haiqin-Yang",
+                        "structuredName": {
+                            "firstName": "Haiqin",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Haiqin Yang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1785083"
+                        ],
+                        "name": "Michael R. Lyu",
+                        "slug": "Michael-R.-Lyu",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Lyu",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael R. Lyu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145310663"
+                        ],
+                        "name": "Irwin King",
+                        "slug": "Irwin-King",
+                        "structuredName": {
+                            "firstName": "Irwin",
+                            "lastName": "King",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Irwin King"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[14] separate the selection model (the exposure matrix) from the data model (the matrix factorization)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7982003,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4af369212b07ef8e104b9f5c4f8d48e5aa49032c",
+            "isKey": false,
+            "numCitedBy": 21,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Previous work on recommender systems mainly focus on fitting the ratings provided by users. However, the response patterns, i.e., some items are rated while others not, are generally ignored. We argue that failing to observe such response patterns can lead to biased parameter estimation and sub-optimal model performance. Although several pieces of work have tried to model users' response patterns, they miss the effectiveness and interpretability of the successful matrix factorization collaborative filtering approaches. To bridge the gap, in this paper, we unify explicit response models and PMF to establish the Response Aware Probabilistic Matrix Factorization (RAPMF) framework. We show that RAPMF subsumes PMF as a special case. Empirically we demonstrate the merits of RAPMF from various aspects."
+            },
+            "slug": "Response-Aware-Model-Based-Collaborative-Filtering-Ling-Yang",
+            "title": {
+                "fragments": [],
+                "text": "Response Aware Model-Based Collaborative Filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "This paper unify explicit response models and PMF to establish the Response Aware Probabilistic Matrix Factorization (RAPMF) framework and shows that RAPMF subsumes PMF as a special case."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "UAI"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2843982"
+                        ],
+                        "name": "Steffen Rendle",
+                        "slug": "Steffen-Rendle",
+                        "structuredName": {
+                            "firstName": "Steffen",
+                            "lastName": "Rendle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steffen Rendle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1825333"
+                        ],
+                        "name": "C. Freudenthaler",
+                        "slug": "C.-Freudenthaler",
+                        "structuredName": {
+                            "firstName": "Christoph",
+                            "lastName": "Freudenthaler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Freudenthaler"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 60,
+                                "start": 57
+                            }
+                        ],
+                        "text": "We also experimented with Bayesian personalized ranking (BPR) [25], a ranking model for implicit collaborative filtering."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 36
+                            }
+                        ],
+                        "text": "Bayesian personalized ranking (BPR) [25, 24] instead treats the problem as a one of ranking consumed user-item pairs above unobserved pairs."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "BPR is trained using stochastic optimization which can be sensible to hyper-parameter values (especially hyper-parameters related to the optimization procedure)."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 8750954,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "25ad8ad3d1549888a4609659bd55ad825c5df82e",
+            "isKey": false,
+            "numCitedBy": 287,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Pairwise algorithms are popular for learning recommender systems from implicit feedback. For each user, or more generally context, they try to discriminate between a small set of selected items and the large set of remaining (irrelevant) items. Learning is typically based on stochastic gradient descent (SGD) with uniformly drawn pairs. In this work, we show that convergence of such SGD learning algorithms slows down considerably if the item popularity has a tailed distribution. We propose a non-uniform item sampler to overcome this problem. The proposed sampler is context-dependent and oversamples informative pairs to speed up convergence. An efficient implementation with constant amortized runtime costs is developed. Furthermore, it is shown how the proposed learning algorithm can be applied to a large class of recommender models. The properties of the new learning algorithm are studied empirically on two real-world recommender system problems. The experiments indicate that the proposed adaptive sampler improves the state-of-the art learning algorithm largely in convergence without negative effects on prediction quality or iteration runtime."
+            },
+            "slug": "Improving-pairwise-learning-for-item-recommendation-Rendle-Freudenthaler",
+            "title": {
+                "fragments": [],
+                "text": "Improving pairwise learning for item recommendation from implicit feedback"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "The experiments indicate that the proposed adaptive sampler improves the state-of-the art learning algorithm largely in convergence without negative effects on prediction quality or iteration runtime."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WSDM"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1805742"
+                        ],
+                        "name": "Benjamin M Marlin",
+                        "slug": "Benjamin-M-Marlin",
+                        "structuredName": {
+                            "firstName": "Benjamin",
+                            "lastName": "Marlin",
+                            "middleNames": [
+                                "M"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benjamin M Marlin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1804104"
+                        ],
+                        "name": "R. Zemel",
+                        "slug": "R.-Zemel",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Zemel",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Zemel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "9330607"
+                        ],
+                        "name": "S. Roweis",
+                        "slug": "S.-Roweis",
+                        "structuredName": {
+                            "firstName": "Sam",
+                            "lastName": "Roweis",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Roweis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145290352"
+                        ],
+                        "name": "M. Slaney",
+                        "slug": "M.-Slaney",
+                        "structuredName": {
+                            "firstName": "Malcolm",
+                            "lastName": "Slaney",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Slaney"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "[16], Ling et al."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 9024470,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fee5bc9a391816be11c52b8559d62ea397bff90f",
+            "isKey": false,
+            "numCitedBy": 261,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Rating prediction is an important application, and a popular research topic in collaborative filtering. However, both the validity of learning algorithms, and the validity of standard testing procedures rest on the assumption that missing ratings are missing at random (MAR). In this paper we present the results of a user study in which we collect a random sample of ratings from current users of an online radio service. An analysis of the rating data collected in the study shows that the sample of random ratings has markedly different properties than ratings of user-selected songs. When asked to report on their own rating behaviour, a large number of users indicate they believe their opinion of a song does affect whether they choose to rate that song, a violation of the MAR condition. Finally, we present experimental results showing that incorporating an explicit model of the missing data mechanism can lead to significant improvements in prediction performance on the random sample of ratings."
+            },
+            "slug": "Collaborative-Filtering-and-the-Missing-at-Random-Marlin-Zemel",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative Filtering and the Missing at Random Assumption"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Experimental results are presented showing that incorporating an explicit model of the missing data mechanism can lead to significant improvements in prediction performance on the random sample of ratings."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "UAI"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2141648"
+                        ],
+                        "name": "Prem Gopalan",
+                        "slug": "Prem-Gopalan",
+                        "structuredName": {
+                            "firstName": "Prem",
+                            "lastName": "Gopalan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Prem Gopalan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1778839"
+                        ],
+                        "name": "Laurent Charlin",
+                        "slug": "Laurent-Charlin",
+                        "structuredName": {
+                            "firstName": "Laurent",
+                            "lastName": "Charlin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Laurent Charlin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1796335"
+                        ],
+                        "name": "D. Blei",
+                        "slug": "D.-Blei",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Blei",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Blei"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2064461,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d01508b7f10468b47712cfdc19c028997b541dd1",
+            "isKey": false,
+            "numCitedBy": 168,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We develop collaborative topic Poisson factorization (CTPF), a generative model of articles and reader preferences. CTPF can be used to build recommender systems by learning from reader histories and content to recommend personalized articles of interest. In detail, CTPF models both reader behavior and article texts with Poisson distributions, connecting the latent topics that represent the texts with the latent preferences that represent the readers. This provides better recommendations than competing methods and gives an interpretable latent space for understanding patterns of readership. Further, we exploit stochastic variational inference to model massive real-world datasets. For example, we can fit CPTF to the full arXiv usage dataset, which contains over 43 million ratings and 42 million word counts, within a day. We demonstrate empirically that our model outperforms several baselines, including the previous state-of-the art approach."
+            },
+            "slug": "Content-based-recommendations-with-Poisson-Gopalan-Charlin",
+            "title": {
+                "fragments": [],
+                "text": "Content-based recommendations with Poisson factorization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 95,
+                "text": "This work develops collaborative topic Poisson factorization (CTPF), a generative model of articles and reader preferences that can be used to build recommender systems by learning from reader histories and content to recommend personalized articles of interest."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40261572"
+                        ],
+                        "name": "Adith Swaminathan",
+                        "slug": "Adith-Swaminathan",
+                        "structuredName": {
+                            "firstName": "Adith",
+                            "lastName": "Swaminathan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Adith Swaminathan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1680188"
+                        ],
+                        "name": "T. Joachims",
+                        "slug": "T.-Joachims",
+                        "structuredName": {
+                            "firstName": "Thorsten",
+                            "lastName": "Joachims",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Joachims"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 68,
+                                "start": 57
+                            }
+                        ],
+                        "text": ", log data) is therefore of important practical interest [3, 13, 28]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16942429,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "22e57e3b1a45a615678ed1ee08c7f4f2acca088f",
+            "isKey": false,
+            "numCitedBy": 41,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We develop a learning principle and an efficient algorithm for batch learning from logged bandit feedback. This learning setting is ubiquitous in online systems (e.g., ad placement, web search, recommendation), where an algorithm makes a prediction (e.g., ad ranking) for a given input (e.g., query) and observes bandit feedback (e.g., user clicks on presented ads). We first address the counterfactual nature of the learning problem through propensity scoring. Next, we derive generalization error bounds that account for the variance of the propensity-weighted empirical risk estimator. These constructive bounds give rise to the Counterfactual Risk Minimization (CRM) principle. Using the CRM principle, we derive a new learning algorithm -- Policy Optimizer for Exponential Models (POEM) -- for structured output prediction. We evaluate POEM on several multi-label classification problems and verify that its empirical performance supports the theory."
+            },
+            "slug": "Counterfactual-Risk-Minimization-Swaminathan-Joachims",
+            "title": {
+                "fragments": [],
+                "text": "Counterfactual Risk Minimization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 61,
+                "text": "A learning principle and an efficient algorithm for batch learning from logged bandit feedback are developed and a new learning algorithm -- Policy Optimizer for Exponential Models (POEM) -- is derived for structured output prediction."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WWW"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145124475"
+                        ],
+                        "name": "R. Salakhutdinov",
+                        "slug": "R.-Salakhutdinov",
+                        "structuredName": {
+                            "firstName": "Ruslan",
+                            "lastName": "Salakhutdinov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Salakhutdinov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1714004"
+                        ],
+                        "name": "A. Mnih",
+                        "slug": "A.-Mnih",
+                        "structuredName": {
+                            "firstName": "Andriy",
+                            "lastName": "Mnih",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Mnih"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 47,
+                                "start": 43
+                            }
+                        ],
+                        "text": "Formally, Gaussian matrix factorization is [18]:"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 75,
+                                "start": 71
+                            }
+                        ],
+                        "text": ", aui = 1, \u2200u, i) recovers Gaussian probabilistic matrix factorization [18] (see Section 2)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 467086,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e19971e7d100386b9b4cf4ea1a0782b62fe036e5",
+            "isKey": false,
+            "numCitedBy": 3875,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many existing approaches to collaborative filtering can neither handle very large datasets nor easily deal with users who have very few ratings. In this paper we present the Probabilistic Matrix Factorization (PMF) model which scales linearly with the number of observations and, more importantly, performs well on the large, sparse, and very imbalanced Netflix dataset. We further extend the PMF model to include an adaptive prior on the model parameters and show how the model capacity can be controlled automatically. Finally, we introduce a constrained version of the PMF model that is based on the assumption that users who have rated similar sets of movies are likely to have similar preferences. The resulting model is able to generalize considerably better for users with very few ratings. When the predictions of multiple PMF models are linearly combined with the predictions of Restricted Boltzmann Machines models, we achieve an error rate of 0.8861, that is nearly 7% better than the score of Netflix's own system."
+            },
+            "slug": "Probabilistic-Matrix-Factorization-Salakhutdinov-Mnih",
+            "title": {
+                "fragments": [],
+                "text": "Probabilistic Matrix Factorization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The Probabilistic Matrix Factorization (PMF) model is presented, which scales linearly with the number of observations and performs well on the large, sparse, and very imbalanced Netflix dataset and is extended to include an adaptive prior on the model parameters."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1722403"
+                        ],
+                        "name": "U. Paquet",
+                        "slug": "U.-Paquet",
+                        "structuredName": {
+                            "firstName": "Ulrich",
+                            "lastName": "Paquet",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "U. Paquet"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1683070"
+                        ],
+                        "name": "Noam Koenigstein",
+                        "slug": "Noam-Koenigstein",
+                        "structuredName": {
+                            "firstName": "Noam",
+                            "lastName": "Koenigstein",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Noam Koenigstein"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8810757,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d93c2f64294b80f573d5d1f2da44b196a78e2ed2",
+            "isKey": false,
+            "numCitedBy": 105,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The bane of one-class collaborative filtering is interpreting and modelling the latent signal from the missing class. In this paper we present a novel Bayesian generative model for implicit collaborative filtering. It forms a core component of the Xbox Live architecture, and unlike previous approaches, delineates the odds of a user disliking an item from simply being unaware of it. The latent signal is treated as an unobserved random graph connecting users with items they might have encountered. We demonstrate how large-scale distributed learning can be achieved through a combination of stochastic gradient descent and mean field variational inference over random graph samples. A fine-grained comparison is done against a state of the art baseline on real world data."
+            },
+            "slug": "One-class-collaborative-filtering-with-random-Paquet-Koenigstein",
+            "title": {
+                "fragments": [],
+                "text": "One-class collaborative filtering with random graphs"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 53,
+                "text": "This paper presents a novel Bayesian generative model for implicit collaborative filtering, which forms a core component of the Xbox Live architecture, and unlike previous approaches, delineates the odds of a user disliking an item from simply being unaware of it."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WWW"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108881999"
+                        ],
+                        "name": "Chong Wang",
+                        "slug": "Chong-Wang",
+                        "structuredName": {
+                            "firstName": "Chong",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chong Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1796335"
+                        ],
+                        "name": "D. Blei",
+                        "slug": "D.-Blei",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Blei",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Blei"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 16,
+                                "start": 13
+                            }
+                        ],
+                        "text": "We note that CTR\u2019s performance falls in-between the performance of ExpoMF and WMF (from Table 1)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 61,
+                                "start": 57
+                            }
+                        ],
+                        "text": ", document content when recommendation scientific papers [30])."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 46
+                            }
+                        ],
+                        "text": "We compare to collaborative topic regression (CTR), a state-of-the-art method for recommending scientific papers [30] combining both LDA and WMF.9 We did not compare with the more recent and scalable collaborative topic Poisson factorization (CTPF) [7] since the resulting performance differences may have been the result of CTPF Poisson likelihood (versus Gaussian likelihood for both ExpoMF and WMF)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "CTR is particularly well suited to the cold-start case which is not the data regime we focus on in this study (i.e., recall that we have only kept papers that have been bookmarked by at least 20 users)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 51,
+                                "start": 47
+                            }
+                        ],
+                        "text": "ments using content and user click information [30]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 109,
+                                "start": 105
+                            }
+                        ],
+                        "text": "Furthermore, ExpoMF with content covariates outperforms a state-of-the-art document recommendation model [30]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 145,
+                                "start": 141
+                            }
+                        ],
+                        "text": "It was suggested by its authors that this learning procedure provided computational advantages while not hindering performance significantly [30]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 20
+                            }
+                        ],
+                        "text": "9Note that to train CTR we first learned a document topic model, fixed it and then learned the user preference model."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 57,
+                                "start": 53
+                            }
+                        ],
+                        "text": "We also compare collaborative topic regression (CTR) [30], a model makes use of the same additional information as Content ExpoMF."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 117,
+                                "start": 113
+                            }
+                        ],
+                        "text": "We compare to collaborative topic regression (CTR), a state-of-the-art method for recommending scientific papers [30] combining both LDA and WMF."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 96163,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "92eb167f30ad59f6949667021760eb41078cf85c",
+            "isKey": false,
+            "numCitedBy": 1519,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Researchers have access to large online archives of scientific articles. As a consequence, finding relevant papers has become more difficult. Newly formed online communities of researchers sharing citations provides a new way to solve this problem. In this paper, we develop an algorithm to recommend scientific articles to users of an online community. Our approach combines the merits of traditional collaborative filtering and probabilistic topic modeling. It provides an interpretable latent structure for users and items, and can form recommendations about both existing and newly published articles. We study a large subset of data from CiteULike, a bibliography sharing service, and show that our algorithm provides a more effective recommender system than traditional collaborative filtering."
+            },
+            "slug": "Collaborative-topic-modeling-for-recommending-Wang-Blei",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative topic modeling for recommending scientific articles"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "An algorithm to recommend scientific articles to users of an online community that combines the merits of traditional collaborative filtering and probabilistic topic modeling and can form recommendations about both existing and newly published articles is developed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144879353"
+                        ],
+                        "name": "B. Shepherd",
+                        "slug": "B.-Shepherd",
+                        "structuredName": {
+                            "firstName": "Bryan",
+                            "lastName": "Shepherd",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Shepherd"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48710192"
+                        ],
+                        "name": "Ryan T. Jarrett",
+                        "slug": "Ryan-T.-Jarrett",
+                        "structuredName": {
+                            "firstName": "Ryan",
+                            "lastName": "Jarrett",
+                            "middleNames": [
+                                "T."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ryan T. Jarrett"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "12742153"
+                        ],
+                        "name": "L. Fu",
+                        "slug": "L.-Fu",
+                        "structuredName": {
+                            "firstName": "Lingjun",
+                            "lastName": "Fu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Fu"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 207068138,
+            "fieldsOfStudy": [
+                "Psychology"
+            ],
+            "id": "27f3921d93712abd2150f27079b1f2c2fdb6a582",
+            "isKey": false,
+            "numCitedBy": 147,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "It is with some trepidation that we offer our review of Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction. The field of causal inference is broad and known to have some strong personalities. A quick Google search shows how varied the responses have been to this book, ranging from unmitigated praise to derision. I (BES) agreed to review the book because I have been hoping to develop a course on causal inference and felt that this book could be a key component of my course. I recruited two graduate students from our biostatistics department, one in their first year and one in their second year, to read it with me this past spring semester. This review represents our combined efforts, but I (BES) certainly biased their thinking. The book is written by two prominent researchers in the area. Don Rubin\u2019s influential papers in the 70s and 80s provided the foundation for much of the current field of causal inference. Dr. Rubin\u2019s enormous impact on modern statistics\u2013 not just in causal inference\u2013is well recognized. The other author, Guido Imbens, is no slacker either with a very impressive bibliography of important papers in both economics and statistics journals. Together, they are more than qualified to write an introductory text to causal inference. The book is well written. It is intended for a broad audience and, in most respects, it succeeds in presenting material in a manner that is accessible to readers with a reasonable familiarity with mathematics and statistics. Some sections have a fair amount of mathematical content, but the authors maintain a narrative, easy-to-read writing style throughout. The text is very structured. Every chapter begins with an introduction, which provides a clear and interesting overview. Most chapters then present a data example that is used to frame the material and to demonstrate the application of the methods. The rich use of diverse, stimulating, and understandable data examples throughout is a big plus, although a limitation is that datasets and analysis code are not provided. Also, occasionally the example datasets are not ideal fits. For example, in chapter 23, the authors introduce complier average causal effects in a study with a community randomized intervention; the concept may have been introduced more simply with an individually randomized intervention. The authors foreshadow future content almost to a fault, repeatedly saying in part/chapter/section X we will discuss Y . It is preferable to be overly clear versus overly terse, and although the book is a little slow and tedious at times, it is easy to follow. There are typos throughout (probably one or two per chapter, and more than that in the surprisingly error-prone Conclusion chapter), but none are particularly serious, and in almost all cases the true meaning is easily discerned. Chapters 1\u20133 provide an intuitive and well-articulated introduction to the \u201cRubin Causal Model,\u201d in which inference regarding potential outcomes is treated as a missing data problem. As the authors focus solely on binary treatments at a single time point, there are only two potential outcomes for each individual, one of which is never observed. Basic assumptions and philosophies, assignment mechanisms, and a brief history of the potential outcomes approach to causal inference are provided. Some of these ideas are not uniformly accepted. For example, the dictum \u201cno causation without manipulation\u201d is still debated. And, reading a history of causal inference by Don Rubin kind of feels like reading a history of the establishment of the United States by Thomas Jefferson: certainly interesting and undoubtedly written by a founder, but different from how Alexander Hamilton would write it. With that said, these chapters contain some of the"
+            },
+            "slug": "GUIDO-IMBENS,-DONALD-RUBIN,-Causal-Inference-for-An-Shepherd-Jarrett",
+            "title": {
+                "fragments": [],
+                "text": "GUIDO IMBENS, DONALD RUBIN, Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction. New York: Cambridge University Press."
+            },
+            "tldr": {
+                "abstractSimilarityScore": 54,
+                "text": "Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction is intended for a broad audience and succeeds in presenting material in a manner that is accessible to readers with a reasonable familiarity with mathematics and statistics."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Biometrics"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1796335"
+                        ],
+                        "name": "D. Blei",
+                        "slug": "D.-Blei",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Blei",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Blei"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34699434"
+                        ],
+                        "name": "A. Ng",
+                        "slug": "A.-Ng",
+                        "structuredName": {
+                            "firstName": "A.",
+                            "lastName": "Ng",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Ng"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694621"
+                        ],
+                        "name": "Michael I. Jordan",
+                        "slug": "Michael-I.-Jordan",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Jordan",
+                            "middleNames": [
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael I. Jordan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "LDA is shown using a white dot."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 112
+                            }
+                        ],
+                        "text": "Assuming there are K topics \u03a6 = \u03c61:K , each of which is a categorical distribution over a fixed set of vocabulary, LDA treats each document as a mixture of these topics where the topic proportion xi is inferred from the data."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 136,
+                                "start": 133
+                            }
+                        ],
+                        "text": "We compare to collaborative topic regression (CTR), a state-of-the-art method for recommending scientific papers [30] combining both LDA and WMF.9 We did not compare with the more recent and scalable collaborative topic Poisson factorization (CTPF) [7] since the resulting performance differences may have been the result of CTPF Poisson likelihood (versus Gaussian likelihood for both ExpoMF and WMF)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 22,
+                                "start": 19
+                            }
+                        ],
+                        "text": "One can understand LDA as representing documents in a low-dimensional \u201ctopic\u201d space with the topic proportion xi being their coordinates."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 55,
+                                "start": 52
+                            }
+                        ],
+                        "text": ", word embeddings [17], latent Dirichlet allocation [2]), or the position of venue i obtained by first clustering all the venues in the data set then finding the expected assignment to L clusters for each venue."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 58,
+                                "start": 55
+                            }
+                        ],
+                        "text": "Neither of them have read \u201cLatent Dirichlet Allocation\u201d (LDA) a seminal paper that falls within user A\u2019s interests."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 44,
+                                "start": 41
+                            }
+                        ],
+                        "text": "We use latent Dirichlet allocation (LDA) [2], a model of document collections, to model article content."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3177797,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f198043a866e9187925a8d8db9a55e3bfdd47f2c",
+            "isKey": false,
+            "numCitedBy": 32111,
+            "numCiting": 62,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Latent-Dirichlet-Allocation-Blei-Ng",
+            "title": {
+                "fragments": [],
+                "text": "Latent Dirichlet Allocation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47166531"
+                        ],
+                        "name": "G. Imbens",
+                        "slug": "G.-Imbens",
+                        "structuredName": {
+                            "firstName": "Guido",
+                            "lastName": "Imbens",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Imbens"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2235217"
+                        ],
+                        "name": "D. Rubin",
+                        "slug": "D.-Rubin",
+                        "structuredName": {
+                            "firstName": "Donald",
+                            "lastName": "Rubin",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Rubin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 52036833,
+            "fieldsOfStudy": [
+                "Economics"
+            ],
+            "id": "0e817213eb0125981b0d3e025e136539520351dc",
+            "isKey": false,
+            "numCitedBy": 1082,
+            "numCiting": 275,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Most questions in social and biomedical sciences are causal in nature: what would happen to individuals, or to groups, if part of their environment were changed? In this groundbreaking text, two world-renowned experts present statistical methods for studying such questions. This book starts with the notion of potential outcomes, each corresponding to the outcome that would be realized if a subject were exposed to a particular treatment or regime. In this approach, causal effects are comparisons of such potential outcomes. The fundamental problem of causal inference is that we can only observe one of the potential outcomes for a particular subject. The authors discuss how randomized experiments allow us to assess causal effects and then turn to observational studies. They lay out the assumptions needed for causal inference and describe the leading analysis methods, including, matching, propensity-score methods, and instrumental variables. Many detailed applications are included, with special focus on practical aspects for the empirical researcher."
+            },
+            "slug": "Causal-Inference-for-Statistics,-Social,-and-An-Imbens-Rubin",
+            "title": {
+                "fragments": [],
+                "text": "Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2843982"
+                        ],
+                        "name": "Steffen Rendle",
+                        "slug": "Steffen-Rendle",
+                        "structuredName": {
+                            "firstName": "Steffen",
+                            "lastName": "Rendle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steffen Rendle"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 9,
+                                "start": 3
+                            }
+                        ],
+                        "text": "In Rendle et al. [25], the unclicked items are artificially subsampled at a lower rate in order to reduce their influence on the estimation."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 58,
+                                "start": 54
+                            }
+                        ],
+                        "text": "An exception is factorization machines (FM) of Rendle [23]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 17265929,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "df93596d4ed71d2863532c063c4c693711216abf",
+            "isKey": false,
+            "numCitedBy": 1819,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, we introduce Factorization Machines (FM) which are a new model class that combines the advantages of Support Vector Machines (SVM) with factorization models. Like SVMs, FMs are a general predictor working with any real valued feature vector. In contrast to SVMs, FMs model all interactions between variables using factorized parameters. Thus they are able to estimate interactions even in problems with huge sparsity (like recommender systems) where SVMs fail. We show that the model equation of FMs can be calculated in linear time and thus FMs can be optimized directly. So unlike nonlinear SVMs, a transformation in the dual form is not necessary and the model parameters can be estimated directly without the need of any support vector in the solution. We show the relationship to SVMs and the advantages of FMs for parameter estimation in sparse settings. On the other hand there are many different factorization models like matrix factorization, parallel factor analysis or specialized models like SVD++, PITF or FPMC. The drawback of these models is that they are not applicable for general prediction tasks but work only with special input data. Furthermore their model equations and optimization algorithms are derived individually for each task. We show that FMs can mimic these models just by specifying the input data (i.e. the feature vectors). This makes FMs easily applicable even for users without expert knowledge in factorization models."
+            },
+            "slug": "Factorization-Machines-Rendle",
+            "title": {
+                "fragments": [],
+                "text": "Factorization Machines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "Factorization Machines (FM) are introduced which are a new model class that combines the advantages of Support Vector Machines (SVM) with factorization models and can mimic these models just by specifying the input data (i.e. the feature vectors)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2010 IEEE International Conference on Data Mining"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "34685327"
+                        ],
+                        "name": "Eunjoon Cho",
+                        "slug": "Eunjoon-Cho",
+                        "structuredName": {
+                            "firstName": "Eunjoon",
+                            "lastName": "Cho",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Eunjoon Cho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50362385"
+                        ],
+                        "name": "Seth A. Myers",
+                        "slug": "Seth-A.-Myers",
+                        "structuredName": {
+                            "firstName": "Seth",
+                            "lastName": "Myers",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Seth A. Myers"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1702139"
+                        ],
+                        "name": "J. Leskovec",
+                        "slug": "J.-Leskovec",
+                        "structuredName": {
+                            "firstName": "Jure",
+                            "lastName": "Leskovec",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Leskovec"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 300,
+                                "start": 297
+                            }
+                        ],
+                        "text": "Throughout this study we use four medium to large-scale user-item consumption datasets from various domains: 1) taste profile subset (TPS) of the million song dataset [1]; 2) scientific articles data from arXiv(4); 3) user bookmarks from Mendeley(5); and 4) check-in data from the Gowalla dataset [5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1480192,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3e454b7111e68ccfeb103a0b4220d35e16bff867",
+            "isKey": false,
+            "numCitedBy": 2664,
+            "numCiting": 51,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Even though human movement and mobility patterns have a high degree of freedom and variation, they also exhibit structural patterns due to geographic and social constraints. Using cell phone location data, as well as data from two online location-based social networks, we aim to understand what basic laws govern human motion and dynamics. We find that humans experience a combination of periodic movement that is geographically limited and seemingly random jumps correlated with their social networks. Short-ranged travel is periodic both spatially and temporally and not effected by the social network structure, while long-distance travel is more influenced by social network ties. We show that social relationships can explain about 10% to 30% of all human movement, while periodic behavior explains 50% to 70%. Based on our findings, we develop a model of human mobility that combines periodic short range movements with travel due to the social network structure. We show that our model reliably predicts the locations and dynamics of future human movement and gives an order of magnitude better performance than present models of human mobility."
+            },
+            "slug": "Friendship-and-mobility:-user-movement-in-social-Cho-Myers",
+            "title": {
+                "fragments": [],
+                "text": "Friendship and mobility: user movement in location-based social networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "A model of human mobility that combines periodic short range movements with travel due to the social network structure is developed and it is shown that this model reliably predicts the locations and dynamics of future human movement and gives an order of magnitude better performance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2047446108"
+                        ],
+                        "name": "Tomas Mikolov",
+                        "slug": "Tomas-Mikolov",
+                        "structuredName": {
+                            "firstName": "Tomas",
+                            "lastName": "Mikolov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tomas Mikolov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701686"
+                        ],
+                        "name": "Ilya Sutskever",
+                        "slug": "Ilya-Sutskever",
+                        "structuredName": {
+                            "firstName": "Ilya",
+                            "lastName": "Sutskever",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ilya Sutskever"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118440152"
+                        ],
+                        "name": "Kai Chen",
+                        "slug": "Kai-Chen",
+                        "structuredName": {
+                            "firstName": "Kai",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kai Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32131713"
+                        ],
+                        "name": "G. Corrado",
+                        "slug": "G.-Corrado",
+                        "structuredName": {
+                            "firstName": "Gregory",
+                            "lastName": "Corrado",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Corrado"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49959210"
+                        ],
+                        "name": "J. Dean",
+                        "slug": "J.-Dean",
+                        "structuredName": {
+                            "firstName": "Jeffrey",
+                            "lastName": "Dean",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Dean"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 22,
+                                "start": 18
+                            }
+                        ],
+                        "text": ", word embeddings [17], latent Dirichlet allocation [2]), or the position of venue i obtained by first clustering all the venues in the data set then finding the expected assignment to L clusters for each venue."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 16447573,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "87f40e6f3022adbc1f1905e3e506abad05a9964f",
+            "isKey": false,
+            "numCitedBy": 27216,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The recently introduced continuous Skip-gram model is an efficient method for learning high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships. In this paper we present several extensions that improve both the quality of the vectors and the training speed. By subsampling of the frequent words we obtain significant speedup and also learn more regular word representations. We also describe a simple alternative to the hierarchical softmax called negative sampling. \n \nAn inherent limitation of word representations is their indifference to word order and their inability to represent idiomatic phrases. For example, the meanings of \"Canada\" and \"Air\" cannot be easily combined to obtain \"Air Canada\". Motivated by this example, we present a simple method for finding phrases in text, and show that learning good vector representations for millions of phrases is possible."
+            },
+            "slug": "Distributed-Representations-of-Words-and-Phrases-Mikolov-Sutskever",
+            "title": {
+                "fragments": [],
+                "text": "Distributed Representations of Words and Phrases and their Compositionality"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "This paper presents a simple method for finding phrases in text, and shows that learning good vector representations for millions of phrases is possible and describes a simple alternative to the hierarchical softmax called negative sampling."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1764325"
+                        ],
+                        "name": "Radford M. Neal",
+                        "slug": "Radford-M.-Neal",
+                        "structuredName": {
+                            "firstName": "Radford",
+                            "lastName": "Neal",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Radford M. Neal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1695689"
+                        ],
+                        "name": "Geoffrey E. Hinton",
+                        "slug": "Geoffrey-E.-Hinton",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Hinton",
+                            "middleNames": [
+                                "E."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey E. Hinton"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 17947141,
+            "fieldsOfStudy": [
+                "Mathematics",
+                "Computer Science"
+            ],
+            "id": "9f87a11a523e4680e61966e36ea2eac516096f23",
+            "isKey": false,
+            "numCitedBy": 2616,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The EM algorithm performs maximum likelihood estimation for data in which some variables are unobserved. We present a function that resembles negative free energy and show that the M step maximizes this function with respect to the model parameters and the E step maximizes it with respect to the distribution over the unobserved variables. From this perspective, it is easy to justify an incremental variant of the EM algorithm in which the distribution for only one of the unobserved variables is recalculated in each E step. This variant is shown empirically to give faster convergence in a mixture estimation problem. A variant of the algorithm that exploits sparse conditional distributions is also described, and a wide range of other variant algorithms are also seen to be possible."
+            },
+            "slug": "A-View-of-the-Em-Algorithm-that-Justifies-Sparse,-Neal-Hinton",
+            "title": {
+                "fragments": [],
+                "text": "A View of the Em Algorithm that Justifies Incremental, Sparse, and other Variants"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "An incremental variant of the EM algorithm in which the distribution for only one of the unobserved variables is recalculated in each E step is shown empirically to give faster convergence in a mixture estimation problem."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Learning in Graphical Models"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1721860"
+                        ],
+                        "name": "M. Wainwright",
+                        "slug": "M.-Wainwright",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Wainwright",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Wainwright"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "123333909"
+                        ],
+                        "name": "M.I. Jordan",
+                        "slug": "M.I.-Jordan",
+                        "structuredName": {
+                            "firstName": "M.I.",
+                            "lastName": "Jordan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M.I. Jordan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 207178945,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d98d0d1900b13b87aa4ffd6b69c046beb63f0434",
+            "isKey": false,
+            "numCitedBy": 4001,
+            "numCiting": 280,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The formalism of probabilistic graphical models provides a unifying framework for capturing complex dependencies among random variables, and building large-scale multivariate statistical models. Graphical models have become a focus of research in many statistical, computational and mathematical fields, including bioinformatics, communication theory, statistical physics, combinatorial optimization, signal and image processing, information retrieval and statistical machine learning. Many problems that arise in specific instances \u2014 including the key problems of computing marginals and modes of probability distributions \u2014 are best studied in the general setting. Working with exponential family representations, and exploiting the conjugate duality between the cumulant function and the entropy for exponential families, we develop general variational representations of the problems of computing likelihoods, marginal probabilities and most probable configurations. We describe how a wide variety of algorithms \u2014 among them sum-product, cluster variational methods, expectation-propagation, mean field methods, max-product and linear programming relaxation, as well as conic programming relaxations \u2014 can all be understood in terms of exact or approximate forms of these variational representations. The variational approach provides a complementary alternative to Markov chain Monte Carlo as a general source of approximation methods for inference in large-scale statistical models."
+            },
+            "slug": "Graphical-Models,-Exponential-Families,-and-Wainwright-Jordan",
+            "title": {
+                "fragments": [],
+                "text": "Graphical Models, Exponential Families, and Variational Inference"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "The variational approach provides a complementary alternative to Markov chain Monte Carlo as a general source of approximation methods for inference in large-scale statistical models."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Found. Trends Mach. Learn."
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2235217"
+                        ],
+                        "name": "D. Rubin",
+                        "slug": "D.-Rubin",
+                        "structuredName": {
+                            "firstName": "Donald",
+                            "lastName": "Rubin",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Rubin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 76,
+                                "start": 72
+                            }
+                        ],
+                        "text": "We establish a connection with the potential outcome framework of Rubin [26]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 52832751,
+            "fieldsOfStudy": [
+                "Economics",
+                "Mathematics"
+            ],
+            "id": "545122e2990590524459ec9b59ccac6ce71e3b6a",
+            "isKey": false,
+            "numCitedBy": 7617,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A discussion of matching, randomization, random sampling, and other methods of controlling extraneous variation is presented. The objective is to specify the benefits of randomization in estimating causal effects of treatments. The basic conclusion is that randomization should be employed whenever possible but that the use of carefully controlled nonrandomized data to estimate causal effects is a reasonable and necessary procedure in many cases. Recent psychological and educational literature has included extensive criticism of the use of nonrandomized studies to estimate causal effects of treatments (e.g., Campbell & Erlebacher, 1970). The implication in much of this literature is that only properly randomized experiments can lead to useful estimates of causal effects. If taken as applying to all fields of study, this position is untenable. Since the extensive use of randomized experiments is limited to the last half century,8 and in fact is not used in much scientific investigation today,4 one is led to the conclusion that most scientific \"truths\" have been established without using randomized experiments. In addition, most of us successfully determine the causal effects of many of our everyday actions, even interpersonal behaviors, without the benefit of randomization. Even if the position that causal effects of treatments can only be well established from randomized experiments is taken as applying only to the social sciences in which"
+            },
+            "slug": "Estimating-causal-effects-of-treatments-in-and-Rubin",
+            "title": {
+                "fragments": [],
+                "text": "Estimating causal effects of treatments in randomized and nonrandomized studies."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1974
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2113591957"
+                        ],
+                        "name": "Robert M. Bell",
+                        "slug": "Robert-M.-Bell",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Bell",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Robert M. Bell"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3146362"
+                        ],
+                        "name": "C. Volinsky",
+                        "slug": "C.-Volinsky",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Volinsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Volinsky"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": " framed as lling in the unobserved entries. Matrix factorization models, which infer (latent) user preferences and item attributes by factorizing the click matrix, are standard in recommender systems [11]. From a generative modeling perspective they can be understood as rst drawing user and item latent factors corresponding, respectively, to user preferences and item attributes. Then drawing observati"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 58370896,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d4bbcc842f22547eaf5884251eaa68251895dccb",
+            "isKey": false,
+            "numCitedBy": 7016,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "As the Netflix Prize competition has demonstrated, matrix factorization models are superior to classic nearest neighbor techniques for producing product recommendations, allowing the incorporation of additional information such as implicit feedback, temporal effects, and confidence levels."
+            },
+            "slug": "Matrix-Factorization-Techniques-for-Recommender-Koren-Bell",
+            "title": {
+                "fragments": [],
+                "text": "Matrix Factorization Techniques for Recommender Systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "As the Netflix Prize competition has demonstrated, matrix factorization models are superior to classic nearest neighbor techniques for producing product recommendations, allowing the incorporation of additional information such as implicit feedback, temporal effects, and confidence levels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Computer"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "52184096"
+                        ],
+                        "name": "L. Bottou",
+                        "slug": "L.-Bottou",
+                        "structuredName": {
+                            "firstName": "L\u00e9on",
+                            "lastName": "Bottou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Bottou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "31443876"
+                        ],
+                        "name": "J. Peters",
+                        "slug": "J.-Peters",
+                        "structuredName": {
+                            "firstName": "J.",
+                            "lastName": "Peters",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Peters"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3177568"
+                        ],
+                        "name": "J. Q. Candela",
+                        "slug": "J.-Q.-Candela",
+                        "structuredName": {
+                            "firstName": "Joaquin",
+                            "lastName": "Candela",
+                            "middleNames": [
+                                "Qui\u00f1onero"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Q. Candela"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "36730993"
+                        ],
+                        "name": "Denis Xavier Charles",
+                        "slug": "Denis-Xavier-Charles",
+                        "structuredName": {
+                            "firstName": "Denis",
+                            "lastName": "Charles",
+                            "middleNames": [
+                                "Xavier"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Denis Xavier Charles"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1724065"
+                        ],
+                        "name": "D. M. Chickering",
+                        "slug": "D.-M.-Chickering",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Chickering",
+                            "middleNames": [
+                                "Maxwell"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. M. Chickering"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2185730"
+                        ],
+                        "name": "Elon Portugaly",
+                        "slug": "Elon-Portugaly",
+                        "structuredName": {
+                            "firstName": "Elon",
+                            "lastName": "Portugaly",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Elon Portugaly"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2054540338"
+                        ],
+                        "name": "Dipankar Ray",
+                        "slug": "Dipankar-Ray",
+                        "structuredName": {
+                            "firstName": "Dipankar",
+                            "lastName": "Ray",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dipankar Ray"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2812486"
+                        ],
+                        "name": "P. Simard",
+                        "slug": "P.-Simard",
+                        "structuredName": {
+                            "firstName": "Patrice",
+                            "lastName": "Simard",
+                            "middleNames": [
+                                "Y."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Simard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2081889"
+                        ],
+                        "name": "Edward Snelson",
+                        "slug": "Edward-Snelson",
+                        "structuredName": {
+                            "firstName": "Edward",
+                            "lastName": "Snelson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Edward Snelson"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1726300,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b006aefa9c8be8c33138c4c5352f4d2d44378be9",
+            "isKey": false,
+            "numCitedBy": 603,
+            "numCiting": 91,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This work shows how to leverage causal inference to understand the behavior of complex learning systems interacting with their environment and predict the consequences of changes to the system. Such predictions allow both humans and algorithms to select the changes that would have improved the system performance. This work is illustrated by experiments on the ad placement system associated with the Bing search engine."
+            },
+            "slug": "Counterfactual-reasoning-and-learning-systems:-the-Bottou-Peters",
+            "title": {
+                "fragments": [],
+                "text": "Counterfactual reasoning and learning systems: the example of computational advertising"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 94,
+                "text": "This work shows how to leverage causal inference to understand the behavior of complex learning systems interacting with their environment and predict the consequences of changes to the system and allow both humans and algorithms to select the changes that would have improved the system performance."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1808964"
+                        ],
+                        "name": "D. Lambert",
+                        "slug": "D.-Lambert",
+                        "structuredName": {
+                            "firstName": "Diane",
+                            "lastName": "Lambert",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Lambert"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 35733843,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "c1a38f4b9b4ad8d44a3bafe8849eabe1c6683377",
+            "isKey": false,
+            "numCitedBy": 3461,
+            "numCiting": 13,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Zero-inflated Poisson (ZIP) regression is a model for count data with excess zeros. It assumes that with probability p the only possible observation is 0, and with probability 1 \u2013 p, a Poisson(\u03bb) random variable is observed. For example, when manufacturing equipment is properly aligned, defects may be nearly impossible. But when it is misaligned, defects may occur according to a Poisson(\u03bb) distribution. Both the probability p of the perfect, zero defect state and the mean number of defects \u03bb in the imperfect state may depend on covariates. Sometimes p and \u03bb are unrelated; other times p is a simple function of \u03bb such as p = l/(1 + \u03bb T ) for an unknown constant T . In either case, ZIP regression models are easy to fit. The maximum likelihood estimates (MLE's) are approximately normal in large samples, and confidence intervals can be constructed by inverting likelihood ratio tests or using the approximate normality of the MLE's. Simulations suggest that the confidence intervals based on likelihood ratio test..."
+            },
+            "slug": "Zero-inflacted-Poisson-regression,-with-an-to-in-Lambert",
+            "title": {
+                "fragments": [],
+                "text": "Zero-inflacted Poisson regression, with an application to defects in manufacturing"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1992
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1398887496"
+                        ],
+                        "name": "Thierry Bertin-Mahieux",
+                        "slug": "Thierry-Bertin-Mahieux",
+                        "structuredName": {
+                            "firstName": "Thierry",
+                            "lastName": "Bertin-Mahieux",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Thierry Bertin-Mahieux"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1745455"
+                        ],
+                        "name": "D. Ellis",
+                        "slug": "D.-Ellis",
+                        "structuredName": {
+                            "firstName": "Daniel",
+                            "lastName": "Ellis",
+                            "middleNames": [
+                                "P.",
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Ellis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145822024"
+                        ],
+                        "name": "B. Whitman",
+                        "slug": "B.-Whitman",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Whitman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Whitman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2353539"
+                        ],
+                        "name": "Paul Lamere",
+                        "slug": "Paul-Lamere",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Lamere",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Paul Lamere"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 170,
+                                "start": 167
+                            }
+                        ],
+                        "text": "Throughout this study we use four medium to large-scale user-item consumption datasets from various domains: 1) taste profile subset (TPS) of the million song dataset [1]; 2) scientific articles data from arXiv(5); 3) user bookmarks from Mendeley(6); and 4) check-in data from the Gowalla dataset [4]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9770532,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5aaf311172b9778d78f6904fbe40124c63463b57",
+            "isKey": false,
+            "numCitedBy": 1158,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We introduce the Million Song Dataset, a freely-available collection of audio features and metadata for a million contemporary popular music tracks. We describe its creation process, its content, and its possible uses. Attractive features of the Million Song Database include the range of existing resources to which it is linked, and the fact that it is the largest current research dataset in our field. As an illustration, we present year prediction as an example application, a task that has, until now, been difficult to study owing to the absence of a large set of suitable data. We show positive results on year prediction, and discuss more generally the future development of the dataset."
+            },
+            "slug": "The-Million-Song-Dataset-Bertin-Mahieux-Ellis",
+            "title": {
+                "fragments": [],
+                "text": "The Million Song Dataset"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "The Million Song Dataset, a freely-available collection of audio features and metadata for a million contemporary popular music tracks, is introduced and positive results on year prediction are shown, and the future development of the dataset is discussed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ISMIR"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2741460"
+                        ],
+                        "name": "H. Ishwaran",
+                        "slug": "H.-Ishwaran",
+                        "structuredName": {
+                            "firstName": "Hemant",
+                            "lastName": "Ishwaran",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Ishwaran"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144319330"
+                        ],
+                        "name": "J. S. Rao",
+                        "slug": "J.-S.-Rao",
+                        "structuredName": {
+                            "firstName": "J.",
+                            "lastName": "Rao",
+                            "middleNames": [
+                                "Sunil"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. S. Rao"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 15
+                            }
+                        ],
+                        "text": "and-slab model [10] where the \u201cspike\u201d comes from the exposure variables and the matrix factorization component forms the flat \u201cslab\u201d part."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9004248,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "315eb50f7bea92e1f2d569e511e009e8e1ed3aa8",
+            "isKey": false,
+            "numCitedBy": 883,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Variable selection in the linear regression model takes many apparent faces from both frequentist and Bayesian standpoints. In this paper we introduce a variable selection method referred to as a rescaled spike and slab model. We study the importance of prior hierarchical specifications and draw connections to frequentist generalized ridge regression estimation. Specifically, we study the usefulness of continuous bimodal priors to model hypervariance parameters, and the effect scaling has on the posterior mean through its relationship to penalization. Several model selection strategies, some frequentist and some Bayesian in nature, are developed and studied theoretically. We demonstrate the importance of selective shrinkage for effective variable selection in terms of risk misclassification, and show this is achieved using the posterior from a rescaled spike and slab model. We also show how to verify a procedure\u2019s ability to reduce model uncertainty in finite samples using a specialized forward selection strategy. Using this tool, we illustrate the effectiveness of rescaled spike and slab models in reducing model uncertainty."
+            },
+            "slug": "Spike-and-slab-variable-selection:-Frequentist-and-Ishwaran-Rao",
+            "title": {
+                "fragments": [],
+                "text": "Spike and slab variable selection: Frequentist and Bayesian strategies"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "This paper introduces a variable selection method referred to as a rescaled spike and slab model, and studies the usefulness of continuous bimodal priors to model hypervariance parameters, and the effect scaling has on the posterior mean through its relationship to penalization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145430701"
+                        ],
+                        "name": "J. Pearl",
+                        "slug": "J.-Pearl",
+                        "structuredName": {
+                            "firstName": "Judea",
+                            "lastName": "Pearl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Pearl"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [],
+                        "text": "inSection 5.6. 4. RELATED WORK In this section we highlight connections between ExpoMF and other similar research directions. Causal inference. Our work borrows ideas from the eld of causal inference [22,9]. Causal inference aims at understanding and explaining the eect of one variable on another. One particular aim of causal inference is to answer counterfactual questions. For example, \\would this new"
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 12575481,
+            "fieldsOfStudy": [
+                "Philosophy"
+            ],
+            "id": "62064218665ad89f0cb2a44f5b19f7703d9c7e71",
+            "isKey": true,
+            "numCitedBy": 11171,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "1. Introduction to probabilities, graphs, and causal models 2. A theory of inferred causation 3. Causal diagrams and the identification of causal effects 4. Actions, plans, and direct effects 5. Causality and structural models in the social sciences 6. Simpson's paradox, confounding, and collapsibility 7. Structural and counterfactual models 8. Imperfect experiments: bounds and counterfactuals 9. Probability of causation: interpretation and identification Epilogue: the art and science of cause and effect."
+            },
+            "slug": "Causality:-Models,-Reasoning-and-Inference-Pearl",
+            "title": {
+                "fragments": [],
+                "text": "Causality: Models, Reasoning and Inference"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2000
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777587"
+                        ],
+                        "name": "N. Lazar",
+                        "slug": "N.-Lazar",
+                        "structuredName": {
+                            "firstName": "Nicole",
+                            "lastName": "Lazar",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Lazar"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 72,
+                                "start": 68
+                            }
+                        ],
+                        "text": "However, their interpretation, rooted in the theory of missing data [15], leads to a much different interpretation of the selection model."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 40372606,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f415edb81b74279e0913fa82a44b0fe509f11a43",
+            "isKey": false,
+            "numCitedBy": 12150,
+            "numCiting": 5,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "authors brie\u008f y review various methods and refer readers to works such as Little (1995) for details. The analyses presented are based on certain assumptions, such that the available GEE software can be applied. Chapter 4 gives a thorough discussion on model selection and testing and graphical methods for residual diagnostics. Overall, Generalized Estimating Equations is a good introductory book for analyzing continuous and discrete correlated data using GEE methods. The authors discuss the differences among the four commercial software programs and provide suggestions and cautions for users. This book is easy to read, and it assumes that the reader has some background in GLM. Many examples are drawn from biomedical studies and survey studies, and so it provides good guidance for analyzing correlated data in these and other areas."
+            },
+            "slug": "Statistical-Analysis-With-Missing-Data-Lazar",
+            "title": {
+                "fragments": [],
+                "text": "Statistical Analysis With Missing Data"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "Generalized Estimating Equations is a good introductory book for analyzing continuous and discrete correlated data using GEE methods and provides good guidance for analyzing correlated data in biomedical studies and survey studies."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Technometrics"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8359988"
+                        ],
+                        "name": "J. Hilbe",
+                        "slug": "J.-Hilbe",
+                        "structuredName": {
+                            "firstName": "Joseph",
+                            "lastName": "Hilbe",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Hilbe"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 79,
+                                "start": 76
+                            }
+                        ],
+                        "text": "Furthermore, we can include intercepts with various levels and interactions [6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 61817962,
+            "fieldsOfStudy": [
+                "Education"
+            ],
+            "id": "264ce4449468f38bc6f3d14d363cb434bb80537a",
+            "isKey": false,
+            "numCitedBy": 5164,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Data-Analysis-Using-Regression-and-Models-Hilbe",
+            "title": {
+                "fragments": [],
+                "text": "Data Analysis Using Regression and Multilevel/Hierarchical Models"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1764325"
+                        ],
+                        "name": "Radford M. Neal",
+                        "slug": "Radford-M.-Neal",
+                        "structuredName": {
+                            "firstName": "Radford",
+                            "lastName": "Neal",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Radford M. Neal"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 37
+                            }
+                        ],
+                        "text": "We use expectation-maximization (EM) [2] to find the maximum a posteriori estimates of the unknown parameters of the model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 31993898,
+            "fieldsOfStudy": [
+                "Mathematics",
+                "Art"
+            ],
+            "id": "3bb5a439a0d610a7eac68f73068cdd278b8c9775",
+            "isKey": false,
+            "numCitedBy": 22025,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "the selection of symmetric factorial designs, that is, a design where all factors have the same number of levels. Chapter 3 focuses on selection of two-level factorial designs and discusses complementary design theory and related topics in the selection of designs. Chapter 4 covers the selection of three level designs followed by the general case of s-levels. Chapter 5 discusses estimation capacity, presenting the connections with complementary designs followed by the estimation capacity for two-level and s-level designs. Chapter 6 discusses and presents results for the construction of mixed-level designs. Giving many examples of the use of mixed two and four-level designs. The final unit of the book discusses designs where there are two-different groups of factors. Chapters 7 and 8 discuss factorial designs with restricted randomization. Focusing first on blocked designs for full factorials as well as blocked fractional factorial designs. Chapter 8 focuses on split-plot designs. The booked is concluded with a chapter on robust parameter designs. This book covers a broad range of topics for regular factorial designs and presents all of the material in very mathematical fashion. However, the authors do a wonderful job of keeping the statistical methodology at the forefront of the book and the mathematical detail is presented as the necessary tool to study these designs. The book will serve as a great text for an advanced graduate level course in design theory for students with the necessary mathematical background. The book will surely become an invaluable resource for researchers and graduate students doing research in the design of factorial experiments. In addition, practitioners will also find the book useful for the comprehensive collection of optimal designs presented at the end of many chapters. Overall, this is a very well written book and a necessary addition to the existing literature on the design of factorial experiments."
+            },
+            "slug": "Pattern-Recognition-and-Machine-Learning-Neal",
+            "title": {
+                "fragments": [],
+                "text": "Pattern Recognition and Machine Learning"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "This book covers a broad range of topics for regular factorial designs and presents all of the material in very mathematical fashion and will surely become an invaluable resource for researchers and graduate students doing research in the design of factorial experiments."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Technometrics"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694621"
+                        ],
+                        "name": "Michael I. Jordan",
+                        "slug": "Michael-I.-Jordan",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Jordan",
+                            "middleNames": [
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael I. Jordan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 129,
+                                "start": 125
+                            }
+                        ],
+                        "text": "There are various other inference methods we could have used, such as Markov chain Monte Carlo [27] or variational inference [29]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6286159,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e16a25faf7428e1fc5ed0a10b8196c0499c7fd0d",
+            "isKey": false,
+            "numCitedBy": 3812,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Statistical applications in fields such as bioinformatics, information retrieval, speech processing, image processing and communications often involve large-scale models in which thousands or millions of random variables are linked in complex ways. Graphical models provide a general methodology for approaching these problems, and indeed many of the models developed by researchers in these applied fields are instances of the general graphical model formalism. We review some of the basic ideas underlying graphical models, including the algorithmic ideas that allow graphical models to be deployed in large-scale data analysis problems. We also present examples of graphical models in bioinformatics, error-control coding and language processing."
+            },
+            "slug": "Graphical-Models-Jordan",
+            "title": {
+                "fragments": [],
+                "text": "Graphical Models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "Some of the basic ideas underlying graphical models are reviewed, including the algorithmic ideas that allow graphical models to be deployed in large-scale data analysis problems and examples of graphical models in bioinformatics, error-control coding and language processing are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109352679"
+                        ],
+                        "name": "Adrian F. M. Smith",
+                        "slug": "Adrian-F.-M.-Smith",
+                        "structuredName": {
+                            "firstName": "Adrian",
+                            "lastName": "Smith",
+                            "middleNames": [
+                                "F.",
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Adrian F. M. Smith"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3264000"
+                        ],
+                        "name": "G. Roberts",
+                        "slug": "G.-Roberts",
+                        "structuredName": {
+                            "firstName": "Gareth",
+                            "lastName": "Roberts",
+                            "middleNames": [
+                                "O."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Roberts"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 95,
+                                "start": 84
+                            }
+                        ],
+                        "text": "2There are various other inference methods we could have used, such as Markov chain Monte Carlo [27] or variational inference [29]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 95
+                            }
+                        ],
+                        "text": "There are various other inference methods we could have used, such as Markov chain Monte Carlo [27] or variational inference [29]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 115772206,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "aed20302f003a751b1af4e40ace379b9fd255cc7",
+            "isKey": false,
+            "numCitedBy": 1724,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The use of the Gibbs sampler for Bayesian computation is reviewed and illustrated in the context of some canonical examples. Other Markov chain Monte Carlo simulation methods are also briefly described, and comments are made on the advantages of sample-based approaches for Bayesian inference summaries"
+            },
+            "slug": "Bayesian-computation-via-the-gibbs-sampler-and-Smith-Roberts",
+            "title": {
+                "fragments": [],
+                "text": "Bayesian computation via the gibbs sampler and related markov chain monte carlo methods (with discus"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1987
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145430701"
+                        ],
+                        "name": "J. Pearl",
+                        "slug": "J.-Pearl",
+                        "structuredName": {
+                            "firstName": "Judea",
+                            "lastName": "Pearl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Pearl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2068938166"
+                        ],
+                        "name": "M. Glymour",
+                        "slug": "M.-Glymour",
+                        "structuredName": {
+                            "firstName": "M.",
+                            "lastName": "Glymour",
+                            "middleNames": [
+                                "Maria"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Glymour"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "10091739"
+                        ],
+                        "name": "N. Jewell",
+                        "slug": "N.-Jewell",
+                        "structuredName": {
+                            "firstName": "Nicholas",
+                            "lastName": "Jewell",
+                            "middleNames": [
+                                "P"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Jewell"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 8059883,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "e57d10f20fe8a1d73fff848cb38eff5967cd9ba2",
+            "isKey": false,
+            "numCitedBy": 133,
+            "numCiting": 114,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Online version: ; Pearl, Judea, author. ; Causal inference in statistics ; Chichester, UK ; Hoboken, NJ : John Wiley & Sons, 2016 ; 9781119186854 ; (DLC) 2015037219 ;"
+            },
+            "slug": "Causal-inference-in-statistics-Pearl-Glymour",
+            "title": {
+                "fragments": [],
+                "text": "Causal inference in statistics"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145183709"
+                        ],
+                        "name": "J. Weston",
+                        "slug": "J.-Weston",
+                        "structuredName": {
+                            "firstName": "Jason",
+                            "lastName": "Weston",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Weston"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751569"
+                        ],
+                        "name": "Samy Bengio",
+                        "slug": "Samy-Bengio",
+                        "structuredName": {
+                            "firstName": "Samy",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Samy Bengio"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1746841"
+                        ],
+                        "name": "Nicolas Usunier",
+                        "slug": "Nicolas-Usunier",
+                        "structuredName": {
+                            "firstName": "Nicolas",
+                            "lastName": "Usunier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicolas Usunier"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[31] approximately optimizes Precision@k."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 1337776,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "51480ee8f067453c2878f0148ffcfa3a856a02dc",
+            "isKey": false,
+            "numCitedBy": 746,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Image annotation datasets are becoming larger and larger, with tens of millions of images and tens of thousands of possible annotations. We propose a strongly performing method that scales to such datasets by simultaneously learning to optimize precision at the top of the ranked list of annotations for a given image and learning a low-dimensional joint embedding space for both images and annotations. Our method, called WSABIE, both outperforms several baseline methods and is faster and consumes less memory."
+            },
+            "slug": "WSABIE:-Scaling-Up-to-Large-Vocabulary-Image-Weston-Bengio",
+            "title": {
+                "fragments": [],
+                "text": "WSABIE: Scaling Up to Large Vocabulary Image Annotation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 52,
+                "text": "This work proposes a strongly performing method that scales to image annotation datasets by simultaneously learning to optimize precision at the top of the ranked list of annotations for a given image and learning a low-dimensional joint embedding space for both images and annotations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "IJCAI"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35043531"
+                        ],
+                        "name": "A. Dempster",
+                        "slug": "A.-Dempster",
+                        "structuredName": {
+                            "firstName": "Arthur",
+                            "lastName": "Dempster",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Dempster"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7890796"
+                        ],
+                        "name": "N. Laird",
+                        "slug": "N.-Laird",
+                        "structuredName": {
+                            "firstName": "Nan",
+                            "lastName": "Laird",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Laird"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2235217"
+                        ],
+                        "name": "D. Rubin",
+                        "slug": "D.-Rubin",
+                        "structuredName": {
+                            "firstName": "Donald",
+                            "lastName": "Rubin",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Rubin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 40,
+                                "start": 37
+                            }
+                        ],
+                        "text": "We use expectation-maximization (EM) [5] to find the maximum a posteriori estimates of the unknown parameters of the model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 4193919,
+            "fieldsOfStudy": [
+                "Engineering"
+            ],
+            "id": "d36efb9ad91e00faa334b549ce989bfae7e2907a",
+            "isKey": false,
+            "numCitedBy": 49120,
+            "numCiting": 90,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Vibratory power unit for vibrating conveyers and screens comprising an asynchronous polyphase motor, at least one pair of associated unbalanced masses disposed on the shaft of said motor, with the first mass of a pair of said unbalanced masses being rigidly fastened to said shaft and with said second mass of said pair being movably arranged relative to said first mass, means for controlling and regulating the conveying rate during conveyer operation by varying the rotational speed of said motor between predetermined minimum and maximum values, said second mass being movably outwardly by centrifugal force against the pressure of spring means, said spring means being prestressed in such a manner that said second mass is, at rotational motor speeds lower than said minimum speed, held in its initial position, and at motor speeds between said lower and upper values in positions which are radially offset with respect to the axis of said motor to an extent depending on the value of said rotational motor speed."
+            },
+            "slug": "Maximum-likelihood-from-incomplete-data-via-the-EM-Dempster-Laird",
+            "title": {
+                "fragments": [],
+                "text": "Maximum likelihood from incomplete data via the EM - algorithm plus discussions on the paper"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 160,
+                                "start": 156
+                            }
+                        ],
+                        "text": "Matrix factorization models, which infer (latent) user preferences and item attributes by factorizing the click matrix, are standard in recommender systems [11]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Matrix factorization techniques for recommender"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "systems. Computer,"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Causal Inference in Statistics, Social, and Biomedical Sciences"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Causal Inference in Statistics, Social, and Biomedical Sciences"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Scal - ing up to large vocabulary image annotation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Schapire . A contextualbandit approach to personalized news article recommendation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2010
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 234,
+                                "start": 230
+                            }
+                        ],
+                        "text": "In zero-inflated Poisson regression, a latent binary random variable, similar to our exposure variable is introduced to \u201cexplain away\u201d the structural zeros, such that the underlying Poisson model can better capture the count data [12]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Zero-inflated Poisson regression"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "with an application to defects in manufacturing. Technometrics, 34(1):1\u201314"
+            },
+            "year": 1992
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 58
+                            }
+                        ],
+                        "text": "Our work borrows ideas from the field of causal inference [22, 9]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Causality: Models"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Reasoning and Inference. Cambridge University Press, New York, NY, USA, 2nd edition"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Leskovec . Friendship and mobility : user movement in location - based social networks"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Proceedings of the 17 th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Joachims . Counterfactual risk minimization"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2015
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Latent Dirichlet allocation. the Journal of Machine Learning Research"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Latent Dirichlet allocation. the Journal of Machine Learning Research"
+            },
+            "year": 2003
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 14,
+            "methodology": 14
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 44,
+        "totalPages": 5
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Modeling-User-Exposure-in-Recommendation-Liang-Charlin/3b93f37e5af2f6f66af33720dc8d0e4de7dc4e65?sort=total-citations"
+}

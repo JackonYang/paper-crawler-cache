@@ -1,0 +1,3755 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388574431"
+                        ],
+                        "name": "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato",
+                        "slug": "Jos\u00e9-Miguel-Hern\u00e1ndez-Lobato",
+                        "structuredName": {
+                            "firstName": "Jos\u00e9 Miguel",
+                            "lastName": "Hern\u00e1ndez-Lobato",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2815290"
+                        ],
+                        "name": "N. Houlsby",
+                        "slug": "N.-Houlsby",
+                        "structuredName": {
+                            "firstName": "Neil",
+                            "lastName": "Houlsby",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Houlsby"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1744700"
+                        ],
+                        "name": "Zoubin Ghahramani",
+                        "slug": "Zoubin-Ghahramani",
+                        "structuredName": {
+                            "firstName": "Zoubin",
+                            "lastName": "Ghahramani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zoubin Ghahramani"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 16264644,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1313e362d366a1f6e13c9ba8b2548f675226f4f4",
+            "isKey": false,
+            "numCitedBy": 126,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We propose a probabilistic matrix factorization model for collaborative filtering that learns from data that is missing not at random (MNAR). Matrix factorization models exhibit state-of-the-art predictive performance in collaborative filtering. However, these models usually assume that the data is missing at random (MAR), and this is rarely the case. For example, the data is not MAR if users rate items they like more than ones they dislike. When the MAR assumption is incorrect, inferences are biased and predictive performance can suffer. Therefore, we model both the generative process for the data and the missing data mechanism. By learning these two models jointly we obtain improved performance over state-of-the-art methods when predicting the ratings and when modeling the data observation process. We present the first viable MF model for MNAR data. Our results are promising and we expect that further research on NMAR models will yield large gains in collaborative filtering."
+            },
+            "slug": "Probabilistic-Matrix-Factorization-with-Non-random-Hern\u00e1ndez-Lobato-Houlsby",
+            "title": {
+                "fragments": [],
+                "text": "Probabilistic Matrix Factorization with Non-random Missing Data"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 71,
+                "text": "A probabilistic matrix factorization model for collaborative filtering that learns from data that is missing not at random (MNAR) to obtain improved performance over state-of-the-art methods when predicting the ratings and when modeling the data observation process."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2933399"
+                        ],
+                        "name": "Ruining He",
+                        "slug": "Ruining-He",
+                        "structuredName": {
+                            "firstName": "Ruining",
+                            "lastName": "He",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ruining He"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35660011"
+                        ],
+                        "name": "Julian McAuley",
+                        "slug": "Julian-McAuley",
+                        "structuredName": {
+                            "firstName": "Julian",
+                            "lastName": "McAuley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Julian McAuley"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 46,
+                                "start": 43
+                            }
+                        ],
+                        "text": "A popular idea is to utilize Markov chains [4] to model the sequential information."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9124261,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fea7e2bcbe852bcb33ce70a4d57664e954f0e82a",
+            "isKey": false,
+            "numCitedBy": 334,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Predicting personalized sequential behavior is a key task for recommender systems. In order to predict user actions such as the next product to purchase, movie to watch, or place to visit, it is essential to take into account both long-term user preferences and sequential patterns (i.e., short-term dynamics). Matrix Factorization and Markov Chain methods have emerged as two separate but powerful paradigms for modeling the two respectively. Combining these ideas has led to unified methods that accommodate long-and short-term dynamics simultaneously by modeling pairwise user-item and item-item interactions. In spite of the success of such methods for tackling dense data, they are challenged by sparsity issues, which are prevalent in real-world datasets. In recent years, similarity-based methods have been proposed for (sequentially-unaware) item recommendation with promising results on sparse datasets. In this paper, we propose to fuse such methods with Markov Chains to make personalized sequential recommendations. We evaluate our method, Fossil, on a variety of large, real-world datasets. We show quantitatively that Fossil outperforms alternative algorithms, especially on sparse datasets, and qualitatively that it captures personalized dynamics and is able to make meaningful recommendations."
+            },
+            "slug": "Fusing-Similarity-Models-with-Markov-Chains-for-He-McAuley",
+            "title": {
+                "fragments": [],
+                "text": "Fusing Similarity Models with Markov Chains for Sparse Sequential Recommendation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "Fossil is proposed, a similarity-based method that outperforms alternative algorithms, especially on sparse datasets, and qualitatively that it captures personalized dynamics and is able to make meaningful recommendations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2016 IEEE 16th International Conference on Data Mining (ICDM)"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1702877"
+                        ],
+                        "name": "Dawen Liang",
+                        "slug": "Dawen-Liang",
+                        "structuredName": {
+                            "firstName": "Dawen",
+                            "lastName": "Liang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dawen Liang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1778839"
+                        ],
+                        "name": "Laurent Charlin",
+                        "slug": "Laurent-Charlin",
+                        "structuredName": {
+                            "firstName": "Laurent",
+                            "lastName": "Charlin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Laurent Charlin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2059894216"
+                        ],
+                        "name": "James McInerney",
+                        "slug": "James-McInerney",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "McInerney",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "James McInerney"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1796335"
+                        ],
+                        "name": "D. Blei",
+                        "slug": "D.-Blei",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Blei",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Blei"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 10,
+                                "start": 4
+                            }
+                        ],
+                        "text": "For ExpoMF, we set \u03bb\u03b8 = 0.01, \u03bb\u03b2 = 0.01, \u03bby = 0.01, and K = 30."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 6,
+                                "start": 0
+                            }
+                        ],
+                        "text": "ExpoMF takes a static method to the MNAR problem."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 6,
+                                "start": 0
+                            }
+                        ],
+                        "text": "ExpoMF models exposure variable \u03b1ui for every user-item pair so it can capture more information from the missing data compared to WMF and PMF. H4MF is better than ExpoMF because it considers the dynamic missingness of items."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 26,
+                                "start": 20
+                            }
+                        ],
+                        "text": "Note that PMF, WMF, ExpoMF, and H4MF model user preference similarly: they all use a basic matrix factorization method and the main difference is the way they model the missing data."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 22
+                            }
+                        ],
+                        "text": "Recently, researchers [10, 24] treated missing entries differently with the so-called \u201cexposure\u201d variables and achieved improved results."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 57
+                            }
+                        ],
+                        "text": "For implicit feedback, some causal-process-based methods [10, 24] first computed exposures for each user and then used them to guide rating prediction, which have shown promising results."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 49,
+                                "start": 43
+                            }
+                        ],
+                        "text": "Note that the experimental results of WMF, ExpoMF, and H4MF are very close; WMF even beats WMF and H4MF on LastFM."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 109,
+                                "start": 105
+                            }
+                        ],
+                        "text": "For each y ij in dataset, we use a Bernoulli missingness variable \u03b1 ij (same as the exposure variable in [10]) to indicate the missingness: \u03b1 t ij = 1 means item j is exposed to user i at time t, and \u03b1 ij = 0 means the user does not see the item."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 15,
+                                "start": 11
+                            }
+                        ],
+                        "text": "(4) ExpoMF [10], a probabilistic approach that incorporates user exposure to items into collaborative filtering."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2354755,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "3b93f37e5af2f6f66af33720dc8d0e4de7dc4e65",
+            "isKey": true,
+            "numCitedBy": 249,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Collaborative filtering analyzes user preferences for items (e.g., books, movies, restaurants, academic papers) by exploiting the similarity patterns across users. In implicit feedback settings, all the items, including the ones that a user did not consume, are taken into consideration. But this assumption does not accord with the common sense understanding that users have a limited scope and awareness of items. For example, a user might not have heard of a certain paper, or might live too far away from a restaurant to experience it. In the language of causal analysis (Imbens & Rubin, 2015), the assignment mechanism (i.e., the items that a user is exposed to) is a latent variable that may change for various user/item combinations. In this paper, we propose a new probabilistic approach that directly incorporates user exposure to items into collaborative filtering. The exposure is modeled as a latent variable and the model infers its value from data. In doing so, we recover one of the most successful state-of-the-art approaches as a special case of our model (Hu et al. 2008), and provide a plug-in method for conditioning exposure on various forms of exposure covariates (e.g., topics in text, venue locations). We show that our scalable inference algorithm outperforms existing benchmarks in four different domains both with and without exposure covariates."
+            },
+            "slug": "Modeling-User-Exposure-in-Recommendation-Liang-Charlin",
+            "title": {
+                "fragments": [],
+                "text": "Modeling User Exposure in Recommendation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This paper proposes a new probabilistic approach that directly incorporates user exposure to items into collaborative filtering, and recovers one of the most successful state-of-the-art approaches as a special case of the model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WWW"
+            },
+            "year": 2016
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2843982"
+                        ],
+                        "name": "Steffen Rendle",
+                        "slug": "Steffen-Rendle",
+                        "structuredName": {
+                            "firstName": "Steffen",
+                            "lastName": "Rendle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steffen Rendle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1825333"
+                        ],
+                        "name": "C. Freudenthaler",
+                        "slug": "C.-Freudenthaler",
+                        "structuredName": {
+                            "firstName": "Christoph",
+                            "lastName": "Freudenthaler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Freudenthaler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2382247"
+                        ],
+                        "name": "Zeno Gantner",
+                        "slug": "Zeno-Gantner",
+                        "structuredName": {
+                            "firstName": "Zeno",
+                            "lastName": "Gantner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zeno Gantner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388781075"
+                        ],
+                        "name": "L. Schmidt-Thieme",
+                        "slug": "L.-Schmidt-Thieme",
+                        "structuredName": {
+                            "firstName": "Lars",
+                            "lastName": "Schmidt-Thieme",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Schmidt-Thieme"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 10795036,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "db16e908246f32b60a6e0a8e27093aa145fbb1ed",
+            "isKey": false,
+            "numCitedBy": 3865,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Item recommendation is the task of predicting a personalized ranking on a set of items (e.g. websites, movies, products). In this paper, we investigate the most common scenario with implicit feedback (e.g. clicks, purchases). There are many methods for item recommendation from implicit feedback like matrix factorization (MF) or adaptive k-nearest-neighbor (kNN). Even though these methods are designed for the item prediction task of personalized ranking, none of them is directly optimized for ranking. In this paper we present a generic optimization criterion BPR-Opt for personalized ranking that is the maximum posterior estimator derived from a Bayesian analysis of the problem. We also provide a generic learning algorithm for optimizing models with respect to BPR-Opt. The learning method is based on stochastic gradient descent with bootstrap sampling. We show how to apply our method to two state-of-the-art recommender models: matrix factorization and adaptive kNN. Our experiments indicate that for the task of personalized ranking our optimization method outperforms the standard learning techniques for MF and kNN. The results show the importance of optimizing models for the right criterion."
+            },
+            "slug": "BPR:-Bayesian-Personalized-Ranking-from-Implicit-Rendle-Freudenthaler",
+            "title": {
+                "fragments": [],
+                "text": "BPR: Bayesian Personalized Ranking from Implicit Feedback"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper presents a generic optimization criterion BPR-Opt for personalized ranking that is the maximum posterior estimator derived from a Bayesian analysis of the problem and provides a generic learning algorithm for optimizing models with respect to B PR-Opt."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "UAI"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50819900"
+                        ],
+                        "name": "Yifan Hu",
+                        "slug": "Yifan-Hu",
+                        "structuredName": {
+                            "firstName": "Yifan",
+                            "lastName": "Hu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yifan Hu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3146362"
+                        ],
+                        "name": "C. Volinsky",
+                        "slug": "C.-Volinsky",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Volinsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Volinsky"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 16
+                            }
+                        ],
+                        "text": "Popular methods [7, 18] are based \u2217Corresponding author"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 23
+                            }
+                        ],
+                        "text": "Several previous works [7, 13] provided evidence that both ignoring missing data and treating all missing data as negative feedback will lead to biased recommendations."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 132,
+                                "start": 129
+                            }
+                        ],
+                        "text": "ExpoMF models exposure variable \u03b1ui for every user-item pair so it can capture more information from the missing data compared to WMF and PMF. H4MF is better than ExpoMF because it considers the dynamic missingness of items."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "WMF treats the missing data as a MAR problem."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 115,
+                                "start": 112
+                            }
+                        ],
+                        "text": "Here we set basket size as 1 as we do not have basket information, which also limits the effectiveness of FPMC. WMF is better than PMF as it treats the missing data with a globally fixed low confidence."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 18,
+                                "start": 15
+                            }
+                        ],
+                        "text": "Note that PMF, WMF, ExpoMF, and H4MF model user preference similarly: they all use a basic matrix factorization method and the main difference is the way they model the missing data."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 7,
+                                "start": 4
+                            }
+                        ],
+                        "text": "For WMF, we set K = 10, \u03b1 = 0.4."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 8
+                            }
+                        ],
+                        "text": "(2) WMF [7], a standard matrix factorization model for implicit data, which uses a simple heuristic where all unobserved user-item interactions are equally down weighted against the observed interactions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 38
+                            }
+                        ],
+                        "text": "Note that the experimental results of WMF, ExpoMF, and H4MF are very close; WMF even beats WMF and H4MF on LastFM."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 10537313,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "184b7281a87ee16228b24716ca02b29519d52eb5",
+            "isKey": true,
+            "numCitedBy": 2749,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A common task of recommender systems is to improve customer experience through personalized recommendations based on prior implicit feedback. These systems passively track different sorts of user behavior, such as purchase history, watching habits and browsing activity, in order to model user preferences. Unlike the much more extensively researched explicit feedback, we do not have any direct input from the users regarding their preferences. In particular, we lack substantial evidence on which products consumer dislike. In this work we identify unique properties of implicit feedback datasets. We propose treating the data as indication of positive and negative preference associated with vastly varying confidence levels. This leads to a factor model which is especially tailored for implicit feedback recommenders. We also suggest a scalable optimization procedure, which scales linearly with the data size. The algorithm is used successfully within a recommender system for television shows. It compares favorably with well tuned implementations of other known methods. In addition, we offer a novel way to give explanations to recommendations given by this factor model."
+            },
+            "slug": "Collaborative-Filtering-for-Implicit-Feedback-Hu-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative Filtering for Implicit Feedback Datasets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work identifies unique properties of implicit feedback datasets and proposes treating the data as indication of positive and negative preference associated with vastly varying confidence levels, which leads to a factor model which is especially tailored for implicit feedback recommenders."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 Eighth IEEE International Conference on Data Mining"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2065174415"
+                        ],
+                        "name": "Guang Ling",
+                        "slug": "Guang-Ling",
+                        "structuredName": {
+                            "firstName": "Guang",
+                            "lastName": "Ling",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Guang Ling"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1702456"
+                        ],
+                        "name": "Haiqin Yang",
+                        "slug": "Haiqin-Yang",
+                        "structuredName": {
+                            "firstName": "Haiqin",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Haiqin Yang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1785083"
+                        ],
+                        "name": "Michael R. Lyu",
+                        "slug": "Michael-R.-Lyu",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Lyu",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael R. Lyu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145310663"
+                        ],
+                        "name": "Irwin King",
+                        "slug": "Irwin-King",
+                        "structuredName": {
+                            "firstName": "Irwin",
+                            "lastName": "King",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Irwin King"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 62,
+                                "start": 51
+                            }
+                        ],
+                        "text": "For explicit feedback, a widely accepted mechanism [13, 11, 6] is that missingness is related to the potential ratings (e."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7982003,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4af369212b07ef8e104b9f5c4f8d48e5aa49032c",
+            "isKey": false,
+            "numCitedBy": 21,
+            "numCiting": 32,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Previous work on recommender systems mainly focus on fitting the ratings provided by users. However, the response patterns, i.e., some items are rated while others not, are generally ignored. We argue that failing to observe such response patterns can lead to biased parameter estimation and sub-optimal model performance. Although several pieces of work have tried to model users' response patterns, they miss the effectiveness and interpretability of the successful matrix factorization collaborative filtering approaches. To bridge the gap, in this paper, we unify explicit response models and PMF to establish the Response Aware Probabilistic Matrix Factorization (RAPMF) framework. We show that RAPMF subsumes PMF as a special case. Empirically we demonstrate the merits of RAPMF from various aspects."
+            },
+            "slug": "Response-Aware-Model-Based-Collaborative-Filtering-Ling-Yang",
+            "title": {
+                "fragments": [],
+                "text": "Response Aware Model-Based Collaborative Filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "This paper unify explicit response models and PMF to establish the Response Aware Probabilistic Matrix Factorization (RAPMF) framework and shows that RAPMF subsumes PMF as a special case."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "UAI"
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2843982"
+                        ],
+                        "name": "Steffen Rendle",
+                        "slug": "Steffen-Rendle",
+                        "structuredName": {
+                            "firstName": "Steffen",
+                            "lastName": "Rendle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steffen Rendle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1825333"
+                        ],
+                        "name": "C. Freudenthaler",
+                        "slug": "C.-Freudenthaler",
+                        "structuredName": {
+                            "firstName": "Christoph",
+                            "lastName": "Freudenthaler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Freudenthaler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388781075"
+                        ],
+                        "name": "L. Schmidt-Thieme",
+                        "slug": "L.-Schmidt-Thieme",
+                        "structuredName": {
+                            "firstName": "Lars",
+                            "lastName": "Schmidt-Thieme",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Schmidt-Thieme"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 13,
+                                "start": 9
+                            }
+                        ],
+                        "text": "(3) FPMC [20], a sequential recommendation algorithm based on personalized transition graphs over underlying Markov chains."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "FPMC has the same reason for its poor performance."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 110,
+                                "start": 106
+                            }
+                        ],
+                        "text": "Here we set basket size as 1 as we do not have basket information, which also limits the effectiveness of FPMC. WMF is better than PMF as it treats the missing data with a globally fixed low confidence."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 64,
+                                "start": 60
+                            }
+                        ],
+                        "text": "The baselines are chosen for the following reasons: PMF and FPMC can been seen as sub-models of H4MF, while they overlook the missing data problem."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[20] proposed a factorized personalized Markov chain (FPMC) model that combines both a common Markov chain and a matrix factorization model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 72,
+                                "start": 68
+                            }
+                        ],
+                        "text": "Rendle et al. [20] proposed a factorized personalized Markov chain (FPMC) model that combines both a common Markov chain and a matrix factorization model."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 207178809,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "50d85cb114f7c5e779a6772f2931e77dddd54a5e",
+            "isKey": true,
+            "numCitedBy": 1340,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems are an important component of many websites. Two of the most popular approaches are based on matrix factorization (MF) and Markov chains (MC). MF methods learn the general taste of a user by factorizing the matrix over observed user-item preferences. On the other hand, MC methods model sequential behavior by learning a transition graph over items that is used to predict the next action based on the recent actions of a user. In this paper, we present a method bringing both approaches together. Our method is based on personalized transition graphs over underlying Markov chains. That means for each user an own transition matrix is learned - thus in total the method uses a transition cube. As the observations for estimating the transitions are usually very limited, our method factorizes the transition cube with a pairwise interaction model which is a special case of the Tucker Decomposition. We show that our factorized personalized MC (FPMC) model subsumes both a common Markov chain and the normal matrix factorization model. For learning the model parameters, we introduce an adaption of the Bayesian Personalized Ranking (BPR) framework for sequential basket data. Empirically, we show that our FPMC model outperforms both the common matrix factorization and the unpersonalized MC model both learned with and without factorization."
+            },
+            "slug": "Factorizing-personalized-Markov-chains-for-Rendle-Freudenthaler",
+            "title": {
+                "fragments": [],
+                "text": "Factorizing personalized Markov chains for next-basket recommendation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper introduces an adaption of the Bayesian Personalized Ranking (BPR) framework for sequential basket data and shows that the FPMC model outperforms both the common matrix factorization and the unpersonalized MC model both learned with and without factorization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WWW '10"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49303966"
+                        ],
+                        "name": "Nachiketa Sahoo",
+                        "slug": "Nachiketa-Sahoo",
+                        "structuredName": {
+                            "firstName": "Nachiketa",
+                            "lastName": "Sahoo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nachiketa Sahoo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7280423"
+                        ],
+                        "name": "P. Singh",
+                        "slug": "P.-Singh",
+                        "structuredName": {
+                            "firstName": "Param",
+                            "lastName": "Singh",
+                            "middleNames": [
+                                "Vir"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Singh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "49662908"
+                        ],
+                        "name": "T. Mukhopadhyay",
+                        "slug": "T.-Mukhopadhyay",
+                        "structuredName": {
+                            "firstName": "Tridas",
+                            "lastName": "Mukhopadhyay",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Mukhopadhyay"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[21] chose a hidden Markov model to capture the dynamic of user preferences for personalized recommendation."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8510656,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "a795b04d7af191349e169822089b56eef96718d8",
+            "isKey": false,
+            "numCitedBy": 138,
+            "numCiting": 124,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, we present a method to make personalized recommendations when user preferences change over time. Most of the works in the recommender systems literature have been developed under the assumption that user preference has a static pattern. However, this is a strong assumption especially when the user is observed over a long period of time. With the help of a data set on employees' blog reading behavior, we show that users' product selection behaviors change over time. We propose a hidden Markov model to correctly interpret the users' product selection behaviors and make personalized recommendations. The user preference is modeled as a hidden Markov sequence. A variable number of product selections of different types by each user in each time period requires a novel observation model. We propose a negative binomial mixture of multinomial to model such observations. This allows us to identify stable global preferences of users and to track individual users through these preferences. We evaluate our model using three real-world data sets with different characteristics. They include data on employee blog reading behavior inside a firm, users' movie rating behavior at Netflix, and users' music listening behavior collected through last.fm. We compare the recommendation performance of the proposed model with that of a number of collaborative filtering algorithms and a recently proposed temporal link prediction algorithm. We find that the proposed HMM-based collaborative filter performs as well as the best among the alternative algorithms when the data is sparse or static. However, it outperforms the existing algorithms when the data is less sparse and the user preference is changing. We further examine the performances of the algorithms using simulated data with different characteristics and highlight the scenarios where it is beneficial to use a dynamic model to generate product recommendation."
+            },
+            "slug": "A-Hidden-Markov-Model-for-Collaborative-Filtering-Sahoo-Singh",
+            "title": {
+                "fragments": [],
+                "text": "A Hidden Markov Model for Collaborative Filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "A hidden Markov model is proposed to correctly interpret the users' product selection behaviors and make personalized recommendations and it is found that the proposed HMM-based collaborative filter performs as well as the best among the alternative algorithms when the data is sparse or static."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "MIS Q."
+            },
+            "year": 2012
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1805742"
+                        ],
+                        "name": "Benjamin M Marlin",
+                        "slug": "Benjamin-M-Marlin",
+                        "structuredName": {
+                            "firstName": "Benjamin",
+                            "lastName": "Marlin",
+                            "middleNames": [
+                                "M"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benjamin M Marlin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1804104"
+                        ],
+                        "name": "R. Zemel",
+                        "slug": "R.-Zemel",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Zemel",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Zemel"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2758584,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f7ab3f31ebd8612e5c4f6a9b865b1e39c06a2345",
+            "isKey": false,
+            "numCitedBy": 266,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A fundamental aspect of rating-based recommender systems is the observation process, the process by which users choose the items they rate. Nearly all research on collaborative filtering and recommender systems is founded on the assumption that missing ratings are missing at random. The statistical theory of missing data shows that incorrect assumptions about missing data can lead to biased parameter estimation and prediction. In a recent study, we demonstrated strong evidence for violations of the missing at random condition in a real recommender system. In this paper we present the first study of the effect of non-random missing data on collaborative ranking, and extend our previous results regarding the impact of non-random missing data on collaborative prediction."
+            },
+            "slug": "Collaborative-prediction-and-ranking-with-missing-Marlin-Zemel",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative prediction and ranking with non-random missing data"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This paper presents the first study of the effect of non-random missing data on collaborative ranking, and extends the previous results regarding the impact ofNon-randomMissingData on collaborative prediction."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "RecSys '09"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "9194382"
+                        ],
+                        "name": "Chaoxia Wu",
+                        "slug": "Chaoxia-Wu",
+                        "structuredName": {
+                            "firstName": "Chaoxia",
+                            "lastName": "Wu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chaoxia Wu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143629707"
+                        ],
+                        "name": "Amr Ahmed",
+                        "slug": "Amr-Ahmed",
+                        "structuredName": {
+                            "firstName": "Amr",
+                            "lastName": "Ahmed",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Amr Ahmed"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2638246"
+                        ],
+                        "name": "Alex Beutel",
+                        "slug": "Alex-Beutel",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Beutel",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alex Beutel"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46234526"
+                        ],
+                        "name": "Alex Smola",
+                        "slug": "Alex-Smola",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Smola",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alex Smola"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3004697"
+                        ],
+                        "name": "How Jing",
+                        "slug": "How-Jing",
+                        "structuredName": {
+                            "firstName": "How",
+                            "lastName": "Jing",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "How Jing"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 7
+                            }
+                        ],
+                        "text": ", LSTM [26] and GRU [2] ) for sequential recommendation; however, they are limited in interpretability."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 69,
+                                "start": 65
+                            }
+                        ],
+                        "text": "Some other researchers also used deep learning techniques (e.g., LSTM [26] and GRU [2] ) for sequential recommendation; however, they are limited in interpretability."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 5362246,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "119868d3a5862c514e64d7855b41ff9927c311d4",
+            "isKey": false,
+            "numCitedBy": 520,
+            "numCiting": 44,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems traditionally assume that user profiles and movie attributes are static. Temporal dynamics are purely reactive, that is, they are inferred after they are observed, e.g. after a user's taste has changed or based on hand-engineered temporal bias corrections for movies. We propose Recurrent Recommender Networks (RRN) that are able to predict future behavioral trajectories. This is achieved by endowing both users and movies with a Long Short-Term Memory (LSTM) autoregressive model that captures dynamics, in addition to a more traditional low-rank factorization. On multiple real-world datasets, our model offers excellent prediction accuracy and it is very compact, since we need not learn latent state but rather just the state transition function."
+            },
+            "slug": "Recurrent-Recommender-Networks-Wu-Ahmed",
+            "title": {
+                "fragments": [],
+                "text": "Recurrent Recommender Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "Recurrent Recommender Networks (RRN) are proposed that are able to predict future behavioral trajectories by endowing both users and movies with a Long Short-Term Memory (LSTM) autoregressive model that captures dynamics, in addition to a more traditional low-rank factorization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WSDM"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145170932"
+                        ],
+                        "name": "Yue Shi",
+                        "slug": "Yue-Shi",
+                        "structuredName": {
+                            "firstName": "Yue",
+                            "lastName": "Shi",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yue Shi"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145980903"
+                        ],
+                        "name": "M. Larson",
+                        "slug": "M.-Larson",
+                        "structuredName": {
+                            "firstName": "Martha",
+                            "lastName": "Larson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Larson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1718099"
+                        ],
+                        "name": "A. Hanjalic",
+                        "slug": "A.-Hanjalic",
+                        "structuredName": {
+                            "firstName": "Alan",
+                            "lastName": "Hanjalic",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Hanjalic"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 5493334,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "41245aa31780116ae14cab0290841070779bf4a5",
+            "isKey": false,
+            "numCitedBy": 707,
+            "numCiting": 223,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Over the past two decades, a large amount of research effort has been devoted to developing algorithms that generate recommendations. The resulting research progress has established the importance of the user-item (U-I) matrix, which encodes the individual preferences of users for items in a collection, for recommender systems. The U-I matrix provides the basis for collaborative filtering (CF) techniques, the dominant framework for recommender systems. Currently, new recommendation scenarios are emerging that offer promising new information that goes beyond the U-I matrix. This information can be divided into two categories related to its source: rich side information concerning users and items, and interaction information associated with the interplay of users and items. In this survey, we summarize and analyze recommendation scenarios involving information sources and the CF algorithms that have been recently developed to address them. We provide a comprehensive introduction to a large body of research, more than 200 key references, with the aim of supporting the further development of recommender systems exploiting information beyond the U-I matrix. On the basis of this material, we identify and discuss what we see as the central challenges lying ahead for recommender system technology, both in terms of extensions of existing techniques as well as of the integration of techniques and technologies drawn from other research areas."
+            },
+            "slug": "Collaborative-Filtering-beyond-the-User-Item-Matrix-Shi-Larson",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative Filtering beyond the User-Item Matrix"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "A comprehensive introduction to a large body of research, more than 200 key references, is provided, with the aim of supporting the further development of recommender systems exploiting information beyond the U-I matrix."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ACM Comput. Surv."
+            },
+            "year": 2014
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2080414199"
+                        ],
+                        "name": "Bob",
+                        "slug": "Bob",
+                        "structuredName": {
+                            "firstName": "",
+                            "lastName": "Bob",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bob"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2070749698"
+                        ],
+                        "name": "Alice",
+                        "slug": "Alice",
+                        "structuredName": {
+                            "firstName": "",
+                            "lastName": "Alice",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alice"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2067867496"
+                        ],
+                        "name": "A. Friend",
+                        "slug": "A.-Friend",
+                        "structuredName": {
+                            "firstName": "Amanda",
+                            "lastName": "Friend",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Friend"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46556220"
+                        ],
+                        "name": "B. Friend",
+                        "slug": "B.-Friend",
+                        "structuredName": {
+                            "firstName": "Bee",
+                            "lastName": "Friend",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Friend"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2083827848"
+                        ],
+                        "name": "Friend",
+                        "slug": "Friend",
+                        "structuredName": {
+                            "firstName": "",
+                            "lastName": "Friend",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Friend"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 30,
+                                "start": 22
+                            }
+                        ],
+                        "text": "Recently, researchers [10, 24] treated missing entries differently with the so-called \u201cexposure\u201d variables and achieved improved results."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 65,
+                                "start": 57
+                            }
+                        ],
+                        "text": "For implicit feedback, some causal-process-based methods [10, 24] first computed exposures for each user and then used them to guide rating prediction, which have shown promising results."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 208078955,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d107b10b8e9ec0db3107792033c2891c048a38a2",
+            "isKey": false,
+            "numCitedBy": 4,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper is concerned with how to make efficient use of social information to improve recommendations. Most existing social recommender systems assume people share similar preferences with their social friends. Which, however, may not hold true due to various motivations of making online friends and dynamics of online social networks. Inspired by recent causal process based recommendations that first model user exposures towards items and then use these exposures to guide rating prediction, we utilize social information to capture user exposures rather than user preferences. We assume that people get information of products from their online friends and they do not have to share similar preferences, which is less restrictive and seems closer to reality. Under this new assumption, in this paper, we present a novel recommendation approach (named SERec) to integrate social exposure into collaborative filtering. We propose two methods to implement SERec, namely social regularization and social boosting, each with different ways to construct social exposures. Experiments on four real-world datasets demonstrate that our methods outperform the state-of-the-art methods on top-N recommendations. Further study compares the robustness and scalability of the two proposed methods."
+            },
+            "slug": "Collaborative-Filtering-with-Social-Exposure:-A-to-Bob-Alice",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative Filtering with Social Exposure: A Modular Approach to Social Recommendation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper presents a novel recommendation approach (named SERec) to integrate social exposure into collaborative filtering, and proposes two methods to implement SERec, namely social regularization and social boosting, each with different ways to construct social exposures."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145124475"
+                        ],
+                        "name": "R. Salakhutdinov",
+                        "slug": "R.-Salakhutdinov",
+                        "structuredName": {
+                            "firstName": "Ruslan",
+                            "lastName": "Salakhutdinov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Salakhutdinov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1714004"
+                        ],
+                        "name": "A. Mnih",
+                        "slug": "A.-Mnih",
+                        "structuredName": {
+                            "firstName": "Andriy",
+                            "lastName": "Mnih",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Mnih"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 100,
+                                "start": 96
+                            }
+                        ],
+                        "text": "In the User Preference Component, we adopt a classical but effective matrix factorization model [15]: the user preference P \u2208 RN\u00d7M is decomposed as a product of two submatrices U \u2208 RK\u00d7N and V \u2208 RK\u00d7M , which represent user-specific and item-specific latent feature factors respectively."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 43,
+                                "start": 39
+                            }
+                        ],
+                        "text": "This strategy follows the original PMF [15] for simplification."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 77,
+                                "start": 73
+                            }
+                        ],
+                        "text": "We then choose four prevalent methods for comparison, including: (1) PMF [15], a classical matrix factorization approach that is widely applied as a benchmark."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 467086,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e19971e7d100386b9b4cf4ea1a0782b62fe036e5",
+            "isKey": true,
+            "numCitedBy": 3875,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many existing approaches to collaborative filtering can neither handle very large datasets nor easily deal with users who have very few ratings. In this paper we present the Probabilistic Matrix Factorization (PMF) model which scales linearly with the number of observations and, more importantly, performs well on the large, sparse, and very imbalanced Netflix dataset. We further extend the PMF model to include an adaptive prior on the model parameters and show how the model capacity can be controlled automatically. Finally, we introduce a constrained version of the PMF model that is based on the assumption that users who have rated similar sets of movies are likely to have similar preferences. The resulting model is able to generalize considerably better for users with very few ratings. When the predictions of multiple PMF models are linearly combined with the predictions of Restricted Boltzmann Machines models, we achieve an error rate of 0.8861, that is nearly 7% better than the score of Netflix's own system."
+            },
+            "slug": "Probabilistic-Matrix-Factorization-Salakhutdinov-Mnih",
+            "title": {
+                "fragments": [],
+                "text": "Probabilistic Matrix Factorization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The Probabilistic Matrix Factorization (PMF) model is presented, which scales linearly with the number of observations and performs well on the large, sparse, and very imbalanced Netflix dataset and is extended to include an adaptive prior on the model parameters."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7792071"
+                        ],
+                        "name": "Xiangnan He",
+                        "slug": "Xiangnan-He",
+                        "structuredName": {
+                            "firstName": "Xiangnan",
+                            "lastName": "He",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiangnan He"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144799987"
+                        ],
+                        "name": "Tao Chen",
+                        "slug": "Tao-Chen",
+                        "structuredName": {
+                            "firstName": "Tao",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tao Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "37596605"
+                        ],
+                        "name": "Min-Yen Kan",
+                        "slug": "Min-Yen-Kan",
+                        "structuredName": {
+                            "firstName": "Min-Yen",
+                            "lastName": "Kan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Min-Yen Kan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2145228898"
+                        ],
+                        "name": "Xiao Chen",
+                        "slug": "Xiao-Chen",
+                        "structuredName": {
+                            "firstName": "Xiao",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiao Chen"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 47,
+                                "start": 44
+                            }
+                        ],
+                        "text": "We follow the definitions of HR and NDCG in [5]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2023519,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "676c4dfdc8782c2cc5157f5bd5e1c1e39dd732a3",
+            "isKey": false,
+            "numCitedBy": 363,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Most existing collaborative filtering techniques have focused on modeling the binary relation of users to items by extracting from user ratings. Aside from users' ratings, their affiliated reviews often provide the rationale for their ratings and identify what aspects of the item they cared most about. We explore the rich evidence source of aspects in user reviews to improve top-N recommendation. By extracting aspects (i.e., the specific properties of items) from textual reviews, we enrich the user--item binary relation to a user--item--aspect ternary relation. We model the ternary relation as a heterogeneous tripartite graph, casting the recommendation task as one of vertex ranking. We devise a generic algorithm for ranking on tripartite graphs -- TriRank -- and specialize it for personalized recommendation. Experiments on two public review datasets show that it consistently outperforms state-of-the-art methods. Most importantly, TriRank endows the recommender system with a higher degree of explainability and transparency by modeling aspects in reviews. It allows users to interact with the system through their aspect preferences, assisting users in making informed decisions."
+            },
+            "slug": "TriRank:-Review-aware-Explainable-Recommendation-by-He-Chen",
+            "title": {
+                "fragments": [],
+                "text": "TriRank: Review-aware Explainable Recommendation by Modeling Aspects"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "TriRank endows the recommender system with a higher degree of explainability and transparency by modeling aspects in reviews, and allows users to interact with the system through their aspect preferences, assisting users in making informed decisions."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CIKM"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066007146"
+                        ],
+                        "name": "Rong Pan",
+                        "slug": "Rong-Pan",
+                        "structuredName": {
+                            "firstName": "Rong",
+                            "lastName": "Pan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rong Pan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118116274"
+                        ],
+                        "name": "Yunhong Zhou",
+                        "slug": "Yunhong-Zhou",
+                        "structuredName": {
+                            "firstName": "Yunhong",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yunhong Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144948990"
+                        ],
+                        "name": "Bin Cao",
+                        "slug": "Bin-Cao",
+                        "structuredName": {
+                            "firstName": "Bin",
+                            "lastName": "Cao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bin Cao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1768416"
+                        ],
+                        "name": "N. Liu",
+                        "slug": "N.-Liu",
+                        "structuredName": {
+                            "firstName": "Nathan",
+                            "lastName": "Liu",
+                            "middleNames": [
+                                "Nan"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777845"
+                        ],
+                        "name": "R. Lukose",
+                        "slug": "R.-Lukose",
+                        "structuredName": {
+                            "firstName": "Rajan",
+                            "lastName": "Lukose",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Lukose"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144362899"
+                        ],
+                        "name": "Martin Scholz",
+                        "slug": "Martin-Scholz",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Scholz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Martin Scholz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152290618"
+                        ],
+                        "name": "Qiang Yang",
+                        "slug": "Qiang-Yang",
+                        "structuredName": {
+                            "firstName": "Qiang",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qiang Yang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 16
+                            }
+                        ],
+                        "text": "Popular methods [7, 18] are based \u2217Corresponding author"
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 7369746,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "109de4531e279681919f7330f01b532a7201e4b9",
+            "isKey": false,
+            "numCitedBy": 935,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many applications of collaborative filtering (CF), such as news item recommendation and bookmark recommendation, are most naturally thought of as one-class collaborative filtering (OCCF) problems. In these problems, the training data usually consist simply of binary data reflecting a user's action or inaction, such as page visitation in the case of news item recommendation or webpage bookmarking in the bookmarking scenario. Usually this kind of data are extremely sparse (a small fraction are positive examples), therefore ambiguity arises in the interpretation of the non-positive examples. Negative examples and unlabeled positive examples are mixed together and we are typically unable to distinguish them. For example, we cannot really attribute a user not bookmarking a page to a lack of interest or lack of awareness of the page. Previous research addressing this one-class problem only considered it as a classification task. In this paper, we consider the one-class problem under the CF setting. We propose two frameworks to tackle OCCF. One is based on weighted low rank approximation; the other is based on negative example sampling. The experimental results show that our approaches significantly outperform the baselines."
+            },
+            "slug": "One-Class-Collaborative-Filtering-Pan-Zhou",
+            "title": {
+                "fragments": [],
+                "text": "One-Class Collaborative Filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This paper considers the one-class problem under the CF setting, and proposes two frameworks to tackle OCCF, one based on weighted low rank approximation; the other based on negative example sampling."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 Eighth IEEE International Conference on Data Mining"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108481070"
+                        ],
+                        "name": "Dongsheng Li",
+                        "slug": "Dongsheng-Li",
+                        "structuredName": {
+                            "firstName": "Dongsheng",
+                            "lastName": "Li",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dongsheng Li"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2145763884"
+                        ],
+                        "name": "Chao Chen",
+                        "slug": "Chao-Chen",
+                        "structuredName": {
+                            "firstName": "Chao",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Chao Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46641573"
+                        ],
+                        "name": "W. Liu",
+                        "slug": "W.-Liu",
+                        "structuredName": {
+                            "firstName": "W.",
+                            "lastName": "Liu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1711569"
+                        ],
+                        "name": "T. Lu",
+                        "slug": "T.-Lu",
+                        "structuredName": {
+                            "firstName": "Tun",
+                            "lastName": "Lu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Lu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39341617"
+                        ],
+                        "name": "Ning Gu",
+                        "slug": "Ning-Gu",
+                        "structuredName": {
+                            "firstName": "Ning",
+                            "lastName": "Gu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ning Gu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1731014"
+                        ],
+                        "name": "S. Chu",
+                        "slug": "S.-Chu",
+                        "structuredName": {
+                            "firstName": "Stephen",
+                            "lastName": "Chu",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Chu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 87,
+                                "start": 84
+                            }
+                        ],
+                        "text": "For example, we can use local low-rank MF [8] and mixture-rank matrix approximation [9] to learn user preference by exploiting the underlying group information of users and items."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 43240865,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e21f26935a9e633f4d879bafd1c6eba289e09f1b",
+            "isKey": false,
+            "numCitedBy": 34,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Low-rank matrix approximation (LRMA) methods have achieved excellent accuracy among today's collaborative filtering (CF) methods. In existing LRMA methods, the rank of user/item feature matrices is typically fixed, i.e., the same rank is adopted to describe all users/items. However, our studies show that submatrices with different ranks could coexist in the same user-item rating matrix, so that approximations with fixed ranks cannot perfectly describe the internal structures of the rating matrix, therefore leading to inferior recommendation accuracy. In this paper, a mixture-rank matrix approximation (MRMA) method is proposed, in which user-item ratings can be characterized by a mixture of LRMA models with different ranks. Meanwhile, a learning algorithm capitalizing on iterated condition modes is proposed to tackle the non-convex optimization problem pertaining to MRMA. Experimental studies on MovieLens and Netflix datasets demonstrate that MRMA can outperform six state-of-the-art LRMA-based CF methods in terms of recommendation accuracy."
+            },
+            "slug": "Mixture-Rank-Matrix-Approximation-for-Collaborative-Li-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Mixture-Rank Matrix Approximation for Collaborative Filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "A mixture-rank matrix approximation (MRMA) method is proposed, in which user-item ratings can be characterized by a mixture of LRMA models with different ranks, and a learning algorithm capitalizing on iterated condition modes is proposed to tackle the non-convex optimization problem pertaining to MRMA."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2017
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50270648"
+                        ],
+                        "name": "Liang Xiang",
+                        "slug": "Liang-Xiang",
+                        "structuredName": {
+                            "firstName": "Liang",
+                            "lastName": "Xiang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Liang Xiang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145001852"
+                        ],
+                        "name": "Quan Yuan",
+                        "slug": "Quan-Yuan",
+                        "structuredName": {
+                            "firstName": "Quan",
+                            "lastName": "Yuan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Quan Yuan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2516425"
+                        ],
+                        "name": "Shiwan Zhao",
+                        "slug": "Shiwan-Zhao",
+                        "structuredName": {
+                            "firstName": "Shiwan",
+                            "lastName": "Zhao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shiwan Zhao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1725490"
+                        ],
+                        "name": "Li Chen",
+                        "slug": "Li-Chen",
+                        "structuredName": {
+                            "firstName": "Li",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Li Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2117881"
+                        ],
+                        "name": "Xiatian Zhang",
+                        "slug": "Xiatian-Zhang",
+                        "structuredName": {
+                            "firstName": "Xiatian",
+                            "lastName": "Zhang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Xiatian Zhang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2149535757"
+                        ],
+                        "name": "Qing Yang",
+                        "slug": "Qing-Yang",
+                        "structuredName": {
+                            "firstName": "Qing",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qing Yang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1738536"
+                        ],
+                        "name": "Jimeng Sun",
+                        "slug": "Jimeng-Sun",
+                        "structuredName": {
+                            "firstName": "Jimeng",
+                            "lastName": "Sun",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jimeng Sun"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 59,
+                                "start": 51
+                            }
+                        ],
+                        "text": "Most existing sequential recommendation algorithms [27, 22] only used \u201cdynamic preference\u201d to account for the temporal user behaviors; they assumed time-varying user preference is the only explanation for the noisy user behaviors."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 3893253,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "57773e90d03a2ae412278b2a248295ec2afb0ae1",
+            "isKey": false,
+            "numCitedBy": 381,
+            "numCiting": 25,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Accurately capturing user preferences over time is a great practical challenge in recommender systems. Simple correlation over time is typically not meaningful, since users change their preferences due to different external events. User behavior can often be determined by individual's long-term and short-term preferences. How to represent users' long-term and short-term preferences? How to leverage them for temporal recommendation? To address these challenges, we propose Session-based Temporal Graph (STG) which simultaneously models users' long-term and short-term preferences over time. Based on the STG model framework, we propose a novel recommendation algorithm Injected Preference Fusion (IPF) and extend the personalized Random Walk for temporal recommendation. Finally, we evaluate the effectiveness of our method using two real datasets on citations and social bookmarking, in which our proposed method IPF gives 15%-34% improvement over the previous state-of-the-art."
+            },
+            "slug": "Temporal-recommendation-on-graphs-via-long-and-Xiang-Yuan",
+            "title": {
+                "fragments": [],
+                "text": "Temporal recommendation on graphs via long- and short-term preference fusion"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This work proposes Session-based Temporal Graph (STG) which simultaneously models users' long-term and short-term preferences over time and proposes a novel recommendation algorithm Injected Preference Fusion (IPF) and extends the personalized Random Walk for temporal recommendation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35660011"
+                        ],
+                        "name": "Julian McAuley",
+                        "slug": "Julian-McAuley",
+                        "structuredName": {
+                            "firstName": "Julian",
+                            "lastName": "McAuley",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Julian McAuley"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2054715838"
+                        ],
+                        "name": "R. Pandey",
+                        "slug": "R.-Pandey",
+                        "structuredName": {
+                            "firstName": "Rahul",
+                            "lastName": "Pandey",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Pandey"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1702139"
+                        ],
+                        "name": "J. Leskovec",
+                        "slug": "J.-Leskovec",
+                        "structuredName": {
+                            "firstName": "Jure",
+                            "lastName": "Leskovec",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Leskovec"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 9396978,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6505a9bd862fafcde0315a87695c504ced6c7df6",
+            "isKey": false,
+            "numCitedBy": 615,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "To design a useful recommender system, it is important to understand how products relate to each other. For example, while a user is browsing mobile phones, it might make sense to recommend other phones, but once they buy a phone, we might instead want to recommend batteries, cases, or chargers. In economics, these two types of recommendations are referred to as substitutes and complements: substitutes are products that can be purchased instead of each other, while complements are products that can be purchased in addition to each other. Such relationships are essential as they help us to identify items that are relevant to a user's search. Our goal in this paper is to learn the semantics of substitutes and complements from the text of online reviews. We treat this as a supervised learning problem, trained using networks of products derived from browsing and co-purchasing logs. Methodologically, we build topic models that are trained to automatically discover topics from product reviews that are successful at predicting and explaining such relationships. Experimentally, we evaluate our system on the Amazon product catalog, a large dataset consisting of 9 million products, 237 million links, and 144 million reviews."
+            },
+            "slug": "Inferring-Networks-of-Substitutable-and-Products-McAuley-Pandey",
+            "title": {
+                "fragments": [],
+                "text": "Inferring Networks of Substitutable and Complementary Products"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The goal in this paper is to learn the semantics of substitutes and complements from the text of online reviews, trained using networks of products derived from browsing and co-purchasing logs and evaluated on the Amazon product catalog."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2599292"
+                        ],
+                        "name": "J. Mairal",
+                        "slug": "J.-Mairal",
+                        "structuredName": {
+                            "firstName": "Julien",
+                            "lastName": "Mairal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Mairal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144570279"
+                        ],
+                        "name": "F. Bach",
+                        "slug": "F.-Bach",
+                        "structuredName": {
+                            "firstName": "Francis",
+                            "lastName": "Bach",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "F. Bach"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144189388"
+                        ],
+                        "name": "J. Ponce",
+                        "slug": "J.-Ponce",
+                        "structuredName": {
+                            "firstName": "Jean",
+                            "lastName": "Ponce",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Ponce"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1699339"
+                        ],
+                        "name": "G. Sapiro",
+                        "slug": "G.-Sapiro",
+                        "structuredName": {
+                            "firstName": "Guillermo",
+                            "lastName": "Sapiro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Sapiro"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 556331,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ccd1282aea3cc7c3d40300d82472fc5f9f54cb8e",
+            "isKey": false,
+            "numCitedBy": 2498,
+            "numCiting": 113,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Sparse coding--that is, modelling data vectors as sparse linear combinations of basis elements--is widely used in machine learning, neuroscience, signal processing, and statistics. This paper focuses on the large-scale matrix factorization problem that consists of learning the basis set in order to adapt it to specific data. Variations of this problem include dictionary learning in signal processing, non-negative matrix factorization and sparse principal component analysis. In this paper, we propose to address these tasks with a new online optimization algorithm, based on stochastic approximations, which scales up gracefully to large data sets with millions of training samples, and extends naturally to various matrix factorization formulations, making it suitable for a wide range of learning problems. A proof of convergence is presented, along with experiments with natural images and genomic data demonstrating that it leads to state-of-the-art performance in terms of speed and optimization for both small and large data sets."
+            },
+            "slug": "Online-Learning-for-Matrix-Factorization-and-Sparse-Mairal-Bach",
+            "title": {
+                "fragments": [],
+                "text": "Online Learning for Matrix Factorization and Sparse Coding"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "A new online optimization algorithm is proposed, based on stochastic approximations, which scales up gracefully to large data sets with millions of training samples, and extends naturally to various matrix factorization formulations, making it suitable for a wide range of learning problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "J. Mach. Learn. Res."
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2119006"
+                        ],
+                        "name": "Joonseok Lee",
+                        "slug": "Joonseok-Lee",
+                        "structuredName": {
+                            "firstName": "Joonseok",
+                            "lastName": "Lee",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Joonseok Lee"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109548913"
+                        ],
+                        "name": "Seungyeon Kim",
+                        "slug": "Seungyeon-Kim",
+                        "structuredName": {
+                            "firstName": "Seungyeon",
+                            "lastName": "Kim",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Seungyeon Kim"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1717932"
+                        ],
+                        "name": "G. Lebanon",
+                        "slug": "G.-Lebanon",
+                        "structuredName": {
+                            "firstName": "Guy",
+                            "lastName": "Lebanon",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Lebanon"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1740765"
+                        ],
+                        "name": "Y. Singer",
+                        "slug": "Y.-Singer",
+                        "structuredName": {
+                            "firstName": "Yoram",
+                            "lastName": "Singer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Singer"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 42
+                            }
+                        ],
+                        "text": "For example, we can use local low-rank MF [8] and mixture-rank matrix approximation [9] to learn user preference by exploiting the underlying group information of users and items."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 17230726,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bfada997abba6b31be11358c0dbe68ea7b36c547",
+            "isKey": false,
+            "numCitedBy": 171,
+            "numCiting": 28,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Matrix approximation is a common tool in recommendation systems, text mining, and computer vision. A prevalent assumption in constructing matrix approximations is that the partially observed matrix is of low-rank. We propose a new matrix approximation model where we assume instead that the matrix is locally of low-rank, leading to a representation of the observed matrix as a weighted sum of low-rank matrices. We analyze the accuracy of the proposed local low-rank modeling. Our experiments show improvements in prediction accuracy over classical approaches for recommendation tasks."
+            },
+            "slug": "Local-Low-Rank-Matrix-Approximation-Lee-Kim",
+            "title": {
+                "fragments": [],
+                "text": "Local Low-Rank Matrix Approximation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 48,
+                "text": "A new matrix approximation model is proposed where it is assumed that the matrix is locally of low-rank, leading to a representation of the observed matrix as a weighted sum ofLow-rank matrices, and improvements in prediction accuracy over classical approaches for recommendation tasks."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143648560"
+                        ],
+                        "name": "P. Spirtes",
+                        "slug": "P.-Spirtes",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Spirtes",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Spirtes"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3058012"
+                        ],
+                        "name": "C. Glymour",
+                        "slug": "C.-Glymour",
+                        "structuredName": {
+                            "firstName": "Clark",
+                            "lastName": "Glymour",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Glymour"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2758080"
+                        ],
+                        "name": "R. Scheines",
+                        "slug": "R.-Scheines",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Scheines",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Scheines"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 15
+                            }
+                        ],
+                        "text": "g, modified PC [23] and GES [1]) may not work well on the recommendation data as they are extremely sparse and MNAR."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 117765107,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5b3b9fe128e6849d59a26d7ceda57baad2524815",
+            "isKey": false,
+            "numCitedBy": 2973,
+            "numCiting": 154,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "What assumptions and methods allow us to turn observations into causal knowledge, and how can even incomplete causal knowledge be used in planning and prediction to influence and control our environment? In this book Peter Spirtes, Clark Glymour, and Richard Scheines address these questions using the formalism of Bayes networks, with results that have been applied in diverse areas of research in the social, behavioral, and physical sciences. The authors show that although experimental and observational study designs may not always permit the same inferences, they are subject to uniform principles. They axiomatize the connection between causal structure and probabilistic independence, explore several varieties of causal indistinguishability, formulate a theory of manipulation, and develop asymptotically reliable procedures for searching over equivalence classes of causal models, including models of categorical data and structural equation models with and without latent variables. The authors show that the relationship between causality and probability can also help to clarify such diverse topics in statistics as the comparative power of experimentation versus observation, Simpson's paradox, errors in regression models, retrospective versus prospective sampling, and variable selection. The second edition contains a new introduction and an extensive survey of advances and applications that have appeared since the first edition was published in 1993."
+            },
+            "slug": "Causation,-prediction,-and-search-Spirtes-Glymour",
+            "title": {
+                "fragments": [],
+                "text": "Causation, prediction, and search"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "The authors axiomatize the connection between causal structure and probabilistic independence, explore several varieties of causal indistinguishability, formulate a theory of manipulation, and develop asymptotically reliable procedures for searching over equivalence classes of causal models."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1993
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1744700"
+                        ],
+                        "name": "Zoubin Ghahramani",
+                        "slug": "Zoubin-Ghahramani",
+                        "structuredName": {
+                            "firstName": "Zoubin",
+                            "lastName": "Ghahramani",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zoubin Ghahramani"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1694621"
+                        ],
+                        "name": "Michael I. Jordan",
+                        "slug": "Michael-I.-Jordan",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "Jordan",
+                            "middleNames": [
+                                "I."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Michael I. Jordan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 57,
+                                "start": 54
+                            }
+                        ],
+                        "text": "For user intents {S}, we use the Baum-Welch algorithm [3] to update the transition matrix and initial states probability distribution of the HMM; as a strict EM-type algorithm it is guaranteed to converge to at least a local maximum."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 519313,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "78e510627d3f28601e370212bf063bbfa539ebed",
+            "isKey": false,
+            "numCitedBy": 1217,
+            "numCiting": 102,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Hidden Markov models (HMMs) have proven to be one of the most widely used tools for learning probabilistic models of time series data. In an HMM, information about the past is conveyed through a single discrete variable\u2014the hidden state. We discuss a generalization of HMMs in which this state is factored into multiple state variables and is therefore represented in a distributed manner. We describe an exact algorithm for inferring the posterior probabilities of the hidden state variables given the observations, and relate it to the forward\u2013backward algorithm for HMMs and to algorithms for more general graphical models. Due to the combinatorial nature of the hidden state representation, this exact algorithm is intractable. As in other intractable systems, approximate inference can be carried out using Gibbs sampling or variational methods. Within the variational framework, we present a structured approximation in which the the state variables are decoupled, yielding a tractable algorithm for learning the parameters of the model. Empirical comparisons suggest that these approximations are efficient and provide accurate alternatives to the exact methods. Finally, we use the structured approximation to model Bach's chorales and show that factorial HMMs can capture statistical structure in this data set which an unconstrained HMM cannot."
+            },
+            "slug": "Factorial-Hidden-Markov-Models-Ghahramani-Jordan",
+            "title": {
+                "fragments": [],
+                "text": "Factorial Hidden Markov Models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A generalization of HMMs in which this state is factored into multiple state variables and is therefore represented in a distributed manner, and a structured approximation in which the the state variables are decoupled, yielding a tractable algorithm for learning the parameters of the model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Machine Learning"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2109010418"
+                        ],
+                        "name": "Joshua L. Moore",
+                        "slug": "Joshua-L.-Moore",
+                        "structuredName": {
+                            "firstName": "Joshua",
+                            "lastName": "Moore",
+                            "middleNames": [
+                                "L."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Joshua L. Moore"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2108807657"
+                        ],
+                        "name": "Shuo Chen",
+                        "slug": "Shuo-Chen",
+                        "structuredName": {
+                            "firstName": "Shuo",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shuo Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145608906"
+                        ],
+                        "name": "D. Turnbull",
+                        "slug": "D.-Turnbull",
+                        "structuredName": {
+                            "firstName": "Douglas",
+                            "lastName": "Turnbull",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Turnbull"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1680188"
+                        ],
+                        "name": "T. Joachims",
+                        "slug": "T.-Joachims",
+                        "structuredName": {
+                            "firstName": "Thorsten",
+                            "lastName": "Joachims",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Joachims"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[17] visualized dynamic user preference via trajectories."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 1167535,
+            "fieldsOfStudy": [
+                "Economics"
+            ],
+            "id": "43b10bf9bddd7393be220dd05b7dd85eaec02153",
+            "isKey": false,
+            "numCitedBy": 49,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We develop temporal embedding models for exploring how listening preferences of a population develop over time. In particular, we propose time-dynamic probabilistic embedding models that incorporate users and songs in a joint Euclidian space in which they gradually change position over time. Using large-scale Scrobbler data from Last.fm spanning a period of 8 years, our models generate trajectories of how user tastes changed over time, how artists developed, and how songs move in the embedded space. This ability to visualize and quantify listening preferences of a large population of people over a multi-year time period provides exciting opportunities for data-driven exploration of musicological trends and patterns."
+            },
+            "slug": "Taste-Over-Time:-The-Temporal-Dynamics-of-User-Moore-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Taste Over Time: The Temporal Dynamics of User Preferences"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 57,
+                "text": "Using large-scale Scrobbler data from Last.fm spanning a period of 8 years, time-dynamic probabilistic embedding models that incorporate users and songs in a joint Euclidian space in which they gradually change position over time are proposed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ISMIR"
+            },
+            "year": 2013
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1724065"
+                        ],
+                        "name": "D. M. Chickering",
+                        "slug": "D.-M.-Chickering",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Chickering",
+                            "middleNames": [
+                                "Maxwell"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. M. Chickering"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50004012"
+                        ],
+                        "name": "Christopher Meek",
+                        "slug": "Christopher-Meek",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Meek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher Meek"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 31,
+                                "start": 28
+                            }
+                        ],
+                        "text": "g, modified PC [23] and GES [1]) may not work well on the recommendation data as they are extremely sparse and MNAR."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 78,
+                                "start": 75
+                            }
+                        ],
+                        "text": "However, current techniques of causal discovery (e.g, modified PC [23] and GES [1]) may not work well on the recommendation data as they are extremely sparse and MNAR."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 7559267,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Economics"
+            ],
+            "id": "96fb5c6434ad89da5ebaf99fb288933fab1b5589",
+            "isKey": false,
+            "numCitedBy": 141,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper, we derive optimality results for greedy Bayesian-network search algorithms that perform single-edge modifications at each step and use asymptotically consistent scoring criteria. Our results extend those of Meek (1997) and Chickering (2002), who demonstrate that in the limit of large datasets, if the generative distribution is perfect with respect to a DAG defined over the observable variables, such search algorithms will identify this optimal (i.e. generative) DAG model. We relax their assumption about the generative distribution, and assume only that this distribution satisfies the composition property over the observable variables, which is a more realistic assumption for real domains. Under this assumption, we guarantee that the search algorithms identify an inclusion-optimal model; that is, a model that (1) contains the generative distribution and (2) has no sub-model that contains this distribution. In addition, we show that the composition property is guaranteed to hold whenever the dependence relationships in the generative distribution can be characterized by paths between singleton elements in some generative graphical model (e.g. a DAG, a chain graph, or a Markov network) even when the generative model includes unobserved variables, and even when the observed data is subject to selection bias."
+            },
+            "slug": "Finding-Optimal-Bayesian-Networks-Chickering-Meek",
+            "title": {
+                "fragments": [],
+                "text": "Finding Optimal Bayesian Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 69,
+                "text": "This paper derives optimality results for greedy Bayesian-network search algorithms that perform single-edge modifications at each step and use asymptotically consistent scoring criteria and shows that the composition property is guaranteed to hold whenever the dependence relationships in the generative distribution can be characterized by paths between singleton elements in some generative graphical model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "UAI"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2087351"
+                        ],
+                        "name": "G. Mongillo",
+                        "slug": "G.-Mongillo",
+                        "structuredName": {
+                            "firstName": "Gianluigi",
+                            "lastName": "Mongillo",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Mongillo"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2049281"
+                        ],
+                        "name": "S. Den\u00e9ve",
+                        "slug": "S.-Den\u00e9ve",
+                        "structuredName": {
+                            "firstName": "Sophie",
+                            "lastName": "Den\u00e9ve",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Den\u00e9ve"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 89,
+                                "start": 81
+                            }
+                        ],
+                        "text": "Currently there are several studies related to the online learning of HMM and MF [16, 12], which can be utilized to make H4MF more scalable."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 22319744,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "89dc23ba55460b0be5a9fcea0678cc12a42fb35f",
+            "isKey": false,
+            "numCitedBy": 125,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present an online version of the expectation-maximization (EM) algorithm for hidden Markov models (HMMs). The sufficient statistics required for parameters estimation is computed recursively with time, that is, in an online way instead of using the batch forward-backward procedure. This computational scheme is generalized to the case where the model parameters can change with time by introducing a discount factor into the recurrence relations. The resulting algorithm is equivalent to the batch EM algorithm, for appropriate discount factor and scheduling of parameters update. On the other hand, the online algorithm is able to deal with dynamic environments, i.e., when the statistics of the observed data is changing with time. The implications of the online algorithm for probabilistic modeling in neuroscience are briefly discussed."
+            },
+            "slug": "Online-Learning-with-Hidden-Markov-Models-Mongillo-Den\u00e9ve",
+            "title": {
+                "fragments": [],
+                "text": "Online Learning with Hidden Markov Models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 64,
+                "text": "An online version of the expectation-maximization (EM) algorithm for hidden Markov models (HMMs) is presented, generalized to the case where the model parameters can change with time by introducing a discount factor into the recurrence relations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Neural Computation"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2124950697"
+                        ],
+                        "name": "Zihan Wang",
+                        "slug": "Zihan-Wang",
+                        "structuredName": {
+                            "firstName": "Zihan",
+                            "lastName": "Wang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zihan Wang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1732910"
+                        ],
+                        "name": "Ziheng Jiang",
+                        "slug": "Ziheng-Jiang",
+                        "structuredName": {
+                            "firstName": "Ziheng",
+                            "lastName": "Jiang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ziheng Jiang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2780667"
+                        ],
+                        "name": "Z. Ren",
+                        "slug": "Z.-Ren",
+                        "structuredName": {
+                            "firstName": "Zhaochun",
+                            "lastName": "Ren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Z. Ren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1736632"
+                        ],
+                        "name": "Jiliang Tang",
+                        "slug": "Jiliang-Tang",
+                        "structuredName": {
+                            "firstName": "Jiliang",
+                            "lastName": "Tang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jiliang Tang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50559722"
+                        ],
+                        "name": "Dawei Yin",
+                        "slug": "Dawei-Yin",
+                        "structuredName": {
+                            "firstName": "Dawei",
+                            "lastName": "Yin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Dawei Yin"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 20
+                            }
+                        ],
+                        "text": "Several researchers [14, 25] proposed methods to discriminate substitutes and complements from similar products."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 24931235,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "09711b19e4e160d0a28c60b1ff4bf0f9ef16e4a9",
+            "isKey": false,
+            "numCitedBy": 63,
+            "numCiting": 41,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In personalized recommendation, candidate generation plays an infrastructural role by retrieving candidates out of billions of items. During this process, substitutes and complements constitute two main classes of retrieved candidates: substitutable products are interchangeable, whereas complementary products might be purchased together by users. Discriminating substitutable and complementary products is playing an increasingly important role in e-commerce portals by affecting the performance of candidate generation, e.g., when a user has browsed a t-shirt, it is reasonable to retrieve similar t-shirts, i.e., substitutes; whereas if the user has already purchased one, it would be better to retrieve trousers, hats or shoes, as complements of t-shirts. In this paper, we propose a path-constrained framework (PMSC) for discriminating substitutes and complements. Specifically, for each product, we first learn its embedding representations in a general semantic space. Thereafter, we project the embedding vectors into two separate spaces via a novel mapping function. In the end, we incorporate each embedding with path-constraints to further boost the discriminative ability of the model. Extensive experiments conducted on two e-commerce datasets show the effectiveness of our proposed method."
+            },
+            "slug": "A-Path-constrained-Framework-for-Discriminating-and-Wang-Jiang",
+            "title": {
+                "fragments": [],
+                "text": "A Path-constrained Framework for Discriminating Substitutable and Complementary Products in E-commerce"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "A path-constrained framework (PMSC) for discriminating substitutes and complements is proposed, which first learns its embedding representations in a general semantic space, then incorporates each embedding with path- Constraints to further boost the discriminative ability of the model."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WSDM"
+            },
+            "year": 2018
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1957638"
+                        ],
+                        "name": "Shunzheng Yu",
+                        "slug": "Shunzheng-Yu",
+                        "structuredName": {
+                            "firstName": "Shunzheng",
+                            "lastName": "Yu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Shunzheng Yu"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 41
+                            }
+                        ],
+                        "text": "We can also use hidden semi-Markov model [28] to model the durations of user intents: it is always the case that users purchase serveral items to meet one intent."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1899849,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "705da905174287789c57013c5d53beb22ba2f3a7",
+            "isKey": false,
+            "numCitedBy": 637,
+            "numCiting": 208,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "Hidden-semi-Markov-models-Yu",
+            "title": {
+                "fragments": [],
+                "text": "Hidden semi-Markov models"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Artif. Intell."
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8270717"
+                        ],
+                        "name": "Junyoung Chung",
+                        "slug": "Junyoung-Chung",
+                        "structuredName": {
+                            "firstName": "Junyoung",
+                            "lastName": "Chung",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Junyoung Chung"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1854385"
+                        ],
+                        "name": "\u00c7aglar G\u00fcl\u00e7ehre",
+                        "slug": "\u00c7aglar-G\u00fcl\u00e7ehre",
+                        "structuredName": {
+                            "firstName": "\u00c7aglar",
+                            "lastName": "G\u00fcl\u00e7ehre",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "\u00c7aglar G\u00fcl\u00e7ehre"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1979489"
+                        ],
+                        "name": "Kyunghyun Cho",
+                        "slug": "Kyunghyun-Cho",
+                        "structuredName": {
+                            "firstName": "Kyunghyun",
+                            "lastName": "Cho",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Kyunghyun Cho"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1751762"
+                        ],
+                        "name": "Yoshua Bengio",
+                        "slug": "Yoshua-Bengio",
+                        "structuredName": {
+                            "firstName": "Yoshua",
+                            "lastName": "Bengio",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yoshua Bengio"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 20
+                            }
+                        ],
+                        "text": ", LSTM [26] and GRU [2] ) for sequential recommendation; however, they are limited in interpretability."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 79
+                            }
+                        ],
+                        "text": "Some other researchers also used deep learning techniques (e.g., LSTM [26] and GRU [2] ) for sequential recommendation; however, they are limited in interpretability."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 8577750,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d14c7e5f5cace4c925abc74c88baa474e9f31a28",
+            "isKey": false,
+            "numCitedBy": 679,
+            "numCiting": 41,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this work, we propose a novel recurrent neural network (RNN) architecture. The proposed RNN, gated-feedback RNN (GF-RNN), extends the existing approach of stacking multiple recurrent layers by allowing and controlling signals flowing from upper recurrent layers to lower layers using a global gating unit for each pair of layers. The recurrent signals exchanged between layers are gated adaptively based on the previous hidden states and the current input. We evaluated the proposed GF-RNN with different types of recurrent units, such as tanh, long short-term memory and gated recurrent units, on the tasks of character-level language modeling and Python program evaluation. Our empirical evaluation of different RNN units, revealed that in both tasks, the GF-RNN outperforms the conventional approaches to build deep stacked RNNs. We suggest that the improvement arises because the GFRNN can adaptively assign different layers to different timescales and layer-to-layer interactions (including the top-down ones which are not usually present in a stacked RNN) by learning to gate these interactions."
+            },
+            "slug": "Gated-Feedback-Recurrent-Neural-Networks-Chung-G\u00fcl\u00e7ehre",
+            "title": {
+                "fragments": [],
+                "text": "Gated Feedback Recurrent Neural Networks"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "The empirical evaluation of different RNN units revealed that the proposed gated-feedback RNN outperforms the conventional approaches to build deep stacked RNNs in the tasks of character-level language modeling and Python program evaluation."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2015
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Gated feedback recurrent neural networks Factorial hidden markov models"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1996
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Gated feedback recurrent neural networks Factorial hidden markov models"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Marlin and Richard S . Zemel . Collaborative prediction and ranking with non - random missing data Gianluigi Mongillo and Sophie Deneve . Online learning with hidden markov models"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            }
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 12,
+            "methodology": 10
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 31,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Modeling-Dynamic-Missingness-of-Implicit-Feedback-Wang-Gong/e63b3258e6400f8d7ee4f4dad62e73c9a48d377d?sort=total-citations"
+}

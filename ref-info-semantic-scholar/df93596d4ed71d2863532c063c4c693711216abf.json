@@ -1,0 +1,1334 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2843982"
+                        ],
+                        "name": "Steffen Rendle",
+                        "slug": "Steffen-Rendle",
+                        "structuredName": {
+                            "firstName": "Steffen",
+                            "lastName": "Rendle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steffen Rendle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2382247"
+                        ],
+                        "name": "Zeno Gantner",
+                        "slug": "Zeno-Gantner",
+                        "structuredName": {
+                            "firstName": "Zeno",
+                            "lastName": "Gantner",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Zeno Gantner"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1825333"
+                        ],
+                        "name": "C. Freudenthaler",
+                        "slug": "C.-Freudenthaler",
+                        "structuredName": {
+                            "firstName": "Christoph",
+                            "lastName": "Freudenthaler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Freudenthaler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388781075"
+                        ],
+                        "name": "L. Schmidt-Thieme",
+                        "slug": "L.-Schmidt-Thieme",
+                        "structuredName": {
+                            "firstName": "Lars",
+                            "lastName": "Schmidt-Thieme",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Schmidt-Thieme"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 207189080,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "1683ffc189d16b616131c300f45af87602d211f7",
+            "isKey": false,
+            "numCitedBy": 517,
+            "numCiting": 21,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The situation in which a choice is made is an important information for recommender systems. Context-aware recommenders take this information into account to make predictions. So far, the best performing method for context-aware rating prediction in terms of predictive accuracy is Multiverse Recommendation based on the Tucker tensor factorization model. However this method has two drawbacks: (1) its model complexity is exponential in the number of context variables and polynomial in the size of the factorization and (2) it only works for categorical context variables. On the other hand there is a large variety of fast but specialized recommender methods which lack the generality of context-aware methods. We propose to apply Factorization Machines (FMs) to model contextual information and to provide context-aware rating predictions. This approach results in fast context-aware recommendations because the model equation of FMs can be computed in linear time both in the number of context variables and the factorization size. For learning FMs, we develop an iterative optimization method that analytically finds the least-square solution for one parameter given the other ones. Finally, we show empirically that our approach outperforms Multiverse Recommendation in prediction quality and runtime."
+            },
+            "slug": "Fast-context-aware-recommendations-with-machines-Rendle-Gantner",
+            "title": {
+                "fragments": [],
+                "text": "Fast context-aware recommendations with factorization machines"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 49,
+                "text": "This work proposes to apply Factorization Machines (FMs) to model contextual information and to provide context-aware rating predictions and shows empirically that this approach outperforms Multiverse Recommendation in prediction quality and runtime."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SIGIR"
+            },
+            "year": 2011
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145124475"
+                        ],
+                        "name": "R. Salakhutdinov",
+                        "slug": "R.-Salakhutdinov",
+                        "structuredName": {
+                            "firstName": "Ruslan",
+                            "lastName": "Salakhutdinov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Salakhutdinov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1714004"
+                        ],
+                        "name": "A. Mnih",
+                        "slug": "A.-Mnih",
+                        "structuredName": {
+                            "firstName": "Andriy",
+                            "lastName": "Mnih",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Mnih"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 467086,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "e19971e7d100386b9b4cf4ea1a0782b62fe036e5",
+            "isKey": false,
+            "numCitedBy": 3875,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many existing approaches to collaborative filtering can neither handle very large datasets nor easily deal with users who have very few ratings. In this paper we present the Probabilistic Matrix Factorization (PMF) model which scales linearly with the number of observations and, more importantly, performs well on the large, sparse, and very imbalanced Netflix dataset. We further extend the PMF model to include an adaptive prior on the model parameters and show how the model capacity can be controlled automatically. Finally, we introduce a constrained version of the PMF model that is based on the assumption that users who have rated similar sets of movies are likely to have similar preferences. The resulting model is able to generalize considerably better for users with very few ratings. When the predictions of multiple PMF models are linearly combined with the predictions of Restricted Boltzmann Machines models, we achieve an error rate of 0.8861, that is nearly 7% better than the score of Netflix's own system."
+            },
+            "slug": "Probabilistic-Matrix-Factorization-Salakhutdinov-Mnih",
+            "title": {
+                "fragments": [],
+                "text": "Probabilistic Matrix Factorization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The Probabilistic Matrix Factorization (PMF) model is presented, which scales linearly with the number of observations and performs well on the large, sparse, and very imbalanced Netflix dataset and is extended to include an adaptive prior on the model parameters."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2843982"
+                        ],
+                        "name": "Steffen Rendle",
+                        "slug": "Steffen-Rendle",
+                        "structuredName": {
+                            "firstName": "Steffen",
+                            "lastName": "Rendle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steffen Rendle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388781075"
+                        ],
+                        "name": "L. Schmidt-Thieme",
+                        "slug": "L.-Schmidt-Thieme",
+                        "structuredName": {
+                            "firstName": "Lars",
+                            "lastName": "Schmidt-Thieme",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Schmidt-Thieme"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 207177737,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bf2b10e9a3bb73499666facf376918e8c275734e",
+            "isKey": false,
+            "numCitedBy": 663,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Tagging plays an important role in many recent websites. Recommender systems can help to suggest a user the tags he might want to use for tagging a specific item. Factorization models based on the Tucker Decomposition (TD) model have been shown to provide high quality tag recommendations outperforming other approaches like PageRank, FolkRank, collaborative filtering, etc. The problem with TD models is the cubic core tensor resulting in a cubic runtime in the factorization dimension for prediction and learning.\n In this paper, we present the factorization model PITF (Pairwise Interaction Tensor Factorization) which is a special case of the TD model with linear runtime both for learning and prediction. PITF explicitly models the pairwise interactions between users, items and tags. The model is learned with an adaption of the Bayesian personalized ranking (BPR) criterion which originally has been introduced for item recommendation. Empirically, we show on real world datasets that this model outperforms TD largely in runtime and even can achieve better prediction quality. Besides our lab experiments, PITF has also won the ECML/PKDD Discovery Challenge 2009 for graph-based tag recommendation."
+            },
+            "slug": "Pairwise-interaction-tensor-factorization-for-tag-Rendle-Schmidt-Thieme",
+            "title": {
+                "fragments": [],
+                "text": "Pairwise interaction tensor factorization for personalized tag recommendation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "The factorization model PITF (Pairwise Interaction Tensor Factorization) is presented which is a special case of the TD model with linear runtime both for learning and prediction and shows that this model outperforms TD largely in runtime and even can achieve better prediction quality."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WSDM '10"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2843982"
+                        ],
+                        "name": "Steffen Rendle",
+                        "slug": "Steffen-Rendle",
+                        "structuredName": {
+                            "firstName": "Steffen",
+                            "lastName": "Rendle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steffen Rendle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1825333"
+                        ],
+                        "name": "C. Freudenthaler",
+                        "slug": "C.-Freudenthaler",
+                        "structuredName": {
+                            "firstName": "Christoph",
+                            "lastName": "Freudenthaler",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Freudenthaler"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388781075"
+                        ],
+                        "name": "L. Schmidt-Thieme",
+                        "slug": "L.-Schmidt-Thieme",
+                        "structuredName": {
+                            "firstName": "Lars",
+                            "lastName": "Schmidt-Thieme",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Schmidt-Thieme"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 69,
+                                "start": 66
+                            }
+                        ],
+                        "text": "Furthermore their model equations and optimization algorithms are derived individually for each task."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 120,
+                                "start": 117
+                            }
+                        ],
+                        "text": "The factorization machine models all nested\nvariable interactions (comparable to a polynomial kernel in SVM), but uses a factorized parametrization instead of a dense parametrization like in SVMs."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 207178809,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "50d85cb114f7c5e779a6772f2931e77dddd54a5e",
+            "isKey": false,
+            "numCitedBy": 1340,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems are an important component of many websites. Two of the most popular approaches are based on matrix factorization (MF) and Markov chains (MC). MF methods learn the general taste of a user by factorizing the matrix over observed user-item preferences. On the other hand, MC methods model sequential behavior by learning a transition graph over items that is used to predict the next action based on the recent actions of a user. In this paper, we present a method bringing both approaches together. Our method is based on personalized transition graphs over underlying Markov chains. That means for each user an own transition matrix is learned - thus in total the method uses a transition cube. As the observations for estimating the transitions are usually very limited, our method factorizes the transition cube with a pairwise interaction model which is a special case of the Tucker Decomposition. We show that our factorized personalized MC (FPMC) model subsumes both a common Markov chain and the normal matrix factorization model. For learning the model parameters, we introduce an adaption of the Bayesian Personalized Ranking (BPR) framework for sequential basket data. Empirically, we show that our FPMC model outperforms both the common matrix factorization and the unpersonalized MC model both learned with and without factorization."
+            },
+            "slug": "Factorizing-personalized-Markov-chains-for-Rendle-Freudenthaler",
+            "title": {
+                "fragments": [],
+                "text": "Factorizing personalized Markov chains for next-basket recommendation"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 44,
+                "text": "This paper introduces an adaption of the Bayesian Personalized Ranking (BPR) framework for sequential basket data and shows that the FPMC model outperforms both the common matrix factorization and the unpersonalized MC model both learned with and without factorization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "WWW '10"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145124475"
+                        ],
+                        "name": "R. Salakhutdinov",
+                        "slug": "R.-Salakhutdinov",
+                        "structuredName": {
+                            "firstName": "Ruslan",
+                            "lastName": "Salakhutdinov",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Salakhutdinov"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1714004"
+                        ],
+                        "name": "A. Mnih",
+                        "slug": "A.-Mnih",
+                        "structuredName": {
+                            "firstName": "Andriy",
+                            "lastName": "Mnih",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Mnih"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 88,
+                                "start": 85
+                            }
+                        ],
+                        "text": "1) Standard factorization models like PARAFAC or MF\nare not general prediction models like factorization machines."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14937958,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "5262fe8369992259be27165ccd09d1d31c7a4def",
+            "isKey": false,
+            "numCitedBy": 1429,
+            "numCiting": 11,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Low-rank matrix approximation methods provide one of the simplest and most effective approaches to collaborative filtering. Such models are usually fitted to data by finding a MAP estimate of the model parameters, a procedure that can be performed efficiently even on very large datasets. However, unless the regularization parameters are tuned carefully, this approach is prone to overfitting because it finds a single point estimate of the parameters. In this paper we present a fully Bayesian treatment of the Probabilistic Matrix Factorization (PMF) model in which model capacity is controlled automatically by integrating over all model parameters and hyperparameters. We show that Bayesian PMF models can be efficiently trained using Markov chain Monte Carlo methods by applying them to the Netflix dataset, which consists of over 100 million movie ratings. The resulting models achieve significantly higher prediction accuracy than PMF models trained using MAP estimation."
+            },
+            "slug": "Bayesian-probabilistic-matrix-factorization-using-Salakhutdinov-Mnih",
+            "title": {
+                "fragments": [],
+                "text": "Bayesian probabilistic matrix factorization using Markov chain Monte Carlo"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "This paper presents a fully Bayesian treatment of the Probabilistic Matrix Factorization (PMF) model in which model capacity is controlled automatically by integrating over all model parameters and hyperparameters and shows that Bayesian PMF models can be efficiently trained using Markov chain Monte Carlo methods by applying them to the Netflix dataset."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML '08"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 59,
+                                "start": 56
+                            }
+                        ],
+                        "text": "Furthermore their model equations and optimization algorithms are derived individually for each task."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 190,
+                                "start": 187
+                            }
+                        ],
+                        "text": "In contrast to SVMs, (1) FMs are able to estimate parameters under huge sparsity, (2) the model equation is linear and depends only on the model parameters and thus (3) they can be optimized directly in the primal."
+                    },
+                    "intents": [
+                        {
+                            "id": "result"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 97,
+                                "start": 94
+                            }
+                        ],
+                        "text": "The factorization machine models all nested\nvariable interactions (comparable to a polynomial kernel in SVM), but uses a factorized parametrization instead of a dense parametrization like in SVMs."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 93,
+                                "start": 90
+                            }
+                        ],
+                        "text": "1) Standard factorization models like PARAFAC or MF\nare not general prediction models like factorization machines."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 207168823,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cf6f83fcce274606bf0264c59d1c78a30c9c9d18",
+            "isKey": true,
+            "numCitedBy": 3612,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems provide users with personalized suggestions for products or services. These systems often rely on Collaborating Filtering (CF), where past transactions are analyzed in order to establish connections between users and products. The two more successful approaches to CF are latent factor models, which directly profile both users and products, and neighborhood models, which analyze similarities between products or users. In this work we introduce some innovations to both approaches. The factor and neighborhood models can now be smoothly merged, thereby building a more accurate combined model. Further accuracy improvements are achieved by extending the models to exploit both explicit and implicit feedback by the users. The methods are tested on the Netflix data. Results are better than those previously published on that dataset. In addition, we suggest a new evaluation metric, which highlights the differences among methods, based on their performance at a top-K recommendation task."
+            },
+            "slug": "Factorization-meets-the-neighborhood:-a-filtering-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Factorization meets the neighborhood: a multifaceted collaborative filtering model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 37,
+                "text": "The factor and neighborhood models can now be smoothly merged, thereby building a more accurate combined model and a new evaluation metric is suggested, which highlights the differences among methods, based on their performance at a top-K recommendation task."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2068236719"
+                        ],
+                        "name": "L. Xiong",
+                        "slug": "L.-Xiong",
+                        "structuredName": {
+                            "firstName": "Liang",
+                            "lastName": "Xiong",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Xiong"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1683647"
+                        ],
+                        "name": "X. Chen",
+                        "slug": "X.-Chen",
+                        "structuredName": {
+                            "firstName": "X.",
+                            "lastName": "Chen",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "X. Chen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1734755"
+                        ],
+                        "name": "Tzu-Kuo Huang",
+                        "slug": "Tzu-Kuo-Huang",
+                        "structuredName": {
+                            "firstName": "Tzu-Kuo",
+                            "lastName": "Huang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tzu-Kuo Huang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1753432"
+                        ],
+                        "name": "J. Schneider",
+                        "slug": "J.-Schneider",
+                        "structuredName": {
+                            "firstName": "Jeff",
+                            "lastName": "Schneider",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Schneider"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143712374"
+                        ],
+                        "name": "J. Carbonell",
+                        "slug": "J.-Carbonell",
+                        "structuredName": {
+                            "firstName": "Jaime",
+                            "lastName": "Carbonell",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Carbonell"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 1173916,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "ee4129e6187302b1d1fd1aa7604d9bee40a865cf",
+            "isKey": false,
+            "numCitedBy": 638,
+            "numCiting": 26,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Real-world relational data are seldom stationary, yet traditional collaborative filtering algorithms generally rely on this assumption. Motivated by our sales prediction problem, we propose a factor-based algorithm that is able to take time into account. By introducing additional factors for time, we formalize this problem as a tensor factorization with a special constraint on the time dimension. Further, we provide a fully Bayesian treatment to avoid tuning parameters and achieve automatic model complexity control. To learn the model we develop an efficient sampling procedure that is capable of analyzing large-scale data sets. This new algorithm, called Bayesian Probabilistic Tensor Factorization (BPTF), is evaluated on several real-world problems including sales prediction and movie recommendation. Empirical results demonstrate the superiority of our temporal model."
+            },
+            "slug": "Temporal-Collaborative-Filtering-with-Bayesian-Xiong-Chen",
+            "title": {
+                "fragments": [],
+                "text": "Temporal Collaborative Filtering with Bayesian Probabilistic Tensor Factorization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This work proposes a factor-based algorithm that is able to take time into account, and provides a fully Bayesian treatment to avoid tuning parameters and achieve automatic model complexity control."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "SDM"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066007146"
+                        ],
+                        "name": "Rong Pan",
+                        "slug": "Rong-Pan",
+                        "structuredName": {
+                            "firstName": "Rong",
+                            "lastName": "Pan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rong Pan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118116274"
+                        ],
+                        "name": "Yunhong Zhou",
+                        "slug": "Yunhong-Zhou",
+                        "structuredName": {
+                            "firstName": "Yunhong",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yunhong Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144948990"
+                        ],
+                        "name": "Bin Cao",
+                        "slug": "Bin-Cao",
+                        "structuredName": {
+                            "firstName": "Bin",
+                            "lastName": "Cao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bin Cao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1768416"
+                        ],
+                        "name": "N. Liu",
+                        "slug": "N.-Liu",
+                        "structuredName": {
+                            "firstName": "Nathan",
+                            "lastName": "Liu",
+                            "middleNames": [
+                                "Nan"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777845"
+                        ],
+                        "name": "R. Lukose",
+                        "slug": "R.-Lukose",
+                        "structuredName": {
+                            "firstName": "Rajan",
+                            "lastName": "Lukose",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Lukose"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144362899"
+                        ],
+                        "name": "Martin Scholz",
+                        "slug": "Martin-Scholz",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Scholz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Martin Scholz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152290618"
+                        ],
+                        "name": "Qiang Yang",
+                        "slug": "Qiang-Yang",
+                        "structuredName": {
+                            "firstName": "Qiang",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qiang Yang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 7369746,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "109de4531e279681919f7330f01b532a7201e4b9",
+            "isKey": false,
+            "numCitedBy": 935,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many applications of collaborative filtering (CF), such as news item recommendation and bookmark recommendation, are most naturally thought of as one-class collaborative filtering (OCCF) problems. In these problems, the training data usually consist simply of binary data reflecting a user's action or inaction, such as page visitation in the case of news item recommendation or webpage bookmarking in the bookmarking scenario. Usually this kind of data are extremely sparse (a small fraction are positive examples), therefore ambiguity arises in the interpretation of the non-positive examples. Negative examples and unlabeled positive examples are mixed together and we are typically unable to distinguish them. For example, we cannot really attribute a user not bookmarking a page to a lack of interest or lack of awareness of the page. Previous research addressing this one-class problem only considered it as a classification task. In this paper, we consider the one-class problem under the CF setting. We propose two frameworks to tackle OCCF. One is based on weighted low rank approximation; the other is based on negative example sampling. The experimental results show that our approaches significantly outperform the baselines."
+            },
+            "slug": "One-Class-Collaborative-Filtering-Pan-Zhou",
+            "title": {
+                "fragments": [],
+                "text": "One-Class Collaborative Filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This paper considers the one-class problem under the CF setting, and proposes two frameworks to tackle OCCF, one based on weighted low rank approximation; the other based on negative example sampling."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 Eighth IEEE International Conference on Data Mining"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1680188"
+                        ],
+                        "name": "T. Joachims",
+                        "slug": "T.-Joachims",
+                        "structuredName": {
+                            "firstName": "Thorsten",
+                            "lastName": "Joachims",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Joachims"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 154,
+                                "start": 151
+                            }
+                        ],
+                        "text": "1, if \u03b8 is w0\nxi, if \u03b8 is wi xi \u2211n j=1 vj,fxj \u2212 vi,fx2i , if \u03b8 is vi,f (4)\nThe sum \u2211n\nj=1 vj,fxj is independent of i and thus can be\nprecomputed (e.g. when computing y\u0302(x))."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 75,
+                                "start": 72
+                            }
+                        ],
+                        "text": "Scoring functions can be learned with pairwise training data [5], where a feature tuple (x(A),x(B)) \u2208 D means that x(A) should be ranked higher than x(B)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 207605508,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cfd4259d305a00f13d5f08841230389f61322422",
+            "isKey": false,
+            "numCitedBy": 4374,
+            "numCiting": 36,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper presents an approach to automatically optimizing the retrieval quality of search engines using clickthrough data. Intuitively, a good information retrieval system should present relevant documents high in the ranking, with less relevant documents following below. While previous approaches to learning retrieval functions from examples exist, they typically require training data generated from relevance judgments by experts. This makes them difficult and expensive to apply. The goal of this paper is to develop a method that utilizes clickthrough data for training, namely the query-log of the search engine in connection with the log of links the users clicked on in the presented ranking. Such clickthrough data is available in abundance and can be recorded at very low cost. Taking a Support Vector Machine (SVM) approach, this paper presents a method for learning retrieval functions. From a theoretical perspective, this method is shown to be well-founded in a risk minimization framework. Furthermore, it is shown to be feasible even for large sets of queries and features. The theoretical results are verified in a controlled experiment. It shows that the method can effectively adapt the retrieval function of a meta-search engine to a particular group of users, outperforming Google in terms of retrieval quality after only a couple of hundred training examples."
+            },
+            "slug": "Optimizing-search-engines-using-clickthrough-data-Joachims",
+            "title": {
+                "fragments": [],
+                "text": "Optimizing search engines using clickthrough data"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 46,
+                "text": "The goal of this paper is to develop a method that utilizes clickthrough data for training, namely the query-log of the search engine in connection with the log of links the users clicked on in the presented ranking."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3154682"
+                        ],
+                        "name": "R. Harshman",
+                        "slug": "R.-Harshman",
+                        "structuredName": {
+                            "firstName": "Richard",
+                            "lastName": "Harshman",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Harshman"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 45,
+                                "start": 42
+                            }
+                        ],
+                        "text": "Especially, it is possible to generalize to unobserved interactions."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 5,
+                                "start": 2
+                            }
+                        ],
+                        "text": "Furthermore their model equations and optimization algorithms are derived individually for each task."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6816804,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c5b28cae82b14417f1250e58bb241367248e827d",
+            "isKey": false,
+            "numCitedBy": 2975,
+            "numCiting": 52,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Simple structure and other common principles of factor rotation do not in general provide strong grounds for attributing explanatory significance to the factors which they select. In contrast, it is shown that an extension of Cattell's principle of rotation to Proportional Profiles (PP) offers a basis for determining explanatory factors for three-way or higher order multi-mode data. Conceptual models are developed for two basic patterns of multi-mode data variation, systemand object-variation, and PP analysis is found to apply in the system-variation case. Although PP was originally formulated as a principle of rotation to be used with classic two-way factor analysis, it is shown to embody a latent three-mode factor model, which is here made explicit and generalized frown two to N \"parallel occasions\". As originally formulated, PP rotation was restricted to orthogonal factors. The generalized PP model is demonstrated to give unique \"correct\" solutions with oblique, non-simple structure, and even non-linear factor structures. A series of tests, conducted with synthetic data of known factor composition, demonstrate the capabilities of linear and non-linear versions of the model, provide data on the minimal necessary conditions of uniqueness, and reveal the properties of the analysis procedures when these minimal conditions are not fulfilled. In addition, a mathematical proof is presented for the uniqueness of the solution given certain conditions on the data. Three-mode PP factor analysis is applied to a three-way set of real data consisting of the fundamental and first three formant frequencies of 11 persons saying 8 vowels. A unique solution is extracted, consisting of three factors which are highly meaningful and consistent with prior knowledge and theory concerning vowel quality. The relationships between the three-mode PP model and Tucker's multi-modal model, McDonald's non-linear model and Carroll and Chang's multi-dimensional scaling model are explored."
+            },
+            "slug": "Foundations-of-the-PARAFAC-procedure:-Models-and-an-Harshman",
+            "title": {
+                "fragments": [],
+                "text": "Foundations of the PARAFAC procedure: Models and conditions for an \"explanatory\" multi-model factor analysis"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 54,
+                "text": "It is shown that an extension of Cattell's principle of rotation to Proportional Profiles (PP) offers a basis for determining explanatory factors for three-way or higher order multi-mode data."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1970
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706280"
+                        ],
+                        "name": "Nathan Srebro",
+                        "slug": "Nathan-Srebro",
+                        "structuredName": {
+                            "firstName": "Nathan",
+                            "lastName": "Srebro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nathan Srebro"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35211659"
+                        ],
+                        "name": "Jason D. M. Rennie",
+                        "slug": "Jason-D.-M.-Rennie",
+                        "structuredName": {
+                            "firstName": "Jason",
+                            "lastName": "Rennie",
+                            "middleNames": [
+                                "D.",
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jason D. M. Rennie"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35132120"
+                        ],
+                        "name": "T. Jaakkola",
+                        "slug": "T.-Jaakkola",
+                        "structuredName": {
+                            "firstName": "T.",
+                            "lastName": "Jaakkola",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Jaakkola"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 83,
+                                "start": 80
+                            }
+                        ],
+                        "text": "1) Standard factorization models like PARAFAC or MF\nare not general prediction models like factorization machines."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5048382,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cedf154c28178370d95510112413dc8cb48120a8",
+            "isKey": false,
+            "numCitedBy": 1128,
+            "numCiting": 15,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present a novel approach to collaborative prediction, using low-norm instead of low-rank factorizations. The approach is inspired by, and has strong connections to, large-margin linear discrimination. We show how to learn low-norm factorizations by solving a semi-definite program, and discuss generalization error bounds for them."
+            },
+            "slug": "Maximum-Margin-Matrix-Factorization-Srebro-Rennie",
+            "title": {
+                "fragments": [],
+                "text": "Maximum-Margin Matrix Factorization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 86,
+                "text": "A novel approach to collaborative prediction is presented, using low-norm instead of low-rank factorizations, inspired by, and has strong connections to, large-margin linear discrimination."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50477565"
+                        ],
+                        "name": "L. Tucker",
+                        "slug": "L.-Tucker",
+                        "structuredName": {
+                            "firstName": "Ledyard",
+                            "lastName": "Tucker",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Tucker"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 44301099,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "6661789de63b3cebe2eafdd7e9e7a316ad1f0b8f",
+            "isKey": false,
+            "numCitedBy": 3327,
+            "numCiting": 7,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The model for three-mode factor analysis is discussed in terms of newer applications of mathematical processes including a type of matrix process termed the Kronecker product and the definition of combination variables. Three methods of analysis to a type of extension of principal components analysis are discussed. Methods II and III are applicable to analysis of data collected for a large sample of individuals. An extension of the model is described in which allowance is made for unique variance for each combination variable when the data are collected for a large sample of individuals."
+            },
+            "slug": "Some-mathematical-notes-on-three-mode-factor-Tucker",
+            "title": {
+                "fragments": [],
+                "text": "Some mathematical notes on three-mode factor analysis"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "The model for three-mode factor analysis is discussed in terms of newer applications of mathematical processes including a type of matrix process termed the Kronecker product and the definition of combination variables."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Psychometrika"
+            },
+            "year": 1966
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50560492"
+                        ],
+                        "name": "V. Vapnik",
+                        "slug": "V.-Vapnik",
+                        "structuredName": {
+                            "firstName": "Vladimir",
+                            "lastName": "Vapnik",
+                            "middleNames": [
+                                "Naumovich"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "V. Vapnik"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 32,
+                                "start": 29
+                            }
+                        ],
+                        "text": "The model equation of an SVM [6] can be expressed as the dot product between the transformed input x and model parameters w: y\u0302(x) = \u3008\u03c6(x),w\u3009, where \u03c6 is a mapping from the feature space Rn into a more complex space F ."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7138354,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8213dbed4db44e113af3ed17d6dad57471a0c048",
+            "isKey": false,
+            "numCitedBy": 39575,
+            "numCiting": 72,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Setting of the learning problem consistency of learning processes bounds on the rate of convergence of learning processes controlling the generalization ability of learning processes constructing learning algorithms what is important in learning theory?."
+            },
+            "slug": "The-Nature-of-Statistical-Learning-Theory-Vapnik",
+            "title": {
+                "fragments": [],
+                "text": "The Nature of Statistical Learning Theory"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Statistics for Engineering and Information Science"
+            },
+            "year": 2000
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 3,
+            "methodology": 5,
+            "result": 1
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 13,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Factorization-Machines-Rendle/df93596d4ed71d2863532c063c4c693711216abf?sort=total-citations"
+}

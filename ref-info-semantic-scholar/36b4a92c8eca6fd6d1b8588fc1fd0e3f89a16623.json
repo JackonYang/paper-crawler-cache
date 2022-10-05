@@ -1,0 +1,1812 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144741762"
+                        ],
+                        "name": "P. Resnick",
+                        "slug": "P.-Resnick",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Resnick",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Resnick"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2070970"
+                        ],
+                        "name": "H. Varian",
+                        "slug": "H.-Varian",
+                        "structuredName": {
+                            "firstName": "Hal",
+                            "lastName": "Varian",
+                            "middleNames": [
+                                "R."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "H. Varian"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 53,
+                                "start": 28
+                            }
+                        ],
+                        "text": "Results indicate that for a wide range of con ditions, Bayesian networks with decision trees at each node and correlation methods outperform Bayesian-clustering and vector similarity methods."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 25,
+                                "start": 1
+                            }
+                        ],
+                        "text": "[Resnick and Varian, 1997] Resnick, P. and Varian, H. (1997)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 58
+                            }
+                        ],
+                        "text": "So called collaborative filtering or recommender systems [Resnick and Varian, 1997] are built on the assump tion that a good way to find interesting content is to find other people who have similar interests, and then recommend titles that those similar users like."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 1381259,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "dbdabdf9e653e11eb4d44f69f645a564622220b3",
+            "isKey": true,
+            "numCitedBy": 2816,
+            "numCiting": 3,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems assist and augment this natural social process. In a typical recommender system people provide recommendations as inputs, which the system then aggregates and directs to appropriate recipients. In some cases the primary transformation is in the aggregation; in others the system\u2019s value lies in its ability to make good matches between the recommenders and those seeking recommendations. The developers of the first recommender system, Tapestry [1], coined the phrase \u201ccollaborative filtering\u201d and several others have adopted it. We prefer the more general term \u201crecommender system\u201d for two reasons. First, recommenders may not explictly collaborate with recipients, who may be unknown to each other. Second, recommendations may suggest particularly interesting items, in addition to indicating those that should be filtered out. This special section includes descriptions of five recommender systems. A sixth article analyzes incentives for provision of recommendations. Figure 1 places the systems in a technical design space defined by five dimensions. First, the contents of an evaluation can be anything from a single bit (recommended or not) to unstructured textual annotations. Second, recommendations may be entered explicitly, but several systems gather implicit evaluations: GroupLens monitors users\u2019 reading times; PHOAKS mines Usenet articles for mentions of URLs; and Siteseer mines personal bookmark lists. Third, recommendations may be anonymous, tagged with the source\u2019s identity, or tagged with a pseudonym. The fourth dimension, and one of the richest areas for exploration, is how to aggregate evaluations. GroupLens, PHOAKS, and Siteseer employ variants on weighted voting. Fab takes that one step further to combine evaluations with content analysis. ReferralWeb combines suggested links between people to form longer referral chains. Finally, the (perhaps aggregated) evaluations may be used in several ways: negative recommendations may be filtered out, the items may be sorted according to numeric evaluations, or evaluations may accompany items in a display. Figures 2 and 3 identify dimensions of the domain space: The kinds of items being recommended and the people among whom evaluations are shared. Consider, first, the domain of items. The sheer volume is an important variable: Detailed textual reviews of restaurants or movies may be practical, but applying the same approach to thousands of daily Netnews messages would not. Ephemeral media such as netnews (most news servers throw away articles after one or two weeks) place a premium on gathering and distributing evaluations quickly, while evaluations for 19th century books can be gathered at a more leisurely pace. The last dimension describes the cost structure of choices people make about the items. Is it very costly to miss IT IS OFTEN NECESSARY TO MAKE CHOICES WITHOUT SUFFICIENT personal experience of the alternatives. In everyday life, we rely on"
+            },
+            "slug": "Recommender-systems-Resnick-Varian",
+            "title": {
+                "fragments": [],
+                "text": "Recommender systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 67,
+                "text": "This special section includes descriptions of five recommender systems, which provide recommendations as inputs, which the system then aggregates and directs to appropriate recipients, and which combine evaluations with content analysis."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2095589970"
+                        ],
+                        "name": "J. Rucker",
+                        "slug": "J.-Rucker",
+                        "structuredName": {
+                            "firstName": "James",
+                            "lastName": "Rucker",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Rucker"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2060228300"
+                        ],
+                        "name": "Marcos J. Polanco",
+                        "slug": "Marcos-J.-Polanco",
+                        "structuredName": {
+                            "firstName": "Marcos",
+                            "lastName": "Polanco",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Marcos J. Polanco"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 25,
+                                "start": 1
+                            }
+                        ],
+                        "text": "[Rucker and Polanco, 1997] Rucker, J. and Polanco, M. J. (1997)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 133,
+                                "start": 109
+                            }
+                        ],
+                        "text": "Examples of systems that present recommen dation lists include PHOAKS (L.Terveen et al., 1997] and SiteSeer (Rucker and Polanco, 1997]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 7159528,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "8d4516a8a6a0ab209123fb6d55270270bf548e37",
+            "isKey": false,
+            "numCitedBy": 319,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "COMMUNICATIONS OF THE ACM March 1997/Vol. 40, No. 3 73 by the user. Over time, Siteseer learns each user\u2019s preferences and the categories through which they view the world, and at the same time it learns for each Web page how different communities or affinitybased clusters of users regard it. Siteseer then delivers personalized recommendations of online content, Web pages, organized according to each user\u2019s folders. Bookmarks (including Hotlists and Favorites) are a desirable mechanism for gathering preference information as they are already maintained by the user, and thus require no additional behavior for the purpose of informing the recommendation system. In contrast to a click, which can be inadvertently done and rarely takes much effort or investment, bookmarks are the result of a very intentional act, something which (especially if the bookmark is placed in a folder) takes some degree of thought and effort, making them a less \u201cnoisy\u201d input for inference. Bookmarks also have specific limitations. A voluntary survey of free response and multiple choice questions, posted to various Usenet news groups and drawing 40 respondents, indicated that users typically bookmark fewer than half of the sites/pages they find interesting, often because a site is easily accessiPersonalized Navigation for the Web"
+            },
+            "slug": "Siteseer:-personalized-navigation-for-the-Web-Rucker-Polanco",
+            "title": {
+                "fragments": [],
+                "text": "Siteseer: personalized navigation for the Web"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 67,
+                "text": "Siteseer learns each user\u2019s preferences and the categories through which they view the world, and at the same time it learns for each Web page how different communities or affinitybased clusters of users regard it."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1739628"
+                        ],
+                        "name": "L. Terveen",
+                        "slug": "L.-Terveen",
+                        "structuredName": {
+                            "firstName": "Loren",
+                            "lastName": "Terveen",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Terveen"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145602641"
+                        ],
+                        "name": "W. Hill",
+                        "slug": "W.-Hill",
+                        "structuredName": {
+                            "firstName": "William",
+                            "lastName": "Hill",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "W. Hill"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1730851"
+                        ],
+                        "name": "B. Amento",
+                        "slug": "B.-Amento",
+                        "structuredName": {
+                            "firstName": "Brian",
+                            "lastName": "Amento",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Amento"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2052133890"
+                        ],
+                        "name": "David W. McDonald",
+                        "slug": "David-W.-McDonald",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "McDonald",
+                            "middleNames": [
+                                "W."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "David W. McDonald"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1680589"
+                        ],
+                        "name": "Josh Creter",
+                        "slug": "Josh-Creter",
+                        "structuredName": {
+                            "firstName": "Josh",
+                            "lastName": "Creter",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Josh Creter"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 207201836,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fd7be690ff0616e308b11db03906f2c53b5f2ffd",
+            "isKey": false,
+            "numCitedBy": 635,
+            "numCiting": 10,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The feasibility of automatic recognition of recommendations is supported by empirical results. First, Usenet messages are a significant source of recommendations of Web resources: 23% of Usenet messages mention Web resources, and ?>0% of these mentions are recommendations. Second, recommendation instances can be machine-recognized with nearly 90% accuracy. Third, some resources are recommended by more than one person. These multiconfirmed recommendations appear to be significant resources for the relevant community. Finally, the number of distinct recommenders of a resource is a tallying, and redistributing recom-"
+            },
+            "slug": "PHOAKS:-a-system-for-sharing-recommendations-Terveen-Hill",
+            "title": {
+                "fragments": [],
+                "text": "PHOAKS: a system for sharing recommendations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 68,
+                "text": "The feasibility of automatic recognition of recommendations is supported by empirical results and some resources are recommended by more than one person, and these multiconfirmed recommendations appear to be significant resources for the relevant community."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CACM"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144741762"
+                        ],
+                        "name": "P. Resnick",
+                        "slug": "P.-Resnick",
+                        "structuredName": {
+                            "firstName": "Paul",
+                            "lastName": "Resnick",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Resnick"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32895600"
+                        ],
+                        "name": "N. Iacovou",
+                        "slug": "N.-Iacovou",
+                        "structuredName": {
+                            "firstName": "Neophytos",
+                            "lastName": "Iacovou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Iacovou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48185525"
+                        ],
+                        "name": "M. Suchak",
+                        "slug": "M.-Suchak",
+                        "structuredName": {
+                            "firstName": "Mitesh",
+                            "lastName": "Suchak",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. Suchak"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2073783270"
+                        ],
+                        "name": "P. Bergstrom",
+                        "slug": "P.-Bergstrom",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Bergstrom",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Bergstrom"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2579342"
+                        ],
+                        "name": "J. Riedl",
+                        "slug": "J.-Riedl",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Riedl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Riedl"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 2616594,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "64a717dc148b76070bbb6a3190a7e05bb9734400",
+            "isKey": false,
+            "numCitedBy": 5852,
+            "numCiting": 31,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Collaborative filters help people make choices based on the opinions of other people. GroupLens is a system for collaborative filtering of netnews, to help people find articles they will like in the huge stream of available articles. News reader clients display predicted scores and make it easy for users to rate articles after they read them. Rating servers, called Better Bit Bureaus, gather and disseminate the ratings. The rating servers predict scores based on the heuristic that people who agreed in the past will probably agree again. Users can protect their privacy by entering ratings under pseudonyms, without reducing the effectiveness of the score prediction. The entire architecture is open: alternative software for news clients and Better Bit Bureaus can be developed independently and can interoperate with the components we have developed."
+            },
+            "slug": "GroupLens:-an-open-architecture-for-collaborative-Resnick-Iacovou",
+            "title": {
+                "fragments": [],
+                "text": "GroupLens: an open architecture for collaborative filtering of netnews"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 63,
+                "text": "GroupLens is a system for collaborative filtering of netnews, to help people find articles they will like in the huge stream of available articles, and protect their privacy by entering ratings under pseudonyms, without reducing the effectiveness of the score prediction."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "CSCW '94"
+            },
+            "year": 1994
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2868274"
+                        ],
+                        "name": "B. Thiesson",
+                        "slug": "B.-Thiesson",
+                        "structuredName": {
+                            "firstName": "Bo",
+                            "lastName": "Thiesson",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Thiesson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50004012"
+                        ],
+                        "name": "Christopher Meek",
+                        "slug": "Christopher-Meek",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Meek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher Meek"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1724065"
+                        ],
+                        "name": "D. M. Chickering",
+                        "slug": "D.-M.-Chickering",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Chickering",
+                            "middleNames": [
+                                "Maxwell"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. M. Chickering"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48099028"
+                        ],
+                        "name": "D. Heckerman",
+                        "slug": "D.-Heckerman",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Heckerman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Heckerman"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 5574895,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "b73ffe5e76c3f7e6239ae3e4fc34a931ea716e01",
+            "isKey": false,
+            "numCitedBy": 77,
+            "numCiting": 35,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe computationally efficient methods for learning mixtures in which each component is a directed acyclic graphical model (mixtures of DAGs or MDAGs). We argue that simple search-and-score algorithms are infeasible for a variety of problems, and introduce a feasible approach in which parameter and structure search is interleaved and expected data is treated as real data. Our approach can be viewed as a combination of (1) the Cheeseman-Stutz asymptotic approximation for model posterior probability and (2) the Expectation-Maximization algorithm. We evaluate our procedure for selecting among MDAGs on synthetic and real examples."
+            },
+            "slug": "Learning-Mixtures-of-DAG-Models-Thiesson-Meek",
+            "title": {
+                "fragments": [],
+                "text": "Learning Mixtures of DAG Models"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work proposes a feasible approach in which parameter and structure search is interleaved and expected data is treated as real data, and can be viewed as a combination of the Cheeseman-Stutz asymptotic approximation for model posterior probability and the Expectation-Maximization algorithm."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "UAI"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2145004846"
+                        ],
+                        "name": "A. Gupta",
+                        "slug": "A.-Gupta",
+                        "structuredName": {
+                            "firstName": "Alok",
+                            "lastName": "Gupta",
+                            "middleNames": [
+                                "Kumar"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Gupta"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2486301"
+                        ],
+                        "name": "C. Reisinger",
+                        "slug": "C.-Reisinger",
+                        "structuredName": {
+                            "firstName": "Christoph",
+                            "lastName": "Reisinger",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Reisinger"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 5662142,
+            "fieldsOfStudy": [
+                "Mathematics"
+            ],
+            "id": "6e2644bf6289c07bd8f11141e6efe27c23a2138b",
+            "isKey": false,
+            "numCitedBy": 451,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Bayesian theory can be used to estimate the value of an unknown parameter(s). Suppose we wish to estimate the value of \u03b8 in (1). Assume we have some prior information for \u03b8 (for example that it belongs to a particlar space, or is positive, or represents a smooth function), summarised by a prior density p(\u03b8) for \u03b8 . Then p(Y |\u03b8) is the probability of observing the data Y given \u03b8 and is called the likelihood function. The Bayes rule states that the posterior density of \u03b8 is given by p(\u03b8 | Y ) \u221d p(Y |\u03b8) p(\u03b8) (2)"
+            },
+            "slug": "A-Bayesian-Approach-to-Gupta-Reisinger",
+            "title": {
+                "fragments": [],
+                "text": "A Bayesian Approach to"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2598014"
+                        ],
+                        "name": "Bradley N. Miller",
+                        "slug": "Bradley-N.-Miller",
+                        "structuredName": {
+                            "firstName": "Bradley",
+                            "lastName": "Miller",
+                            "middleNames": [
+                                "N."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bradley N. Miller"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2579342"
+                        ],
+                        "name": "J. Riedl",
+                        "slug": "J.-Riedl",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Riedl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Riedl"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2478310"
+                        ],
+                        "name": "J. Konstan",
+                        "slug": "J.-Konstan",
+                        "structuredName": {
+                            "firstName": "Joseph",
+                            "lastName": "Konstan",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Konstan"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 15604584,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9770a60e37683cee99c98702b6cfc24efd30a92d",
+            "isKey": false,
+            "numCitedBy": 83,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Collaborative filetering attempts to alleviate information overload by offering recommendations on whether information is valuable based on the opinions of those who have already evaluated it. Usenet news is an information source whose value is being severely diminished by the volume of low-quality and uninteresting information posted in its newsgroups. The GroupLens system applies collaborative filtering to Usenet news to demonstrate how we can restore the value of Usenet news by sharing our judgements of articles, with our identities protected by pseudonyms. \n \nThis paper extends the original GroupLens work by reporting on a significantly enhanced system and the results of a seven week trial with 250 users and over 20,000 news articles. GroupLens has an open and flexible architecture that allows easy integration of new newsreader clients and ratings bureaus. We show ratings and prediction profiles for three news-groups, and assess the accuracy of the predictions."
+            },
+            "slug": "Experiences-with-GroupLens:-marking-usenet-useful-Miller-Riedl",
+            "title": {
+                "fragments": [],
+                "text": "Experiences with GroupLens: marking usenet useful again"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The original GroupLens work is extended by reporting on a significantly enhanced system and the results of a seven week trial with 250 users and over 20,000 news articles, and the accuracy of the predictions are assessed."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "8147976"
+                        ],
+                        "name": "G. Chowdhury",
+                        "slug": "G.-Chowdhury",
+                        "structuredName": {
+                            "firstName": "Gobinda",
+                            "lastName": "Chowdhury",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Chowdhury"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [],
+            "corpusId": 56607885,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6a919b9289ff6719bd5b4399168c73d9800f5aa8",
+            "isKey": false,
+            "numCitedBy": 200,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "An information retrieval system is designed to analyse, process and store sources of information and retrieve those that match a particular user's requirements. A bewildering range of techniques is now available to the information professional attempting to achieve this goal. It is recognized that today's information professionals need to concentrate their efforts on learning the techniques of computerized information retrieval. However, it is this book's contention that it also benefits them to learn the theory, techniques and tools that constitute the traditional approaches to the organization and processing of information. In fact much of this knowledge may still be applicable in the storage and retrieval of electronic information in digital library environments."
+            },
+            "slug": "Introduction-to-Modern-Information-Retrieval-Chowdhury",
+            "title": {
+                "fragments": [],
+                "text": "Introduction to Modern Information Retrieval"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "It is this book's contention that it also benefits information professionals to learn the theory, techniques and tools that constitute the traditional approaches to the organization and processing of information."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1999
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1797808"
+                        ],
+                        "name": "G. Salton",
+                        "slug": "G.-Salton",
+                        "structuredName": {
+                            "firstName": "Gerard",
+                            "lastName": "Salton",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Salton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144321599"
+                        ],
+                        "name": "M. McGill",
+                        "slug": "M.-McGill",
+                        "structuredName": {
+                            "firstName": "Michael",
+                            "lastName": "McGill",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "M. McGill"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 43685115,
+            "fieldsOfStudy": [
+                "Medicine"
+            ],
+            "id": "49af3e80343eb80c61e727ae0c27541628c7c5e2",
+            "isKey": false,
+            "numCitedBy": 12766,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Some people may be laughing when looking at you reading in your spare time. Some may be admired of you. And some may want be like you who have reading hobby. What about your own feel? Have you felt right? Reading is a need and a hobby at once. This condition is the on that will make you feel that you must read. If you know are looking for the book enPDFd introduction to modern information retrieval as the choice of reading, you can find here."
+            },
+            "slug": "Introduction-to-Modern-Information-Retrieval-Salton-McGill",
+            "title": {
+                "fragments": [],
+                "text": "Introduction to Modern Information Retrieval"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "Reading is a need and a hobby at once and this condition is the on that will make you feel that you must read."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1983
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35043531"
+                        ],
+                        "name": "A. Dempster",
+                        "slug": "A.-Dempster",
+                        "structuredName": {
+                            "firstName": "Arthur",
+                            "lastName": "Dempster",
+                            "middleNames": [
+                                "P."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Dempster"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "7890796"
+                        ],
+                        "name": "N. Laird",
+                        "slug": "N.-Laird",
+                        "structuredName": {
+                            "firstName": "Nan",
+                            "lastName": "Laird",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Laird"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2235217"
+                        ],
+                        "name": "D. Rubin",
+                        "slug": "D.-Rubin",
+                        "structuredName": {
+                            "firstName": "Donald",
+                            "lastName": "Rubin",
+                            "middleNames": [
+                                "B."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Rubin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [],
+            "corpusId": 4193919,
+            "fieldsOfStudy": [
+                "Engineering"
+            ],
+            "id": "d36efb9ad91e00faa334b549ce989bfae7e2907a",
+            "isKey": false,
+            "numCitedBy": 49120,
+            "numCiting": 90,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Vibratory power unit for vibrating conveyers and screens comprising an asynchronous polyphase motor, at least one pair of associated unbalanced masses disposed on the shaft of said motor, with the first mass of a pair of said unbalanced masses being rigidly fastened to said shaft and with said second mass of said pair being movably arranged relative to said first mass, means for controlling and regulating the conveying rate during conveyer operation by varying the rotational speed of said motor between predetermined minimum and maximum values, said second mass being movably outwardly by centrifugal force against the pressure of spring means, said spring means being prestressed in such a manner that said second mass is, at rotational motor speeds lower than said minimum speed, held in its initial position, and at motor speeds between said lower and upper values in positions which are radially offset with respect to the axis of said motor to an extent depending on the value of said rotational motor speed."
+            },
+            "slug": "Maximum-likelihood-from-incomplete-data-via-the-EM-Dempster-Laird",
+            "title": {
+                "fragments": [],
+                "text": "Maximum likelihood from incomplete data via the EM - algorithm plus discussions on the paper"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 375,
+                                "start": 101
+                            }
+                        ],
+                        "text": "Watched Not Watched Watched Not Watched Figure 1: A decision tree for whether an individual watched \\Melrose Place\", with parents \\Friend's\", and \\Beverly Hills, 90201\". The bar charts at the bottom of the tree indicate the probabilities of watched and not watched for \\Melrose Place\", conditioned on viewing the parent programs. use the method of Cheeseman and Stutz (1995) to approximate the marginal likelihood (see also Chickering and Heckerman, 1997)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 1766,
+                                "start": 101
+                            }
+                        ],
+                        "text": "Watched Not Watched Watched Not Watched Figure 1: A decision tree for whether an individual watched \\Melrose Place\", with parents \\Friend's\", and \\Beverly Hills, 90201\". The bar charts at the bottom of the tree indicate the probabilities of watched and not watched for \\Melrose Place\", conditioned on viewing the parent programs. use the method of Cheeseman and Stutz (1995) to approximate the marginal likelihood (see also Chickering and Heckerman, 1997). In our experiments, we assume each model structure (every possible number of classes) is equally likely, and use a uniform prior for model parameters. We initialize the EM algorithm using the marginal-plus-noise technique described in [Thiesson et al., 1997]. 2.3.2 Bayesian Network Model An alternative model formulation for probabilistic collaborative ltering is a Bayesian network with a node corresponding to each item in the domain. The states of each node correspond to the possible vote values for each item. We also include a state corresponding to \\no vote\" for those domains where there is no natural interpretation for missing data. We then apply an algorithm for learning Bayesian networks to the training data, where missing votes in the training data are indicated by the \\no vote\" value. The learning algorithm searches over various model structures in terms of dependencies for each item. In the resulting network, each item will have a set of parent items that are the best predictors of its votes. Each conditional probability table is represented by a decision tree encoding the conditional probabilities for that node. An example of such a tree, for television viewing data (see Section 3.2) is shown in Figure 1. Details of the learning algorithm are discussed in Chickering et al.(1997). In the remainder of the paper the term Bayesian network will refer to these networks with a decision tree for each title."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 67,
+                                "start": 58
+                            }
+                        ],
+                        "text": "[Miller et al., 1997] Miller, B., Riedl, J., and Konstan, J. (1997)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 523,
+                                "start": 0
+                            }
+                        ],
+                        "text": "Memory-based algorithms operate over the entire user database to make predictions. In Model-based collaborative ltering, in contrast, uses the user database to estimate or learn a model, which is then used for predictions. Collaborative ltering systems are often distinguished by whether they operate over implicit versus explicit votes. Explicit voting refers to a user consciously expressing his or her preference for a title, usually on a discrete numerical scale. For example, GroupLens system of Resnick et al. [1994] uses a scale of one (bad) to ve (good) for users to rate Netnews articles, and users explicitly rate each article after reading it."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4041,
+                                "start": 4
+                            }
+                        ],
+                        "text": "EachMovie, Absolute Deviation Algorithm Given2 Given5 Given10 AllBut1 CR 1.257 1.139 1.069 0.994 BC 1.127 1.144 1.138 1.103 BN 1.143 1.154 1.139 1.066 VSIM 2.113 2.177 2.235 2.136 RD 0.022 0.023 0.025 0.043 Table 5: Absolute Deviation scoring results for the EachMovie dataset. Lower scores are better. For absolute deviation, we examined the EachMovie dataset and results are shown in Table 5. This dataset has a vote range of 0 to 5, making vote prediction a relevant task. We examine the same algorithms as in the previous table, except now we use a correlation algorithm without applying any of the extensions except for inverse user frequency. The other extensions are not e ective for absolute deviation scoring. This basic correlation algorithm performs best in all but the Given 2 experiments, indicating that this algorithm performs well when given adequate data regarding the active case. The Bayesian clustered model does slightly better than the Bayesian network, and outperforms correlation in the Given 2 and Given 5 cases. 4.2 Inverse User Frequency In Section 2.2.2 we describe using inverse user frequency to modify vote values in applying memorybased algorithms. We performed a set of 12 experiments (3 datasets, 4 protocols) each for vector similarity and correlation judging the e ect of applying inverse user frequency under ranked scoring. In all experiments, application of IUF improved the ranked score, and in 23 of 24 cases results were statistically signi cant. The average improvement was 1.9%, with an improvement of 2.2% for the vector similarity algorithm, and 1.5% for the correlation algorithm. In 8 experiments run on the EachMovie dataset using absolute deviation scoring, the improvement averaged a more impressive 11%. Results were signi cant in 6 of the 8 experiments. The average improvement was of 15.5% for vector similarity, and 6.5% for correlation. 4.3 Case Ampli cation Case ampli cation (Section 2.2.3) modi es weights used in an memory-based algorithm to emphasize higher weights. We performed a set of 12 experiments (3 datasets, 4 protocols) applying case ampli cation to correlation. The average improvement in the ranked score was 4.8%, and results were signi cant in 11 of 12 experiments. There is no signi cant e ect of case ampli cation on absolute deviation scoring. We also ran experiments combining case ampli cation and inverse user frequency, and found the bene ts to be additive. 4.4 Probabilistic Methods We used a training set to build probabilistic models for each dataset. Each title was encoded with an additional explicit vote value of \\no vote\" to complete the dataset for probabilistic learning. When scoring with Bayesian networks and cluster models, the \\no vote\" values were explicitly entered into the network when missing, for both ranked and absolute deviation scoring. For the trees, the \\no vote\" values were entered in each tree independently in order to generate a probability for that title. For absolute deviation scoring, the expected vote was calculated by renormalizing the output probabilities, clamping the \\no vote\" probability to zero. There are roughly 1600 movies in the EachMovie dataset, too many to estimate a full model in a reasonable amount of time. Therefore the Bayesian methods were trained from EachMovie for the top 300 movies in terms of overall popularity. For testing, all 1600 movies were used. In the other datasets, all items were used for training and testing. For the Bayesian networks, we applied alternate prior speci cations which resulted in trees of varying complexity. Priors that strongly penalized splits generated Bayesian networks with nodes with approximately 2 to 4 parents and 4 to 6 distributions in the decision tree representation. The model with the larger trees had somewhere between 4 and 6 predecessors and 6 to 8 distributions per variable. In all our experiments the larger trees outperformed the smaller tree so we restrict our results to those models. Additional details are available in Breese et al. (1998). Applying clustering to the datasets identi ed 3 classes for the Neilsen dataset, 7 classes for the MS Web dataset, and 9 classes for the EachMovie dataset."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 85
+                            }
+                        ],
+                        "text": "[L.Terveen et al., 1997] L.Terveen, Hill, W., Amenta, B., McDconald, D., and Creter, J. (1997)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 63,
+                                "start": 54
+                            }
+                        ],
+                        "text": "[Rucker and Polanco, 1997] Rucker, J. and Polanco, M. J. (1997)."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": true,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Siteseer: Personalized navigation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1724065"
+                        ],
+                        "name": "D. M. Chickering",
+                        "slug": "D.-M.-Chickering",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Chickering",
+                            "middleNames": [
+                                "Maxwell"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. M. Chickering"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "48099028"
+                        ],
+                        "name": "D. Heckerman",
+                        "slug": "D.-Heckerman",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Heckerman",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Heckerman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50004012"
+                        ],
+                        "name": "Christopher Meek",
+                        "slug": "Christopher-Meek",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Meek",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Christopher Meek"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 24,
+                                "start": 1
+                            }
+                        ],
+                        "text": "[Chickering et al., 1997] Chickering, D., Heckerman, D., and Meek, C. (1997)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 74,
+                                "start": 51
+                            }
+                        ],
+                        "text": "Details of the learning algorithm are discussed in Chickering et al.(1997)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 213,
+                                "start": 190
+                            }
+                        ],
+                        "text": "In the experiments that follow, we use a structure prior that penalizes each additional free parameter with probability 0.1, and derive parameter priors from a prior network as described in Chickering et al., 1997."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1621481,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "9f7e689a465ac321ce607427d86dd17163c12bc4",
+            "isKey": false,
+            "numCitedBy": 389,
+            "numCiting": 33,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recently several researchers have investigated techniques for using data to learn Bayesian networks containing compact representations for the conditional probability distributions (CPDs) stored at each node. The majority of this work has concentrated on using decision-tree representations for the CPDs. In addition, researchers typically apply non-Bayesian (or asymptotically Bayesian) scoring functions such as MDL to evaluate the goodness-of-fit of networks to the data. \n \nIn this paper we investigate a Bayesian approach to learning Bayesian networks that contain the more general decision-graph representations of the CPDs. First, we describe how to evaluate the posterior probability-- that is, the Bayesian score--of such a network, given a database of observed cases. Second, we describe various search spaces that can be used, in conjunction with a scoring function and a search procedure, to identify one or more high-scoring networks. Finally, we present an experimentd evaluation of the search spaces, using a greedy algorithm and a Bayesian scoring function."
+            },
+            "slug": "A-Bayesian-Approach-to-Learning-Bayesian-Networks-Chickering-Heckerman",
+            "title": {
+                "fragments": [],
+                "text": "A Bayesian Approach to Learning Bayesian Networks with Local Structure"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 50,
+                "text": "A Bayesian approach to learning Bayesian networks that contain the more general decision-graph representations of the CPDs is investigated, and how to evaluate the posterior probability-- that is, the Bayesian score--of such a network, given a database of observed cases is described."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "UAI"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "40484982"
+                        ],
+                        "name": "P. Cheeseman",
+                        "slug": "P.-Cheeseman",
+                        "structuredName": {
+                            "firstName": "Peter",
+                            "lastName": "Cheeseman",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "P. Cheeseman"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "87277825"
+                        ],
+                        "name": "J. Stutz",
+                        "slug": "J.-Stutz",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Stutz",
+                            "middleNames": [
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Stutz"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 91,
+                                "start": 80
+                            }
+                        ],
+                        "text": "Technical Report MSR-TR-98-12, Microsoft Research, Red mond, WA.\n[Cheeseman and Stutz, 1995] Cheeseman, P. and Stutz, J. (1995)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 47,
+                                "start": 35
+                            }
+                        ],
+                        "text": "We\nuse the method of Cheeseman and Stutz (1995) to ap proximate the marginal likelihood (see also Chicker ing and Beckerman, 1997)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6176762,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "42f75b297aed474599c8e598dd211a1999804138",
+            "isKey": false,
+            "numCitedBy": 1305,
+            "numCiting": 18,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We describe AutoClass an approach to unsupervised classi cation based upon the classical mixture model supplemented by a Bayesian method for determining the optimal classes We include a moderately detailed exposition of the mathematics behind the AutoClass system We emphasize that no current unsupervised classi cation system can produce maximally useful results when operated alone It is the interaction between domain experts and the machine searching over the model space that generates new knowledge Both bring unique information and abilities to the database analysis task and each enhances the others e ectiveness We illustrate this point with several applications of AutoClass to complex real world databases and describe the resulting successes and failures"
+            },
+            "slug": "Bayesian-Classification-(AutoClass):-Theory-and-Cheeseman-Stutz",
+            "title": {
+                "fragments": [],
+                "text": "Bayesian Classification (AutoClass): Theory and Results"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 47,
+                "text": "It is emphasized that no current unsupervised classi cation system can produce maximally useful results when operated alone and that it is the interaction between domain experts and the machine searching over the model space that generates new knowledge."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Advances in Knowledge Discovery and Data Mining"
+            },
+            "year": 1996
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Siteseer: Personalized navigation"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Siteseer: Personalized navigation of the web Introduction to Modern Information Retrieval"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Communications of the ACM"
+            },
+            "year": 1983
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Maximum likelihood from incom\u00ad plete data via the EM algorithm"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Journal of the Royal Statistical"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "E \u000e cient approximations forthe marginal likelihood of Bayesian networks withhidden variables"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Advances in Knowledge Discovery and DataMining"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Maximum likelihood from incom"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Learning mixtures of DAG m o d e l s"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Microsoft Research"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "EEcient a p p r o ximations for the marginal likelihood of Bayesian networks with hidden variables"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Machine Learning"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 82,
+                                "start": 63
+                            }
+                        ],
+                        "text": "This metric was also used in evaluating the GroupLens project (Miller et al., 1997]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 20,
+                                "start": 1
+                            }
+                        ],
+                        "text": "[Miller et al., 1997] Miller, B., Riedl, J., and Konstan, J. (1997)."
+                    },
+                    "intents": []
+                }
+            ],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Experiences with GroupLens : MakingUsenet useful again"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Statistics . Dellen PublishingCompany"
+            },
+            "year": 1997
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Maximum likelihood from incom\u00ad plete data via the EM algorithm"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Journal of the Royal Statistical Society, B"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "An experimental comparison of collaborative ltering methods"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Microsoft Research"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "An experimental comparison of collaborative ltering methods"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "(May,"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Introduction to Modern Information"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1983
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Grouplens: An open"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1994
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Maximum like l i h o o d f r o m i n c o m plete data via the EM algorithm"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Journal of the Royal Statistical Society, B"
+            },
+            "year": 1977
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "An experimental compar\u00ad ison of collaborative filtering methods"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "(May,"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "John Riedl also provided useful comments"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "John Riedl also provided useful comments"
+            }
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "An experimental compar\u00ad ison of collaborative filtering methods"
+            },
+            "venue": {
+                "fragments": [],
+                "text": "An experimental compar\u00ad ison of collaborative filtering methods"
+            },
+            "year": 1998
+        },
+        {
+            "authors": [],
+            "badges": [],
+            "citationContexts": [],
+            "fieldsOfStudy": [],
+            "isKey": false,
+            "numCitedBy": 0,
+            "numCiting": 0,
+            "paperAbstract": {
+                "fragments": [],
+                "text": ""
+            },
+            "slug": "+",
+            "title": {
+                "fragments": [],
+                "text": "Experiences with GroupLens"
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 1997
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 2,
+            "methodology": 5
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 31,
+        "totalPages": 4
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Empirical-Analysis-of-Predictive-Algorithms-for-Breese-Heckerman/36b4a92c8eca6fd6d1b8588fc1fd0e3f89a16623?sort=total-citations"
+}

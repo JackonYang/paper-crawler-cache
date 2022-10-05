@@ -1,0 +1,1254 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50819900"
+                        ],
+                        "name": "Yifan Hu",
+                        "slug": "Yifan-Hu",
+                        "structuredName": {
+                            "firstName": "Yifan",
+                            "lastName": "Hu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yifan Hu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3146362"
+                        ],
+                        "name": "C. Volinsky",
+                        "slug": "C.-Volinsky",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Volinsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Volinsky"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 93
+                            }
+                        ],
+                        "text": "The second baseline is the binary matrix factorization (BINMF) designed for implicit feedback[3]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 221,
+                                "start": 218
+                            }
+                        ],
+                        "text": "Fortunately, it is shown that by exploiting special structure of the hessian matrix in the Newton\u2019s algorithm, efficient algorithms with complexity per iteration in the order of O(|S|) rather than O(m\u00d7 n) is achievable[3]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 118,
+                                "start": 112
+                            }
+                        ],
+                        "text": "In addition to modeling ratings data, its effectiveness has also been demonstrated on implicit feedback datasets[6, 3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 188,
+                                "start": 182
+                            }
+                        ],
+                        "text": "Such a rating oriented approach has been studied for collaborative filtering using explicit feedback[7, 5, 8, 2] and has recently been extended to cope with implicit feedback as well[6, 3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 109,
+                                "start": 102
+                            }
+                        ],
+                        "text": "In this paper, we extend the alternating least squares (ALS) algorithm for factorizing a single matrix[10, 3] for learning the corating model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 130,
+                                "start": 124
+                            }
+                        ],
+                        "text": "Without further information, it would be very hard to discern such ambiguities in implicit feedbacks and most existing works[3, 6] are based on the assumption that items for which yui = +1 are in general more relevant to the user than those items for which yui = \u22121."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 80
+                            }
+                        ],
+                        "text": "A similar squared error based loss for implicit feedback had also been proposed [6, 3] by approximating the two types of feedback -1 and +1 as numerical values:"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 10537313,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "184b7281a87ee16228b24716ca02b29519d52eb5",
+            "isKey": true,
+            "numCitedBy": 2749,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A common task of recommender systems is to improve customer experience through personalized recommendations based on prior implicit feedback. These systems passively track different sorts of user behavior, such as purchase history, watching habits and browsing activity, in order to model user preferences. Unlike the much more extensively researched explicit feedback, we do not have any direct input from the users regarding their preferences. In particular, we lack substantial evidence on which products consumer dislike. In this work we identify unique properties of implicit feedback datasets. We propose treating the data as indication of positive and negative preference associated with vastly varying confidence levels. This leads to a factor model which is especially tailored for implicit feedback recommenders. We also suggest a scalable optimization procedure, which scales linearly with the data size. The algorithm is used successfully within a recommender system for television shows. It compares favorably with well tuned implementations of other known methods. In addition, we offer a novel way to give explanations to recommendations given by this factor model."
+            },
+            "slug": "Collaborative-Filtering-for-Implicit-Feedback-Hu-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative Filtering for Implicit Feedback Datasets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work identifies unique properties of implicit feedback datasets and proposes treating the data as indication of positive and negative preference associated with vastly varying confidence levels, which leads to a factor model which is especially tailored for implicit feedback recommenders."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 Eighth IEEE International Conference on Data Mining"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 63,
+                                "start": 60
+                            }
+                        ],
+                        "text": "The third baseline is the factorized neighborhood model (FN)[4] mentioned in section 2."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 717520,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6a43d42e8fa276afbc68ecacbbbdf783837bf47e",
+            "isKey": false,
+            "numCitedBy": 679,
+            "numCiting": 38,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems provide users with personalized suggestions for products or services. These systems often rely on collaborating filtering (CF), where past transactions are analyzed in order to establish connections between users and products. The most common approach to CF is based on neighborhood models, which originate from similarities between products or users. In this work we introduce a new neighborhood model with an improved prediction accuracy. Unlike previous approaches that are based on heuristic similarities, we model neighborhood relations by minimizing a global cost function. Further accuracy improvements are achieved by extending the model to exploit both explicit and implicit feedback by the users. Past models were limited by the need to compute all pairwise similarities between items or users, which grow quadratically with input size. In particular, this limitation vastly complicates adopting user similarity models, due to the typical large number of users. Our new model solves these limitations by factoring the neighborhood model, thus making both item-item and user-user implementations scale linearly with the size of the data. The methods are tested on the Netflix data, with encouraging results."
+            },
+            "slug": "Factor-in-the-neighbors:-Scalable-and-accurate-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Factor in the neighbors: Scalable and accurate collaborative filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "A new neighborhood model with an improved prediction accuracy is introduced, which model neighborhood relations by minimizing a global cost function and makes both item-item and user-user implementations scale linearly with the size of the data."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TKDD"
+            },
+            "year": 2010
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2113591957"
+                        ],
+                        "name": "Robert M. Bell",
+                        "slug": "Robert-M.-Bell",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Bell",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Robert M. Bell"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 39,
+                                "start": 36
+                            }
+                        ],
+                        "text": "Here we follow the idea proposed in [1] to create implicit feedback from explicit ratings data by by considering \"whether\" a movie is rated by a user in addition to \"how\" a movie is rated by a user."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 92,
+                                "start": 89
+                            }
+                        ],
+                        "text": "The idea of complementing explicit feedback with implicit feedback was first proposed in [1], where the author consider explicit feedback as how the users rated the movies and implicit feedback as what movies are rated by the users."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 206784101,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "0c953e630cccd64d2ad5fbb09f08425e7f82b7a3",
+            "isKey": false,
+            "numCitedBy": 559,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems based on collaborative filtering predict user preferences for products or services by learning past user-item relationships. A predominant approach to collaborative filtering is neighborhood based (\"k-nearest neighbors\"), where a user-item preference rating is interpolated from ratings of similar items and/or users. We enhance the neighborhood-based approach leading to substantial improvement of prediction accuracy, without a meaningful increase in running time. First, we remove certain so-called \"global effects\" from the data to make the ratings more comparable, thereby improving interpolation accuracy. Second, we show how to simultaneously derive interpolation weights for all nearest neighbors, unlike previous approaches where each weight is computed separately. By globally solving a suitable optimization problem, this simultaneous interpolation accounts for the many interactions between neighbors leading to improved accuracy. Our method is very fast in practice, generating a prediction in about 0.2 milliseconds. Importantly, it does not require training many parameters or a lengthy preprocessing, making it very practical for large scale applications. Finally, we show how to apply these methods to the perceivably much slower user-oriented approach. To this end, we suggest a novel scheme for low dimensional embedding of the users. We evaluate these methods on the netflix dataset, where they deliver significantly better results than the commercial netflix cinematch recommender system."
+            },
+            "slug": "Scalable-Collaborative-Filtering-with-Jointly-Bell-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Scalable Collaborative Filtering with Jointly Derived Neighborhood Interpolation Weights"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work enhances the neighborhood-based approach leading to substantial improvement of prediction accuracy, without a meaningful increase in running time, and suggests a novel scheme for low dimensional embedding of the users."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Seventh IEEE International Conference on Data Mining (ICDM 2007)"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143936663"
+                        ],
+                        "name": "Thomas Hofmann",
+                        "slug": "Thomas-Hofmann",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Hofmann",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Thomas Hofmann"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 112,
+                                "start": 100
+                            }
+                        ],
+                        "text": "Such a rating oriented approach has been studied for collaborative filtering using explicit feedback[7, 5, 8, 2] and has recently been extended to cope with implicit feedback as well[6, 3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5260357,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "25353bc78453da76e43e199a925ab54457e18ca5",
+            "isKey": false,
+            "numCitedBy": 1458,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Collaborative filtering aims at learning predictive models of user preferences, interests or behavior from community data, that is, a database of available user preferences. In this article, we describe a new family of model-based algorithms designed for this task. These algorithms rely on a statistical modelling technique that introduces latent class variables in a mixture model setting to discover user communities and prototypical interest profiles. We investigate several variations to deal with discrete and continuous response variables as well as with different objective functions. The main advantages of this technique over standard memory-based methods are higher accuracy, constant time prediction, and an explicit and compact model representation. The latter can also be used to mine for user communitites. The experimental evaluation shows that substantial improvements in accucracy over existing methods and published results can be obtained."
+            },
+            "slug": "Latent-semantic-models-for-collaborative-filtering-Hofmann",
+            "title": {
+                "fragments": [],
+                "text": "Latent semantic models for collaborative filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A new family of model-based algorithms designed for collaborative filtering rely on a statistical modelling technique that introduces latent class variables in a mixture model setting to discover user communities and prototypical interest profiles."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TOIS"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066007146"
+                        ],
+                        "name": "Rong Pan",
+                        "slug": "Rong-Pan",
+                        "structuredName": {
+                            "firstName": "Rong",
+                            "lastName": "Pan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rong Pan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144362899"
+                        ],
+                        "name": "Martin Scholz",
+                        "slug": "Martin-Scholz",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Scholz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Martin Scholz"
+                    }
+                ]
+            ],
+            "badges": [],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 86,
+                                "start": 80
+                            }
+                        ],
+                        "text": "A similar squared error based loss for implicit feedback had also been proposed [6, 3] by approximating the two types of feedback -1 and +1 as numerical values:"
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 118,
+                                "start": 112
+                            }
+                        ],
+                        "text": "In addition to modeling ratings data, its effectiveness has also been demonstrated on implicit feedback datasets[6, 3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 188,
+                                "start": 182
+                            }
+                        ],
+                        "text": "Such a rating oriented approach has been studied for collaborative filtering using explicit feedback[7, 5, 8, 2] and has recently been extended to cope with implicit feedback as well[6, 3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 130,
+                                "start": 124
+                            }
+                        ],
+                        "text": "Without further information, it would be very hard to discern such ambiguities in implicit feedbacks and most existing works[3, 6] are based on the assumption that items for which yui = +1 are in general more relevant to the user than those items for which yui = \u22121."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14575731,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "de2a0b7ec920e94fcbdeb9ae1f6c7e92cd1e7470",
+            "isKey": true,
+            "numCitedBy": 155,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "One-Class Collaborative Filtering (OCCF) is a task that naturally emerges in recommender system settings. Typical characteristics include: Only positive examples can be observed, classes are highly imbalanced, and the vast majority of data points are missing. The idea of introducing weights for missing parts of a matrix has recently been shown to help in OCCF. While existing weighting approaches mitigate the first two problems above, a sparsity preserving solution that would allow to efficiently utilize data sets with e.g., hundred thousands of users and items has not yet been reported. In this paper, we study three different collaborative filtering frameworks: Low-rank matrix approximation, probabilistic latent semantic analysis, and maximum-margin matrix factorization. We propose two novel algorithms for large-scale OCCF that allow to weight the unknowns. Our experimental results demonstrate their effectiveness and efficiency on different problems, including the Netflix Prize data."
+            },
+            "slug": "Mind-the-gaps:-weighting-the-unknown-in-large-scale-Pan-Scholz",
+            "title": {
+                "fragments": [],
+                "text": "Mind the gaps: weighting the unknown in large-scale one-class collaborative filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "This paper proposes two novel algorithms for large-scale OCCF that allow to weight the unknowns: Low-rank matrix approximation, probabilistic latent semantic analysis, and maximum-margin matrix factorization."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118116274"
+                        ],
+                        "name": "Yunhong Zhou",
+                        "slug": "Yunhong-Zhou",
+                        "structuredName": {
+                            "firstName": "Yunhong",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yunhong Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "39856623"
+                        ],
+                        "name": "D. Wilkinson",
+                        "slug": "D.-Wilkinson",
+                        "structuredName": {
+                            "firstName": "Dennis",
+                            "lastName": "Wilkinson",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Wilkinson"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143986781"
+                        ],
+                        "name": "R. Schreiber",
+                        "slug": "R.-Schreiber",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Schreiber",
+                            "middleNames": [
+                                "S."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Schreiber"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066007146"
+                        ],
+                        "name": "Rong Pan",
+                        "slug": "Rong-Pan",
+                        "structuredName": {
+                            "firstName": "Rong",
+                            "lastName": "Pan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rong Pan"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 109,
+                                "start": 102
+                            }
+                        ],
+                        "text": "In this paper, we extend the alternating least squares (ALS) algorithm for factorizing a single matrix[10, 3] for learning the corating model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 91,
+                                "start": 87
+                            }
+                        ],
+                        "text": "The first baseline is the matrix factorization model(MF) designed for explicit feedback[10]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 8574004,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "4e8e3e40a25fba903f40246705c3beb3c122f523",
+            "isKey": false,
+            "numCitedBy": 780,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many recommendation systems suggest items to users by utilizing the techniques of collaborative filtering(CF) based on historical records of items that the users have viewed, purchased, or rated. Two major problems that most CF approaches have to contend with are scalability and sparseness of the user profiles. To tackle these issues, in this paper, we describe a CF algorithm alternating-least-squares with weighted-?-regularization(ALS-WR), which is implemented on a parallel Matlab platform. We show empirically that the performance of ALS-WR (in terms of root mean squared error(RMSE)) monotonically improves with both the number of features and the number of ALS iterations. We applied the ALS-WR algorithm on a large-scale CF problem, the Netflix Challenge, with 1000 hidden features and obtained a RMSE score of 0.8985, which is one of the best results based on a pure method. In addition, combining with the parallel version of other known methods, we achieved a performance improvement of 5.91% over Netflix's own CineMatch recommendation system. Our method is simple and scales well to very large datasets."
+            },
+            "slug": "Large-Scale-Parallel-Collaborative-Filtering-for-Zhou-Wilkinson",
+            "title": {
+                "fragments": [],
+                "text": "Large-Scale Parallel Collaborative Filtering for the Netflix Prize"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This paper describes a CF algorithm alternating-least-squares with weighted-?-regularization(ALS-WR), which is implemented on a parallel Matlab platform and shows empirically that the performance of ALS-WR monotonically improves with both the number of features and thenumber of ALS iterations."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AAIM"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "29746945"
+                        ],
+                        "name": "A. P. Singh",
+                        "slug": "A.-P.-Singh",
+                        "structuredName": {
+                            "firstName": "Ajit",
+                            "lastName": "Singh",
+                            "middleNames": [
+                                "Paul"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. P. Singh"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "21889436"
+                        ],
+                        "name": "Geoffrey J. Gordon",
+                        "slug": "Geoffrey-J.-Gordon",
+                        "structuredName": {
+                            "firstName": "Geoffrey",
+                            "lastName": "Gordon",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Geoffrey J. Gordon"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 112,
+                                "start": 109
+                            }
+                        ],
+                        "text": "The formulation (7) can be viewed as a special case of the more general collective matrix factorization model[9], that involves two relations about two entities."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 9683534,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "fec691d09b564986ad27162ce15344604c840ff9",
+            "isKey": false,
+            "numCitedBy": 1064,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Relational learning is concerned with predicting unknown values of a relation, given a database of entities and observed relations among entities. An example of relational learning is movie rating prediction, where entities could include users, movies, genres, and actors. Relations encode users' ratings of movies, movies' genres, and actors' roles in movies. A common prediction technique given one pairwise relation, for example a #users x #movies ratings matrix, is low-rank matrix factorization. In domains with multiple relations, represented as multiple matrices, we may improve predictive accuracy by exploiting information from one relation while predicting another. To this end, we propose a collective matrix factorization model: we simultaneously factor several matrices, sharing parameters among factors when an entity participates in multiple relations. Each relation can have a different value type and error distribution; so, we allow nonlinear relationships between the parameters and outputs, using Bregman divergences to measure error. We extend standard alternating projection algorithms to our model, and derive an efficient Newton update for the projection. Furthermore, we propose stochastic optimization methods to deal with large, sparse matrices. Our model generalizes several existing matrix factorization methods, and therefore yields new large-scale optimization algorithms for these problems. Our model can handle any pairwise relational schema and a wide variety of error models. We demonstrate its efficiency, as well as the benefit of sharing parameters among relations."
+            },
+            "slug": "Relational-learning-via-collective-matrix-Singh-Gordon",
+            "title": {
+                "fragments": [],
+                "text": "Relational learning via collective matrix factorization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This model generalizes several existing matrix factorization methods, and therefore yields new large-scale optimization algorithms for these problems, which can handle any pairwise relational schema and a wide variety of error models."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35211659"
+                        ],
+                        "name": "Jason D. M. Rennie",
+                        "slug": "Jason-D.-M.-Rennie",
+                        "structuredName": {
+                            "firstName": "Jason",
+                            "lastName": "Rennie",
+                            "middleNames": [
+                                "D.",
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jason D. M. Rennie"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706280"
+                        ],
+                        "name": "Nathan Srebro",
+                        "slug": "Nathan-Srebro",
+                        "structuredName": {
+                            "firstName": "Nathan",
+                            "lastName": "Srebro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nathan Srebro"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 124,
+                                "start": 121
+                            }
+                        ],
+                        "text": "Other forms of loss functions such as hinge loss that are more suitable for the ordinal ratings have also been considered[8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 112,
+                                "start": 100
+                            }
+                        ],
+                        "text": "Such a rating oriented approach has been studied for collaborative filtering using explicit feedback[7, 5, 8, 2] and has recently been extended to cope with implicit feedback as well[6, 3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 91,
+                                "start": 85
+                            }
+                        ],
+                        "text": "which is adopted by many matrix factorization based collaborative filtering algorithm[5, 8] due to its smooth differentiable property."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 503367,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6cd49dd5d26d1e8e33891f8e64ad3b5012e90ba6",
+            "isKey": false,
+            "numCitedBy": 1045,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Maximum Margin Matrix Factorization (MMMF) was recently suggested (Srebro et al., 2005) as a convex, infinite dimensional alternative to low-rank approximations and standard factor models. MMMF can be formulated as a semi-definite programming (SDP) and learned using standard SDP solvers. However, current SDP solvers can only handle MMMF problems on matrices of dimensionality up to a few hundred. Here, we investigate a direct gradient-based optimization method for MMMF and demonstrate it on large collaborative prediction problems. We compare against results obtained by Marlin (2004) and find that MMMF substantially outperforms all nine methods he tested."
+            },
+            "slug": "Fast-maximum-margin-matrix-factorization-for-Rennie-Srebro",
+            "title": {
+                "fragments": [],
+                "text": "Fast maximum margin matrix factorization for collaborative prediction"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "This work investigates a direct gradient-based optimization method for MMMF and finds that MMMf substantially outperforms all nine methods he tested and demonstrates it on large collaborative prediction problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2113591957"
+                        ],
+                        "name": "Robert M. Bell",
+                        "slug": "Robert-M.-Bell",
+                        "structuredName": {
+                            "firstName": "Robert",
+                            "lastName": "Bell",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Robert M. Bell"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3146362"
+                        ],
+                        "name": "C. Volinsky",
+                        "slug": "C.-Volinsky",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Volinsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Volinsky"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 38
+                            }
+                        ],
+                        "text": "In recent years, matrix factorization [5] models has gained popularity due to its widely publicized success on the Netflix Challenge."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 112,
+                                "start": 100
+                            }
+                        ],
+                        "text": "Such a rating oriented approach has been studied for collaborative filtering using explicit feedback[7, 5, 8, 2] and has recently been extended to cope with implicit feedback as well[6, 3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 91,
+                                "start": 85
+                            }
+                        ],
+                        "text": "which is adopted by many matrix factorization based collaborative filtering algorithm[5, 8] due to its smooth differentiable property."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 58370896,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "d4bbcc842f22547eaf5884251eaa68251895dccb",
+            "isKey": false,
+            "numCitedBy": 7016,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "As the Netflix Prize competition has demonstrated, matrix factorization models are superior to classic nearest neighbor techniques for producing product recommendations, allowing the incorporation of additional information such as implicit feedback, temporal effects, and confidence levels."
+            },
+            "slug": "Matrix-Factorization-Techniques-for-Recommender-Koren-Bell",
+            "title": {
+                "fragments": [],
+                "text": "Matrix Factorization Techniques for Recommender Systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "As the Netflix Prize competition has demonstrated, matrix factorization models are superior to classic nearest neighbor techniques for producing product recommendations, allowing the incorporation of additional information such as implicit feedback, temporal effects, and confidence levels."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Computer"
+            },
+            "year": 2009
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1766638"
+                        ],
+                        "name": "D. Pennock",
+                        "slug": "D.-Pennock",
+                        "structuredName": {
+                            "firstName": "David",
+                            "lastName": "Pennock",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "D. Pennock"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145479841"
+                        ],
+                        "name": "E. Horvitz",
+                        "slug": "E.-Horvitz",
+                        "structuredName": {
+                            "firstName": "Eric",
+                            "lastName": "Horvitz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "E. Horvitz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145840115"
+                        ],
+                        "name": "S. Lawrence",
+                        "slug": "S.-Lawrence",
+                        "structuredName": {
+                            "firstName": "Steve",
+                            "lastName": "Lawrence",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "S. Lawrence"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "145157784"
+                        ],
+                        "name": "C. Lee Giles",
+                        "slug": "C.-Lee-Giles",
+                        "structuredName": {
+                            "firstName": "C.",
+                            "lastName": "Giles",
+                            "middleNames": [
+                                "Lee"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Lee Giles"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 112,
+                                "start": 100
+                            }
+                        ],
+                        "text": "Such a rating oriented approach has been studied for collaborative filtering using explicit feedback[7, 5, 8, 2] and has recently been extended to cope with implicit feedback as well[6, 3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 47141157,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "48611c6021fdd76e8a908b650d92b9a2bd0006c8",
+            "isKey": false,
+            "numCitedBy": 621,
+            "numCiting": 42,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The growth of Internet commerce has stimulated the use of collaborative filtering (CF) algorithms as recommender systems. Such systems leverage knowledge about the known preferences of multiple users to recommend items of interest to other users. CF methods have been harnessed to make recommendations about such items as web pages, movies, books, and toys. Researchers have proposed and evaluated many approaches for generating recommendations. We describe and evaluate a new method called personality diagnosis (PD). Given a user's preferences for some items, we compute the probability that he or she is of the same \"personality type\" as other users, and, in turn, the probability that he or she will like new items. PD retains some of the advantages of traditional similarity-weighting techniques in that all data is brought to bear on each prediction and new data can be added easily and incrementally. Additionally, PD has a meaningful probabilistic interpretation, which may be leveraged to justify, explain, and augment results. We report empirical results on the EachMovie database of movie ratings, and on user profile data collected from the CiteSeer digital library of Computer Science research papers. The probabilistic framework naturally supports a variety of descriptive measurements--in particular, we consider the applicability of a value of information (VOI) computation."
+            },
+            "slug": "Collaborative-Filtering-by-Personality-Diagnosis:-A-Pennock-Horvitz",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative Filtering by Personality Diagnosis: A Hybrid Memory and Model-Based Approach"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "This work describes and evaluates a new method called personality diagnosis (PD), which compute the probability that a user is of the same \"personality type\" as other users, and, in turn, the likelihood that he or she will like new items."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "UAI"
+            },
+            "year": 2000
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 9,
+            "methodology": 3
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 10,
+        "totalPages": 1
+    },
+    "page_url": "https://www.semanticscholar.org/paper/Unifying-explicit-and-implicit-feedback-for-Liu-Xiang/1a87ce07fcf9245e3b86469dd74d421ef8117c1e?sort=total-citations"
+}

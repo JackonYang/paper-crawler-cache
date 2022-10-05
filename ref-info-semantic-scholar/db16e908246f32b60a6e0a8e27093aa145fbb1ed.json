@@ -1,0 +1,2164 @@
+{
+    "links": [
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50819900"
+                        ],
+                        "name": "Yifan Hu",
+                        "slug": "Yifan-Hu",
+                        "structuredName": {
+                            "firstName": "Yifan",
+                            "lastName": "Hu",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yifan Hu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3146362"
+                        ],
+                        "name": "C. Volinsky",
+                        "slug": "C.-Volinsky",
+                        "structuredName": {
+                            "firstName": "Chris",
+                            "lastName": "Volinsky",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Volinsky"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "UNPAYWALL"
+                },
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 109,
+                                "start": 104
+                            }
+                        ],
+                        "text": "In our evaluation, the matrix factorization models are learned by three different methods, i.e. SVD-MF, WR-MF [5, 10] and our BPR-MF."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 57,
+                                "start": 50
+                            }
+                        ],
+                        "text": "Machine learning approaches for item recommenders [5, 10] typically create the training data from S by giving pairs (u, i) \u2208 S a positive class label and all other combinations in (U \u00d7 I) \\ S a negative one (see Figure 1)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 126,
+                                "start": 121
+                            }
+                        ],
+                        "text": "For item prediction Hu et al. [5] and Pan et al. [10] propose a regularized least-square optimization with case weights (WR-MF)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 76,
+                                "start": 69
+                            }
+                        ],
+                        "text": "We have chosen the two diverse model classes of matrix factorization [5, 12] and learned k-nearest-neighbor [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[5] have presented a matrix factorization method for item prediction from implicit feedback."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 18
+                            }
+                        ],
+                        "text": "A strong point of WR-MF is that it can be learned in O(iter (|S| k2 +k3 (|I|+ |U"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 36
+                            }
+                        ],
+                        "text": "For example all MF methods (SVD-MF, WR-MF and BPR-MF) share exactly the same model, but their prediction quality differs a lot."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 163,
+                                "start": 156
+                            }
+                        ],
+                        "text": "Our BPR optimizations for matrix factorization BPR-MF and k-nearest neighbor BPR-kNN are compared against weighted regularized matrix factorization (WR-MF) [5, 10], singular value decomposition (SVD-MF), k-nearest neighbor (Cosine-kNN) [2] and the most-popular model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 152,
+                                "start": 147
+                            }
+                        ],
+                        "text": "For example on Netflix a MF model with 8 dimensions optimized by BPR-MF achieves comparable quality as a MF model with 128 dimensions optimized by WR-MF."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 23
+                            }
+                        ],
+                        "text": "But BPR-MF outperforms WR-MF clearly for\nOnline shopping: Rossmann\nVideo Rental: Netflix\nthe task of ranking on both datasets."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 5,
+                                "start": 0
+                            }
+                        ],
+                        "text": "WR-MF is a more successful learning method for the task of ranking."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 10537313,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "184b7281a87ee16228b24716ca02b29519d52eb5",
+            "isKey": true,
+            "numCitedBy": 2749,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "A common task of recommender systems is to improve customer experience through personalized recommendations based on prior implicit feedback. These systems passively track different sorts of user behavior, such as purchase history, watching habits and browsing activity, in order to model user preferences. Unlike the much more extensively researched explicit feedback, we do not have any direct input from the users regarding their preferences. In particular, we lack substantial evidence on which products consumer dislike. In this work we identify unique properties of implicit feedback datasets. We propose treating the data as indication of positive and negative preference associated with vastly varying confidence levels. This leads to a factor model which is especially tailored for implicit feedback recommenders. We also suggest a scalable optimization procedure, which scales linearly with the data size. The algorithm is used successfully within a recommender system for television shows. It compares favorably with well tuned implementations of other known methods. In addition, we offer a novel way to give explanations to recommendations given by this factor model."
+            },
+            "slug": "Collaborative-Filtering-for-Implicit-Feedback-Hu-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Collaborative Filtering for Implicit Feedback Datasets"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This work identifies unique properties of implicit feedback datasets and proposes treating the data as indication of positive and negative preference associated with vastly varying confidence levels, which leads to a factor model which is especially tailored for implicit feedback recommenders."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 Eighth IEEE International Conference on Data Mining"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2843982"
+                        ],
+                        "name": "Steffen Rendle",
+                        "slug": "Steffen-Rendle",
+                        "structuredName": {
+                            "firstName": "Steffen",
+                            "lastName": "Rendle",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Steffen Rendle"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388781075"
+                        ],
+                        "name": "L. Schmidt-Thieme",
+                        "slug": "L.-Schmidt-Thieme",
+                        "structuredName": {
+                            "firstName": "Lars",
+                            "lastName": "Schmidt-Thieme",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Schmidt-Thieme"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 77,
+                                "start": 73
+                            }
+                        ],
+                        "text": "Besides the dot product \u3008\u00b7, \u00b7\u3009 in general any kernel can be used like in [11]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 96,
+                                "start": 92
+                            }
+                        ],
+                        "text": "feedback events \u2013 has already been studied for MF for the related task of rating prediction [11]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5443538,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "bc431f385822efc00541b896cc83a0972e478e01",
+            "isKey": false,
+            "numCitedBy": 240,
+            "numCiting": 19,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Regularized matrix factorization models are known to generate high quality rating predictions for recommender systems. One of the major drawbacks of matrix factorization is that once computed, the model is static. For real-world applications dynamic updating a model is one of the most important tasks. Especially when ratings on new users or new items come in, updating the feature matrices is crucial.\n In this paper, we generalize regularized matrix factorization (RMF) to regularized kernel matrix factorization (RKMF). Kernels provide a flexible method for deriving new matrix factorization methods. Furthermore with kernels nonlinear interactions between feature vectors are possible. We propose a generic method for learning RKMF models. From this method we derive an online-update algorithm for RKMF models that allows to solve the new-user/new-item problem. Our evaluation indicates that our proposed online-update methods are accurate in approximating a full retrain of a RKMF model while the runtime of online-updating is in the range of milliseconds even for huge datasets like Netflix."
+            },
+            "slug": "Online-updating-regularized-kernel-matrix-models-Rendle-Schmidt-Thieme",
+            "title": {
+                "fragments": [],
+                "text": "Online-updating regularized kernel matrix factorization models for large-scale recommender systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 40,
+                "text": "The evaluation indicates that the proposed online-update methods are accurate in approximating a full retrain of a RKMF model while the runtime of online-updating is in the range of milliseconds even for huge datasets like Netflix."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "RecSys '08"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "47365458"
+                        ],
+                        "name": "Mukund Deshpande",
+                        "slug": "Mukund-Deshpande",
+                        "structuredName": {
+                            "firstName": "Mukund",
+                            "lastName": "Deshpande",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Mukund Deshpande"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50877490"
+                        ],
+                        "name": "G. Karypis",
+                        "slug": "G.-Karypis",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Karypis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Karypis"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 239,
+                                "start": 236
+                            }
+                        ],
+                        "text": "Our BPR optimizations for matrix factorization BPR-MF and k-nearest neighbor BPR-kNN are compared against weighted regularized matrix factorization (WR-MF) [5, 10], singular value decomposition (SVD-MF), k-nearest neighbor (Cosine-kNN) [2] and the most-popular model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 99
+                            }
+                        ],
+                        "text": "The most popular model for recommender systems is k-nearest neighbor (kNN) collaborative filtering [2]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 207650042,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "599ebeef9c9d92224bc5969f3e8e8c45bff3b072",
+            "isKey": false,
+            "numCitedBy": 2172,
+            "numCiting": 50,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "The explosive growth of the world-wide-web and the emergence of e-commerce has led to the development of recommender systems---a personalized information filtering technology used to identify a set of items that will be of interest to a certain user. User-based collaborative filtering is the most successful technology for building recommender systems to date and is extensively used in many commercial recommender systems. Unfortunately, the computational complexity of these methods grows linearly with the number of customers, which in typical commercial applications can be several millions. To address these scalability concerns model-based recommendation techniques have been developed. These techniques analyze the user--item matrix to discover relations between the different items and use these relations to compute the list of recommendations.In this article, we present one such class of model-based recommendation algorithms that first determines the similarities between the various items and then uses them to identify the set of items to be recommended. The key steps in this class of algorithms are (i) the method used to compute the similarity between the items, and (ii) the method used to combine these similarities in order to compute the similarity between a basket of items and a candidate recommender item. Our experimental evaluation on eight real datasets shows that these item-based algorithms are up to two orders of magnitude faster than the traditional user-neighborhood based recommender systems and provide recommendations with comparable or better quality."
+            },
+            "slug": "Item-based-top-N-recommendation-algorithms-Deshpande-Karypis",
+            "title": {
+                "fragments": [],
+                "text": "Item-based top-N recommendation algorithms"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This article presents one class of model-based recommendation algorithms that first determines the similarities between the various items and then uses them to identify the set of items to be recommended, and shows that these item-based algorithms are up to two orders of magnitude faster than the traditional user-neighborhood based recommender systems and provide recommendations with comparable or better quality."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TOIS"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1701121"
+                        ],
+                        "name": "Y. Koren",
+                        "slug": "Y.-Koren",
+                        "structuredName": {
+                            "firstName": "Yehuda",
+                            "lastName": "Koren",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Y. Koren"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 111,
+                                "start": 108
+                            }
+                        ],
+                        "text": "We have chosen the two diverse model classes of matrix factorization [5, 12] and learned k-nearest-neighbor [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 48,
+                                "start": 45
+                            }
+                        ],
+                        "text": "the Pearson correlation \u2013 but in recent work [8] the similarity matrix is treated as model parameters and is learned specifically for the task."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 207168823,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "cf6f83fcce274606bf0264c59d1c78a30c9c9d18",
+            "isKey": false,
+            "numCitedBy": 3612,
+            "numCiting": 29,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems provide users with personalized suggestions for products or services. These systems often rely on Collaborating Filtering (CF), where past transactions are analyzed in order to establish connections between users and products. The two more successful approaches to CF are latent factor models, which directly profile both users and products, and neighborhood models, which analyze similarities between products or users. In this work we introduce some innovations to both approaches. The factor and neighborhood models can now be smoothly merged, thereby building a more accurate combined model. Further accuracy improvements are achieved by extending the models to exploit both explicit and implicit feedback by the users. The methods are tested on the Netflix data. Results are better than those previously published on that dataset. In addition, we suggest a new evaluation metric, which highlights the differences among methods, based on their performance at a top-K recommendation task."
+            },
+            "slug": "Factorization-meets-the-neighborhood:-a-filtering-Koren",
+            "title": {
+                "fragments": [],
+                "text": "Factorization meets the neighborhood: a multifaceted collaborative filtering model"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 37,
+                "text": "The factor and neighborhood models can now be smoothly merged, thereby building a more accurate combined model and a new evaluation metric is suggested, which highlights the differences among methods, based on their performance at a top-K recommendation task."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "KDD"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1388781075"
+                        ],
+                        "name": "L. Schmidt-Thieme",
+                        "slug": "L.-Schmidt-Thieme",
+                        "structuredName": {
+                            "firstName": "Lars",
+                            "lastName": "Schmidt-Thieme",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Schmidt-Thieme"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 19,
+                                "start": 15
+                            }
+                        ],
+                        "text": "Schmidt-Thieme [14] converts the problem into a multi-class problem and solves it with a set of binary classifiers."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1007943,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "f0b324536167f13fdf9b10e08dfe73363f177405",
+            "isKey": false,
+            "numCitedBy": 23,
+            "numCiting": 24,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Recommender systems recommend products to customers based on ratings or past customer behavior. Without any information about attributes of the products or customers involved, the problem has been tackled most successfully by a nearest neighbor method called collaborative filtering in the context, while additional efforts invested in building classification models did not pay off and did not increase the quality. Therefore, classification methods have mainly been used in conjunction with product or customer attributes. Starting from a view on the plain recommendation task without attributes as a multi-class classification problem, we investigate two particularities, its autocorrelation structure as well as the absence of re-occurring items (repeat buying). We adapt the standard generic reductions 1-vs-rest and 1-vs-l of multi-class problems to a set of binary classification problems to these particularities and thereby provide a generic compound classifier for recommender systems. We evaluate a particular specialization thereof using linear support vector machines as member classifiers on MovieLens data and show that it outperforms state-of-the-art methods, i.e., item-based collaborative filtering."
+            },
+            "slug": "Compound-classification-models-for-recommender-Schmidt-Thieme",
+            "title": {
+                "fragments": [],
+                "text": "Compound classification models for recommender systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 43,
+                "text": "This work investigates two particularities of the plain recommendation task without attributes as a multi-class classification problem, its autocorrelation structure as well as the absence of re-occurring items (repeat buying), and adapt the standard generic reductions 1-vs-rest and 1- vs-l of multi- class problems to a set of binary classification problems to provide a generic compound classifier for recommender systems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Fifth IEEE International Conference on Data Mining (ICDM'05)"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2066007146"
+                        ],
+                        "name": "Rong Pan",
+                        "slug": "Rong-Pan",
+                        "structuredName": {
+                            "firstName": "Rong",
+                            "lastName": "Pan",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Rong Pan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2118116274"
+                        ],
+                        "name": "Yunhong Zhou",
+                        "slug": "Yunhong-Zhou",
+                        "structuredName": {
+                            "firstName": "Yunhong",
+                            "lastName": "Zhou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Yunhong Zhou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144948990"
+                        ],
+                        "name": "Bin Cao",
+                        "slug": "Bin-Cao",
+                        "structuredName": {
+                            "firstName": "Bin",
+                            "lastName": "Cao",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bin Cao"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1768416"
+                        ],
+                        "name": "N. Liu",
+                        "slug": "N.-Liu",
+                        "structuredName": {
+                            "firstName": "Nathan",
+                            "lastName": "Liu",
+                            "middleNames": [
+                                "Nan"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "N. Liu"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1777845"
+                        ],
+                        "name": "R. Lukose",
+                        "slug": "R.-Lukose",
+                        "structuredName": {
+                            "firstName": "Rajan",
+                            "lastName": "Lukose",
+                            "middleNames": [
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Lukose"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "144362899"
+                        ],
+                        "name": "Martin Scholz",
+                        "slug": "Martin-Scholz",
+                        "structuredName": {
+                            "firstName": "Martin",
+                            "lastName": "Scholz",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Martin Scholz"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "152290618"
+                        ],
+                        "name": "Qiang Yang",
+                        "slug": "Qiang-Yang",
+                        "structuredName": {
+                            "firstName": "Qiang",
+                            "lastName": "Yang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Qiang Yang"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 109,
+                                "start": 104
+                            }
+                        ],
+                        "text": "In our evaluation, the matrix factorization models are learned by three different methods, i.e. SVD-MF, WR-MF [5, 10] and our BPR-MF."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 57,
+                                "start": 50
+                            }
+                        ],
+                        "text": "Machine learning approaches for item recommenders [5, 10] typically create the training data from S by giving pairs (u, i) \u2208 S a positive class label and all other combinations in (U \u00d7 I) \\ S a negative one (see Figure 1)."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[10] propose a regularized least-square optimization with case weights (WR-MF)."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 126,
+                                "start": 121
+                            }
+                        ],
+                        "text": "For item prediction Hu et al. [5] and Pan et al. [10] propose a regularized least-square optimization with case weights (WR-MF)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 23,
+                                "start": 18
+                            }
+                        ],
+                        "text": "A strong point of WR-MF is that it can be learned in O(iter (|S| k2 +k3 (|I|+ |U"
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 41,
+                                "start": 36
+                            }
+                        ],
+                        "text": "For example all MF methods (SVD-MF, WR-MF and BPR-MF) share exactly the same model, but their prediction quality differs a lot."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 163,
+                                "start": 156
+                            }
+                        ],
+                        "text": "Our BPR optimizations for matrix factorization BPR-MF and k-nearest neighbor BPR-kNN are compared against weighted regularized matrix factorization (WR-MF) [5, 10], singular value decomposition (SVD-MF), k-nearest neighbor (Cosine-kNN) [2] and the most-popular model."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 152,
+                                "start": 147
+                            }
+                        ],
+                        "text": "For example on Netflix a MF model with 8 dimensions optimized by BPR-MF achieves comparable quality as a MF model with 128 dimensions optimized by WR-MF."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[10] as well as maximum margin matrix factorization [15] can be found in Section 5."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 28,
+                                "start": 23
+                            }
+                        ],
+                        "text": "But BPR-MF outperforms WR-MF clearly for\nOnline shopping: Rossmann\nVideo Rental: Netflix\nthe task of ranking on both datasets."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 5,
+                                "start": 0
+                            }
+                        ],
+                        "text": "WR-MF is a more successful learning method for the task of ranking."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 7369746,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "109de4531e279681919f7330f01b532a7201e4b9",
+            "isKey": true,
+            "numCitedBy": 935,
+            "numCiting": 39,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Many applications of collaborative filtering (CF), such as news item recommendation and bookmark recommendation, are most naturally thought of as one-class collaborative filtering (OCCF) problems. In these problems, the training data usually consist simply of binary data reflecting a user's action or inaction, such as page visitation in the case of news item recommendation or webpage bookmarking in the bookmarking scenario. Usually this kind of data are extremely sparse (a small fraction are positive examples), therefore ambiguity arises in the interpretation of the non-positive examples. Negative examples and unlabeled positive examples are mixed together and we are typically unable to distinguish them. For example, we cannot really attribute a user not bookmarking a page to a lack of interest or lack of awareness of the page. Previous research addressing this one-class problem only considered it as a classification task. In this paper, we consider the one-class problem under the CF setting. We propose two frameworks to tackle OCCF. One is based on weighted low rank approximation; the other is based on negative example sampling. The experimental results show that our approaches significantly outperform the baselines."
+            },
+            "slug": "One-Class-Collaborative-Filtering-Pan-Zhou",
+            "title": {
+                "fragments": [],
+                "text": "One-Class Collaborative Filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 39,
+                "text": "This paper considers the one-class problem under the CF setting, and proposes two frameworks to tackle OCCF, one based on weighted low rank approximation; the other based on negative example sampling."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "2008 Eighth IEEE International Conference on Data Mining"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "32646084"
+                        ],
+                        "name": "B. Sarwar",
+                        "slug": "B.-Sarwar",
+                        "structuredName": {
+                            "firstName": "Badrul",
+                            "lastName": "Sarwar",
+                            "middleNames": [
+                                "Munir"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "B. Sarwar"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "50877490"
+                        ],
+                        "name": "G. Karypis",
+                        "slug": "G.-Karypis",
+                        "structuredName": {
+                            "firstName": "George",
+                            "lastName": "Karypis",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "G. Karypis"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2478310"
+                        ],
+                        "name": "J. Konstan",
+                        "slug": "J.-Konstan",
+                        "structuredName": {
+                            "firstName": "Joseph",
+                            "lastName": "Konstan",
+                            "middleNames": [
+                                "A."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Konstan"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2579342"
+                        ],
+                        "name": "J. Riedl",
+                        "slug": "J.-Riedl",
+                        "structuredName": {
+                            "firstName": "John",
+                            "lastName": "Riedl",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "J. Riedl"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 18,
+                                "start": 14
+                            }
+                        ],
+                        "text": "In early work [13] singular value decomposition (SVD) has been proposed to learn the feature matrices."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 1058329,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "02ff37cd0059cf1af1ecfa62c32304c05ab3bf96",
+            "isKey": false,
+            "numCitedBy": 297,
+            "numCiting": 12,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We investigate the use of dimensionality reduction to improve the performance for a new class of data analysis software called \u201crecommender systems\u201d. Recommender systems apply knowledge discovery techniques to the problem of making personalized product recommendations during a live customer interaction. The tremendous growth of customers and products in recent years poses some key challenges for recommender systems. These are: producing high quality recommendations and performing many recommendations per second for millions of customers and products. Singular Value Decomposition(SVD)-based recommendation algorithms can quickly produce high quality recommendations, but has to undergo very expensive matrix factorization steps. In this paper, we propose and experimentally validate a technique that has the potential to incrementally build SVD-based models and promises to make the recommender systems highly scalable."
+            },
+            "slug": "Incremental-Singular-Value-Decomposition-Algorithms-Sarwar-Karypis",
+            "title": {
+                "fragments": [],
+                "text": "Incremental Singular Value Decomposition Algorithms for Highly Scalable Recommender Systems"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "This paper proposes and experimentally validate a technique that has the potential to incrementally build SVD-based models and promises to make the recommender systems highly scalable."
+            },
+            "venue": {
+                "fragments": [],
+                "text": ""
+            },
+            "year": 2002
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "143936663"
+                        ],
+                        "name": "Thomas Hofmann",
+                        "slug": "Thomas-Hofmann",
+                        "structuredName": {
+                            "firstName": "Thomas",
+                            "lastName": "Hofmann",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Thomas Hofmann"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 107,
+                                "start": 104
+                            }
+                        ],
+                        "text": "MF models are known to outperform [12] many other models including the Bayesian models URP [9] and PLSA [4] for the related task of collaborative rating prediction."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 11,
+                                "start": 8
+                            }
+                        ],
+                        "text": "Hofmann [4] proposes a probabilistic latent semantic model for item recommendation."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 5260357,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "25353bc78453da76e43e199a925ab54457e18ca5",
+            "isKey": false,
+            "numCitedBy": 1458,
+            "numCiting": 30,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Collaborative filtering aims at learning predictive models of user preferences, interests or behavior from community data, that is, a database of available user preferences. In this article, we describe a new family of model-based algorithms designed for this task. These algorithms rely on a statistical modelling technique that introduces latent class variables in a mixture model setting to discover user communities and prototypical interest profiles. We investigate several variations to deal with discrete and continuous response variables as well as with different objective functions. The main advantages of this technique over standard memory-based methods are higher accuracy, constant time prediction, and an explicit and compact model representation. The latter can also be used to mine for user communitites. The experimental evaluation shows that substantial improvements in accucracy over existing methods and published results can be obtained."
+            },
+            "slug": "Latent-semantic-models-for-collaborative-filtering-Hofmann",
+            "title": {
+                "fragments": [],
+                "text": "Latent semantic models for collaborative filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A new family of model-based algorithms designed for collaborative filtering rely on a statistical modelling technique that introduces latent class variables in a mixture model setting to discover user communities and prototypical interest profiles."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "TOIS"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2965406"
+                        ],
+                        "name": "Markus Weimer",
+                        "slug": "Markus-Weimer",
+                        "structuredName": {
+                            "firstName": "Markus",
+                            "lastName": "Weimer",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Markus Weimer"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1713164"
+                        ],
+                        "name": "Alexandros Karatzoglou",
+                        "slug": "Alexandros-Karatzoglou",
+                        "structuredName": {
+                            "firstName": "Alexandros",
+                            "lastName": "Karatzoglou",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alexandros Karatzoglou"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "46234526"
+                        ],
+                        "name": "Alex Smola",
+                        "slug": "Alex-Smola",
+                        "structuredName": {
+                            "firstName": "Alex",
+                            "lastName": "Smola",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Alex Smola"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 4,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[15] use the maximum margin matrix factorization method (MMMF) for ordinal ranking."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 56,
+                                "start": 52
+                            }
+                        ],
+                        "text": "[10] as well as maximum margin matrix factorization [15] can be found in Section 5."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 2406567,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "c8051eb6d177a470158400c36e0ddf57f87d9b90",
+            "isKey": false,
+            "numCitedBy": 144,
+            "numCiting": 20,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Collaborative filtering is a popular method for personalizing product recommendations. Maximum Margin Matrix Factorization (MMMF) has been proposed as one successful learning approach to this task and has been recently extended to structured ranking losses. In this paper we discuss a number of extensions to MMMF by introducing offset terms, item dependent regularization and a graph kernel on the recommender graph. We show equivalence between graph kernels and the recent MMMF extensions by Mnih and Salakhutdinov (Advances in Neural Information Processing Systems\u00a020, 2008). Experimental evaluation of the introduced extensions show improved performance over the original MMMF formulation."
+            },
+            "slug": "Improving-maximum-margin-matrix-factorization-Weimer-Karatzoglou",
+            "title": {
+                "fragments": [],
+                "text": "Improving maximum margin matrix factorization"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 41,
+                "text": "A number of extensions to MMMF by introducing offset terms, item dependent regularization and a graph kernel on the recommender graph are discussed, showing equivalence between graph kernels and the recent MMMf extensions by Mnih and Salakhutdinov."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "Machine Learning"
+            },
+            "year": 2008
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1805742"
+                        ],
+                        "name": "Benjamin M Marlin",
+                        "slug": "Benjamin-M-Marlin",
+                        "structuredName": {
+                            "firstName": "Benjamin",
+                            "lastName": "Marlin",
+                            "middleNames": [
+                                "M"
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Benjamin M Marlin"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 94,
+                                "start": 91
+                            }
+                        ],
+                        "text": "MF models are known to outperform [12] many other models including the Bayesian models URP [9] and PLSA [4] for the related task of collaborative rating prediction."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 381243,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "992c958fe0f4bd148b6f4304e1b5e458b8575cb1",
+            "isKey": false,
+            "numCitedBy": 343,
+            "numCiting": 8,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "In this paper we present a generative latent variable model for rating-based collaborative filtering called the User Rating Profile model (URP). The generative process which underlies URP is designed to produce complete user rating profiles, an assignment of one rating to each item for each user. Our model represents each user as a mixture of user attitudes, and the mixing proportions are distributed according to a Dirichlet random variable. The rating for each item is generated by selecting a user attitude for the item, and then selecting a rating according to the preference pattern associated with that attitude. URP is related to several models including a multinomial mixture model, the aspect model [7], and LDA [1], but has clear advantages over each."
+            },
+            "slug": "Modeling-User-Rating-Profiles-For-Collaborative-Marlin",
+            "title": {
+                "fragments": [],
+                "text": "Modeling User Rating Profiles For Collaborative Filtering"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 66,
+                "text": "A generative latent variable model for rating-based collaborative filtering called the User Rating Profile model (URP), which represents each user as a mixture of user attitudes, and the mixing proportions are distributed according to a Dirichlet random variable."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2003
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "35211659"
+                        ],
+                        "name": "Jason D. M. Rennie",
+                        "slug": "Jason-D.-M.-Rennie",
+                        "structuredName": {
+                            "firstName": "Jason",
+                            "lastName": "Rennie",
+                            "middleNames": [
+                                "D.",
+                                "M."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jason D. M. Rennie"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1706280"
+                        ],
+                        "name": "Nathan Srebro",
+                        "slug": "Nathan-Srebro",
+                        "structuredName": {
+                            "firstName": "Nathan",
+                            "lastName": "Srebro",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nathan Srebro"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 76,
+                                "start": 69
+                            }
+                        ],
+                        "text": "We have chosen the two diverse model classes of matrix factorization [5, 12] and learned k-nearest-neighbor [8]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 38,
+                                "start": 34
+                            }
+                        ],
+                        "text": "MF models are known to outperform [12] many other models including the Bayesian models URP [9] and PLSA [4] for the related task of collaborative rating prediction."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 503367,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "6cd49dd5d26d1e8e33891f8e64ad3b5012e90ba6",
+            "isKey": false,
+            "numCitedBy": 1045,
+            "numCiting": 16,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Maximum Margin Matrix Factorization (MMMF) was recently suggested (Srebro et al., 2005) as a convex, infinite dimensional alternative to low-rank approximations and standard factor models. MMMF can be formulated as a semi-definite programming (SDP) and learned using standard SDP solvers. However, current SDP solvers can only handle MMMF problems on matrices of dimensionality up to a few hundred. Here, we investigate a direct gradient-based optimization method for MMMF and demonstrate it on large collaborative prediction problems. We compare against results obtained by Marlin (2004) and find that MMMF substantially outperforms all nine methods he tested."
+            },
+            "slug": "Fast-maximum-margin-matrix-factorization-for-Rennie-Srebro",
+            "title": {
+                "fragments": [],
+                "text": "Fast maximum margin matrix factorization for collaborative prediction"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 38,
+                "text": "This work investigates a direct gradient-based optimization method for MMMF and finds that MMMf substantially outperforms all nine methods he tested and demonstrates it on large collaborative prediction problems."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2676309"
+                        ],
+                        "name": "C. Burges",
+                        "slug": "C.-Burges",
+                        "structuredName": {
+                            "firstName": "Christopher",
+                            "lastName": "Burges",
+                            "middleNames": [
+                                "J.",
+                                "C."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "C. Burges"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "3296031"
+                        ],
+                        "name": "Tal Shaked",
+                        "slug": "Tal-Shaked",
+                        "structuredName": {
+                            "firstName": "Tal",
+                            "lastName": "Shaked",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Tal Shaked"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1859813"
+                        ],
+                        "name": "Erin Renshaw",
+                        "slug": "Erin-Renshaw",
+                        "structuredName": {
+                            "firstName": "Erin",
+                            "lastName": "Renshaw",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Erin Renshaw"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2078999999"
+                        ],
+                        "name": "Ari Lazier",
+                        "slug": "Ari-Lazier",
+                        "structuredName": {
+                            "firstName": "Ari",
+                            "lastName": "Lazier",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Ari Lazier"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1398663319"
+                        ],
+                        "name": "Matt Deeds",
+                        "slug": "Matt-Deeds",
+                        "structuredName": {
+                            "firstName": "Matt",
+                            "lastName": "Deeds",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Matt Deeds"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2067005422"
+                        ],
+                        "name": "Nicole Hamilton",
+                        "slug": "Nicole-Hamilton",
+                        "structuredName": {
+                            "firstName": "Nicole",
+                            "lastName": "Hamilton",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Nicole Hamilton"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1398663291"
+                        ],
+                        "name": "Greg Hullender",
+                        "slug": "Greg-Hullender",
+                        "structuredName": {
+                            "firstName": "Greg",
+                            "lastName": "Hullender",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Greg Hullender"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 3,
+                                "start": 0
+                            }
+                        ],
+                        "text": "[1] optimize a neural network model for ranking using gradient descent."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 11168734,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "63aaf12163fe9735dfe9a69114937c4fa34f303a",
+            "isKey": false,
+            "numCitedBy": 2546,
+            "numCiting": 22,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We investigate using gradient descent methods for learning ranking functions; we propose a simple probabilistic cost function, and we introduce RankNet, an implementation of these ideas using a neural network to model the underlying ranking function. We present test results on toy data and on data from a commercial internet search engine."
+            },
+            "slug": "Learning-to-rank-using-gradient-descent-Burges-Shaked",
+            "title": {
+                "fragments": [],
+                "text": "Learning to rank using gradient descent"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 45,
+                "text": "RankNet is introduced, an implementation of these ideas using a neural network to model the underlying ranking function, and test results on toy data and on data from a commercial internet search engine are presented."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2005
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2124972354"
+                        ],
+                        "name": "Jonathan Huang",
+                        "slug": "Jonathan-Huang",
+                        "structuredName": {
+                            "firstName": "Jonathan",
+                            "lastName": "Huang",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Jonathan Huang"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1730156"
+                        ],
+                        "name": "Carlos Guestrin",
+                        "slug": "Carlos-Guestrin",
+                        "structuredName": {
+                            "firstName": "Carlos",
+                            "lastName": "Guestrin",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Carlos Guestrin"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1744254"
+                        ],
+                        "name": "L. Guibas",
+                        "slug": "L.-Guibas",
+                        "structuredName": {
+                            "firstName": "Leonidas",
+                            "lastName": "Guibas",
+                            "middleNames": [
+                                "J."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "L. Guibas"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 62,
+                                "start": 56
+                            }
+                        ],
+                        "text": "One direction is to model distributions on permutations [7, 6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 6110355,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "04daa345b610b4998c480c8ad6a87dbfc443ebf6",
+            "isKey": false,
+            "numCitedBy": 40,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "Permutations are ubiquitous in many real world problems, such as voting, rankings and data association. Representing uncertainty over permutations is challenging, since there are n! possibilities, and typical compact representations such as graphical models cannot efficiently capture the mutual exclusivity constraints associated with permutations. In this paper, we use the \"low-frequency\" terms of a Fourier decomposition to represent such distributions compactly. We present Kronecker conditioning, a general and efficient approach for maintaining these distributions directly in the Fourier domain. Low order Fourier-based approximations can lead to functions that do not correspond to valid distributions. To address this problem, we present an efficient quadratic program defined directly in the Fourier domain to project the approximation onto a relaxed form of the marginal polytope. We demonstrate the effectiveness of our approach on a real camera-based multi-people tracking setting."
+            },
+            "slug": "Efficient-Inference-for-Distributions-on-Huang-Guestrin",
+            "title": {
+                "fragments": [],
+                "text": "Efficient Inference for Distributions on Permutations"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 42,
+                "text": "This paper uses the \"low-frequency\" terms of a Fourier decomposition to represent permutations compactly, and presents Kronecker conditioning, a general and efficient approach for maintaining these distributions directly in the Fourier domain."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "NIPS"
+            },
+            "year": 2007
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2284699"
+                        ],
+                        "name": "A. Herschtal",
+                        "slug": "A.-Herschtal",
+                        "structuredName": {
+                            "firstName": "Alan",
+                            "lastName": "Herschtal",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "A. Herschtal"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1693373"
+                        ],
+                        "name": "Bhavani Raskutti",
+                        "slug": "Bhavani-Raskutti",
+                        "structuredName": {
+                            "firstName": "Bhavani",
+                            "lastName": "Raskutti",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Bhavani Raskutti"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 7,
+                                "start": 4
+                            }
+                        ],
+                        "text": "The AUC per user is\nusually defined as:\nAUC(u) := 1 |I+u | |I \\ I+u | \u2211 i\u2208I+u \u2211 j\u2208|I\\I+u | \u03b4(x\u0302uij > 0)\nHence the average AUC is:\nAUC := 1 |U | \u2211 u\u2208U AUC(u)\nWith our notation of DS this can be written as: AUC(u) = \u2211\n(u,i,j)\u2208DS\nzu \u03b4(x\u0302uij > 0) (1)\nwhere zu is the normalizing constant:\nzu = 1\n|U | |I+u | |I \\ I+u |\nThe analogy between (1) and BPR-Opt is obvious."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 15,
+                                "start": 12
+                            }
+                        ],
+                        "text": "The trivial AUC of a random guess method is 0.5 and the best achievable quality is 1."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 7,
+                                "start": 4
+                            }
+                        ],
+                        "text": "The AUC uses the non-differentiable loss \u03b4(x > 0) which is identical to the Heaviside function:\n\u03b4(x > 0) = H(x) := { 1, x > 0 0, else\nInstead we use the differentiable loss ln\u03c3(x)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 128,
+                                "start": 125
+                            }
+                        ],
+                        "text": "With this formulation of the Bayesian Personalized Ranking (BPR) scheme, it is now easy to grasp the analogy between BPR and AUC."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 102,
+                                "start": 99
+                            }
+                        ],
+                        "text": "It is common practice to replace the non-differentiable Heaviside function when optimizing for AUC [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 22,
+                                "start": 19
+                            }
+                        ],
+                        "text": "Figure 6 shows the AUC quality of all models on the two datasets."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 27,
+                                "start": 24
+                            }
+                        ],
+                        "text": "Finally, we compare the AUC quality of our personalized ranking methods to the best possible nonpersonalized ranking method."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 55,
+                                "start": 52
+                            }
+                        ],
+                        "text": "Furthermore, we give the theoretical upper bound on AUC (npmax) for any nonpersonalized ranking method."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 89,
+                                "start": 86
+                            }
+                        ],
+                        "text": "In Section 4.1.1, we will also discuss the relations of our optimization criterion to AUC optimization like in [3]."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 148,
+                                "start": 145
+                            }
+                        ],
+                        "text": "Our results show that the prediction quality does not only depend on the model but also largely on the optimization crite-\nin our experiments both AUC scores are quite similar, e.g. on Netflix with most-popular on test 0.8794 vs. our upper bound of 0.8801.\nrion."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 80,
+                                "start": 77
+                            }
+                        ],
+                        "text": "Figure 6 shows\n2We computed a real upper-bound but non-tight estimate on the AUC score."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 50,
+                                "start": 47
+                            }
+                        ],
+                        "text": "We show the analogies to the ranking statistic AUC (area under the ROC curve)."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 77,
+                                "start": 74
+                            }
+                        ],
+                        "text": "Please note that ranking by most-popular on test is not an upper bound on AUC."
+                    },
+                    "intents": []
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 99,
+                                "start": 96
+                            }
+                        ],
+                        "text": "1, we will also discuss the relations of our optimization criterion to AUC optimization like in [3]."
+                    },
+                    "intents": [
+                        {
+                            "id": "methodology"
+                        }
+                    ]
+                },
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 132,
+                                "start": 129
+                            }
+                        ],
+                        "text": "The models are then learned on Strain and their predicted personalized ranking is evaluated on the test set Stest by the average AUC statistic:\nAUC = 1 |U | \u2211 u 1 |E(u)| \u2211 (i,j)\u2208E(u) \u03b4(x\u0302ui > x\u0302uj) (2)\nwhere the evaluation pairs per user u are:\nE(u) := {(i, j)|(u, i) \u2208 Stest \u2227 (u, j) 6\u2208 (Stest \u222a Strain)}\nA higher value of the AUC indicates a better quality."
+                    },
+                    "intents": []
+                }
+            ],
+            "corpusId": 8571129,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "id": "588f23c7f9c8c85e05d575c81f1d7dbda3b026ca",
+            "isKey": true,
+            "numCitedBy": 214,
+            "numCiting": 23,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "This paper introduces RankOpt, a linear binary classifier which optimises the area under the ROC curve (the AUC). Unlike standard binary classifiers, RankOpt adopts the AUC statistic as its objective function, and optimises it directly using gradient descent. The problems with using the AUC statistic as an objective function are that it is non-differentiable, and of complexity O(n2) in the number of data observations. RankOpt uses a differentiable approximation to the AUC which is accurate, and computationally efficient, being of complexity O(n.) This enables the gradient descent to be performed in reasonable time. The performance of RankOpt is compared with a number of other linear binary classifiers, over a number of different classification problems. In almost all cases it is found that the performance of RankOpt is significantly better than the other classifiers tested."
+            },
+            "slug": "Optimising-area-under-the-ROC-curve-using-gradient-Herschtal-Raskutti",
+            "title": {
+                "fragments": [],
+                "text": "Optimising area under the ROC curve using gradient descent"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 100,
+                "text": "This paper introduces RankOpt, a linear binary classifier which optimises the area under the ROC curve (the AUC)."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "ICML"
+            },
+            "year": 2004
+        },
+        {
+            "authors": [
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2834541"
+                        ],
+                        "name": "R. Kondor",
+                        "slug": "R.-Kondor",
+                        "structuredName": {
+                            "firstName": "Risi",
+                            "lastName": "Kondor",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "R. Kondor"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "2068068778"
+                        ],
+                        "name": "Andrew G. Howard",
+                        "slug": "Andrew-G.-Howard",
+                        "structuredName": {
+                            "firstName": "Andrew",
+                            "lastName": "Howard",
+                            "middleNames": [
+                                "G."
+                            ]
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "Andrew G. Howard"
+                    }
+                ],
+                [
+                    {
+                        "bitmap$0": false,
+                        "ids": [
+                            "1768120"
+                        ],
+                        "name": "T. Jebara",
+                        "slug": "T.-Jebara",
+                        "structuredName": {
+                            "firstName": "Tony",
+                            "lastName": "Jebara",
+                            "middleNames": []
+                        }
+                    },
+                    {
+                        "fragments": [],
+                        "text": "T. Jebara"
+                    }
+                ]
+            ],
+            "badges": [
+                {
+                    "id": "OPEN_ACCESS"
+                }
+            ],
+            "citationContexts": [
+                {
+                    "context": {
+                        "fragments": [
+                            {
+                                "end": 62,
+                                "start": 56
+                            }
+                        ],
+                        "text": "One direction is to model distributions on permutations [7, 6]."
+                    },
+                    "intents": [
+                        {
+                            "id": "background"
+                        }
+                    ]
+                }
+            ],
+            "corpusId": 14422611,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Mathematics"
+            ],
+            "id": "c8718170ffd2f76256ad640a9f8fb63cf6557e14",
+            "isKey": false,
+            "numCitedBy": 105,
+            "numCiting": 17,
+            "paperAbstract": {
+                "fragments": [],
+                "text": "We present an efficient algorithm for approximately maintaining and updating a distribution over permutations matching tracks to real world objects. The algorithm hinges on two insights from the theory of harmonic analysis on noncommutative groups. The first is that most of the information in the distribution over permutations is captured by certain \u201clow frequency\u201d Fourier components. The second is that Bayesian updates of these components can be efficiently realized by extensions of Clausen\u2019s FFT for the symmetric group."
+            },
+            "slug": "Multi-object-tracking-with-representations-of-the-Kondor-Howard",
+            "title": {
+                "fragments": [],
+                "text": "Multi-object tracking with representations of the symmetric group"
+            },
+            "tldr": {
+                "abstractSimilarityScore": 87,
+                "text": "An efficient algorithm for approximately maintaining and updating a distribution over permutations matching tracks to real world objects based on two insights from the theory of harmonic analysis on noncommutative groups."
+            },
+            "venue": {
+                "fragments": [],
+                "text": "AISTATS"
+            },
+            "year": 2007
+        }
+    ],
+    "meta_info": {
+        "citationIntent": "all",
+        "citationIntentCount": {
+            "background": 10,
+            "methodology": 10
+        },
+        "citationType": "citedPapers",
+        "pageNumber": 1,
+        "requestedPageSize": 10,
+        "sort": "relevance",
+        "totalCitations": 15,
+        "totalPages": 2
+    },
+    "page_url": "https://www.semanticscholar.org/paper/BPR:-Bayesian-Personalized-Ranking-from-Implicit-Rendle-Freudenthaler/db16e908246f32b60a6e0a8e27093aa145fbb1ed?sort=total-citations"
+}
